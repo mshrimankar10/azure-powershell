@@ -20,6 +20,7 @@
 
 -->
 ## Upcoming Release
+* Added `-DiskIOPSReadWrite` and `-DiskMBpsReadWrite` parameters to `Add-AzVMDataDisk` cmdlet
 * Added `-Tag` and `-Location` parameters to `New-AzSshKey` cmdlet
 * Added `-Tag` parameter to `Update-AzSshKey` cmdlet
 * Added support for Disk Availability Policy
