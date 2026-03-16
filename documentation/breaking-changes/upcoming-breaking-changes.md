@@ -860,7 +860,7 @@ Preview modules are not included in this list. Read more about [module version t
     - This change will take effect on '11/3/2025'- The change is expected to take effect from Az version : '15.0.0'
     - The change is expected to take effect in 'Az.Resources' from version : '9.0.0'
 
-- Parameter breaking-change will happen to parameter set `UpdateAzRoleManagementPolicy_UpdateViaIdentityExpanded`
+- Parameter breaking-change will happen to parameter set `UpdateAzRoleManagementPolicy_UpdateExpanded`
 
 ## Az.SecurityInsights
 
