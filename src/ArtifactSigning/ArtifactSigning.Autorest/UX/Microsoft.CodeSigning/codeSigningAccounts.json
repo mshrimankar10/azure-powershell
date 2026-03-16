@@ -7,7 +7,7 @@
   "commands": [
     {
       "name": "Get-AzArtifactSigningAccount",
-      "description": "Get an Artifact Signing Account.",
+      "description": "Get an artifact Signing Account.",
       "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CodeSigning/codeSigningAccounts/{accountName}",
       "help": {
         "learnMore": {
@@ -25,7 +25,7 @@
       },
       "examples": [
         {
-          "description": "Get an Artifact Signing Account.",
+          "description": "Get an artifact Signing Account.",
           "parameters": [
             {
               "name": "-AccountName",
@@ -45,7 +45,7 @@
     },
     {
       "name": "Remove-AzArtifactSigningAccount",
-      "description": "Delete an Artifact Signing account.",
+      "description": "Delete an artifact signing account.",
       "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CodeSigning/codeSigningAccounts/{accountName}",
       "help": {
         "learnMore": {
@@ -63,7 +63,7 @@
       },
       "examples": [
         {
-          "description": "Delete an Artifact Signing account.",
+          "description": "Delete an artifact signing account.",
           "parameters": [
             {
               "name": "-AccountName",

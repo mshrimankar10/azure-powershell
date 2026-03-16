@@ -1,6 +1,6 @@
 ---
 Module Name: Az.Oracle
-Module Guid: 7fe37b20-8414-454f-98c1-fee11f1b09fa
+Module Guid: 494f97a1-5d48-4f13-a77d-db59ca1fec37
 Download Help Link: https://learn.microsoft.com/powershell/module/az.oracle
 Help Version: 1.0.0.0
 Locale: en-US

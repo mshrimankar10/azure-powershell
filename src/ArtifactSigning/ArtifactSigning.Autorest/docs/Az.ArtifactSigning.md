@@ -1,6 +1,6 @@
 ---
 Module Name: Az.ArtifactSigning
-Module Guid: 323532e3-ac50-4624-8d7e-91b9a220d6a2
+Module Guid: b70c4256-f787-4c7b-9202-e0da5ed82f19
 Download Help Link: https://learn.microsoft.com/powershell/module/az.artifactsigning
 Help Version: 1.0.0.0
 Locale: en-US
@@ -12,26 +12,26 @@ Microsoft Azure PowerShell: ArtifactSigning cmdlets
 
 ## Az.ArtifactSigning Cmdlets
 ### [Get-AzArtifactSigningAccount](Get-AzArtifactSigningAccount.md)
-Get an Artifact Signing Account.
+Get an artifact Signing Account.
 
 ### [Get-AzArtifactSigningCertificateProfile](Get-AzArtifactSigningCertificateProfile.md)
 Get details of a certificate profile.
 
 ### [New-AzArtifactSigningAccount](New-AzArtifactSigningAccount.md)
-Create an Artifact Signing Account.
+Create an artifact Signing Account.
 
 ### [New-AzArtifactSigningCertificateProfile](New-AzArtifactSigningCertificateProfile.md)
 Create a certificate profile.
 
 ### [Remove-AzArtifactSigningAccount](Remove-AzArtifactSigningAccount.md)
-Delete an Artifact Signing Account.
+Delete an artifact signing account.
 
 ### [Remove-AzArtifactSigningCertificateProfile](Remove-AzArtifactSigningCertificateProfile.md)
 Delete a certificate profile.
 
 ### [Test-AzArtifactSigningAccountNameAvailability](Test-AzArtifactSigningAccountNameAvailability.md)
-Checks that the Artifact Signing Account name is valid and is not already in use.
+Checks if the artifact signing account name is valid and is not already in use.
 
 ### [Update-AzArtifactSigningAccount](Update-AzArtifactSigningAccount.md)
-Update an Artifact Signing Account.
+Update an artifact signing account.
 

@@ -1,6 +1,6 @@
 ---
 Module Name: Az.ScVmm
-Module Guid: 968cc7e1-fefa-4096-9962-9baad09116d9
+Module Guid: a4e93b33-39dd-47e4-9581-3b4dc1f1683c
 Download Help Link: https://learn.microsoft.com/powershell/module/az.scvmm
 Help Version: 1.0.0.0
 Locale: en-US

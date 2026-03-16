@@ -1,6 +1,6 @@
 ---
 Module Name: Az.Quota
-Module Guid: 731766b6-b5c1-4e10-83fa-065919e1b0fb
+Module Guid: 27bd13da-3045-468a-a388-d08412628571
 Download Help Link: https://learn.microsoft.com/powershell/module/az.quota
 Help Version: 1.0.0.0
 Locale: en-US

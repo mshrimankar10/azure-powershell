@@ -1,6 +1,6 @@
 ---
 Module Name: Az.Autoscale
-Module Guid: a9b125f5-74a5-4fd4-a060-a0fdb28485e1
+Module Guid: e035a248-79f1-4292-8e34-c021af788b52
 Download Help Link: https://learn.microsoft.com/powershell/module/az.autoscale
 Help Version: 1.0.0.0
 Locale: en-US

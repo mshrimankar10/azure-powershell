@@ -1,6 +1,6 @@
 ---
 Module Name: Az.MonitorWorkspace
-Module Guid: aab53581-9740-475a-a701-2519bf874470
+Module Guid: d9370ac4-c97d-47d2-8942-eb64d455933f
 Download Help Link: https://learn.microsoft.com/powershell/module/az.monitorworkspace
 Help Version: 1.0.0.0
 Locale: en-US

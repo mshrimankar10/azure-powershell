@@ -1,6 +1,6 @@
 ---
 Module Name: Az.ApplicationInsights
-Module Guid: e799a213-e579-4162-a560-86aca0efe1ad
+Module Guid: 93c46010-269c-45b2-b32a-538d5ef76754
 Download Help Link: https://learn.microsoft.com/powershell/module/az.applicationinsights
 Help Version: 1.0.0.0
 Locale: en-US
