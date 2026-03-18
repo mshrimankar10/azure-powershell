@@ -1,33 +1,49 @@
----
+﻿---
+document type: cmdlet
 external help file: Microsoft.Azure.PowerShell.Cmdlets.Storage.Management.dll-Help.xml
+HelpUri: https://learn.microsoft.com/powershell/module/az.storage/new-azstoragelocaluserpermissionscope
 Module Name: Az.Storage
-online version: https://learn.microsoft.com/powershell/module/az.storage/new-azstoragelocaluserpermissionscope
-schema: 2.0.0
+ms.date: 03/18/2026
+PlatyPS schema version: 2024-05-01
 ---
 
 # New-AzStorageLocalUserPermissionScope
 
 ## SYNOPSIS
+
 Creates a permission scope object, which can be used in Set-AzStorageLocalUser.
 
 ## SYNTAX
+
+### Default (Default)
 
 ```
 New-AzStorageLocalUserPermissionScope -Permission <String> -Service <String> -ResourceName <String>
  [-DefaultProfile <IAzureContextContainer>] [<CommonParameters>]
 ```
 
+### __AllParameterSets
+
+```
+New-AzStorageLocalUserPermissionScope -Permission <string> -Service <string> -ResourceName <string>
+ [-DefaultProfile <IAzureContextContainer>] [<CommonParameters>]
+```
+
+## ALIASES
+
 ## DESCRIPTION
+
 The **New-AzStorageLocalUserPermissionScope** cmdlet creates a permission scope object, which can be used in Set-AzStorageLocalUser.
 
 ## EXAMPLES
 
 ### Example 1: Create permission scope objects, then create or update local user with the permission scope objects.
+
 <!-- Skip: Output cannot be splitted from code -->
 
 
 ```
-$permissionScope1 = New-AzStorageLocalUserPermissionScope -Permission rw -Service blob -ResourceName container1 
+$permissionScope1 = New-AzStorageLocalUserPermissionScope -Permission rw -Service blob -ResourceName container1
 
 $permissionScope2 = New-AzStorageLocalUserPermissionScope -Permission rwd -Service file -ResourceName share2
 
@@ -39,84 +55,116 @@ $localuser
 
 Name      Sid                                          HomeDirectory HasSharedKey HasSshKey HasSshPassword PermissionScopes SshAuthorizedKeys
 ----      ---                                          ------------- ------------ --------- -------------- ---------------- -----------------
-testuser1 S-1-2-0-0000000000-000000000-0000000000-0000 /                                                   [container1,...]                  
+testuser1 S-1-2-0-0000000000-000000000-0000000000-0000 /                                                   [container1,...]
 
 $localuser.PermissionScopes
 
 Permissions Service ResourceName
 ----------- ------- ------------
-rw          blob    container1  
+rw          blob    container1
 rwd         file    share2
 ```
 
-This first 2 commands create 2 permission scope objects. 
+This first 2 commands create 2 permission scope objects.
 The following commands create or update a local user with the permission scope objects, then show the updated local user properties.
 
 ## PARAMETERS
 
 ### -DefaultProfile
+
 The credentials, account, tenant, and subscription used for communication with Azure.
 
 ```yaml
 Type: Microsoft.Azure.Commands.Common.Authentication.Abstractions.Core.IAzureContextContainer
-Parameter Sets: (All)
-Aliases: AzContext, AzureRmContext, AzureCredential
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases:
+- AzContext
+- AzureRmContext
+- AzureCredential
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -Permission
+
 Specify the permissions for the local user. Possible values include: Read(r), Write (w), Delete (d), List (l), and Create (c).
 
 ```yaml
 Type: System.String
-Parameter Sets: (All)
-Aliases:
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: true
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -ResourceName
+
 Specify the name of resource, normally the container name or the file share name, used by the local user.
 
 ```yaml
 Type: System.String
-Parameter Sets: (All)
-Aliases:
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: true
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -Service
+
 Specify the service used by the local user, e.g.
 blob, file.
+Specify the service used by the local user, e.g. blob, file.
 
 ```yaml
 Type: System.String
-Parameter Sets: (All)
-Aliases:
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: true
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see [about_CommonParameters](http://go.microsoft.com/fwlink/?LinkID=113216).
+
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+-InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
+-ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+[about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -129,3 +177,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
+{{ Fill in the related links here }}
+

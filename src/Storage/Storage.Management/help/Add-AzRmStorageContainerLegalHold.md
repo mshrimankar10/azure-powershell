@@ -1,44 +1,54 @@
----
+﻿---
+document type: cmdlet
 external help file: Microsoft.Azure.PowerShell.Cmdlets.Storage.Management.dll-Help.xml
+HelpUri: https://learn.microsoft.com/powershell/module/az.storage/add-azrmstoragecontainerlegalhold
 Module Name: Az.Storage
-online version: https://learn.microsoft.com/powershell/module/az.storage/add-azrmstoragecontainerlegalhold
-schema: 2.0.0
+ms.date: 03/18/2026
+PlatyPS schema version: 2024-05-01
 ---
 
 # Add-AzRmStorageContainerLegalHold
 
 ## SYNOPSIS
+
 Adds legal hold tags to a Storage blob container
 
 ## SYNTAX
 
 ### AccountName (Default)
+
 ```
-Add-AzRmStorageContainerLegalHold [-ResourceGroupName] <String> [-StorageAccountName] <String> -Name <String>
- -Tag <String[]> [-AllowProtectedAppendWriteAll <Boolean>] [-DefaultProfile <IAzureContextContainer>]
- [-WhatIf] [-Confirm] [<CommonParameters>]
+Add-AzRmStorageContainerLegalHold [-ResourceGroupName] <string> [-StorageAccountName] <string>
+ [-Name] <string> -Tag <string[]> [-AllowProtectedAppendWriteAll <bool>]
+ [-DefaultProfile <IAzureContextContainer>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### AccountObject
+
 ```
-Add-AzRmStorageContainerLegalHold -Name <String> -StorageAccount <PSStorageAccount> -Tag <String[]>
- [-AllowProtectedAppendWriteAll <Boolean>] [-DefaultProfile <IAzureContextContainer>]
- [-WhatIf] [-Confirm] [<CommonParameters>]
+Add-AzRmStorageContainerLegalHold -Name <string> -StorageAccount <PSStorageAccount> -Tag <string[]>
+ [-AllowProtectedAppendWriteAll <bool>] [-DefaultProfile <IAzureContextContainer>] [-WhatIf]
+ [-Confirm] [<CommonParameters>]
 ```
 
 ### ContainerObject
+
 ```
-Add-AzRmStorageContainerLegalHold -Container <PSContainer> -Tag <String[]>
- [-AllowProtectedAppendWriteAll <Boolean>] [-DefaultProfile <IAzureContextContainer>]
- [-WhatIf] [-Confirm] [<CommonParameters>]
+Add-AzRmStorageContainerLegalHold -Container <PSContainer> -Tag <string[]>
+ [-AllowProtectedAppendWriteAll <bool>] [-DefaultProfile <IAzureContextContainer>] [-WhatIf]
+ [-Confirm] [<CommonParameters>]
 ```
 
+## ALIASES
+
 ## DESCRIPTION
+
 The **Add-AzRmStorageContainerLegalHold** cmdlet adds legal hold tags to a Storage blob container
 
 ## EXAMPLES
 
 ### Example 1: Add legal hold tags to a Storage blob container with Storage account name and container name
+
 ```powershell
 Add-AzRmStorageContainerLegalHold -ResourceGroupName "myResourceGroup" -AccountName "myStorageAccount" -ContainerName "myContainer" -Tag  tag1,tag2 -AllowProtectedAppendWriteAll $true
 ```
@@ -46,6 +56,7 @@ Add-AzRmStorageContainerLegalHold -ResourceGroupName "myResourceGroup" -AccountN
 This command adds legal hold tags to a Storage blob container with Storage account name and container name, and set AllowProtectedAppendWriteAll as true to allow append new blocks to append or block blob.
 
 ### Example 2: Add legal hold tags to a Storage blob container with Storage account object and container name
+
 ```powershell
 $accountObject = Get-AzStorageAccount -ResourceGroupName "myResourceGroup" -AccountName "myStorageAccount"
 Add-AzRmStorageContainerLegalHold -StorageAccount $accountObject -ContainerName "myContainer"  -Tag  tag1
@@ -54,6 +65,7 @@ Add-AzRmStorageContainerLegalHold -StorageAccount $accountObject -ContainerName 
 This command adds legal hold tags to a Storage blob container with Storage account object and container name.
 
 ### Example 3: Add legal hold tags to all Storage blob containers in a Storage account with pipeline
+
 ```powershell
 Get-AzStorageAccount -ResourceGroupName "myResourceGroup" -AccountName "myStorageAccount" | Add-AzRmStorageContainerLegalHold -Tag  tag1,tag2,tag3
 ```
@@ -63,158 +75,238 @@ This command adds legal hold tags to all Storage blob containers in a Storage ac
 ## PARAMETERS
 
 ### -AllowProtectedAppendWriteAll
-When enabled, new blocks can be written to both 'Append and Block Blobs' while maintaining immutability protection and compliance. 
+
+When enabled, new blocks can be written to both 'Append and Block Blobs' while maintaining immutability protection and compliance.
 Only new blocks can be added and any existing blocks cannot be modified or deleted.
+When enabled, new blocks can be written to both 'Append and Block Blobs' while maintaining immutability protection and compliance. Only new blocks can be added and any existing blocks cannot be modified or deleted.
 
 ```yaml
 Type: System.Boolean
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Container
-Storage container object
-
-```yaml
-Type: Microsoft.Azure.Commands.Management.Storage.Models.PSContainer
-Parameter Sets: ContainerObject
-Aliases:
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
-### -DefaultProfile
-The credentials, account, tenant, and subscription used for communication with azure.
-
-```yaml
-Type: Microsoft.Azure.Commands.Common.Authentication.Abstractions.Core.IAzureContextContainer
-Parameter Sets: (All)
-Aliases: AzContext, AzureRmContext, AzureCredential
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Name
-Container Name
-
-```yaml
-Type: System.String
-Parameter Sets: AccountName, AccountObject
-Aliases: N, ContainerName
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
-### -ResourceGroupName
-Resource Group Name.
-
-```yaml
-Type: System.String
-Parameter Sets: AccountName
-Aliases:
-
-Required: True
-Position: 0
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -StorageAccount
-Storage account object
-
-```yaml
-Type: Microsoft.Azure.Commands.Management.Storage.Models.PSStorageAccount
-Parameter Sets: AccountObject
-Aliases:
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
-### -StorageAccountName
-Storage Account Name.
-
-```yaml
-Type: System.String
-Parameter Sets: AccountName
-Aliases: AccountName
-
-Required: True
-Position: 1
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Tag
-Container LegalHold Tags
-
-```yaml
-Type: System.String[]
-Parameter Sets: (All)
-Aliases:
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -Confirm
+
 Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-Parameter Sets: (All)
-Aliases: cf
+DefaultValue: None
+SupportsWildcards: false
+Aliases:
+- cf
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
 
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+### -Container
+
+Storage container object
+
+```yaml
+Type: Microsoft.Azure.Commands.Management.Storage.Models.PSContainer
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: ContainerObject
+  Position: Named
+  IsRequired: true
+  ValueFromPipeline: true
+  ValueFromPipelineByPropertyName: true
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -DefaultProfile
+
+The credentials, account, tenant, and subscription used for communication with azure.
+
+```yaml
+Type: Microsoft.Azure.Commands.Common.Authentication.Abstractions.Core.IAzureContextContainer
+DefaultValue: None
+SupportsWildcards: false
+Aliases:
+- AzContext
+- AzureRmContext
+- AzureCredential
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -Name
+
+Container Name
+
+```yaml
+Type: System.String
+DefaultValue: None
+SupportsWildcards: false
+Aliases:
+- N
+- ContainerName
+ParameterSets:
+- Name: AccountObject
+  Position: Named
+  IsRequired: true
+  ValueFromPipeline: true
+  ValueFromPipelineByPropertyName: true
+  ValueFromRemainingArguments: false
+- Name: AccountName
+  Position: 2
+  IsRequired: true
+  ValueFromPipeline: true
+  ValueFromPipelineByPropertyName: true
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -ResourceGroupName
+
+Resource Group Name.
+
+```yaml
+Type: System.String
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: AccountName
+  Position: 0
+  IsRequired: true
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: true
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -StorageAccount
+
+Storage account object
+
+```yaml
+Type: Microsoft.Azure.Commands.Management.Storage.Models.PSStorageAccount
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: AccountObject
+  Position: Named
+  IsRequired: true
+  ValueFromPipeline: true
+  ValueFromPipelineByPropertyName: true
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -StorageAccountName
+
+Storage Account Name.
+
+```yaml
+Type: System.String
+DefaultValue: None
+SupportsWildcards: false
+Aliases:
+- AccountName
+ParameterSets:
+- Name: AccountName
+  Position: 1
+  IsRequired: true
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: true
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -Tag
+
+Container LegalHold Tags
+
+```yaml
+Type: System.String[]
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: true
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -WhatIf
+
 Shows what would happen if the cmdlet runs. The cmdlet is not run.
+Runs the command in a mode that only reports what would happen without performing the actions.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-Parameter Sets: (All)
-Aliases: wi
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases:
+- wi
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see [about_CommonParameters](http://go.microsoft.com/fwlink/?LinkID=113216).
+
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+-InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
+-ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+[about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -231,3 +323,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
+{{ Fill in the related links here }}
+

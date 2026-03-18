@@ -1,29 +1,46 @@
----
+﻿---
+document type: cmdlet
 external help file: Microsoft.Azure.PowerShell.Cmdlets.Storage.Management.dll-Help.xml
+HelpUri: https://learn.microsoft.com/powershell/module/Az.storage/new-Azstorageaccountmanagementpolicyrule
 Module Name: Az.Storage
-online version: https://learn.microsoft.com/powershell/module/Az.storage/new-Azstorageaccountmanagementpolicyrule
-schema: 2.0.0
+ms.date: 03/18/2026
+PlatyPS schema version: 2024-05-01
 ---
 
 # New-AzStorageAccountManagementPolicyRule
 
 ## SYNOPSIS
+
 Creates a ManagementPolicy rule object, which can be used in Set-AzStorageAccountManagementPolicy.
 
 ## SYNTAX
 
+### Default (Default)
+
 ```
-New-AzStorageAccountManagementPolicyRule [-Name] <String> [-Disabled] -Action <PSManagementPolicyActionGroup>
- [-Filter <PSManagementPolicyRuleFilter>] [-DefaultProfile <IAzureContextContainer>]
+New-AzStorageAccountManagementPolicyRule [-Name] <String> -Action <PSManagementPolicyActionGroup>
+ [-Disabled] [-Filter <PSManagementPolicyRuleFilter>] [-DefaultProfile <IAzureContextContainer>]
  [<CommonParameters>]
 ```
 
+### __AllParameterSets
+
+```
+New-AzStorageAccountManagementPolicyRule [-Name] <string> -Action <PSManagementPolicyActionGroup>
+ [-Disabled] [-Filter <PSManagementPolicyRuleFilter>] [-DefaultProfile <IAzureContextContainer>]
+ [<CommonParameters>]
+```
+
+## ALIASES
+
 ## DESCRIPTION
+
 The **New-AzStorageAccountManagementPolicyRule** cmdlet creates a ManagementPolicy rule object, which can be used in Set-AzStorageAccountManagementPolicy.
 
 ## EXAMPLES
 
 ### Example 1: Creates a ManagementPolicy rule object, then set to a Storage Account
+
 <!-- Skip: Output cannot be splitted from code -->
 
 
@@ -78,90 +95,138 @@ This command create a ManagementPolicy rule object, with a ManagementPolicy acti
 ## PARAMETERS
 
 ### -Action
+
 An object that defines the action set.
 Get the Object with cmdlet Add-AzureStorageAccountManagementPolicyAction
+An object that defines the action set. Get the Object with cmdlet Add-AzureStorageAccountManagementPolicyAction
 
 ```yaml
 Type: Microsoft.Azure.Commands.Management.Storage.Models.PSManagementPolicyActionGroup
-Parameter Sets: (All)
-Aliases:
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByValue)
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: true
+  ValueFromPipeline: true
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -DefaultProfile
+
 The credentials, account, tenant, and subscription used for communication with Azure.
 
 ```yaml
 Type: Microsoft.Azure.Commands.Common.Authentication.Abstractions.Core.IAzureContextContainer
-Parameter Sets: (All)
-Aliases: AzContext, AzureRmContext, AzureCredential
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases:
+- AzContext
+- AzureRmContext
+- AzureCredential
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -Disabled
+
 The rule is disabled if set it.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -Filter
+
 An object that defines the filter set.
 Get the Object with cmdlet New-AzureStorageAccountManagementPolicyFilter
+An object that defines the filter set. Get the Object with cmdlet New-AzureStorageAccountManagementPolicyFilter
 
 ```yaml
 Type: Microsoft.Azure.Commands.Management.Storage.Models.PSManagementPolicyRuleFilter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByValue)
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: true
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -Name
+
 A rule name can contain any combination of alpha numeric characters.
 Rule name is case-sensitive.
 It must be unique within a policy.
+A rule name can contain any combination of alpha numeric characters. Rule name is case-sensitive. It must be unique within a policy.
 
 ```yaml
 Type: System.String
-Parameter Sets: (All)
-Aliases:
-
-Required: True
-Position: 0
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: 0
+  IsRequired: true
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see [about_CommonParameters](http://go.microsoft.com/fwlink/?LinkID=113216).
+
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+-InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
+-ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+[about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
 ### None
+
+### Microsoft.Azure.Commands.Management.Storage.Models.PSManagementPolicyActionGroup
+
+{{ Fill in the Description }}
+
+### Microsoft.Azure.Commands.Management.Storage.Models.PSManagementPolicyRuleFilter
+
+{{ Fill in the Description }}
 
 ## OUTPUTS
 
@@ -170,3 +235,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
+{{ Fill in the related links here }}
+

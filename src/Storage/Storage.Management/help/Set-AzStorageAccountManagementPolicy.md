@@ -1,72 +1,84 @@
----
+﻿---
+document type: cmdlet
 external help file: Microsoft.Azure.PowerShell.Cmdlets.Storage.Management.dll-Help.xml
+HelpUri: https://learn.microsoft.com/powershell/module/Az.storage/set-Azstorageaccountmanagementpolicy
 Module Name: Az.Storage
-online version: https://learn.microsoft.com/powershell/module/Az.storage/set-Azstorageaccountmanagementpolicy
-schema: 2.0.0
+ms.date: 03/18/2026
+PlatyPS schema version: 2024-05-01
 ---
 
 # Set-AzStorageAccountManagementPolicy
 
 ## SYNOPSIS
+
 Creates or modifies the management policy of an Azure Storage account.
 
 ## SYNTAX
 
 ### AccountNamePolicyRule (Default)
+
 ```
 Set-AzStorageAccountManagementPolicy [-ResourceGroupName] <String> [-StorageAccountName] <String>
- -Rule <PSManagementPolicyRule[]> [-DefaultProfile <IAzureContextContainer>]
- [-WhatIf] [-Confirm] [<CommonParameters>]
+ -Rule <PSManagementPolicyRule[]> [-DefaultProfile <IAzureContextContainer>] [-WhatIf] [-Confirm]
+ [<CommonParameters>]
 ```
 
 ### AccountNamePolicyObject
+
 ```
 Set-AzStorageAccountManagementPolicy [-ResourceGroupName] <String> [-StorageAccountName] <String>
- -Policy <PSManagementPolicy> [-DefaultProfile <IAzureContextContainer>]
- [-WhatIf] [-Confirm] [<CommonParameters>]
+ -Policy <PSManagementPolicy> [-DefaultProfile <IAzureContextContainer>] [-WhatIf] [-Confirm]
+ [<CommonParameters>]
 ```
 
 ### AccountObjectPolicyRule
+
 ```
-Set-AzStorageAccountManagementPolicy -StorageAccount <PSStorageAccount> -Rule <PSManagementPolicyRule[]>
- [-DefaultProfile <IAzureContextContainer>] [-WhatIf] [-Confirm]
+Set-AzStorageAccountManagementPolicy -StorageAccount <PSStorageAccount>
+ -Rule <PSManagementPolicyRule[]> [-DefaultProfile <IAzureContextContainer>] [-WhatIf] [-Confirm]
  [<CommonParameters>]
 ```
 
 ### AccountObjectPolicyObject
+
 ```
 Set-AzStorageAccountManagementPolicy -StorageAccount <PSStorageAccount> -Policy <PSManagementPolicy>
- [-DefaultProfile <IAzureContextContainer>] [-WhatIf] [-Confirm]
- [<CommonParameters>]
+ [-DefaultProfile <IAzureContextContainer>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### AccountResourceIdPolicyRule
+
 ```
-Set-AzStorageAccountManagementPolicy [-StorageAccountResourceId] <String> -Rule <PSManagementPolicyRule[]>
- [-DefaultProfile <IAzureContextContainer>] [-WhatIf] [-Confirm]
+Set-AzStorageAccountManagementPolicy [-StorageAccountResourceId] <String>
+ -Rule <PSManagementPolicyRule[]> [-DefaultProfile <IAzureContextContainer>] [-WhatIf] [-Confirm]
  [<CommonParameters>]
 ```
 
 ### AccountResourceIdPolicyObject
+
 ```
-Set-AzStorageAccountManagementPolicy [-StorageAccountResourceId] <String> -Policy <PSManagementPolicy>
- [-DefaultProfile <IAzureContextContainer>] [-WhatIf] [-Confirm]
+Set-AzStorageAccountManagementPolicy [-StorageAccountResourceId] <String>
+ -Policy <PSManagementPolicy> [-DefaultProfile <IAzureContextContainer>] [-WhatIf] [-Confirm]
  [<CommonParameters>]
 ```
 
+## ALIASES
+
 ## DESCRIPTION
+
 The **Set-AzStorageAccountManagementPolicy** cmdlet creates or modifies the management policy of an Azure Storage account.
 
 ## EXAMPLES
 
 ### Example 1: Create or update the management policy of a Storage account with ManagementPolicy rule objects.
+
 ```powershell
 $action1 = Add-AzStorageAccountManagementPolicyAction -BaseBlobAction Delete -DaysAfterCreationGreaterThan 100
 $action1 = Add-AzStorageAccountManagementPolicyAction -InputObject $action1 -BaseBlobAction TierToArchive -daysAfterModificationGreaterThan 50 -DaysAfterLastTierChangeGreaterThan 30
 $action1 = Add-AzStorageAccountManagementPolicyAction -InputObject $action1 -BaseBlobAction TierToCool -DaysAfterLastAccessTimeGreaterThan 30 -EnableAutoTierToHotFromCool
 $action1 = Add-AzStorageAccountManagementPolicyAction -InputObject $action1 -SnapshotAction Delete -daysAfterCreationGreaterThan 100
 $action1 = Add-AzStorageAccountManagementPolicyAction -InputObject $action1 -BlobVersionAction TierToArchive -daysAfterCreationGreaterThan 100 -DaysAfterLastTierChangeGreaterThan 14
-$filter1 = New-AzStorageAccountManagementPolicyFilter -PrefixMatch ab,cd 
+$filter1 = New-AzStorageAccountManagementPolicyFilter -PrefixMatch ab,cd
 $rule1 = New-AzStorageAccountManagementPolicyRule -Name Test -Action $action1 -Filter $filter1
 
 $action2 = Add-AzStorageAccountManagementPolicyAction -BaseBlobAction Delete -daysAfterCreationGreaterThan 100
@@ -186,6 +198,7 @@ Rules              : [
 This command first create 2 ManagementPolicy rule objects, then creates or updates the management policy of a Storage account with the 2 ManagementPolicy rule objects.
 
 ### Example 2: Create or update the management policy of a Storage account with a Json format policy.
+
 ```powershell
 Set-AzStorageAccountManagementPolicy -ResourceGroupName "myresourcegroup" -AccountName "mystorageaccount" -Policy (@{
     Rules=(@{
@@ -354,6 +367,7 @@ Rules              : [
 This command creates or updates the management policy of a Storage account with a json format policy.
 
 ### Example 3: Get the management policy from a Storage account, then set it to another Storage account.
+
 ```powershell
 $outputPolicy = Get-AzStorageAccountManagementPolicy -ResourceGroupName "myresourcegroup" -AccountName "mystorageaccount" | Set-AzStorageAccountManagementPolicy -ResourceGroupName "myresourcegroup2" -AccountName "mystorageaccount2"
 ```
@@ -362,148 +376,278 @@ This command first gets the management policy from a Storage account, then set i
 
 ## PARAMETERS
 
-### -DefaultProfile
-The credentials, account, tenant, and subscription used for communication with Azure.
-
-```yaml
-Type: Microsoft.Azure.Commands.Common.Authentication.Abstractions.Core.IAzureContextContainer
-Parameter Sets: (All)
-Aliases: AzContext, AzureRmContext, AzureCredential
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Policy
-Management Policy Object to Set
-
-```yaml
-Type: Microsoft.Azure.Commands.Management.Storage.Models.PSManagementPolicy
-Parameter Sets: AccountNamePolicyObject, AccountObjectPolicyObject, AccountResourceIdPolicyObject
-Aliases: ManagementPolicy
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByValue)
-Accept wildcard characters: False
-```
-
-### -ResourceGroupName
-Resource Group Name.
-
-```yaml
-Type: System.String
-Parameter Sets: AccountNamePolicyRule, AccountNamePolicyObject
-Aliases:
-
-Required: True
-Position: 0
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Rule
-The Management Policy rules. Get the object with New-AzStorageAccountManagementPolicyRule cmdlet.
-
-```yaml
-Type: Microsoft.Azure.Commands.Management.Storage.Models.PSManagementPolicyRule[]
-Parameter Sets: AccountNamePolicyRule, AccountObjectPolicyRule, AccountResourceIdPolicyRule
-Aliases:
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByValue)
-Accept wildcard characters: False
-```
-
-### -StorageAccount
-Storage account object
-
-```yaml
-Type: Microsoft.Azure.Commands.Management.Storage.Models.PSStorageAccount
-Parameter Sets: AccountObjectPolicyRule, AccountObjectPolicyObject
-Aliases:
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByValue)
-Accept wildcard characters: False
-```
-
-### -StorageAccountName
-Storage Account Name.
-
-```yaml
-Type: System.String
-Parameter Sets: AccountNamePolicyRule, AccountNamePolicyObject
-Aliases: AccountName
-
-Required: True
-Position: 1
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -StorageAccountResourceId
-Storage Account Resource Id.
-
-```yaml
-Type: System.String
-Parameter Sets: AccountResourceIdPolicyRule, AccountResourceIdPolicyObject
-Aliases:
-
-Required: True
-Position: 0
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
 ### -Confirm
+
 Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-Parameter Sets: (All)
-Aliases: cf
+DefaultValue: None
+SupportsWildcards: false
+Aliases:
+- cf
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
 
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+### -DefaultProfile
+
+The credentials, account, tenant, and subscription used for communication with Azure.
+
+```yaml
+Type: Microsoft.Azure.Commands.Common.Authentication.Abstractions.Core.IAzureContextContainer
+DefaultValue: None
+SupportsWildcards: false
+Aliases:
+- AzContext
+- AzureRmContext
+- AzureCredential
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -Policy
+
+Management Policy Object to Set
+
+```yaml
+Type: Microsoft.Azure.Commands.Management.Storage.Models.PSManagementPolicy
+DefaultValue: None
+SupportsWildcards: false
+Aliases:
+- ManagementPolicy
+ParameterSets:
+- Name: AccountNamePolicyObject
+  Position: Named
+  IsRequired: true
+  ValueFromPipeline: true
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: AccountObjectPolicyObject
+  Position: Named
+  IsRequired: true
+  ValueFromPipeline: true
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: AccountResourceIdPolicyObject
+  Position: Named
+  IsRequired: true
+  ValueFromPipeline: true
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -ResourceGroupName
+
+Resource Group Name.
+
+```yaml
+Type: System.String
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: AccountNamePolicyRule
+  Position: 0
+  IsRequired: true
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: AccountNamePolicyObject
+  Position: 0
+  IsRequired: true
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -Rule
+
+The Management Policy rules. Get the object with New-AzStorageAccountManagementPolicyRule cmdlet.
+
+```yaml
+Type: Microsoft.Azure.Commands.Management.Storage.Models.PSManagementPolicyRule[]
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: AccountNamePolicyRule
+  Position: Named
+  IsRequired: true
+  ValueFromPipeline: true
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: AccountObjectPolicyRule
+  Position: Named
+  IsRequired: true
+  ValueFromPipeline: true
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: AccountResourceIdPolicyRule
+  Position: Named
+  IsRequired: true
+  ValueFromPipeline: true
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -StorageAccount
+
+Storage account object
+
+```yaml
+Type: Microsoft.Azure.Commands.Management.Storage.Models.PSStorageAccount
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: AccountObjectPolicyRule
+  Position: Named
+  IsRequired: true
+  ValueFromPipeline: true
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: AccountObjectPolicyObject
+  Position: Named
+  IsRequired: true
+  ValueFromPipeline: true
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -StorageAccountName
+
+Storage Account Name.
+
+```yaml
+Type: System.String
+DefaultValue: None
+SupportsWildcards: false
+Aliases:
+- AccountName
+ParameterSets:
+- Name: AccountNamePolicyRule
+  Position: 1
+  IsRequired: true
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: AccountNamePolicyObject
+  Position: 1
+  IsRequired: true
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -StorageAccountResourceId
+
+Storage Account Resource Id.
+
+```yaml
+Type: System.String
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: AccountResourceIdPolicyRule
+  Position: 0
+  IsRequired: true
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: true
+  ValueFromRemainingArguments: false
+- Name: AccountResourceIdPolicyObject
+  Position: 0
+  IsRequired: true
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: true
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -WhatIf
+
 Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
+Runs the command in a mode that only reports what would happen without performing the actions.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-Parameter Sets: (All)
-Aliases: wi
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases:
+- wi
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+-InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
+-ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+[about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
 ### System.String
+
+### Microsoft.Azure.Commands.Management.Storage.Models.PSStorageAccount
+
+{{ Fill in the Description }}
+
+### Microsoft.Azure.Commands.Management.Storage.Models.PSManagementPolicyRule
+
+{{ Fill in the Description }}
+
+### Microsoft.Azure.Commands.Management.Storage.Models.PSManagementPolicy
+
+{{ Fill in the Description }}
+
+### Microsoft.Azure.Commands.Management.Storage.Models.PSManagementPolicyRule[]
+
+{{ Fill in the Description }}
 
 ## OUTPUTS
 
@@ -513,163 +657,9 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzStorageAccountManagementPolicyRule](./New-AzStorageAccountManagementPolicyRule.md)
-
-[Add-AzStorageAccountManagementPolicyAction](./Add-AzStorageAccountManagementPolicyAction.md)
-
-[New-AzStorageAccountManagementPolicyFilter](./New-AzStorageAccountManagementPolicyFilter.md)
-
-[New-AzStorageAccountManagementPolicyBlobIndexMatchObject](./New-AzStorageAccountManagementPolicyBlobIndexMatchObject.md)
-
-[Get-AzStorageAccountManagementPolicy](./Get-AzStorageAccountManagementPolicy.md)
-
-[Remove-AzStorageAccountManagementPolicy](./Remove-AzStorageAccountManagementPolicy.md)
-
-
-## PARAMETERS
-
-### -DefaultProfile
-The credentials, account, tenant, and subscription used for communication with Azure.
-
-```yaml
-Type: Microsoft.Azure.Commands.Common.Authentication.Abstractions.Core.IAzureContextContainer
-Parameter Sets: (All)
-Aliases: AzContext, AzureRmContext, AzureCredential
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Policy
-Management Policy Object to Set
-
-```yaml
-Type: Microsoft.Azure.Commands.Management.Storage.Models.PSManagementPolicy
-Parameter Sets: AccountNamePolicyObject, AccountObjectPolicyObject, AccountResourceIdPolicyObject
-Aliases: ManagementPolicy
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByValue)
-Accept wildcard characters: False
-```
-
-### -ResourceGroupName
-Resource Group Name.
-
-```yaml
-Type: System.String
-Parameter Sets: AccountNamePolicyRule, AccountNamePolicyObject
-Aliases:
-
-Required: True
-Position: 0
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Rule
-The Management Policy rules. Get the object with New-AzStorageAccountManagementPolicyRule cmdlet.
-
-```yaml
-Type: Microsoft.Azure.Commands.Management.Storage.Models.PSManagementPolicyRule[]
-Parameter Sets: AccountNamePolicyRule, AccountObjectPolicyRule, AccountResourceIdPolicyRule
-Aliases:
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByValue)
-Accept wildcard characters: False
-```
-
-### -StorageAccount
-Storage account object
-
-```yaml
-Type: Microsoft.Azure.Commands.Management.Storage.Models.PSStorageAccount
-Parameter Sets: AccountObjectPolicyRule, AccountObjectPolicyObject
-Aliases:
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByValue)
-Accept wildcard characters: False
-```
-
-### -StorageAccountName
-Storage Account Name.
-
-```yaml
-Type: System.String
-Parameter Sets: AccountNamePolicyRule, AccountNamePolicyObject
-Aliases: AccountName
-
-Required: True
-Position: 1
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -StorageAccountResourceId
-Storage Account Resource Id.
-
-```yaml
-Type: System.String
-Parameter Sets: AccountResourceIdPolicyRule, AccountResourceIdPolicyObject
-Aliases:
-
-Required: True
-Position: 0
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Confirm
-Prompts you for confirmation before running the cmdlet.
-
-```yaml
-Type: System.Management.Automation.SwitchParameter
-Parameter Sets: (All)
-Aliases: cf
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -WhatIf
-Shows what would happen if the cmdlet runs. The cmdlet is not run.
-
-```yaml
-Type: System.Management.Automation.SwitchParameter
-Parameter Sets: (All)
-Aliases: wi
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see [about_CommonParameters](http://go.microsoft.com/fwlink/?LinkID=113216).
-
-## INPUTS
-
-## OUTPUTS
-
-## NOTES
-
-## RELATED LINKS
+- [New-AzStorageAccountManagementPolicyRule](./New-AzStorageAccountManagementPolicyRule.md)
+- [Add-AzStorageAccountManagementPolicyAction](./Add-AzStorageAccountManagementPolicyAction.md)
+- [New-AzStorageAccountManagementPolicyFilter](./New-AzStorageAccountManagementPolicyFilter.md)
+- [New-AzStorageAccountManagementPolicyBlobIndexMatchObject](./New-AzStorageAccountManagementPolicyBlobIndexMatchObject.md)
+- [Get-AzStorageAccountManagementPolicy](./Get-AzStorageAccountManagementPolicy.md)
+- [Remove-AzStorageAccountManagementPolicy](./Remove-AzStorageAccountManagementPolicy.md)

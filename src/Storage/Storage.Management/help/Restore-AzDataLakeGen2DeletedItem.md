@@ -1,67 +1,77 @@
----
+﻿---
+document type: cmdlet
 external help file: Microsoft.Azure.PowerShell.Cmdlets.Storage.dll-Help.xml
+HelpUri: https://learn.microsoft.com/powershell/module/az.storage/restore-azdatalakegen2deleteditem
 Module Name: Az.Storage
-online version: https://learn.microsoft.com/powershell/module/az.storage/restore-azdatalakegen2deleteditem
-schema: 2.0.0
+ms.date: 03/18/2026
+PlatyPS schema version: 2024-05-01
 ---
 
 # Restore-AzDataLakeGen2DeletedItem
 
 ## SYNOPSIS
+
 Restores a deleted file or directory in a filesystem.
 
 ## SYNTAX
 
 ### ReceiveManual (Default)
+
 ```
-Restore-AzDataLakeGen2DeletedItem [-FileSystem] <String> [-Path] <String> [-DeletionId] <String> [-AsJob]
- [-Context <IStorageContext>] [-DefaultProfile <IAzureContextContainer>]
- [-WhatIf] [-Confirm] [<CommonParameters>]
+Restore-AzDataLakeGen2DeletedItem [-FileSystem] <String> [-Path] <String> [-DeletionId] <String>
+ [-AsJob] [-Context <IStorageContext>] [-DefaultProfile <IAzureContextContainer>] [-WhatIf]
+ [-Confirm] [<CommonParameters>]
 ```
 
 ### ItemPipeline
+
 ```
 Restore-AzDataLakeGen2DeletedItem -InputObject <AzureDataLakeGen2DeletedItem> [-AsJob]
- [-Context <IStorageContext>] [-DefaultProfile <IAzureContextContainer>]
- [-WhatIf] [-Confirm] [<CommonParameters>]
+ [-Context <IStorageContext>] [-DefaultProfile <IAzureContextContainer>] [-WhatIf] [-Confirm]
+ [<CommonParameters>]
 ```
 
+## ALIASES
+
 ## DESCRIPTION
+
 The **Restore-AzDataLakeGen2DeletedItem** cmdlet restores a deleted file or directory in a filesystem in an Azure storage account.
 This cmdlet only works if Hierarchical Namespace is enabled for the Storage account. This kind of account can be created by run "New-AzStorageAccount" cmdlet with "-EnableHierarchicalNamespace $true".
 
 ## EXAMPLES
 
 ### Example 1: List all deleted files or directories from a Filesystem, and restore them by pipeline
+
 <!-- Skip: Output cannot be splitted from code -->
 
 
 ```
-$items = Get-AzDataLakeGen2DeletedItem -FileSystem "filesystem1" 
+$items = Get-AzDataLakeGen2DeletedItem -FileSystem "filesystem1"
 $items
 
    FileSystem Name: filesystem1
 
 Path                 DeletionId           DeletedOn            RemainingRetentionDays
 ----                 ----------           ---------            ----------------------
-dir0/dir1/file1      132658816156507617   2021-05-19 07:06:55Z 3                     
-dir0/dir2            132658834541610122   2021-05-19 07:37:34Z 3                    
-dir0/dir2/file3      132658834534174806   2021-05-19 07:37:33Z 3   
+dir0/dir1/file1      132658816156507617   2021-05-19 07:06:55Z 3
+dir0/dir2            132658834541610122   2021-05-19 07:37:34Z 3
+dir0/dir2/file3      132658834534174806   2021-05-19 07:37:33Z 3
 
-$items | Restore-AzDataLakeGen2DeletedItem 
+$items | Restore-AzDataLakeGen2DeletedItem
 
    FileSystem Name: filesystem1
 
-Path                 IsDirectory  Length          LastModified         Permissions  Owner                Group               
-----                 -----------  ------          ------------         -----------  -----                -----               
-dir0/dir1/file1      False        1024            2021-05-19 07:06:39Z rw-r-----    $superuser           $superuser          
-dir0/dir2            True                         2021-05-19 07:06:37Z rwxr-x---    $superuser           $superuser          
+Path                 IsDirectory  Length          LastModified         Permissions  Owner                Group
+----                 -----------  ------          ------------         -----------  -----                -----
+dir0/dir1/file1      False        1024            2021-05-19 07:06:39Z rw-r-----    $superuser           $superuser
+dir0/dir2            True                         2021-05-19 07:06:37Z rwxr-x---    $superuser           $superuser
 dir0/dir2/file3      False        1024            2021-05-19 07:06:42Z rw-r-----    $superuser           $superuser
 ```
 
 This command lists all deleted files or directories from a Filesystem, the restore all of them by pipeline.
 
 ### Example 2: Restore an single file with path and DeletionId
+
 ```powershell
 Restore-AzDataLakeGen2DeletedItem -FileSystem "filesystem1"  -Path dir0/dir1/file1 -DeletionId 132658838415219780
 ```
@@ -69,8 +79,8 @@ Restore-AzDataLakeGen2DeletedItem -FileSystem "filesystem1"  -Path dir0/dir1/fil
 ```output
 FileSystem Name: filesystem1
 
-Path                 IsDirectory  Length          LastModified         Permissions  Owner                Group               
-----                 -----------  ------          ------------         -----------  -----                -----               
+Path                 IsDirectory  Length          LastModified         Permissions  Owner                Group
+----                 -----------  ------          ------------         -----------  -----                -----
 dir0/dir1/file1      False        1024            2021-05-19 07:06:39Z rw-r-----    $superuser           $superuser
 ```
 
@@ -79,145 +89,210 @@ This command restores an single file with path and DeletionId. The DeletionId ca
 ## PARAMETERS
 
 ### -AsJob
+
 Run cmdlet in the background
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Context
-Azure Storage Context Object
-
-```yaml
-Type: Microsoft.Azure.Commands.Common.Authentication.Abstractions.IStorageContext
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
-### -DefaultProfile
-The credentials, account, tenant, and subscription used for communication with Azure.
-
-```yaml
-Type: Microsoft.Azure.Commands.Common.Authentication.Abstractions.Core.IAzureContextContainer
-Parameter Sets: (All)
-Aliases: AzureRmContext, AzureCredential
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -DeletionId
-The deletion ID associated with the soft deleted path.
-You can get soft deleted paths and their associated deletion IDs with cmdlet 'Get-AzDataLakeGen2DeletedItem'.
-
-```yaml
-Type: System.String
-Parameter Sets: ReceiveManual
-Aliases:
-
-Required: True
-Position: 2
-Default value: None
-Accept pipeline input: True (ByValue)
-Accept wildcard characters: False
-```
-
-### -FileSystem
-FileSystem name
-
-```yaml
-Type: System.String
-Parameter Sets: ReceiveManual
-Aliases:
-
-Required: True
-Position: 0
-Default value: None
-Accept pipeline input: True (ByValue)
-Accept wildcard characters: False
-```
-
-### -InputObject
-Azure Datalake Gen2 Deleted Item Object to restore.
-
-```yaml
-Type: Microsoft.WindowsAzure.Commands.Common.Storage.ResourceModel.AzureDataLakeGen2DeletedItem
-Parameter Sets: ItemPipeline
-Aliases:
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByValue)
-Accept wildcard characters: False
-```
-
-### -Path
-The deleted item path in the specified FileSystem that should be restore.
-In the format 'directory/file.txt' or 'directory1/directory2/'
-
-```yaml
-Type: System.String
-Parameter Sets: ReceiveManual
-Aliases:
-
-Required: True
-Position: 1
-Default value: None
-Accept pipeline input: True (ByValue)
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -Confirm
+
 Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-Parameter Sets: (All)
-Aliases: cf
+DefaultValue: None
+SupportsWildcards: false
+Aliases:
+- cf
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
 
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+### -Context
+
+Azure Storage Context Object
+
+```yaml
+Type: Microsoft.Azure.Commands.Common.Authentication.Abstractions.IStorageContext
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: true
+  ValueFromPipelineByPropertyName: true
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -DefaultProfile
+
+The credentials, account, tenant, and subscription used for communication with Azure.
+
+```yaml
+Type: Microsoft.Azure.Commands.Common.Authentication.Abstractions.Core.IAzureContextContainer
+DefaultValue: None
+SupportsWildcards: false
+Aliases:
+- AzureRmContext
+- AzureCredential
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -DeletionId
+
+The deletion ID associated with the soft deleted path.
+You can get soft deleted paths and their associated deletion IDs with cmdlet 'Get-AzDataLakeGen2DeletedItem'.
+The deletion ID associated with the soft deleted path. You can get soft deleted paths and their associated deletion IDs with cmdlet 'Get-AzDataLakeGen2DeletedItem'.
+
+```yaml
+Type: System.String
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: ReceiveManual
+  Position: 2
+  IsRequired: true
+  ValueFromPipeline: true
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -FileSystem
+
+FileSystem name
+
+```yaml
+Type: System.String
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: ReceiveManual
+  Position: 0
+  IsRequired: true
+  ValueFromPipeline: true
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -InputObject
+
+Azure Datalake Gen2 Deleted Item Object to restore.
+
+```yaml
+Type: Microsoft.WindowsAzure.Commands.Common.Storage.ResourceModel.AzureDataLakeGen2DeletedItem
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: ItemPipeline
+  Position: Named
+  IsRequired: true
+  ValueFromPipeline: true
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -Path
+
+The deleted item path in the specified FileSystem that should be restore.
+In the format 'directory/file.txt' or 'directory1/directory2/'
+The deleted item path in the specified FileSystem that should be restore. In the format 'directory/file.txt' or 'directory1/directory2/'
+
+```yaml
+Type: System.String
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: ReceiveManual
+  Position: 1
+  IsRequired: true
+  ValueFromPipeline: true
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -WhatIf
+
 Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
+Runs the command in a mode that only reports what would happen without performing the actions.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-Parameter Sets: (All)
-Aliases: wi
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases:
+- wi
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see [about_CommonParameters](http://go.microsoft.com/fwlink/?LinkID=113216).
+
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+-InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
+-ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+[about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -234,3 +309,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
+{{ Fill in the related links here }}
+

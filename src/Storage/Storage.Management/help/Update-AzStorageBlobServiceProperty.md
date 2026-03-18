@@ -1,47 +1,57 @@
----
+﻿---
+document type: cmdlet
 external help file: Microsoft.Azure.PowerShell.Cmdlets.Storage.Management.dll-Help.xml
+HelpUri: https://learn.microsoft.com/powershell/module/az.storage/update-azstorageblobserviceproperty
 Module Name: Az.Storage
-online version: https://learn.microsoft.com/powershell/module/az.storage/update-azstorageblobserviceproperty
-schema: 2.0.0
+ms.date: 03/18/2026
+PlatyPS schema version: 2024-05-01
 ---
 
 # Update-AzStorageBlobServiceProperty
 
 ## SYNOPSIS
+
 Modifies the service properties for the Azure Storage Blob service.
 
 ## SYNTAX
 
 ### AccountName (Default)
+
 ```
-Update-AzStorageBlobServiceProperty [-ResourceGroupName] <String> [-StorageAccountName] <String>
- [-DefaultServiceVersion <String>] [-EnableChangeFeed <Boolean>] [-ChangeFeedRetentionInDays <Int32>]
- [-IsVersioningEnabled <Boolean>] [-CorsRule <PSCorsRule[]>] [-DefaultProfile <IAzureContextContainer>]
+Update-AzStorageBlobServiceProperty [-ResourceGroupName] <string> [-StorageAccountName] <string>
+ [-DefaultServiceVersion <string>] [-EnableChangeFeed <bool>] [-ChangeFeedRetentionInDays <int>]
+ [-IsVersioningEnabled <bool>] [-CorsRule <PSCorsRule[]>] [-DefaultProfile <IAzureContextContainer>]
  [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### AccountObject
+
 ```
-Update-AzStorageBlobServiceProperty -StorageAccount <PSStorageAccount> [-DefaultServiceVersion <String>]
- [-EnableChangeFeed <Boolean>] [-ChangeFeedRetentionInDays <Int32>] [-IsVersioningEnabled <Boolean>]
- [-CorsRule <PSCorsRule[]>] [-DefaultProfile <IAzureContextContainer>]
+Update-AzStorageBlobServiceProperty -StorageAccount <PSStorageAccount>
+ [-DefaultServiceVersion <string>] [-EnableChangeFeed <bool>] [-ChangeFeedRetentionInDays <int>]
+ [-IsVersioningEnabled <bool>] [-CorsRule <PSCorsRule[]>] [-DefaultProfile <IAzureContextContainer>]
  [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### BlobServicePropertiesResourceId
+
 ```
-Update-AzStorageBlobServiceProperty [-ResourceId] <String> [-DefaultServiceVersion <String>]
- [-EnableChangeFeed <Boolean>] [-ChangeFeedRetentionInDays <Int32>] [-IsVersioningEnabled <Boolean>]
- [-CorsRule <PSCorsRule[]>] [-DefaultProfile <IAzureContextContainer>]
- [-WhatIf] [-Confirm] [<CommonParameters>]
+Update-AzStorageBlobServiceProperty [-ResourceId] <string> [-DefaultServiceVersion <string>]
+ [-EnableChangeFeed <bool>] [-ChangeFeedRetentionInDays <int>] [-IsVersioningEnabled <bool>]
+ [-CorsRule <PSCorsRule[]>] [-DefaultProfile <IAzureContextContainer>] [-WhatIf] [-Confirm]
+ [<CommonParameters>]
 ```
 
+## ALIASES
+
 ## DESCRIPTION
+
 The **Update-AzStorageBlobServiceProperty** cmdlet modifies the service properties for the Azure Storage Blob service.
 
 ## EXAMPLES
 
 ### Example 1: Set Blob service DefaultServiceVersion to 2018-03-28
+
 ```powershell
 Update-AzStorageBlobServiceProperty -ResourceGroupName "myresourcegroup" -AccountName "mystorageaccount" -DefaultServiceVersion 2018-03-28
 ```
@@ -51,10 +61,10 @@ StorageAccountName            : mystorageaccount
 ResourceGroupName             : myresourcegroup
 DefaultServiceVersion         : 2018-03-28
 DeleteRetentionPolicy.Enabled : False
-DeleteRetentionPolicy.Days    : 
-RestorePolicy.Enabled         : 
-RestorePolicy.Days            : 
-ChangeFeed.Enabled            : 
+DeleteRetentionPolicy.Days    :
+RestorePolicy.Enabled         :
+RestorePolicy.Days            :
+ChangeFeed.Enabled            :
 ChangeFeed.RetentionInDays    :
 IsVersioningEnabled           :
 ```
@@ -62,6 +72,7 @@ IsVersioningEnabled           :
 This command sets the DefaultServiceVersion of Blob Service to 2018-03-28.
 
 ### Example 2: Enable Changefeed on Blob service of a Storage account with ChangeFeedRetentionInDays as 5 days
+
 ```powershell
 Update-AzStorageBlobServiceProperty -ResourceGroupName "myresourcegroup" -AccountName "mystorageaccount" -EnableChangeFeed $true -ChangeFeedRetentionInDays 5
 ```
@@ -69,23 +80,24 @@ Update-AzStorageBlobServiceProperty -ResourceGroupName "myresourcegroup" -Accoun
 ```output
 StorageAccountName            : mystorageaccount
 ResourceGroupName             : myresourcegroup
-DefaultServiceVersion         : 
+DefaultServiceVersion         :
 DeleteRetentionPolicy.Enabled : False
-DeleteRetentionPolicy.Days    : 
-RestorePolicy.Enabled         : 
-RestorePolicy.Days            : 
+DeleteRetentionPolicy.Days    :
+RestorePolicy.Enabled         :
+RestorePolicy.Days            :
 ChangeFeed.Enabled            : True
 ChangeFeed.RetentionInDays    : 5
 IsVersioningEnabled           :
 ```
 
 This command enables Changefeed on Blob service of a Storage account with ChangeFeedRetentionInDays as 5 days.
-Change feed support in Azure Blob Storage works by listening to a GPv2 or Blob storage account for any blob level creation, modification, or deletion events. 
-It then outputs an ordered log of events for the blobs stored in the $blobchangefeed container within the storage account. 
+Change feed support in Azure Blob Storage works by listening to a GPv2 or Blob storage account for any blob level creation, modification, or deletion events.
+It then outputs an ordered log of events for the blobs stored in the $blobchangefeed container within the storage account.
 The serialized changes are persisted as an Apache Avro file and can be processed asynchronously and incrementally.
 If not specify ChangeFeedRetentionInDays, will get null value in service properties, indicates an infinite retention of the change feed.
 
 ### Example 3: Enable Versioning on Blob service of a Storage account
+
 ```powershell
 Update-AzStorageBlobServiceProperty -ResourceGroupName "myresourcegroup" -AccountName "mystorageaccount" -IsVersioningEnabled $true
 ```
@@ -93,12 +105,12 @@ Update-AzStorageBlobServiceProperty -ResourceGroupName "myresourcegroup" -Accoun
 ```output
 StorageAccountName            : mystorageaccount
 ResourceGroupName             : myresourcegroup
-DefaultServiceVersion         : 
+DefaultServiceVersion         :
 DeleteRetentionPolicy.Enabled : False
-DeleteRetentionPolicy.Days    : 
-RestorePolicy.Enabled         : 
-RestorePolicy.Days            : 
-ChangeFeed                    : 
+DeleteRetentionPolicy.Days    :
+RestorePolicy.Enabled         :
+RestorePolicy.Days            :
+ChangeFeed                    :
 ChangeFeed.RetentionInDays    :
 IsVersioningEnabled           : True
 ```
@@ -106,15 +118,16 @@ IsVersioningEnabled           : True
 This command enables Versioning on Blob service of a Storage account
 
 ### Example 4: Update CORS rules
+
 ```powershell
 $CorsRules = (@{
     AllowedHeaders=@("x-ms-blob-content-type","x-ms-blob-content-disposition");
-    ExposedHeaders=@(); 
+    ExposedHeaders=@();
     AllowedOrigins=@("*");
     AllowedMethods=@("TRACE","CONNECT")},
     @{
-    AllowedOrigins=@("http://www.fabrikam.com","http://www.contoso.com"); 
-    ExposedHeaders=@("x-ms-meta-data*","x-ms-meta-customheader"); 
+    AllowedOrigins=@("http://www.fabrikam.com","http://www.contoso.com");
+    ExposedHeaders=@("x-ms-meta-data*","x-ms-meta-customheader");
     AllowedHeaders=@("x-ms-meta-target*","x-ms-meta-customheader");
     MaxAgeInSeconds=30;
     AllowedMethods=@("PUT")})
@@ -141,6 +154,7 @@ The first command assigns an array of rules to the $CorsRules variable. This com
 The second command sets the rules in $CorsRules to the Blob service of a Storage account.
 
 ### Example 5: Clean up CORS rules
+
 ```powershell
 Update-AzStorageBlobServiceProperty -ResourceGroupName myresourcegroup -StorageAccountName mystorageaccount -CorsRule @()
 ```
@@ -150,189 +164,274 @@ This command cleans up the CORS rules of a Storage account by inputting @() to p
 ## PARAMETERS
 
 ### -ChangeFeedRetentionInDays
-Indicates the duration of changeFeed retention in days. Minimum value is 1 day and maximum value is 146000 days (400 years). 
+
+Indicates the duration of changeFeed retention in days. Minimum value is 1 day and maximum value is 146000 days (400 years).
 Never specify it when enabled changeFeed will get null value in service properties, indicates an infinite retention of the change feed.
+Indicates the duration of changeFeed retention in days. Minimum value is 1 day and maximum value is 146000 days (400 years). Never specify it when enabled changeFeed will get null value in service properties, indicates an infinite retention of the change feed.
 
 ```yaml
 Type: System.Int32
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -CorsRule
-Specifies CORS rules for the Blob service.
-
-```yaml
-Type: Microsoft.Azure.Commands.Management.Storage.Models.PSCorsRule[]
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -DefaultProfile
-The credentials, account, tenant, and subscription used for communication with Azure.
-
-```yaml
-Type: Microsoft.Azure.Commands.Common.Authentication.Abstractions.Core.IAzureContextContainer
-Parameter Sets: (All)
-Aliases: AzContext, AzureRmContext, AzureCredential
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -DefaultServiceVersion
-Default Service Version to Set
-
-```yaml
-Type: System.String
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -EnableChangeFeed
-Enable Change Feed logging for the storage account by set to $true, disable Change Feed logging by set to $false.
-
-```yaml
-Type: System.Boolean
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -IsVersioningEnabled
-Gets or sets versioning is enabled if set to true.
-
-```yaml
-Type: System.Boolean
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ResourceGroupName
-Resource Group Name.
-
-```yaml
-Type: System.String
-Parameter Sets: AccountName
-Aliases:
-
-Required: True
-Position: 0
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ResourceId
-Input a Storage account Resource Id, or a Blob service properties Resource Id.
-
-```yaml
-Type: System.String
-Parameter Sets: BlobServicePropertiesResourceId
-Aliases:
-
-Required: True
-Position: 0
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -StorageAccount
-Storage account object
-
-```yaml
-Type: Microsoft.Azure.Commands.Management.Storage.Models.PSStorageAccount
-Parameter Sets: AccountObject
-Aliases:
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByValue)
-Accept wildcard characters: False
-```
-
-### -StorageAccountName
-Storage Account Name.
-
-```yaml
-Type: System.String
-Parameter Sets: AccountName
-Aliases: AccountName, Name
-
-Required: True
-Position: 1
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -Confirm
+
 Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-Parameter Sets: (All)
-Aliases: cf
+DefaultValue: None
+SupportsWildcards: false
+Aliases:
+- cf
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
 
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+### -CorsRule
+
+Specifies CORS rules for the Blob service.
+
+```yaml
+Type: Microsoft.Azure.Commands.Management.Storage.Models.PSCorsRule[]
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -DefaultProfile
+
+The credentials, account, tenant, and subscription used for communication with Azure.
+
+```yaml
+Type: Microsoft.Azure.Commands.Common.Authentication.Abstractions.Core.IAzureContextContainer
+DefaultValue: None
+SupportsWildcards: false
+Aliases:
+- AzContext
+- AzureRmContext
+- AzureCredential
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -DefaultServiceVersion
+
+Default Service Version to Set
+
+```yaml
+Type: System.String
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -EnableChangeFeed
+
+Enable Change Feed logging for the storage account by set to $true, disable Change Feed logging by set to $false.
+
+```yaml
+Type: System.Boolean
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -IsVersioningEnabled
+
+Gets or sets versioning is enabled if set to true.
+
+```yaml
+Type: System.Boolean
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -ResourceGroupName
+
+Resource Group Name.
+
+```yaml
+Type: System.String
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: AccountName
+  Position: 0
+  IsRequired: true
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -ResourceId
+
+Input a Storage account Resource Id, or a Blob service properties Resource Id.
+
+```yaml
+Type: System.String
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: BlobServicePropertiesResourceId
+  Position: 0
+  IsRequired: true
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: true
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -StorageAccount
+
+Storage account object
+
+```yaml
+Type: Microsoft.Azure.Commands.Management.Storage.Models.PSStorageAccount
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: AccountObject
+  Position: Named
+  IsRequired: true
+  ValueFromPipeline: true
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
+```
+
+### -StorageAccountName
+
+Storage Account Name.
+
+```yaml
+Type: System.String
+DefaultValue: None
+SupportsWildcards: false
+Aliases:
+- AccountName
+- Name
+ParameterSets:
+- Name: AccountName
+  Position: 1
+  IsRequired: true
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -WhatIf
+
 Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
+Runs the command in a mode that only reports what would happen without performing the actions.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-Parameter Sets: (All)
-Aliases: wi
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases:
+- wi
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see [about_CommonParameters](http://go.microsoft.com/fwlink/?LinkID=113216).
+
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+-InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
+-ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+[about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -347,3 +446,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
+{{ Fill in the related links here }}
+

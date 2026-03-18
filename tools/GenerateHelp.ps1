@@ -1,4 +1,4 @@
-#Requires -Modules platyPS
+#Requires -Modules Microsoft.PowerShell.PlatyPS
 [CmdletBinding()]
 Param(
     [Parameter()]
@@ -18,14 +18,11 @@ Import-Module "$PSScriptRoot\HelpGeneration\HelpGeneration.psm1"
 $UnfilteredHelpFolders = Get-ChildItem -Include 'help' -Path "$PSScriptRoot\..\artifacts" -Recurse -Directory | where { $_.FullName -like "*$BuildConfig*" -and (-not [Tools.Common.Utilities.ModuleFilter]::IsAzureStackModule($_.FullName)) }
 
 $FilteredHelpFolders = $UnfilteredHelpFolders
-if (![string]::IsNullOrEmpty($FilteredModules))
-{
+if (![string]::IsNullOrEmpty($FilteredModules)) {
     $FilteredModulesList = $FilteredModules -split ';'
     $FilteredHelpFolders = @()
-    foreach ($HelpFolder in $UnfilteredHelpFolders)
-    {
-        if (($FilteredModulesList | where { $HelpFolder -like "*\$($_)\*" }) -ne $null)
-        {
+    foreach ($HelpFolder in $UnfilteredHelpFolders) {
+        if (($FilteredModulesList | where { $HelpFolder -like "*\$($_)\*" }) -ne $null) {
             $FilteredHelpFolders += $HelpFolder
         }
     }
@@ -33,48 +30,45 @@ if (![string]::IsNullOrEmpty($FilteredModules))
 
 # ---------------------------------------------------------------------------------------------
 
-if ($ValidateMarkdownHelp)
-{
+if ($ValidateMarkdownHelp) {
     $SuppressedExceptionsPath = "$PSScriptRoot\StaticAnalysis\Exceptions"
-    if (!(Test-Path -Path $SuppressedExceptionsPath))
-    {
+    if (!(Test-Path -Path $SuppressedExceptionsPath)) {
         New-Item -Path "$PSScriptRoot\..\artifacts" -Name "Exceptions" -ItemType Directory
     }
 
     $Exceptions = @()
-    foreach ($ServiceFolder in $ResourceManagerFolders)
-    {
+    foreach ($ServiceFolder in $ResourceManagerFolders) {
         $HelpFolder = (Get-ChildItem -Path $ServiceFolder.FullName -Filter "help" -Recurse -Directory)
-        if ($HelpFolder -eq $null)
-        {
+        if ($HelpFolder -eq $null) {
             $Exceptions += $ServiceFolder.Name
         }
     }
 
-    if ($Exceptions.Count -gt 0)
-    {
+    if ($Exceptions.Count -gt 0) {
         $Services = $Exceptions -Join ", "
         throw "No help folder found in the following services: $Services"
     }
 
     $NewExceptionsPath = "$PSScriptRoot\..\artifacts\StaticAnalysisResults"
-    if (!(Test-Path -Path $NewExceptionsPath))
-    {
+    if (!(Test-Path -Path $NewExceptionsPath)) {
         New-Item -Path "$PSScriptRoot\..\artifacts" -Name "StaticAnalysisResults" -ItemType Directory
     }
-    
+
     Copy-Item -Path "$PSScriptRoot\HelpGeneration\Exceptions\ValidateHelpIssues.csv" -Destination $SuppressedExceptionsPath
     New-Item -Path $NewExceptionsPath -Name ValidateHelpIssues.csv -ItemType File -Force | Out-Null
     Add-Content "$NewExceptionsPath\ValidateHelpIssues.csv" "Target,Description"
     $FilteredHelpFolders | foreach { Test-AzMarkdownHelp $_.FullName $SuppressedExceptionsPath $NewExceptionsPath }
     $Exceptions = Import-Csv "$NewExceptionsPath\ValidateHelpIssues.csv"
-    if (($Exceptions | Measure-Object).Count -gt 0)
-    {
-        $Exceptions | Format-List
-        throw "A markdown file containing the help for a cmdlet is incomplete. Please check the exceptions provided for more details."
+    if (($Exceptions | Measure-Object).Count -gt 0) {
+        Write-Host "##[error]============ Help Validation Errors ============"
+        $Exceptions | ForEach-Object {
+            Write-Host "##[error]  [$($_.Target)] $($_.Description)"
+        }
+        Write-Host "##[error]================================================"
+        Write-Host "##[error]Total issues: $(($Exceptions | Measure-Object).Count). Please fix the above issues in the corresponding help markdown files."
+        exit 1
     }
-    else
-    {
+    else {
         New-Item -Path $NewExceptionsPath -Name NoHelpIssues -ItemType File -Force | Out-Null
         Remove-Item -Path "$SuppressedExceptionsPath\ValidateHelpIssues.csv" -Force
         Remove-Item -Path "$NewExceptionsPath\ValidateHelpIssues.csv" -Force
@@ -84,21 +78,16 @@ if ($ValidateMarkdownHelp)
 # We need to define new version of module instead of hardcode here
 $GeneratedModuleListPath = [System.IO.Path]::Combine($PSScriptRoot, "GeneratedModuleList.txt")
 $GeneratedModules = Get-Content $GeneratedModuleListPath
-if ($GenerateMamlHelp)
-{
-    foreach ($HelpFolder in $FilteredHelpFolders)
-    {
-        $ModuleName = "" 
-        if($HelpFolder -match "(?s)artifacts\\$BuildConfig\\(?<module>.+)\\help")
-        {
+if ($GenerateMamlHelp) {
+    foreach ($HelpFolder in $FilteredHelpFolders) {
+        $ModuleName = ""
+        if ($HelpFolder -match "(?s)artifacts\\$BuildConfig\\(?<module>.+)\\help") {
             $ModuleName = $Matches["module"]
         }
-        if($HelpFolder -match "(?s)artifacts/$BuildConfig/(?<module>.+)/help")
-        {
+        if ($HelpFolder -match "(?s)artifacts/$BuildConfig/(?<module>.+)/help") {
             $ModuleName = $Matches["module"]
         }
-        if($GeneratedModules -notcontains $ModuleName)
-        {
+        if ($GeneratedModules -notcontains $ModuleName) {
             New-AzMamlHelp $HelpFolder.FullName
 
         }

@@ -12,8 +12,7 @@
 // limitations under the License.
 // ----------------------------------------------------------------------------------
 
-using Markdown.MAML.Parser;
-using Markdown.MAML.Transformer;
+using Microsoft.PowerShell.PlatyPS;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -297,13 +296,23 @@ namespace StaticAnalysis.HelpAnalyzer
             foreach (var helpMarkdown in helpRecords)
             {
                 var file = Path.Combine(helpFolder, helpMarkdown + ".md");
-                var content = File.ReadAllText(file);
                 try
                 {
-                    var parser = new MarkdownParser();
-                    var transformer = new ModelTransformerVersion2();
-                    var markdownModel = parser.ParseString(new[] { content });
-                    var model = transformer.NodeModelToMamlModel(markdownModel).FirstOrDefault();
+                    var issues = new List<string>();
+                    var isValid = MarkdownConverter.ValidateMarkdownFile(file, out issues);
+                    if (!isValid)
+                    {
+                        HelpIssue issue = new HelpIssue
+                        {
+                            Target = helpMarkdown,
+                            Severity = 1,
+                            ProblemId = PlatyPSSchemaViolation,
+                            Description = "Help content doesn't conform to PlatyPS Schema definition: " + string.Join("; ", issues),
+                            Remediation = string.Format("No.")
+                        };
+                        helpLogger.LogRecord(issue);
+                        Console.Error.WriteLine($"Failed to validate {file} by PlatyPS: {string.Join("; ", issues)}");
+                    }
                 }
                 catch (Exception ex)
                 {

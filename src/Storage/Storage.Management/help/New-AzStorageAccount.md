@@ -1,92 +1,108 @@
----
+﻿---
+document type: cmdlet
 external help file: Microsoft.Azure.PowerShell.Cmdlets.Storage.Management.dll-Help.xml
+HelpUri: https://learn.microsoft.com/powershell/module/az.storage/new-azstorageaccount
 Module Name: Az.Storage
 ms.assetid: A3DA1205-B8FB-4B4C-9C40-AD303D038EDF
-online version: https://learn.microsoft.com/powershell/module/az.storage/new-azstorageaccount
-schema: 2.0.0
+ms.date: 03/18/2026
+PlatyPS schema version: 2024-05-01
 ---
 
 # New-AzStorageAccount
 
 ## SYNOPSIS
+
 Creates a Storage account.
 
 ## SYNTAX
 
 ### AzureActiveDirectoryDomainServicesForFile (Default)
+
 ```
-New-AzStorageAccount [-ResourceGroupName] <String> [-Name] <String> [-SkuName] <String> [-Location] <String>
- [-Kind <String>] [-AccessTier <String>] [-CustomDomainName <String>] [-UseSubDomain <Boolean>]
- [-Tag <Hashtable>] [-EnableHttpsTrafficOnly <Boolean>] [-AssignIdentity] [-UserAssignedIdentityId <String>]
- [-IdentityType <String>] [-KeyVaultUserAssignedIdentityId <String>] [-KeyVaultFederatedClientId <String>]
- [-KeyName <String>] [-KeyVersion <String>] [-KeyVaultUri <String>] [-NetworkRuleSet <PSNetworkRuleSet>]
- [-EnableSftp <Boolean>] [-EnableLocalUser <Boolean>] [-EnableHierarchicalNamespace <Boolean>]
- [-EnableAzureActiveDirectoryDomainServicesForFile <Boolean>] [-EnableLargeFileShare]
- [-PublishMicrosoftEndpoint <Boolean>] [-PublishInternetEndpoint <Boolean>] [-EnableSmbOAuth <Boolean>]
- [-AsJob] [-EncryptionKeyTypeForTable <String>] [-EncryptionKeyTypeForQueue <String>]
- [-RequireInfrastructureEncryption] [-SasExpirationPeriod <TimeSpan>] [-SasExpirationAction <String>]
- [-KeyExpirationPeriodInDay <Int32>] [-AllowBlobPublicAccess <Boolean>] [-MinimumTlsVersion <String>]
- [-AllowSharedKeyAccess <Boolean>] [-EnableNfsV3 <Boolean>] [-AllowCrossTenantReplication <Boolean>]
- [-DefaultSharePermission <String>] [-EdgeZone <String>] [-PublicNetworkAccess <String>]
- [-EnableAccountLevelImmutability] [-ImmutabilityPeriod <Int32>] [-ImmutabilityPolicyState <String>]
- [-AllowedCopyScope <String>] [-DnsEndpointType <String>] [-Zone <String[]>] [-ZonePlacementPolicy <String>]
- [-EnableBlobGeoPriorityReplication <Boolean>] [-DefaultProfile <IAzureContextContainer>]
- [-RoutingChoice <String>] [<CommonParameters>]
+New-AzStorageAccount [-ResourceGroupName] <string> [-Name] <string> [-SkuName] <string>
+ [-Location] <string> [-Kind <string>] [-AccessTier <string>] [-CustomDomainName <string>]
+ [-UseSubDomain <bool>] [-Tag <hashtable>] [-EnableHttpsTrafficOnly <bool>] [-AssignIdentity]
+ [-UserAssignedIdentityId <string>] [-IdentityType <string>]
+ [-KeyVaultUserAssignedIdentityId <string>] [-KeyVaultFederatedClientId <string>]
+ [-KeyName <string>] [-KeyVersion <string>] [-KeyVaultUri <string>]
+ [-NetworkRuleSet <PSNetworkRuleSet>] [-EnableSftp <bool>] [-EnableLocalUser <bool>]
+ [-EnableHierarchicalNamespace <bool>] [-EnableAzureActiveDirectoryDomainServicesForFile <bool>]
+ [-EnableLargeFileShare] [-PublishMicrosoftEndpoint <bool>] [-PublishInternetEndpoint <bool>]
+ [-EnableSmbOAuth <bool>] [-AsJob] [-EncryptionKeyTypeForTable <string>]
+ [-EncryptionKeyTypeForQueue <string>] [-RequireInfrastructureEncryption]
+ [-SasExpirationPeriod <timespan>] [-SasExpirationAction <string>] [-KeyExpirationPeriodInDay <int>]
+ [-AllowBlobPublicAccess <bool>] [-MinimumTlsVersion <string>] [-AllowSharedKeyAccess <bool>]
+ [-EnableNfsV3 <bool>] [-AllowCrossTenantReplication <bool>] [-DefaultSharePermission <string>]
+ [-EdgeZone <string>] [-PublicNetworkAccess <string>] [-EnableAccountLevelImmutability]
+ [-ImmutabilityPeriod <int>] [-ImmutabilityPolicyState <string>] [-AllowedCopyScope <string>]
+ [-DnsEndpointType <string>] [-Zone <string[]>] [-ZonePlacementPolicy <string>]
+ [-EnableBlobGeoPriorityReplication <bool>] [-DefaultProfile <IAzureContextContainer>]
+ [-RoutingChoice <string>] [<CommonParameters>]
 ```
 
 ### AzureActiveDirectoryKerberosForFile
+
 ```
-New-AzStorageAccount [-ResourceGroupName] <String> [-Name] <String> [-SkuName] <String> [-Location] <String>
- [-Kind <String>] [-AccessTier <String>] [-CustomDomainName <String>] [-UseSubDomain <Boolean>]
- [-Tag <Hashtable>] [-EnableHttpsTrafficOnly <Boolean>] [-AssignIdentity] [-UserAssignedIdentityId <String>]
- [-IdentityType <String>] [-KeyVaultUserAssignedIdentityId <String>] [-KeyVaultFederatedClientId <String>]
- [-KeyName <String>] [-KeyVersion <String>] [-KeyVaultUri <String>] [-NetworkRuleSet <PSNetworkRuleSet>]
- [-EnableSftp <Boolean>] [-EnableLocalUser <Boolean>] [-EnableHierarchicalNamespace <Boolean>]
- [-EnableLargeFileShare] [-PublishMicrosoftEndpoint <Boolean>] [-PublishInternetEndpoint <Boolean>]
- -EnableAzureActiveDirectoryKerberosForFile <Boolean> [-ActiveDirectoryDomainName <String>]
- [-ActiveDirectoryDomainGuid <String>] [-EnableSmbOAuth <Boolean>] [-AsJob]
- [-EncryptionKeyTypeForTable <String>] [-EncryptionKeyTypeForQueue <String>] [-RequireInfrastructureEncryption]
- [-SasExpirationPeriod <TimeSpan>] [-SasExpirationAction <String>] [-KeyExpirationPeriodInDay <Int32>]
- [-AllowBlobPublicAccess <Boolean>] [-MinimumTlsVersion <String>] [-AllowSharedKeyAccess <Boolean>]
- [-EnableNfsV3 <Boolean>] [-AllowCrossTenantReplication <Boolean>] [-DefaultSharePermission <String>]
- [-EdgeZone <String>] [-PublicNetworkAccess <String>] [-EnableAccountLevelImmutability]
- [-ImmutabilityPeriod <Int32>] [-ImmutabilityPolicyState <String>] [-AllowedCopyScope <String>]
- [-DnsEndpointType <String>] [-Zone <String[]>] [-ZonePlacementPolicy <String>]
- [-EnableBlobGeoPriorityReplication <Boolean>] [-DefaultProfile <IAzureContextContainer>]
- [-RoutingChoice <String>] [<CommonParameters>]
+New-AzStorageAccount [-ResourceGroupName] <string> [-Name] <string> [-SkuName] <string>
+ [-Location] <string> -EnableAzureActiveDirectoryKerberosForFile <bool> [-Kind <string>]
+ [-AccessTier <string>] [-CustomDomainName <string>] [-UseSubDomain <bool>] [-Tag <hashtable>]
+ [-EnableHttpsTrafficOnly <bool>] [-AssignIdentity] [-UserAssignedIdentityId <string>]
+ [-IdentityType <string>] [-KeyVaultUserAssignedIdentityId <string>]
+ [-KeyVaultFederatedClientId <string>] [-KeyName <string>] [-KeyVersion <string>]
+ [-KeyVaultUri <string>] [-NetworkRuleSet <PSNetworkRuleSet>] [-EnableSftp <bool>]
+ [-EnableLocalUser <bool>] [-EnableHierarchicalNamespace <bool>] [-EnableLargeFileShare]
+ [-PublishMicrosoftEndpoint <bool>] [-PublishInternetEndpoint <bool>]
+ [-ActiveDirectoryDomainName <string>] [-ActiveDirectoryDomainGuid <string>]
+ [-EnableSmbOAuth <bool>] [-AsJob] [-EncryptionKeyTypeForTable <string>]
+ [-EncryptionKeyTypeForQueue <string>] [-RequireInfrastructureEncryption]
+ [-SasExpirationPeriod <timespan>] [-SasExpirationAction <string>] [-KeyExpirationPeriodInDay <int>]
+ [-AllowBlobPublicAccess <bool>] [-MinimumTlsVersion <string>] [-AllowSharedKeyAccess <bool>]
+ [-EnableNfsV3 <bool>] [-AllowCrossTenantReplication <bool>] [-DefaultSharePermission <string>]
+ [-EdgeZone <string>] [-PublicNetworkAccess <string>] [-EnableAccountLevelImmutability]
+ [-ImmutabilityPeriod <int>] [-ImmutabilityPolicyState <string>] [-AllowedCopyScope <string>]
+ [-DnsEndpointType <string>] [-Zone <string[]>] [-ZonePlacementPolicy <string>]
+ [-EnableBlobGeoPriorityReplication <bool>] [-DefaultProfile <IAzureContextContainer>]
+ [-RoutingChoice <string>] [<CommonParameters>]
 ```
 
 ### ActiveDirectoryDomainServicesForFile
+
 ```
-New-AzStorageAccount [-ResourceGroupName] <String> [-Name] <String> [-SkuName] <String> [-Location] <String>
- [-Kind <String>] [-AccessTier <String>] [-CustomDomainName <String>] [-UseSubDomain <Boolean>]
- [-Tag <Hashtable>] [-EnableHttpsTrafficOnly <Boolean>] [-AssignIdentity] [-UserAssignedIdentityId <String>]
- [-IdentityType <String>] [-KeyVaultUserAssignedIdentityId <String>] [-KeyVaultFederatedClientId <String>]
- [-KeyName <String>] [-KeyVersion <String>] [-KeyVaultUri <String>] [-NetworkRuleSet <PSNetworkRuleSet>]
- [-EnableSftp <Boolean>] [-EnableLocalUser <Boolean>] [-EnableHierarchicalNamespace <Boolean>]
- [-EnableLargeFileShare] [-PublishMicrosoftEndpoint <Boolean>] [-PublishInternetEndpoint <Boolean>]
- [-EnableActiveDirectoryDomainServicesForFile <Boolean>] [-ActiveDirectoryDomainName <String>]
- [-ActiveDirectoryNetBiosDomainName <String>] [-ActiveDirectoryForestName <String>]
- [-ActiveDirectoryDomainGuid <String>] [-ActiveDirectoryDomainSid <String>]
- [-ActiveDirectoryAzureStorageSid <String>] [-ActiveDirectorySamAccountName <String>]
- [-EnableSmbOAuth <Boolean>] [-ActiveDirectoryAccountType <String>] [-AsJob]
- [-EncryptionKeyTypeForTable <String>] [-EncryptionKeyTypeForQueue <String>] [-RequireInfrastructureEncryption]
- [-SasExpirationPeriod <TimeSpan>] [-SasExpirationAction <String>] [-KeyExpirationPeriodInDay <Int32>]
- [-AllowBlobPublicAccess <Boolean>] [-MinimumTlsVersion <String>] [-AllowSharedKeyAccess <Boolean>]
- [-EnableNfsV3 <Boolean>] [-AllowCrossTenantReplication <Boolean>] [-DefaultSharePermission <String>]
- [-EdgeZone <String>] [-PublicNetworkAccess <String>] [-EnableAccountLevelImmutability]
- [-ImmutabilityPeriod <Int32>] [-ImmutabilityPolicyState <String>] [-AllowedCopyScope <String>]
- [-DnsEndpointType <String>] [-Zone <String[]>] [-ZonePlacementPolicy <String>]
- [-EnableBlobGeoPriorityReplication <Boolean>] [-DefaultProfile <IAzureContextContainer>]
- [-RoutingChoice <String>] [<CommonParameters>]
+New-AzStorageAccount [-ResourceGroupName] <string> [-Name] <string> [-SkuName] <string>
+ [-Location] <string> [-Kind <string>] [-AccessTier <string>] [-CustomDomainName <string>]
+ [-UseSubDomain <bool>] [-Tag <hashtable>] [-EnableHttpsTrafficOnly <bool>] [-AssignIdentity]
+ [-UserAssignedIdentityId <string>] [-IdentityType <string>]
+ [-KeyVaultUserAssignedIdentityId <string>] [-KeyVaultFederatedClientId <string>]
+ [-KeyName <string>] [-KeyVersion <string>] [-KeyVaultUri <string>]
+ [-NetworkRuleSet <PSNetworkRuleSet>] [-EnableSftp <bool>] [-EnableLocalUser <bool>]
+ [-EnableHierarchicalNamespace <bool>] [-EnableLargeFileShare] [-PublishMicrosoftEndpoint <bool>]
+ [-PublishInternetEndpoint <bool>] [-EnableActiveDirectoryDomainServicesForFile <bool>]
+ [-ActiveDirectoryDomainName <string>] [-ActiveDirectoryNetBiosDomainName <string>]
+ [-ActiveDirectoryForestName <string>] [-ActiveDirectoryDomainGuid <string>]
+ [-ActiveDirectoryDomainSid <string>] [-ActiveDirectoryAzureStorageSid <string>]
+ [-ActiveDirectorySamAccountName <string>] [-EnableSmbOAuth <bool>]
+ [-ActiveDirectoryAccountType <string>] [-AsJob] [-EncryptionKeyTypeForTable <string>]
+ [-EncryptionKeyTypeForQueue <string>] [-RequireInfrastructureEncryption]
+ [-SasExpirationPeriod <timespan>] [-SasExpirationAction <string>] [-KeyExpirationPeriodInDay <int>]
+ [-AllowBlobPublicAccess <bool>] [-MinimumTlsVersion <string>] [-AllowSharedKeyAccess <bool>]
+ [-EnableNfsV3 <bool>] [-AllowCrossTenantReplication <bool>] [-DefaultSharePermission <string>]
+ [-EdgeZone <string>] [-PublicNetworkAccess <string>] [-EnableAccountLevelImmutability]
+ [-ImmutabilityPeriod <int>] [-ImmutabilityPolicyState <string>] [-AllowedCopyScope <string>]
+ [-DnsEndpointType <string>] [-Zone <string[]>] [-ZonePlacementPolicy <string>]
+ [-EnableBlobGeoPriorityReplication <bool>] [-DefaultProfile <IAzureContextContainer>]
+ [-RoutingChoice <string>] [<CommonParameters>]
 ```
 
+## ALIASES
+
 ## DESCRIPTION
+
 The **New-AzStorageAccount** cmdlet creates an Azure Storage account.
 
 ## EXAMPLES
 
 ### Example 1: Create a Storage account
+
 ```powershell
 New-AzStorageAccount -ResourceGroupName MyResourceGroup -Name mystorageaccount -Location westus -SkuName Standard_GRS -MinimumTlsVersion TLS1_2
 ```
@@ -94,6 +110,7 @@ New-AzStorageAccount -ResourceGroupName MyResourceGroup -Name mystorageaccount -
 This command creates a Storage account for the resource group name MyResourceGroup.
 
 ### Example 2: Create a Blob Storage account with BlobStorage Kind and hot AccessTier
+
 ```powershell
 New-AzStorageAccount -ResourceGroupName MyResourceGroup -Name mystorageaccount -Location westus -SkuName Standard_GRS -Kind BlobStorage -AccessTier Hot
 ```
@@ -101,6 +118,7 @@ New-AzStorageAccount -ResourceGroupName MyResourceGroup -Name mystorageaccount -
 This command creates a Blob Storage account that with BlobStorage Kind and hot AccessTier
 
 ### Example 3: Create a Storage account with Kind StorageV2, and Generate and Assign an Identity for Azure KeyVault.
+
 ```powershell
 New-AzStorageAccount -ResourceGroupName MyResourceGroup -Name mystorageaccount -Location westus -SkuName Standard_GRS -Kind StorageV2 -AssignIdentity
 ```
@@ -108,6 +126,7 @@ New-AzStorageAccount -ResourceGroupName MyResourceGroup -Name mystorageaccount -
 This command creates a Storage account with Kind StorageV2.  It also generates and assigns an identity that can be used to manage account keys through Azure KeyVault.
 
 ### Example 4: Create a Storage account with NetworkRuleSet from JSON
+
 ```powershell
 New-AzStorageAccount -ResourceGroupName MyResourceGroup -Name mystorageaccount -Location westus -Type Standard_LRS -NetworkRuleSet (@{bypass="Logging,Metrics";
     ipRules=(@{IPAddressOrRange="20.11.0.0/16";Action="allow"},
@@ -120,6 +139,7 @@ New-AzStorageAccount -ResourceGroupName MyResourceGroup -Name mystorageaccount -
 This command creates a Storage account that has NetworkRuleSet property from JSON
 
 ### Example 5: Create a Storage account with Hierarchical Namespace enabled, Sftp enabled, and localuser enabled.
+
 ```powershell
 New-AzStorageAccount -ResourceGroupName "MyResourceGroup" -AccountName "mystorageaccount" -Location "US West" -SkuName "Standard_GRS" -Kind StorageV2  -EnableHierarchicalNamespace $true -EnableSftp $true -EnableLocalUser $true
 ```
@@ -127,6 +147,7 @@ New-AzStorageAccount -ResourceGroupName "MyResourceGroup" -AccountName "mystorag
 This command creates a Storage account with Hierarchical Namespace enabled, Sftp enabled, and localuser enabled.
 
 ### Example 6: Create a Storage account with Azure Files Microsoft Entra Domain Services Authentication, and enable large file share.
+
 ```powershell
 New-AzStorageAccount -ResourceGroupName "MyResourceGroup" -Name "mystorageaccount" -Location "eastus2euap" -SkuName "Standard_LRS" -Kind StorageV2  -EnableAzureActiveDirectoryDomainServicesForFile $true -EnableLargeFileShare
 ```
@@ -134,6 +155,7 @@ New-AzStorageAccount -ResourceGroupName "MyResourceGroup" -Name "mystorageaccoun
 This command creates a Storage account with Azure Files Microsoft Entra Domain Services Authentication, and enable large file share.
 
 ### Example 7: Create a Storage account with enable Files Active Directory Domain Service Authentication and DefaultSharePermission.
+
 ```powershell
 New-AzStorageAccount -ResourceGroupName "MyResourceGroup" -Name "mystorageaccount" -Location "eastus2euap" -SkuName "Standard_LRS" -Kind StorageV2  -EnableActiveDirectoryDomainServicesForFile $true `
         -ActiveDirectoryDomainName "mydomain.com" `
@@ -150,6 +172,7 @@ New-AzStorageAccount -ResourceGroupName "MyResourceGroup" -Name "mystorageaccoun
 This command creates a Storage account withenable Files Active Directory Domain Service Authentication and DefaultSharePermission.
 
 ### Example 8: Create a Storage account with Queue and Table Service use account-scoped encryption key, and Require Infrastructure Encryption.
+
 <!-- Skip: Output cannot be splitted from code -->
 
 
@@ -178,6 +201,7 @@ This command creates a Storage account with Queue and Table Service use account-
 Then get the Storage account properties, and view the encryption keytype of Queue and Table Service, and RequireInfrastructureEncryption value.
 
 ### Example 9: Create account MinimumTlsVersion  and AllowBlobPublicAccess, and disable SharedKey Access
+
 <!-- Skip: Output cannot be splitted from code -->
 
 
@@ -194,9 +218,10 @@ $a.AllowSharedKeyAccess
 False
 ```
 
-The command create account with MinimumTlsVersion, AllowBlobPublicAccess, and disable SharedKey access to the account, and then show the 3 properties of the created account 
+The command create account with MinimumTlsVersion, AllowBlobPublicAccess, and disable SharedKey access to the account, and then show the 3 properties of the created account
 
 ### Example 10: Create a Storage account with RoutingPreference setting
+
 <!-- Skip: Output cannot be splitted from code -->
 
 
@@ -226,6 +251,7 @@ InternetEndpoints  : {"Blob":"https://mystorageaccount-internetrouting.blob.core
 This command creates a Storage account with RoutingPreference setting: PublishMicrosoftEndpoint and PublishInternetEndpoint as true, and RoutingChoice as MicrosoftRouting.
 
 ### Example 11: Create a Storage account with EdgeZone and AllowCrossTenantReplication
+
 <!-- Skip: Output cannot be splitted from code -->
 
 
@@ -234,8 +260,8 @@ $account = New-AzStorageAccount -ResourceGroupName "myresourcegroup" -Name "myst
 
 $account.ExtendedLocation
 
-Name                 Type    
-----                 ----    
+Name                 Type
+----                 ----
 microsoftlosangeles1 EdgeZone
 
 $account.AllowCrossTenantReplication
@@ -245,6 +271,7 @@ False
 This command creates a Storage account with EdgeZone as "microsoftlosangeles1" and AllowCrossTenantReplication as false, then show the created account related properties.
 
 ### Example 12: Create a Storage account with KeyExpirationPeriod and SasExpirationPeriod with SasExpirationAction
+
 <!-- Skip: Output cannot be splitted from code -->
 
 
@@ -264,6 +291,7 @@ SasExpirationPeriod ExpirationAction
 This command creates a Storage account with KeyExpirationPeriod and SasExpirationPeriod with SasExpirationAction, then show the created account related properties.
 
 ### Example 12: Create a Storage account with Keyvault encryption (access Keyvault with user assigned identity)
+
 <!-- Skip: Output cannot be splitted from code -->
 
 
@@ -284,14 +312,14 @@ $account = New-AzStorageAccount -ResourceGroupName $resourceGroupName -Name $sto
 
 $account.Encryption.EncryptionIdentity
 
-EncryptionUserAssignedIdentity                                                                                                                 
------------------------------- 
+EncryptionUserAssignedIdentity
+------------------------------
 /subscriptions/{subscription-id}/resourceGroups/myresourcegroup/providers/Microsoft.ManagedIdentity/userAssignedIdentities/myuserid
 
 $account.Encryption.KeyVaultProperties
 
 KeyName                       : wrappingKey
-KeyVersion                    : 
+KeyVersion                    :
 KeyVaultUri                   : https://mykeyvault.vault.azure.net:443
 CurrentVersionedKeyIdentifier : https://mykeyvault.vault.azure.net/keys/wrappingKey/8e74036e0d534e58b3bd84b319e31d8f
 LastKeyRotationTimestamp      : 4/12/2021 8:17:57 AM
@@ -300,10 +328,11 @@ LastKeyRotationTimestamp      : 4/12/2021 8:17:57 AM
 This command first create a keyvault and a user assigned identity, then create a storage account with keyvault encryption (the storage access access keyvault with the user assigned identity).
 
 ### Example 13: Create account with EnableNfsV3
+
 ```powershell
 $account = New-AzStorageAccount -ResourceGroupName "MyResourceGroup" -Name "mystorageaccount" -SkuName Standard_LRS  -Location centraluseuap -Kind StorageV2 -EnableNfsV3 $true -EnableHierarchicalNamespace $true -EnableHttpsTrafficOnly $false -NetworkRuleSet (@{bypass="Logging,Metrics";
         virtualNetworkRules=(@{VirtualNetworkResourceId="$vnet1";Action="allow"});
-        defaultAction="deny"}) 
+        defaultAction="deny"})
 $account.EnableNfsV3
 ```
 
@@ -311,7 +340,7 @@ $account.EnableNfsV3
 True
 ```
 
-The command create account with EnableNfsV3 as true, and then show the EnableNfsV3 property of the created account 
+The command create account with EnableNfsV3 as true, and then show the EnableNfsV3 property of the created account
 
 ### Example 14: Create account with disable PublicNetworkAccess
 
@@ -328,6 +357,7 @@ Disabled
 The command creates account with disable PublicNetworkAccess of the account.
 
 ### Example 15: Create account with account level Immutability policy
+
 <!-- Skip: Output cannot be splitted from code -->
 
 
@@ -339,15 +369,16 @@ True
 
 $account.ImmutableStorageWithVersioning.ImmutabilityPolicy
 
-ImmutabilityPeriodSinceCreationInDays State    
-------------------------------------- -----    
+ImmutabilityPeriodSinceCreationInDays State
+------------------------------------- -----
                                     1 Unlocked
 ```
 
 The command creates an account and enable account level immutability with versioning by '-EnableAccountLevelImmutability', then all the containers under this account will have object-level immutability enabled by default.
-The account is also created with a default account-level immutability policy which is inherited and applied to objects that do not possess an explicit immutability policy at the object level. 
+The account is also created with a default account-level immutability policy which is inherited and applied to objects that do not possess an explicit immutability policy at the object level.
 
 ### Example 16: Create a Storage account with enable Azure Files Active Directory Domain Service Kerberos Authentication.
+
 ```powershell
 New-AzStorageAccount -ResourceGroupName "MyResourceGroup" -Name "mystorageaccount" -Location "eastus2euap" -SkuName "Standard_LRS" -Kind StorageV2  -EnableAzureActiveDirectoryKerberosForFile $true `
         -ActiveDirectoryDomainName "mydomain.com" `
@@ -357,6 +388,7 @@ New-AzStorageAccount -ResourceGroupName "MyResourceGroup" -Name "mystorageaccoun
 This command creates a Storage account with enable Azure Files Active Directory Domain Service Kerberos Authentication.
 
 ### Example 17: Create a Storage account with Keyvault from another tenant (access Keyvault with FederatedClientId)
+
 <!-- Skip: Output cannot be splitted from code -->
 
 
@@ -368,14 +400,14 @@ $account = New-AzStorageAccount -ResourceGroupName $resourceGroupName -Name $sto
 
 $account.Encryption.EncryptionIdentity
 
-EncryptionUserAssignedIdentity                                                                                                      EncryptionFederatedIdentityClientId                                                                                                                 
-------------------------------                                                                                                      ----------------------------------- 
+EncryptionUserAssignedIdentity                                                                                                      EncryptionFederatedIdentityClientId
+------------------------------                                                                                                      -----------------------------------
 /subscriptions/{subscription-id}/resourceGroups/myresourcegroup/providers/Microsoft.ManagedIdentity/userAssignedIdentities/myuserid ********-****-****-****-************
 
 $account.Encryption.KeyVaultProperties
 
 KeyName                       : wrappingKey
-KeyVersion                    : 
+KeyVersion                    :
 KeyVaultUri                   : https://mykeyvault.vault.azure.net:443
 CurrentVersionedKeyIdentifier : https://mykeyvault.vault.azure.net/keys/wrappingKey/8e74036e0d534e58b3bd84b319e31d8f
 LastKeyRotationTimestamp      : 3/3/2022 2:07:34 AM
@@ -384,6 +416,7 @@ LastKeyRotationTimestamp      : 3/3/2022 2:07:34 AM
 This command creates a storage account with Keyvault from another tenant (access Keyvault with FederatedClientId).
 
 ### Example 18: Create account with DnsEndpointType as AzureDnsZone
+
 ```powershell
 New-AzStorageAccount -ResourceGroupName "MyResourceGroup" -AccountName "mystorageaccount" -SkuName Standard_LRS  -Location centraluseuap -Kind StorageV2 -DnsEndpointType AzureDnsZone
 ```
@@ -391,6 +424,7 @@ New-AzStorageAccount -ResourceGroupName "MyResourceGroup" -AccountName "mystorag
 The command creates a storage account with DnsEndpointType as AzureDnsZone to create a large number of accounts in a single subscription, which creates accounts in an Azure DNS Zone and the endpoint URL will have an alphanumeric DNS Zone identifier.
 
 ### Example 19: Create a Storage account that enables SMB Oauth
+
 ```powershell
 $account = New-AzStorageAccount -ResourceGroupName "MyResourceGroup" -AccountName "mystorageaccount" -SkuName Standard_LRS  -Location centraluseuap -EnableSmbOAuth $true
 
@@ -401,11 +435,12 @@ $account.AzureFilesIdentityBasedAuth.SmbOAuthSettings.IsSmbOAuthEnabled
 True
 ```
 
-This command creates a Storage account that enables SMB Oauth, and then shows the IsSmbOAuthEnabled property of the created account. 
+This command creates a Storage account that enables SMB Oauth, and then shows the IsSmbOAuthEnabled property of the created account.
 
 ### Example 20: Create a Storage account with Zone
+
 ```powershell
-$account = New-AzStorageAccount -ResourceGroupName yifanz1 -Name testzonep5 -SkuName Premium_LRS -Location centraluseuap -Kind FileStorage -Zone 1 
+$account = New-AzStorageAccount -ResourceGroupName yifanz1 -Name testzonep5 -SkuName Premium_LRS -Location centraluseuap -Kind FileStorage -Zone 1
 
 $account.Zone
 ```
@@ -417,6 +452,7 @@ $account.Zone
 This command creates a Storage account that has Zone property as 1, and then shows the Zone property of the created account.
 
 ### Example 21: Create a Storage account with Zone placement policy
+
 ```powershell
 $account = New-AzStorageAccount -ResourceGroupName yifanz1 -Name testzonep5 -SkuName Premium_LRS -Location centraluseuap -Kind FileStorage -ZonePlacementPolicy None
 
@@ -430,6 +466,7 @@ None
 This command creates a Storage account that has zone placement policy as None, and then shows the ZonePlacementPolicy property of the created account.
 
 ### Example 22: Create a Storage account with Blob Geo Priority Replication enabled
+
 ```powershell
 $account = New-AzStorageAccount -ResourceGroupName "MyResourceGroup" -Name "mystorageaccount" -SkuName Standard_GRS -Location centraluseuap -EnableBlobGeoPriorityReplication $true
 
@@ -445,673 +482,969 @@ This command creates a Storage account with Blob Geo Priority Replication enable
 ## PARAMETERS
 
 ### -AccessTier
+
 Specifies the access tier of the Storage account that this cmdlet creates.
 The acceptable values for this parameter are: Hot and Cool.
 If you specify a value of BlobStorage for the *Kind* parameter, you must specify a value for the
 *AccessTier* parameter. If you specify a value of Storage for this *Kind* parameter, do not specify
 the *AccessTier* parameter.
+Storage Account Access Tier.
 
 ```yaml
 Type: System.String
-Parameter Sets: (All)
-Aliases:
-Accepted values: Hot, Cool, Cold
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues:
+- Hot
+- Cool
+- Cold
+HelpMessage: ''
 ```
 
 ### -ActiveDirectoryAccountType
+
 Specifies the Active Directory account type for Azure Storage. Possible values include: 'User', 'Computer'.
 
 ```yaml
 Type: System.String
-Parameter Sets: ActiveDirectoryDomainServicesForFile
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: ActiveDirectoryDomainServicesForFile
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -ActiveDirectoryAzureStorageSid
+
 Specifies the security identifier (SID) for Azure Storage. This parameter must be set when -EnableActiveDirectoryDomainServicesForFile is set to true.
 
 ```yaml
 Type: System.String
-Parameter Sets: ActiveDirectoryDomainServicesForFile
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: ActiveDirectoryDomainServicesForFile
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -ActiveDirectoryDomainGuid
+
 Specifies the domain GUID. This parameter must be set when -EnableActiveDirectoryDomainServicesForFile is set to true.
+Specifies the domain GUID. This parameter must be set when -EnableActiveDirectoryDomainServicesForFile or -EnableAzureActiveDirectoryKerberosForFile is set to true.
 
 ```yaml
 Type: System.String
-Parameter Sets: AzureActiveDirectoryKerberosForFile, ActiveDirectoryDomainServicesForFile
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: ActiveDirectoryDomainServicesForFile
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: AzureActiveDirectoryKerberosForFile
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -ActiveDirectoryDomainName
+
 Specifies the primary domain that the AD DNS server is authoritative for. This parameter must be set when -EnableActiveDirectoryDomainServicesForFile is set to true.
+Specifies the primary domain that the AD DNS server is authoritative for. This parameter must be set when -EnableActiveDirectoryDomainServicesForFile or -EnableAzureActiveDirectoryKerberosForFile is set to true.
 
 ```yaml
 Type: System.String
-Parameter Sets: AzureActiveDirectoryKerberosForFile, ActiveDirectoryDomainServicesForFile
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: ActiveDirectoryDomainServicesForFile
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+- Name: AzureActiveDirectoryKerberosForFile
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -ActiveDirectoryDomainSid
+
 Specifies the security identifier (SID). This parameter must be set when -EnableActiveDirectoryDomainServicesForFile is set to true.
 
 ```yaml
 Type: System.String
-Parameter Sets: ActiveDirectoryDomainServicesForFile
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: ActiveDirectoryDomainServicesForFile
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -ActiveDirectoryForestName
+
 Specifies the Active Directory forest to get. This parameter must be set when -EnableActiveDirectoryDomainServicesForFile is set to true.
 
 ```yaml
 Type: System.String
-Parameter Sets: ActiveDirectoryDomainServicesForFile
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: ActiveDirectoryDomainServicesForFile
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -ActiveDirectoryNetBiosDomainName
+
 Specifies the NetBIOS domain name. This parameter must be set when -EnableActiveDirectoryDomainServicesForFile is set to true.
 
 ```yaml
 Type: System.String
-Parameter Sets: ActiveDirectoryDomainServicesForFile
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: ActiveDirectoryDomainServicesForFile
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -ActiveDirectorySamAccountName
+
 Specifies the Active Directory SAMAccountName for Azure Storage.
 
 ```yaml
 Type: System.String
-Parameter Sets: ActiveDirectoryDomainServicesForFile
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: ActiveDirectoryDomainServicesForFile
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -AllowBlobPublicAccess
+
 Allow anonymous access to all blobs or containers in the storage account. The default interpretation is false for this property.
 
 ```yaml
 Type: System.Boolean
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -AllowCrossTenantReplication
+
 Gets or sets allow or disallow cross Microsoft Entra tenant object replication. The default interpretation is false for this property.
 
 ```yaml
 Type: System.Boolean
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -AllowedCopyScope
+
 Set restrict copy to and from Storage Accounts within a Microsoft Entra tenant or with Private Links to the same VNet. Possible values include: 'PrivateLink', 'AAD'
 
 ```yaml
 Type: System.String
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -AllowSharedKeyAccess
+
 Indicates whether the storage account permits requests to be authorized with the account access key via Shared Key. If false, then all requests, including shared access signatures, must be authorized with Microsoft Entra ID. The default value is null, which is equivalent to true.
 
 ```yaml
 Type: System.Boolean
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -AsJob
+
 Run cmdlet in the background
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -AssignIdentity
+
 Generate and assign a new Storage account Identity for this Storage account for use with key management services like Azure KeyVault.
+Generate and assign a new Storage Account Identity for this storage account for use with key management services like Azure KeyVault. If specify this parameter without "-IdentityType", will use system assigned identity.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -CustomDomainName
+
 Specifies the name of the custom domain of the Storage account.
 The default value is Storage.
+Storage Account Custom Domain.
 
 ```yaml
 Type: System.String
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -DefaultProfile
+
 The credentials, account, tenant, and subscription used for communication with Azure.
 
 ```yaml
 Type: Microsoft.Azure.Commands.Common.Authentication.Abstractions.Core.IAzureContextContainer
-Parameter Sets: (All)
-Aliases: AzContext, AzureRmContext, AzureCredential
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases:
+- AzContext
+- AzureRmContext
+- AzureCredential
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -DefaultSharePermission
+
 Default share permission for users using Kerberos authentication if RBAC role is not assigned.
 
 ```yaml
 Type: System.String
-Parameter Sets: (All)
-Aliases:
-Accepted values: None, StorageFileDataSmbShareContributor, StorageFileDataSmbShareReader, StorageFileDataSmbShareElevatedContributor
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues:
+- None
+- StorageFileDataSmbShareContributor
+- StorageFileDataSmbShareReader
+- StorageFileDataSmbShareElevatedContributor
+HelpMessage: ''
 ```
 
 ### -DnsEndpointType
+
 Specify the type of endpoint. Set this to AzureDNSZone to create a large number of accounts in a single subscription, which creates accounts in an Azure DNS Zone and the endpoint URL will have an alphanumeric DNS Zone identifier. Possible values include: 'Standard', 'AzureDnsZone'.
 
 ```yaml
 Type: System.String
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -EdgeZone
+
 Set the extended location name for EdgeZone. If not set, the storage account will be created in Azure main region. Otherwise it will be created in the specified extended location
 
 ```yaml
 Type: System.String
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -EnableAccountLevelImmutability
+
 Enables account-level immutability, then all the containers under this account will have object-level immutability enabled by default.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -EnableActiveDirectoryDomainServicesForFile
+
 Enable Azure Files Active Directory Domain Service Authentication for the storage account.
 
 ```yaml
 Type: System.Boolean
-Parameter Sets: ActiveDirectoryDomainServicesForFile
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: ActiveDirectoryDomainServicesForFile
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -EnableAzureActiveDirectoryDomainServicesForFile
+
 Enable Azure Files Microsoft Entra Domain Service Authentication for the storage account.
 
 ```yaml
 Type: System.Boolean
-Parameter Sets: AzureActiveDirectoryDomainServicesForFile
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: AzureActiveDirectoryDomainServicesForFile
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -EnableAzureActiveDirectoryKerberosForFile
+
 Enable Azure Files Active Directory Domain Service Kerberos Authentication for the storage account.
 
 ```yaml
 Type: System.Boolean
-Parameter Sets: AzureActiveDirectoryKerberosForFile
-Aliases:
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: AzureActiveDirectoryKerberosForFile
+  Position: Named
+  IsRequired: true
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -EnableBlobGeoPriorityReplication
+
 Status indicating whether Geo Priority Replication is enabled for the account.
 
 ```yaml
 Type: System.Boolean
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -EnableHierarchicalNamespace
+
 Indicates whether or not the Storage account enables Hierarchical Namespace.
+Enable HierarchicalNamespace for the Storage account.
 
 ```yaml
 Type: System.Boolean
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -EnableHttpsTrafficOnly
+
 Indicates whether or not the Storage account only enables HTTPS traffic.
+Storage Account EnableHttpsTrafficOnly.
 
 ```yaml
 Type: System.Boolean
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -EnableLargeFileShare
-Indicates whether or not the storage account can support large file shares with more than 5 TiB capacity. 
-Once the account is enabled, the feature cannot be disabled. 
-Currently only supported for LRS and ZRS replication types, hence account conversions to geo-redundant accounts would not be possible. 
+
+Indicates whether or not the storage account can support large file shares with more than 5 TiB capacity.
+Once the account is enabled, the feature cannot be disabled.
+Currently only supported for LRS and ZRS replication types, hence account conversions to geo-redundant accounts would not be possible.
 Learn more in https://go.microsoft.com/fwlink/?linkid=2086047
+Indicates whether or not the storage account can support large file shares with more than 5 TiB capacity. Once the account is enabled, the feature cannot be disabled. Currently only supported for LRS and ZRS replication types, hence account conversions to geo-redundant accounts would not be possible. Learn more in https://go.microsoft.com/fwlink/?linkid=2086047
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -EnableLocalUser
+
 Enable local users feature for the Storage account.
 
 ```yaml
 Type: System.Boolean
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -EnableNfsV3
+
 Enable NFS 3.0 protocol support if sets to true
 
 ```yaml
 Type: System.Boolean
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -EnableSftp
+
 Enable Secure File Transfer Protocol for the Storage account.
 
 ```yaml
 Type: System.Boolean
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -EnableSmbOAuth
+
 Specifies if managed identities can access SMB shares using OAuth. The default interpretation is false for this property.
 
 ```yaml
 Type: System.Boolean
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -EncryptionKeyTypeForQueue
+
 Set the Encryption KeyType for Queue. The default value is Service.
--Account: Queue will be encrypted with account-scoped encryption key. 
--Service: Queue will always be encrypted with Service-Managed keys. 
+-Account: Queue will be encrypted with account-scoped encryption key.
+-Service: Queue will always be encrypted with Service-Managed keys.
+Set the Encryption KeyType for Queue. -Account, Queue will be encrypted with account-scoped encryption key. -Service, Queue will always be encrypted with Service-Managed keys. The default value is Service.
 
 ```yaml
 Type: System.String
-Parameter Sets: (All)
-Aliases:
-Accepted values: Service, Account
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues:
+- Service
+- Account
+HelpMessage: ''
 ```
 
 ### -EncryptionKeyTypeForTable
+
 Set the Encryption KeyType for Table. The default value is Service.
-- Account: Table will be encrypted with account-scoped encryption key. 
-- Service: Table will always be encrypted with Service-Managed keys. 
+- Account: Table will be encrypted with account-scoped encryption key.
+- Service: Table will always be encrypted with Service-Managed keys.
+Set the Encryption KeyType for Table. -Account, Table will be encrypted with account-scoped encryption key. -Service, Table will always be encrypted with Service-Managed keys. The default value is Service.
 
 ```yaml
 Type: System.String
-Parameter Sets: (All)
-Aliases:
-Accepted values: Service, Account
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues:
+- Service
+- Account
+HelpMessage: ''
 ```
 
 ### -IdentityType
+
 Set the new Storage Account Identity type, the identity is for use with key management services like Azure KeyVault.
 
 ```yaml
 Type: System.String
-Parameter Sets: (All)
-Aliases:
-Accepted values: SystemAssigned, UserAssigned, SystemAssignedUserAssigned, None
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues:
+- SystemAssigned
+- UserAssigned
+- SystemAssignedUserAssigned
+- None
+HelpMessage: ''
 ```
 
 ### -ImmutabilityPeriod
-The immutability period for the blobs in the container since the policy creation in days. 
+
+The immutability period for the blobs in the container since the policy creation in days.
 This property can only be only specified with '-EnableAccountLevelImmutability'.
+The immutability period for the blobs in the container since the policy creation in days. This property can only be only be specified with '-EnableAccountLevelImmutability'.
 
 ```yaml
 Type: System.Int32
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -ImmutabilityPolicyState
-The mode of the policy. Possible values include: 'Unlocked', 'Disabled. 
-Disabled state disables the policy. 
-Unlocked state allows increase and decrease of immutability retention time and also allows toggling allowProtectedAppendWrites property. 
+
+The mode of the policy. Possible values include: 'Unlocked', 'Disabled.
+Disabled state disables the policy.
+Unlocked state allows increase and decrease of immutability retention time and also allows toggling allowProtectedAppendWrites property.
 A policy can only be created in a Disabled or Unlocked state and can be toggled between the two states.
 This property can only be specified with '-EnableAccountLevelImmutability'.
+The mode of the policy. Possible values include: 'Unlocked', 'Disabled. Disabled state disables the policy. Unlocked state allows increase and decrease of immutability retention time and also allows toggling allowProtectedAppendWrites property. A policy can only be created in a Disabled or Unlocked state and can be toggled between the two states.This property can only be specified with '-EnableAccountLevelImmutability'.
 
 ```yaml
 Type: System.String
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -KeyExpirationPeriodInDay
+
 The Key expiration period of this account, it is accurate to days.
 
 ```yaml
 Type: System.Int32
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -KeyName
+
 Storage Account encryption keySource KeyVault KeyName
 
 ```yaml
 Type: System.String
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -KeyVaultFederatedClientId
+
 Set ClientId of the multi-tenant application to be used in conjunction with the user-assigned identity for cross-tenant customer-managed-keys server-side encryption on the storage account.
 
 ```yaml
 Type: System.String
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -KeyVaultUri
+
 Storage Account encryption keySource KeyVault KeyVaultUri
 
 ```yaml
 Type: System.String
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -KeyVaultUserAssignedIdentityId
+
 Set resource id for user assigned Identity used to access Azure KeyVault of Storage Account Encryption, the id must in UserAssignIdentityId.
 
 ```yaml
 Type: System.String
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -KeyVersion
+
 Storage Account encryption keySource KeyVault KeyVersion
 
 ```yaml
 Type: System.String
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -Kind
+
 Specifies the kind of Storage account that this cmdlet creates.
 The acceptable values for this parameter are:
 - Storage. General purpose Storage account that supports storage of Blobs, Tables, Queues, Files and Disks.
@@ -1120,203 +1453,297 @@ The acceptable values for this parameter are:
 - BlockBlobStorage. Block Blob Storage account which supports storage of Block Blobs only.
 - FileStorage. File Storage account which supports storage of Files only.
 The default value is StorageV2.
+Storage Account Kind.
 
 ```yaml
 Type: System.String
-Parameter Sets: (All)
-Aliases:
-Accepted values: Storage, StorageV2, BlobStorage, BlockBlobStorage, FileStorage
-
-Required: False
-Position: Named
-Default value: StorageV2
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: StorageV2
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues:
+- Storage
+- StorageV2
+- BlobStorage
+- BlockBlobStorage
+- FileStorage
+HelpMessage: ''
 ```
 
 ### -Location
+
 Specifies the location of the Storage account to create.
+Storage Account Location.
 
 ```yaml
 Type: System.String
-Parameter Sets: (All)
-Aliases:
-
-Required: True
-Position: 3
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: 3
+  IsRequired: true
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: true
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -MinimumTlsVersion
+
 The minimum TLS version to be permitted on requests to storage. The default interpretation is TLS 1.0 for this property.
 
 ```yaml
 Type: System.String
-Parameter Sets: (All)
-Aliases:
-Accepted values: TLS1_0, TLS1_1, TLS1_2, TLS1_3
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues:
+- TLS1_0
+- TLS1_1
+- TLS1_2
+- TLS1_3
+HelpMessage: ''
 ```
 
 ### -Name
+
 Specifies the name of the Storage account to create.
+Storage Account Name.
 
 ```yaml
 Type: System.String
-Parameter Sets: (All)
-Aliases: StorageAccountName, AccountName
-
-Required: True
-Position: 1
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases:
+- StorageAccountName
+- AccountName
+ParameterSets:
+- Name: (All)
+  Position: 1
+  IsRequired: true
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: true
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -NetworkRuleSet
+
 NetworkRuleSet is used to define a set of configuration rules for firewalls and virtual networks, as well as to set values for network properties such as services allowed to bypass the rules and how to handle requests that don't match any of the defined rules.
+Storage Account NetworkRule
 
 ```yaml
 Type: Microsoft.Azure.Commands.Management.Storage.Models.PSNetworkRuleSet
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -PublicNetworkAccess
+
 Allow or disallow public network access to Storage Account.Possible values include: 'Enabled', 'Disabled'.
+Allow or disallow public network access to Storage Account. Possible values include: 'Enabled', 'Disabled'.
 
 ```yaml
 Type: System.String
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -PublishInternetEndpoint
+
 Indicates whether internet  routing storage endpoints are to be published
 
 ```yaml
 Type: System.Boolean
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -PublishMicrosoftEndpoint
+
 Indicates whether microsoft routing storage endpoints are to be published
 
 ```yaml
 Type: System.Boolean
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -RequireInfrastructureEncryption
+
 The service will apply a secondary layer of encryption with platform managed keys for data at rest.
 
 ```yaml
 Type: System.Management.Automation.SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -ResourceGroupName
+
 Specifies the name of the resource group in which to add the Storage account.
+Resource Group Name.
 
 ```yaml
 Type: System.String
-Parameter Sets: (All)
-Aliases:
-
-Required: True
-Position: 0
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: 0
+  IsRequired: true
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: true
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -RoutingChoice
+
 Routing Choice defines the kind of network routing opted by the user. Possible values include: 'MicrosoftRouting', 'InternetRouting'
 
 ```yaml
 Type: System.String
-Parameter Sets: (All)
-Aliases:
-Accepted values: MicrosoftRouting, InternetRouting
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues:
+- MicrosoftRouting
+- InternetRouting
+HelpMessage: ''
 ```
 
 ### -SasExpirationAction
+
 The action to be performed when SasExpirationPeriod is violated. The 'Log' action can be used for audit purposes and the 'Block' action can be used to block and deny the usage of SAS tokens that do not adhere to the sas policy expiration period. The default value is 'Log'.
 
 ```yaml
 Type: System.String
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -SasExpirationPeriod
+
 The SAS expiration period of this account, it is a timespan and accurate to seconds.
 
 ```yaml
 Type: System.TimeSpan
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -SkuName
+
 Specifies the SKU name of the Storage account that this cmdlet creates.
 The acceptable values for this parameter are:
 - Standard_LRS. Locally-redundant storage.
@@ -1333,98 +1760,158 @@ The acceptable values for this parameter are:
 - StandardV2_GZRS - Geo-redundant zone-redundant storage for File Provision v2.
 - PremiumV2_LRS - Premium locally-redundant storage for File Provision v2.
 - PremiumV2_ZRS - Premium zone-redundant storage for File Provision v2.
+Storage Account Sku Name.
 
 ```yaml
 Type: System.String
-Parameter Sets: (All)
-Aliases: StorageAccountType, AccountType, Type
-Accepted values: Standard_LRS, Standard_ZRS, Standard_GRS, Standard_RAGRS, Premium_LRS, Premium_ZRS, Standard_GZRS, Standard_RAGZRS, StandardV2_LRS, StandardV2_ZRS, StandardV2_GZRS, StandardV2_GRS, PremiumV2_LRS, PremiumV2_ZRS
-
-Required: True
-Position: 2
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases:
+- StorageAccountType
+- AccountType
+- Type
+ParameterSets:
+- Name: (All)
+  Position: 2
+  IsRequired: true
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: true
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues:
+- Standard_LRS
+- Standard_ZRS
+- Standard_GRS
+- Standard_RAGRS
+- Premium_LRS
+- Premium_ZRS
+- Standard_GZRS
+- Standard_RAGZRS
+- StandardV2_LRS
+- StandardV2_ZRS
+- StandardV2_GZRS
+- StandardV2_GRS
+- PremiumV2_LRS
+- PremiumV2_ZRS
+HelpMessage: ''
 ```
 
 ### -Tag
+
 Key-value pairs in the form of a hash table set as tags on the server. For example:
 @{key0="value0";key1=$null;key2="value2"}
+Storage Account Tags.
 
 ```yaml
 Type: System.Collections.Hashtable
-Parameter Sets: (All)
-Aliases: Tags
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases:
+- Tags
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -UserAssignedIdentityId
+
 Set resource ids for the new Storage Account user assigned Identity, the identity will be used with key management services like Azure KeyVault.
+Set resource ids for the the new Storage Account user assigned Identity, the identity will be used with key management services like Azure KeyVault.
 
 ```yaml
 Type: System.String
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -UseSubDomain
+
 Indicates whether to enable indirect CName validation.
+To Use Sub Domain.
 
 ```yaml
 Type: System.Nullable`1[System.Boolean]
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -Zone
+
 Describes the available zones for the product where storage account resource can be created.
 
 ```yaml
 Type: System.String[]
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### -ZonePlacementPolicy
+
 The availability zone pinning policy for the storage account.
 
 ```yaml
 Type: System.String
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
+DefaultValue: None
+SupportsWildcards: false
+Aliases: []
+ParameterSets:
+- Name: (All)
+  Position: Named
+  IsRequired: false
+  ValueFromPipeline: false
+  ValueFromPipelineByPropertyName: false
+  ValueFromRemainingArguments: false
+DontShow: false
+AcceptedValues: []
+HelpMessage: ''
 ```
 
 ### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see [about_CommonParameters](http://go.microsoft.com/fwlink/?LinkID=113216).
+
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+-InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
+-ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+[about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -1438,8 +1925,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzStorageAccount](./Get-AzStorageAccount.md)
-
-[Remove-AzStorageAccount](./Remove-AzStorageAccount.md)
-
-[Set-AzStorageAccount](./Set-AzStorageAccount.md)
+- [Get-AzStorageAccount](./Get-AzStorageAccount.md)
+- [Remove-AzStorageAccount](./Remove-AzStorageAccount.md)
+- [Set-AzStorageAccount](./Set-AzStorageAccount.md)

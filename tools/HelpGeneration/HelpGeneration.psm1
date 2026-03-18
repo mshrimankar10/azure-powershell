@@ -1,6 +1,6 @@
-﻿#Requires -Modules platyPS
-function New-AzMarkdownHelp
-{
+﻿#Requires -Modules Microsoft.PowerShell.PlatyPS
+
+function New-AzMarkdownHelp {
     [CmdletBinding()]
     Param
     (
@@ -11,8 +11,7 @@ function New-AzMarkdownHelp
     $HelpFolder = Get-Item $HelpFolderPath
     $ModuleFolder = $HelpFolder.Parent
     $ModuleFolderPath = $ModuleFolder.FullName
-    if ($ModuleFolder.Name -eq "Azure.AnalysisServices")
-    {
+    if ($ModuleFolder.Name -eq "Azure.AnalysisServices") {
         return
     }
 
@@ -21,10 +20,14 @@ function New-AzMarkdownHelp
     Import-Module $psd1.FullName -Scope Global
     New-Item -Path $NewHelpFolderPath -ItemType Directory -Force | Out-Null
     Copy-Item -Path "$HelpFolderPath\*" -Destination $NewHelpFolderPath
-    Update-MarkdownHelpModule -Path $NewHelpFolderPath -RefreshModulePage -AlphabeticParamsOrder | Out-Null
+    Update-MarkdownCommandHelp -Path "$NewHelpFolderPath\*-*.md" | Out-Null
+    $updatedHelp = Import-MarkdownCommandHelp -Path "$NewHelpFolderPath\*-*.md"
+    $moduleFilePath = Get-ChildItem -Path $NewHelpFolderPath -Filter "Az.*.md" | Where-Object { $_.Name -notlike "*-*" } | Select-Object -First 1
+    if ($moduleFilePath) {
+        Update-MarkdownModuleFile -Path $moduleFilePath.FullName -CommandHelp $updatedHelp | Out-Null
+    }
     $errors = Compare-AzMarkdownHelp $HelpFolderPath $NewHelpFolderPath
-    if ($errors.Length -gt 0)
-    {
+    if ($errors.Length -gt 0) {
         $errorMessage = @()
         $errorMessage += "ERROR: The following files have not been updated with the latest module changes.`n"
         $errorMessage += "Please make sure to run Update-MarkdownHelpModule to update the markdown files.`n"
@@ -35,8 +38,7 @@ function New-AzMarkdownHelp
     Remove-Item $NewHelpFolderPath -Recurse
 }
 
-function Compare-AzMarkdownHelp
-{
+function Compare-AzMarkdownHelp {
     [CmdletBinding()]
     Param
     (
@@ -49,24 +51,19 @@ function Compare-AzMarkdownHelp
     $comparatorInstance = New-Object MarkdownComparator.Comparator
     $OldHelpFolder = Get-Item $OldHelpFolderPath
     $errors = @()
-    foreach ($oldFile in Get-ChildItem $OldHelpFolder)
-    {
+    foreach ($oldFile in Get-ChildItem $OldHelpFolder) {
         $newFilePath = "$NewHelpFolderPath\$($oldFile.Name)"
-        if ($oldFile.Name -notlike "*-*")
-        {
-            continue;
+        if ($oldFile.Name -notlike "*-*") {
+            continue
         }
 
-        try
-        {
+        try {
             $result = $comparatorInstance.Compare($oldFile.FullName, $newFilePath)
-            if ($result -ne 0)
-            {
+            if ($result -ne 0) {
                 $errors += $oldFile.Name
             }
         }
-        catch
-        {
+        catch {
             $_.Exception.InnerException
         }
     }
@@ -74,8 +71,7 @@ function Compare-AzMarkdownHelp
     return $errors
 }
 
-function Test-AzMarkdownHelp
-{
+function Test-AzMarkdownHelp {
     [CmdletBinding()]
     Param(
         [Parameter(Mandatory = $true, Position = 0)]
@@ -86,26 +82,21 @@ function Test-AzMarkdownHelp
         [String]$NewExceptionsPath
     )
 
-    PROCESS
-    {
+    PROCESS {
         $HelpFolder = Get-Item $HelpFolderPath
         $Exceptions = Import-Csv "$SuppressedExceptionsPath\ValidateHelpIssues.csv"
         [String[]]$errors = @()
         $MarkdownFiles = Get-ChildItem -Path $HelpFolder -Filter "*.md"
         $HelpFolderPath = $HelpFolder.FullName.Replace("\", "/")
-        if ($HelpFolderPath -match "/artifacts/")
-        {
+        if ($HelpFolderPath -match "/artifacts/") {
             $ModuleName = $HelpFolderPath.split('/artifacts/')[1].split('/')[1]
         }
-        else
-        {
+        else {
             $ModuleName = "Az." + $HelpFolderPath.split('src/')[1].split('/')[0]
         }
-        foreach ($file in $MarkdownFiles)
-        {
+        foreach ($file in $MarkdownFiles) {
             # Ignore the module page
-            if ($file.Name -notlike "*-*")
-            {
+            if ($file.Name -notlike "*-*") {
                 continue
             }
 
@@ -113,118 +104,138 @@ function Test-AzMarkdownHelp
 
             $fileErrors = @()
             $content = Get-Content $file.FullName
-            for ($idx = 0; $idx -lt $content.Length; $idx++)
-            {
-                switch -Regex ($content[$idx])
-                {
-                    "## SYNOPSIS"
-                    {
+
+            # Detect schema version: new schema uses "PlatyPS schema version:" in YAML front matter
+            $isNewSchema = ($content | Where-Object { $_ -match "PlatyPS schema version:" }) -ne $null
+
+            for ($idx = 0; $idx -lt $content.Length; $idx++) {
+                switch -Regex ($content[$idx]) {
+                    "## SYNOPSIS" {
                         $foundSynopsis = $False
                         $idx++
 
                         # Check each line between SYNOPSIS and SYNTAX for any text
-                        for (;;)
-                        {
+                        for (; ; ) {
                             $foundSynopsis = $foundSynopsis -or (!([string]::IsNullOrWhiteSpace("$($content[$idx])")))
-                            if ($content[$idx+1] -notcontains "## SYNTAX")
-                            {
+                            if ($content[$idx + 1] -notcontains "## SYNTAX") {
                                 $idx++
-                                if ($idx -ge $content.Length)
-                                {
-                                    Write-Error "Could not find SYNTAX header in file $($file.Name)"
-                                    return
+                                if ($idx -ge $content.Length) {
+                                    $errors += "$($file.Name),Missing SYNTAX section"
+                                    break
                                 }
                             }
-                            elseif ($content[$idx] -contains "{{Fill in the Synopsis}}")
-                            {
+                            elseif ($content[$idx] -match "\{\{\s*Fill in the Synopsis\s*\}\}") {
                                 $foundSynopsis = $false
                                 break
                             }
-                            else
-                            {
+                            else {
                                 break
                             }
                         }
 
-                        if (!($foundSynopsis))
-                        {
-                            $fileErrors += "No synopsis found"
+                        if (!($foundSynopsis)) {
+                            $fileErrors += "Missing SYNOPSIS content"
                         }
                     }
-                    "## DESCRIPTION"
-                    {
+                    "## DESCRIPTION" {
                         $foundDescription = $False
                         $idx++
 
                         # Check each line between DESCRIPTION and EXAMPLES for any text
-                        for (;;)
-                        {
+                        for (; ; ) {
                             $foundDescription = $foundDescription -or (!([string]::IsNullOrWhiteSpace("$($content[$idx])")))
-                            if ($content[$idx+1] -notcontains "## EXAMPLES")
-                            {
+                            if ($content[$idx + 1] -notcontains "## EXAMPLES") {
                                 $idx++
-                                if ($idx -ge $content.Length)
-                                {
-                                    Write-Error "Could not find EXAMPLES header in file $($file.Name)"
-                                    return
+                                if ($idx -ge $content.Length) {
+                                    $errors += "$($file.Name),Missing EXAMPLES section"
+                                    break
                                 }
                             }
-                            elseif ($content[$idx] -contains "{{Fill in the Description}}")
-                            {
+                            elseif ($content[$idx] -match "\{\{\s*Fill in the Description\s*\}\}") {
                                 $foundDescription = $false
                                 break
                             }
-                            else
-                            {
+                            else {
                                 break
                             }
                         }
 
-                        if (!($foundDescription))
-                        {
-                            $fileErrors += "No description found"
+                        if (!($foundDescription)) {
+                            $fileErrors += "Missing DESCRIPTION content"
                         }
                     }
-                    "@{Text=}"
-                    {
-                        # This case occurs when there is no description provided for a parameter
-                        $parameter = $content[$idx-1].Substring(5)
-                        $fileErrors += "No description found for parameter $parameter"
+                    "@{Text=}" {
+                        # Old schema: empty parameter description
+                        $parameter = $content[$idx - 1].Substring(5)
+                        $fileErrors += "Missing description for parameter '$parameter'"
                     }
-                    ".``````yaml"
-                    {
-                        $parameter = $content[$idx-1].Substring(5)
-                        $fileErrors += "Trailing yaml string found in description for parameter $parameter. Please move the trailing yaml string to a line by itself."
+                    "\{\{\s*Fill \w+ Description\s*\}\}" {
+                        # New schema: empty parameter description placeholder like {{ Fill ParamName Description }}
+                        if ($content[$idx - 1] -match "^### -(.+)") {
+                            $parameter = $Matches[1]
+                        }
+                        else {
+                            $parameter = "(unknown)"
+                        }
+                        $fileErrors += "Missing description for parameter '$parameter'"
                     }
-                    "online version:"
-                    {
-                        $onlineString = "https://learn.microsoft.com/powershell/module/$($ModuleName.ToLower())/$($CmdletName.ToLower())"
-                        $split = $content[$idx] -split "online version:"
-                        if ([string]::IsNullOrWhiteSpace($split[1]) -or $split[1] -notlike "*$onlineString*")
-                        {
-                            $fileErrors += "Online version in the header of the file is incorrect. The corresponding URL should be the following: $onlineString"
+                    ".``````yaml" {
+                        $parameter = $content[$idx - 1].Substring(5)
+                        $fileErrors += "Malformed YAML in description for parameter '$parameter'"
+                    }
+                    "\{\{\s*Add example description here\s*\}\}" {
+                        # New schema: example placeholder not filled in
+                        $fileErrors += "Example description contains placeholder text"
+                    }
+                    "\{\{\s*Fill in the Notes\s*\}\}" {
+                        # New schema: notes placeholder not filled in
+                        $fileErrors += "NOTES section contains placeholder text"
+                    }
+                    "\{\{\s*Fill in the related links here\s*\}\}" {
+                        # New schema: related links placeholder not filled in
+                        $fileErrors += "RELATED LINKS section contains placeholder text"
+                    }
+                    "\{\{\s*Insert list of aliases\s*\}\}" {
+                        # New schema: aliases placeholder not filled in
+                        $fileErrors += "Aliases section contains placeholder text"
+                    }
+                    "online version:" {
+                        # Old schema (schema: 2.0.0): online version in YAML front matter
+                        if (-not $isNewSchema) {
+                            $onlineString = "https://learn.microsoft.com/powershell/module/$($ModuleName.ToLower())/$($CmdletName.ToLower())"
+                            $split = $content[$idx] -split "online version:"
+                            if ([string]::IsNullOrWhiteSpace($split[1]) -or $split[1] -notlike "*$onlineString*") {
+                                $fileErrors += "Invalid 'online version' URL, expected: $onlineString"
+                            }
                         }
                     }
-                    default
-                    {
+                    "^HelpUri:" {
+                        # New schema (PlatyPS schema version: 2024-05-01): HelpUri in YAML front matter
+                        if ($isNewSchema) {
+                            $onlineString = "https://learn.microsoft.com/powershell/module/$($ModuleName.ToLower())/$($CmdletName.ToLower())"
+                            $split = $content[$idx] -split "HelpUri:"
+                            $helpUri = $split[1].Trim().Trim("'").Trim('"')
+                            if ([string]::IsNullOrWhiteSpace($helpUri) -or $helpUri -notlike "*$onlineString*") {
+                                $fileErrors += "Invalid 'HelpUri' URL, expected: $onlineString"
+                            }
+                        }
+                    }
+                    default {
 
                     }
                 }
             }
 
             # If the markdown file had any missing help, add them to the list to be printed later
-            if ($fileErrors.Count -gt 0)
-            {
+            if ($fileErrors.Count -gt 0) {
                 $fileExceptions = $Exceptions | where { $_.Target -eq "$($file.Name)" }
                 $fileErrors | foreach {
                     $error = $_
 
-                    if (($fileExceptions | where { $_.Description -eq "$error" }) -ne $null)
-                    {
+                    if (($fileExceptions | where { $_.Description -eq "$error" }) -ne $null) {
                         # "Caught error - $file,$error"
                     }
-                    else
-                    {
+                    else {
                         $errors += "$($file.Name),$error"
                     }
                 }
@@ -232,15 +243,13 @@ function Test-AzMarkdownHelp
         }
 
         # If there were any errors recorded, print them out and throw
-        if ($errors.Count -gt 0)
-        {
+        if ($errors.Count -gt 0) {
             $errors | foreach { Add-Content "$NewExceptionsPath\ValidateHelpIssues.csv" $_ }
         }
     }
 }
 
-function New-AzMamlHelp
-{
+function New-AzMamlHelp {
     [CmdletBinding()]
     Param
     (
@@ -249,70 +258,15 @@ function New-AzMamlHelp
     )
 
     $HelpFolder = Get-Item $HelpFolderPath
-    $MarkdownFiles = Get-ChildItem $HelpFolderPath
 
     # Generate the MAML help from the markdown files
-    New-ExternalHelp -Path $HelpFolderPath -OutputPath $HelpFolder.Parent.FullName -Force
-    $dir = Get-ChildItem $HelpFolder.Parent.FullName
-    $MAML = $dir | Where { $_.FullName -like "*.dll-Help.xml*" }
-
-    # Modify the MAML (add spaces between examples)
-    $MAML | foreach { Edit-AzMamlHelp $HelpFolder $_ }
+    $cmdHelp = Import-MarkdownCommandHelp -Path "$HelpFolderPath\*-*.md"
+    Export-MamlCommandHelp -CommandHelp $cmdHelp -OutputFolder $HelpFolder.Parent.FullName -Force
 }
 
-function Edit-AzMamlHelp
-{
-    [CmdletBinding()]
-    Param
-    (
-        [Parameter(Mandatory = $true, Position = 0)]
-        [System.IO.DirectoryInfo]$HelpFolder,
-        [Parameter(Mandatory = $true, Position = 1)]
-        [System.IO.FileInfo]$MAML
-    )
-
-    $content = Get-Content "$($HelpFolder.Parent.FullName)\$($MAML.Name)"
-
-    # Keep track of the number of examples we find so we can add enough space in the new array
-    $exampleCount = 0
-    for ($idx = 0; $idx -lt $content.Length; $idx++)
-    {
-        if ($content[$idx] -like "*<command:example>*")
-        {
-            $exampleCount++
-        }
-    }
-
-    # Since we will be adding two <maml:para></maml:para> tags to the MAML, we need to adjust the size of the array
-    $newContentLength = $content.Length + (2 * $exampleCount)
-    $newContent = New-Object string[] $newContentLength
-    $buffer = 0
-    for ($idx = 0; $idx -lt $content.Length; $idx++)
-    {
-        $newContent[$idx + $buffer] = $content[$idx]
-
-        # If the next line is going to be the end of a remark in an example, add the two new lines for spacing
-        if ($content[$idx+1] -like "*</dev:remarks>*")
-        {
-            $newContent[$idx + $buffer + 1] = "<maml:para></maml:para>"
-            $newContent[$idx + $buffer + 2] = "<maml:para></maml:para>"
-
-            $buffer += 2
-        }
-    }
-
-    # Replace the contents of the current MAML with the new contents
-    $result = $newContent -join "`r`n"
-    $tempFile = Get-Item "$($HelpFolder.Parent.FullName)\$($MAML.Name)"
-    [System.IO.File]::WriteAllText($tempFile.FullName, $result)
-
-    # Check to ensure that the MAML file is still valid XML
-    [Reflection.Assembly]::LoadWithPartialName("System.Xml.Linq") | Out-Null
-    [System.Xml.Linq.XDocument]::Load($tempFile.FullName) | Out-Null
-}
 
 # ------------
 # Start
 # ------------
 
-Import-Module -Name platyPS -Scope Global
+Import-Module -Name Microsoft.PowerShell.PlatyPS -Scope Global
