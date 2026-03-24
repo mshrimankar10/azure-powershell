@@ -19,6 +19,7 @@
 -->
 
 ## Upcoming Release
+* Fixed `Clear-AzConfig`, `Update-AzConfig`, and `Get-AzConfig` to properly inherit dynamic parameters from base cmdlet class
 
 ## Version 5.3.3
 * Updated MSAL to 4.82.1 to fix an issue with ARM endpoint discovery.

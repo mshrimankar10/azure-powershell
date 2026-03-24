@@ -19,6 +19,7 @@
 -->
 
 ## Upcoming Release
+* Fixed `New-AzDeployment`, `New-AzResourceGroupDeployment`, `Test-AzDeployment`, `Test-AzResourceGroupDeployment`, and deployment stack cmdlets to properly inherit dynamic parameters from base cmdlet class
 
 ## Version 9.0.3
 * Updated the implementation of -Metadata parameter processing for cmdlets that use it for security. No behavior change.

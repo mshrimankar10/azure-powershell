@@ -19,6 +19,7 @@
 -->
 
 ## Upcoming Release
+* Fixed `New-AzCosmosDBAccount` to properly inherit dynamic parameters from base cmdlet class
 
 ## Version 1.19.1
 * Updated Azure.Core from 1.47.3 to 1.50.0
