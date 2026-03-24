@@ -19,12 +19,12 @@
 --->
 
 ## Upcoming Release
+* Fixed private endpoint connection and private link resource cmdlets to properly inherit dynamic parameters from base cmdlet class
 * Added EdgeZone (Extended Location) parameter support for Azure Firewall
     - Added `-EdgeZone` parameter to `New-AzFirewall` cmdlet
     - When `-EdgeZone` is specified, availability zones are not supported for Azure Firewall resources
 
 ## Version 7.25.1
-* Fixed private endpoint connection and private link resource cmdlets to properly inherit dynamic parameters from base cmdlet class
 * Onboarded `Microsoft.DataReplication/replicationVaults` to Private Link Common Cmdlets
 * Onboarded `Microsoft.DurableTask/schedulers` to Private Link Common Cmdlets
 
