@@ -342,11 +342,35 @@ namespace Microsoft.Azure.Commands.Compute.Automation
             ComputeAutomationAutoMapperProfile.Mapper.Map<PSVirtualMachineScaleSet, VirtualMachineScaleSet>(this.VirtualMachineScaleSet, parameters);
 
             CheckImageVersionWarning(parameters);
+            CheckAndWarnMarketplaceImageDeprecation();
             SetDefaultOrchestrationMode(parameters);
             ConfigureFlexibleOrchestrationMode(parameters);
             ConfigureSecuritySettings(parameters);
 
             return parameters;
+        }
+
+        private void CheckAndWarnMarketplaceImageDeprecation()
+        {
+            var imageRef = this.VirtualMachineScaleSet?.VirtualMachineProfile?.StorageProfile?.ImageReference;
+            if (imageRef == null
+                || string.IsNullOrEmpty(imageRef.Publisher)
+                || string.IsNullOrEmpty(imageRef.Offer)
+                || string.IsNullOrEmpty(imageRef.Sku)
+                || string.IsNullOrEmpty(imageRef.Version))
+            {
+                return;
+            }
+
+            try
+            {
+                var imgResponse = retrieveSpecificImageFromNotId();
+                WarnIfImageDeprecated(imgResponse?.Body?.ImageDeprecationStatus);
+            }
+            catch
+            {
+                // Ignore errors during deprecation check to not block VMSS creation
+            }
         }
 
         private void CheckImageVersionWarning(VirtualMachineScaleSet parameters)

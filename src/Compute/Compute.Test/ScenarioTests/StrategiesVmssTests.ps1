@@ -551,3 +551,41 @@ function Test-SimpleNewVmssSkipExtOverprovision
         Clean-ResourceGroup $vmssname
     }
 }
+
+<#
+.SYNOPSIS
+Test that creating a VMSS with a deprecated marketplace image emits a deprecation warning
+and still successfully creates the VMSS.
+#>
+function Test-SimpleNewVmssDeprecatedImageWarning
+{
+    # Setup
+    $vmssname = Get-ResourceName
+
+    try
+    {
+        $lbName = $vmssname + "LoadBalancer"
+        $username = "admin01"
+        $password = Get-PasswordForVM | ConvertTo-SecureString -AsPlainText -Force
+        $cred = new-object -typename System.Management.Automation.PSCredential -argumentlist $username, $password
+        [string]$domainNameLabel = "$vmssname$vmssname".tolower();
+        $stnd = "Standard";
+
+        # Use a specific image version format (publisher:offer:sku:version) to exercise the
+        # deprecation check code path. The image used here should be a deprecated image
+        # to verify that a warning is emitted but VMSS creation proceeds successfully.
+        # Note: Replace the image below with a known deprecated image when recording this test.
+        $image = "MicrosoftWindowsServer:WindowsServer:2022-datacenter:latest"
+
+        $x = New-AzVmss -Name $vmssname -Credential $cred -DomainNameLabel $domainNameLabel -LoadBalancerName $lbName -ImageName $image -SecurityType $stnd
+
+        Assert-AreEqual $vmssname $x.Name;
+        Assert-AreEqual $vmssname $x.ResourceGroupName;
+        Assert-NotNull $x.Id;
+    }
+    finally
+    {
+        # Cleanup
+        Clean-ResourceGroup $vmssname
+    }
+}

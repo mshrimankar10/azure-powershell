@@ -25,11 +25,14 @@ namespace Microsoft.Azure.Commands.Compute.Strategies.ComputeRp
 
         public IList<int> DataDiskLuns { get; }
 
-        public ImageAndOsType(OperatingSystemTypes osType, ImageReference image, IList<int> dataDiskLuns)
+        public ImageDeprecationStatus ImageDeprecationStatus { get; }
+
+        public ImageAndOsType(OperatingSystemTypes osType, ImageReference image, IList<int> dataDiskLuns, ImageDeprecationStatus imageDeprecationStatus = null)
         {
             OsType = osType;
             Image = image;
             DataDiskLuns = dataDiskLuns;
+            ImageDeprecationStatus = imageDeprecationStatus;
         }
     }
 }

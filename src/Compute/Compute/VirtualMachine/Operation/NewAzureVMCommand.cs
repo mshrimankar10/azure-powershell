@@ -585,6 +585,7 @@ namespace Microsoft.Azure.Commands.Compute
                 {
                     ImageAndOsType = await _client.UpdateImageAndOsTypeAsync(
                         ImageAndOsType, _cmdlet.ResourceGroupName, _cmdlet.Image, Location);
+                    _cmdlet.WarnIfImageDeprecated(ImageAndOsType);
                 }
 
                 _cmdlet.DomainNameLabel = await PublicIPAddressStrategy.UpdateDomainNameLabelAsync(
@@ -967,6 +968,9 @@ namespace Microsoft.Azure.Commands.Compute
             {
                 SetDefaultUefiSettings();
             }
+
+            // Check if the marketplace image is deprecated and warn the user
+            CheckAndWarnMarketplaceImageDeprecation();
 
             if (ShouldProcess(this.VM.Name, VerbsCommon.New))
             {
@@ -1750,6 +1754,61 @@ namespace Microsoft.Azure.Commands.Compute
             ValidateUserDataEncoding();
             ValidateSshKeyConfiguration();
             ValidateEncryptionIdentityConfiguration();
+        }
+
+        /// <summary>
+        /// Emits a warning if the provided ImageAndOsType indicates the image is deprecated or scheduled for deprecation.
+        /// </summary>
+        internal void WarnIfImageDeprecated(ImageAndOsType imageAndOsType)
+        {
+            WarnIfImageDeprecated(imageAndOsType?.ImageDeprecationStatus);
+        }
+
+        /// <summary>
+        /// Emits a warning if the provided ImageDeprecationStatus indicates the image is deprecated or scheduled for deprecation.
+        /// </summary>
+        internal void WarnIfImageDeprecated(ImageDeprecationStatus deprecationStatus)
+        {
+            if (deprecationStatus == null)
+            {
+                return;
+            }
+
+            if (string.Equals(deprecationStatus.ImageState, ImageState.Deprecated, StringComparison.OrdinalIgnoreCase))
+            {
+                WriteWarning("This image is deprecated. VM created from this image might not be supported and VM creation might be blocked in the near future. Please select the latest image that is supported instead.");
+            }
+            else if (string.Equals(deprecationStatus.ImageState, ImageState.ScheduledForDeprecation, StringComparison.OrdinalIgnoreCase))
+            {
+                WriteWarning("This image is scheduled for deprecation. VM created from this image might not be supported in the near future. Please consider selecting the latest supported image instead.");
+            }
+        }
+
+        /// <summary>
+        /// Checks the marketplace image reference for deprecation status and emits a warning if deprecated.
+        /// Used for the DefaultParameterSet where the image is specified via VM.StorageProfile.ImageReference.
+        /// </summary>
+        private void CheckAndWarnMarketplaceImageDeprecation()
+        {
+            var imageRef = this.VM?.StorageProfile?.ImageReference;
+            if (imageRef == null
+                || string.IsNullOrEmpty(imageRef.Publisher)
+                || string.IsNullOrEmpty(imageRef.Offer)
+                || string.IsNullOrEmpty(imageRef.Sku)
+                || string.IsNullOrEmpty(imageRef.Version))
+            {
+                return;
+            }
+
+            try
+            {
+                var imgResponse = retrieveSpecificImageFromNotId();
+                WarnIfImageDeprecated(imgResponse?.Body?.ImageDeprecationStatus);
+            }
+            catch
+            {
+                // Ignore errors during deprecation check to not block VM creation
+            }
         }
     }
 }

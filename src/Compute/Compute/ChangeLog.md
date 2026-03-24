@@ -20,6 +20,9 @@
 
 -->
 ## Upcoming Release
+* Added deprecation warning for `New-AzVM` and `New-AzVmss` when the specified marketplace image is deprecated or scheduled for deprecation
+    - A warning is emitted when the image state is 'Deprecated' or 'ScheduledForDeprecation'
+    - VM and VMSS creation proceeds normally after the warning
 
 ## Version 11.4.0
 * Added `-DiskIOPSReadWrite` and `-DiskMBpsReadWrite` parameters to `Add-AzVMDataDisk` cmdlet

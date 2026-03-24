@@ -432,6 +432,7 @@ namespace Microsoft.Azure.Commands.Compute.Automation
                 ImageAndOsType = await _client.UpdateImageAndOsTypeAsync(
                         ImageAndOsType, _cmdlet.ResourceGroupName, _cmdlet.ImageName, Location);
 
+                _cmdlet.WarnIfImageDeprecated(ImageAndOsType);
 
                 // generate a domain name label if it's not specified.
                 _cmdlet.DomainNameLabel = await PublicIPAddressStrategy.UpdateDomainNameLabelAsync(
@@ -603,6 +604,8 @@ namespace Microsoft.Azure.Commands.Compute.Automation
 
                 ImageAndOsType = await _client.UpdateImageAndOsTypeAsync(
                         ImageAndOsType, _cmdlet.ResourceGroupName, _cmdlet.ImageName, Location);
+
+                _cmdlet.WarnIfImageDeprecated(ImageAndOsType);
 
                 // generate a domain name label if it's not specified.
                 _cmdlet.DomainNameLabel = await PublicIPAddressStrategy.UpdateDomainNameLabelAsync(
@@ -885,6 +888,34 @@ namespace Microsoft.Azure.Commands.Compute.Automation
                                              : null,
                 }
                 : null;
+        }
+
+        /// <summary>
+        /// Emits a warning if the provided ImageAndOsType indicates the image is deprecated or scheduled for deprecation.
+        /// </summary>
+        internal void WarnIfImageDeprecated(ImageAndOsType imageAndOsType)
+        {
+            WarnIfImageDeprecated(imageAndOsType?.ImageDeprecationStatus);
+        }
+
+        /// <summary>
+        /// Emits a warning if the provided ImageDeprecationStatus indicates the image is deprecated or scheduled for deprecation.
+        /// </summary>
+        internal void WarnIfImageDeprecated(ImageDeprecationStatus deprecationStatus)
+        {
+            if (deprecationStatus == null)
+            {
+                return;
+            }
+
+            if (string.Equals(deprecationStatus.ImageState, ImageState.Deprecated, StringComparison.OrdinalIgnoreCase))
+            {
+                WriteWarning("This image is deprecated. VM created from this image might not be supported and VM creation might be blocked in the near future. Please select the latest image that is supported instead.");
+            }
+            else if (string.Equals(deprecationStatus.ImageState, ImageState.ScheduledForDeprecation, StringComparison.OrdinalIgnoreCase))
+            {
+                WriteWarning("This image is scheduled for deprecation. VM created from this image might not be supported in the near future. Please consider selecting the latest supported image instead.");
+            }
         }
     }
 }

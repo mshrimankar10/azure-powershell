@@ -86,7 +86,8 @@ namespace Microsoft.Azure.Commands.Compute.Strategies.ComputeRp
                 return new ImageAndOsType(
                     imageModel.OsDiskImage.OperatingSystem,
                     image,
-                    imageModel.DataDiskImages.GetLuns());
+                    imageModel.DataDiskImages.GetLuns(),
+                    imageModel.ImageDeprecationStatus);
             } 
             else if (imageName.Contains("/"))
             {
