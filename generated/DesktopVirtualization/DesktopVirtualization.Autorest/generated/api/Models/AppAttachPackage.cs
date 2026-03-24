@@ -19,6 +19,14 @@ namespace Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models
         /// </summary>
         private Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.ITrackedResource __trackedResource = new Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.TrackedResource();
 
+        /// <summary>Field that can be populated with custom data and filtered on in list GET calls</summary>
+        [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Origin(Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.PropertyOrigin.Inlined)]
+        public string CustomData { get => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IAppAttachPackagePropertiesInternal)Property).CustomData; set => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IAppAttachPackagePropertiesInternal)Property).CustomData = value ?? null; }
+
+        /// <summary>DeploymentScope type for AppAttachPackage.</summary>
+        [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Origin(Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.PropertyOrigin.Inlined)]
+        public string DeploymentScope { get => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IAppAttachPackagePropertiesInternal)Property).DeploymentScope; set => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IAppAttachPackagePropertiesInternal)Property).DeploymentScope = value ?? null; }
+
         /// <summary>
         /// Parameter indicating how the health check should behave if this package fails staging
         /// </summary>
@@ -107,32 +115,60 @@ namespace Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models
 
         /// <summary>The geo-location where the resource lives</summary>
         [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Origin(Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.PropertyOrigin.Inherited)]
-        public string Location { get => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.ITrackedResourceInternal)__trackedResource).Location; set => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.ITrackedResourceInternal)__trackedResource).Location = value ; }
+        public string Location { get => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.ITrackedResourceInternal)__trackedResource).Location; set => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.ITrackedResourceInternal)__trackedResource).Location = value ?? null; }
 
         /// <summary>Internal Acessors for Image</summary>
-        Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IAppAttachPackageInfoProperties Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IAppAttachPackageInternal.Image { get => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IAppAttachPackagePropertiesInternal)Property).Image; set => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IAppAttachPackagePropertiesInternal)Property).Image = value; }
+        Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IAppAttachPackageInfoProperties Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IAppAttachPackageInternal.Image { get => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IAppAttachPackagePropertiesInternal)Property).Image; set => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IAppAttachPackagePropertiesInternal)Property).Image = value ?? null /* model class */; }
 
         /// <summary>Internal Acessors for Property</summary>
         Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IAppAttachPackageProperties Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IAppAttachPackageInternal.Property { get => (this._property = this._property ?? new Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.AppAttachPackageProperties()); set { {_property = value;} } }
 
         /// <summary>Internal Acessors for ProvisioningState</summary>
-        string Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IAppAttachPackageInternal.ProvisioningState { get => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IAppAttachPackagePropertiesInternal)Property).ProvisioningState; set => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IAppAttachPackagePropertiesInternal)Property).ProvisioningState = value; }
+        string Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IAppAttachPackageInternal.ProvisioningState { get => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IAppAttachPackagePropertiesInternal)Property).ProvisioningState; set => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IAppAttachPackagePropertiesInternal)Property).ProvisioningState = value ?? null; }
 
         /// <summary>Internal Acessors for Id</summary>
-        string Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal.Id { get => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).Id; set => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).Id = value; }
+        string Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal.Id { get => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).Id; set => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).Id = value ?? null; }
 
         /// <summary>Internal Acessors for Name</summary>
-        string Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal.Name { get => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).Name; set => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).Name = value; }
+        string Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal.Name { get => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).Name; set => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).Name = value ?? null; }
 
         /// <summary>Internal Acessors for SystemData</summary>
-        Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.ISystemData Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal.SystemData { get => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).SystemData; set => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).SystemData = value; }
+        Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.ISystemData Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal.SystemData { get => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).SystemData; set => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).SystemData = value ?? null /* model class */; }
+
+        /// <summary>Internal Acessors for SystemDataCreatedAt</summary>
+        global::System.DateTime? Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal.SystemDataCreatedAt { get => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).SystemDataCreatedAt; set => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).SystemDataCreatedAt = value ?? default(global::System.DateTime); }
+
+        /// <summary>Internal Acessors for SystemDataCreatedBy</summary>
+        string Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal.SystemDataCreatedBy { get => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).SystemDataCreatedBy; set => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).SystemDataCreatedBy = value ?? null; }
+
+        /// <summary>Internal Acessors for SystemDataCreatedByType</summary>
+        string Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal.SystemDataCreatedByType { get => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).SystemDataCreatedByType; set => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).SystemDataCreatedByType = value ?? null; }
+
+        /// <summary>Internal Acessors for SystemDataLastModifiedAt</summary>
+        global::System.DateTime? Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal.SystemDataLastModifiedAt { get => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).SystemDataLastModifiedAt; set => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).SystemDataLastModifiedAt = value ?? default(global::System.DateTime); }
+
+        /// <summary>Internal Acessors for SystemDataLastModifiedBy</summary>
+        string Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal.SystemDataLastModifiedBy { get => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).SystemDataLastModifiedBy; set => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).SystemDataLastModifiedBy = value ?? null; }
+
+        /// <summary>Internal Acessors for SystemDataLastModifiedByType</summary>
+        string Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal.SystemDataLastModifiedByType { get => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).SystemDataLastModifiedByType; set => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).SystemDataLastModifiedByType = value ?? null; }
 
         /// <summary>Internal Acessors for Type</summary>
-        string Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal.Type { get => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).Type; set => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).Type = value; }
+        string Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal.Type { get => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).Type; set => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).Type = value ?? null; }
 
         /// <summary>The name of the resource</summary>
         [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Origin(Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.PropertyOrigin.Inherited)]
         public string Name { get => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).Name; }
+
+        /// <summary>
+        /// Lookback url to third party control plane, is null for native app attach packages
+        /// </summary>
+        [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Origin(Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.PropertyOrigin.Inlined)]
+        public string PackageLookbackUrl { get => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IAppAttachPackagePropertiesInternal)Property).PackageLookbackUrl; set => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IAppAttachPackagePropertiesInternal)Property).PackageLookbackUrl = value ?? null; }
+
+        /// <summary>Specific name of package owner, is "AppAttach" for native app attach packages</summary>
+        [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Origin(Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.PropertyOrigin.Inlined)]
+        public string PackageOwnerName { get => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IAppAttachPackagePropertiesInternal)Property).PackageOwnerName; set => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IAppAttachPackagePropertiesInternal)Property).PackageOwnerName = value ?? null; }
 
         /// <summary>Backing field for <see cref="Property" /> property.</summary>
         private Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IAppAttachPackageProperties _property;
@@ -153,31 +189,31 @@ namespace Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models
         /// Azure Resource Manager metadata containing createdBy and modifiedBy information.
         /// </summary>
         [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Origin(Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.PropertyOrigin.Inherited)]
-        internal Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.ISystemData SystemData { get => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).SystemData; }
+        internal Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.ISystemData SystemData { get => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).SystemData; set => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).SystemData = value ?? null /* model class */; }
 
         /// <summary>The timestamp of resource creation (UTC).</summary>
         [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Origin(Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.PropertyOrigin.Inherited)]
-        public global::System.DateTime? SystemDataCreatedAt { get => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).SystemDataCreatedAt; set => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).SystemDataCreatedAt = value ?? default(global::System.DateTime); }
+        public global::System.DateTime? SystemDataCreatedAt { get => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).SystemDataCreatedAt; }
 
         /// <summary>The identity that created the resource.</summary>
         [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Origin(Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.PropertyOrigin.Inherited)]
-        public string SystemDataCreatedBy { get => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).SystemDataCreatedBy; set => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).SystemDataCreatedBy = value ?? null; }
+        public string SystemDataCreatedBy { get => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).SystemDataCreatedBy; }
 
         /// <summary>The type of identity that created the resource.</summary>
         [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Origin(Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.PropertyOrigin.Inherited)]
-        public string SystemDataCreatedByType { get => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).SystemDataCreatedByType; set => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).SystemDataCreatedByType = value ?? null; }
+        public string SystemDataCreatedByType { get => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).SystemDataCreatedByType; }
 
         /// <summary>The timestamp of resource last modification (UTC)</summary>
         [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Origin(Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.PropertyOrigin.Inherited)]
-        public global::System.DateTime? SystemDataLastModifiedAt { get => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).SystemDataLastModifiedAt; set => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).SystemDataLastModifiedAt = value ?? default(global::System.DateTime); }
+        public global::System.DateTime? SystemDataLastModifiedAt { get => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).SystemDataLastModifiedAt; }
 
         /// <summary>The identity that last modified the resource.</summary>
         [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Origin(Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.PropertyOrigin.Inherited)]
-        public string SystemDataLastModifiedBy { get => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).SystemDataLastModifiedBy; set => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).SystemDataLastModifiedBy = value ?? null; }
+        public string SystemDataLastModifiedBy { get => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).SystemDataLastModifiedBy; }
 
         /// <summary>The type of identity that last modified the resource.</summary>
         [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Origin(Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.PropertyOrigin.Inherited)]
-        public string SystemDataLastModifiedByType { get => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).SystemDataLastModifiedByType; set => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).SystemDataLastModifiedByType = value ?? null; }
+        public string SystemDataLastModifiedByType { get => ((Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IResourceInternal)__trackedResource).SystemDataLastModifiedByType; }
 
         /// <summary>Resource tags.</summary>
         [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Origin(Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.PropertyOrigin.Inherited)]
@@ -212,6 +248,29 @@ namespace Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models
         Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Runtime.IJsonSerializable,
         Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.ITrackedResource
     {
+        /// <summary>Field that can be populated with custom data and filtered on in list GET calls</summary>
+        [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Runtime.Info(
+        Required = false,
+        ReadOnly = false,
+        Read = true,
+        Create = true,
+        Update = true,
+        Description = @"Field that can be populated with custom data and filtered on in list GET calls",
+        SerializedName = @"customData",
+        PossibleTypes = new [] { typeof(string) })]
+        string CustomData { get; set; }
+        /// <summary>DeploymentScope type for AppAttachPackage.</summary>
+        [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Runtime.Info(
+        Required = false,
+        ReadOnly = false,
+        Read = true,
+        Create = true,
+        Update = true,
+        Description = @"DeploymentScope type for AppAttachPackage.",
+        SerializedName = @"deploymentScope",
+        PossibleTypes = new [] { typeof(string) })]
+        [global::Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.PSArgumentCompleterAttribute("Geographical", "Regional")]
+        string DeploymentScope { get; set; }
         /// <summary>
         /// Parameter indicating how the health check should behave if this package fails staging
         /// </summary>
@@ -244,7 +303,7 @@ namespace Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models
         Read = true,
         Create = true,
         Update = true,
-        Description = @"Date certificate expires, found in the appxmanifest.xml. ",
+        Description = @"Date certificate expires, found in the appxmanifest.xml.",
         SerializedName = @"certificateExpiry",
         PossibleTypes = new [] { typeof(global::System.DateTime) })]
         global::System.DateTime? ImageCertificateExpiry { get; set; }
@@ -255,7 +314,7 @@ namespace Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models
         Read = true,
         Create = true,
         Update = true,
-        Description = @"Certificate name found in the appxmanifest.xml. ",
+        Description = @"Certificate name found in the appxmanifest.xml.",
         SerializedName = @"certificateName",
         PossibleTypes = new [] { typeof(string) })]
         string ImageCertificateName { get; set; }
@@ -266,7 +325,7 @@ namespace Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models
         Read = true,
         Create = true,
         Update = true,
-        Description = @"User friendly Name to be displayed in the portal. ",
+        Description = @"User friendly Name to be displayed in the portal.",
         SerializedName = @"displayName",
         PossibleTypes = new [] { typeof(string) })]
         string ImageDisplayName { get; set; }
@@ -277,7 +336,7 @@ namespace Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models
         Read = true,
         Create = true,
         Update = true,
-        Description = @"Make this version of the package the active one across the hostpool. ",
+        Description = @"Make this version of the package the active one across the hostpool.",
         SerializedName = @"isActive",
         PossibleTypes = new [] { typeof(bool) })]
         bool? ImageIsActive { get; set; }
@@ -311,7 +370,7 @@ namespace Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models
         Read = true,
         Create = true,
         Update = true,
-        Description = @"Date Package was last updated, found in the appxmanifest.xml. ",
+        Description = @"Date Package was last updated, found in the appxmanifest.xml.",
         SerializedName = @"lastUpdated",
         PossibleTypes = new [] { typeof(global::System.DateTime) })]
         global::System.DateTime? ImageLastUpdated { get; set; }
@@ -333,7 +392,7 @@ namespace Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models
         Read = true,
         Create = true,
         Update = true,
-        Description = @"List of package applications. ",
+        Description = @"List of package applications.",
         SerializedName = @"packageApplications",
         PossibleTypes = new [] { typeof(Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IMsixPackageApplications) })]
         System.Collections.Generic.List<Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IMsixPackageApplications> ImagePackageApplication { get; set; }
@@ -344,7 +403,7 @@ namespace Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models
         Read = true,
         Create = true,
         Update = true,
-        Description = @"List of package dependencies. ",
+        Description = @"List of package dependencies.",
         SerializedName = @"packageDependencies",
         PossibleTypes = new [] { typeof(Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IMsixPackageDependencies) })]
         System.Collections.Generic.List<Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IMsixPackageDependencies> ImagePackageDependency { get; set; }
@@ -357,7 +416,7 @@ namespace Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models
         Read = true,
         Create = true,
         Update = true,
-        Description = @"Package Family Name from appxmanifest.xml. Contains Package Name and Publisher name. ",
+        Description = @"Package Family Name from appxmanifest.xml. Contains Package Name and Publisher name.",
         SerializedName = @"packageFamilyName",
         PossibleTypes = new [] { typeof(string) })]
         string ImagePackageFamilyName { get; set; }
@@ -368,7 +427,7 @@ namespace Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models
         Read = true,
         Create = true,
         Update = true,
-        Description = @"Package Full Name from appxmanifest.xml. ",
+        Description = @"Package Full Name from appxmanifest.xml.",
         SerializedName = @"packageFullName",
         PossibleTypes = new [] { typeof(string) })]
         string ImagePackageFullName { get; set; }
@@ -379,7 +438,7 @@ namespace Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models
         Read = true,
         Create = true,
         Update = true,
-        Description = @"Package Name from appxmanifest.xml. ",
+        Description = @"Package Name from appxmanifest.xml.",
         SerializedName = @"packageName",
         PossibleTypes = new [] { typeof(string) })]
         string ImagePackageName { get; set; }
@@ -390,7 +449,7 @@ namespace Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models
         Read = true,
         Create = true,
         Update = true,
-        Description = @"Relative Path to the package inside the image. ",
+        Description = @"Relative Path to the package inside the image.",
         SerializedName = @"packageRelativePath",
         PossibleTypes = new [] { typeof(string) })]
         string ImagePackageRelativePath { get; set; }
@@ -412,7 +471,7 @@ namespace Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models
         Read = true,
         Create = true,
         Update = true,
-        Description = @"Package version found in the appxmanifest.xml. ",
+        Description = @"Package version found in the appxmanifest.xml.",
         SerializedName = @"version",
         PossibleTypes = new [] { typeof(string) })]
         string ImageVersion { get; set; }
@@ -427,6 +486,30 @@ namespace Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models
         SerializedName = @"keyVaultURL",
         PossibleTypes = new [] { typeof(string) })]
         string KeyVaultUrl { get; set; }
+        /// <summary>
+        /// Lookback url to third party control plane, is null for native app attach packages
+        /// </summary>
+        [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Runtime.Info(
+        Required = false,
+        ReadOnly = false,
+        Read = true,
+        Create = true,
+        Update = true,
+        Description = @"Lookback url to third party control plane, is null for native app attach packages",
+        SerializedName = @"packageLookbackUrl",
+        PossibleTypes = new [] { typeof(string) })]
+        string PackageLookbackUrl { get; set; }
+        /// <summary>Specific name of package owner, is "AppAttach" for native app attach packages</summary>
+        [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Runtime.Info(
+        Required = false,
+        ReadOnly = false,
+        Read = true,
+        Create = true,
+        Update = true,
+        Description = @"Specific name of package owner, is ""AppAttach"" for native app attach packages",
+        SerializedName = @"packageOwnerName",
+        PossibleTypes = new [] { typeof(string) })]
+        string PackageOwnerName { get; set; }
         /// <summary>The provisioning state of the App Attach Package.</summary>
         [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Runtime.Info(
         Required = false,
@@ -445,6 +528,11 @@ namespace Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models
     internal partial interface IAppAttachPackageInternal :
         Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.ITrackedResourceInternal
     {
+        /// <summary>Field that can be populated with custom data and filtered on in list GET calls</summary>
+        string CustomData { get; set; }
+        /// <summary>DeploymentScope type for AppAttachPackage.</summary>
+        [global::Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.PSArgumentCompleterAttribute("Geographical", "Regional")]
+        string DeploymentScope { get; set; }
         /// <summary>
         /// Parameter indicating how the health check should behave if this package fails staging
         /// </summary>
@@ -491,6 +579,12 @@ namespace Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models
         string ImageVersion { get; set; }
         /// <summary>URL path to certificate name located in keyVault</summary>
         string KeyVaultUrl { get; set; }
+        /// <summary>
+        /// Lookback url to third party control plane, is null for native app attach packages
+        /// </summary>
+        string PackageLookbackUrl { get; set; }
+        /// <summary>Specific name of package owner, is "AppAttach" for native app attach packages</summary>
+        string PackageOwnerName { get; set; }
         /// <summary>Detailed properties for App Attach Package</summary>
         Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IAppAttachPackageProperties Property { get; set; }
         /// <summary>The provisioning state of the App Attach Package.</summary>

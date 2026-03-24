@@ -1,15 +1,15 @@
 {
-  "Remove-AzWvdRegistrationInfo+[NoContext]+Remove RegInfo+$PUT+https://management.azure.com/subscriptions/dbedef25-184c-430f-b383-0eeb87c3205d/resourceGroups/alecbUserSessionTests/providers/Microsoft.DesktopVirtualization/hostPools/HostPoolPowershellContained1?api-version=2024-04-03+1": {
+  "Remove-AzWvdRegistrationInfo+[NoContext]+Remove RegInfo+$PUT+https://management.azure.com/subscriptions/6738509d-84ed-4ad6-974a-7dc4e3c34146/resourceGroups/zhongjie-rg-wus/providers/Microsoft.DesktopVirtualization/hostPools/HostPoolPowershellContained1?api-version=2026-01-01-preview+1": {
     "Request": {
       "Method": "PUT",
-      "RequestUri": "https://management.azure.com/subscriptions/dbedef25-184c-430f-b383-0eeb87c3205d/resourceGroups/alecbUserSessionTests/providers/Microsoft.DesktopVirtualization/hostPools/HostPoolPowershellContained1?api-version=2024-04-03",
-      "Content": "{\r\n  \"location\": \"westus2\",\r\n  \"properties\": {\r\n    \"registrationInfo\": {\r\n      \"expirationTime\": \"2024-09-10T13:23:21.1391502-06:00\",\r\n      \"registrationTokenOperation\": \"Update\"\r\n    },\r\n    \"friendlyName\": \"fri\",\r\n    \"description\": \"des\",\r\n    \"hostPoolType\": \"Shared\",\r\n    \"customRdpProperty\": \"\",\r\n    \"maxSessionLimit\": 5,\r\n    \"loadBalancerType\": \"DepthFirst\",\r\n    \"ring\": 0,\r\n    \"validationEnvironment\": false,\r\n    \"vmTemplate\": \"\",\r\n    \"preferredAppGroupType\": \"Desktop\"\r\n  }\r\n}",
+      "RequestUri": "https://management.azure.com/subscriptions/6738509d-84ed-4ad6-974a-7dc4e3c34146/resourceGroups/zhongjie-rg-wus/providers/Microsoft.DesktopVirtualization/hostPools/HostPoolPowershellContained1?api-version=2026-01-01-preview",
+      "Content": "{\r\n  \"location\": \"westus2\",\r\n  \"properties\": {\r\n    \"registrationInfo\": {\r\n      \"expirationTime\": \"2026-03-19T13:50:49.1361986+08:00\",\r\n      \"registrationTokenOperation\": \"Update\"\r\n    },\r\n    \"friendlyName\": \"fri\",\r\n    \"description\": \"des\",\r\n    \"hostPoolType\": \"Shared\",\r\n    \"customRdpProperty\": \"\",\r\n    \"maxSessionLimit\": 5,\r\n    \"loadBalancerType\": \"DepthFirst\",\r\n    \"ring\": 0,\r\n    \"validationEnvironment\": false,\r\n    \"vmTemplate\": \"\",\r\n    \"preferredAppGroupType\": \"Desktop\",\r\n    \"managementType\": \"Standard\"\r\n  }\r\n}",
       "isContentBase64": false,
       "Headers": {
       },
       "ContentHeaders": {
         "Content-Type": [ "application/json" ],
-        "Content-Length": [ "495" ]
+        "Content-Length": [ "530" ]
       }
     },
     "Response": {
@@ -17,48 +17,49 @@
       "Headers": {
         "Cache-Control": [ "no-cache" ],
         "Pragma": [ "no-cache" ],
-        "Location": [ "/subscriptions/dbedef25-184c-430f-b383-0eeb87c3205d/resourcegroups/alecbUserSessionTests/providers/Microsoft.DesktopVirtualization/hostpools/HostPoolPowershellContained1" ],
-        "Set-Cookie": [ "ARRAffinity=68684045b6f67894fddd7c62f3ba5f363c3d53ed896664c0df0e95751fa52bff;Path=/;HttpOnly;Secure;Domain=rdarmprovider-g-us-r0.wvdselfhost.microsoft.com", "ARRAffinitySameSite=68684045b6f67894fddd7c62f3ba5f363c3d53ed896664c0df0e95751fa52bff;Path=/;HttpOnly;SameSite=None;Secure;Domain=rdarmprovider-g-us-r0.wvdselfhost.microsoft.com" ],
+        "Location": [ "/subscriptions/6738509d-84ed-4ad6-974a-7dc4e3c34146/resourcegroups/zhongjie-rg-wus/providers/Microsoft.DesktopVirtualization/hostpools/HostPoolPowershellContained1" ],
+        "Set-Cookie": [ "ARRAffinity=f5a17254951e5cf9c5b38779db50e2bfcb7bdbef0315c86a85e59a1c7e1471bf;Path=/;HttpOnly;Secure;Domain=rdarmprovider-g-us-r0.wvd.microsoft.com", "ARRAffinitySameSite=f5a17254951e5cf9c5b38779db50e2bfcb7bdbef0315c86a85e59a1c7e1471bf;Path=/;HttpOnly;SameSite=None;Secure;Domain=rdarmprovider-g-us-r0.wvd.microsoft.com" ],
         "X-Rate-Limit-Limit": [ "0" ],
         "X-Rate-Limit-Remaining": [ "9223372036854775807" ],
         "X-Rate-Limit-Reset": [ "0" ],
-        "x-ms-opsarmpath64": [ "L3N1YnNjcmlwdGlvbnMvZGJlZGVmMjUtMTg0Yy00MzBmLWIzODMtMGVlYjg3YzMyMDVkL3Jlc291cmNlR3JvdXBzL2FsZWNiVXNlclNlc3Npb25UZXN0cy9wcm92aWRlcnMvTWljcm9zb2Z0LkRlc2t0b3BWaXJ0dWFsaXphdGlvbi9ob3N0UG9vbHMvSG9zdFBvb2xQb3dlcnNoZWxsQ29udGFpbmVkMQ==" ],
-        "x-ms-lamport-ts": [ "177777542" ],
-        "x-ms-correlation-id": [ "7990f214-6cc5-4b6d-ba9a-21b906b54f82" ],
-        "x-ms-request-id": [ "df7df0b5-604b-4d1c-9abe-c7124c6fc932" ],
+        "x-ms-opsarmpath64": [ "L3N1YnNjcmlwdGlvbnMvNjczODUwOWQtODRlZC00YWQ2LTk3NGEtN2RjNGUzYzM0MTQ2L3Jlc291cmNlR3JvdXBzL3pob25namllLXJnLXd1cy9wcm92aWRlcnMvTWljcm9zb2Z0LkRlc2t0b3BWaXJ0dWFsaXphdGlvbi9ob3N0UG9vbHMvSG9zdFBvb2xQb3dlcnNoZWxsQ29udGFpbmVkMQ==" ],
+        "x-ms-lamport-ts": [ "-9223372036854775807" ],
+        "x-ms-correlation-id": [ "fc099352-0f53-4d88-b876-274fc7cd0910" ],
+        "x-ms-request-id": [ "27a352bc-e231-4504-b770-93e46d59100b" ],
         "X-Powered-By": [ "ASP.NET" ],
         "X-Content-Type-Options": [ "nosniff" ],
-        "x-ms-ratelimit-remaining-subscription-writes": [ "398" ],
-        "x-ms-ratelimit-remaining-subscription-global-writes": [ "5997" ],
-        "x-ms-correlation-request-id": [ "ad9201e3-3198-445c-8f92-a86817ec8e9d" ],
-        "x-ms-routing-request-id": [ "WESTUS2:20240909T192321Z:ad9201e3-3198-445c-8f92-a86817ec8e9d" ],
+        "x-ms-operation-identifier": [ "tenantId=715492f1-ef6e-4eea-9176-7c81e765c3c8,objectId=20778267-e9a4-46ba-97d7-7b7e5b321864/westus2/ae50598c-91e1-46af-bb61-5f27582b0428" ],
+        "x-ms-ratelimit-remaining-subscription-writes": [ "199" ],
+        "x-ms-ratelimit-remaining-subscription-global-writes": [ "2999" ],
+        "x-ms-correlation-request-id": [ "0a1cb49a-a533-4a09-9615-dd0bf6880d68" ],
+        "x-ms-routing-request-id": [ "WESTUS2:20260318T055051Z:0a1cb49a-a533-4a09-9615-dd0bf6880d68" ],
         "Strict-Transport-Security": [ "max-age=31536000; includeSubDomains" ],
         "X-Cache": [ "CONFIG_NOCACHE" ],
-        "X-MSEdge-Ref": [ "Ref A: F7439C3174DE4BFE9138804DA798B59F Ref B: CO1EDGE2518 Ref C: 2024-09-09T19:23:21Z" ],
-        "Date": [ "Mon, 09 Sep 2024 19:23:21 GMT" ]
+        "X-MSEdge-Ref": [ "Ref A: 127A5926A7264465B9E9D5E428D6FC61 Ref B: SG2AA1040516023 Ref C: 2026-03-18T05:50:49Z" ],
+        "Date": [ "Wed, 18 Mar 2026 05:50:50 GMT" ]
       },
       "ContentHeaders": {
-        "Content-Length": [ "2953" ],
+        "Content-Length": [ "3005" ],
         "Content-Type": [ "application/json; charset=utf-8" ],
         "Expires": [ "-1" ]
       },
-      "Content": "{\"identity\":null,\"name\":\"HostPoolPowershellContained1\",\"id\":\"/subscriptions/dbedef25-184c-430f-b383-0eeb87c3205d/resourcegroups/alecbUserSessionTests/providers/Microsoft.DesktopVirtualization/hostpools/HostPoolPowershellContained1\",\"type\":\"Microsoft.DesktopVirtualization/hostpools\",\"location\":\"westus2\",\"tags\":null,\"kind\":null,\"systemData\":{\"createdBy\":\"alecbaird@wvdtesttenant.onmicrosoft.com\",\"createdByType\":\"User\",\"createdAt\":\"2024-09-09T19:23:21.50Z\",\"lastModifiedBy\":\"alecbaird@wvdtesttenant.onmicrosoft.com\",\"lastModifiedByType\":\"User\",\"lastModifiedAt\":\"2024-09-09T19:23:21.50Z\"},\"properties\":{\"managedPrivateUDP\":\"Default\",\"directUDP\":\"Default\",\"publicUDP\":\"Default\",\"relayUDP\":\"Default\",\"managementType\":\"Standard\",\"appAttachPackageReferences\":[],\"agentUpdate\":null,\"friendlyName\":\"fri\",\"description\":\"des\",\"hostPoolType\":\"Pooled\",\"personalDesktopAssignmentType\":null,\"applicationGroupReferences\":[],\"customRdpProperty\":\"\",\"maxSessionLimit\":5,\"loadBalancerType\":\"DepthFirst\",\"validationEnvironment\":false,\"ring\":null,\"registrationInfo\":{\"expirationTime\":\"2024-09-10T19:23:21.1391502+00:00\",\"token\":\"eyJhbGciOiJSUzI1NiIsImtpZCI6IjZEQTlDNDhCQTcxRkJEMzREQkQ4RTQ2MEI3Q0U4MUVFMjM4Q0E0MTAiLCJ0eXAiOiJKV1QifQ.eyJSZWdpc3RyYXRpb25JZCI6IjQzZjQ2NTA4LWMyZDItNDBjZC1iZGY0LWNhNGI3M2MxMjc2MyIsIkJyb2tlclVyaSI6Imh0dHBzOi8vcmRicm9rZXItZy11cy1yMC53dmRzZWxmaG9zdC5taWNyb3NvZnQuY29tLyIsIkRpYWdub3N0aWNzVXJpIjoiaHR0cHM6Ly9yZGRpYWdub3N0aWNzLWctdXMtcjAud3Zkc2VsZmhvc3QubWljcm9zb2Z0LmNvbS8iLCJFbmRwb2ludFBvb2xJZCI6IjQ5YzNlNTlmLTkzNjQtNDUzMy1iMGJlLTQ4NThhOTU4NWUzMiIsIkdsb2JhbEJyb2tlclVyaSI6Imh0dHBzOi8vcmRicm9rZXIud3Zkc2VsZmhvc3QubWljcm9zb2Z0LmNvbS8iLCJHZW9ncmFwaHkiOiJVUyIsIkdsb2JhbEJyb2tlclJlc291cmNlSWRVcmkiOiJodHRwczovLzQ5YzNlNTlmLTkzNjQtNDUzMy1iMGJlLTQ4NThhOTU4NWUzMi5yZGJyb2tlci53dmRzZWxmaG9zdC5taWNyb3NvZnQuY29tLyIsIkJyb2tlclJlc291cmNlSWRVcmkiOiJodHRwczovLzQ5YzNlNTlmLTkzNjQtNDUzMy1iMGJlLTQ4NThhOTU4NWUzMi5yZGJyb2tlci1nLXVzLXIwLnd2ZHNlbGZob3N0Lm1pY3Jvc29mdC5jb20vIiwiRGlhZ25vc3RpY3NSZXNvdXJjZUlkVXJpIjoiaHR0cHM6Ly80OWMzZTU5Zi05MzY0LTQ1MzMtYjBiZS00ODU4YTk1ODVlMzIucmRkaWFnbm9zdGljcy1nLXVzLXIwLnd2ZHNlbGZob3N0Lm1pY3Jvc29mdC5jb20vIiwiQUFEVGVuYW50SWQiOiI3NGJjMmRmMC1mYzU3LTQzNjEtYjE1MC0yZDZkZDUxY2I2NjMiLCJuYmYiOjE3MjU5MDk4MDEsImV4cCI6MTcyNTk5NjIwMSwiaXNzIjoiUkRJbmZyYVRva2VuTWFuYWdlciIsImF1ZCI6IlJEbWkifQ.IUmaTJgCcY3Tjfyf_wyqAOLBnw523oJ8NEhdMl7IdIEr2OuJDpbIywQXOQdMq_7ITWpvvfPHd7XZBM0sDG9UGHu0DQm5eorYFY8Qc5VOy8aqQWn6npixZ7c7KODX733x-5O89SOE1J6ZmzAPdbL2ftO_SulIzc91iJxbrVprSm_tIEM07ovB8SXnl0Lm2nA4bIFsean-5E4DGu--hzMy1CwJl_-1hQTiIBMSe0blydENaw-t8zn-Z6K27j92fBOY1VGjeCvKWapd2g7d6r4zZsFyR-X1TUv03EeAenjaSQt4BzuocvoufvwyW9iLCRqBjxesOqSNSrTuodYcO7Yu1A\",\"registrationTokenOperation\":\"Update\"},\"vmTemplate\":null,\"preferredAppGroupType\":\"Desktop\",\"migrationRequest\":null,\"cloudPcResource\":false,\"startVMOnConnect\":false,\"ssoadfsAuthority\":null,\"ssoClientId\":null,\"ssoClientSecretKeyVaultPath\":null,\"ssoSecretType\":null,\"objectId\":\"49c3e59f-9364-4533-b0be-4858a9585e32\"}}",
+      "Content": "{\"identity\":{\"type\":\"None\",\"tenantId\":null,\"principalId\":null},\"name\":\"HostPoolPowershellContained1\",\"id\":\"/subscriptions/6738509d-84ed-4ad6-974a-7dc4e3c34146/resourcegroups/zhongjie-rg-wus/providers/Microsoft.DesktopVirtualization/hostpools/HostPoolPowershellContained1\",\"type\":\"Microsoft.DesktopVirtualization/hostpools\",\"location\":\"westus2\",\"tags\":null,\"kind\":null,\"systemData\":{\"createdBy\":\"guorui@microsoft.com\",\"createdByType\":\"User\",\"createdAt\":\"2026-03-18T05:50:49.57Z\",\"lastModifiedBy\":\"guorui@microsoft.com\",\"lastModifiedByType\":\"User\",\"lastModifiedAt\":\"2026-03-18T05:50:49.57Z\"},\"properties\":{\"allowRDPShortPathWithPrivateLink\":\"Disabled\",\"deploymentScope\":\"Geographical\",\"managedPrivateUDP\":\"Default\",\"directUDP\":\"Default\",\"publicUDP\":\"Default\",\"relayUDP\":\"Default\",\"appAttachPackageReferences\":[],\"privateEndpointConnections\":null,\"publicNetworkAccess\":\"Enabled\",\"agentUpdate\":null,\"friendlyName\":\"fri\",\"description\":\"des\",\"hostPoolType\":\"Pooled\",\"personalDesktopAssignmentType\":null,\"applicationGroupReferences\":[],\"customRdpProperty\":\"\",\"maxSessionLimit\":5,\"loadBalancerType\":\"DepthFirst\",\"validationEnvironment\":false,\"ring\":1,\"registrationInfo\":{\"expirationTime\":\"2026-03-19T05:50:49.1361986+00:00\",\"token\":\"eyJhbGciOiJSUzI1NiIsImtpZCI6IjEyMUExMTdGQUI2MzEyMjEyMjNEODUwMTg3NDlDNEEwQTBDMTNGQTYiLCJ0eXAiOiJKV1QifQ.eyJSZWdpc3RyYXRpb25JZCI6IjE4YTI2NzE1LTUyZmYtNGE4ZS04MzgzLWQ5MDI0ZTRmYWVkMCIsIkJyb2tlclVyaSI6Imh0dHBzOi8vcmRicm9rZXItZy11cy1yMS53dmQubWljcm9zb2Z0LmNvbS8iLCJEaWFnbm9zdGljc1VyaSI6Imh0dHBzOi8vcmRkaWFnbm9zdGljcy1nLXVzLXIxLnd2ZC5taWNyb3NvZnQuY29tLyIsIkVuZHBvaW50UG9vbElkIjoiNjRjMzNiMDctMmRmNS00NGNhLThlN2ItMDdmZjk5NjNjYjMzIiwiR2xvYmFsQnJva2VyVXJpIjoiaHR0cHM6Ly9yZGJyb2tlci53dmQubWljcm9zb2Z0LmNvbS8iLCJHZW9ncmFwaHkiOiJVUyIsIkdsb2JhbEJyb2tlclJlc291cmNlSWRVcmkiOiJodHRwczovLzY0YzMzYjA3LTJkZjUtNDRjYS04ZTdiLTA3ZmY5OTYzY2IzMy5yZGJyb2tlci53dmQubWljcm9zb2Z0LmNvbS8iLCJCcm9rZXJSZXNvdXJjZUlkVXJpIjoiaHR0cHM6Ly82NGMzM2IwNy0yZGY1LTQ0Y2EtOGU3Yi0wN2ZmOTk2M2NiMzMucmRicm9rZXItZy11cy1yMS53dmQubWljcm9zb2Z0LmNvbS8iLCJEaWFnbm9zdGljc1Jlc291cmNlSWRVcmkiOiJodHRwczovLzY0YzMzYjA3LTJkZjUtNDRjYS04ZTdiLTA3ZmY5OTYzY2IzMy5yZGRpYWdub3N0aWNzLWctdXMtcjEud3ZkLm1pY3Jvc29mdC5jb20vIiwiQUFEVGVuYW50SWQiOiI3MTU0OTJmMS1lZjZlLTRlZWEtOTE3Ni03YzgxZTc2NWMzYzgiLCJuYmYiOjE3NzM4MTMwNTAsImV4cCI6MTc3Mzg5OTQ0OSwiaXNzIjoiUkRJbmZyYVRva2VuTWFuYWdlciIsImF1ZCI6IlJEbWkifQ.lHLQT_kYtVSNVO-ADhscxdd4I1WaLXMassmOrAeUaD5aWS17wW2Phsttn4Ejd3cm6dD2YGU6gDZ00mljT7biTUyQIhGYueqvky4U-ZDE7eAGi7vySs0Smb7ysGTndap-od7_lVix9_6rai5T6fuQDZcbZNBTyuGC2CZgnSx1gYscQyzYxIwMvr4KFN9HUfxrDsuKwMxrgbzbFs0lg5VQZLkS-pTY4aode8odcW62skackIzOi0luo8jhodxA9PSKd-kjnW39rGrgwwXz-BjMy56_joIFw4zg-tMc9gwvqIfG3PV0SCi5bVJ2RlLNv7LZI5adBqpKKS_nPUcRD9C4kg\",\"registrationTokenOperation\":\"Update\"},\"vmTemplate\":null,\"preferredAppGroupType\":\"Desktop\",\"migrationRequest\":null,\"cloudPcResource\":false,\"startVMOnConnect\":false,\"ssoadfsAuthority\":null,\"ssoClientId\":null,\"ssoClientSecretKeyVaultPath\":null,\"ssoSecretType\":null,\"objectId\":\"64c33b07-2df5-44ca-8e7b-07ff9963cb33\"}}",
       "isContentBase64": false
     }
   },
-  "Remove-AzWvdRegistrationInfo+[NoContext]+Remove RegInfo+$GET+https://management.azure.com/subscriptions/dbedef25-184c-430f-b383-0eeb87c3205d/resourceGroups/alecbUserSessionTests/providers/Microsoft.DesktopVirtualization/hostPools/HostPoolPowershellContained1?api-version=2024-04-03+2": {
+  "Remove-AzWvdRegistrationInfo+[NoContext]+Remove RegInfo+$GET+https://management.azure.com/subscriptions/6738509d-84ed-4ad6-974a-7dc4e3c34146/resourceGroups/zhongjie-rg-wus/providers/Microsoft.DesktopVirtualization/hostPools/HostPoolPowershellContained1?api-version=2026-01-01-preview+2": {
     "Request": {
       "Method": "GET",
-      "RequestUri": "https://management.azure.com/subscriptions/dbedef25-184c-430f-b383-0eeb87c3205d/resourceGroups/alecbUserSessionTests/providers/Microsoft.DesktopVirtualization/hostPools/HostPoolPowershellContained1?api-version=2024-04-03",
+      "RequestUri": "https://management.azure.com/subscriptions/6738509d-84ed-4ad6-974a-7dc4e3c34146/resourceGroups/zhongjie-rg-wus/providers/Microsoft.DesktopVirtualization/hostPools/HostPoolPowershellContained1?api-version=2026-01-01-preview",
       "Content": null,
       "isContentBase64": false,
       "Headers": {
-        "x-ms-unique-id": [ "315" ],
-        "x-ms-client-request-id": [ "2cbb6a52-8546-4218-ac5e-1c2027cc29ec" ],
+        "x-ms-unique-id": [ "333" ],
+        "x-ms-client-request-id": [ "dd9ad4a9-ac48-496f-9a37-51acf4db5a0d" ],
         "CommandName": [ "Az.DesktopVirtualization\\Get-AzWvdHostPool" ],
         "FullCommandName": [ "Get-AzWvdHostPool_Get" ],
         "ParameterSetName": [ "__AllParameterSets" ],
-        "User-Agent": [ "AzurePowershell/v12.3.0", "PSVersion/v7.2.23", "Az.DesktopVirtualization/6.0.0" ],
+        "User-Agent": [ "AzurePowershell/v15.3.0", "PSVersion/v7.5.5", "Az.DesktopVirtualization/5.4.4" ],
         "Authorization": [ "[Filtered]" ]
       },
       "ContentHeaders": {
@@ -70,39 +71,39 @@
         "Cache-Control": [ "no-cache" ],
         "Pragma": [ "no-cache" ],
         "Vary": [ "Accept-Encoding" ],
-        "Set-Cookie": [ "ARRAffinity=f0cf6515b964ed71a3330b30673731d75ad3321adfb3448f8fe843b9868e0497;Path=/;HttpOnly;Secure;Domain=rdarmprovider-g-us-r0.wvdselfhost.microsoft.com", "ARRAffinitySameSite=f0cf6515b964ed71a3330b30673731d75ad3321adfb3448f8fe843b9868e0497;Path=/;HttpOnly;SameSite=None;Secure;Domain=rdarmprovider-g-us-r0.wvdselfhost.microsoft.com" ],
-        "x-ms-ratelimit-remaining-subscription-reads": [ "498" ],
+        "Set-Cookie": [ "ARRAffinity=a8fb460a99db0807dd983e3c4d13276233c538e2cae17bfe4f46761acb8505ee;Path=/;HttpOnly;Secure;Domain=rdarmprovider-g-us-r0.wvd.microsoft.com", "ARRAffinitySameSite=a8fb460a99db0807dd983e3c4d13276233c538e2cae17bfe4f46761acb8505ee;Path=/;HttpOnly;SameSite=None;Secure;Domain=rdarmprovider-g-us-r0.wvd.microsoft.com" ],
+        "x-ms-ratelimit-remaining-subscription-reads": [ "247" ],
         "X-Rate-Limit-Limit": [ "0" ],
         "X-Rate-Limit-Remaining": [ "9223372036854775807" ],
         "X-Rate-Limit-Reset": [ "0" ],
-        "x-ms-opsarmpath64": [ "L3N1YnNjcmlwdGlvbnMvZGJlZGVmMjUtMTg0Yy00MzBmLWIzODMtMGVlYjg3YzMyMDVkL3Jlc291cmNlR3JvdXBzL2FsZWNiVXNlclNlc3Npb25UZXN0cy9wcm92aWRlcnMvTWljcm9zb2Z0LkRlc2t0b3BWaXJ0dWFsaXphdGlvbi9ob3N0UG9vbHMvSG9zdFBvb2xQb3dlcnNoZWxsQ29udGFpbmVkMQ==" ],
-        "x-ms-lamport-ts": [ "177777539" ],
-        "x-ms-correlation-id": [ "02ca7e27-91d4-4cb6-9dc2-de82b2c33bd6" ],
-        "x-ms-request-id": [ "2cbb6a52-8546-4218-ac5e-1c2027cc29ec" ],
+        "x-ms-opsarmpath64": [ "L3N1YnNjcmlwdGlvbnMvNjczODUwOWQtODRlZC00YWQ2LTk3NGEtN2RjNGUzYzM0MTQ2L3Jlc291cmNlR3JvdXBzL3pob25namllLXJnLXd1cy9wcm92aWRlcnMvTWljcm9zb2Z0LkRlc2t0b3BWaXJ0dWFsaXphdGlvbi9ob3N0UG9vbHMvSG9zdFBvb2xQb3dlcnNoZWxsQ29udGFpbmVkMQ==" ],
+        "x-ms-lamport-ts": [ "-9223372036854775531" ],
+        "x-ms-correlation-id": [ "aba75f1d-ea42-4962-b4a5-6f74cbedceb1" ],
+        "x-ms-request-id": [ "dd9ad4a9-ac48-496f-9a37-51acf4db5a0d" ],
         "X-Powered-By": [ "ASP.NET" ],
         "X-Content-Type-Options": [ "nosniff" ],
-        "x-ms-ratelimit-remaining-subscription-global-reads": [ "7498" ],
-        "x-ms-correlation-request-id": [ "3afcb9b4-d78b-419e-bb17-b7d177f99322" ],
-        "x-ms-routing-request-id": [ "WESTUS2:20240909T192321Z:3afcb9b4-d78b-419e-bb17-b7d177f99322" ],
+        "x-ms-ratelimit-remaining-subscription-global-reads": [ "3747" ],
+        "x-ms-correlation-request-id": [ "2696641c-1a59-4d54-a613-163a182c11a7" ],
+        "x-ms-routing-request-id": [ "WESTUS2:20260318T055051Z:2696641c-1a59-4d54-a613-163a182c11a7" ],
         "Strict-Transport-Security": [ "max-age=31536000; includeSubDomains" ],
         "X-Cache": [ "CONFIG_NOCACHE" ],
-        "X-MSEdge-Ref": [ "Ref A: D7CBFABB45CC4A6286F083EBDC228FEB Ref B: CO1EDGE2518 Ref C: 2024-09-09T19:23:21Z" ],
-        "Date": [ "Mon, 09 Sep 2024 19:23:21 GMT" ]
+        "X-MSEdge-Ref": [ "Ref A: 1C7D01549B8B4D4D83A150A7D4686D8A Ref B: SG2AA1040516023 Ref C: 2026-03-18T05:50:51Z" ],
+        "Date": [ "Wed, 18 Mar 2026 05:50:50 GMT" ]
       },
       "ContentHeaders": {
-        "Content-Length": [ "1326" ],
+        "Content-Length": [ "1440" ],
         "Content-Type": [ "application/json; charset=utf-8" ],
         "Expires": [ "-1" ]
       },
-      "Content": "{\"identity\":null,\"name\":\"HostPoolPowershellContained1\",\"id\":\"/subscriptions/dbedef25-184c-430f-b383-0eeb87c3205d/resourcegroups/alecbUserSessionTests/providers/Microsoft.DesktopVirtualization/hostpools/HostPoolPowershellContained1\",\"type\":\"Microsoft.DesktopVirtualization/hostpools\",\"location\":\"westus2\",\"tags\":null,\"kind\":null,\"systemData\":{\"createdBy\":\"alecbaird@wvdtesttenant.onmicrosoft.com\",\"createdByType\":\"User\",\"createdAt\":\"2024-09-09T19:23:21.50Z\",\"lastModifiedBy\":\"alecbaird@wvdtesttenant.onmicrosoft.com\",\"lastModifiedByType\":\"User\",\"lastModifiedAt\":\"2024-09-09T19:23:21.50Z\"},\"properties\":{\"managedPrivateUDP\":\"Default\",\"directUDP\":\"Default\",\"publicUDP\":\"Default\",\"relayUDP\":\"Default\",\"managementType\":\"Standard\",\"appAttachPackageReferences\":[],\"agentUpdate\":null,\"friendlyName\":\"fri\",\"description\":\"des\",\"hostPoolType\":\"Pooled\",\"personalDesktopAssignmentType\":null,\"applicationGroupReferences\":[],\"customRdpProperty\":\"\",\"maxSessionLimit\":5,\"loadBalancerType\":\"DepthFirst\",\"validationEnvironment\":false,\"ring\":null,\"registrationInfo\":null,\"vmTemplate\":null,\"preferredAppGroupType\":\"Desktop\",\"migrationRequest\":null,\"cloudPcResource\":false,\"startVMOnConnect\":false,\"ssoadfsAuthority\":null,\"ssoClientId\":null,\"ssoClientSecretKeyVaultPath\":null,\"ssoSecretType\":null,\"objectId\":\"49c3e59f-9364-4533-b0be-4858a9585e32\"}}",
+      "Content": "{\"identity\":{\"type\":\"None\",\"tenantId\":null,\"principalId\":null},\"name\":\"HostPoolPowershellContained1\",\"id\":\"/subscriptions/6738509d-84ed-4ad6-974a-7dc4e3c34146/resourcegroups/zhongjie-rg-wus/providers/Microsoft.DesktopVirtualization/hostpools/HostPoolPowershellContained1\",\"type\":\"Microsoft.DesktopVirtualization/hostpools\",\"location\":\"westus2\",\"tags\":null,\"kind\":null,\"systemData\":{\"createdBy\":\"guorui@microsoft.com\",\"createdByType\":\"User\",\"createdAt\":\"2026-03-18T05:50:49.57Z\",\"lastModifiedBy\":\"guorui@microsoft.com\",\"lastModifiedByType\":\"User\",\"lastModifiedAt\":\"2026-03-18T05:50:49.57Z\"},\"properties\":{\"allowRDPShortPathWithPrivateLink\":\"Disabled\",\"deploymentScope\":\"Geographical\",\"managedPrivateUDP\":\"Default\",\"directUDP\":\"Default\",\"publicUDP\":\"Default\",\"relayUDP\":\"Default\",\"appAttachPackageReferences\":[],\"privateEndpointConnections\":[],\"publicNetworkAccess\":\"Enabled\",\"agentUpdate\":null,\"friendlyName\":\"fri\",\"description\":\"des\",\"hostPoolType\":\"Pooled\",\"personalDesktopAssignmentType\":null,\"applicationGroupReferences\":[],\"customRdpProperty\":\"\",\"maxSessionLimit\":5,\"loadBalancerType\":\"DepthFirst\",\"validationEnvironment\":false,\"ring\":1,\"registrationInfo\":null,\"vmTemplate\":null,\"preferredAppGroupType\":\"Desktop\",\"migrationRequest\":null,\"cloudPcResource\":false,\"startVMOnConnect\":false,\"ssoadfsAuthority\":null,\"ssoClientId\":null,\"ssoClientSecretKeyVaultPath\":null,\"ssoSecretType\":null,\"objectId\":\"64c33b07-2df5-44ca-8e7b-07ff9963cb33\"}}",
       "isContentBase64": false
     }
   },
-  "Remove-AzWvdRegistrationInfo+[NoContext]+Remove RegInfo+$PUT+https://management.azure.com/subscriptions/dbedef25-184c-430f-b383-0eeb87c3205d/resourceGroups/alecbUserSessionTests/providers/Microsoft.DesktopVirtualization/hostPools/HostPoolPowershellContained1?api-version=2024-04-03+3": {
+  "Remove-AzWvdRegistrationInfo+[NoContext]+Remove RegInfo+$PUT+https://management.azure.com/subscriptions/6738509d-84ed-4ad6-974a-7dc4e3c34146/resourceGroups/zhongjie-rg-wus/providers/Microsoft.DesktopVirtualization/hostPools/HostPoolPowershellContained1?api-version=2026-01-01-preview+3": {
     "Request": {
       "Method": "PUT",
-      "RequestUri": "https://management.azure.com/subscriptions/dbedef25-184c-430f-b383-0eeb87c3205d/resourceGroups/alecbUserSessionTests/providers/Microsoft.DesktopVirtualization/hostPools/HostPoolPowershellContained1?api-version=2024-04-03",
-      "Content": "{\r\n  \"location\": \"westus2\",\r\n  \"properties\": {\r\n    \"registrationInfo\": {\r\n      \"registrationTokenOperation\": \"Delete\"\r\n    },\r\n    \"friendlyName\": \"fri\",\r\n    \"description\": \"des\",\r\n    \"hostPoolType\": \"Pooled\",\r\n    \"customRdpProperty\": \"\",\r\n    \"maxSessionLimit\": 5,\r\n    \"loadBalancerType\": \"DepthFirst\",\r\n    \"ring\": 0,\r\n    \"validationEnvironment\": false,\r\n    \"vmTemplate\": \"\",\r\n    \"preferredAppGroupType\": \"Desktop\"\r\n  }\r\n}",
+      "RequestUri": "https://management.azure.com/subscriptions/6738509d-84ed-4ad6-974a-7dc4e3c34146/resourceGroups/zhongjie-rg-wus/providers/Microsoft.DesktopVirtualization/hostPools/HostPoolPowershellContained1?api-version=2026-01-01-preview",
+      "Content": "{\r\n  \"location\": \"westus2\",\r\n  \"properties\": {\r\n    \"registrationInfo\": {\r\n      \"registrationTokenOperation\": \"Delete\"\r\n    },\r\n    \"friendlyName\": \"fri\",\r\n    \"description\": \"des\",\r\n    \"hostPoolType\": \"Pooled\",\r\n    \"customRdpProperty\": \"\",\r\n    \"maxSessionLimit\": 5,\r\n    \"loadBalancerType\": \"DepthFirst\",\r\n    \"ring\": 1,\r\n    \"validationEnvironment\": false,\r\n    \"vmTemplate\": \"\",\r\n    \"preferredAppGroupType\": \"Desktop\"\r\n  }\r\n}",
       "isContentBase64": false,
       "Headers": {
       },
@@ -117,47 +118,48 @@
         "Cache-Control": [ "no-cache" ],
         "Pragma": [ "no-cache" ],
         "Vary": [ "Accept-Encoding" ],
-        "Set-Cookie": [ "ARRAffinity=f0cf6515b964ed71a3330b30673731d75ad3321adfb3448f8fe843b9868e0497;Path=/;HttpOnly;Secure;Domain=rdarmprovider-g-us-r0.wvdselfhost.microsoft.com", "ARRAffinitySameSite=f0cf6515b964ed71a3330b30673731d75ad3321adfb3448f8fe843b9868e0497;Path=/;HttpOnly;SameSite=None;Secure;Domain=rdarmprovider-g-us-r0.wvdselfhost.microsoft.com" ],
-        "x-ms-ratelimit-remaining-subscription-writes": [ "397" ],
+        "Set-Cookie": [ "ARRAffinity=7c11fa440eea07a6403d9fd6100f87b8402bcda0faab2ae6f3961ac9351302a4;Path=/;HttpOnly;Secure;Domain=rdarmprovider-g-us-r0.wvd.microsoft.com", "ARRAffinitySameSite=7c11fa440eea07a6403d9fd6100f87b8402bcda0faab2ae6f3961ac9351302a4;Path=/;HttpOnly;SameSite=None;Secure;Domain=rdarmprovider-g-us-r0.wvd.microsoft.com" ],
+        "x-ms-operation-identifier": [ "tenantId=715492f1-ef6e-4eea-9176-7c81e765c3c8,objectId=20778267-e9a4-46ba-97d7-7b7e5b321864/westus2/e7f3f198-e425-4dd5-b566-dbe5b55fa222" ],
         "X-Rate-Limit-Limit": [ "0" ],
         "X-Rate-Limit-Remaining": [ "9223372036854775807" ],
         "X-Rate-Limit-Reset": [ "0" ],
-        "x-ms-opsarmpath64": [ "L3N1YnNjcmlwdGlvbnMvZGJlZGVmMjUtMTg0Yy00MzBmLWIzODMtMGVlYjg3YzMyMDVkL3Jlc291cmNlR3JvdXBzL2FsZWNiVXNlclNlc3Npb25UZXN0cy9wcm92aWRlcnMvTWljcm9zb2Z0LkRlc2t0b3BWaXJ0dWFsaXphdGlvbi9ob3N0UG9vbHMvSG9zdFBvb2xQb3dlcnNoZWxsQ29udGFpbmVkMQ==" ],
-        "x-ms-lamport-ts": [ "177777542" ],
-        "x-ms-correlation-id": [ "4600deab-0923-4355-8f55-0605a6615274" ],
-        "x-ms-request-id": [ "65250aad-9467-40f3-89a1-869113f15656" ],
+        "x-ms-opsarmpath64": [ "L3N1YnNjcmlwdGlvbnMvNjczODUwOWQtODRlZC00YWQ2LTk3NGEtN2RjNGUzYzM0MTQ2L3Jlc291cmNlR3JvdXBzL3pob25namllLXJnLXd1cy9wcm92aWRlcnMvTWljcm9zb2Z0LkRlc2t0b3BWaXJ0dWFsaXphdGlvbi9ob3N0UG9vbHMvSG9zdFBvb2xQb3dlcnNoZWxsQ29udGFpbmVkMQ==" ],
+        "x-ms-lamport-ts": [ "-9223372036854775760" ],
+        "x-ms-correlation-id": [ "1440bcac-640d-49c3-847a-dcaf81c2c28e" ],
+        "x-ms-request-id": [ "046a5c77-8067-4caa-9739-0aa0c1cbb85f" ],
         "X-Powered-By": [ "ASP.NET" ],
         "X-Content-Type-Options": [ "nosniff" ],
-        "x-ms-ratelimit-remaining-subscription-global-writes": [ "5996" ],
-        "x-ms-correlation-request-id": [ "0d5b5bee-8559-4d55-87dc-46448543a2c8" ],
-        "x-ms-routing-request-id": [ "WESTUS2:20240909T192322Z:0d5b5bee-8559-4d55-87dc-46448543a2c8" ],
+        "x-ms-ratelimit-remaining-subscription-writes": [ "199" ],
+        "x-ms-ratelimit-remaining-subscription-global-writes": [ "2999" ],
+        "x-ms-correlation-request-id": [ "30b6e26b-8f02-4cea-9d54-d507ea5d270a" ],
+        "x-ms-routing-request-id": [ "WESTUS2:20260318T055052Z:30b6e26b-8f02-4cea-9d54-d507ea5d270a" ],
         "Strict-Transport-Security": [ "max-age=31536000; includeSubDomains" ],
         "X-Cache": [ "CONFIG_NOCACHE" ],
-        "X-MSEdge-Ref": [ "Ref A: E3EE4225B64A4A95B9DE611F87EE4FB4 Ref B: CO1EDGE2518 Ref C: 2024-09-09T19:23:22Z" ],
-        "Date": [ "Mon, 09 Sep 2024 19:23:21 GMT" ]
+        "X-MSEdge-Ref": [ "Ref A: F2E9D72F6A574B349701655538DAAAEF Ref B: SG2AA1040516023 Ref C: 2026-03-18T05:50:51Z" ],
+        "Date": [ "Wed, 18 Mar 2026 05:50:52 GMT" ]
       },
       "ContentHeaders": {
-        "Content-Length": [ "1396" ],
+        "Content-Length": [ "1512" ],
         "Content-Type": [ "application/json; charset=utf-8" ],
         "Expires": [ "-1" ]
       },
-      "Content": "{\"identity\":null,\"name\":\"HostPoolPowershellContained1\",\"id\":\"/subscriptions/dbedef25-184c-430f-b383-0eeb87c3205d/resourcegroups/alecbUserSessionTests/providers/Microsoft.DesktopVirtualization/hostpools/HostPoolPowershellContained1\",\"type\":\"Microsoft.DesktopVirtualization/hostpools\",\"location\":\"westus2\",\"tags\":null,\"kind\":null,\"systemData\":{\"createdBy\":\"alecbaird@wvdtesttenant.onmicrosoft.com\",\"createdByType\":\"User\",\"createdAt\":\"2024-09-09T19:23:21.50Z\",\"lastModifiedBy\":\"alecbaird@wvdtesttenant.onmicrosoft.com\",\"lastModifiedByType\":\"User\",\"lastModifiedAt\":\"2024-09-09T19:23:22.11Z\"},\"properties\":{\"managedPrivateUDP\":\"Default\",\"directUDP\":\"Default\",\"publicUDP\":\"Default\",\"relayUDP\":\"Default\",\"managementType\":\"Standard\",\"appAttachPackageReferences\":[],\"agentUpdate\":null,\"friendlyName\":\"fri\",\"description\":\"des\",\"hostPoolType\":\"Pooled\",\"personalDesktopAssignmentType\":null,\"applicationGroupReferences\":[],\"customRdpProperty\":\"\",\"maxSessionLimit\":5,\"loadBalancerType\":\"DepthFirst\",\"validationEnvironment\":false,\"ring\":null,\"registrationInfo\":{\"expirationTime\":null,\"token\":null,\"registrationTokenOperation\":\"Delete\"},\"vmTemplate\":null,\"preferredAppGroupType\":\"Desktop\",\"migrationRequest\":null,\"cloudPcResource\":false,\"startVMOnConnect\":false,\"ssoadfsAuthority\":null,\"ssoClientId\":null,\"ssoClientSecretKeyVaultPath\":null,\"ssoSecretType\":null,\"objectId\":\"49c3e59f-9364-4533-b0be-4858a9585e32\"}}",
+      "Content": "{\"identity\":{\"type\":\"None\",\"tenantId\":null,\"principalId\":null},\"name\":\"HostPoolPowershellContained1\",\"id\":\"/subscriptions/6738509d-84ed-4ad6-974a-7dc4e3c34146/resourcegroups/zhongjie-rg-wus/providers/Microsoft.DesktopVirtualization/hostpools/HostPoolPowershellContained1\",\"type\":\"Microsoft.DesktopVirtualization/hostpools\",\"location\":\"westus2\",\"tags\":null,\"kind\":null,\"systemData\":{\"createdBy\":\"guorui@microsoft.com\",\"createdByType\":\"User\",\"createdAt\":\"2026-03-18T05:50:49.57Z\",\"lastModifiedBy\":\"guorui@microsoft.com\",\"lastModifiedByType\":\"User\",\"lastModifiedAt\":\"2026-03-18T05:50:52.00Z\"},\"properties\":{\"allowRDPShortPathWithPrivateLink\":\"Disabled\",\"deploymentScope\":\"Geographical\",\"managedPrivateUDP\":\"Default\",\"directUDP\":\"Default\",\"publicUDP\":\"Default\",\"relayUDP\":\"Default\",\"appAttachPackageReferences\":[],\"privateEndpointConnections\":null,\"publicNetworkAccess\":\"Enabled\",\"agentUpdate\":null,\"friendlyName\":\"fri\",\"description\":\"des\",\"hostPoolType\":\"Pooled\",\"personalDesktopAssignmentType\":null,\"applicationGroupReferences\":[],\"customRdpProperty\":\"\",\"maxSessionLimit\":5,\"loadBalancerType\":\"DepthFirst\",\"validationEnvironment\":false,\"ring\":1,\"registrationInfo\":{\"expirationTime\":null,\"token\":null,\"registrationTokenOperation\":\"Delete\"},\"vmTemplate\":null,\"preferredAppGroupType\":\"Desktop\",\"migrationRequest\":null,\"cloudPcResource\":false,\"startVMOnConnect\":false,\"ssoadfsAuthority\":null,\"ssoClientId\":null,\"ssoClientSecretKeyVaultPath\":null,\"ssoSecretType\":null,\"objectId\":\"64c33b07-2df5-44ca-8e7b-07ff9963cb33\"}}",
       "isContentBase64": false
     }
   },
-  "Remove-AzWvdRegistrationInfo+[NoContext]+Remove RegInfo+$POST+https://management.azure.com/subscriptions/dbedef25-184c-430f-b383-0eeb87c3205d/resourceGroups/alecbUserSessionTests/providers/Microsoft.DesktopVirtualization/hostPools/HostPoolPowershellContained1/listRegistrationTokens?api-version=2024-04-03+4": {
+  "Remove-AzWvdRegistrationInfo+[NoContext]+Remove RegInfo+$POST+https://management.azure.com/subscriptions/6738509d-84ed-4ad6-974a-7dc4e3c34146/resourceGroups/zhongjie-rg-wus/providers/Microsoft.DesktopVirtualization/hostPools/HostPoolPowershellContained1/listRegistrationTokens?api-version=2026-01-01-preview+4": {
     "Request": {
       "Method": "POST",
-      "RequestUri": "https://management.azure.com/subscriptions/dbedef25-184c-430f-b383-0eeb87c3205d/resourceGroups/alecbUserSessionTests/providers/Microsoft.DesktopVirtualization/hostPools/HostPoolPowershellContained1/listRegistrationTokens?api-version=2024-04-03",
+      "RequestUri": "https://management.azure.com/subscriptions/6738509d-84ed-4ad6-974a-7dc4e3c34146/resourceGroups/zhongjie-rg-wus/providers/Microsoft.DesktopVirtualization/hostPools/HostPoolPowershellContained1/listRegistrationTokens?api-version=2026-01-01-preview",
       "Content": null,
       "isContentBase64": false,
       "Headers": {
-        "x-ms-unique-id": [ "317" ],
-        "x-ms-client-request-id": [ "5d7942ab-1384-4db1-bbba-f59ad3b5fe7d" ],
+        "x-ms-unique-id": [ "335" ],
+        "x-ms-client-request-id": [ "1d15aac3-620a-4f70-ab7b-4240db1efb3f" ],
         "CommandName": [ "Az.DesktopVirtualization\\Get-AzWvdHostPoolRegistrationToken" ],
         "FullCommandName": [ "Get-AzWvdHostPoolRegistrationToken_List" ],
         "ParameterSetName": [ "__AllParameterSets" ],
-        "User-Agent": [ "AzurePowershell/v12.3.0", "PSVersion/v7.2.23", "Az.DesktopVirtualization/6.0.0" ],
+        "User-Agent": [ "AzurePowershell/v15.3.0", "PSVersion/v7.5.5", "Az.DesktopVirtualization/5.4.4" ],
         "Authorization": [ "[Filtered]" ]
       },
       "ContentHeaders": {
@@ -169,24 +171,25 @@
         "Cache-Control": [ "no-cache" ],
         "Pragma": [ "no-cache" ],
         "Vary": [ "Accept-Encoding" ],
-        "Set-Cookie": [ "ARRAffinity=6ed70d129f929e9c0dc1324370ea99cd733e8f3cb78772a9b8793f4f636e0cf7;Path=/;HttpOnly;Secure;Domain=rdarmprovider-g-us-r0.wvdselfhost.microsoft.com", "ARRAffinitySameSite=6ed70d129f929e9c0dc1324370ea99cd733e8f3cb78772a9b8793f4f636e0cf7;Path=/;HttpOnly;SameSite=None;Secure;Domain=rdarmprovider-g-us-r0.wvdselfhost.microsoft.com" ],
-        "x-ms-ratelimit-remaining-subscription-writes": [ "398" ],
+        "Set-Cookie": [ "ARRAffinity=6ed70d129f929e9c0dc1324370ea99cd733e8f3cb78772a9b8793f4f636e0cf7;Path=/;HttpOnly;Secure;Domain=rdarmprovider-g-us-r0.wvd.microsoft.com", "ARRAffinitySameSite=6ed70d129f929e9c0dc1324370ea99cd733e8f3cb78772a9b8793f4f636e0cf7;Path=/;HttpOnly;SameSite=None;Secure;Domain=rdarmprovider-g-us-r0.wvd.microsoft.com" ],
+        "x-ms-operation-identifier": [ "tenantId=715492f1-ef6e-4eea-9176-7c81e765c3c8,objectId=20778267-e9a4-46ba-97d7-7b7e5b321864/westus2/aff03cad-2b88-4c3b-a27f-40978a764812" ],
         "X-Rate-Limit-Limit": [ "0" ],
         "X-Rate-Limit-Remaining": [ "9223372036854775807" ],
         "X-Rate-Limit-Reset": [ "0" ],
-        "x-ms-opsarmpath64": [ "L3N1YnNjcmlwdGlvbnMvZGJlZGVmMjUtMTg0Yy00MzBmLWIzODMtMGVlYjg3YzMyMDVkL3Jlc291cmNlR3JvdXBzL2FsZWNiVXNlclNlc3Npb25UZXN0cy9wcm92aWRlcnMvTWljcm9zb2Z0LkRlc2t0b3BWaXJ0dWFsaXphdGlvbi9ob3N0UG9vbHMvSG9zdFBvb2xQb3dlcnNoZWxsQ29udGFpbmVkMQ==" ],
-        "x-ms-lamport-ts": [ "177777556" ],
-        "x-ms-correlation-id": [ "73d78766-ce6e-4c12-b86c-df8147fdd607" ],
-        "x-ms-request-id": [ "5d7942ab-1384-4db1-bbba-f59ad3b5fe7d" ],
+        "x-ms-opsarmpath64": [ "L3N1YnNjcmlwdGlvbnMvNjczODUwOWQtODRlZC00YWQ2LTk3NGEtN2RjNGUzYzM0MTQ2L3Jlc291cmNlR3JvdXBzL3pob25namllLXJnLXd1cy9wcm92aWRlcnMvTWljcm9zb2Z0LkRlc2t0b3BWaXJ0dWFsaXphdGlvbi9ob3N0UG9vbHMvSG9zdFBvb2xQb3dlcnNoZWxsQ29udGFpbmVkMQ==" ],
+        "x-ms-lamport-ts": [ "-9223372036854775798" ],
+        "x-ms-correlation-id": [ "04e9c6a9-202f-4ea6-8011-f52fca6d70fd" ],
+        "x-ms-request-id": [ "1d15aac3-620a-4f70-ab7b-4240db1efb3f" ],
         "X-Powered-By": [ "ASP.NET" ],
         "X-Content-Type-Options": [ "nosniff" ],
-        "x-ms-ratelimit-remaining-subscription-global-writes": [ "5998" ],
-        "x-ms-correlation-request-id": [ "66ba6052-79ca-4a5a-85da-26a99677ba7a" ],
-        "x-ms-routing-request-id": [ "WESTUS2:20240909T192322Z:66ba6052-79ca-4a5a-85da-26a99677ba7a" ],
+        "x-ms-ratelimit-remaining-subscription-writes": [ "199" ],
+        "x-ms-ratelimit-remaining-subscription-global-writes": [ "2999" ],
+        "x-ms-correlation-request-id": [ "d8b70449-ecc4-4ed4-96c0-d58cb355d5e1" ],
+        "x-ms-routing-request-id": [ "WESTUS2:20260318T055053Z:d8b70449-ecc4-4ed4-96c0-d58cb355d5e1" ],
         "Strict-Transport-Security": [ "max-age=31536000; includeSubDomains" ],
         "X-Cache": [ "CONFIG_NOCACHE" ],
-        "X-MSEdge-Ref": [ "Ref A: 6D7617B74A2C48439AEE46CE02E144C1 Ref B: CO1EDGE2518 Ref C: 2024-09-09T19:23:22Z" ],
-        "Date": [ "Mon, 09 Sep 2024 19:23:21 GMT" ]
+        "X-MSEdge-Ref": [ "Ref A: EB0BC602C95B454799BD3B692798E476 Ref B: SG2AA1040516023 Ref C: 2026-03-18T05:50:53Z" ],
+        "Date": [ "Wed, 18 Mar 2026 05:50:52 GMT" ]
       },
       "ContentHeaders": {
         "Content-Length": [ "28" ],
@@ -197,19 +200,19 @@
       "isContentBase64": false
     }
   },
-  "Remove-AzWvdRegistrationInfo+[NoContext]+Remove RegInfo+$DELETE+https://management.azure.com/subscriptions/dbedef25-184c-430f-b383-0eeb87c3205d/resourceGroups/alecbUserSessionTests/providers/Microsoft.DesktopVirtualization/hostPools/HostPoolPowershellContained1?api-version=2024-04-03+5": {
+  "Remove-AzWvdRegistrationInfo+[NoContext]+Remove RegInfo+$DELETE+https://management.azure.com/subscriptions/6738509d-84ed-4ad6-974a-7dc4e3c34146/resourceGroups/zhongjie-rg-wus/providers/Microsoft.DesktopVirtualization/hostPools/HostPoolPowershellContained1?api-version=2026-01-01-preview+5": {
     "Request": {
       "Method": "DELETE",
-      "RequestUri": "https://management.azure.com/subscriptions/dbedef25-184c-430f-b383-0eeb87c3205d/resourceGroups/alecbUserSessionTests/providers/Microsoft.DesktopVirtualization/hostPools/HostPoolPowershellContained1?api-version=2024-04-03",
+      "RequestUri": "https://management.azure.com/subscriptions/6738509d-84ed-4ad6-974a-7dc4e3c34146/resourceGroups/zhongjie-rg-wus/providers/Microsoft.DesktopVirtualization/hostPools/HostPoolPowershellContained1?api-version=2026-01-01-preview",
       "Content": null,
       "isContentBase64": false,
       "Headers": {
-        "x-ms-unique-id": [ "318" ],
-        "x-ms-client-request-id": [ "f806fad2-e0a2-4831-9da2-692b40438a06" ],
+        "x-ms-unique-id": [ "336" ],
+        "x-ms-client-request-id": [ "de2e4d72-b5f3-407a-a2d0-61f96dced141" ],
         "CommandName": [ "Remove-AzWvdHostPool" ],
         "FullCommandName": [ "Remove-AzWvdHostPool_Delete" ],
         "ParameterSetName": [ "__AllParameterSets" ],
-        "User-Agent": [ "AzurePowershell/v12.3.0", "PSVersion/v7.2.23", "Az.DesktopVirtualization/6.0.0" ],
+        "User-Agent": [ "AzurePowershell/v15.3.0", "PSVersion/v7.5.5", "Az.DesktopVirtualization/5.4.4" ],
         "Authorization": [ "[Filtered]" ]
       },
       "ContentHeaders": {
@@ -221,31 +224,32 @@
         "Cache-Control": [ "no-cache" ],
         "Pragma": [ "no-cache" ],
         "Vary": [ "Accept-Encoding" ],
-        "Set-Cookie": [ "ARRAffinity=6ed70d129f929e9c0dc1324370ea99cd733e8f3cb78772a9b8793f4f636e0cf7;Path=/;HttpOnly;Secure;Domain=rdarmprovider-g-us-r0.wvdselfhost.microsoft.com", "ARRAffinitySameSite=6ed70d129f929e9c0dc1324370ea99cd733e8f3cb78772a9b8793f4f636e0cf7;Path=/;HttpOnly;SameSite=None;Secure;Domain=rdarmprovider-g-us-r0.wvdselfhost.microsoft.com" ],
-        "x-ms-ratelimit-remaining-subscription-deletes": [ "396" ],
+        "Set-Cookie": [ "ARRAffinity=f2b03ea959f8416bc6b71d28a36cf8c0479d848b33638ccc3ef4c51389285d81;Path=/;HttpOnly;Secure;Domain=rdarmprovider-g-us-r0.wvd.microsoft.com", "ARRAffinitySameSite=f2b03ea959f8416bc6b71d28a36cf8c0479d848b33638ccc3ef4c51389285d81;Path=/;HttpOnly;SameSite=None;Secure;Domain=rdarmprovider-g-us-r0.wvd.microsoft.com" ],
+        "x-ms-operation-identifier": [ "tenantId=715492f1-ef6e-4eea-9176-7c81e765c3c8,objectId=20778267-e9a4-46ba-97d7-7b7e5b321864/westus2/4c1de80f-b888-4d22-a4c0-41110c37e3f3" ],
         "X-Rate-Limit-Limit": [ "0" ],
         "X-Rate-Limit-Remaining": [ "9223372036854775807" ],
         "X-Rate-Limit-Reset": [ "0" ],
-        "x-ms-opsarmpath64": [ "L3N1YnNjcmlwdGlvbnMvZGJlZGVmMjUtMTg0Yy00MzBmLWIzODMtMGVlYjg3YzMyMDVkL3Jlc291cmNlR3JvdXBzL2FsZWNiVXNlclNlc3Npb25UZXN0cy9wcm92aWRlcnMvTWljcm9zb2Z0LkRlc2t0b3BWaXJ0dWFsaXphdGlvbi9ob3N0UG9vbHMvSG9zdFBvb2xQb3dlcnNoZWxsQ29udGFpbmVkMQ==" ],
-        "x-ms-lamport-ts": [ "177777559" ],
-        "x-ms-correlation-id": [ "8221095b-e2d1-4c30-b3de-3612439711ed" ],
-        "x-ms-request-id": [ "f806fad2-e0a2-4831-9da2-692b40438a06" ],
+        "x-ms-opsarmpath64": [ "L3N1YnNjcmlwdGlvbnMvNjczODUwOWQtODRlZC00YWQ2LTk3NGEtN2RjNGUzYzM0MTQ2L3Jlc291cmNlR3JvdXBzL3pob25namllLXJnLXd1cy9wcm92aWRlcnMvTWljcm9zb2Z0LkRlc2t0b3BWaXJ0dWFsaXphdGlvbi9ob3N0UG9vbHMvSG9zdFBvb2xQb3dlcnNoZWxsQ29udGFpbmVkMQ==" ],
+        "x-ms-lamport-ts": [ "676589" ],
+        "x-ms-correlation-id": [ "95c530a7-19e7-4a2b-8372-7a687f73b32e" ],
+        "x-ms-request-id": [ "de2e4d72-b5f3-407a-a2d0-61f96dced141" ],
         "X-Powered-By": [ "ASP.NET" ],
         "X-Content-Type-Options": [ "nosniff" ],
-        "x-ms-ratelimit-remaining-subscription-global-deletes": [ "5996" ],
-        "x-ms-correlation-request-id": [ "b060319f-f9f1-49de-bbe7-875832007bb9" ],
-        "x-ms-routing-request-id": [ "WESTUS2:20240909T192322Z:b060319f-f9f1-49de-bbe7-875832007bb9" ],
+        "x-ms-ratelimit-remaining-subscription-deletes": [ "198" ],
+        "x-ms-ratelimit-remaining-subscription-global-deletes": [ "2998" ],
+        "x-ms-correlation-request-id": [ "bb335a1a-d5ed-48cd-b977-5a94ec05fb04" ],
+        "x-ms-routing-request-id": [ "WESTUS2:20260318T055055Z:bb335a1a-d5ed-48cd-b977-5a94ec05fb04" ],
         "Strict-Transport-Security": [ "max-age=31536000; includeSubDomains" ],
         "X-Cache": [ "CONFIG_NOCACHE" ],
-        "X-MSEdge-Ref": [ "Ref A: 587C6B772D4F4F228825752E51AFEE7E Ref B: CO1EDGE2518 Ref C: 2024-09-09T19:23:22Z" ],
-        "Date": [ "Mon, 09 Sep 2024 19:23:22 GMT" ]
+        "X-MSEdge-Ref": [ "Ref A: 17E6BA41BE674AA0800E755BC0B633F7 Ref B: SG2AA1040516023 Ref C: 2026-03-18T05:50:53Z" ],
+        "Date": [ "Wed, 18 Mar 2026 05:50:54 GMT" ]
       },
       "ContentHeaders": {
-        "Content-Length": [ "1394" ],
+        "Content-Length": [ "1508" ],
         "Content-Type": [ "application/json; charset=utf-8" ],
         "Expires": [ "-1" ]
       },
-      "Content": "{\"identity\":null,\"name\":\"HostPoolPowershellContained1\",\"id\":\"/subscriptions/dbedef25-184c-430f-b383-0eeb87c3205d/resourcegroups/alecbUserSessionTests/providers/Microsoft.DesktopVirtualization/hostpools/HostPoolPowershellContained1\",\"type\":\"Microsoft.DesktopVirtualization/hostpools\",\"location\":\"westus2\",\"tags\":null,\"kind\":null,\"systemData\":{\"createdBy\":\"alecbaird@wvdtesttenant.onmicrosoft.com\",\"createdByType\":\"User\",\"createdAt\":\"2024-09-09T19:23:21.50Z\",\"lastModifiedBy\":\"alecbaird@wvdtesttenant.onmicrosoft.com\",\"lastModifiedByType\":\"User\",\"lastModifiedAt\":\"2024-09-09T19:23:22.11Z\"},\"properties\":{\"managedPrivateUDP\":\"Default\",\"directUDP\":\"Default\",\"publicUDP\":\"Default\",\"relayUDP\":\"Default\",\"managementType\":\"Standard\",\"appAttachPackageReferences\":[],\"agentUpdate\":null,\"friendlyName\":\"fri\",\"description\":\"des\",\"hostPoolType\":\"Pooled\",\"personalDesktopAssignmentType\":null,\"applicationGroupReferences\":[],\"customRdpProperty\":\"\",\"maxSessionLimit\":5,\"loadBalancerType\":\"DepthFirst\",\"validationEnvironment\":false,\"ring\":null,\"registrationInfo\":{\"expirationTime\":null,\"token\":null,\"registrationTokenOperation\":\"None\"},\"vmTemplate\":null,\"preferredAppGroupType\":\"Desktop\",\"migrationRequest\":null,\"cloudPcResource\":false,\"startVMOnConnect\":false,\"ssoadfsAuthority\":null,\"ssoClientId\":null,\"ssoClientSecretKeyVaultPath\":null,\"ssoSecretType\":null,\"objectId\":\"49c3e59f-9364-4533-b0be-4858a9585e32\"}}",
+      "Content": "{\"identity\":{\"type\":\"None\",\"tenantId\":null,\"principalId\":null},\"name\":\"HostPoolPowershellContained1\",\"id\":\"/subscriptions/6738509d-84ed-4ad6-974a-7dc4e3c34146/resourcegroups/zhongjie-rg-wus/providers/Microsoft.DesktopVirtualization/hostpools/HostPoolPowershellContained1\",\"type\":\"Microsoft.DesktopVirtualization/hostpools\",\"location\":\"westus2\",\"tags\":null,\"kind\":null,\"systemData\":{\"createdBy\":\"guorui@microsoft.com\",\"createdByType\":\"User\",\"createdAt\":\"2026-03-18T05:50:49.57Z\",\"lastModifiedBy\":\"guorui@microsoft.com\",\"lastModifiedByType\":\"User\",\"lastModifiedAt\":\"2026-03-18T05:50:52.00Z\"},\"properties\":{\"allowRDPShortPathWithPrivateLink\":\"Disabled\",\"deploymentScope\":\"Geographical\",\"managedPrivateUDP\":\"Default\",\"directUDP\":\"Default\",\"publicUDP\":\"Default\",\"relayUDP\":\"Default\",\"appAttachPackageReferences\":[],\"privateEndpointConnections\":[],\"publicNetworkAccess\":\"Enabled\",\"agentUpdate\":null,\"friendlyName\":\"fri\",\"description\":\"des\",\"hostPoolType\":\"Pooled\",\"personalDesktopAssignmentType\":null,\"applicationGroupReferences\":[],\"customRdpProperty\":\"\",\"maxSessionLimit\":5,\"loadBalancerType\":\"DepthFirst\",\"validationEnvironment\":false,\"ring\":1,\"registrationInfo\":{\"expirationTime\":null,\"token\":null,\"registrationTokenOperation\":\"None\"},\"vmTemplate\":null,\"preferredAppGroupType\":\"Desktop\",\"migrationRequest\":null,\"cloudPcResource\":false,\"startVMOnConnect\":false,\"ssoadfsAuthority\":null,\"ssoClientId\":null,\"ssoClientSecretKeyVaultPath\":null,\"ssoSecretType\":null,\"objectId\":\"64c33b07-2df5-44ca-8e7b-07ff9963cb33\"}}",
       "isContentBase64": false
     }
   }

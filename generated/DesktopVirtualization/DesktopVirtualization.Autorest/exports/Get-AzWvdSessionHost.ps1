@@ -41,7 +41,7 @@ HOSTPOOLINPUTOBJECT <IDesktopVirtualizationIdentity>: Identity Parameter
   [HostPoolName <String>]: The name of the host pool within the specified resource group
   [Id <String>]: Resource identity path
   [MsixPackageFullName <String>]: The version specific package full name of the MSIX package within specified hostpool
-  [PrivateEndpointConnectionName <String>]: The name of the private endpoint connection associated with the Azure resource.
+  [PrivateEndpointConnectionName <String>]: The name parameter for private endpoint
   [ResourceGroupName <String>]: The name of the resource group. The name is case insensitive.
   [ScalingPlanName <String>]: The name of the scaling plan.
   [ScalingPlanScheduleName <String>]: The name of the ScalingPlanSchedule
@@ -58,7 +58,7 @@ INPUTOBJECT <IDesktopVirtualizationIdentity>: Identity Parameter
   [HostPoolName <String>]: The name of the host pool within the specified resource group
   [Id <String>]: Resource identity path
   [MsixPackageFullName <String>]: The version specific package full name of the MSIX package within specified hostpool
-  [PrivateEndpointConnectionName <String>]: The name of the private endpoint connection associated with the Azure resource.
+  [PrivateEndpointConnectionName <String>]: The name parameter for private endpoint
   [ResourceGroupName <String>]: The name of the resource group. The name is case insensitive.
   [ScalingPlanName <String>]: The name of the scaling plan.
   [ScalingPlanScheduleName <String>]: The name of the ScalingPlanSchedule
@@ -135,6 +135,12 @@ param(
     # Number of items per page.
     ${PageSize},
 
+    [Parameter(ParameterSetName='List')]
+    [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Category('Query')]
+    [System.String]
+    # The path to the VM.
+    ${VMPath},
+
     [Parameter()]
     [Alias('AzureRMContext', 'AzureCredential')]
     [ValidateNotNull()]
@@ -197,8 +203,7 @@ begin {
 
         $context = Get-AzContext
         if (-not $context -and -not $testPlayback) {
-            Write-Error "No Azure login detected. Please run 'Connect-AzAccount' to log in."
-            exit
+            throw "No Azure login detected. Please run 'Connect-AzAccount' to log in."
         }
 
         if ($null -eq [Microsoft.WindowsAzure.Commands.Utilities.Common.AzurePSCmdlet]::PowerShellVersion) {

@@ -16,9 +16,9 @@
 
 <#
 .Synopsis
-create a MSIX package.
+Create a MSIX package.
 .Description
-create a MSIX package.
+Create a MSIX package.
 .Example
 New-AzWvdMsixPackage -HostPoolName HostPoolName `
                      -ResourceGroupName resourceGroupName `
@@ -51,7 +51,7 @@ COMPLEX PARAMETER PROPERTIES
 
 To create the parameters described below, construct a hash table containing the appropriate properties. For information on hash tables, run Get-Help about_Hash_Tables.
 
-PACKAGEAPPLICATION <IMsixPackageApplications[]>: List of package applications. 
+PACKAGEAPPLICATION <IMsixPackageApplications[]>: List of package applications.
   [AppId <String>]: Package Application Id, found in appxmanifest.xml.
   [AppUserModelId <String>]: Used to activate Package Application. Consists of Package Name and ApplicationID. Found in appxmanifest.xml.
   [Description <String>]: Description of Package Application.
@@ -60,7 +60,7 @@ PACKAGEAPPLICATION <IMsixPackageApplications[]>: List of package applications.
   [RawIcon <Byte[]>]: the icon a 64 bit string as a byte array.
   [RawPng <Byte[]>]: the icon a 64 bit string as a byte array.
 
-PACKAGEDEPENDENCY <IMsixPackageDependencies[]>: List of package dependencies. 
+PACKAGEDEPENDENCY <IMsixPackageDependencies[]>: List of package dependencies.
   [DependencyName <String>]: Name of package dependency.
   [MinVersion <String>]: Dependency version required.
   [Publisher <String>]: Name of dependency publisher.
@@ -254,8 +254,7 @@ begin {
 
         $context = Get-AzContext
         if (-not $context -and -not $testPlayback) {
-            Write-Error "No Azure login detected. Please run 'Connect-AzAccount' to log in."
-            exit
+            throw "No Azure login detected. Please run 'Connect-AzAccount' to log in."
         }
 
         if ($null -eq [Microsoft.WindowsAzure.Commands.Utilities.Common.AzurePSCmdlet]::PowerShellVersion) {

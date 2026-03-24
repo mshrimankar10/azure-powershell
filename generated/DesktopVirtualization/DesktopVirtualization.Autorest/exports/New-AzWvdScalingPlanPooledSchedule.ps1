@@ -16,9 +16,9 @@
 
 <#
 .Synopsis
-create a ScalingPlanPooledSchedule.
+Create a ScalingPlanPooledSchedule.
 .Description
-create a ScalingPlanPooledSchedule.
+Create a ScalingPlanPooledSchedule.
 .Example
 New-AzWvdScalingPlanPooledSchedule -ResourceGroupName rgName `
                                         -ScalingPlanName spName `
@@ -80,6 +80,36 @@ param(
     # The ID of the target subscription.
     # The value must be an UUID.
     ${SubscriptionId},
+
+    [Parameter(ParameterSetName='CreateExpanded')]
+    [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Category('Body')]
+    [System.Int32]
+    # Maximum number of session hosts that may be created by the Scaling Service.
+    # This requires the assigned hostpool to have a session host config property.
+    ${CreateDeleteRampDownMaximumHostPoolSize},
+
+    [Parameter(ParameterSetName='CreateExpanded')]
+    [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Category('Body')]
+    [System.Int32]
+    # Minimum number of session hosts that will be be created by the Scaling Service.
+    # Scaling will not delete any hosts when this limit is met.
+    # This requires the assigned hostpool to have a session host config property.
+    ${CreateDeleteRampDownMinimumHostPoolSize},
+
+    [Parameter(ParameterSetName='CreateExpanded')]
+    [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Category('Body')]
+    [System.Int32]
+    # Maximum number of session hosts that may be created by the Scaling Service.
+    # This requires the assigned hostpool to have a session host config property.
+    ${CreateDeleteRampUpMaximumHostPoolSize},
+
+    [Parameter(ParameterSetName='CreateExpanded')]
+    [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Category('Body')]
+    [System.Int32]
+    # Minimum number of session hosts that will be be created by the Scaling Service.
+    # Scaling will not delete any hosts when this limit is met.
+    # This requires the assigned hostpool to have a session host config property.
+    ${CreateDeleteRampUpMinimumHostPoolSize},
 
     [Parameter(ParameterSetName='CreateExpanded')]
     [AllowEmptyCollection()]
@@ -214,6 +244,13 @@ param(
     # The minute.
     ${RampUpStartTimeMinute},
 
+    [Parameter(ParameterSetName='CreateExpanded')]
+    [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.PSArgumentCompleterAttribute("PowerManage", "CreateDeletePowerManage")]
+    [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Category('Body')]
+    [System.String]
+    # The desired scaling method to be used to scale the hosts in the assigned host pool.
+    ${ScalingMethod},
+
     [Parameter(ParameterSetName='CreateViaJsonFilePath', Mandatory)]
     [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Category('Body')]
     [System.String]
@@ -288,8 +325,7 @@ begin {
 
         $context = Get-AzContext
         if (-not $context -and -not $testPlayback) {
-            Write-Error "No Azure login detected. Please run 'Connect-AzAccount' to log in."
-            exit
+            throw "No Azure login detected. Please run 'Connect-AzAccount' to log in."
         }
 
         if ($null -eq [Microsoft.WindowsAzure.Commands.Utilities.Common.AzurePSCmdlet]::PowerShellVersion) {

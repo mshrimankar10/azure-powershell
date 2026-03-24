@@ -16,9 +16,9 @@
 
 <#
 .Synopsis
-create an applicationGroup.
+Create an applicationGroup.
 .Description
-create an applicationGroup.
+Create an applicationGroup.
 .Example
 New-AzWvdApplicationGroup -ResourceGroupName ResourceGroupName `
                             -Name ApplicationGroupName `
@@ -101,17 +101,25 @@ param(
     ${FriendlyName},
 
     [Parameter(ParameterSetName='CreateExpanded')]
-    [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.PSArgumentCompleterAttribute("SystemAssigned")]
+    [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.PSArgumentCompleterAttribute("None", "SystemAssigned", "UserAssigned", "SystemAssigned,UserAssigned")]
     [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Category('Body')]
     [System.String]
-    # The identity type.
+    # Type of managed service identity (where both SystemAssigned and UserAssigned types are allowed).
     ${IdentityType},
 
     [Parameter(ParameterSetName='CreateExpanded')]
     [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Category('Body')]
+    [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Runtime.Info(PossibleTypes=([Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IManagedServiceIdentityUserAssignedIdentities]))]
+    [System.Collections.Hashtable]
+    # The set of user assigned identities associated with the resource.
+    # The userAssignedIdentities dictionary keys will be ARM resource ids in the form: '/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedIdentity/userAssignedIdentities/{identityName}.
+    # The dictionary values can be empty objects ({}) in requests.
+    ${IdentityUserAssignedIdentity},
+
+    [Parameter(ParameterSetName='CreateExpanded')]
+    [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Category('Body')]
     [System.String]
-    # Metadata used by portal/tooling/etc to render different UX experiences for resources of the same type.
-    # E.g.
+    # Metadata used by portal/tooling/etc to render different UX experiences for resources of the same type; e.g.
     # ApiApps are a kind of Microsoft.Web/sites type.
     # If supported, the resource provider must validate and persist this value.
     ${Kind},
@@ -123,6 +131,12 @@ param(
     # Indicates if this resource is managed by another Azure resource.
     # If this is present, complete mode deployment will not delete the resource if it is removed from the template since it is managed by another resource.
     ${ManagedBy},
+
+    [Parameter(ParameterSetName='CreateExpanded')]
+    [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Category('Body')]
+    [System.String]
+    # Tenant that the resource is being requested on behalf of.
+    ${OboTenantId},
 
     [Parameter(ParameterSetName='CreateExpanded')]
     [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Category('Body')]
@@ -282,8 +296,7 @@ begin {
 
         $context = Get-AzContext
         if (-not $context -and -not $testPlayback) {
-            Write-Error "No Azure login detected. Please run 'Connect-AzAccount' to log in."
-            exit
+            throw "No Azure login detected. Please run 'Connect-AzAccount' to log in."
         }
 
         if ($null -eq [Microsoft.WindowsAzure.Commands.Utilities.Common.AzurePSCmdlet]::PowerShellVersion) {

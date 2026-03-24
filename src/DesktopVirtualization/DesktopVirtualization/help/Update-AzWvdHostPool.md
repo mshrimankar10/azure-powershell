@@ -8,7 +8,7 @@ schema: 2.0.0
 # Update-AzWvdHostPool
 
 ## SYNOPSIS
-update a host pool.
+Update a host pool.
 
 ## SYNTAX
 
@@ -17,14 +17,16 @@ update a host pool.
 Update-AzWvdHostPool -Name <String> -ResourceGroupName <String> [-SubscriptionId <String>]
  [-AgentUpdateMaintenanceWindow <IMaintenanceWindowPatchProperties[]>]
  [-AgentUpdateMaintenanceWindowTimeZone <String>] [-AgentUpdateType <String>]
- [-AgentUpdateUseSessionHostLocalTime] [-CustomRdpProperty <String>] [-Description <String>]
- [-FriendlyName <String>] [-LoadBalancerType <String>] [-MaxSessionLimit <Int32>]
- [-PersonalDesktopAssignmentType <String>] [-PreferredAppGroupType <String>] [-PublicNetworkAccess <String>]
+ [-AgentUpdateUseSessionHostLocalTime] [-AllowRdpShortPathWithPrivateLink <String>]
+ [-CustomRdpProperty <String>] [-Description <String>] [-DirectUdp <String>] [-FriendlyName <String>]
+ [-IdentityType <String>] [-IdentityUserAssignedIdentity <Hashtable>] [-LoadBalancerType <String>]
+ [-ManagedPrivateUdp <String>] [-MaxSessionLimit <Int32>] [-PersonalDesktopAssignmentType <String>]
+ [-PreferredAppGroupType <String>] [-PublicNetworkAccess <String>] [-PublicUdp <String>]
  [-RegistrationInfoExpirationTime <DateTime>] [-RegistrationInfoRegistrationTokenOperation <String>]
- [-Ring <Int32>] [-SsoClientId <String>] [-SsoClientSecretKeyVaultPath <String>] [-SsoSecretType <String>]
- [-SsoadfsAuthority <String>] [-StartVMOnConnect] [-Tag <Hashtable>] [-VMTemplate <String>]
- [-ValidationEnvironment] [-DefaultProfile <PSObject>] [-WhatIf]
- [-Confirm] [<CommonParameters>]
+ [-RelayUdp <String>] [-Ring <Int32>] [-SsoClientId <String>] [-SsoClientSecretKeyVaultPath <String>]
+ [-SsoSecretType <String>] [-SsoadfsAuthority <String>] [-StartVMOnConnect] [-Tag <Hashtable>]
+ [-VMTemplate <String>] [-ValidationEnvironment] [-DefaultProfile <PSObject>]
+ [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### UpdateViaJsonString
@@ -45,22 +47,24 @@ Update-AzWvdHostPool -Name <String> -ResourceGroupName <String> [-SubscriptionId
 Update-AzWvdHostPool -InputObject <IDesktopVirtualizationIdentity>
  [-AgentUpdateMaintenanceWindow <IMaintenanceWindowPatchProperties[]>]
  [-AgentUpdateMaintenanceWindowTimeZone <String>] [-AgentUpdateType <String>]
- [-AgentUpdateUseSessionHostLocalTime] [-CustomRdpProperty <String>] [-Description <String>]
- [-FriendlyName <String>] [-LoadBalancerType <String>] [-MaxSessionLimit <Int32>]
- [-PersonalDesktopAssignmentType <String>] [-PreferredAppGroupType <String>] [-PublicNetworkAccess <String>]
+ [-AgentUpdateUseSessionHostLocalTime] [-AllowRdpShortPathWithPrivateLink <String>]
+ [-CustomRdpProperty <String>] [-Description <String>] [-DirectUdp <String>] [-FriendlyName <String>]
+ [-IdentityType <String>] [-IdentityUserAssignedIdentity <Hashtable>] [-LoadBalancerType <String>]
+ [-ManagedPrivateUdp <String>] [-MaxSessionLimit <Int32>] [-PersonalDesktopAssignmentType <String>]
+ [-PreferredAppGroupType <String>] [-PublicNetworkAccess <String>] [-PublicUdp <String>]
  [-RegistrationInfoExpirationTime <DateTime>] [-RegistrationInfoRegistrationTokenOperation <String>]
- [-Ring <Int32>] [-SsoClientId <String>] [-SsoClientSecretKeyVaultPath <String>] [-SsoSecretType <String>]
- [-SsoadfsAuthority <String>] [-StartVMOnConnect] [-Tag <Hashtable>] [-VMTemplate <String>]
- [-ValidationEnvironment] [-DefaultProfile <PSObject>] [-WhatIf]
- [-Confirm] [<CommonParameters>]
+ [-RelayUdp <String>] [-Ring <Int32>] [-SsoClientId <String>] [-SsoClientSecretKeyVaultPath <String>]
+ [-SsoSecretType <String>] [-SsoadfsAuthority <String>] [-StartVMOnConnect] [-Tag <Hashtable>]
+ [-VMTemplate <String>] [-ValidationEnvironment] [-DefaultProfile <PSObject>]
+ [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-update a host pool.
+Update a host pool.
 
 ## EXAMPLES
 
-### Example 1: Update a Windows Virtual Desktop HostPool by name
+### Example 1: Update a Azure Virtual Desktop HostPool by name
 ```powershell
 Update-AzWvdHostPool -ResourceGroupName ResourceGroupName `
                             -Name HostPoolName `
@@ -79,7 +83,7 @@ Location   Name                 Type
 eastus     HostPoolName Microsoft.DesktopVirtualization/hostpools
 ```
 
-This command updates a Windows Virtual Desktop HostPool in a Resource Group.
+This command updates a Azure Virtual Desktop HostPool in a Resource Group.
 
 ## PARAMETERS
 
@@ -145,6 +149,21 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -AllowRdpShortPathWithPrivateLink
+Controls if the use of RDPShortPath transport is allowed, possibly bypassing Private Link routes.
+
+```yaml
+Type: System.String
+Parameter Sets: UpdateExpanded, UpdateViaIdentityExpanded
+Aliases:
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -CustomRdpProperty
 Custom rdp property of HostPool.
 
@@ -191,11 +210,59 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -DirectUdp
+Default: AVD-wide settings are used to determine connection availability, Enabled: UDP will attempt this connection type when making connections.
+This means that this connection is possible, but is not guaranteed, as there are other factors that may prevent this connection type, Disabled: UDP will not attempt this connection type when making connections
+
+```yaml
+Type: System.String
+Parameter Sets: UpdateExpanded, UpdateViaIdentityExpanded
+Aliases:
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -FriendlyName
 Friendly name of HostPool.
 
 ```yaml
 Type: System.String
+Parameter Sets: UpdateExpanded, UpdateViaIdentityExpanded
+Aliases:
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -IdentityType
+Type of managed service identity (where both SystemAssigned and UserAssigned types are allowed).
+
+```yaml
+Type: System.String
+Parameter Sets: UpdateExpanded, UpdateViaIdentityExpanded
+Aliases:
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -IdentityUserAssignedIdentity
+The set of user assigned identities associated with the resource.
+The userAssignedIdentities dictionary keys will be ARM resource ids in the form: '/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedIdentity/userAssignedIdentities/{identityName}.
+The dictionary values can be empty objects ({}) in requests.
+
+```yaml
+Type: System.Collections.Hashtable
 Parameter Sets: UpdateExpanded, UpdateViaIdentityExpanded
 Aliases:
 
@@ -253,6 +320,22 @@ Accept wildcard characters: False
 
 ### -LoadBalancerType
 The type of the load balancer.
+
+```yaml
+Type: System.String
+Parameter Sets: UpdateExpanded, UpdateViaIdentityExpanded
+Aliases:
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -ManagedPrivateUdp
+Default: AVD-wide settings are used to determine connection availability, Enabled: UDP will attempt this connection type when making connections.
+This means that this connection is possible, but is not guaranteed, as there are other factors that may prevent this connection type, Disabled: UDP will not attempt this connection type when making connections
 
 ```yaml
 Type: System.String
@@ -341,6 +424,22 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -PublicUdp
+Default: AVD-wide settings are used to determine connection availability, Enabled: UDP will attempt this connection type when making connections.
+This means that this connection is possible, but is not guaranteed, as there are other factors that may prevent this connection type, Disabled: UDP will not attempt this connection type when making connections
+
+```yaml
+Type: System.String
+Parameter Sets: UpdateExpanded, UpdateViaIdentityExpanded
+Aliases:
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -RegistrationInfoExpirationTime
 Expiration time of registration token.
 
@@ -358,6 +457,22 @@ Accept wildcard characters: False
 
 ### -RegistrationInfoRegistrationTokenOperation
 The type of resetting the token.
+
+```yaml
+Type: System.String
+Parameter Sets: UpdateExpanded, UpdateViaIdentityExpanded
+Aliases:
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -RelayUdp
+Default: AVD-wide settings are used to determine connection availability, Enabled: UDP will attempt this connection type when making connections.
+This means that this connection is possible, but is not guaranteed, as there are other factors that may prevent this connection type, Disabled: UDP will not attempt this connection type when making connections
 
 ```yaml
 Type: System.String

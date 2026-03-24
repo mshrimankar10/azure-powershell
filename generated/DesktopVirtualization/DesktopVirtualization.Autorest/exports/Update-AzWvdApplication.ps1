@@ -16,9 +16,9 @@
 
 <#
 .Synopsis
-update an application.
+Update an application.
 .Description
-update an application.
+Update an application.
 .Example
 Update-AzWvdApplication -ResourceGroupName ResourceGroupName `
                              -GroupName ApplicationGroupName `
@@ -54,8 +54,6 @@ APPLICATION <IApplicationPatch>: Application properties that can be patched.
   [MsixPackageApplicationId <String>]: Specifies the package application Id for MSIX applications
   [MsixPackageFamilyName <String>]: Specifies the package family name for MSIX applications
   [ShowInPortal <Boolean?>]: Specifies whether to show the RemoteApp program in the RD Web Access server.
-  [Tag <IApplicationPatchTags>]: tags to be updated
-    [(Any) <String>]: This indicates any property can be added to this object.
 
 APPLICATIONGROUPINPUTOBJECT <IDesktopVirtualizationIdentity>: Identity Parameter
   [AppAttachPackageName <String>]: The name of the App Attach package
@@ -65,7 +63,7 @@ APPLICATIONGROUPINPUTOBJECT <IDesktopVirtualizationIdentity>: Identity Parameter
   [HostPoolName <String>]: The name of the host pool within the specified resource group
   [Id <String>]: Resource identity path
   [MsixPackageFullName <String>]: The version specific package full name of the MSIX package within specified hostpool
-  [PrivateEndpointConnectionName <String>]: The name of the private endpoint connection associated with the Azure resource.
+  [PrivateEndpointConnectionName <String>]: The name parameter for private endpoint
   [ResourceGroupName <String>]: The name of the resource group. The name is case insensitive.
   [ScalingPlanName <String>]: The name of the scaling plan.
   [ScalingPlanScheduleName <String>]: The name of the ScalingPlanSchedule
@@ -82,7 +80,7 @@ INPUTOBJECT <IDesktopVirtualizationIdentity>: Identity Parameter
   [HostPoolName <String>]: The name of the host pool within the specified resource group
   [Id <String>]: Resource identity path
   [MsixPackageFullName <String>]: The version specific package full name of the MSIX package within specified hostpool
-  [PrivateEndpointConnectionName <String>]: The name of the private endpoint connection associated with the Azure resource.
+  [PrivateEndpointConnectionName <String>]: The name parameter for private endpoint
   [ResourceGroupName <String>]: The name of the resource group. The name is case insensitive.
   [ScalingPlanName <String>]: The name of the scaling plan.
   [ScalingPlanScheduleName <String>]: The name of the ScalingPlanSchedule
@@ -100,6 +98,7 @@ param(
     [Parameter(ParameterSetName='UpdateExpanded', Mandatory)]
     [Parameter(ParameterSetName='UpdateViaJsonFilePath', Mandatory)]
     [Parameter(ParameterSetName='UpdateViaJsonString', Mandatory)]
+    [Parameter(ParameterSetName='ResetIcon', Mandatory)]
     [Alias('ApplicationGroupName')]
     [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Category('Path')]
     [System.String]
@@ -111,6 +110,7 @@ param(
     [Parameter(ParameterSetName='UpdateViaIdentityApplicationGroupExpanded', Mandatory)]
     [Parameter(ParameterSetName='UpdateViaJsonFilePath', Mandatory)]
     [Parameter(ParameterSetName='UpdateViaJsonString', Mandatory)]
+    [Parameter(ParameterSetName='ResetIcon', Mandatory)]
     [Alias('ApplicationName')]
     [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Category('Path')]
     [System.String]
@@ -120,6 +120,7 @@ param(
     [Parameter(ParameterSetName='UpdateExpanded', Mandatory)]
     [Parameter(ParameterSetName='UpdateViaJsonFilePath', Mandatory)]
     [Parameter(ParameterSetName='UpdateViaJsonString', Mandatory)]
+    [Parameter(ParameterSetName='ResetIcon', Mandatory)]
     [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Category('Path')]
     [System.String]
     # The name of the resource group.
@@ -129,12 +130,40 @@ param(
     [Parameter(ParameterSetName='UpdateExpanded')]
     [Parameter(ParameterSetName='UpdateViaJsonFilePath')]
     [Parameter(ParameterSetName='UpdateViaJsonString')]
+    [Parameter(ParameterSetName='ResetIcon')]
     [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Category('Path')]
     [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Runtime.DefaultInfo(Script='(Get-AzContext).Subscription.Id')]
     [System.String]
     # The ID of the target subscription.
     # The value must be an UUID.
     ${SubscriptionId},
+
+    [Parameter(ParameterSetName='UpdateExpanded')]
+    [Parameter(ParameterSetName='UpdateViaIdentityApplicationGroupExpanded')]
+    [Parameter(ParameterSetName='UpdateViaIdentityExpanded')]
+    [Parameter(ParameterSetName='ResetIcon')]
+    [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Category('Path')]
+    [System.String]
+    # Description of Application.
+    ${Description},
+
+    [Parameter(ParameterSetName='UpdateExpanded')]
+    [Parameter(ParameterSetName='UpdateViaIdentityApplicationGroupExpanded')]
+    [Parameter(ParameterSetName='UpdateViaIdentityExpanded')]
+    [Parameter(ParameterSetName='ResetIcon')]
+    [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Category('Path')]
+    [System.String]
+    # Friendly name of Application.
+    ${FriendlyName},
+
+    [Parameter(ParameterSetName='UpdateExpanded')]
+    [Parameter(ParameterSetName='UpdateViaIdentityApplicationGroupExpanded')]
+    [Parameter(ParameterSetName='UpdateViaIdentityExpanded')]
+    [Parameter(ParameterSetName='ResetIcon')]
+    [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Category('Path')]
+    [System.Management.Automation.SwitchParameter]
+    # Specifies whether to show the RemoteApp program in the RD Web Access server.
+    ${ShowInPortal},
 
     [Parameter(ParameterSetName='UpdateViaIdentityApplicationGroup', Mandatory, ValueFromPipeline)]
     [Parameter(ParameterSetName='UpdateViaIdentityApplicationGroupExpanded', Mandatory, ValueFromPipeline)]
@@ -148,6 +177,11 @@ param(
     [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IDesktopVirtualizationIdentity]
     # Identity Parameter
     ${InputObject},
+
+    [Parameter(ParameterSetName='ResetIcon')]
+    [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Category('Path')]
+    [System.Management.Automation.SwitchParameter]
+    ${SetToDefaultIcon},
 
     [Parameter(ParameterSetName='UpdateExpanded')]
     [Parameter(ParameterSetName='UpdateViaIdentityApplicationGroupExpanded')]
@@ -180,24 +214,8 @@ param(
     [Parameter(ParameterSetName='UpdateViaIdentityExpanded')]
     [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Category('Body')]
     [System.String]
-    # Description of Application.
-    ${Description},
-
-    [Parameter(ParameterSetName='UpdateExpanded')]
-    [Parameter(ParameterSetName='UpdateViaIdentityApplicationGroupExpanded')]
-    [Parameter(ParameterSetName='UpdateViaIdentityExpanded')]
-    [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Category('Body')]
-    [System.String]
     # Specifies a path for the executable file for the application.
     ${FilePath},
-
-    [Parameter(ParameterSetName='UpdateExpanded')]
-    [Parameter(ParameterSetName='UpdateViaIdentityApplicationGroupExpanded')]
-    [Parameter(ParameterSetName='UpdateViaIdentityExpanded')]
-    [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Category('Body')]
-    [System.String]
-    # Friendly name of Application.
-    ${FriendlyName},
 
     [Parameter(ParameterSetName='UpdateExpanded')]
     [Parameter(ParameterSetName='UpdateViaIdentityApplicationGroupExpanded')]
@@ -230,23 +248,6 @@ param(
     [System.String]
     # Specifies the package family name for MSIX applications
     ${MsixPackageFamilyName},
-
-    [Parameter(ParameterSetName='UpdateExpanded')]
-    [Parameter(ParameterSetName='UpdateViaIdentityApplicationGroupExpanded')]
-    [Parameter(ParameterSetName='UpdateViaIdentityExpanded')]
-    [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Category('Body')]
-    [System.Management.Automation.SwitchParameter]
-    # Specifies whether to show the RemoteApp program in the RD Web Access server.
-    ${ShowInPortal},
-
-    [Parameter(ParameterSetName='UpdateExpanded')]
-    [Parameter(ParameterSetName='UpdateViaIdentityApplicationGroupExpanded')]
-    [Parameter(ParameterSetName='UpdateViaIdentityExpanded')]
-    [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Category('Body')]
-    [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Runtime.Info(PossibleTypes=([Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IApplicationPatchTags]))]
-    [System.Collections.Hashtable]
-    # tags to be updated
-    ${Tag},
 
     [Parameter(ParameterSetName='UpdateViaIdentityApplicationGroup', Mandatory, ValueFromPipeline)]
     [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Category('Body')]
@@ -328,8 +329,7 @@ begin {
 
         $context = Get-AzContext
         if (-not $context -and -not $testPlayback) {
-            Write-Error "No Azure login detected. Please run 'Connect-AzAccount' to log in."
-            exit
+            throw "No Azure login detected. Please run 'Connect-AzAccount' to log in."
         }
 
         if ($null -eq [Microsoft.WindowsAzure.Commands.Utilities.Common.AzurePSCmdlet]::PowerShellVersion) {
@@ -356,8 +356,9 @@ begin {
             UpdateViaIdentityExpanded = 'Az.DesktopVirtualization.private\Update-AzWvdApplication_UpdateViaIdentityExpanded';
             UpdateViaJsonFilePath = 'Az.DesktopVirtualization.private\Update-AzWvdApplication_UpdateViaJsonFilePath';
             UpdateViaJsonString = 'Az.DesktopVirtualization.private\Update-AzWvdApplication_UpdateViaJsonString';
+            ResetIcon = 'Az.DesktopVirtualization.custom\Update-AzWvdApplication_ResetIcon';
         }
-        if (('UpdateExpanded', 'UpdateViaJsonFilePath', 'UpdateViaJsonString') -contains $parameterSet -and -not $PSBoundParameters.ContainsKey('SubscriptionId') ) {
+        if (('UpdateExpanded', 'UpdateViaJsonFilePath', 'UpdateViaJsonString', 'ResetIcon') -contains $parameterSet -and -not $PSBoundParameters.ContainsKey('SubscriptionId') ) {
             if ($testPlayback) {
                 $PSBoundParameters['SubscriptionId'] = . (Join-Path $PSScriptRoot '..' 'utils' 'Get-SubscriptionIdTestSafe.ps1')
             } else {

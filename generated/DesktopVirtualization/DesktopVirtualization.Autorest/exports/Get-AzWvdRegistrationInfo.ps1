@@ -16,9 +16,9 @@
 
 <#
 .Synopsis
-Get the Windows virtual desktop registration info.
+Get the Azure Virtual Desktop registration info.
 .Description
-Get the Windows virtual desktop registration info.
+Get the Azure Virtual Desktop registration info.
 .Example
 Get-AzWvdRegistrationInfo -ResourceGroupName rgName -HostPoolName hpName
 .Example
@@ -113,8 +113,7 @@ begin {
 
         $context = Get-AzContext
         if (-not $context -and -not $testPlayback) {
-            Write-Error "No Azure login detected. Please run 'Connect-AzAccount' to log in."
-            exit
+            throw "No Azure login detected. Please run 'Connect-AzAccount' to log in."
         }
 
         if ($null -eq [Microsoft.WindowsAzure.Commands.Utilities.Common.AzurePSCmdlet]::PowerShellVersion) {

@@ -16,9 +16,9 @@
 
 <#
 .Synopsis
-create a scaling plan.
+Create a scaling plan.
 .Description
-create a scaling plan.
+Create a scaling plan.
 .Example
 New-AzWvdScalingPlan `
             -ResourceGroupName ResourceGroupName `
@@ -100,6 +100,10 @@ HOSTPOOLREFERENCE <IScalingHostPoolReference[]>: List of ScalingHostPoolReferenc
   [ScalingPlanEnabled <Boolean?>]: Is the scaling plan enabled for this hostpool.
 
 SCHEDULE <IScalingSchedule[]>: List of ScalingPlanPooledSchedule definitions.
+  [CreateDeleteRampDownMaximumHostPoolSize <Int32?>]: Maximum number of session hosts that may be created by the Scaling Service. This requires the assigned hostpool to have a session host config property.
+  [CreateDeleteRampDownMinimumHostPoolSize <Int32?>]: Minimum number of session hosts that will be be created by the Scaling Service. Scaling will not delete any hosts when this limit is met. This requires the assigned hostpool to have a session host config property.
+  [CreateDeleteRampUpMaximumHostPoolSize <Int32?>]: Maximum number of session hosts that may be created by the Scaling Service. This requires the assigned hostpool to have a session host config property.
+  [CreateDeleteRampUpMinimumHostPoolSize <Int32?>]: Minimum number of session hosts that will be be created by the Scaling Service. Scaling will not delete any hosts when this limit is met. This requires the assigned hostpool to have a session host config property.
   [DaysOfWeek <List<String>>]: Set of days of the week on which this schedule is active.
   [Name <String>]: Name of the ScalingPlanPooledSchedule.
   [OffPeakLoadBalancingAlgorithm <String>]: Load balancing algorithm for off-peak period.
@@ -122,6 +126,7 @@ SCHEDULE <IScalingSchedule[]>: List of ScalingPlanPooledSchedule definitions.
   [RampUpMinimumHostsPct <Int32?>]: Minimum host percentage for ramp up period.
   [RampUpStartTimeHour <Int32?>]: The hour.
   [RampUpStartTimeMinute <Int32?>]: The minute.
+  [ScalingMethod <String>]: The desired scaling method to be used to scale the hosts in the assigned host pool.
 .Link
 https://learn.microsoft.com/powershell/module/az.desktopvirtualization/new-azwvdscalingplan
 #>
@@ -189,24 +194,32 @@ param(
     ${HostPoolReference},
 
     [Parameter(ParameterSetName='CreateExpanded')]
-    [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.PSArgumentCompleterAttribute("Pooled")]
+    [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.PSArgumentCompleterAttribute("Pooled", "Personal")]
     [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Category('Body')]
     [System.String]
     # HostPool type for desktop.
     ${HostPoolType},
 
     [Parameter(ParameterSetName='CreateExpanded')]
-    [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.PSArgumentCompleterAttribute("SystemAssigned")]
+    [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.PSArgumentCompleterAttribute("None", "SystemAssigned", "UserAssigned", "SystemAssigned,UserAssigned")]
     [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Category('Body')]
     [System.String]
-    # The identity type.
+    # Type of managed service identity (where both SystemAssigned and UserAssigned types are allowed).
     ${IdentityType},
 
     [Parameter(ParameterSetName='CreateExpanded')]
     [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Category('Body')]
+    [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Runtime.Info(PossibleTypes=([Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Models.IManagedServiceIdentityUserAssignedIdentities]))]
+    [System.Collections.Hashtable]
+    # The set of user assigned identities associated with the resource.
+    # The userAssignedIdentities dictionary keys will be ARM resource ids in the form: '/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedIdentity/userAssignedIdentities/{identityName}.
+    # The dictionary values can be empty objects ({}) in requests.
+    ${IdentityUserAssignedIdentity},
+
+    [Parameter(ParameterSetName='CreateExpanded')]
+    [Microsoft.Azure.PowerShell.Cmdlets.DesktopVirtualization.Category('Body')]
     [System.String]
-    # Metadata used by portal/tooling/etc to render different UX experiences for resources of the same type.
-    # E.g.
+    # Metadata used by portal/tooling/etc to render different UX experiences for resources of the same type; e.g.
     # ApiApps are a kind of Microsoft.Web/sites type.
     # If supported, the resource provider must validate and persist this value.
     ${Kind},
@@ -378,8 +391,7 @@ begin {
 
         $context = Get-AzContext
         if (-not $context -and -not $testPlayback) {
-            Write-Error "No Azure login detected. Please run 'Connect-AzAccount' to log in."
-            exit
+            throw "No Azure login detected. Please run 'Connect-AzAccount' to log in."
         }
 
         if ($null -eq [Microsoft.WindowsAzure.Commands.Utilities.Common.AzurePSCmdlet]::PowerShellVersion) {

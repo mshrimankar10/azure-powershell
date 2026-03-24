@@ -16,9 +16,9 @@
 
 <#
 .Synopsis
-Remove the Windows virtual desktop registration info.
+Remove the Azure Virtual Desktop registration info.
 .Description
-Remove the Windows virtual desktop registration info.
+Remove the Azure Virtual Desktop registration info.
 .Example
 Remove-AzWvdRegistrationInfo -resourceGroupName rgName -hostpoolName hpName
 
@@ -108,8 +108,7 @@ begin {
 
         $context = Get-AzContext
         if (-not $context -and -not $testPlayback) {
-            Write-Error "No Azure login detected. Please run 'Connect-AzAccount' to log in."
-            exit
+            throw "No Azure login detected. Please run 'Connect-AzAccount' to log in."
         }
 
         if ($null -eq [Microsoft.WindowsAzure.Commands.Utilities.Common.AzurePSCmdlet]::PowerShellVersion) {
