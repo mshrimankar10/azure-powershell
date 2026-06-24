@@ -1,0 +1,201 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.DataShare.Management.Sdk
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.DataShare/Microsoft.Azure.PowerShell.DataShare.Management.Sdk.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.Management.DataShare
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.DataShare/Microsoft.Azure.PowerShell.DataShare.Management.Sdk.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,CS0108,CS1573,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.DataShare/Microsoft.Azure.PowerShell.DataShare.Management.Sdk.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.DataShare.Management.Sdk.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+Generated/
+ AccountsOperations.cs
+ AccountsOperationsExtensions.cs
+ ConsumerInvitationsOperations.cs
+ ConsumerInvitationsOperationsExtensions.cs
+ ConsumerSourceDataSetsOperations.cs
+ ConsumerSourceDataSetsOperationsExtensions.cs
+ DataSetMappingsOperations.cs
+ DataSetMappingsOperationsExtensions.cs
+ DataSetsOperations.cs
+ DataSetsOperationsExtensions.cs
+ DataShareManagementClient.cs
+ IAccountsOperations.cs
+ IConsumerInvitationsOperations.cs
+ IConsumerSourceDataSetsOperations.cs
+ IDataSetMappingsOperations.cs
+ IDataSetsOperations.cs
+ IDataShareManagementClient.cs
+ IInvitationsOperations.cs
+ InvitationsOperations.cs
+ InvitationsOperationsExtensions.cs
+ IOperations.cs
+ IProviderShareSubscriptionsOperations.cs
+ ISharesOperations.cs
+ IShareSubscriptionsOperations.cs
+ ISynchronizationSettingsOperations.cs
+ ITriggersOperations.cs
+ Models/
+  Account.cs
+  AccountProperties.cs
+  AccountUpdateParameters.cs
+  ADLSGen1FileDataSet.cs
+  AdlsGen1FileProperties.cs
+  ADLSGen1FolderDataSet.cs
+  AdlsGen1FolderProperties.cs
+  ADLSGen2FileDataSet.cs
+  ADLSGen2FileDataSetMapping.cs
+  AdlsGen2FileDataSetMappingProperties.cs
+  AdlsGen2FileProperties.cs
+  ADLSGen2FileSystemDataSet.cs
+  ADLSGen2FileSystemDataSetMapping.cs
+  AdlsGen2FileSystemDataSetMappingProperties.cs
+  AdlsGen2FileSystemProperties.cs
+  ADLSGen2FolderDataSet.cs
+  ADLSGen2FolderDataSetMapping.cs
+  AdlsGen2FolderDataSetMappingProperties.cs
+  AdlsGen2FolderProperties.cs
+  BlobContainerDataSet.cs
+  BlobContainerDataSetMapping.cs
+  BlobContainerMappingProperties.cs
+  BlobContainerProperties.cs
+  BlobDataSet.cs
+  BlobDataSetMapping.cs
+  BlobFolderDataSet.cs
+  BlobFolderDataSetMapping.cs
+  BlobFolderMappingProperties.cs
+  BlobFolderProperties.cs
+  BlobMappingProperties.cs
+  BlobProperties.cs
+  ConsumerInvitation.cs
+  ConsumerInvitationProperties.cs
+  ConsumerSourceDataSet.cs
+  ConsumerSourceDataSetProperties.cs
+  DataSet.cs
+  DataSetMapping.cs
+  DataSetMappingStatus.cs
+  DataSetType.cs
+  DataShareError.cs
+  DataShareErrorException.cs
+  DataShareErrorInfo.cs
+  DefaultDto.cs
+  DimensionProperties.cs
+  Identity.cs
+  Invitation.cs
+  InvitationProperties.cs
+  InvitationStatus.cs
+  Kind.cs
+  KustoClusterDataSet.cs
+  KustoClusterDataSetMapping.cs
+  KustoClusterDataSetMappingProperties.cs
+  KustoClusterDataSetProperties.cs
+  KustoDatabaseDataSet.cs
+  KustoDatabaseDataSetMapping.cs
+  KustoDatabaseDataSetMappingProperties.cs
+  KustoDatabaseDataSetProperties.cs
+  OperationMetaLogSpecification.cs
+  OperationMetaMetricSpecification.cs
+  OperationMetaPropertyInfo.cs
+  OperationMetaServiceSpecification.cs
+  OperationModel.cs
+  OperationModelProperties.cs
+  OperationResponse.cs
+  OutputType.cs
+  Page.cs
+  ProviderShareSubscription.cs
+  ProviderShareSubscriptionProperties.cs
+  ProvisioningState.cs
+  ProxyDto.cs
+  RecurrenceInterval.cs
+  ScheduledSourceShareSynchronizationSettingProperties.cs
+  ScheduledSourceSynchronizationSetting.cs
+  ScheduledSynchronizationSetting.cs
+  ScheduledSynchronizationSettingProperties.cs
+  ScheduledTrigger.cs
+  ScheduledTriggerProperties.cs
+  Share.cs
+  ShareKind.cs
+  ShareProperties.cs
+  ShareSubscription.cs
+  ShareSubscriptionProperties.cs
+  ShareSubscriptionStatus.cs
+  ShareSubscriptionSynchronization.cs
+  ShareSynchronization.cs
+  SourceShareSynchronizationSetting.cs
+  SqlDBTableDataSet.cs
+  SqlDBTableDataSetMapping.cs
+  SqlDBTableDataSetMappingProperties.cs
+  SqlDBTableProperties.cs
+  SqlDWTableDataSet.cs
+  SqlDWTableDataSetMapping.cs
+  SqlDWTableDataSetMappingProperties.cs
+  SqlDWTableProperties.cs
+  Status.cs
+  SynchronizationDetails.cs
+  SynchronizationMode.cs
+  SynchronizationSetting.cs
+  Synchronize.cs
+  Trigger.cs
+  TriggerStatus.cs
+  Type.cs
+ Operations.cs
+ OperationsExtensions.cs
+ ProviderShareSubscriptionsOperations.cs
+ ProviderShareSubscriptionsOperationsExtensions.cs
+ SharesOperations.cs
+ SharesOperationsExtensions.cs
+ ShareSubscriptionsOperations.cs
+ ShareSubscriptionsOperationsExtensions.cs
+ SynchronizationSettingsOperations.cs
+ SynchronizationSettingsOperationsExtensions.cs
+ TriggersOperations.cs
+ TriggersOperationsExtensions.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/DataShare.Management.Sdk.GeneratedMSBuildEditorConfig.editorconfig

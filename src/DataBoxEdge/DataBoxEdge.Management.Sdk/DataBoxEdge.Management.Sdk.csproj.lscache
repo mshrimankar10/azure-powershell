@@ -1,0 +1,238 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.DataBoxEdge.Management.Sdk
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.DataBoxEdge/Microsoft.Azure.PowerShell.DataBoxEdge.Management.Sdk.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.Management.DataBoxEdge
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.DataBoxEdge/Microsoft.Azure.PowerShell.DataBoxEdge.Management.Sdk.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,CS0108,CS1573,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.DataBoxEdge/Microsoft.Azure.PowerShell.DataBoxEdge.Management.Sdk.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.DataBoxEdge.Management.Sdk.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+Customizations/
+ CryptoUtilities.cs
+ ExtendedClientMethods.cs
+Generated/
+ AlertsOperations.cs
+ AlertsOperationsExtensions.cs
+ BandwidthSchedulesOperations.cs
+ BandwidthSchedulesOperationsExtensions.cs
+ ContainersOperations.cs
+ ContainersOperationsExtensions.cs
+ DataBoxEdgeManagementClient.cs
+ DevicesOperations.cs
+ DevicesOperationsExtensions.cs
+ IAlertsOperations.cs
+ IBandwidthSchedulesOperations.cs
+ IContainersOperations.cs
+ IDataBoxEdgeManagementClient.cs
+ IDevicesOperations.cs
+ IJobsOperations.cs
+ INodesOperations.cs
+ IOperations.cs
+ IOperationsStatusOperations.cs
+ IOrdersOperations.cs
+ IRolesOperations.cs
+ ISharesOperations.cs
+ ISkusOperations.cs
+ IStorageAccountCredentialsOperations.cs
+ IStorageAccountsOperations.cs
+ ITriggersOperations.cs
+ IUsersOperations.cs
+ JobsOperations.cs
+ JobsOperationsExtensions.cs
+ Models/
+  AccountType.cs
+  Address.cs
+  Alert.cs
+  AlertErrorDetails.cs
+  AlertProperties.cs
+  AlertSeverity.cs
+  ARMBaseModel.cs
+  AsymmetricEncryptedSecret.cs
+  Authentication.cs
+  AuthenticationType.cs
+  AzureContainerDataFormat.cs
+  AzureContainerInfo.cs
+  BandwidthSchedule.cs
+  BandwidthScheduleProperties.cs
+  ClientAccessRight.cs
+  ClientPermissionType.cs
+  ContactDetails.cs
+  Container.cs
+  ContainerProperties.cs
+  ContainerStatus.cs
+  DataBoxEdgeDevice.cs
+  DataBoxEdgeDeviceExtendedInfo.cs
+  DataBoxEdgeDeviceExtendedInfoProperties.cs
+  DataBoxEdgeDevicePatch.cs
+  DataBoxEdgeDeviceProperties.cs
+  DataBoxEdgeDeviceStatus.cs
+  DataPolicy.cs
+  DayOfWeek.cs
+  DeviceType.cs
+  DownloadPhase.cs
+  EncryptionAlgorithm.cs
+  FileEventTrigger.cs
+  FileSourceInfo.cs
+  FileTriggerProperties.cs
+  InstallRebootBehavior.cs
+  IoTDeviceInfo.cs
+  IoTRole.cs
+  IoTRoleProperties.cs
+  Ipv4Config.cs
+  Ipv6Config.cs
+  Job.cs
+  JobErrorDetails.cs
+  JobErrorItem.cs
+  JobProperties.cs
+  JobStatus.cs
+  JobType.cs
+  MetricAggregationType.cs
+  MetricCategory.cs
+  MetricDimensionV1.cs
+  MetricSpecificationV1.cs
+  MetricUnit.cs
+  MonitoringStatus.cs
+  MountPointMap.cs
+  NetworkAdapter.cs
+  NetworkAdapterDHCPStatus.cs
+  NetworkAdapterPosition.cs
+  NetworkAdapterRDMAStatus.cs
+  NetworkAdapterStatus.cs
+  NetworkGroup.cs
+  NetworkSettings.cs
+  NetworkSettingsProperties.cs
+  Node.cs
+  NodeProperties.cs
+  NodeStatus.cs
+  Operation.cs
+  OperationDisplay.cs
+  OperationProperties.cs
+  Order.cs
+  OrderProperties.cs
+  OrderState.cs
+  OrderStatus.cs
+  Page.cs
+  Page1.cs
+  PeriodicTimerEventTrigger.cs
+  PeriodicTimerProperties.cs
+  PeriodicTimerSourceInfo.cs
+  PlatformType.cs
+  RawCertificateData.cs
+  RefreshDetails.cs
+  ResourceTypeSku.cs
+  Role.cs
+  RoleSinkInfo.cs
+  RoleStatus.cs
+  RoleTypes.cs
+  SecuritySettings.cs
+  SecuritySettingsProperties.cs
+  ServiceSpecification.cs
+  Share.cs
+  ShareAccessProtocol.cs
+  ShareAccessRight.cs
+  ShareAccessType.cs
+  ShareProperties.cs
+  ShareStatus.cs
+  Sku.cs
+  SkuCost.cs
+  SkuLocationInfo.cs
+  SkuName.cs
+  SkuRestriction.cs
+  SkuRestrictionInfo.cs
+  SkuRestrictionReasonCode.cs
+  SkuTier.cs
+  SSLStatus.cs
+  StorageAccount.cs
+  StorageAccountCredential.cs
+  StorageAccountCredentialProperties.cs
+  StorageAccountProperties.cs
+  StorageAccountStatus.cs
+  SymmetricKey.cs
+  TimeGrain.cs
+  TrackingInfo.cs
+  Trigger.cs
+  TriggerEventType.cs
+  UpdateDownloadProgress.cs
+  UpdateInstallProgress.cs
+  UpdateOperation.cs
+  UpdateOperationStage.cs
+  UpdateSummary.cs
+  UpdateSummaryProperties.cs
+  UploadCertificateRequest.cs
+  UploadCertificateResponse.cs
+  User.cs
+  UserAccessRight.cs
+  UserProperties.cs
+  UserType.cs
+ NodesOperations.cs
+ NodesOperationsExtensions.cs
+ Operations.cs
+ OperationsExtensions.cs
+ OperationsStatusOperations.cs
+ OperationsStatusOperationsExtensions.cs
+ OrdersOperations.cs
+ OrdersOperationsExtensions.cs
+ RolesOperations.cs
+ RolesOperationsExtensions.cs
+ SharesOperations.cs
+ SharesOperationsExtensions.cs
+ SkusOperations.cs
+ SkusOperationsExtensions.cs
+ StorageAccountCredentialsOperations.cs
+ StorageAccountCredentialsOperationsExtensions.cs
+ StorageAccountsOperations.cs
+ StorageAccountsOperationsExtensions.cs
+ TriggersOperations.cs
+ TriggersOperationsExtensions.cs
+ UsersOperations.cs
+ UsersOperationsExtensions.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/DataBoxEdge.Management.Sdk.GeneratedMSBuildEditorConfig.editorconfig

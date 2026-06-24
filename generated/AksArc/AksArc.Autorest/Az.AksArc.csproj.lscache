@@ -1,0 +1,577 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.AksArc.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.AksArc/AksArc.Autorest/bin/Az.AksArc.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.AksArc
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.AksArc/AksArc.Autorest/bin/Az.AksArc.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.AksArc/AksArc.Autorest/bin/Az.AksArc.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.AksArc.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/
+ AksArc.cs
+ Models/
+  AddonStatusProfile.cs
+  AddonStatusProfile.json.cs
+  AddonStatusProfile.PowerShell.cs
+  AddonStatusProfile.TypeConverter.cs
+  AgentPool.cs
+  AgentPool.json.cs
+  AgentPool.PowerShell.cs
+  AgentPool.TypeConverter.cs
+  AgentPoolListResult.cs
+  AgentPoolListResult.json.cs
+  AgentPoolListResult.PowerShell.cs
+  AgentPoolListResult.TypeConverter.cs
+  AgentPoolName.cs
+  AgentPoolName.json.cs
+  AgentPoolName.PowerShell.cs
+  AgentPoolName.TypeConverter.cs
+  AgentPoolProfile.cs
+  AgentPoolProfile.json.cs
+  AgentPoolProfile.PowerShell.cs
+  AgentPoolProfile.TypeConverter.cs
+  AgentPoolProfileNodeLabels.cs
+  AgentPoolProfileNodeLabels.dictionary.cs
+  AgentPoolProfileNodeLabels.json.cs
+  AgentPoolProfileNodeLabels.PowerShell.cs
+  AgentPoolProfileNodeLabels.TypeConverter.cs
+  AgentPoolProperties.cs
+  AgentPoolProperties.json.cs
+  AgentPoolProperties.PowerShell.cs
+  AgentPoolProperties.TypeConverter.cs
+  AgentPoolProvisioningStatus.cs
+  AgentPoolProvisioningStatus.json.cs
+  AgentPoolProvisioningStatus.PowerShell.cs
+  AgentPoolProvisioningStatus.TypeConverter.cs
+  AgentPoolProvisioningStatus1.cs
+  AgentPoolProvisioningStatus1.json.cs
+  AgentPoolProvisioningStatus1.PowerShell.cs
+  AgentPoolProvisioningStatus1.TypeConverter.cs
+  AgentPoolTags.cs
+  AgentPoolTags.dictionary.cs
+  AgentPoolTags.json.cs
+  AgentPoolTags.PowerShell.cs
+  AgentPoolTags.TypeConverter.cs
+  AgentPoolUpdateProfile.cs
+  AgentPoolUpdateProfile.json.cs
+  AgentPoolUpdateProfile.PowerShell.cs
+  AgentPoolUpdateProfile.TypeConverter.cs
+  AksArcIdentity.cs
+  AksArcIdentity.json.cs
+  AksArcIdentity.PowerShell.cs
+  AksArcIdentity.TypeConverter.cs
+  Any.cs
+  Any.json.cs
+  Any.PowerShell.cs
+  Any.TypeConverter.cs
+  CloudProviderProfile.cs
+  CloudProviderProfile.json.cs
+  CloudProviderProfile.PowerShell.cs
+  CloudProviderProfile.TypeConverter.cs
+  CloudProviderProfileInfraNetworkProfile.cs
+  CloudProviderProfileInfraNetworkProfile.json.cs
+  CloudProviderProfileInfraNetworkProfile.PowerShell.cs
+  CloudProviderProfileInfraNetworkProfile.TypeConverter.cs
+  ClusterVMAccessProfile.cs
+  ClusterVMAccessProfile.json.cs
+  ClusterVMAccessProfile.PowerShell.cs
+  ClusterVMAccessProfile.TypeConverter.cs
+  ControlPlaneProfile.cs
+  ControlPlaneProfile.json.cs
+  ControlPlaneProfile.PowerShell.cs
+  ControlPlaneProfile.TypeConverter.cs
+  ControlPlaneProfileControlPlaneEndpoint.cs
+  ControlPlaneProfileControlPlaneEndpoint.json.cs
+  ControlPlaneProfileControlPlaneEndpoint.PowerShell.cs
+  ControlPlaneProfileControlPlaneEndpoint.TypeConverter.cs
+  CredentialResult.cs
+  CredentialResult.json.cs
+  CredentialResult.PowerShell.cs
+  CredentialResult.TypeConverter.cs
+  ErrorAdditionalInfo.cs
+  ErrorAdditionalInfo.json.cs
+  ErrorAdditionalInfo.PowerShell.cs
+  ErrorAdditionalInfo.TypeConverter.cs
+  ErrorDetail.cs
+  ErrorDetail.json.cs
+  ErrorDetail.PowerShell.cs
+  ErrorDetail.TypeConverter.cs
+  ErrorResponse.cs
+  ErrorResponse.json.cs
+  ErrorResponse.PowerShell.cs
+  ErrorResponse.TypeConverter.cs
+  ExtendedLocation.cs
+  ExtendedLocation.json.cs
+  ExtendedLocation.PowerShell.cs
+  ExtendedLocation.TypeConverter.cs
+  HybridIdentityMetadata.cs
+  HybridIdentityMetadata.json.cs
+  HybridIdentityMetadata.PowerShell.cs
+  HybridIdentityMetadata.TypeConverter.cs
+  HybridIdentityMetadataList.cs
+  HybridIdentityMetadataList.json.cs
+  HybridIdentityMetadataList.PowerShell.cs
+  HybridIdentityMetadataList.TypeConverter.cs
+  HybridIdentityMetadataProperties.cs
+  HybridIdentityMetadataProperties.json.cs
+  HybridIdentityMetadataProperties.PowerShell.cs
+  HybridIdentityMetadataProperties.TypeConverter.cs
+  KubernetesPatchVersions.cs
+  KubernetesPatchVersions.json.cs
+  KubernetesPatchVersions.PowerShell.cs
+  KubernetesPatchVersions.TypeConverter.cs
+  KubernetesVersionProfile.cs
+  KubernetesVersionProfile.json.cs
+  KubernetesVersionProfile.PowerShell.cs
+  KubernetesVersionProfile.TypeConverter.cs
+  KubernetesVersionProfileList.cs
+  KubernetesVersionProfileList.json.cs
+  KubernetesVersionProfileList.PowerShell.cs
+  KubernetesVersionProfileList.TypeConverter.cs
+  KubernetesVersionProfileProperties.cs
+  KubernetesVersionProfileProperties.json.cs
+  KubernetesVersionProfileProperties.PowerShell.cs
+  KubernetesVersionProfileProperties.TypeConverter.cs
+  KubernetesVersionProperties.cs
+  KubernetesVersionProperties.json.cs
+  KubernetesVersionProperties.PowerShell.cs
+  KubernetesVersionProperties.TypeConverter.cs
+  KubernetesVersionPropertiesPatchVersions.cs
+  KubernetesVersionPropertiesPatchVersions.dictionary.cs
+  KubernetesVersionPropertiesPatchVersions.json.cs
+  KubernetesVersionPropertiesPatchVersions.PowerShell.cs
+  KubernetesVersionPropertiesPatchVersions.TypeConverter.cs
+  KubernetesVersionReadiness.cs
+  KubernetesVersionReadiness.json.cs
+  KubernetesVersionReadiness.PowerShell.cs
+  KubernetesVersionReadiness.TypeConverter.cs
+  LinuxProfile.cs
+  LinuxProfile.json.cs
+  LinuxProfile.PowerShell.cs
+  LinuxProfile.TypeConverter.cs
+  LinuxProfileProperties.cs
+  LinuxProfileProperties.json.cs
+  LinuxProfileProperties.PowerShell.cs
+  LinuxProfileProperties.TypeConverter.cs
+  LinuxProfilePropertiesSsh.cs
+  LinuxProfilePropertiesSsh.json.cs
+  LinuxProfilePropertiesSsh.PowerShell.cs
+  LinuxProfilePropertiesSsh.TypeConverter.cs
+  LinuxProfilePropertiesSshPublicKeysItem.cs
+  LinuxProfilePropertiesSshPublicKeysItem.json.cs
+  LinuxProfilePropertiesSshPublicKeysItem.PowerShell.cs
+  LinuxProfilePropertiesSshPublicKeysItem.TypeConverter.cs
+  ListCredentialResponse.cs
+  ListCredentialResponse.json.cs
+  ListCredentialResponse.PowerShell.cs
+  ListCredentialResponse.TypeConverter.cs
+  ListCredentialResponseError.cs
+  ListCredentialResponseError.json.cs
+  ListCredentialResponseError.PowerShell.cs
+  ListCredentialResponseError.TypeConverter.cs
+  ListCredentialResponseProperties.cs
+  ListCredentialResponseProperties.json.cs
+  ListCredentialResponseProperties.PowerShell.cs
+  ListCredentialResponseProperties.TypeConverter.cs
+  NamedAgentPoolProfile.cs
+  NamedAgentPoolProfile.json.cs
+  NamedAgentPoolProfile.PowerShell.cs
+  NamedAgentPoolProfile.TypeConverter.cs
+  NetworkProfile.cs
+  NetworkProfile.json.cs
+  NetworkProfile.PowerShell.cs
+  NetworkProfile.TypeConverter.cs
+  NetworkProfileLoadBalancerProfile.cs
+  NetworkProfileLoadBalancerProfile.json.cs
+  NetworkProfileLoadBalancerProfile.PowerShell.cs
+  NetworkProfileLoadBalancerProfile.TypeConverter.cs
+  Operation.cs
+  Operation.json.cs
+  Operation.PowerShell.cs
+  Operation.TypeConverter.cs
+  OperationDisplay.cs
+  OperationDisplay.json.cs
+  OperationDisplay.PowerShell.cs
+  OperationDisplay.TypeConverter.cs
+  OperationListResult.cs
+  OperationListResult.json.cs
+  OperationListResult.PowerShell.cs
+  OperationListResult.TypeConverter.cs
+  ProvisionedCluster.cs
+  ProvisionedCluster.json.cs
+  ProvisionedCluster.PowerShell.cs
+  ProvisionedCluster.TypeConverter.cs
+  ProvisionedClusterLicenseProfile.cs
+  ProvisionedClusterLicenseProfile.json.cs
+  ProvisionedClusterLicenseProfile.PowerShell.cs
+  ProvisionedClusterLicenseProfile.TypeConverter.cs
+  ProvisionedClusterListResult.cs
+  ProvisionedClusterListResult.json.cs
+  ProvisionedClusterListResult.PowerShell.cs
+  ProvisionedClusterListResult.TypeConverter.cs
+  ProvisionedClusterPoolUpgradeProfile.cs
+  ProvisionedClusterPoolUpgradeProfile.json.cs
+  ProvisionedClusterPoolUpgradeProfile.PowerShell.cs
+  ProvisionedClusterPoolUpgradeProfile.TypeConverter.cs
+  ProvisionedClusterPoolUpgradeProfileProperties.cs
+  ProvisionedClusterPoolUpgradeProfileProperties.json.cs
+  ProvisionedClusterPoolUpgradeProfileProperties.PowerShell.cs
+  ProvisionedClusterPoolUpgradeProfileProperties.TypeConverter.cs
+  ProvisionedClusterProperties.cs
+  ProvisionedClusterProperties.json.cs
+  ProvisionedClusterProperties.PowerShell.cs
+  ProvisionedClusterProperties.TypeConverter.cs
+  ProvisionedClusterPropertiesAutoScalerProfile.cs
+  ProvisionedClusterPropertiesAutoScalerProfile.json.cs
+  ProvisionedClusterPropertiesAutoScalerProfile.PowerShell.cs
+  ProvisionedClusterPropertiesAutoScalerProfile.TypeConverter.cs
+  ProvisionedClusterPropertiesStatus.cs
+  ProvisionedClusterPropertiesStatus.json.cs
+  ProvisionedClusterPropertiesStatus.PowerShell.cs
+  ProvisionedClusterPropertiesStatus.TypeConverter.cs
+  ProvisionedClusterUpgradeProfile.cs
+  ProvisionedClusterUpgradeProfile.json.cs
+  ProvisionedClusterUpgradeProfile.PowerShell.cs
+  ProvisionedClusterUpgradeProfile.TypeConverter.cs
+  ProvisionedClusterUpgradeProfileProperties.cs
+  ProvisionedClusterUpgradeProfileProperties.json.cs
+  ProvisionedClusterUpgradeProfileProperties.PowerShell.cs
+  ProvisionedClusterUpgradeProfileProperties.TypeConverter.cs
+  ProxyResource.cs
+  ProxyResource.json.cs
+  ProxyResource.PowerShell.cs
+  ProxyResource.TypeConverter.cs
+  Resource.cs
+  Resource.json.cs
+  Resource.PowerShell.cs
+  Resource.TypeConverter.cs
+  StorageProfile.cs
+  StorageProfile.json.cs
+  StorageProfile.PowerShell.cs
+  StorageProfile.TypeConverter.cs
+  StorageProfileNfsCsiDriver.cs
+  StorageProfileNfsCsiDriver.json.cs
+  StorageProfileNfsCsiDriver.PowerShell.cs
+  StorageProfileNfsCsiDriver.TypeConverter.cs
+  StorageProfileSmbCsiDriver.cs
+  StorageProfileSmbCsiDriver.json.cs
+  StorageProfileSmbCsiDriver.PowerShell.cs
+  StorageProfileSmbCsiDriver.TypeConverter.cs
+  SystemData.cs
+  SystemData.json.cs
+  SystemData.PowerShell.cs
+  SystemData.TypeConverter.cs
+  TrackedResource.cs
+  TrackedResource.json.cs
+  TrackedResource.PowerShell.cs
+  TrackedResource.TypeConverter.cs
+  TrackedResourceTags.cs
+  TrackedResourceTags.dictionary.cs
+  TrackedResourceTags.json.cs
+  TrackedResourceTags.PowerShell.cs
+  TrackedResourceTags.TypeConverter.cs
+  VirtualNetwork.cs
+  VirtualNetwork.json.cs
+  VirtualNetwork.PowerShell.cs
+  VirtualNetwork.TypeConverter.cs
+  VirtualNetworkExtendedLocation.cs
+  VirtualNetworkExtendedLocation.json.cs
+  VirtualNetworkExtendedLocation.PowerShell.cs
+  VirtualNetworkExtendedLocation.TypeConverter.cs
+  VirtualNetworkProperties.cs
+  VirtualNetworkProperties.json.cs
+  VirtualNetworkProperties.PowerShell.cs
+  VirtualNetworkProperties.TypeConverter.cs
+  VirtualNetworkPropertiesInfraVnetProfile.cs
+  VirtualNetworkPropertiesInfraVnetProfile.json.cs
+  VirtualNetworkPropertiesInfraVnetProfile.PowerShell.cs
+  VirtualNetworkPropertiesInfraVnetProfile.TypeConverter.cs
+  VirtualNetworkPropertiesInfraVnetProfileHci.cs
+  VirtualNetworkPropertiesInfraVnetProfileHci.json.cs
+  VirtualNetworkPropertiesInfraVnetProfileHci.PowerShell.cs
+  VirtualNetworkPropertiesInfraVnetProfileHci.TypeConverter.cs
+  VirtualNetworkPropertiesStatus.cs
+  VirtualNetworkPropertiesStatus.json.cs
+  VirtualNetworkPropertiesStatus.PowerShell.cs
+  VirtualNetworkPropertiesStatus.TypeConverter.cs
+  VirtualNetworkPropertiesStatusOperationStatus.cs
+  VirtualNetworkPropertiesStatusOperationStatus.json.cs
+  VirtualNetworkPropertiesStatusOperationStatus.PowerShell.cs
+  VirtualNetworkPropertiesStatusOperationStatus.TypeConverter.cs
+  VirtualNetworkPropertiesStatusOperationStatusError.cs
+  VirtualNetworkPropertiesStatusOperationStatusError.json.cs
+  VirtualNetworkPropertiesStatusOperationStatusError.PowerShell.cs
+  VirtualNetworkPropertiesStatusOperationStatusError.TypeConverter.cs
+  VirtualNetworkPropertiesVipPoolItem.cs
+  VirtualNetworkPropertiesVipPoolItem.json.cs
+  VirtualNetworkPropertiesVipPoolItem.PowerShell.cs
+  VirtualNetworkPropertiesVipPoolItem.TypeConverter.cs
+  VirtualNetworkPropertiesVmipPoolItem.cs
+  VirtualNetworkPropertiesVmipPoolItem.json.cs
+  VirtualNetworkPropertiesVmipPoolItem.PowerShell.cs
+  VirtualNetworkPropertiesVmipPoolItem.TypeConverter.cs
+  VirtualNetworksListResult.cs
+  VirtualNetworksListResult.json.cs
+  VirtualNetworksListResult.PowerShell.cs
+  VirtualNetworksListResult.TypeConverter.cs
+  VirtualNetworksPatch.cs
+  VirtualNetworksPatch.json.cs
+  VirtualNetworksPatch.PowerShell.cs
+  VirtualNetworksPatch.TypeConverter.cs
+  VirtualNetworksPatchTags.cs
+  VirtualNetworksPatchTags.dictionary.cs
+  VirtualNetworksPatchTags.json.cs
+  VirtualNetworksPatchTags.PowerShell.cs
+  VirtualNetworksPatchTags.TypeConverter.cs
+  VMSkuCapabilities.cs
+  VMSkuCapabilities.json.cs
+  VMSkuCapabilities.PowerShell.cs
+  VMSkuCapabilities.TypeConverter.cs
+  VMSkuProfile.cs
+  VMSkuProfile.json.cs
+  VMSkuProfile.PowerShell.cs
+  VMSkuProfile.TypeConverter.cs
+  VMSkuProfileList.cs
+  VMSkuProfileList.json.cs
+  VMSkuProfileList.PowerShell.cs
+  VMSkuProfileList.TypeConverter.cs
+  VMSkuProfileProperties.cs
+  VMSkuProfileProperties.json.cs
+  VMSkuProfileProperties.PowerShell.cs
+  VMSkuProfileProperties.TypeConverter.cs
+  VMSkuProperties.cs
+  VMSkuProperties.json.cs
+  VMSkuProperties.PowerShell.cs
+  VMSkuProperties.TypeConverter.cs
+generated/cmdlets/
+ GetAzAksArcClusterAdminKubeconfig_List.cs
+ GetAzAksArcClusterUpgrade_Get.cs
+ GetAzAksArcClusterUserKubeconfig_List.cs
+ GetAzAksArcCluster_Get.cs
+ GetAzAksArcCluster_List.cs
+ GetAzAksArcKubernetesVersion_Get.cs
+ GetAzAksArcKubernetesVersion_List.cs
+ GetAzAksArcNodepool_Get.cs
+ GetAzAksArcNodepool_GetViaIdentity.cs
+ GetAzAksArcNodepool_List.cs
+ GetAzAksArcOperation_List.cs
+ GetAzAksArcVirtualNetwork_List.cs
+ GetAzAksArcVirtualNetwork_List1.cs
+ GetAzAksArcVirtualNetwork_Retrieve.cs
+ GetAzAksArcVirtualNetwork_RetrieveViaIdentity.cs
+ GetAzAksArcVMSku_Get.cs
+ GetAzAksArcVMSku_List.cs
+ NewAzAksArcCluster_CreateExpanded.cs
+ NewAzAksArcCluster_CreateViaJsonFilePath.cs
+ NewAzAksArcCluster_CreateViaJsonString.cs
+ NewAzAksArcKubernetesVersion_CreateExpanded.cs
+ NewAzAksArcKubernetesVersion_CreateViaJsonFilePath.cs
+ NewAzAksArcKubernetesVersion_CreateViaJsonString.cs
+ NewAzAksArcNodepool_CreateExpanded.cs
+ NewAzAksArcNodepool_CreateViaJsonFilePath.cs
+ NewAzAksArcNodepool_CreateViaJsonString.cs
+ NewAzAksArcVirtualNetwork_CreateExpanded.cs
+ NewAzAksArcVirtualNetwork_CreateViaJsonFilePath.cs
+ NewAzAksArcVirtualNetwork_CreateViaJsonString.cs
+ NewAzAksArcVMSku_CreateExpanded.cs
+ NewAzAksArcVMSku_CreateViaJsonFilePath.cs
+ NewAzAksArcVMSku_CreateViaJsonString.cs
+ RemoveAzAksArcCluster_Delete.cs
+ RemoveAzAksArcNodepool_Delete.cs
+ RemoveAzAksArcNodepool_DeleteViaIdentity.cs
+ RemoveAzAksArcVirtualNetwork_Delete.cs
+ RemoveAzAksArcVirtualNetwork_DeleteViaIdentity.cs
+ UpdateAzAksArcCluster_UpdateExpanded.cs
+ UpdateAzAksArcNodepool_UpdateExpanded.cs
+ UpdateAzAksArcNodepool_UpdateViaIdentityExpanded.cs
+generated/
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.AksArc.GeneratedMSBuildEditorConfig.editorconfig

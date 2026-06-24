@@ -1,0 +1,450 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.FileShare.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.FileShare/FileShare.Autorest/bin/Az.FileShare.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.FileShare
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.FileShare/FileShare.Autorest/bin/Az.FileShare.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.FileShare/FileShare.Autorest/bin/Az.FileShare.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.FileShare.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/
+ MicrosoftFileShares.cs
+ Models/
+  Any.cs
+  Any.json.cs
+  Any.PowerShell.cs
+  Any.TypeConverter.cs
+  CheckNameAvailabilityRequest.cs
+  CheckNameAvailabilityRequest.json.cs
+  CheckNameAvailabilityRequest.PowerShell.cs
+  CheckNameAvailabilityRequest.TypeConverter.cs
+  CheckNameAvailabilityResponse.cs
+  CheckNameAvailabilityResponse.json.cs
+  CheckNameAvailabilityResponse.PowerShell.cs
+  CheckNameAvailabilityResponse.TypeConverter.cs
+  ErrorAdditionalInfo.cs
+  ErrorAdditionalInfo.json.cs
+  ErrorAdditionalInfo.PowerShell.cs
+  ErrorAdditionalInfo.TypeConverter.cs
+  ErrorDetail.cs
+  ErrorDetail.json.cs
+  ErrorDetail.PowerShell.cs
+  ErrorDetail.TypeConverter.cs
+  ErrorResponse.cs
+  ErrorResponse.json.cs
+  ErrorResponse.PowerShell.cs
+  ErrorResponse.TypeConverter.cs
+  FileShare.cs
+  FileShare.json.cs
+  FileShare.PowerShell.cs
+  FileShare.TypeConverter.cs
+  FileShareIdentity.cs
+  FileShareIdentity.json.cs
+  FileShareIdentity.PowerShell.cs
+  FileShareIdentity.TypeConverter.cs
+  FileShareLimits.cs
+  FileShareLimits.json.cs
+  FileShareLimits.PowerShell.cs
+  FileShareLimits.TypeConverter.cs
+  FileShareLimitsOutput.cs
+  FileShareLimitsOutput.json.cs
+  FileShareLimitsOutput.PowerShell.cs
+  FileShareLimitsOutput.TypeConverter.cs
+  FileShareLimitsResponse.cs
+  FileShareLimitsResponse.json.cs
+  FileShareLimitsResponse.PowerShell.cs
+  FileShareLimitsResponse.TypeConverter.cs
+  FileShareListResult.cs
+  FileShareListResult.json.cs
+  FileShareListResult.PowerShell.cs
+  FileShareListResult.TypeConverter.cs
+  FileShareProperties.cs
+  FileShareProperties.json.cs
+  FileShareProperties.PowerShell.cs
+  FileShareProperties.TypeConverter.cs
+  FileShareProvisioningConstants.cs
+  FileShareProvisioningConstants.json.cs
+  FileShareProvisioningConstants.PowerShell.cs
+  FileShareProvisioningConstants.TypeConverter.cs
+  FileShareProvisioningRecommendationInput.cs
+  FileShareProvisioningRecommendationInput.json.cs
+  FileShareProvisioningRecommendationInput.PowerShell.cs
+  FileShareProvisioningRecommendationInput.TypeConverter.cs
+  FileShareProvisioningRecommendationOutput.cs
+  FileShareProvisioningRecommendationOutput.json.cs
+  FileShareProvisioningRecommendationOutput.PowerShell.cs
+  FileShareProvisioningRecommendationOutput.TypeConverter.cs
+  FileShareProvisioningRecommendationRequest.cs
+  FileShareProvisioningRecommendationRequest.json.cs
+  FileShareProvisioningRecommendationRequest.PowerShell.cs
+  FileShareProvisioningRecommendationRequest.TypeConverter.cs
+  FileShareProvisioningRecommendationResponse.cs
+  FileShareProvisioningRecommendationResponse.json.cs
+  FileShareProvisioningRecommendationResponse.PowerShell.cs
+  FileShareProvisioningRecommendationResponse.TypeConverter.cs
+  FileShareSnapshot.cs
+  FileShareSnapshot.json.cs
+  FileShareSnapshot.PowerShell.cs
+  FileShareSnapshot.TypeConverter.cs
+  FileShareSnapshotListResult.cs
+  FileShareSnapshotListResult.json.cs
+  FileShareSnapshotListResult.PowerShell.cs
+  FileShareSnapshotListResult.TypeConverter.cs
+  FileShareSnapshotProperties.cs
+  FileShareSnapshotProperties.json.cs
+  FileShareSnapshotProperties.PowerShell.cs
+  FileShareSnapshotProperties.TypeConverter.cs
+  FileShareSnapshotPropertiesMetadata.cs
+  FileShareSnapshotPropertiesMetadata.dictionary.cs
+  FileShareSnapshotPropertiesMetadata.json.cs
+  FileShareSnapshotPropertiesMetadata.PowerShell.cs
+  FileShareSnapshotPropertiesMetadata.TypeConverter.cs
+  FileShareSnapshotUpdate.cs
+  FileShareSnapshotUpdate.json.cs
+  FileShareSnapshotUpdate.PowerShell.cs
+  FileShareSnapshotUpdate.TypeConverter.cs
+  FileShareSnapshotUpdateProperties.cs
+  FileShareSnapshotUpdateProperties.json.cs
+  FileShareSnapshotUpdateProperties.PowerShell.cs
+  FileShareSnapshotUpdateProperties.TypeConverter.cs
+  FileShareSnapshotUpdatePropertiesMetadata.cs
+  FileShareSnapshotUpdatePropertiesMetadata.dictionary.cs
+  FileShareSnapshotUpdatePropertiesMetadata.json.cs
+  FileShareSnapshotUpdatePropertiesMetadata.PowerShell.cs
+  FileShareSnapshotUpdatePropertiesMetadata.TypeConverter.cs
+  FileShareUpdate.cs
+  FileShareUpdate.json.cs
+  FileShareUpdate.PowerShell.cs
+  FileShareUpdate.TypeConverter.cs
+  FileShareUpdateProperties.cs
+  FileShareUpdateProperties.json.cs
+  FileShareUpdateProperties.PowerShell.cs
+  FileShareUpdateProperties.TypeConverter.cs
+  FileShareUpdateTags.cs
+  FileShareUpdateTags.dictionary.cs
+  FileShareUpdateTags.json.cs
+  FileShareUpdateTags.PowerShell.cs
+  FileShareUpdateTags.TypeConverter.cs
+  FileShareUsageDataOutput.cs
+  FileShareUsageDataOutput.json.cs
+  FileShareUsageDataOutput.PowerShell.cs
+  FileShareUsageDataOutput.TypeConverter.cs
+  FileShareUsageDataResponse.cs
+  FileShareUsageDataResponse.json.cs
+  FileShareUsageDataResponse.PowerShell.cs
+  FileShareUsageDataResponse.TypeConverter.cs
+  LiveSharesUsageData.cs
+  LiveSharesUsageData.json.cs
+  LiveSharesUsageData.PowerShell.cs
+  LiveSharesUsageData.TypeConverter.cs
+  NfsProtocolProperties.cs
+  NfsProtocolProperties.json.cs
+  NfsProtocolProperties.PowerShell.cs
+  NfsProtocolProperties.TypeConverter.cs
+  Operation.cs
+  Operation.json.cs
+  Operation.PowerShell.cs
+  Operation.TypeConverter.cs
+  OperationDisplay.cs
+  OperationDisplay.json.cs
+  OperationDisplay.PowerShell.cs
+  OperationDisplay.TypeConverter.cs
+  OperationListResult.cs
+  OperationListResult.json.cs
+  OperationListResult.PowerShell.cs
+  OperationListResult.TypeConverter.cs
+  PrivateEndpoint.cs
+  PrivateEndpoint.json.cs
+  PrivateEndpoint.PowerShell.cs
+  PrivateEndpoint.TypeConverter.cs
+  PrivateEndpointConnection.cs
+  PrivateEndpointConnection.json.cs
+  PrivateEndpointConnection.PowerShell.cs
+  PrivateEndpointConnection.TypeConverter.cs
+  PrivateEndpointConnectionListResult.cs
+  PrivateEndpointConnectionListResult.json.cs
+  PrivateEndpointConnectionListResult.PowerShell.cs
+  PrivateEndpointConnectionListResult.TypeConverter.cs
+  PrivateEndpointConnectionProperties.cs
+  PrivateEndpointConnectionProperties.json.cs
+  PrivateEndpointConnectionProperties.PowerShell.cs
+  PrivateEndpointConnectionProperties.TypeConverter.cs
+  PrivateLinkResource.cs
+  PrivateLinkResource.json.cs
+  PrivateLinkResource.PowerShell.cs
+  PrivateLinkResource.TypeConverter.cs
+  PrivateLinkResourceListResult.cs
+  PrivateLinkResourceListResult.json.cs
+  PrivateLinkResourceListResult.PowerShell.cs
+  PrivateLinkResourceListResult.TypeConverter.cs
+  PrivateLinkResourceProperties.cs
+  PrivateLinkResourceProperties.json.cs
+  PrivateLinkResourceProperties.PowerShell.cs
+  PrivateLinkResourceProperties.TypeConverter.cs
+  PrivateLinkServiceConnectionState.cs
+  PrivateLinkServiceConnectionState.json.cs
+  PrivateLinkServiceConnectionState.PowerShell.cs
+  PrivateLinkServiceConnectionState.TypeConverter.cs
+  ProxyResource.cs
+  ProxyResource.json.cs
+  ProxyResource.PowerShell.cs
+  ProxyResource.TypeConverter.cs
+  PublicAccessProperties.cs
+  PublicAccessProperties.json.cs
+  PublicAccessProperties.PowerShell.cs
+  PublicAccessProperties.TypeConverter.cs
+  Resource.cs
+  Resource.json.cs
+  Resource.PowerShell.cs
+  Resource.TypeConverter.cs
+  SystemData.cs
+  SystemData.json.cs
+  SystemData.PowerShell.cs
+  SystemData.TypeConverter.cs
+  TrackedResource.cs
+  TrackedResource.json.cs
+  TrackedResource.PowerShell.cs
+  TrackedResource.TypeConverter.cs
+  TrackedResourceTags.cs
+  TrackedResourceTags.dictionary.cs
+  TrackedResourceTags.json.cs
+  TrackedResourceTags.PowerShell.cs
+  TrackedResourceTags.TypeConverter.cs
+generated/cmdlets/
+ GetAzFileShareLimit_Get.cs
+ GetAzFileShareLimit_GetViaIdentity.cs
+ GetAzFileShareOperation_List.cs
+ GetAzFileShareProvisioningRecommendation_Get.cs
+ GetAzFileShareProvisioningRecommendation_GetExpanded.cs
+ GetAzFileShareProvisioningRecommendation_GetViaIdentity.cs
+ GetAzFileShareProvisioningRecommendation_GetViaIdentityExpanded.cs
+ GetAzFileShareProvisioningRecommendation_GetViaJsonFilePath.cs
+ GetAzFileShareProvisioningRecommendation_GetViaJsonString.cs
+ GetAzFileShareSnapshot_Get.cs
+ GetAzFileShareSnapshot_GetViaIdentity.cs
+ GetAzFileShareSnapshot_GetViaIdentityFileShare.cs
+ GetAzFileShareSnapshot_List.cs
+ GetAzFileShareUsageData_Get.cs
+ GetAzFileShareUsageData_GetViaIdentity.cs
+ GetAzFileShare_Get.cs
+ GetAzFileShare_GetViaIdentity.cs
+ GetAzFileShare_List.cs
+ GetAzFileShare_List1.cs
+ NewAzFileShareSnapshot_CreateExpanded.cs
+ NewAzFileShareSnapshot_CreateViaIdentityFileShareExpanded.cs
+ NewAzFileShareSnapshot_CreateViaJsonFilePath.cs
+ NewAzFileShareSnapshot_CreateViaJsonString.cs
+ NewAzFileShare_CreateExpanded.cs
+ NewAzFileShare_CreateViaJsonFilePath.cs
+ NewAzFileShare_CreateViaJsonString.cs
+ RemoveAzFileShareSnapshot_Delete.cs
+ RemoveAzFileShareSnapshot_DeleteViaIdentity.cs
+ RemoveAzFileShareSnapshot_DeleteViaIdentityFileShare.cs
+ RemoveAzFileShare_Delete.cs
+ RemoveAzFileShare_DeleteViaIdentity.cs
+ TestAzFileShareNameAvailability_Check.cs
+ TestAzFileShareNameAvailability_CheckExpanded.cs
+ TestAzFileShareNameAvailability_CheckViaIdentity.cs
+ TestAzFileShareNameAvailability_CheckViaIdentityExpanded.cs
+ TestAzFileShareNameAvailability_CheckViaJsonFilePath.cs
+ TestAzFileShareNameAvailability_CheckViaJsonString.cs
+ UpdateAzFileShareSnapshot_UpdateExpanded.cs
+ UpdateAzFileShareSnapshot_UpdateViaIdentityExpanded.cs
+ UpdateAzFileShareSnapshot_UpdateViaIdentityFileShareExpanded.cs
+ UpdateAzFileShareSnapshot_UpdateViaJsonFilePath.cs
+ UpdateAzFileShareSnapshot_UpdateViaJsonString.cs
+ UpdateAzFileShare_UpdateExpanded.cs
+ UpdateAzFileShare_UpdateViaIdentityExpanded.cs
+ UpdateAzFileShare_UpdateViaJsonFilePath.cs
+ UpdateAzFileShare_UpdateViaJsonString.cs
+generated/
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.FileShare.GeneratedMSBuildEditorConfig.editorconfig

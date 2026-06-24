@@ -1,0 +1,598 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.RecoveryServices.Backup.Management.Sdk
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.RecoveryServices/Microsoft.Azure.PowerShell.RecoveryServices.Backup.Management.Sdk.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.Management.RecoveryServices.Backup
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.RecoveryServices/Microsoft.Azure.PowerShell.RecoveryServices.Backup.Management.Sdk.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,CS0108,CS1573,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.RecoveryServices/Microsoft.Azure.PowerShell.RecoveryServices.Backup.Management.Sdk.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.RecoveryServices.Backup.Management.Sdk.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+Generated/
+ BackupEnginesOperations.cs
+ BackupEnginesOperationsExtensions.cs
+ BackupJobsOperations.cs
+ BackupJobsOperationsExtensions.cs
+ BackupOperationResultsOperations.cs
+ BackupOperationResultsOperationsExtensions.cs
+ BackupOperationStatusesOperations.cs
+ BackupOperationStatusesOperationsExtensions.cs
+ BackupPoliciesOperations.cs
+ BackupPoliciesOperationsExtensions.cs
+ BackupProtectableItemsOperations.cs
+ BackupProtectableItemsOperationsExtensions.cs
+ BackupProtectedItemsOperations.cs
+ BackupProtectedItemsOperationsExtensions.cs
+ BackupProtectionContainersOperations.cs
+ BackupProtectionContainersOperationsExtensions.cs
+ BackupProtectionIntentOperations.cs
+ BackupProtectionIntentOperationsExtensions.cs
+ BackupResourceEncryptionConfigsOperations.cs
+ BackupResourceEncryptionConfigsOperationsExtensions.cs
+ BackupResourceStorageConfigsNonCRROperations.cs
+ BackupResourceStorageConfigsNonCRROperationsExtensions.cs
+ BackupResourceVaultConfigsOperations.cs
+ BackupResourceVaultConfigsOperationsExtensions.cs
+ BackupsOperations.cs
+ BackupsOperationsExtensions.cs
+ BackupStatusOperations.cs
+ BackupStatusOperationsExtensions.cs
+ BackupUsageSummariesOperations.cs
+ BackupUsageSummariesOperationsExtensions.cs
+ BackupWorkloadItemsOperations.cs
+ BackupWorkloadItemsOperationsExtensions.cs
+ BMSPrepareDataMoveOperationResultOperations.cs
+ BMSPrepareDataMoveOperationResultOperationsExtensions.cs
+ DeletedProtectionContainersOperations.cs
+ DeletedProtectionContainersOperationsExtensions.cs
+ ExportJobsOperationResultsOperations.cs
+ ExportJobsOperationResultsOperationsExtensions.cs
+ FeatureSupportOperations.cs
+ FeatureSupportOperationsExtensions.cs
+ FetchTieringCostOperations.cs
+ FetchTieringCostOperationsExtensions.cs
+ GetTieringCostOperationResultOperations.cs
+ GetTieringCostOperationResultOperationsExtensions.cs
+ IBackupEnginesOperations.cs
+ IBackupJobsOperations.cs
+ IBackupOperationResultsOperations.cs
+ IBackupOperationStatusesOperations.cs
+ IBackupPoliciesOperations.cs
+ IBackupProtectableItemsOperations.cs
+ IBackupProtectedItemsOperations.cs
+ IBackupProtectionContainersOperations.cs
+ IBackupProtectionIntentOperations.cs
+ IBackupResourceEncryptionConfigsOperations.cs
+ IBackupResourceStorageConfigsNonCRROperations.cs
+ IBackupResourceVaultConfigsOperations.cs
+ IBackupsOperations.cs
+ IBackupStatusOperations.cs
+ IBackupUsageSummariesOperations.cs
+ IBackupWorkloadItemsOperations.cs
+ IBMSPrepareDataMoveOperationResultOperations.cs
+ IDeletedProtectionContainersOperations.cs
+ IExportJobsOperationResultsOperations.cs
+ IFeatureSupportOperations.cs
+ IFetchTieringCostOperations.cs
+ IGetTieringCostOperationResultOperations.cs
+ IItemLevelRecoveryConnectionsOperations.cs
+ IJobCancellationsOperations.cs
+ IJobDetailsOperations.cs
+ IJobOperationResultsOperations.cs
+ IJobsOperations.cs
+ IOperationOperations.cs
+ IOperations.cs
+ IPrivateEndpointConnectionOperations.cs
+ IPrivateEndpointOperations.cs
+ IProtectableContainersOperations.cs
+ IProtectedItemOperationResultsOperations.cs
+ IProtectedItemOperationStatusesOperations.cs
+ IProtectedItemsOperations.cs
+ IProtectionContainerOperationResultsOperations.cs
+ IProtectionContainerRefreshOperationResultsOperations.cs
+ IProtectionContainersOperations.cs
+ IProtectionIntentOperations.cs
+ IProtectionPoliciesOperations.cs
+ IProtectionPolicyOperationResultsOperations.cs
+ IProtectionPolicyOperationStatusesOperations.cs
+ IRecoveryPointsOperations.cs
+ IRecoveryPointsRecommendedForMoveOperations.cs
+ IRecoveryServicesBackupClient.cs
+ IResourceGuardProxiesOperations.cs
+ IResourceGuardProxyOperations.cs
+ IRestoresOperations.cs
+ ISecurityPINsOperations.cs
+ ItemLevelRecoveryConnectionsOperations.cs
+ ItemLevelRecoveryConnectionsOperationsExtensions.cs
+ ITieringCostOperationStatusOperations.cs
+ IValidateOperationOperations.cs
+ IValidateOperationResultsOperations.cs
+ IValidateOperationStatusesOperations.cs
+ JobCancellationsOperations.cs
+ JobCancellationsOperationsExtensions.cs
+ JobDetailsOperations.cs
+ JobDetailsOperationsExtensions.cs
+ JobOperationResultsOperations.cs
+ JobOperationResultsOperationsExtensions.cs
+ JobsOperations.cs
+ JobsOperationsExtensions.cs
+ Models/
+  AcquireStorageAccountLock.cs
+  AzureBackupGoalFeatureSupportRequest.cs
+  AzureBackupServerContainer.cs
+  AzureBackupServerEngine.cs
+  AzureFileShareBackupRequest.cs
+  AzureFileShareProtectableItem.cs
+  AzureFileshareProtectedItem.cs
+  AzureFileshareProtectedItemExtendedInfo.cs
+  AzureFileShareProtectionPolicy.cs
+  AzureFileShareProvisionILRRequest.cs
+  AzureFileShareRecoveryPoint.cs
+  AzureFileShareRestoreRequest.cs
+  AzureFileShareType.cs
+  AzureIaaSClassicComputeVMContainer.cs
+  AzureIaaSClassicComputeVMProtectableItem.cs
+  AzureIaaSClassicComputeVMProtectedItem.cs
+  AzureIaaSComputeVMContainer.cs
+  AzureIaaSComputeVMProtectableItem.cs
+  AzureIaaSComputeVMProtectedItem.cs
+  AzureIaaSVMErrorInfo.cs
+  AzureIaaSVMHealthDetails.cs
+  AzureIaaSVMJob.cs
+  AzureIaaSVMJobExtendedInfo.cs
+  AzureIaaSVMJobTaskDetails.cs
+  AzureIaaSVMJobV2.cs
+  AzureIaaSVMProtectedItem.cs
+  AzureIaaSVMProtectedItemExtendedInfo.cs
+  AzureIaaSVMProtectionPolicy.cs
+  AzureRecoveryServiceVaultProtectionIntent.cs
+  AzureResourceProtectionIntent.cs
+  AzureSQLAGWorkloadContainerProtectionContainer.cs
+  AzureSqlContainer.cs
+  AzureSqlProtectedItem.cs
+  AzureSqlProtectedItemExtendedInfo.cs
+  AzureSqlProtectionPolicy.cs
+  AzureStorageContainer.cs
+  AzureStorageErrorInfo.cs
+  AzureStorageJob.cs
+  AzureStorageJobExtendedInfo.cs
+  AzureStorageJobTaskDetails.cs
+  AzureStorageProtectableContainer.cs
+  AzureVMAppContainerProtectableContainer.cs
+  AzureVMAppContainerProtectionContainer.cs
+  AzureVMResourceFeatureSupportRequest.cs
+  AzureVMResourceFeatureSupportResponse.cs
+  AzureVmWorkloadItem.cs
+  AzureVmWorkloadProtectableItem.cs
+  AzureVmWorkloadProtectedItem.cs
+  AzureVmWorkloadProtectedItemExtendedInfo.cs
+  AzureVmWorkloadProtectionPolicy.cs
+  AzureVmWorkloadSAPAseDatabaseProtectableItem.cs
+  AzureVmWorkloadSAPAseDatabaseProtectedItem.cs
+  AzureVmWorkloadSAPAseDatabaseWorkloadItem.cs
+  AzureVmWorkloadSAPAseSystemProtectableItem.cs
+  AzureVmWorkloadSAPAseSystemWorkloadItem.cs
+  AzureVmWorkloadSAPHanaDatabaseProtectableItem.cs
+  AzureVmWorkloadSAPHanaDatabaseProtectedItem.cs
+  AzureVmWorkloadSAPHanaDatabaseWorkloadItem.cs
+  AzureVmWorkloadSAPHanaDBInstance.cs
+  AzureVmWorkloadSAPHanaDBInstanceProtectedItem.cs
+  AzureVmWorkloadSAPHanaHSRProtectableItem.cs
+  AzureVmWorkloadSAPHanaSystemProtectableItem.cs
+  AzureVmWorkloadSAPHanaSystemWorkloadItem.cs
+  AzureVmWorkloadSQLAvailabilityGroupProtectableItem.cs
+  AzureVmWorkloadSQLDatabaseProtectableItem.cs
+  AzureVmWorkloadSQLDatabaseProtectedItem.cs
+  AzureVmWorkloadSQLDatabaseWorkloadItem.cs
+  AzureVmWorkloadSQLInstanceProtectableItem.cs
+  AzureVmWorkloadSQLInstanceWorkloadItem.cs
+  AzureWorkloadAutoProtectionIntent.cs
+  AzureWorkloadBackupRequest.cs
+  AzureWorkloadContainer.cs
+  AzureWorkloadContainerAutoProtectionIntent.cs
+  AzureWorkloadContainerExtendedInfo.cs
+  AzureWorkloadErrorInfo.cs
+  AzureWorkloadJob.cs
+  AzureWorkloadJobExtendedInfo.cs
+  AzureWorkloadJobTaskDetails.cs
+  AzureWorkloadPointInTimeRecoveryPoint.cs
+  AzureWorkloadPointInTimeRestoreRequest.cs
+  AzureWorkloadRecoveryPoint.cs
+  AzureWorkloadRestoreRequest.cs
+  AzureWorkloadSAPAsePointInTimeRecoveryPoint.cs
+  AzureWorkloadSAPAsePointInTimeRestoreRequest.cs
+  AzureWorkloadSAPAseRecoveryPoint.cs
+  AzureWorkloadSAPAseRestoreRequest.cs
+  AzureWorkloadSAPHanaPointInTimeRecoveryPoint.cs
+  AzureWorkloadSAPHanaPointInTimeRestoreRequest.cs
+  AzureWorkloadSAPHanaPointInTimeRestoreWithRehydrateRequest.cs
+  AzureWorkloadSAPHanaRecoveryPoint.cs
+  AzureWorkloadSAPHanaRestoreRequest.cs
+  AzureWorkloadSAPHanaRestoreWithRehydrateRequest.cs
+  AzureWorkloadSQLAutoProtectionIntent.cs
+  AzureWorkloadSQLPointInTimeRecoveryPoint.cs
+  AzureWorkloadSQLPointInTimeRestoreRequest.cs
+  AzureWorkloadSQLPointInTimeRestoreWithRehydrateRequest.cs
+  AzureWorkloadSQLRecoveryPoint.cs
+  AzureWorkloadSQLRecoveryPointExtendedInfo.cs
+  AzureWorkloadSQLRestoreRequest.cs
+  AzureWorkloadSQLRestoreWithRehydrateRequest.cs
+  BackupEngineBase.cs
+  BackupEngineBaseResource.cs
+  BackupEngineExtendedInfo.cs
+  BackupEngineType.cs
+  BackupItemType.cs
+  BackupManagementType.cs
+  BackupManagementUsage.cs
+  BackupRequest.cs
+  BackupRequestResource.cs
+  BackupResourceConfig.cs
+  BackupResourceConfigResource.cs
+  BackupResourceEncryptionConfig.cs
+  BackupResourceEncryptionConfigExtended.cs
+  BackupResourceEncryptionConfigExtendedResource.cs
+  BackupResourceEncryptionConfigResource.cs
+  BackupResourceVaultConfig.cs
+  BackupResourceVaultConfigResource.cs
+  BackupStatusRequest.cs
+  BackupStatusResponse.cs
+  BackupType.cs
+  BEKDetails.cs
+  BMSBackupEngineQueryObject.cs
+  BMSBackupEnginesQueryObject.cs
+  BMSBackupSummariesQueryObject.cs
+  BMSContainerQueryObject.cs
+  BMSContainersInquiryQueryObject.cs
+  BMSPOQueryObject.cs
+  BMSRefreshContainersQueryObject.cs
+  BMSRPQueryObject.cs
+  BMSWorkloadItemQueryObject.cs
+  ClientDiscoveryDisplay.cs
+  ClientDiscoveryForLogSpecification.cs
+  ClientDiscoveryForProperties.cs
+  ClientDiscoveryForServiceSpecification.cs
+  ClientDiscoveryValueForSingleApi.cs
+  ClientScriptForConnect.cs
+  ContainerIdentityInfo.cs
+  ContainerType.cs
+  CopyOptions.cs
+  CreateMode.cs
+  DailyRetentionFormat.cs
+  DailyRetentionSchedule.cs
+  DailySchedule.cs
+  DataMoveLevel.cs
+  DataSourceType.cs
+  Day.cs
+  DayOfWeek.cs
+  DedupState.cs
+  DiskExclusionProperties.cs
+  DiskInformation.cs
+  DistributedNodesInfo.cs
+  DpmBackupEngine.cs
+  DpmContainer.cs
+  DPMContainerExtendedInfo.cs
+  DpmErrorInfo.cs
+  DpmJob.cs
+  DpmJobExtendedInfo.cs
+  DpmJobTaskDetails.cs
+  DPMProtectedItem.cs
+  DPMProtectedItemExtendedInfo.cs
+  EncryptionAtRestType.cs
+  EncryptionDetails.cs
+  EnhancedSecurityState.cs
+  ErrorAdditionalInfo.cs
+  ErrorDetail.cs
+  ExportJobsOperationResultInfo.cs
+  ExtendedLocation.cs
+  ExtendedProperties.cs
+  FabricName.cs
+  FeatureSupportRequest.cs
+  FetchTieringCostInfoForRehydrationRequest.cs
+  FetchTieringCostInfoRequest.cs
+  FetchTieringCostPostHeaders.cs
+  FetchTieringCostSavingsInfoForPolicyRequest.cs
+  FetchTieringCostSavingsInfoForProtectedItemRequest.cs
+  FetchTieringCostSavingsInfoForVaultRequest.cs
+  GenericContainer.cs
+  GenericContainerExtendedInfo.cs
+  GenericProtectedItem.cs
+  GenericProtectionPolicy.cs
+  GenericRecoveryPoint.cs
+  GetProtectedItemQueryObject.cs
+  HealthState.cs
+  HealthStatus.cs
+  HourlySchedule.cs
+  HttpStatusCode.cs
+  IaasVMBackupRequest.cs
+  IaaSVMContainer.cs
+  IaasVMILRRegistrationRequest.cs
+  IAASVMPolicyType.cs
+  IaaSVMProtectableItem.cs
+  IaasVMRecoveryPoint.cs
+  IaasVMRestoreRequest.cs
+  IaasVMRestoreWithRehydrationRequest.cs
+  IaasVMSnapshotConsistencyType.cs
+  IdentityBasedRestoreDetails.cs
+  IdentityInfo.cs
+  ILRRequest.cs
+  ILRRequestResource.cs
+  InfrastructureEncryptionState.cs
+  InquiryInfo.cs
+  InquiryStatus.cs
+  InquiryValidation.cs
+  InstantItemRecoveryTarget.cs
+  InstantRPAdditionalDetails.cs
+  IntentItemType.cs
+  Job.cs
+  JobOperationType.cs
+  JobQueryObject.cs
+  JobResource.cs
+  JobStatus.cs
+  JobSupportedAction.cs
+  KEKDetails.cs
+  KeyAndSecretDetails.cs
+  KPIResourceHealthDetails.cs
+  LastBackupStatus.cs
+  LastUpdateStatus.cs
+  ListRecoveryPointsRecommendedForMoveRequest.cs
+  LogSchedulePolicy.cs
+  LongTermRetentionPolicy.cs
+  LongTermSchedulePolicy.cs
+  MabContainer.cs
+  MabContainerExtendedInfo.cs
+  MABContainerHealthDetails.cs
+  MabErrorInfo.cs
+  MabFileFolderProtectedItem.cs
+  MabFileFolderProtectedItemExtendedInfo.cs
+  MabJob.cs
+  MabJobExtendedInfo.cs
+  MabJobTaskDetails.cs
+  MabProtectionPolicy.cs
+  MabServerType.cs
+  MonthlyRetentionSchedule.cs
+  MonthOfYear.cs
+  MoveRPAcrossTiersRequest.cs
+  NameInfo.cs
+  NewErrorResponse.cs
+  NewErrorResponseError.cs
+  NewErrorResponseException.cs
+  OperationResultInfo.cs
+  OperationResultInfoBase.cs
+  OperationResultInfoBaseResource.cs
+  OperationStatus.cs
+  OperationStatusError.cs
+  OperationStatusExtendedInfo.cs
+  OperationStatusJobExtendedInfo.cs
+  OperationStatusJobsExtendedInfo.cs
+  OperationStatusProvisionILRExtendedInfo.cs
+  OperationStatusValidateOperationExtendedInfo.cs
+  OperationStatusValues.cs
+  OperationType.cs
+  OperationWorkerResponse.cs
+  OverwriteOptions.cs
+  Page.cs
+  Page1.cs
+  PointInTimeRange.cs
+  PolicyType.cs
+  PreBackupValidation.cs
+  PrepareDataMoveRequest.cs
+  PrepareDataMoveResponse.cs
+  PreValidateEnableBackupRequest.cs
+  PreValidateEnableBackupResponse.cs
+  PrivateEndpoint.cs
+  PrivateEndpointConnection.cs
+  PrivateEndpointConnectionResource.cs
+  PrivateEndpointConnectionStatus.cs
+  PrivateLinkServiceConnectionState.cs
+  ProtectableContainer.cs
+  ProtectableContainerResource.cs
+  ProtectableContainerType.cs
+  ProtectedItem.cs
+  ProtectedItemHealthStatus.cs
+  ProtectedItemQueryObject.cs
+  ProtectedItemResource.cs
+  ProtectedItemState.cs
+  ProtectionContainer.cs
+  ProtectionContainerResource.cs
+  ProtectionIntent.cs
+  ProtectionIntentItemType.cs
+  ProtectionIntentQueryObject.cs
+  ProtectionIntentResource.cs
+  ProtectionPolicy.cs
+  ProtectionPolicyQueryObject.cs
+  ProtectionPolicyResource.cs
+  ProtectionState.cs
+  ProtectionStatus.cs
+  ProvisioningState.cs
+  RecoveryMode.cs
+  RecoveryPoint.cs
+  RecoveryPointDiskConfiguration.cs
+  RecoveryPointMoveReadinessInfo.cs
+  RecoveryPointProperties.cs
+  RecoveryPointRehydrationInfo.cs
+  RecoveryPointResource.cs
+  RecoveryPointTierInformation.cs
+  RecoveryPointTierInformationV2.cs
+  RecoveryPointTierStatus.cs
+  RecoveryPointTierType.cs
+  RecoveryType.cs
+  RehydrationPriority.cs
+  Resource.cs
+  ResourceGuardOperationDetail.cs
+  ResourceGuardProxyBase.cs
+  ResourceGuardProxyBaseResource.cs
+  ResourceHealthDetails.cs
+  ResourceHealthStatus.cs
+  ResourceList.cs
+  RestoreFileSpecs.cs
+  RestorePointQueryType.cs
+  RestorePointType.cs
+  RestoreRequest.cs
+  RestoreRequestResource.cs
+  RestoreRequestType.cs
+  RetentionDuration.cs
+  RetentionDurationType.cs
+  RetentionPolicy.cs
+  RetentionScheduleFormat.cs
+  SchedulePolicy.cs
+  ScheduleRunType.cs
+  SecuredVMDetails.cs
+  SecurityPinBase.cs
+  Settings.cs
+  SimpleRetentionPolicy.cs
+  SimpleSchedulePolicy.cs
+  SimpleSchedulePolicyV2.cs
+  SnapshotBackupAdditionalDetails.cs
+  SnapshotRestoreParameters.cs
+  SoftDeleteFeatureState.cs
+  SQLDataDirectory.cs
+  SQLDataDirectoryMapping.cs
+  SQLDataDirectoryType.cs
+  StorageType.cs
+  StorageTypeState.cs
+  SubProtectionPolicy.cs
+  SupportStatus.cs
+  TargetAFSRestoreInfo.cs
+  TargetDiskNetworkAccessOption.cs
+  TargetDiskNetworkAccessSettings.cs
+  TargetRestoreInfo.cs
+  TieringCostInfo.cs
+  TieringCostRehydrationInfo.cs
+  TieringCostSavingInfo.cs
+  TieringMode.cs
+  TieringPolicy.cs
+  TokenInformation.cs
+  TriggerDataMoveRequest.cs
+  Type.cs
+  UnlockDeleteRequest.cs
+  UnlockDeleteResponse.cs
+  UsagesUnit.cs
+  UserAssignedIdentityProperties.cs
+  UserAssignedManagedIdentityDetails.cs
+  ValidateIaasVMRestoreOperationRequest.cs
+  ValidateOperationRequest.cs
+  ValidateOperationRequestResource.cs
+  ValidateOperationResponse.cs
+  ValidateOperationsResponse.cs
+  ValidateRestoreOperationRequest.cs
+  ValidationStatus.cs
+  VaultJob.cs
+  VaultJobErrorInfo.cs
+  VaultJobExtendedInfo.cs
+  VaultRetentionPolicy.cs
+  VaultStorageConfigOperationResultResponse.cs
+  VaultSubResourceType.cs
+  WeeklyRetentionFormat.cs
+  WeeklyRetentionSchedule.cs
+  WeeklySchedule.cs
+  WeekOfMonth.cs
+  WorkloadInquiryDetails.cs
+  WorkloadItem.cs
+  WorkloadItemResource.cs
+  WorkloadItemType.cs
+  WorkloadProtectableItem.cs
+  WorkloadProtectableItemResource.cs
+  WorkloadType.cs
+  XcoolState.cs
+  YearlyRetentionSchedule.cs
+ OperationOperations.cs
+ OperationOperationsExtensions.cs
+ Operations.cs
+ OperationsExtensions.cs
+ PrivateEndpointConnectionOperations.cs
+ PrivateEndpointConnectionOperationsExtensions.cs
+ PrivateEndpointOperations.cs
+ PrivateEndpointOperationsExtensions.cs
+ ProtectableContainersOperations.cs
+ ProtectableContainersOperationsExtensions.cs
+ ProtectedItemOperationResultsOperations.cs
+ ProtectedItemOperationResultsOperationsExtensions.cs
+ ProtectedItemOperationStatusesOperations.cs
+ ProtectedItemOperationStatusesOperationsExtensions.cs
+ ProtectedItemsOperations.cs
+ ProtectedItemsOperationsExtensions.cs
+ ProtectionContainerOperationResultsOperations.cs
+ ProtectionContainerOperationResultsOperationsExtensions.cs
+ ProtectionContainerRefreshOperationResultsOperations.cs
+ ProtectionContainerRefreshOperationResultsOperationsExtensions.cs
+ ProtectionContainersOperations.cs
+ ProtectionContainersOperationsExtensions.cs
+ ProtectionIntentOperations.cs
+ ProtectionIntentOperationsExtensions.cs
+ ProtectionPoliciesOperations.cs
+ ProtectionPoliciesOperationsExtensions.cs
+ ProtectionPolicyOperationResultsOperations.cs
+ ProtectionPolicyOperationResultsOperationsExtensions.cs
+ ProtectionPolicyOperationStatusesOperations.cs
+ ProtectionPolicyOperationStatusesOperationsExtensions.cs
+ RecoveryPointsOperations.cs
+ RecoveryPointsOperationsExtensions.cs
+ RecoveryPointsRecommendedForMoveOperations.cs
+ RecoveryPointsRecommendedForMoveOperationsExtensions.cs
+ RecoveryServicesBackupClient.cs
+ RecoveryServicesBackupClientExtensions.cs
+ ResourceGuardProxiesOperations.cs
+ ResourceGuardProxiesOperationsExtensions.cs
+ ResourceGuardProxyOperations.cs
+ ResourceGuardProxyOperationsExtensions.cs
+ RestoresOperations.cs
+ RestoresOperationsExtensions.cs
+ SecurityPINsOperations.cs
+ SecurityPINsOperationsExtensions.cs
+ TieringCostOperationStatusOperations.cs
+ TieringCostOperationStatusOperationsExtensions.cs
+ ValidateOperationOperations.cs
+ ValidateOperationOperationsExtensions.cs
+ ValidateOperationResultsOperations.cs
+ ValidateOperationResultsOperationsExtensions.cs
+ ValidateOperationStatusesOperations.cs
+ ValidateOperationStatusesOperationsExtensions.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/RecoveryServices.Backup.Management.Sdk.GeneratedMSBuildEditorConfig.editorconfig

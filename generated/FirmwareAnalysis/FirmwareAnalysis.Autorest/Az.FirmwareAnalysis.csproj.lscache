@@ -1,0 +1,495 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.FirmwareAnalysis.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.FirmwareAnalysis/FirmwareAnalysis.Autorest/bin/Az.FirmwareAnalysis.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.FirmwareAnalysis
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.FirmwareAnalysis/FirmwareAnalysis.Autorest/bin/Az.FirmwareAnalysis.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.FirmwareAnalysis/FirmwareAnalysis.Autorest/bin/Az.FirmwareAnalysis.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.FirmwareAnalysis.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/
+ FirmwareAnalysis.cs
+ Models/
+  Any.cs
+  Any.json.cs
+  Any.PowerShell.cs
+  Any.TypeConverter.cs
+  AzureResourceManagerCommonTypesSkuUpdate.cs
+  AzureResourceManagerCommonTypesSkuUpdate.json.cs
+  AzureResourceManagerCommonTypesSkuUpdate.PowerShell.cs
+  AzureResourceManagerCommonTypesSkuUpdate.TypeConverter.cs
+  BinaryHardeningFeatures.cs
+  BinaryHardeningFeatures.json.cs
+  BinaryHardeningFeatures.PowerShell.cs
+  BinaryHardeningFeatures.TypeConverter.cs
+  BinaryHardeningResource.cs
+  BinaryHardeningResource.json.cs
+  BinaryHardeningResource.PowerShell.cs
+  BinaryHardeningResource.TypeConverter.cs
+  BinaryHardeningResourceListResult.cs
+  BinaryHardeningResourceListResult.json.cs
+  BinaryHardeningResourceListResult.PowerShell.cs
+  BinaryHardeningResourceListResult.TypeConverter.cs
+  BinaryHardeningResult.cs
+  BinaryHardeningResult.json.cs
+  BinaryHardeningResult.PowerShell.cs
+  BinaryHardeningResult.TypeConverter.cs
+  BinaryHardeningSummaryResource.cs
+  BinaryHardeningSummaryResource.json.cs
+  BinaryHardeningSummaryResource.PowerShell.cs
+  BinaryHardeningSummaryResource.TypeConverter.cs
+  CryptoCertificate.cs
+  CryptoCertificate.json.cs
+  CryptoCertificate.PowerShell.cs
+  CryptoCertificate.TypeConverter.cs
+  CryptoCertificateEntity.cs
+  CryptoCertificateEntity.json.cs
+  CryptoCertificateEntity.PowerShell.cs
+  CryptoCertificateEntity.TypeConverter.cs
+  CryptoCertificateResource.cs
+  CryptoCertificateResource.json.cs
+  CryptoCertificateResource.PowerShell.cs
+  CryptoCertificateResource.TypeConverter.cs
+  CryptoCertificateResourceListResult.cs
+  CryptoCertificateResourceListResult.json.cs
+  CryptoCertificateResourceListResult.PowerShell.cs
+  CryptoCertificateResourceListResult.TypeConverter.cs
+  CryptoCertificateSummaryResource.cs
+  CryptoCertificateSummaryResource.json.cs
+  CryptoCertificateSummaryResource.PowerShell.cs
+  CryptoCertificateSummaryResource.TypeConverter.cs
+  CryptoKey.cs
+  CryptoKey.json.cs
+  CryptoKey.PowerShell.cs
+  CryptoKey.TypeConverter.cs
+  CryptoKeyResource.cs
+  CryptoKeyResource.json.cs
+  CryptoKeyResource.PowerShell.cs
+  CryptoKeyResource.TypeConverter.cs
+  CryptoKeyResourceListResult.cs
+  CryptoKeyResourceListResult.json.cs
+  CryptoKeyResourceListResult.PowerShell.cs
+  CryptoKeyResourceListResult.TypeConverter.cs
+  CryptoKeySummaryResource.cs
+  CryptoKeySummaryResource.json.cs
+  CryptoKeySummaryResource.PowerShell.cs
+  CryptoKeySummaryResource.TypeConverter.cs
+  CveComponent.cs
+  CveComponent.json.cs
+  CveComponent.PowerShell.cs
+  CveComponent.TypeConverter.cs
+  CveLink.cs
+  CveLink.json.cs
+  CveLink.PowerShell.cs
+  CveLink.TypeConverter.cs
+  CveResource.cs
+  CveResource.json.cs
+  CveResource.PowerShell.cs
+  CveResource.TypeConverter.cs
+  CveResourceListResult.cs
+  CveResourceListResult.json.cs
+  CveResourceListResult.PowerShell.cs
+  CveResourceListResult.TypeConverter.cs
+  CveResult.cs
+  CveResult.json.cs
+  CveResult.PowerShell.cs
+  CveResult.TypeConverter.cs
+  CveSummary.cs
+  CveSummary.json.cs
+  CveSummary.PowerShell.cs
+  CveSummary.TypeConverter.cs
+  CvssScore.cs
+  CvssScore.json.cs
+  CvssScore.PowerShell.cs
+  CvssScore.TypeConverter.cs
+  ErrorAdditionalInfo.cs
+  ErrorAdditionalInfo.json.cs
+  ErrorAdditionalInfo.PowerShell.cs
+  ErrorAdditionalInfo.TypeConverter.cs
+  ErrorDetail.cs
+  ErrorDetail.json.cs
+  ErrorDetail.PowerShell.cs
+  ErrorDetail.TypeConverter.cs
+  ErrorResponse.cs
+  ErrorResponse.json.cs
+  ErrorResponse.PowerShell.cs
+  ErrorResponse.TypeConverter.cs
+  Firmware.cs
+  Firmware.json.cs
+  Firmware.PowerShell.cs
+  Firmware.TypeConverter.cs
+  FirmwareAnalysisIdentity.cs
+  FirmwareAnalysisIdentity.json.cs
+  FirmwareAnalysisIdentity.PowerShell.cs
+  FirmwareAnalysisIdentity.TypeConverter.cs
+  FirmwareListResult.cs
+  FirmwareListResult.json.cs
+  FirmwareListResult.PowerShell.cs
+  FirmwareListResult.TypeConverter.cs
+  FirmwareProperties.cs
+  FirmwareProperties.json.cs
+  FirmwareProperties.PowerShell.cs
+  FirmwareProperties.TypeConverter.cs
+  FirmwareSummary.cs
+  FirmwareSummary.json.cs
+  FirmwareSummary.PowerShell.cs
+  FirmwareSummary.TypeConverter.cs
+  FirmwareUpdateDefinition.cs
+  FirmwareUpdateDefinition.json.cs
+  FirmwareUpdateDefinition.PowerShell.cs
+  FirmwareUpdateDefinition.TypeConverter.cs
+  GenerateUploadUrlRequest.cs
+  GenerateUploadUrlRequest.json.cs
+  GenerateUploadUrlRequest.PowerShell.cs
+  GenerateUploadUrlRequest.TypeConverter.cs
+  Operation.cs
+  Operation.json.cs
+  Operation.PowerShell.cs
+  Operation.TypeConverter.cs
+  OperationDisplay.cs
+  OperationDisplay.json.cs
+  OperationDisplay.PowerShell.cs
+  OperationDisplay.TypeConverter.cs
+  OperationListResult.cs
+  OperationListResult.json.cs
+  OperationListResult.PowerShell.cs
+  OperationListResult.TypeConverter.cs
+  PairedKey.cs
+  PairedKey.json.cs
+  PairedKey.PowerShell.cs
+  PairedKey.TypeConverter.cs
+  PasswordHash.cs
+  PasswordHash.json.cs
+  PasswordHash.PowerShell.cs
+  PasswordHash.TypeConverter.cs
+  PasswordHashResource.cs
+  PasswordHashResource.json.cs
+  PasswordHashResource.PowerShell.cs
+  PasswordHashResource.TypeConverter.cs
+  PasswordHashResourceListResult.cs
+  PasswordHashResourceListResult.json.cs
+  PasswordHashResourceListResult.PowerShell.cs
+  PasswordHashResourceListResult.TypeConverter.cs
+  ProxyResource.cs
+  ProxyResource.json.cs
+  ProxyResource.PowerShell.cs
+  ProxyResource.TypeConverter.cs
+  Resource.cs
+  Resource.json.cs
+  Resource.PowerShell.cs
+  Resource.TypeConverter.cs
+  SbomComponent.cs
+  SbomComponent.json.cs
+  SbomComponent.PowerShell.cs
+  SbomComponent.TypeConverter.cs
+  SbomComponentResource.cs
+  SbomComponentResource.json.cs
+  SbomComponentResource.PowerShell.cs
+  SbomComponentResource.TypeConverter.cs
+  SbomComponentResourceListResult.cs
+  SbomComponentResourceListResult.json.cs
+  SbomComponentResourceListResult.PowerShell.cs
+  SbomComponentResourceListResult.TypeConverter.cs
+  Sku.cs
+  Sku.json.cs
+  Sku.PowerShell.cs
+  Sku.TypeConverter.cs
+  StatusMessage.cs
+  StatusMessage.json.cs
+  StatusMessage.PowerShell.cs
+  StatusMessage.TypeConverter.cs
+  SummaryResource.cs
+  SummaryResource.json.cs
+  SummaryResource.PowerShell.cs
+  SummaryResource.TypeConverter.cs
+  SummaryResourceListResult.cs
+  SummaryResourceListResult.json.cs
+  SummaryResourceListResult.PowerShell.cs
+  SummaryResourceListResult.TypeConverter.cs
+  SummaryResourceProperties.cs
+  SummaryResourceProperties.json.cs
+  SummaryResourceProperties.PowerShell.cs
+  SummaryResourceProperties.TypeConverter.cs
+  SystemData.cs
+  SystemData.json.cs
+  SystemData.PowerShell.cs
+  SystemData.TypeConverter.cs
+  TrackedResource.cs
+  TrackedResource.json.cs
+  TrackedResource.PowerShell.cs
+  TrackedResource.TypeConverter.cs
+  TrackedResourceTags.cs
+  TrackedResourceTags.dictionary.cs
+  TrackedResourceTags.json.cs
+  TrackedResourceTags.PowerShell.cs
+  TrackedResourceTags.TypeConverter.cs
+  UrlToken.cs
+  UrlToken.json.cs
+  UrlToken.PowerShell.cs
+  UrlToken.TypeConverter.cs
+  UsageMetric.cs
+  UsageMetric.json.cs
+  UsageMetric.PowerShell.cs
+  UsageMetric.TypeConverter.cs
+  UsageMetricListResult.cs
+  UsageMetricListResult.json.cs
+  UsageMetricListResult.PowerShell.cs
+  UsageMetricListResult.TypeConverter.cs
+  UsageMetricProperties.cs
+  UsageMetricProperties.json.cs
+  UsageMetricProperties.PowerShell.cs
+  UsageMetricProperties.TypeConverter.cs
+  Workspace.cs
+  Workspace.json.cs
+  Workspace.PowerShell.cs
+  Workspace.TypeConverter.cs
+  WorkspaceListResult.cs
+  WorkspaceListResult.json.cs
+  WorkspaceListResult.PowerShell.cs
+  WorkspaceListResult.TypeConverter.cs
+  WorkspaceProperties.cs
+  WorkspaceProperties.json.cs
+  WorkspaceProperties.PowerShell.cs
+  WorkspaceProperties.TypeConverter.cs
+  WorkspaceUpdate.cs
+  WorkspaceUpdate.json.cs
+  WorkspaceUpdate.PowerShell.cs
+  WorkspaceUpdate.TypeConverter.cs
+  WorkspaceUpdateTags.cs
+  WorkspaceUpdateTags.dictionary.cs
+  WorkspaceUpdateTags.json.cs
+  WorkspaceUpdateTags.PowerShell.cs
+  WorkspaceUpdateTags.TypeConverter.cs
+generated/cmdlets/
+ GetAzFirmwareAnalysisBinaryHardening_List.cs
+ GetAzFirmwareAnalysisCryptoCertificate_List.cs
+ GetAzFirmwareAnalysisCryptoKey_List.cs
+ GetAzFirmwareAnalysisCve_List.cs
+ GetAzFirmwareAnalysisFirmware_Get.cs
+ GetAzFirmwareAnalysisFirmware_GetViaIdentity.cs
+ GetAzFirmwareAnalysisFirmware_GetViaIdentityWorkspace.cs
+ GetAzFirmwareAnalysisFirmware_List.cs
+ GetAzFirmwareAnalysisOperation_List.cs
+ GetAzFirmwareAnalysisPasswordHash_List.cs
+ GetAzFirmwareAnalysisSbomComponent_List.cs
+ GetAzFirmwareAnalysisSummary_Get.cs
+ GetAzFirmwareAnalysisSummary_GetViaIdentity.cs
+ GetAzFirmwareAnalysisSummary_GetViaIdentityFirmware.cs
+ GetAzFirmwareAnalysisSummary_GetViaIdentityWorkspace.cs
+ GetAzFirmwareAnalysisUsageMetric_Get.cs
+ GetAzFirmwareAnalysisUsageMetric_GetViaIdentity.cs
+ GetAzFirmwareAnalysisUsageMetric_GetViaIdentityWorkspace.cs
+ GetAzFirmwareAnalysisUsageMetric_List.cs
+ GetAzFirmwareAnalysisWorkspace_Get.cs
+ GetAzFirmwareAnalysisWorkspace_GetViaIdentity.cs
+ GetAzFirmwareAnalysisWorkspace_List.cs
+ GetAzFirmwareAnalysisWorkspace_List1.cs
+ NewAzFirmwareAnalysisFirmware_CreateExpanded.cs
+ NewAzFirmwareAnalysisWorkspaceUploadUrl_Generate.cs
+ NewAzFirmwareAnalysisWorkspaceUploadUrl_GenerateExpanded.cs
+ NewAzFirmwareAnalysisWorkspaceUploadUrl_GenerateViaIdentity.cs
+ NewAzFirmwareAnalysisWorkspaceUploadUrl_GenerateViaIdentityExpanded.cs
+ NewAzFirmwareAnalysisWorkspaceUploadUrl_GenerateViaJsonFilePath.cs
+ NewAzFirmwareAnalysisWorkspaceUploadUrl_GenerateViaJsonString.cs
+ NewAzFirmwareAnalysisWorkspace_CreateExpanded.cs
+ RemoveAzFirmwareAnalysisFirmware_Delete.cs
+ RemoveAzFirmwareAnalysisFirmware_DeleteViaIdentity.cs
+ RemoveAzFirmwareAnalysisFirmware_DeleteViaIdentityWorkspace.cs
+ RemoveAzFirmwareAnalysisWorkspace_Delete.cs
+ RemoveAzFirmwareAnalysisWorkspace_DeleteViaIdentity.cs
+ UpdateAzFirmwareAnalysisFirmware_UpdateExpanded.cs
+ UpdateAzFirmwareAnalysisFirmware_UpdateViaIdentityExpanded.cs
+ UpdateAzFirmwareAnalysisFirmware_UpdateViaIdentityWorkspaceExpanded.cs
+ UpdateAzFirmwareAnalysisWorkspace_UpdateExpanded.cs
+ UpdateAzFirmwareAnalysisWorkspace_UpdateViaIdentityExpanded.cs
+generated/
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.FirmwareAnalysis.GeneratedMSBuildEditorConfig.editorconfig

@@ -1,0 +1,311 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.Cmdlets.StorageSync
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.StorageSync/Microsoft.Azure.PowerShell.Cmdlets.StorageSync.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.Commands.StorageSync
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.StorageSync/Microsoft.Azure.PowerShell.Cmdlets.StorageSync.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.StorageSync/Microsoft.Azure.PowerShell.Cmdlets.StorageSync.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.Cmdlets.StorageSync.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+AFSDirectoryInfo.cs
+AFSFileInfo.cs
+AfsNamedObjectInfo.cs
+CloudEndpoint/
+ GetCloudEndpointCommand.cs
+ InvokeChangeDetectionCommand.cs
+ NewCloudEndpointCommand.cs
+ RemoveCloudEndpointCommand.cs
+ SetCloudEndpointPermissionCommand.cs
+Cmdlets/InvokeCompatibilityCheckCmdlet.cs
+Common/
+ AuthorizationHelper.cs
+ Converters/
+  BackgroundDataDownloadActivityConverter.cs
+  CloudEndpointChangeEnumerationActivityConverter.cs
+  CloudEndpointChangeEnumerationStatusConverter.cs
+  CloudEndpointConverter.cs
+  CloudEndpointLastChangeEnumerationStatusConverter.cs
+  CloudTieringCachePerformanceConverter.cs
+  CloudTieringFilesNotTieringConverter.cs
+  CloudTieringSpaceSavingsConverter.cs
+  CloudTieringVolumeFreeSpacePolicyStatusConverter.cs
+  ConverterBase.cs
+  FilesNotTieringErrorConverter.cs
+  IConverter.cs
+  PrivateEndpointConnectionConverter.cs
+  PrivateEndpointConverter.cs
+  PrivateLinkServiceConnectionStateConverter.cs
+  RegisteredServerConverter.cs
+  ServerEndpointCloudTieringStatusConverter.cs
+  ServerEndpointConverter.cs
+  ServerEndpointHealthConverter.cs
+  ServerEndpointProvisioningStatusConverter.cs
+  ServerEndpointProvisioningStepStatusConverter.cs
+  ServerEndpointRecallErrorConverter.cs
+  ServerEndpointRecallStatusConverter.cs
+  StorageSyncServiceConverter.cs
+  SyncActivityStatusConverter.cs
+  SyncGroupConverter.cs
+  SyncSessionStatusConvertor.cs
+  SystemDataConverter.cs
+ Exceptions/StorageSyncCloudException.cs
+ Extensions/
+  HashTableExtensions.cs
+  ResourceIdentifierExtensions.cs
+  StringExtensions.cs
+ HelpMessages.cs
+ RegistryUtility.cs
+ ResourceIdFormatter.cs
+ StorageSyncAliases.cs
+ StorageSyncClientCmdletBase.cs
+ StorageSyncClientWrapper.cs
+ StorageSyncCmdletNames.cs
+ StorageSyncConstants.cs
+ StorageSyncNouns.cs
+ StorageSyncParameterSets.cs
+ StorageSyncResourceManager.cs
+ SystemUtility.cs
+Configuration.cs
+Formatting/StorageSyncValidationPowerShellFormatting.cs
+Interfaces/
+ ICmdlet.cs
+ IConfiguration.cs
+ IDirectoryInfo.cs
+ IFileInfo.cs
+ INamedObjectInfo.cs
+ INamespaceEnumeratorListener.cs
+ INamespaceInfo.cs
+ INamespaceValidation.cs
+ IOutputWriter.cs
+ IPowershellCommandRunner.cs
+ IProgressReporter.cs
+ IStorageSyncClientWrapper.cs
+ IStorageSyncResourceManager.cs
+ ISystemValidation.cs
+ IValidationDescription.cs
+ IValidationResult.cs
+InternalObjects/
+ HybridMonitoringConfigurationResource.cs
+ ServerRegistrationInformation.cs
+ ServerRoleType.cs
+Interop/Clients/
+ EcsManagementInteropClient.cs
+ EcsManagementInteropClientPlayback.cs
+ SyncServerCertificateRolloverClient.cs
+ SyncServerRegistrationClient.cs
+ SyncServerRegistrationClientBase.cs
+Interop/DataObjects/
+ AutoUpdatePolicy.cs
+ ComReleaseHandle.cs
+ DiagnosisResult.cs
+ FileAccessPatternStats.cs
+ FILETIME.cs
+ GARBAGECOLLECTION_STATS.cs
+ GHOSTING_STATS.cs
+ HeatStoreFileInfo.cs
+ HeatStoreSummary.cs
+ HResult.cs
+ LockingStateInfo.cs
+ NEW_SYNC_SESSION_SCHEDULE_RESULT.cs
+ OrphanedTieredFilesReport.cs
+ ProxySetting.cs
+ RecallFilesReport.cs
+ RecallOutput.cs
+ RecallStatistics.cs
+ SCRUBBING_STATS.cs
+ SECURITY_ATTRIBUTES.cs
+ SelfServiceRestore.cs
+ ServerEndpointStatus.cs
+ ServerRegistrationData.cs
+ STABLEVERSION_DEEP_GC_STATS.cs
+ StorageSyncNetworkLimitConfiguration.cs
+ TieringPolicyRecommendations.cs
+ TIERING_STATUS.cs
+ WIN32_FIND_DATA.cs
+Interop/Enums/
+ ECreationDisposition.cs
+ EFileAccess.cs
+ EFileAttributes.cs
+ EFileShare.cs
+ EoAuthnCap.cs
+ FileName.cs
+ GarbageCollectionMode.cs
+ HeatStoreEnumeratorType.cs
+ LocalServerType.cs
+ ManagedIdentityErrorCodes.cs
+ OleAuthCapabilities.cs
+ PlatformReplicaFlags.cs
+ PolicyAdvisorEnum.cs
+ RecallResult.cs
+ RpcAuthnLevel.cs
+ RpcImpLevel.cs
+ ScrubbingMode.cs
+ ServerRegistrationErrorCode.cs
+ ServerType.cs
+ SyncDirection.cs
+ SyncScenario.cs
+Interop/Exceptions/
+ ServerManagedIdentityTokenException.cs
+ ServerRegistrationException.cs
+Interop/
+ Extensions/HttpResponseMessageExtensions.cs
+ Helpers/
+  ManagementInteropConstants.cs
+  Win32Helper.cs
+ Interfaces/
+  IEcsManagement.cs
+  IFileAccessPatternStatsEnumerator.cs
+  INetworkLimitConfigEntry.cs
+  INetworkLimitConfigurationEntryEnumeration.cs
+  IScrubbingJobProgress.cs
+  IServerManagedIdentityProvider.cs
+  IStableVersionDeepGcProgress.cs
+  ISyncServerCertificateRollover.cs
+  ISyncServerRegistration.cs
+ ManagedIdentity/
+  FileName.cs
+  HeaderConstants.cs
+  ManagedIdentityDataObjects.cs
+  ServerApplicationIdentity.cs
+  ServerManagedIdentityErrorDetectionStrategy.cs
+  ServerManagedIdentityErrorResponse.cs
+  ServerManagedIdentityProvider.cs
+  ServerManagedIdentityTokenHelper.cs
+  ServerManagedIdentityTokenResponse.cs
+  ServerManagedIdentityUtils.cs
+ListFiles.cs
+Models/
+ PSCloudEndpoint.cs
+ PSCloudEndpointChangeEnumerationStatus.cs
+ PSCloudTieringCachePerformance.cs
+ PSCloudTieringFilesNotTiering.cs
+ PSCloudTieringSpaceSavings.cs
+ PSCloudTieringVolumeFreeSpacePolicyStatus.cs
+ PSFilesNotTieringError.cs
+ PSPrivateEndpoint.cs
+ PSPrivateEndpointConnection.cs
+ PSPrivateEndpointConnectionState.cs
+ PSRegisteredServer.cs
+ PSResourceBase.cs
+ PSResultLevel.cs
+ PSServerEndpoint.cs
+ PSServerEndpointCloudTieringStatus.cs
+ PSServerEndpointHealth.cs
+ PSServerEndpointProvisioningStatus.cs
+ PSServerEndpointRecallError.cs
+ PSServerEndpointRecallStatus.cs
+ PSStorageSyncService.cs
+ PSStorageSyncValidation.cs
+ PSSyncActivityStatus.cs
+ PSSyncGroup.cs
+ PSSyncSessionStatus.cs
+ PSSystemData.cs
+ PSValidationKind.cs
+ PSValidationResult.cs
+ PSValidationType.cs
+NamespaceEnumerator.cs
+NamespaceInfo.cs
+NamespaceValidationsProcessor.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+OutputWriters/PSValidationResultOutputWriter.cs
+PowerShellCommandRunner.cs
+ProgressReporter.cs
+Properties/
+ AssemblyInfo.cs
+ StorageSyncResources.Designer.cs
+RegisteredServer/
+ GetRegisteredServerCommand.cs
+ RegisterServerCommand.cs
+ SetRegisteredServerCommand.cs
+ UnregisterServerCommand.cs
+ServerCertificate/ResetServerCertificateCommand.cs
+ServerEndpoint/
+ GetServerEndpointCommand.cs
+ NewServerEndpointCommand.cs
+ RemoveServerEndpointCommand.cs
+ RemoveServerEndpointCommandPermission.cs
+ SetServerEndpointCommand.cs
+ SetServerEndpointCommandPermission.cs
+StorageSyncService/
+ GetStorageSyncServiceCommand.cs
+ NewStorageSyncServiceCommand.cs
+ RemoveStorageSyncServiceCommand.cs
+ SetStorageSyncServiceCommand.cs
+ SetStorageSyncServiceIdentityCommand.cs
+SyncGroup/
+ GetSyncGroupCommand.cs
+ NewSyncGroupCommand.cs
+ RemoveSyncGroupCommand.cs
+SystemValidationsProcessor.cs
+UNCNetworkConnector.cs
+Validations/
+ AfsPath.cs
+ BaseNamespaceValidation.cs
+ BaseSystemValidation.cs
+ BaseValidation.cs
+ NamespaceValidations/
+  FilenamesCharactersValidation.cs
+  InvalidFilenameValidation.cs
+  MaximumDatasetSizeValidation.cs
+  MaximumFilenameLengthValidation.cs
+  MaximumFileSizeValidation.cs
+  MaximumPathLengthValidation.cs
+  MaximumTreeDepthValidation.cs
+ SystemValidations/
+  FileSystemValidation.cs
+  OSVersionValidation.cs
+ ValidationResult.cs
+ ValidationsFactory.cs
+
+[metadataReferences]
+../../../artifacts/Debug/Az.StorageSync/
+ Microsoft.Azure.PowerShell.Cmdlets.StorageSync.Helpers.dll
+ Microsoft.Azure.PowerShell.StorageSync.Management.Sdk.dll
+
+[analyzerConfigFiles]
+obj/Debug/StorageSync.GeneratedMSBuildEditorConfig.editorconfig

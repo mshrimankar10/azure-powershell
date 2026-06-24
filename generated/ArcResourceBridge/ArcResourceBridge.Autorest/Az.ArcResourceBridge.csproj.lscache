@@ -1,0 +1,364 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.ArcResourceBridge.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.ArcResourceBridge/ArcResourceBridge.Autorest/bin/Az.ArcResourceBridge.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.ArcResourceBridge
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.ArcResourceBridge/ArcResourceBridge.Autorest/bin/Az.ArcResourceBridge.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.ArcResourceBridge/ArcResourceBridge.Autorest/bin/Az.ArcResourceBridge.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.ArcResourceBridge.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/
+ ArcResourceBridge.cs
+ Models/
+  Any.cs
+  Any.json.cs
+  Any.PowerShell.cs
+  Any.TypeConverter.cs
+  Appliance.cs
+  Appliance.json.cs
+  Appliance.PowerShell.cs
+  Appliance.TypeConverter.cs
+  ApplianceCredentialKubeconfig.cs
+  ApplianceCredentialKubeconfig.json.cs
+  ApplianceCredentialKubeconfig.PowerShell.cs
+  ApplianceCredentialKubeconfig.TypeConverter.cs
+  ApplianceGetTelemetryConfigResult.cs
+  ApplianceGetTelemetryConfigResult.json.cs
+  ApplianceGetTelemetryConfigResult.PowerShell.cs
+  ApplianceGetTelemetryConfigResult.TypeConverter.cs
+  ApplianceListCredentialResults.cs
+  ApplianceListCredentialResults.json.cs
+  ApplianceListCredentialResults.PowerShell.cs
+  ApplianceListCredentialResults.TypeConverter.cs
+  ApplianceListKeysResults.cs
+  ApplianceListKeysResults.json.cs
+  ApplianceListKeysResults.PowerShell.cs
+  ApplianceListKeysResults.TypeConverter.cs
+  ApplianceListKeysResultsArtifactProfiles.cs
+  ApplianceListKeysResultsArtifactProfiles.dictionary.cs
+  ApplianceListKeysResultsArtifactProfiles.json.cs
+  ApplianceListKeysResultsArtifactProfiles.PowerShell.cs
+  ApplianceListKeysResultsArtifactProfiles.TypeConverter.cs
+  ApplianceListKeysResultsSshKeys.cs
+  ApplianceListKeysResultsSshKeys.dictionary.cs
+  ApplianceListKeysResultsSshKeys.json.cs
+  ApplianceListKeysResultsSshKeys.PowerShell.cs
+  ApplianceListKeysResultsSshKeys.TypeConverter.cs
+  ApplianceListResult.cs
+  ApplianceListResult.json.cs
+  ApplianceListResult.PowerShell.cs
+  ApplianceListResult.TypeConverter.cs
+  ApplianceOperation.cs
+  ApplianceOperation.json.cs
+  ApplianceOperation.PowerShell.cs
+  ApplianceOperation.TypeConverter.cs
+  ApplianceOperationsList.cs
+  ApplianceOperationsList.json.cs
+  ApplianceOperationsList.PowerShell.cs
+  ApplianceOperationsList.TypeConverter.cs
+  ApplianceOperationValueDisplay.cs
+  ApplianceOperationValueDisplay.json.cs
+  ApplianceOperationValueDisplay.PowerShell.cs
+  ApplianceOperationValueDisplay.TypeConverter.cs
+  ApplianceProperties.cs
+  ApplianceProperties.json.cs
+  ApplianceProperties.PowerShell.cs
+  ApplianceProperties.TypeConverter.cs
+  AppliancePropertiesInfrastructureConfig.cs
+  AppliancePropertiesInfrastructureConfig.json.cs
+  AppliancePropertiesInfrastructureConfig.PowerShell.cs
+  AppliancePropertiesInfrastructureConfig.TypeConverter.cs
+  ArcResourceBridgeIdentity.cs
+  ArcResourceBridgeIdentity.json.cs
+  ArcResourceBridgeIdentity.PowerShell.cs
+  ArcResourceBridgeIdentity.TypeConverter.cs
+  ArtifactProfile.cs
+  ArtifactProfile.json.cs
+  ArtifactProfile.PowerShell.cs
+  ArtifactProfile.TypeConverter.cs
+  ErrorAdditionalInfo.cs
+  ErrorAdditionalInfo.json.cs
+  ErrorAdditionalInfo.PowerShell.cs
+  ErrorAdditionalInfo.TypeConverter.cs
+  ErrorDetail.cs
+  ErrorDetail.json.cs
+  ErrorDetail.PowerShell.cs
+  ErrorDetail.TypeConverter.cs
+  ErrorResponse.cs
+  ErrorResponse.json.cs
+  ErrorResponse.PowerShell.cs
+  ErrorResponse.TypeConverter.cs
+  HybridConnectionConfig.cs
+  HybridConnectionConfig.json.cs
+  HybridConnectionConfig.PowerShell.cs
+  HybridConnectionConfig.TypeConverter.cs
+  Identity.cs
+  Identity.json.cs
+  Identity.PowerShell.cs
+  Identity.TypeConverter.cs
+  PatchableAppliance.cs
+  PatchableAppliance.json.cs
+  PatchableAppliance.PowerShell.cs
+  PatchableAppliance.TypeConverter.cs
+  PatchableApplianceTags.cs
+  PatchableApplianceTags.dictionary.cs
+  PatchableApplianceTags.json.cs
+  PatchableApplianceTags.PowerShell.cs
+  PatchableApplianceTags.TypeConverter.cs
+  Resource.cs
+  Resource.json.cs
+  Resource.PowerShell.cs
+  Resource.TypeConverter.cs
+  SshKey.cs
+  SshKey.json.cs
+  SshKey.PowerShell.cs
+  SshKey.TypeConverter.cs
+  SupportedVersion.cs
+  SupportedVersion.json.cs
+  SupportedVersion.PowerShell.cs
+  SupportedVersion.TypeConverter.cs
+  SupportedVersionCatalogVersion.cs
+  SupportedVersionCatalogVersion.json.cs
+  SupportedVersionCatalogVersion.PowerShell.cs
+  SupportedVersionCatalogVersion.TypeConverter.cs
+  SupportedVersionCatalogVersionData.cs
+  SupportedVersionCatalogVersionData.json.cs
+  SupportedVersionCatalogVersionData.PowerShell.cs
+  SupportedVersionCatalogVersionData.TypeConverter.cs
+  SupportedVersionMetadata.cs
+  SupportedVersionMetadata.json.cs
+  SupportedVersionMetadata.PowerShell.cs
+  SupportedVersionMetadata.TypeConverter.cs
+  SystemData.cs
+  SystemData.json.cs
+  SystemData.PowerShell.cs
+  SystemData.TypeConverter.cs
+  TrackedResource.cs
+  TrackedResource.json.cs
+  TrackedResource.PowerShell.cs
+  TrackedResource.TypeConverter.cs
+  TrackedResourceTags.cs
+  TrackedResourceTags.dictionary.cs
+  TrackedResourceTags.json.cs
+  TrackedResourceTags.PowerShell.cs
+  TrackedResourceTags.TypeConverter.cs
+  UpgradeGraph.cs
+  UpgradeGraph.json.cs
+  UpgradeGraph.PowerShell.cs
+  UpgradeGraph.TypeConverter.cs
+  UpgradeGraphProperties.cs
+  UpgradeGraphProperties.json.cs
+  UpgradeGraphProperties.PowerShell.cs
+  UpgradeGraphProperties.TypeConverter.cs
+generated/cmdlets/
+ GetAzArcResourceBridgeApplianceCredential_List.cs
+ GetAzArcResourceBridgeApplianceOperation_List.cs
+ GetAzArcResourceBridgeCredential_List.cs
+ GetAzArcResourceBridgeTelemetryConfig_Get.cs
+ GetAzArcResourceBridgeUpgradeGraph_Get.cs
+ GetAzArcResourceBridgeUpgradeGraph_GetViaIdentity.cs
+ GetAzArcResourceBridgeUpgradeGraph_GetViaIdentityAppliance.cs
+ GetAzArcResourceBridge_Get.cs
+ GetAzArcResourceBridge_GetViaIdentity.cs
+ GetAzArcResourceBridge_List.cs
+ GetAzArcResourceBridge_List1.cs
+ NewAzArcResourceBridge_CreateExpanded.cs
+ NewAzArcResourceBridge_CreateViaJsonFilePath.cs
+ NewAzArcResourceBridge_CreateViaJsonString.cs
+ RemoveAzArcResourceBridge_Delete.cs
+ RemoveAzArcResourceBridge_DeleteViaIdentity.cs
+ UpdateAzArcResourceBridge_UpdateExpanded.cs
+ UpdateAzArcResourceBridge_UpdateViaIdentityExpanded.cs
+ UpdateAzArcResourceBridge_UpdateViaJsonFilePath.cs
+ UpdateAzArcResourceBridge_UpdateViaJsonString.cs
+generated/
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.ArcResourceBridge.GeneratedMSBuildEditorConfig.editorconfig

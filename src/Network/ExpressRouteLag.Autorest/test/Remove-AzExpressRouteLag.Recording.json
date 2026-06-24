@@ -1,0 +1,85 @@
+{
+  "Remove-AzExpressRouteLag+[NoContext]+Delete+$DELETE+https://management.azure.com/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-hbiap4/providers/Microsoft.Network/expressRouteLags/lag-ulkajg?api-version=2025-09-01+1": {
+    "Request": {
+      "Method": "DELETE",
+      "RequestUri": "https://management.azure.com/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-hbiap4/providers/Microsoft.Network/expressRouteLags/lag-ulkajg?api-version=2025-09-01",
+      "Content": null,
+      "isContentBase64": false,
+      "Headers": {
+        "x-ms-unique-id": [ "13" ],
+        "x-ms-client-request-id": [ "b0d262c6-0c09-4b75-8202-39eb576607c0" ],
+        "CommandName": [ "Remove-AzExpressRouteLag" ],
+        "FullCommandName": [ "Remove-AzExpressRouteLag_Delete" ],
+        "ParameterSetName": [ "__AllParameterSets" ],
+        "User-Agent": [ "AzurePowershell/v12.2.0", "PSVersion/v7.5.5", "Az.ExpressRouteLag/7.26.0" ],
+        "Authorization": [ "[Filtered]" ]
+      },
+      "ContentHeaders": {
+      }
+    },
+    "Response": {
+      "StatusCode": 204,
+      "Headers": {
+        "Cache-Control": [ "no-cache" ],
+        "Pragma": [ "no-cache" ],
+        "x-ms-throttling-version": [ "v2" ],
+        "x-ms-ratelimit-remaining-subscription-deletes": [ "0" ],
+        "x-ms-request-id": [ "a4bf995e-1dd3-47a3-b6c4-f61e3a8d0096" ],
+        "x-ms-correlation-request-id": [ "a4bf995e-1dd3-47a3-b6c4-f61e3a8d0096" ],
+        "x-ms-routing-request-id": [ "EASTUS2EUAP:20260420T223328Z:a4bf995e-1dd3-47a3-b6c4-f61e3a8d0096" ],
+        "Strict-Transport-Security": [ "max-age=31536000; includeSubDomains" ],
+        "X-Content-Type-Options": [ "nosniff" ],
+        "X-Cache": [ "CONFIG_NOCACHE" ],
+        "X-MSEdge-Ref": [ "Ref A: 7C060F92681646089925C53FC9086F88 Ref B: CO6AA3150217035 Ref C: 2026-04-20T22:33:28Z" ],
+        "Date": [ "Mon, 20 Apr 2026 22:33:28 GMT" ]
+      },
+      "ContentHeaders": {
+        "Expires": [ "-1" ]
+      },
+      "Content": null,
+      "isContentBase64": false
+    }
+  },
+  "Remove-AzExpressRouteLag+[NoContext]+Delete+$GET+https://management.azure.com/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-hbiap4/providers/Microsoft.Network/expressRouteLags/lag-ulkajg?api-version=2025-09-01+2": {
+    "Request": {
+      "Method": "GET",
+      "RequestUri": "https://management.azure.com/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-hbiap4/providers/Microsoft.Network/expressRouteLags/lag-ulkajg?api-version=2025-09-01",
+      "Content": null,
+      "isContentBase64": false,
+      "Headers": {
+        "x-ms-unique-id": [ "14" ],
+        "x-ms-client-request-id": [ "5ef37b8e-b216-4941-8967-08f9e9368943" ],
+        "CommandName": [ "Get-AzExpressRouteLag" ],
+        "FullCommandName": [ "Get-AzExpressRouteLag_Get" ],
+        "ParameterSetName": [ "__AllParameterSets" ],
+        "User-Agent": [ "AzurePowershell/v12.2.0", "PSVersion/v7.5.5", "Az.ExpressRouteLag/7.26.0" ],
+        "Authorization": [ "[Filtered]" ]
+      },
+      "ContentHeaders": {
+      }
+    },
+    "Response": {
+      "StatusCode": 404,
+      "Headers": {
+        "Cache-Control": [ "no-cache" ],
+        "Pragma": [ "no-cache" ],
+        "x-ms-failure-cause": [ "gateway" ],
+        "x-ms-request-id": [ "b6a455ed-2879-43f1-af56-a1b509f42da3" ],
+        "x-ms-correlation-request-id": [ "b6a455ed-2879-43f1-af56-a1b509f42da3" ],
+        "x-ms-routing-request-id": [ "EASTUS2EUAP:20260420T223329Z:b6a455ed-2879-43f1-af56-a1b509f42da3" ],
+        "Strict-Transport-Security": [ "max-age=31536000; includeSubDomains" ],
+        "X-Content-Type-Options": [ "nosniff" ],
+        "X-Cache": [ "CONFIG_NOCACHE" ],
+        "X-MSEdge-Ref": [ "Ref A: 090AED8BEB2247998427C4E4BA97BBA7 Ref B: CO6AA3150217035 Ref C: 2026-04-20T22:33:28Z" ],
+        "Date": [ "Mon, 20 Apr 2026 22:33:28 GMT" ]
+      },
+      "ContentHeaders": {
+        "Content-Length": [ "242" ],
+        "Content-Type": [ "application/json; charset=utf-8" ],
+        "Expires": [ "-1" ]
+      },
+      "Content": "{\"error\":{\"code\":\"ResourceNotFound\",\"message\":\"The Resource \u0027Microsoft.Network/expressRouteLags/lag-ulkajg\u0027 under resource group \u0027expressroutelag-rg-hbiap4\u0027 was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix\"}}",
+      "isContentBase64": false
+    }
+  }
+}

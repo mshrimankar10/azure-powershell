@@ -1,0 +1,451 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.Cmdlets.Ssh.Helpers
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.Ssh/Microsoft.Azure.PowerShell.Cmdlets.Ssh.Helpers.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.Ssh.Helpers
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.Ssh/Microsoft.Azure.PowerShell.Cmdlets.Ssh.Helpers.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,CS0108,CS1573,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.Ssh/Microsoft.Azure.PowerShell.Cmdlets.Ssh.Helpers.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.Cmdlets.Ssh.Helpers.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+Compute/
+ ComputeManagementClient.cs
+ IComputeManagementClient.cs
+ IVirtualMachinesOperations.cs
+ Models/
+  AdditionalCapabilities.cs
+  AdditionalUnattendContent.cs
+  ApiError.cs
+  ApiErrorBase.cs
+  ApplicationProfile.cs
+  AvailablePatchSummary.cs
+  BillingProfile.cs
+  BootDiagnostics.cs
+  BootDiagnosticsInstanceView.cs
+  CachingTypes.cs
+  CapacityReservationProfile.cs
+  ComponentNames.cs
+  DataDisk.cs
+  DeleteOptions.cs
+  DiagnosticsProfile.cs
+  DiffDiskOptions.cs
+  DiffDiskPlacement.cs
+  DiffDiskSettings.cs
+  DiskControllerTypes.cs
+  DiskCreateOptionTypes.cs
+  DiskDeleteOptionTypes.cs
+  DiskDetachOptionTypes.cs
+  DiskEncryptionSetParameters.cs
+  DiskEncryptionSettings.cs
+  DiskInstanceView.cs
+  ExtendedLocation.cs
+  ExtendedLocationTypes.cs
+  HardwareProfile.cs
+  HyperVGenerationType.cs
+  ImageReference.cs
+  InnerError.cs
+  InstanceViewStatus.cs
+  InstanceViewTypes.cs
+  IPVersions.cs
+  KeyVaultKeyReference.cs
+  KeyVaultSecretReference.cs
+  LastPatchInstallationSummary.cs
+  LinuxConfiguration.cs
+  LinuxParameters.cs
+  LinuxPatchAssessmentMode.cs
+  LinuxPatchSettings.cs
+  LinuxVMGuestPatchAutomaticByPlatformRebootSetting.cs
+  LinuxVMGuestPatchAutomaticByPlatformSettings.cs
+  LinuxVMGuestPatchMode.cs
+  MaintenanceOperationResultCodeTypes.cs
+  MaintenanceRedeployStatus.cs
+  ManagedDiskParameters.cs
+  NetworkApiVersion.cs
+  NetworkInterfaceReference.cs
+  NetworkInterfaceReferenceProperties.cs
+  NetworkProfile.cs
+  OperatingSystemTypes.cs
+  OSDisk.cs
+  OSProfile.cs
+  PassNames.cs
+  PatchAssessmentState.cs
+  PatchInstallationDetail.cs
+  PatchInstallationState.cs
+  PatchOperationStatus.cs
+  PatchSettings.cs
+  Plan.cs
+  ProtocolTypes.cs
+  PublicIPAddressSku.cs
+  PublicIPAddressSkuName.cs
+  PublicIPAddressSkuTier.cs
+  PublicIPAllocationMethod.cs
+  Resource.cs
+  ResourceIdentityType.cs
+  ResourceWithOptionalLocation.cs
+  RetrieveBootDiagnosticsDataResult.cs
+  ScheduledEventsProfile.cs
+  SecurityEncryptionTypes.cs
+  SecurityProfile.cs
+  SecurityTypes.cs
+  SettingNames.cs
+  SshConfiguration.cs
+  SshPublicKey.cs
+  StatusLevelTypes.cs
+  StorageAccountTypes.cs
+  StorageProfile.cs
+  SubResource.cs
+  TerminateNotificationProfile.cs
+  UefiSettings.cs
+  UpdateResource.cs
+  UserAssignedIdentitiesValue.cs
+  VaultCertificate.cs
+  VaultSecretGroup.cs
+  VirtualHardDisk.cs
+  VirtualMachine.cs
+  VirtualMachineAgentInstanceView.cs
+  VirtualMachineAssessPatchesResult.cs
+  VirtualMachineCaptureParameters.cs
+  VirtualMachineCaptureResult.cs
+  VirtualMachineEvictionPolicyTypes.cs
+  VirtualMachineExtension.cs
+  VirtualMachineExtensionHandlerInstanceView.cs
+  VirtualMachineExtensionInstanceView.cs
+  VirtualMachineExtensionProperties.cs
+  VirtualMachineExtensionsListResult.cs
+  VirtualMachineExtensionUpdate.cs
+  VirtualMachineExtensionUpdateProperties.cs
+  VirtualMachineHealthStatus.cs
+  VirtualMachineIdentity.cs
+  VirtualMachineInstallPatchesParameters.cs
+  VirtualMachineInstallPatchesResult.cs
+  VirtualMachineInstanceView.cs
+  VirtualMachineIpTag.cs
+  VirtualMachineListResult.cs
+  VirtualMachineNetworkInterfaceConfiguration.cs
+  VirtualMachineNetworkInterfaceConfigurationProperties.cs
+  VirtualMachineNetworkInterfaceDnsSettingsConfiguration.cs
+  VirtualMachineNetworkInterfaceIPConfiguration.cs
+  VirtualMachineNetworkInterfaceIPConfigurationProperties.cs
+  VirtualMachinePatchStatus.cs
+  VirtualMachinePriorityTypes.cs
+  VirtualMachineProperties.cs
+  VirtualMachinePublicIPAddressConfiguration.cs
+  VirtualMachinePublicIPAddressConfigurationProperties.cs
+  VirtualMachinePublicIPAddressDnsSettingsConfiguration.cs
+  VirtualMachineReimageParameters.cs
+  VirtualMachineSizeTypes.cs
+  VirtualMachineSoftwarePatchProperties.cs
+  VirtualMachineUpdate.cs
+  VMDiskSecurityProfile.cs
+  VMGalleryApplication.cs
+  VMGuestPatchClassificationLinux.cs
+  VMGuestPatchClassificationWindows.cs
+  VMGuestPatchRebootBehavior.cs
+  VMGuestPatchRebootSetting.cs
+  VMGuestPatchRebootStatus.cs
+  VMSizeProperties.cs
+  WindowsConfiguration.cs
+  WindowsParameters.cs
+  WindowsPatchAssessmentMode.cs
+  WindowsVMGuestPatchAutomaticByPlatformRebootSetting.cs
+  WindowsVMGuestPatchAutomaticByPlatformSettings.cs
+  WindowsVMGuestPatchMode.cs
+  WinRMConfiguration.cs
+  WinRMListener.cs
+ VirtualMachinesOperations.cs
+ VirtualMachinesOperationsExtensions.cs
+HybridCompute/
+ HybridComputeManagementClient.cs
+ IHybridComputeManagementClient.cs
+ IMachinesOperations.cs
+ MachinesOperations.cs
+ MachinesOperationsExtensions.cs
+ Models/
+  AgentConfiguration.cs
+  Agentconfigurationmode.cs
+  AssessmentModeTypes.cs
+  CloudMetadata.cs
+  ConfigurationExtension.cs
+  CreatedByType.cs
+  ErrorAdditionalInfo.cs
+  ErrorDetail.cs
+  ErrorResponse.cs
+  ErrorResponseException.cs
+  ExtensionTargetProperties.cs
+  ExtensionValue.cs
+  ExtensionValueListResult.cs
+  ExtensionValueProperties.cs
+  Identity.cs
+  InstanceViewTypes.cs
+  LocationData.cs
+  Machine.cs
+  MachineExtension.cs
+  MachineExtensionInstanceView.cs
+  MachineExtensionInstanceViewStatus.cs
+  MachineExtensionProperties.cs
+  MachineExtensionsListResult.cs
+  MachineExtensionUpdate.cs
+  MachineExtensionUpdateProperties.cs
+  MachineExtensionUpgrade.cs
+  MachineListResult.cs
+  MachineProperties.cs
+  MachineUpdate.cs
+  MachineUpdateProperties.cs
+  OperationListResult.cs
+  OperationValue.cs
+  OperationValueDisplay.cs
+  OSProfile.cs
+  OSProfileLinuxConfiguration.cs
+  OSProfileWindowsConfiguration.cs
+  PatchModeTypes.cs
+  PatchSettings.cs
+  ProxyResource.cs
+  Resource.cs
+  ResourceIdentityType.cs
+  ResourceUpdate.cs
+  ServiceStatus.cs
+  ServiceStatuses.cs
+  StatusLevelTypes.cs
+  StatusTypes.cs
+  SystemData.cs
+  TrackedResource.cs
+HybridConnectivity/
+ EndpointsOperations.cs
+ EndpointsOperationsExtensions.cs
+ HybridConnectivityManagementAPIClient.cs
+ IEndpointsOperations.cs
+ IHybridConnectivityManagementAPIClient.cs
+ IServiceConfigurationsOperations.cs
+ Models/
+  AADProfileProperties.cs
+  CreatedByType.cs
+  EndpointAccessResource.cs
+  EndpointProperties.cs
+  EndpointResource.cs
+  EndpointsList.cs
+  ErrorAdditionalInfo.cs
+  ErrorDetail.cs
+  ErrorResponse.cs
+  ErrorResponseException.cs
+  IngressGatewayResource.cs
+  IngressProfileProperties.cs
+  ListCredentialsRequest.cs
+  ListIngressGatewayCredentialsRequest.cs
+  ManagedProxyRequest.cs
+  ManagedProxyResource.cs
+  ProvisioningState.cs
+  ProxyResource.cs
+  RelayNamespaceAccessProperties.cs
+  Resource.cs
+  ServiceConfigurationList.cs
+  ServiceConfigurationProperties.cs
+  ServiceConfigurationPropertiesPatch.cs
+  ServiceConfigurationResource.cs
+  ServiceConfigurationResourcePatch.cs
+  ServiceName.cs
+  SystemData.cs
+  Type.cs
+ ServiceConfigurationsOperations.cs
+ ServiceConfigurationsOperationsExtensions.cs
+Network/
+ INetworkInterfacesOperations.cs
+ INetworkManagementClient.cs
+ IPublicIPAddressesOperations.cs
+ Models/
+  ApplicationGatewayBackendAddress.cs
+  ApplicationGatewayBackendAddressPool.cs
+  ApplicationGatewayBackendAddressPoolPropertiesFormat.cs
+  ApplicationGatewayIPConfiguration.cs
+  ApplicationGatewayIPConfigurationPropertiesFormat.cs
+  ApplicationSecurityGroup.cs
+  ApplicationSecurityGroupPropertiesFormat.cs
+  BackendAddressPool.cs
+  BackendAddressPoolPropertiesFormat.cs
+  CustomDnsConfigPropertiesFormat.cs
+  DdosSettings.cs
+  DdosSettingsProtectionMode.cs
+  Delegation.cs
+  DeleteOptions.cs
+  EffectiveNetworkSecurityGroup.cs
+  EffectiveNetworkSecurityGroupAssociation.cs
+  EffectiveNetworkSecurityGroupListResult.cs
+  EffectiveNetworkSecurityRule.cs
+  EffectiveRoute.cs
+  EffectiveRouteListResult.cs
+  EffectiveRouteSource.cs
+  EffectiveRouteState.cs
+  EffectiveSecurityRuleProtocol.cs
+  ExtendedLocation.cs
+  ExtendedLocationTypes.cs
+  FlowLog.cs
+  FlowLogFormatParameters.cs
+  FlowLogFormatType.cs
+  FlowLogPropertiesFormat.cs
+  FrontendIPConfiguration.cs
+  FrontendIPConfigurationPropertiesFormat.cs
+  GatewayLoadBalancerTunnelInterface.cs
+  GatewayLoadBalancerTunnelInterfaceType.cs
+  GatewayLoadBalancerTunnelProtocol.cs
+  InboundNatPool.cs
+  InboundNatPoolPropertiesFormat.cs
+  InboundNatRule.cs
+  InboundNatRulePropertiesFormat.cs
+  IPAllocationMethod.cs
+  IPConfiguration.cs
+  IPConfigurationProfile.cs
+  IPConfigurationProfilePropertiesFormat.cs
+  IPConfigurationPropertiesFormat.cs
+  IpTag.cs
+  IPVersion.cs
+  IsWorkloadProtected.cs
+  LoadBalancer.cs
+  LoadBalancerBackendAddress.cs
+  LoadBalancerBackendAddressAdminState.cs
+  LoadBalancerBackendAddressPropertiesFormat.cs
+  LoadBalancerOutboundRuleProtocol.cs
+  LoadBalancerPropertiesFormat.cs
+  LoadBalancerSku.cs
+  LoadBalancerSkuName.cs
+  LoadBalancerSkuTier.cs
+  LoadBalancingRule.cs
+  LoadBalancingRulePropertiesFormat.cs
+  LoadDistribution.cs
+  NatGateway.cs
+  NatGatewayPropertiesFormat.cs
+  NatGatewaySku.cs
+  NatGatewaySkuName.cs
+  NatRulePortMapping.cs
+  NetworkInterface.cs
+  NetworkInterfaceAuxiliaryMode.cs
+  NetworkInterfaceDnsSettings.cs
+  NetworkInterfaceIPConfiguration.cs
+  NetworkInterfaceIPConfigurationListResult.cs
+  NetworkInterfaceIPConfigurationPrivateLinkConnectionProperties.cs
+  NetworkInterfaceIPConfigurationPropertiesFormat.cs
+  NetworkInterfaceListResult.cs
+  NetworkInterfaceLoadBalancerListResult.cs
+  NetworkInterfaceMigrationPhase.cs
+  NetworkInterfaceNicType.cs
+  NetworkInterfacePropertiesFormat.cs
+  NetworkInterfaceTapConfiguration.cs
+  NetworkInterfaceTapConfigurationListResult.cs
+  NetworkInterfaceTapConfigurationPropertiesFormat.cs
+  NetworkSecurityGroup.cs
+  NetworkSecurityGroupPropertiesFormat.cs
+  OutboundRule.cs
+  OutboundRulePropertiesFormat.cs
+  PrivateEndpoint.cs
+  PrivateEndpointConnection.cs
+  PrivateEndpointConnectionProperties.cs
+  PrivateEndpointIPConfiguration.cs
+  PrivateEndpointIPConfigurationProperties.cs
+  PrivateEndpointProperties.cs
+  PrivateLinkService.cs
+  PrivateLinkServiceConnection.cs
+  PrivateLinkServiceConnectionProperties.cs
+  PrivateLinkServiceConnectionState.cs
+  PrivateLinkServiceIpConfiguration.cs
+  PrivateLinkServiceIpConfigurationProperties.cs
+  PrivateLinkServiceProperties.cs
+  PrivateLinkServicePropertiesAutoApproval.cs
+  PrivateLinkServicePropertiesVisibility.cs
+  Probe.cs
+  ProbePropertiesFormat.cs
+  ProbeProtocol.cs
+  ProvisioningState.cs
+  PublicIPAddress.cs
+  PublicIPAddressDnsSettings.cs
+  PublicIPAddressListResult.cs
+  PublicIPAddressMigrationPhase.cs
+  PublicIPAddressPropertiesFormat.cs
+  PublicIPAddressSku.cs
+  PublicIPAddressSkuName.cs
+  PublicIPAddressSkuTier.cs
+  PublicIpDdosProtectionStatusResult.cs
+  Resource.cs
+  ResourceNavigationLink.cs
+  ResourceNavigationLinkFormat.cs
+  ResourceSet.cs
+  RetentionPolicyParameters.cs
+  Route.cs
+  RouteNextHopType.cs
+  RoutePropertiesFormat.cs
+  RouteTable.cs
+  RouteTablePropertiesFormat.cs
+  SecurityRule.cs
+  SecurityRuleAccess.cs
+  SecurityRuleDirection.cs
+  SecurityRulePropertiesFormat.cs
+  SecurityRuleProtocol.cs
+  ServiceAssociationLink.cs
+  ServiceAssociationLinkPropertiesFormat.cs
+  ServiceDelegationPropertiesFormat.cs
+  ServiceEndpointPolicy.cs
+  ServiceEndpointPolicyDefinition.cs
+  ServiceEndpointPolicyDefinitionPropertiesFormat.cs
+  ServiceEndpointPolicyPropertiesFormat.cs
+  ServiceEndpointPropertiesFormat.cs
+  Subnet.cs
+  SubnetPropertiesFormat.cs
+  SubResource.cs
+  TrafficAnalyticsConfigurationProperties.cs
+  TrafficAnalyticsProperties.cs
+  TransportProtocol.cs
+  VirtualNetworkPrivateEndpointNetworkPolicies.cs
+  VirtualNetworkPrivateLinkServiceNetworkPolicies.cs
+  VirtualNetworkTap.cs
+  VirtualNetworkTapPropertiesFormat.cs
+ NetworkInterfacesOperations.cs
+ NetworkInterfacesOperationsExtensions.cs
+ NetworkManagementClient.cs
+ PublicIPAddressesOperations.cs
+ PublicIPAddressesOperationsExtensions.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Ssh.Helpers.GeneratedMSBuildEditorConfig.editorconfig

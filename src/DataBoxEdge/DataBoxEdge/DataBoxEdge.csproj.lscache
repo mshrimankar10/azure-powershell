@@ -1,0 +1,154 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.Cmdlets.DataBoxEdge
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.DataBoxEdge/Microsoft.Azure.PowerShell.Cmdlets.DataBoxEdge.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.DataBoxEdge
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.DataBoxEdge/Microsoft.Azure.PowerShell.Cmdlets.DataBoxEdge.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.DataBoxEdge/Microsoft.Azure.PowerShell.Cmdlets.DataBoxEdge.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.Cmdlets.DataBoxEdge.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+Common/Cmdlets/
+ AzureDataBoxEdgeCmdletBase.cs
+ Bandwidth/
+  DataBoxEdgeBandwidthScheduleGetCmdletBase.cs
+  DataBoxEdgeBandwidthScheduleNewCmdletBase.cs
+  DataBoxEdgeBandwidthScheduleRemoveCmdletBase.cs
+  DataBoxEdgeBandwidthScheduleSetCmdletBase.cs
+  HelpMessageBandwidthSchedule.cs
+ Devices/
+  DataBoxEdgeDeviceAlert.cs
+  DataBoxEdgeDeviceGetCmdletBase.cs
+  DataBoxEdgeDeviceInvokeCmdlet.cs
+  DataBoxEdgeDeviceNewCmdletBase.cs
+  DataBoxEdgeDeviceRemoveCmdletBase.cs
+  HelpMessageDevice.cs
+ EdgeStorageAccounts/
+  DataBoxEdgeStorageAccountGetCmdlet.cs
+  DataBoxEdgeStorageAccountNewCmdlet.cs
+  DataBoxEdgeStorageAccountRemoveCmdlet.cs
+  HelpMessageStorageAccount.cs
+ EdgeStorageContainers/
+  DataBoxEdgeStorageContainerGetCmdlet.cs
+  DataBoxEdgeStorageContainerInvokeCmdlet.cs
+  DataBoxEdgeStorageContainerNewCmdlet.cs
+  DataBoxEdgeStorageContainerRemoveCmdlet.cs
+  HelpMessageStorageContainer.cs
+ Jobs/
+  DataBoxEdgeJobsGetCmdletBase.cs
+  HelpMessageJobs.cs
+ Orders/
+  DataBoxEdgeOrderGetCmdlet.cs
+  DataBoxEdgeOrderNewCmdlet.cs
+  DataBoxEdgeOrderRemoveCmdlet.cs
+  HelpMessageOrder.cs
+ Roles/
+  DataBoxEdgeRoleGetCmdletBase.cs
+  DataBoxEdgeRoleNewCmdletBase.cs
+  DataBoxEdgeRoleRemoveCmdletBase.cs
+  DataBoxEdgeRoleSetCmdlet.cs
+  HelpMessageRoles.cs
+ Share/
+  DataBoxEdgeShareGetCmdletBase.cs
+  DataBoxEdgeShareInvokeCmdlet.cs
+  DataBoxEdgeShareNewCmdletBase.cs
+  DataBoxEdgeShareRemoveCmdletBase.cs
+  DataBoxEdgeShareSetCmdletBase.cs
+  HelpMessageShare.cs
+ StorageAccountCredential/
+  DataBoxEdgeStorageAccountCredentialGetCmdletBase.cs
+  DataBoxEdgeStorageAccountCredentialNewCmdletBase.cs
+  DataBoxEdgeStorageAccountCredentialRemoveCmdletBase.cs
+  DataBoxEdgeStorageAccountCredentialSetCmdlet.cs
+  HelpMessageStorageAccountCredential.cs
+ Triggers/
+  DataBoxEdgeTriggerGetCmdlet.cs
+  DataBoxEdgeTriggerNewCmdlet.cs
+  DataBoxEdgeTriggerRemoveCmdlet.cs
+  HelpMessageTrigger.cs
+ Users/
+  DataBoxEdgeUserGetCmdletBase.cs
+  DataBoxEdgeUserNewCmdletBase.cs
+  DataBoxEdgeUserRemoveCmdletBase.cs
+  DataBoxEdgeUserSetCmdletBase.cs
+  HelpMessageUsers.cs
+Common/
+ Constants.cs
+ DataBoxEdgeResourceIdentifier.cs
+ DataBoxEdgeStorageResourceIdentifier.cs
+ Utils/
+  PasswordUtility.cs
+  Utility.cs
+Models/
+ PSDataBoxEdgeAlert.cs
+ PSDataBoxEdgeBandWidthSchedule.cs
+ PSDataBoxEdgeDevice.cs
+ PSDataBoxEdgeDeviceExtendedInfo.cs
+ PSDataBoxEdgeJob.cs
+ PSDataBoxEdgeNetworkAdapter.cs
+ PSDataBoxEdgeNetworkSetting.cs
+ PSDataBoxEdgeOrder.cs
+ PSDataBoxEdgeOrderStatus.cs
+ PSDataBoxEdgeOrderTrackingInfo.cs
+ PSDataBoxEdgeRole.cs
+ PSDataBoxEdgeShare.cs
+ PSDataBoxEdgeStorageAccount.cs
+ PSDataBoxEdgeStorageAccountCredential.cs
+ PSDataBoxEdgeStorageContainer.cs
+ PSDataBoxEdgeTrigger.cs
+ PSDataBoxEdgeUpdateSummary.cs
+ PSDataBoxEdgeUser.cs
+ ResourceIDHandler.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+Resources/Resource.Designer.cs
+
+[metadataReferences]
+../../../artifacts/Debug/Az.DataBoxEdge/Microsoft.Azure.PowerShell.DataBoxEdge.Management.Sdk.dll
+
+[analyzerConfigFiles]
+obj/Debug/DataBoxEdge.GeneratedMSBuildEditorConfig.editorconfig

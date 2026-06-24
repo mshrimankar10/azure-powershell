@@ -1,0 +1,616 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.CosmosDB.Management.Sdk
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.CosmosDB/Microsoft.Azure.PowerShell.CosmosDB.Management.Sdk.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.Management.CosmosDB
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.CosmosDB/Microsoft.Azure.PowerShell.CosmosDB.Management.Sdk.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,CS0108,CS1573,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.CosmosDB/Microsoft.Azure.PowerShell.CosmosDB.Management.Sdk.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.CosmosDB.Management.Sdk.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+Generated/
+ CassandraClustersOperations.cs
+ CassandraClustersOperationsExtensions.cs
+ CassandraDataCentersOperations.cs
+ CassandraDataCentersOperationsExtensions.cs
+ CassandraResourcesOperations.cs
+ CassandraResourcesOperationsExtensions.cs
+ CollectionOperations.cs
+ CollectionOperationsExtensions.cs
+ CollectionPartitionOperations.cs
+ CollectionPartitionOperationsExtensions.cs
+ CollectionPartitionRegionOperations.cs
+ CollectionPartitionRegionOperationsExtensions.cs
+ CollectionRegionOperations.cs
+ CollectionRegionOperationsExtensions.cs
+ CosmosDBManagementClient.cs
+ DatabaseAccountRegionOperations.cs
+ DatabaseAccountRegionOperationsExtensions.cs
+ DatabaseAccountsOperations.cs
+ DatabaseAccountsOperationsExtensions.cs
+ DatabaseOperations.cs
+ DatabaseOperationsExtensions.cs
+ FleetOperations.cs
+ FleetOperationsExtensions.cs
+ FleetspaceAccountOperations.cs
+ FleetspaceAccountOperationsExtensions.cs
+ FleetspaceOperations.cs
+ FleetspaceOperationsExtensions.cs
+ GremlinResourcesOperations.cs
+ GremlinResourcesOperationsExtensions.cs
+ ICassandraClustersOperations.cs
+ ICassandraDataCentersOperations.cs
+ ICassandraResourcesOperations.cs
+ ICollectionOperations.cs
+ ICollectionPartitionOperations.cs
+ ICollectionPartitionRegionOperations.cs
+ ICollectionRegionOperations.cs
+ ICosmosDBManagementClient.cs
+ IDatabaseAccountRegionOperations.cs
+ IDatabaseAccountsOperations.cs
+ IDatabaseOperations.cs
+ IFleetOperations.cs
+ IFleetspaceAccountOperations.cs
+ IFleetspaceOperations.cs
+ IGremlinResourcesOperations.cs
+ ILocationsOperations.cs
+ IMongoDBResourcesOperations.cs
+ INotebookWorkspacesOperations.cs
+ IOperations.cs
+ IPartitionKeyRangeIdOperations.cs
+ IPartitionKeyRangeIdRegionOperations.cs
+ IPercentileOperations.cs
+ IPercentileSourceTargetOperations.cs
+ IPercentileTargetOperations.cs
+ IPrivateEndpointConnectionsOperations.cs
+ IPrivateLinkResourcesOperations.cs
+ IRestorableDatabaseAccountsOperations.cs
+ IRestorableGremlinDatabasesOperations.cs
+ IRestorableGremlinGraphsOperations.cs
+ IRestorableGremlinResourcesOperations.cs
+ IRestorableMongodbCollectionsOperations.cs
+ IRestorableMongodbDatabasesOperations.cs
+ IRestorableMongodbResourcesOperations.cs
+ IRestorableSqlContainersOperations.cs
+ IRestorableSqlDatabasesOperations.cs
+ IRestorableSqlResourcesOperations.cs
+ IRestorableTableResourcesOperations.cs
+ IRestorableTablesOperations.cs
+ IServiceOperations.cs
+ ISqlResourcesOperations.cs
+ ITableResourcesOperations.cs
+ LocationsOperations.cs
+ LocationsOperationsExtensions.cs
+ Models/
+  AccountKeyMetadata.cs
+  AnalyticalStorageConfiguration.cs
+  AnalyticalStorageSchemaType.cs
+  ApiProperties.cs
+  ApiType.cs
+  ARMProxyResource.cs
+  ARMResourceProperties.cs
+  AuthenticationMethod.cs
+  AuthenticationMethodLdapProperties.cs
+  AutoscaleSettings.cs
+  AutoscaleSettingsResource.cs
+  AutoUpgradePolicyResource.cs
+  AzureConnectionType.cs
+  BackupInformation.cs
+  BackupPolicy.cs
+  BackupPolicyMigrationState.cs
+  BackupPolicyMigrationStatus.cs
+  BackupPolicyType.cs
+  BackupStorageRedundancy.cs
+  Capability.cs
+  Capacity.cs
+  CassandraClusterPublicStatus.cs
+  CassandraClusterPublicStatusDataCentersItem.cs
+  CassandraError.cs
+  CassandraKeyspaceCreateUpdateParameters.cs
+  CassandraKeyspaceCreateUpdateProperties.cs
+  CassandraKeyspaceGetProperties.cs
+  CassandraKeyspaceGetPropertiesOptions.cs
+  CassandraKeyspaceGetPropertiesResource.cs
+  CassandraKeyspaceGetResults.cs
+  CassandraKeyspaceResource.cs
+  CassandraPartitionKey.cs
+  CassandraResourcesCreateUpdateCassandraKeyspaceHeaders.cs
+  CassandraResourcesCreateUpdateCassandraTableHeaders.cs
+  CassandraResourcesDeleteCassandraKeyspaceHeaders.cs
+  CassandraResourcesDeleteCassandraTableHeaders.cs
+  CassandraResourcesMigrateCassandraKeyspaceToAutoscaleHeaders.cs
+  CassandraResourcesMigrateCassandraKeyspaceToManualThroughputHeaders.cs
+  CassandraResourcesMigrateCassandraTableToAutoscaleHeaders.cs
+  CassandraResourcesMigrateCassandraTableToManualThroughputHeaders.cs
+  CassandraResourcesUpdateCassandraKeyspaceThroughputHeaders.cs
+  CassandraResourcesUpdateCassandraTableThroughputHeaders.cs
+  CassandraSchema.cs
+  CassandraTableCreateUpdateParameters.cs
+  CassandraTableCreateUpdateProperties.cs
+  CassandraTableGetProperties.cs
+  CassandraTableGetPropertiesOptions.cs
+  CassandraTableGetPropertiesResource.cs
+  CassandraTableGetResults.cs
+  CassandraTableResource.cs
+  Certificate.cs
+  ClientEncryptionIncludedPath.cs
+  ClientEncryptionKeyCreateUpdateParameters.cs
+  ClientEncryptionKeyCreateUpdateProperties.cs
+  ClientEncryptionKeyGetProperties.cs
+  ClientEncryptionKeyGetPropertiesResource.cs
+  ClientEncryptionKeyGetResults.cs
+  ClientEncryptionKeyResource.cs
+  ClientEncryptionPolicy.cs
+  ClusterKey.cs
+  ClusterResource.cs
+  ClusterResourceProperties.cs
+  Column.cs
+  CommandOutput.cs
+  CommandPostBody.cs
+  Components1Jq1T4ISchemasManagedserviceidentityPropertiesUserassignedidentitiesAdditionalproperties.cs
+  ComponentsM9L909SchemasCassandraclusterpublicstatusPropertiesDatacentersItemsPropertiesNodesItems.cs
+  CompositePath.cs
+  CompositePathSortOrder.cs
+  ComputedProperty.cs
+  ConflictResolutionMode.cs
+  ConflictResolutionPolicy.cs
+  ConnectionError.cs
+  ConnectionState.cs
+  ConnectorOffer.cs
+  ConsistencyPolicy.cs
+  ContainerPartitionKey.cs
+  ContinuousBackupInformation.cs
+  ContinuousBackupRestoreLocation.cs
+  ContinuousModeBackupPolicy.cs
+  ContinuousModeProperties.cs
+  ContinuousTier.cs
+  CorsPolicy.cs
+  CreatedByType.cs
+  CreateMode.cs
+  CreateUpdateOptions.cs
+  DatabaseAccountConnectionString.cs
+  DatabaseAccountCreateUpdateParameters.cs
+  DatabaseAccountCreateUpdateProperties.cs
+  DatabaseAccountGetProperties.cs
+  DatabaseAccountGetResults.cs
+  DatabaseAccountKeysMetadata.cs
+  DatabaseAccountKind.cs
+  DatabaseAccountListConnectionStringsResult.cs
+  DatabaseAccountListKeysResult.cs
+  DatabaseAccountListReadOnlyKeysResult.cs
+  DatabaseAccountOfferType.cs
+  DatabaseAccountRegenerateKeyParameters.cs
+  DatabaseAccountsDeleteHeaders.cs
+  DatabaseAccountsFailoverPriorityChangeHeaders.cs
+  DatabaseAccountsOfflineRegionHeaders.cs
+  DatabaseAccountsOnlineRegionHeaders.cs
+  DatabaseAccountsRegenerateKeyHeaders.cs
+  DatabaseAccountUpdateParameters.cs
+  DatabaseAccountUpdateProperties.cs
+  DatabaseRestoreResource.cs
+  DataCenterResource.cs
+  DataCenterResourceProperties.cs
+  DataTransferRegionalServiceResource.cs
+  DataTransferServiceResource.cs
+  DataTransferServiceResourceCreateUpdateProperties.cs
+  DataTransferServiceResourceProperties.cs
+  DataType.cs
+  DedicatedGatewayType.cs
+  DefaultConsistencyLevel.cs
+  DefaultPriorityLevel.cs
+  DistanceFunction.cs
+  ErrorAdditionalInfo.cs
+  ErrorDetail.cs
+  ErrorDetailAutoGenerated.cs
+  ErrorResponse.cs
+  ErrorResponseAutoGenerated.cs
+  ErrorResponseAutoGenerated2.cs
+  ErrorResponseAutoGenerated2Exception.cs
+  ErrorResponseAutoGeneratedException.cs
+  ErrorResponseException.cs
+  ExcludedPath.cs
+  ExtendedResourceProperties.cs
+  FailoverPolicies.cs
+  FailoverPolicy.cs
+  FleetDeleteHeaders.cs
+  FleetResource.cs
+  FleetResourceProperties.cs
+  FleetResourceUpdate.cs
+  FleetspaceAccountDeleteHeaders.cs
+  FleetspaceAccountProperties.cs
+  FleetspaceAccountPropertiesGlobalDatabaseAccountProperties.cs
+  FleetspaceAccountResource.cs
+  FleetspaceDeleteHeaders.cs
+  FleetspaceProperties.cs
+  FleetspacePropertiesFleetspaceApiKind.cs
+  FleetspacePropertiesServiceTier.cs
+  FleetspacePropertiesThroughputPoolConfiguration.cs
+  FleetspaceResource.cs
+  FleetspaceUpdate.cs
+  FleetspaceUpdateHeaders.cs
+  FullTextIndexPath.cs
+  FullTextPath.cs
+  FullTextPolicy.cs
+  GraphAPIComputeRegionalServiceResource.cs
+  GraphAPIComputeServiceResource.cs
+  GraphAPIComputeServiceResourceCreateUpdateProperties.cs
+  GraphAPIComputeServiceResourceProperties.cs
+  GremlinDatabaseCreateUpdateParameters.cs
+  GremlinDatabaseCreateUpdateProperties.cs
+  GremlinDatabaseGetProperties.cs
+  GremlinDatabaseGetPropertiesOptions.cs
+  GremlinDatabaseGetPropertiesResource.cs
+  GremlinDatabaseGetResults.cs
+  GremlinDatabaseResource.cs
+  GremlinDatabaseRestoreResource.cs
+  GremlinGraphCreateUpdateParameters.cs
+  GremlinGraphCreateUpdateProperties.cs
+  GremlinGraphGetProperties.cs
+  GremlinGraphGetPropertiesOptions.cs
+  GremlinGraphGetPropertiesResource.cs
+  GremlinGraphGetResults.cs
+  GremlinGraphResource.cs
+  GremlinResourcesCreateUpdateGremlinDatabaseHeaders.cs
+  GremlinResourcesCreateUpdateGremlinGraphHeaders.cs
+  GremlinResourcesDeleteGremlinDatabaseHeaders.cs
+  GremlinResourcesDeleteGremlinGraphHeaders.cs
+  GremlinResourcesMigrateGremlinDatabaseToAutoscaleHeaders.cs
+  GremlinResourcesMigrateGremlinDatabaseToManualThroughputHeaders.cs
+  GremlinResourcesMigrateGremlinGraphToAutoscaleHeaders.cs
+  GremlinResourcesMigrateGremlinGraphToManualThroughputHeaders.cs
+  GremlinResourcesUpdateGremlinDatabaseThroughputHeaders.cs
+  GremlinResourcesUpdateGremlinGraphThroughputHeaders.cs
+  IncludedPath.cs
+  Indexes.cs
+  IndexingMode.cs
+  IndexingPolicy.cs
+  IndexKind.cs
+  IpAddressOrRange.cs
+  KeyKind.cs
+  KeyWrapMetadata.cs
+  Kind.cs
+  Location.cs
+  LocationGetResult.cs
+  LocationProperties.cs
+  ManagedCassandraARMResourceProperties.cs
+  ManagedCassandraManagedServiceIdentity.cs
+  ManagedCassandraProvisioningState.cs
+  ManagedCassandraReaperStatus.cs
+  ManagedCassandraResourceIdentityType.cs
+  ManagedServiceIdentity.cs
+  MaterializedViewsBuilderRegionalServiceResource.cs
+  MaterializedViewsBuilderServiceResource.cs
+  MaterializedViewsBuilderServiceResourceCreateUpdateProperties.cs
+  MaterializedViewsBuilderServiceResourceProperties.cs
+  Metric.cs
+  MetricAvailability.cs
+  MetricDefinition.cs
+  MetricName.cs
+  MetricValue.cs
+  MinimalTlsVersion.cs
+  MongoDBCollectionCreateUpdateParameters.cs
+  MongoDBCollectionCreateUpdateProperties.cs
+  MongoDBCollectionGetProperties.cs
+  MongoDBCollectionGetPropertiesOptions.cs
+  MongoDBCollectionGetPropertiesResource.cs
+  MongoDBCollectionGetResults.cs
+  MongoDBCollectionResource.cs
+  MongoDBDatabaseCreateUpdateParameters.cs
+  MongoDBDatabaseCreateUpdateProperties.cs
+  MongoDBDatabaseGetProperties.cs
+  MongoDBDatabaseGetPropertiesOptions.cs
+  MongoDBDatabaseGetPropertiesResource.cs
+  MongoDBDatabaseGetResults.cs
+  MongoDBDatabaseResource.cs
+  MongoDBResourcesCreateUpdateMongoDBCollectionHeaders.cs
+  MongoDBResourcesCreateUpdateMongoDBDatabaseHeaders.cs
+  MongoDBResourcesDeleteMongoDBCollectionHeaders.cs
+  MongoDBResourcesDeleteMongoDBDatabaseHeaders.cs
+  MongoDBResourcesMigrateMongoDBCollectionToAutoscaleHeaders.cs
+  MongoDBResourcesMigrateMongoDBCollectionToManualThroughputHeaders.cs
+  MongoDBResourcesMigrateMongoDBDatabaseToAutoscaleHeaders.cs
+  MongoDBResourcesMigrateMongoDBDatabaseToManualThroughputHeaders.cs
+  MongoDBResourcesUpdateMongoDBCollectionThroughputHeaders.cs
+  MongoDBResourcesUpdateMongoDBDatabaseThroughputHeaders.cs
+  MongoIndex.cs
+  MongoIndexKeys.cs
+  MongoIndexOptions.cs
+  MongoRoleDefinitionCreateUpdateParameters.cs
+  MongoRoleDefinitionGetResults.cs
+  MongoRoleDefinitionResource.cs
+  MongoRoleDefinitionType.cs
+  MongoUserDefinitionCreateUpdateParameters.cs
+  MongoUserDefinitionGetResults.cs
+  MongoUserDefinitionResource.cs
+  NetworkAclBypass.cs
+  NodeState.cs
+  NodeStatus.cs
+  NotebookWorkspace.cs
+  NotebookWorkspaceConnectionInfoResult.cs
+  NotebookWorkspaceCreateUpdateParameters.cs
+  NotebookWorkspaceName.cs
+  NotebookWorkspaceProperties.cs
+  Operation.cs
+  OperationDisplay.cs
+  OperationType.cs
+  OptionsResource.cs
+  Page.cs
+  Page1.cs
+  PartitionKind.cs
+  PartitionMetric.cs
+  PartitionUsage.cs
+  PercentileMetric.cs
+  PercentileMetricValue.cs
+  PeriodicModeBackupPolicy.cs
+  PeriodicModeProperties.cs
+  Permission.cs
+  PermissionAutoGenerated.cs
+  PrimaryAggregationType.cs
+  PrivateEndpointConnection.cs
+  PrivateEndpointConnectionProperties.cs
+  PrivateEndpointProperty.cs
+  PrivateLinkResource.cs
+  PrivateLinkResourceProperties.cs
+  PrivateLinkServiceConnectionStateProperty.cs
+  Privilege.cs
+  PrivilegeResource.cs
+  ProxyResource.cs
+  ProxyResourceAutoGenerated.cs
+  ProxyResourceAutoGenerated2.cs
+  PublicNetworkAccess.cs
+  RegionalServiceResource.cs
+  RegionForOnlineOffline.cs
+  Resource.cs
+  ResourceAutoGenerated.cs
+  ResourceAutoGenerated2.cs
+  ResourceIdentityType.cs
+  ResourceRestoreParameters.cs
+  RestorableDatabaseAccountGetResult.cs
+  RestorableDatabaseAccountProperties.cs
+  RestorableGremlinDatabaseGetResult.cs
+  RestorableGremlinDatabaseProperties.cs
+  RestorableGremlinDatabasePropertiesResource.cs
+  RestorableGremlinGraphGetResult.cs
+  RestorableGremlinGraphProperties.cs
+  RestorableGremlinGraphPropertiesResource.cs
+  RestorableGremlinResourcesGetResult.cs
+  RestorableLocationResource.cs
+  RestorableMongodbCollectionGetResult.cs
+  RestorableMongodbCollectionProperties.cs
+  RestorableMongodbCollectionPropertiesResource.cs
+  RestorableMongodbDatabaseGetResult.cs
+  RestorableMongodbDatabaseProperties.cs
+  RestorableMongodbDatabasePropertiesResource.cs
+  RestorableMongodbResourcesGetResult.cs
+  RestorableSqlContainerGetResult.cs
+  RestorableSqlContainerProperties.cs
+  RestorableSqlContainerPropertiesResource.cs
+  RestorableSqlContainerPropertiesResourceContainer.cs
+  RestorableSqlDatabaseGetResult.cs
+  RestorableSqlDatabaseProperties.cs
+  RestorableSqlDatabasePropertiesResource.cs
+  RestorableSqlDatabasePropertiesResourceDatabase.cs
+  RestorableSqlResourcesGetResult.cs
+  RestorableTableGetResult.cs
+  RestorableTableProperties.cs
+  RestorableTablePropertiesResource.cs
+  RestorableTableResourcesGetResult.cs
+  RestoreMode.cs
+  RestoreParameters.cs
+  RestoreParametersBase.cs
+  Role.cs
+  RoleDefinitionType.cs
+  SeedNode.cs
+  ServerVersion.cs
+  ServiceCreateHeaders.cs
+  ServiceDeleteHeaders.cs
+  ServiceResource.cs
+  ServiceResourceCreateUpdateParameters.cs
+  ServiceResourceCreateUpdateProperties.cs
+  ServiceResourceProperties.cs
+  ServiceSize.cs
+  ServiceStatus.cs
+  ServiceType.cs
+  SpatialSpec.cs
+  SpatialType.cs
+  SqlContainerCreateUpdateParameters.cs
+  SqlContainerCreateUpdateProperties.cs
+  SqlContainerGetProperties.cs
+  SqlContainerGetPropertiesOptions.cs
+  SqlContainerGetPropertiesResource.cs
+  SqlContainerGetResults.cs
+  SqlContainerResource.cs
+  SqlDatabaseCreateUpdateParameters.cs
+  SqlDatabaseCreateUpdateProperties.cs
+  SqlDatabaseGetProperties.cs
+  SqlDatabaseGetPropertiesOptions.cs
+  SqlDatabaseGetPropertiesResource.cs
+  SqlDatabaseGetResults.cs
+  SqlDatabaseResource.cs
+  SqlDedicatedGatewayRegionalServiceResource.cs
+  SqlDedicatedGatewayServiceResource.cs
+  SqlDedicatedGatewayServiceResourceCreateUpdateProperties.cs
+  SqlDedicatedGatewayServiceResourceProperties.cs
+  SqlResourcesCreateUpdateClientEncryptionKeyHeaders.cs
+  SqlResourcesCreateUpdateSqlContainerHeaders.cs
+  SqlResourcesCreateUpdateSqlDatabaseHeaders.cs
+  SqlResourcesCreateUpdateSqlStoredProcedureHeaders.cs
+  SqlResourcesCreateUpdateSqlTriggerHeaders.cs
+  SqlResourcesCreateUpdateSqlUserDefinedFunctionHeaders.cs
+  SqlResourcesDeleteSqlContainerHeaders.cs
+  SqlResourcesDeleteSqlDatabaseHeaders.cs
+  SqlResourcesDeleteSqlStoredProcedureHeaders.cs
+  SqlResourcesDeleteSqlTriggerHeaders.cs
+  SqlResourcesDeleteSqlUserDefinedFunctionHeaders.cs
+  SqlResourcesMigrateSqlContainerToAutoscaleHeaders.cs
+  SqlResourcesMigrateSqlContainerToManualThroughputHeaders.cs
+  SqlResourcesMigrateSqlDatabaseToAutoscaleHeaders.cs
+  SqlResourcesMigrateSqlDatabaseToManualThroughputHeaders.cs
+  SqlResourcesUpdateSqlContainerThroughputHeaders.cs
+  SqlResourcesUpdateSqlDatabaseThroughputHeaders.cs
+  SqlRoleAssignmentCreateUpdateParameters.cs
+  SqlRoleAssignmentGetResults.cs
+  SqlRoleAssignmentResource.cs
+  SqlRoleDefinitionCreateUpdateParameters.cs
+  SqlRoleDefinitionGetResults.cs
+  SqlRoleDefinitionResource.cs
+  SqlStoredProcedureCreateUpdateParameters.cs
+  SqlStoredProcedureCreateUpdateProperties.cs
+  SqlStoredProcedureGetProperties.cs
+  SqlStoredProcedureGetPropertiesResource.cs
+  SqlStoredProcedureGetResults.cs
+  SqlStoredProcedureResource.cs
+  SqlTriggerCreateUpdateParameters.cs
+  SqlTriggerCreateUpdateProperties.cs
+  SqlTriggerGetProperties.cs
+  SqlTriggerGetPropertiesResource.cs
+  SqlTriggerGetResults.cs
+  SqlTriggerResource.cs
+  SqlUserDefinedFunctionCreateUpdateParameters.cs
+  SqlUserDefinedFunctionCreateUpdateProperties.cs
+  SqlUserDefinedFunctionGetProperties.cs
+  SqlUserDefinedFunctionGetPropertiesResource.cs
+  SqlUserDefinedFunctionGetResults.cs
+  SqlUserDefinedFunctionResource.cs
+  Status.cs
+  SystemData.cs
+  TableCreateUpdateParameters.cs
+  TableCreateUpdateProperties.cs
+  TableGetProperties.cs
+  TableGetPropertiesOptions.cs
+  TableGetPropertiesResource.cs
+  TableGetResults.cs
+  TableResource.cs
+  TableResourcesCreateUpdateTableHeaders.cs
+  TableResourcesCreateUpdateTableRoleAssignmentHeaders.cs
+  TableResourcesCreateUpdateTableRoleDefinitionHeaders.cs
+  TableResourcesDeleteTableHeaders.cs
+  TableResourcesDeleteTableRoleAssignmentHeaders.cs
+  TableResourcesDeleteTableRoleDefinitionHeaders.cs
+  TableResourcesMigrateTableToAutoscaleHeaders.cs
+  TableResourcesMigrateTableToManualThroughputHeaders.cs
+  TableResourcesUpdateTableThroughputHeaders.cs
+  TableRoleAssignmentResource.cs
+  TableRoleAssignmentResourceProperties.cs
+  TableRoleDefinitionResource.cs
+  TableRoleDefinitionResourceProperties.cs
+  ThroughputPolicyResource.cs
+  ThroughputSettingsGetProperties.cs
+  ThroughputSettingsGetPropertiesResource.cs
+  ThroughputSettingsGetResults.cs
+  ThroughputSettingsResource.cs
+  ThroughputSettingsUpdateParameters.cs
+  ThroughputSettingsUpdateProperties.cs
+  TrackedResource.cs
+  TriggerOperation.cs
+  TriggerType.cs
+  Type.cs
+  UniqueKey.cs
+  UniqueKeyPolicy.cs
+  UnitType.cs
+  Usage.cs
+  VectorDataType.cs
+  VectorEmbedding.cs
+  VectorEmbeddingPolicy.cs
+  VectorIndex.cs
+  VectorIndexType.cs
+  VirtualNetworkRule.cs
+ MongoDBResourcesOperations.cs
+ MongoDBResourcesOperationsExtensions.cs
+ NotebookWorkspacesOperations.cs
+ NotebookWorkspacesOperationsExtensions.cs
+ Operations.cs
+ OperationsExtensions.cs
+ PartitionKeyRangeIdOperations.cs
+ PartitionKeyRangeIdOperationsExtensions.cs
+ PartitionKeyRangeIdRegionOperations.cs
+ PartitionKeyRangeIdRegionOperationsExtensions.cs
+ PercentileOperations.cs
+ PercentileOperationsExtensions.cs
+ PercentileSourceTargetOperations.cs
+ PercentileSourceTargetOperationsExtensions.cs
+ PercentileTargetOperations.cs
+ PercentileTargetOperationsExtensions.cs
+ PrivateEndpointConnectionsOperations.cs
+ PrivateEndpointConnectionsOperationsExtensions.cs
+ PrivateLinkResourcesOperations.cs
+ PrivateLinkResourcesOperationsExtensions.cs
+ RestorableDatabaseAccountsOperations.cs
+ RestorableDatabaseAccountsOperationsExtensions.cs
+ RestorableGremlinDatabasesOperations.cs
+ RestorableGremlinDatabasesOperationsExtensions.cs
+ RestorableGremlinGraphsOperations.cs
+ RestorableGremlinGraphsOperationsExtensions.cs
+ RestorableGremlinResourcesOperations.cs
+ RestorableGremlinResourcesOperationsExtensions.cs
+ RestorableMongodbCollectionsOperations.cs
+ RestorableMongodbCollectionsOperationsExtensions.cs
+ RestorableMongodbDatabasesOperations.cs
+ RestorableMongodbDatabasesOperationsExtensions.cs
+ RestorableMongodbResourcesOperations.cs
+ RestorableMongodbResourcesOperationsExtensions.cs
+ RestorableSqlContainersOperations.cs
+ RestorableSqlContainersOperationsExtensions.cs
+ RestorableSqlDatabasesOperations.cs
+ RestorableSqlDatabasesOperationsExtensions.cs
+ RestorableSqlResourcesOperations.cs
+ RestorableSqlResourcesOperationsExtensions.cs
+ RestorableTableResourcesOperations.cs
+ RestorableTableResourcesOperationsExtensions.cs
+ RestorableTablesOperations.cs
+ RestorableTablesOperationsExtensions.cs
+ ServiceOperations.cs
+ ServiceOperationsExtensions.cs
+ SqlResourcesOperations.cs
+ SqlResourcesOperationsExtensions.cs
+ TableResourcesOperations.cs
+ TableResourcesOperationsExtensions.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/CosmosDB.Management.Sdk.GeneratedMSBuildEditorConfig.editorconfig

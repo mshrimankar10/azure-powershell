@@ -1,0 +1,95 @@
+{
+  "resourceType": "expressRouteLags/authorizations",
+  "apiVersion": "2025-09-01",
+  "learnMore": {
+    "url": "https://learn.microsoft.com/powershell/module/az.network"
+  },
+  "commands": [
+    {
+      "name": "Get-AzExpressRouteLagAuthorization",
+      "description": "Gets the specified authorization from the specified express route lag.",
+      "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/expressRouteLags/{expressRouteLagName}/authorizations/{authorizationName}",
+      "help": {
+        "learnMore": {
+          "url": "https://learn.microsoft.com/powershell/module/az.network/get-azexpressroutelagauthorization"
+        },
+        "parameterSets": [
+          {
+            "parameters": [
+              "-AuthorizationName <String>",
+              "-ExpressRouteLagName <String>",
+              "-ResourceGroupName <String>",
+              "[-SubscriptionId <String[]>]"
+            ]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "description": "Gets the specified authorization from the specified express route lag.",
+          "parameters": [
+            {
+              "name": "-AuthorizationName",
+              "value": "[Path.authorizationName]"
+            },
+            {
+              "name": "-ExpressRouteLagName",
+              "value": "[Path.expressRouteLagName]"
+            },
+            {
+              "name": "-ResourceGroupName",
+              "value": "[Path.resourceGroupName]"
+            },
+            {
+              "name": "-SubscriptionId",
+              "value": "[Path.subscriptionId]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Remove-AzExpressRouteLagAuthorization",
+      "description": "Deletes the specified authorization from the specified express route lag.",
+      "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/expressRouteLags/{expressRouteLagName}/authorizations/{authorizationName}",
+      "help": {
+        "learnMore": {
+          "url": "https://learn.microsoft.com/powershell/module/az.network/remove-azexpressroutelagauthorization"
+        },
+        "parameterSets": [
+          {
+            "parameters": [
+              "-AuthorizationName <String>",
+              "-ExpressRouteLagName <String>",
+              "-ResourceGroupName <String>",
+              "[-SubscriptionId <String>]"
+            ]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "description": "Deletes the specified authorization from the specified express route lag.",
+          "parameters": [
+            {
+              "name": "-AuthorizationName",
+              "value": "[Path.authorizationName]"
+            },
+            {
+              "name": "-ExpressRouteLagName",
+              "value": "[Path.expressRouteLagName]"
+            },
+            {
+              "name": "-ResourceGroupName",
+              "value": "[Path.resourceGroupName]"
+            },
+            {
+              "name": "-SubscriptionId",
+              "value": "[Path.subscriptionId]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

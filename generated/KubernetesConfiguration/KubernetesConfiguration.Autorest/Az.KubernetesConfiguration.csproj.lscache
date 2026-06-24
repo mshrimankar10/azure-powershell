@@ -1,0 +1,505 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.KubernetesConfiguration.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.KubernetesConfiguration/KubernetesConfiguration.Autorest/bin/Az.KubernetesConfiguration.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.KubernetesConfiguration
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.KubernetesConfiguration/KubernetesConfiguration.Autorest/bin/Az.KubernetesConfiguration.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.KubernetesConfiguration/KubernetesConfiguration.Autorest/bin/Az.KubernetesConfiguration.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.KubernetesConfiguration.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/
+ KubernetesConfiguration.cs
+ Models/
+  Any.cs
+  Any.json.cs
+  Any.PowerShell.cs
+  Any.TypeConverter.cs
+  AzureBlobDefinition.cs
+  AzureBlobDefinition.json.cs
+  AzureBlobDefinition.PowerShell.cs
+  AzureBlobDefinition.TypeConverter.cs
+  AzureBlobPatchDefinition.cs
+  AzureBlobPatchDefinition.json.cs
+  AzureBlobPatchDefinition.PowerShell.cs
+  AzureBlobPatchDefinition.TypeConverter.cs
+  BucketDefinition.cs
+  BucketDefinition.json.cs
+  BucketDefinition.PowerShell.cs
+  BucketDefinition.TypeConverter.cs
+  BucketPatchDefinition.cs
+  BucketPatchDefinition.json.cs
+  BucketPatchDefinition.PowerShell.cs
+  BucketPatchDefinition.TypeConverter.cs
+  ComplianceStatus.cs
+  ComplianceStatus.json.cs
+  ComplianceStatus.PowerShell.cs
+  ComplianceStatus.TypeConverter.cs
+  ConfigurationProtectedSettings.cs
+  ConfigurationProtectedSettings.dictionary.cs
+  ConfigurationProtectedSettings.json.cs
+  ConfigurationProtectedSettings.PowerShell.cs
+  ConfigurationProtectedSettings.TypeConverter.cs
+  ErrorAdditionalInfo.cs
+  ErrorAdditionalInfo.json.cs
+  ErrorAdditionalInfo.PowerShell.cs
+  ErrorAdditionalInfo.TypeConverter.cs
+  ErrorDetail.cs
+  ErrorDetail.json.cs
+  ErrorDetail.PowerShell.cs
+  ErrorDetail.TypeConverter.cs
+  ErrorResponse.cs
+  ErrorResponse.json.cs
+  ErrorResponse.PowerShell.cs
+  ErrorResponse.TypeConverter.cs
+  Extension.cs
+  Extension.json.cs
+  Extension.PowerShell.cs
+  Extension.TypeConverter.cs
+  ExtensionProperties.cs
+  ExtensionProperties.json.cs
+  ExtensionProperties.PowerShell.cs
+  ExtensionProperties.TypeConverter.cs
+  ExtensionPropertiesAksAssignedIdentity.cs
+  ExtensionPropertiesAksAssignedIdentity.json.cs
+  ExtensionPropertiesAksAssignedIdentity.PowerShell.cs
+  ExtensionPropertiesAksAssignedIdentity.TypeConverter.cs
+  ExtensionPropertiesConfigurationProtectedSettings.cs
+  ExtensionPropertiesConfigurationProtectedSettings.dictionary.cs
+  ExtensionPropertiesConfigurationProtectedSettings.json.cs
+  ExtensionPropertiesConfigurationProtectedSettings.PowerShell.cs
+  ExtensionPropertiesConfigurationProtectedSettings.TypeConverter.cs
+  ExtensionPropertiesConfigurationSettings.cs
+  ExtensionPropertiesConfigurationSettings.dictionary.cs
+  ExtensionPropertiesConfigurationSettings.json.cs
+  ExtensionPropertiesConfigurationSettings.PowerShell.cs
+  ExtensionPropertiesConfigurationSettings.TypeConverter.cs
+  ExtensionPropertiesCustomLocationSettings.cs
+  ExtensionPropertiesCustomLocationSettings.dictionary.cs
+  ExtensionPropertiesCustomLocationSettings.json.cs
+  ExtensionPropertiesCustomLocationSettings.PowerShell.cs
+  ExtensionPropertiesCustomLocationSettings.TypeConverter.cs
+  ExtensionsList.cs
+  ExtensionsList.json.cs
+  ExtensionsList.PowerShell.cs
+  ExtensionsList.TypeConverter.cs
+  ExtensionStatus.cs
+  ExtensionStatus.json.cs
+  ExtensionStatus.PowerShell.cs
+  ExtensionStatus.TypeConverter.cs
+  FluxConfiguration.cs
+  FluxConfiguration.json.cs
+  FluxConfiguration.PowerShell.cs
+  FluxConfiguration.TypeConverter.cs
+  FluxConfigurationPatch.cs
+  FluxConfigurationPatch.json.cs
+  FluxConfigurationPatch.PowerShell.cs
+  FluxConfigurationPatch.TypeConverter.cs
+  FluxConfigurationPatchProperties.cs
+  FluxConfigurationPatchProperties.json.cs
+  FluxConfigurationPatchProperties.PowerShell.cs
+  FluxConfigurationPatchProperties.TypeConverter.cs
+  FluxConfigurationPatchPropertiesConfigurationProtectedSettings.cs
+  FluxConfigurationPatchPropertiesConfigurationProtectedSettings.dictionary.cs
+  FluxConfigurationPatchPropertiesConfigurationProtectedSettings.json.cs
+  FluxConfigurationPatchPropertiesConfigurationProtectedSettings.PowerShell.cs
+  FluxConfigurationPatchPropertiesConfigurationProtectedSettings.TypeConverter.cs
+  FluxConfigurationPatchPropertiesKustomizations.cs
+  FluxConfigurationPatchPropertiesKustomizations.dictionary.cs
+  FluxConfigurationPatchPropertiesKustomizations.json.cs
+  FluxConfigurationPatchPropertiesKustomizations.PowerShell.cs
+  FluxConfigurationPatchPropertiesKustomizations.TypeConverter.cs
+  FluxConfigurationProperties.cs
+  FluxConfigurationProperties.json.cs
+  FluxConfigurationProperties.PowerShell.cs
+  FluxConfigurationProperties.TypeConverter.cs
+  FluxConfigurationPropertiesConfigurationProtectedSettings.cs
+  FluxConfigurationPropertiesConfigurationProtectedSettings.dictionary.cs
+  FluxConfigurationPropertiesConfigurationProtectedSettings.json.cs
+  FluxConfigurationPropertiesConfigurationProtectedSettings.PowerShell.cs
+  FluxConfigurationPropertiesConfigurationProtectedSettings.TypeConverter.cs
+  FluxConfigurationPropertiesKustomizations.cs
+  FluxConfigurationPropertiesKustomizations.dictionary.cs
+  FluxConfigurationPropertiesKustomizations.json.cs
+  FluxConfigurationPropertiesKustomizations.PowerShell.cs
+  FluxConfigurationPropertiesKustomizations.TypeConverter.cs
+  FluxConfigurationsList.cs
+  FluxConfigurationsList.json.cs
+  FluxConfigurationsList.PowerShell.cs
+  FluxConfigurationsList.TypeConverter.cs
+  GitRepositoryDefinition.cs
+  GitRepositoryDefinition.json.cs
+  GitRepositoryDefinition.PowerShell.cs
+  GitRepositoryDefinition.TypeConverter.cs
+  GitRepositoryPatchDefinition.cs
+  GitRepositoryPatchDefinition.json.cs
+  GitRepositoryPatchDefinition.PowerShell.cs
+  GitRepositoryPatchDefinition.TypeConverter.cs
+  HelmOperatorProperties.cs
+  HelmOperatorProperties.json.cs
+  HelmOperatorProperties.PowerShell.cs
+  HelmOperatorProperties.TypeConverter.cs
+  HelmReleasePropertiesDefinition.cs
+  HelmReleasePropertiesDefinition.json.cs
+  HelmReleasePropertiesDefinition.PowerShell.cs
+  HelmReleasePropertiesDefinition.TypeConverter.cs
+  Identity.cs
+  Identity.json.cs
+  Identity.PowerShell.cs
+  Identity.TypeConverter.cs
+  KubernetesConfigurationIdentity.cs
+  KubernetesConfigurationIdentity.json.cs
+  KubernetesConfigurationIdentity.PowerShell.cs
+  KubernetesConfigurationIdentity.TypeConverter.cs
+  KustomizationDefinition.cs
+  KustomizationDefinition.json.cs
+  KustomizationDefinition.PowerShell.cs
+  KustomizationDefinition.TypeConverter.cs
+  KustomizationPatchDefinition.cs
+  KustomizationPatchDefinition.json.cs
+  KustomizationPatchDefinition.PowerShell.cs
+  KustomizationPatchDefinition.TypeConverter.cs
+  ManagedIdentityDefinition.cs
+  ManagedIdentityDefinition.json.cs
+  ManagedIdentityDefinition.PowerShell.cs
+  ManagedIdentityDefinition.TypeConverter.cs
+  ManagedIdentityPatchDefinition.cs
+  ManagedIdentityPatchDefinition.json.cs
+  ManagedIdentityPatchDefinition.PowerShell.cs
+  ManagedIdentityPatchDefinition.TypeConverter.cs
+  ObjectReferenceDefinition.cs
+  ObjectReferenceDefinition.json.cs
+  ObjectReferenceDefinition.PowerShell.cs
+  ObjectReferenceDefinition.TypeConverter.cs
+  ObjectStatusConditionDefinition.cs
+  ObjectStatusConditionDefinition.json.cs
+  ObjectStatusConditionDefinition.PowerShell.cs
+  ObjectStatusConditionDefinition.TypeConverter.cs
+  ObjectStatusDefinition.cs
+  ObjectStatusDefinition.json.cs
+  ObjectStatusDefinition.PowerShell.cs
+  ObjectStatusDefinition.TypeConverter.cs
+  OperationStatusList.cs
+  OperationStatusList.json.cs
+  OperationStatusList.PowerShell.cs
+  OperationStatusList.TypeConverter.cs
+  OperationStatusResult.cs
+  OperationStatusResult.json.cs
+  OperationStatusResult.PowerShell.cs
+  OperationStatusResult.TypeConverter.cs
+  OperationStatusResultProperties.cs
+  OperationStatusResultProperties.dictionary.cs
+  OperationStatusResultProperties.json.cs
+  OperationStatusResultProperties.PowerShell.cs
+  OperationStatusResultProperties.TypeConverter.cs
+  PatchExtension.cs
+  PatchExtension.json.cs
+  PatchExtension.PowerShell.cs
+  PatchExtension.TypeConverter.cs
+  PatchExtensionProperties.cs
+  PatchExtensionProperties.json.cs
+  PatchExtensionProperties.PowerShell.cs
+  PatchExtensionProperties.TypeConverter.cs
+  PatchExtensionPropertiesConfigurationProtectedSettings.cs
+  PatchExtensionPropertiesConfigurationProtectedSettings.dictionary.cs
+  PatchExtensionPropertiesConfigurationProtectedSettings.json.cs
+  PatchExtensionPropertiesConfigurationProtectedSettings.PowerShell.cs
+  PatchExtensionPropertiesConfigurationProtectedSettings.TypeConverter.cs
+  PatchExtensionPropertiesConfigurationSettings.cs
+  PatchExtensionPropertiesConfigurationSettings.dictionary.cs
+  PatchExtensionPropertiesConfigurationSettings.json.cs
+  PatchExtensionPropertiesConfigurationSettings.PowerShell.cs
+  PatchExtensionPropertiesConfigurationSettings.TypeConverter.cs
+  Plan.cs
+  Plan.json.cs
+  Plan.PowerShell.cs
+  Plan.TypeConverter.cs
+  ProxyResource.cs
+  ProxyResource.json.cs
+  ProxyResource.PowerShell.cs
+  ProxyResource.TypeConverter.cs
+  RepositoryRefDefinition.cs
+  RepositoryRefDefinition.json.cs
+  RepositoryRefDefinition.PowerShell.cs
+  RepositoryRefDefinition.TypeConverter.cs
+  Resource.cs
+  Resource.json.cs
+  Resource.PowerShell.cs
+  Resource.TypeConverter.cs
+  ResourceProviderOperation.cs
+  ResourceProviderOperation.json.cs
+  ResourceProviderOperation.PowerShell.cs
+  ResourceProviderOperation.TypeConverter.cs
+  ResourceProviderOperationDisplay.cs
+  ResourceProviderOperationDisplay.json.cs
+  ResourceProviderOperationDisplay.PowerShell.cs
+  ResourceProviderOperationDisplay.TypeConverter.cs
+  ResourceProviderOperationList.cs
+  ResourceProviderOperationList.json.cs
+  ResourceProviderOperationList.PowerShell.cs
+  ResourceProviderOperationList.TypeConverter.cs
+  Scope.cs
+  Scope.json.cs
+  Scope.PowerShell.cs
+  Scope.TypeConverter.cs
+  ScopeCluster.cs
+  ScopeCluster.json.cs
+  ScopeCluster.PowerShell.cs
+  ScopeCluster.TypeConverter.cs
+  ScopeNamespace.cs
+  ScopeNamespace.json.cs
+  ScopeNamespace.PowerShell.cs
+  ScopeNamespace.TypeConverter.cs
+  ServicePrincipalDefinition.cs
+  ServicePrincipalDefinition.json.cs
+  ServicePrincipalDefinition.PowerShell.cs
+  ServicePrincipalDefinition.TypeConverter.cs
+  ServicePrincipalPatchDefinition.cs
+  ServicePrincipalPatchDefinition.json.cs
+  ServicePrincipalPatchDefinition.PowerShell.cs
+  ServicePrincipalPatchDefinition.TypeConverter.cs
+  SourceControlConfiguration.cs
+  SourceControlConfiguration.json.cs
+  SourceControlConfiguration.PowerShell.cs
+  SourceControlConfiguration.TypeConverter.cs
+  SourceControlConfigurationList.cs
+  SourceControlConfigurationList.json.cs
+  SourceControlConfigurationList.PowerShell.cs
+  SourceControlConfigurationList.TypeConverter.cs
+  SourceControlConfigurationProperties.cs
+  SourceControlConfigurationProperties.json.cs
+  SourceControlConfigurationProperties.PowerShell.cs
+  SourceControlConfigurationProperties.TypeConverter.cs
+  SystemData.cs
+  SystemData.json.cs
+  SystemData.PowerShell.cs
+  SystemData.TypeConverter.cs
+generated/cmdlets/
+ GetAzKubernetesConfigFluxOperationStatus_Get.cs
+ GetAzKubernetesConfigFluxOperationStatus_GetViaIdentity.cs
+ GetAzKubernetesConfigFluxOperationStatus_GetViaIdentityFluxConfiguration.cs
+ GetAzKubernetesConfigurationFlux_Get.cs
+ GetAzKubernetesConfigurationFlux_GetViaIdentity.cs
+ GetAzKubernetesConfigurationFlux_List.cs
+ GetAzKubernetesConfiguration_Get.cs
+ GetAzKubernetesConfiguration_GetViaIdentity.cs
+ GetAzKubernetesConfiguration_List.cs
+ GetAzKubernetesExtension_Get.cs
+ GetAzKubernetesExtension_GetViaIdentity.cs
+ GetAzKubernetesExtension_List.cs
+ GetAzOperation_List.cs
+ NewAzKubernetesConfigurationFlux_CreateExpanded.cs
+ NewAzKubernetesConfigurationFlux_CreateViaJsonFilePath.cs
+ NewAzKubernetesConfigurationFlux_CreateViaJsonString.cs
+ NewAzKubernetesConfiguration_CreateExpanded.cs
+ NewAzKubernetesConfiguration_CreateViaJsonFilePath.cs
+ NewAzKubernetesConfiguration_CreateViaJsonString.cs
+ NewAzKubernetesExtension_CreateExpanded.cs
+ NewAzKubernetesExtension_CreateViaJsonFilePath.cs
+ NewAzKubernetesExtension_CreateViaJsonString.cs
+ RemoveAzKubernetesConfigurationFlux_Delete.cs
+ RemoveAzKubernetesConfigurationFlux_DeleteViaIdentity.cs
+ RemoveAzKubernetesConfiguration_Delete.cs
+ RemoveAzKubernetesConfiguration_DeleteViaIdentity.cs
+ RemoveAzKubernetesExtension_Delete.cs
+ RemoveAzKubernetesExtension_DeleteViaIdentity.cs
+ UpdateAzKubernetesConfigurationFlux_UpdateExpanded.cs
+ UpdateAzKubernetesConfigurationFlux_UpdateViaIdentityExpanded.cs
+ UpdateAzKubernetesConfigurationFlux_UpdateViaJsonFilePath.cs
+ UpdateAzKubernetesConfigurationFlux_UpdateViaJsonString.cs
+ UpdateAzKubernetesConfiguration_UpdateExpanded.cs
+ UpdateAzKubernetesConfiguration_UpdateViaIdentityExpanded.cs
+ UpdateAzKubernetesExtension_UpdateExpanded.cs
+ UpdateAzKubernetesExtension_UpdateViaIdentityExpanded.cs
+ UpdateAzKubernetesExtension_UpdateViaJsonFilePath.cs
+ UpdateAzKubernetesExtension_UpdateViaJsonString.cs
+generated/
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.KubernetesConfiguration.GeneratedMSBuildEditorConfig.editorconfig

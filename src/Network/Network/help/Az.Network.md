@@ -395,6 +395,21 @@ Gets a route table summary of an ExpressRoute cross connection.
 ### [Get-AzExpressRouteGateway](Get-AzExpressRouteGateway.md)
 Gets a ExpressRouteGateway resource using ResourceGroupName and GatewayName OR lists all gateways by ResourceGroupName or SubscriptionId.
 
+### [Get-AzExpressRouteLag](Get-AzExpressRouteLag.md)
+Retrieves the requested ExpressRouteLag resource.
+
+### [Get-AzExpressRouteLagAuthorization](Get-AzExpressRouteLagAuthorization.md)
+Gets the specified authorization from the specified express route lag.
+
+### [Get-AzExpressRouteLagAuthorizationKey](Get-AzExpressRouteLagAuthorizationKey.md)
+Gets the specified authorization with key from the specified express route lag.
+
+### [Get-AzExpressRouteLagLink](Get-AzExpressRouteLagLink.md)
+Retrieves the specified ExpressRouteLagLink resource.
+
+### [Get-AzExpressRouteLagMember](Get-AzExpressRouteLagMember.md)
+Retrieves the specified ExpressRouteLagMember resource.
+
 ### [Get-AzExpressRoutePort](Get-AzExpressRoutePort.md)
 Gets an Azure ExpressRoutePort resource.
 
@@ -447,7 +462,7 @@ Gets a load balancer.
 Get-AzLoadBalancerBackendAddressInboundNatRulePortMapping retrieves inbound nat rule port mapping list for one backend address.
 
 ### [Get-AzLoadBalancerBackendAddressPool](Get-AzLoadBalancerBackendAddressPool.md)
-Get-AzLoadBalancerBackendAddressPool retrieves one or more backend address pools associated with a load balancer. 
+Get-AzLoadBalancerBackendAddressPool retrieves one or more backend address pools associated with a load balancer.
 
 ### [Get-AzLoadBalancerBackendAddressPoolConfig](Get-AzLoadBalancerBackendAddressPoolConfig.md)
 Gets a backend address pool configuration for a load balancer.
@@ -765,6 +780,9 @@ Gets a Virtual Network Connection in a virtual hub or lists all virtual network 
 
 ### [Get-AzVirtualNetwork](Get-AzVirtualNetwork.md)
 Gets a virtual network in a resource group.
+
+### [Get-AzVirtualNetworkAppliance](Get-AzVirtualNetworkAppliance.md)
+Gets a Virtual Network Appliance (VNA) resource.
 
 ### [Get-AzVirtualNetworkAvailableEndpointService](Get-AzVirtualNetworkAvailableEndpointService.md)
 Lists available endpoint services for location.
@@ -1128,6 +1146,15 @@ Creates an ExpressRoute connection that connects an ExpressRoute gateway to an o
 
 ### [New-AzExpressRouteGateway](New-AzExpressRouteGateway.md)
 Creates a Scalable ExpressRoute Gateway.
+
+### [New-AzExpressRouteLag](New-AzExpressRouteLag.md)
+Create the specified ExpressRouteLag resource.
+
+### [New-AzExpressRouteLagAuthorization](New-AzExpressRouteLagAuthorization.md)
+Create an authorization in the specified express route lag.
+
+### [New-AzExpressRouteLagLoa](New-AzExpressRouteLagLoa.md)
+Generate a letter of authorization for the requested ExpressRouteLag resource.
 
 ### [New-AzExpressRoutePort](New-AzExpressRoutePort.md)
 Creates an Azure ExpressRoutePort.
@@ -1616,6 +1643,9 @@ The New-AzVirtualHubVnetConnection cmdlet creates a HubVirtualNetworkConnection 
 ### [New-AzVirtualNetwork](New-AzVirtualNetwork.md)
 Creates a virtual network.
 
+### [New-AzVirtualNetworkAppliance](New-AzVirtualNetworkAppliance.md)
+Creates a new Virtual Network Appliance (VNA) resource.
+
 ### [New-AzVirtualNetworkGateway](New-AzVirtualNetworkGateway.md)
 Creates a Virtual Network Gateway
 
@@ -1832,6 +1862,12 @@ Removes an ExpressRoute cross connection peering configuration.
 
 ### [Remove-AzExpressRouteGateway](Remove-AzExpressRouteGateway.md)
 The Remove-AzExpressRouteGateway cmdlet removes an Azure ExpressRoute gateway. This is a gateway specific to Azure Virtual WAN's software defined connectivity.
+
+### [Remove-AzExpressRouteLag](Remove-AzExpressRouteLag.md)
+Deletes the specified ExpressRouteLag resource.
+
+### [Remove-AzExpressRouteLagAuthorization](Remove-AzExpressRouteLagAuthorization.md)
+Deletes the specified authorization from the specified express route lag.
 
 ### [Remove-AzExpressRoutePort](Remove-AzExpressRoutePort.md)
 Removes an ExpressRoutePort.
@@ -2090,6 +2126,9 @@ The Remove-AzVirtualHubVnetConnection cmdlet removes an Azure Virtual Network Co
 
 ### [Remove-AzVirtualNetwork](Remove-AzVirtualNetwork.md)
 Removes a virtual network.
+
+### [Remove-AzVirtualNetworkAppliance](Remove-AzVirtualNetworkAppliance.md)
+Removes a Virtual Network Appliance (VNA) resource.
 
 ### [Remove-AzVirtualNetworkGateway](Remove-AzVirtualNetworkGateway.md)
 Deletes a Virtual Network Gateway
@@ -2577,6 +2616,9 @@ The **Test-AzPrivateLinkServiceVisibility** checks whether a private link servic
 ### [Update-AzCustomIpPrefix](Update-AzCustomIpPrefix.md)
 Updates a CustomIpPrefix
 
+### [Update-AzExpressRouteLag](Update-AzExpressRouteLag.md)
+Update the specified ExpressRouteLag resource.
+
 ### [Update-AzNetworkSecurityPerimeter](Update-AzNetworkSecurityPerimeter.md)
 Patch Tags for a Network Security Perimeter.
 
@@ -2627,6 +2669,9 @@ The Update-AzVirtualHubBgpConnection cmdlet updates an existing HubBgpConnection
 
 ### [Update-AzVirtualHubVnetConnection](Update-AzVirtualHubVnetConnection.md)
 Updates an existing HubVirtualNetworkConnection.
+
+### [Update-AzVirtualNetworkAppliance](Update-AzVirtualNetworkAppliance.md)
+Updates a Virtual Network Appliance (VNA) resource.
 
 ### [Update-AzVirtualNetworkGatewayNatRule](Update-AzVirtualNetworkGatewayNatRule.md)
 Updates a Virtual Network Gateway NatRule.

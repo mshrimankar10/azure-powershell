@@ -1,0 +1,554 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.CostManagement.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.CostManagement/CostManagement.Autorest/bin/Az.CostManagement.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.CostManagement
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.CostManagement/CostManagement.Autorest/bin/Az.CostManagement.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.CostManagement/CostManagement.Autorest/bin/Az.CostManagement.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.CostManagement.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/
+ CostManagement.cs
+ Models/
+  Alert.cs
+  Alert.json.cs
+  Alert.PowerShell.cs
+  Alert.TypeConverter.cs
+  AlertProperties.cs
+  AlertProperties.json.cs
+  AlertProperties.PowerShell.cs
+  AlertProperties.TypeConverter.cs
+  AlertPropertiesDefinition.cs
+  AlertPropertiesDefinition.json.cs
+  AlertPropertiesDefinition.PowerShell.cs
+  AlertPropertiesDefinition.TypeConverter.cs
+  AlertPropertiesDetails.cs
+  AlertPropertiesDetails.json.cs
+  AlertPropertiesDetails.PowerShell.cs
+  AlertPropertiesDetails.TypeConverter.cs
+  AlertsResult.cs
+  AlertsResult.json.cs
+  AlertsResult.PowerShell.cs
+  AlertsResult.TypeConverter.cs
+  Any.cs
+  Any.json.cs
+  Any.PowerShell.cs
+  Any.TypeConverter.cs
+  BlobInfo.cs
+  BlobInfo.json.cs
+  BlobInfo.PowerShell.cs
+  BlobInfo.TypeConverter.cs
+  CommonExportProperties.cs
+  CommonExportProperties.json.cs
+  CommonExportProperties.PowerShell.cs
+  CommonExportProperties.TypeConverter.cs
+  CostDetailsOperationResults.cs
+  CostDetailsOperationResults.json.cs
+  CostDetailsOperationResults.PowerShell.cs
+  CostDetailsOperationResults.TypeConverter.cs
+  CostDetailsTimePeriod.cs
+  CostDetailsTimePeriod.json.cs
+  CostDetailsTimePeriod.PowerShell.cs
+  CostDetailsTimePeriod.TypeConverter.cs
+  CostManagementIdentity.cs
+  CostManagementIdentity.json.cs
+  CostManagementIdentity.PowerShell.cs
+  CostManagementIdentity.TypeConverter.cs
+  Dimension.cs
+  Dimension.json.cs
+  Dimension.PowerShell.cs
+  Dimension.TypeConverter.cs
+  DimensionProperties.cs
+  DimensionProperties.json.cs
+  DimensionProperties.PowerShell.cs
+  DimensionProperties.TypeConverter.cs
+  DimensionsListResult.cs
+  DimensionsListResult.json.cs
+  DimensionsListResult.PowerShell.cs
+  DimensionsListResult.TypeConverter.cs
+  DismissAlertPayload.cs
+  DismissAlertPayload.json.cs
+  DismissAlertPayload.PowerShell.cs
+  DismissAlertPayload.TypeConverter.cs
+  ErrorDetails.cs
+  ErrorDetails.json.cs
+  ErrorDetails.PowerShell.cs
+  ErrorDetails.TypeConverter.cs
+  ErrorResponse.cs
+  ErrorResponse.json.cs
+  ErrorResponse.PowerShell.cs
+  ErrorResponse.TypeConverter.cs
+  Export.cs
+  Export.json.cs
+  Export.PowerShell.cs
+  Export.TypeConverter.cs
+  ExportDataset.cs
+  ExportDataset.json.cs
+  ExportDataset.PowerShell.cs
+  ExportDataset.TypeConverter.cs
+  ExportDatasetConfiguration.cs
+  ExportDatasetConfiguration.json.cs
+  ExportDatasetConfiguration.PowerShell.cs
+  ExportDatasetConfiguration.TypeConverter.cs
+  ExportDefinition.cs
+  ExportDefinition.json.cs
+  ExportDefinition.PowerShell.cs
+  ExportDefinition.TypeConverter.cs
+  ExportDeliveryDestination.cs
+  ExportDeliveryDestination.json.cs
+  ExportDeliveryDestination.PowerShell.cs
+  ExportDeliveryDestination.TypeConverter.cs
+  ExportDeliveryInfo.cs
+  ExportDeliveryInfo.json.cs
+  ExportDeliveryInfo.PowerShell.cs
+  ExportDeliveryInfo.TypeConverter.cs
+  ExportExecution.cs
+  ExportExecution.json.cs
+  ExportExecution.PowerShell.cs
+  ExportExecution.TypeConverter.cs
+  ExportExecutionListResult.cs
+  ExportExecutionListResult.json.cs
+  ExportExecutionListResult.PowerShell.cs
+  ExportExecutionListResult.TypeConverter.cs
+  ExportExecutionProperties.cs
+  ExportExecutionProperties.json.cs
+  ExportExecutionProperties.PowerShell.cs
+  ExportExecutionProperties.TypeConverter.cs
+  ExportListResult.cs
+  ExportListResult.json.cs
+  ExportListResult.PowerShell.cs
+  ExportListResult.TypeConverter.cs
+  ExportProperties.cs
+  ExportProperties.json.cs
+  ExportProperties.PowerShell.cs
+  ExportProperties.TypeConverter.cs
+  ExportRecurrencePeriod.cs
+  ExportRecurrencePeriod.json.cs
+  ExportRecurrencePeriod.PowerShell.cs
+  ExportRecurrencePeriod.TypeConverter.cs
+  ExportSchedule.cs
+  ExportSchedule.json.cs
+  ExportSchedule.PowerShell.cs
+  ExportSchedule.TypeConverter.cs
+  ExportTimePeriod.cs
+  ExportTimePeriod.json.cs
+  ExportTimePeriod.PowerShell.cs
+  ExportTimePeriod.TypeConverter.cs
+  ForecastAggregation.cs
+  ForecastAggregation.json.cs
+  ForecastAggregation.PowerShell.cs
+  ForecastAggregation.TypeConverter.cs
+  ForecastColumn.cs
+  ForecastColumn.json.cs
+  ForecastColumn.PowerShell.cs
+  ForecastColumn.TypeConverter.cs
+  ForecastComparisonExpression.cs
+  ForecastComparisonExpression.json.cs
+  ForecastComparisonExpression.PowerShell.cs
+  ForecastComparisonExpression.TypeConverter.cs
+  ForecastDataset.cs
+  ForecastDataset.json.cs
+  ForecastDataset.PowerShell.cs
+  ForecastDataset.TypeConverter.cs
+  ForecastDatasetAggregation.cs
+  ForecastDatasetAggregation.dictionary.cs
+  ForecastDatasetAggregation.json.cs
+  ForecastDatasetAggregation.PowerShell.cs
+  ForecastDatasetAggregation.TypeConverter.cs
+  ForecastDatasetConfiguration.cs
+  ForecastDatasetConfiguration.json.cs
+  ForecastDatasetConfiguration.PowerShell.cs
+  ForecastDatasetConfiguration.TypeConverter.cs
+  ForecastDefinition.cs
+  ForecastDefinition.json.cs
+  ForecastDefinition.PowerShell.cs
+  ForecastDefinition.TypeConverter.cs
+  ForecastFilter.cs
+  ForecastFilter.json.cs
+  ForecastFilter.PowerShell.cs
+  ForecastFilter.TypeConverter.cs
+  ForecastProperties.cs
+  ForecastProperties.json.cs
+  ForecastProperties.PowerShell.cs
+  ForecastProperties.TypeConverter.cs
+  ForecastResult.cs
+  ForecastResult.json.cs
+  ForecastResult.PowerShell.cs
+  ForecastResult.TypeConverter.cs
+  ForecastTimePeriod.cs
+  ForecastTimePeriod.json.cs
+  ForecastTimePeriod.PowerShell.cs
+  ForecastTimePeriod.TypeConverter.cs
+  GenerateCostDetailsReportErrorResponse.cs
+  GenerateCostDetailsReportErrorResponse.json.cs
+  GenerateCostDetailsReportErrorResponse.PowerShell.cs
+  GenerateCostDetailsReportErrorResponse.TypeConverter.cs
+  GenerateCostDetailsReportRequestDefinition.cs
+  GenerateCostDetailsReportRequestDefinition.json.cs
+  GenerateCostDetailsReportRequestDefinition.PowerShell.cs
+  GenerateCostDetailsReportRequestDefinition.TypeConverter.cs
+  KpiProperties.cs
+  KpiProperties.json.cs
+  KpiProperties.PowerShell.cs
+  KpiProperties.TypeConverter.cs
+  Operation.cs
+  Operation.json.cs
+  Operation.PowerShell.cs
+  Operation.TypeConverter.cs
+  OperationDisplay.cs
+  OperationDisplay.json.cs
+  OperationDisplay.PowerShell.cs
+  OperationDisplay.TypeConverter.cs
+  OperationListResult.cs
+  OperationListResult.json.cs
+  OperationListResult.PowerShell.cs
+  OperationListResult.TypeConverter.cs
+  OperationStatus.cs
+  OperationStatus.json.cs
+  OperationStatus.PowerShell.cs
+  OperationStatus.TypeConverter.cs
+  PivotProperties.cs
+  PivotProperties.json.cs
+  PivotProperties.PowerShell.cs
+  PivotProperties.TypeConverter.cs
+  ProxyResource.cs
+  ProxyResource.json.cs
+  ProxyResource.PowerShell.cs
+  ProxyResource.TypeConverter.cs
+  QueryAggregation.cs
+  QueryAggregation.json.cs
+  QueryAggregation.PowerShell.cs
+  QueryAggregation.TypeConverter.cs
+  QueryColumn.cs
+  QueryColumn.json.cs
+  QueryColumn.PowerShell.cs
+  QueryColumn.TypeConverter.cs
+  QueryComparisonExpression.cs
+  QueryComparisonExpression.json.cs
+  QueryComparisonExpression.PowerShell.cs
+  QueryComparisonExpression.TypeConverter.cs
+  QueryDataset.cs
+  QueryDataset.json.cs
+  QueryDataset.PowerShell.cs
+  QueryDataset.TypeConverter.cs
+  QueryDatasetAggregation.cs
+  QueryDatasetAggregation.dictionary.cs
+  QueryDatasetAggregation.json.cs
+  QueryDatasetAggregation.PowerShell.cs
+  QueryDatasetAggregation.TypeConverter.cs
+  QueryDatasetConfiguration.cs
+  QueryDatasetConfiguration.json.cs
+  QueryDatasetConfiguration.PowerShell.cs
+  QueryDatasetConfiguration.TypeConverter.cs
+  QueryDefinition.cs
+  QueryDefinition.json.cs
+  QueryDefinition.PowerShell.cs
+  QueryDefinition.TypeConverter.cs
+  QueryFilter.cs
+  QueryFilter.json.cs
+  QueryFilter.PowerShell.cs
+  QueryFilter.TypeConverter.cs
+  QueryGrouping.cs
+  QueryGrouping.json.cs
+  QueryGrouping.PowerShell.cs
+  QueryGrouping.TypeConverter.cs
+  QueryProperties.cs
+  QueryProperties.json.cs
+  QueryProperties.PowerShell.cs
+  QueryProperties.TypeConverter.cs
+  QueryResult.cs
+  QueryResult.json.cs
+  QueryResult.PowerShell.cs
+  QueryResult.TypeConverter.cs
+  QueryTimePeriod.cs
+  QueryTimePeriod.json.cs
+  QueryTimePeriod.PowerShell.cs
+  QueryTimePeriod.TypeConverter.cs
+  ReportConfigAggregation.cs
+  ReportConfigAggregation.json.cs
+  ReportConfigAggregation.PowerShell.cs
+  ReportConfigAggregation.TypeConverter.cs
+  ReportConfigComparisonExpression.cs
+  ReportConfigComparisonExpression.json.cs
+  ReportConfigComparisonExpression.PowerShell.cs
+  ReportConfigComparisonExpression.TypeConverter.cs
+  ReportConfigDataset.cs
+  ReportConfigDataset.json.cs
+  ReportConfigDataset.PowerShell.cs
+  ReportConfigDataset.TypeConverter.cs
+  ReportConfigDatasetAggregation.cs
+  ReportConfigDatasetAggregation.dictionary.cs
+  ReportConfigDatasetAggregation.json.cs
+  ReportConfigDatasetAggregation.PowerShell.cs
+  ReportConfigDatasetAggregation.TypeConverter.cs
+  ReportConfigDatasetConfiguration.cs
+  ReportConfigDatasetConfiguration.json.cs
+  ReportConfigDatasetConfiguration.PowerShell.cs
+  ReportConfigDatasetConfiguration.TypeConverter.cs
+  ReportConfigDefinition.cs
+  ReportConfigDefinition.json.cs
+  ReportConfigDefinition.PowerShell.cs
+  ReportConfigDefinition.TypeConverter.cs
+  ReportConfigFilter.cs
+  ReportConfigFilter.json.cs
+  ReportConfigFilter.PowerShell.cs
+  ReportConfigFilter.TypeConverter.cs
+  ReportConfigGrouping.cs
+  ReportConfigGrouping.json.cs
+  ReportConfigGrouping.PowerShell.cs
+  ReportConfigGrouping.TypeConverter.cs
+  ReportConfigSorting.cs
+  ReportConfigSorting.json.cs
+  ReportConfigSorting.PowerShell.cs
+  ReportConfigSorting.TypeConverter.cs
+  ReportConfigTimePeriod.cs
+  ReportConfigTimePeriod.json.cs
+  ReportConfigTimePeriod.PowerShell.cs
+  ReportConfigTimePeriod.TypeConverter.cs
+  ReportManifest.cs
+  ReportManifest.json.cs
+  ReportManifest.PowerShell.cs
+  ReportManifest.TypeConverter.cs
+  ReportUrl.cs
+  ReportUrl.json.cs
+  ReportUrl.PowerShell.cs
+  ReportUrl.TypeConverter.cs
+  RequestContext.cs
+  RequestContext.json.cs
+  RequestContext.PowerShell.cs
+  RequestContext.TypeConverter.cs
+  Resource.cs
+  Resource.json.cs
+  Resource.PowerShell.cs
+  Resource.TypeConverter.cs
+  ResourceTags.cs
+  ResourceTags.dictionary.cs
+  ResourceTags.json.cs
+  ResourceTags.PowerShell.cs
+  ResourceTags.TypeConverter.cs
+  View.cs
+  View.json.cs
+  View.PowerShell.cs
+  View.TypeConverter.cs
+  ViewListResult.cs
+  ViewListResult.json.cs
+  ViewListResult.PowerShell.cs
+  ViewListResult.TypeConverter.cs
+  ViewProperties.cs
+  ViewProperties.json.cs
+  ViewProperties.PowerShell.cs
+  ViewProperties.TypeConverter.cs
+generated/cmdlets/
+ GetAzCostManagementExportExecutionHistory_Get.cs
+ GetAzCostManagementExportExecutionHistory_GetViaIdentity.cs
+ GetAzCostManagementExport_Get.cs
+ GetAzCostManagementExport_GetViaIdentity.cs
+ GetAzCostManagementExport_List.cs
+ GetAzCostManagementOperation_List.cs
+ InvokeAzCostManagementExecuteExport_Execute.cs
+ InvokeAzCostManagementExecuteExport_ExecuteViaIdentity.cs
+ InvokeAzCostManagementReservationDetailReport_By.cs
+ InvokeAzCostManagementReservationDetailReport_By1.cs
+ NewAzCostManagementDetailReport_CreateExpanded.cs
+ NewAzCostManagementDetailReport_CreateViaJsonFilePath.cs
+ NewAzCostManagementDetailReport_CreateViaJsonString.cs
+ NewAzCostManagementExport_CreateExpanded.cs
+ NewAzCostManagementExport_CreateViaJsonFilePath.cs
+ NewAzCostManagementExport_CreateViaJsonString.cs
+ RemoveAzCostManagementExport_Delete.cs
+ RemoveAzCostManagementExport_DeleteViaIdentity.cs
+ UpdateAzCostManagementExport_UpdateExpanded.cs
+ UpdateAzCostManagementExport_UpdateViaIdentityExpanded.cs
+ UpdateAzCostManagementExport_UpdateViaJsonFilePath.cs
+ UpdateAzCostManagementExport_UpdateViaJsonString.cs
+generated/
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.CostManagement.GeneratedMSBuildEditorConfig.editorconfig

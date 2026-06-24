@@ -1,0 +1,64 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=BatchModelGenerator
+CommandLineArgsForDesignTimeEvaluation=-langversion:9.0 -define:TRACE;DEBUG;NETSTANDARD
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=9.0
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=BatchModelGenerator
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETCoreApp
+TargetPath=<PATH>bin/Debug/BatchModelGenerator.dll
+TargetRefPath=<PATH>obj/Debug/ref/BatchModelGenerator.dll
+TemporaryDependencyNodeTargetIdentifier=net5.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/warn:5
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NET;NET5_0;NETCOREAPP;NET5_0_OR_GREATER;NETCOREAPP1_0_OR_GREATER;NETCOREAPP1_1_OR_GREATER;NETCOREAPP2_0_OR_GREATER;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_2_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\BatchModelGenerator.dll
+/refout:obj\Debug\refint\BatchModelGenerator.dll
+/target:exe
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:9.0
+
+[sourceFiles]
+obj/Debug/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs
+Program.cs
+
+[analyzerReferences]
+<DOTNET>/sdk/10.0.108/Sdks/Microsoft.NET.Sdk/analyzers/
+ Microsoft.CodeAnalysis.CSharp.NetAnalyzers.dll
+ Microsoft.CodeAnalysis.NetAnalyzers.dll
+
+[analyzerConfigFiles]
+<DOTNET>/sdk/10.0.108/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_5_default.globalconfig
+obj/Debug/BatchModelGenerator.GeneratedMSBuildEditorConfig.editorconfig

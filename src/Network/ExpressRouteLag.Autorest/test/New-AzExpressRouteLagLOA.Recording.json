@@ -1,0 +1,43 @@
+{
+  "New-AzExpressRouteLagLOA+[NoContext]+GenerateExpanded+$POST+https://management.azure.com/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/generateLoa?api-version=2025-09-01+1": {
+    "Request": {
+      "Method": "POST",
+      "RequestUri": "https://management.azure.com/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/generateLoa?api-version=2025-09-01",
+      "Content": "{\r\n  \"customerName\": \"Contoso\",\r\n  \"members\": [ \"member1\" ]\r\n}",
+      "isContentBase64": false,
+      "Headers": {
+      },
+      "ContentHeaders": {
+        "Content-Type": [ "application/json" ],
+        "Content-Length": [ "62" ]
+      }
+    },
+    "Response": {
+      "StatusCode": 200,
+      "Headers": {
+        "Cache-Control": [ "no-cache" ],
+        "Pragma": [ "no-cache" ],
+        "x-ms-request-id": [ "cb9a7377-fe6b-4326-9240-f83c5680adf0" ],
+        "x-ms-throttle-levels": [ "operationConcurrencyPct=0.3, etc" ],
+        "x-ms-correlation-request-id": [ "fed4cab5-a780-41d2-afcb-1b7f81170b91" ],
+        "x-ms-arm-service-request-id": [ "3562e370-e0cd-4400-b21a-5dcd7bfd5b6d" ],
+        "Strict-Transport-Security": [ "max-age=31536000; includeSubDomains" ],
+        "x-ms-operation-identifier": [ "tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47,objectId=b2518563-eafc-4ef4-aa06-011b62695a06/eastus2euap/92e114b9-d8aa-4640-afa6-7f656a5f7031" ],
+        "x-ms-throttling-version": [ "v2" ],
+        "x-ms-ratelimit-remaining-subscription-writes": [ "799" ],
+        "x-ms-routing-request-id": [ "EASTUS2EUAP:20260512T194326Z:fed4cab5-a780-41d2-afcb-1b7f81170b91" ],
+        "X-Content-Type-Options": [ "nosniff" ],
+        "X-Cache": [ "CONFIG_NOCACHE" ],
+        "X-MSEdge-Ref": [ "Ref A: FEEB262B96DF45D5A4DD23145BF0A3AF Ref B: CO1AA3060814062 Ref C: 2026-05-12T19:43:22Z" ],
+        "Date": [ "Tue, 12 May 2026 19:43:26 GMT" ]
+      },
+      "ContentHeaders": {
+        "Content-Length": [ "173681" ],
+        "Content-Type": [ "application/json; charset=utf-8" ],
+        "Expires": [ "-1" ]
+      },
+      "Content": "",
+      "isContentBase64": false
+    }
+  }
+}

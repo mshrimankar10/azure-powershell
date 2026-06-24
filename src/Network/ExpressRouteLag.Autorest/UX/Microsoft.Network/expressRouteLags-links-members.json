@@ -1,0 +1,57 @@
+{
+  "resourceType": "expressRouteLags/links/members",
+  "apiVersion": "2025-09-01",
+  "learnMore": {
+    "url": "https://learn.microsoft.com/powershell/module/az.network"
+  },
+  "commands": [
+    {
+      "name": "Get-AzExpressRouteLagMember",
+      "description": "Retrieves the specified ExpressRouteLagMember resource.",
+      "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/expressRouteLags/{expressRouteLagName}/links/{linkName}/members/{memberName}",
+      "help": {
+        "learnMore": {
+          "url": "https://learn.microsoft.com/powershell/module/az.network/get-azexpressroutelagmember"
+        },
+        "parameterSets": [
+          {
+            "parameters": [
+              "-ExpressRouteLagName <String>",
+              "-LinkName <String>",
+              "-MemberName <String>",
+              "-ResourceGroupName <String>",
+              "[-SubscriptionId <String[]>]"
+            ]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "description": "Retrieves the specified ExpressRouteLagMember resource.",
+          "parameters": [
+            {
+              "name": "-ExpressRouteLagName",
+              "value": "[Path.expressRouteLagName]"
+            },
+            {
+              "name": "-LinkName",
+              "value": "[Path.linkName]"
+            },
+            {
+              "name": "-MemberName",
+              "value": "[Path.memberName]"
+            },
+            {
+              "name": "-ResourceGroupName",
+              "value": "[Path.resourceGroupName]"
+            },
+            {
+              "name": "-SubscriptionId",
+              "value": "[Path.subscriptionId]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

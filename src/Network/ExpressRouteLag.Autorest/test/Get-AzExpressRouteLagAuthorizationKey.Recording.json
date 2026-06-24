@@ -1,0 +1,48 @@
+{
+  "Get-AzExpressRouteLagAuthorizationKey+[NoContext]+List+$POST+https://management.azure.com/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/authorizations/auth-c63trz/listKeys?api-version=2025-09-01+1": {
+    "Request": {
+      "Method": "POST",
+      "RequestUri": "https://management.azure.com/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/authorizations/auth-c63trz/listKeys?api-version=2025-09-01",
+      "Content": null,
+      "isContentBase64": false,
+      "Headers": {
+        "x-ms-unique-id": [ "2" ],
+        "x-ms-client-request-id": [ "c7f49841-a49f-463c-bab3-64b0971e3984" ],
+        "CommandName": [ "Get-AzExpressRouteLagAuthorizationKey" ],
+        "FullCommandName": [ "Get-AzExpressRouteLagAuthorizationKey_List" ],
+        "ParameterSetName": [ "__AllParameterSets" ],
+        "User-Agent": [ "AzurePowershell/v12.2.0", "PSVersion/v7.5.5", "Az.ExpressRouteLag/0.1.0" ],
+        "Authorization": [ "[Filtered]" ]
+      },
+      "ContentHeaders": {
+      }
+    },
+    "Response": {
+      "StatusCode": 200,
+      "Headers": {
+        "Cache-Control": [ "no-cache" ],
+        "Pragma": [ "no-cache" ],
+        "x-ms-request-id": [ "aceffed6-4128-4838-a8d1-56d242e00695" ],
+        "x-ms-throttle-levels": [ "operationConcurrencyPct=0.7, etc" ],
+        "x-ms-correlation-request-id": [ "8c62a254-3327-4257-9112-ec0da32f80a9" ],
+        "x-ms-arm-service-request-id": [ "3b58462b-d8e6-4b3f-8e46-ee2fa94ab15f" ],
+        "Strict-Transport-Security": [ "max-age=31536000; includeSubDomains" ],
+        "x-ms-operation-identifier": [ "tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47,objectId=b2518563-eafc-4ef4-aa06-011b62695a06/eastus2euap/5e4c79e3-169a-46c4-9dcd-bce715e5c606" ],
+        "x-ms-throttling-version": [ "v2" ],
+        "x-ms-ratelimit-remaining-subscription-writes": [ "799" ],
+        "x-ms-routing-request-id": [ "EASTUS2EUAP:20260512T194159Z:8c62a254-3327-4257-9112-ec0da32f80a9" ],
+        "X-Content-Type-Options": [ "nosniff" ],
+        "X-Cache": [ "CONFIG_NOCACHE" ],
+        "X-MSEdge-Ref": [ "Ref A: CD8072B66BBA4D66BCD7FA69512E09D6 Ref B: CO1AA3060820060 Ref C: 2026-05-12T19:41:59Z" ],
+        "Date": [ "Tue, 12 May 2026 19:41:59 GMT" ]
+      },
+      "ContentHeaders": {
+        "Content-Length": [ "59" ],
+        "Content-Type": [ "application/json; charset=utf-8" ],
+        "Expires": [ "-1" ]
+      },
+      "Content": "{\"authorizationKey\":\"f2639ebe-88b0-4041-ad30-9dbd5a627a3f\"}",
+      "isContentBase64": false
+    }
+  }
+}

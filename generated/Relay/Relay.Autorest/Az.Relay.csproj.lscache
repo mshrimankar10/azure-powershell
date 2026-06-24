@@ -1,0 +1,510 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.Relay.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.Relay/Relay.Autorest/bin/Az.Relay.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.Relay
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.Relay/Relay.Autorest/bin/Az.Relay.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.Relay/Relay.Autorest/bin/Az.Relay.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.Relay.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/Models/
+ AccessKeys.cs
+ AccessKeys.json.cs
+ AccessKeys.PowerShell.cs
+ AccessKeys.TypeConverter.cs
+ Any.cs
+ Any.json.cs
+ Any.PowerShell.cs
+ Any.TypeConverter.cs
+ AuthorizationRule.cs
+ AuthorizationRule.json.cs
+ AuthorizationRule.PowerShell.cs
+ AuthorizationRule.TypeConverter.cs
+ AuthorizationRuleListResult.cs
+ AuthorizationRuleListResult.json.cs
+ AuthorizationRuleListResult.PowerShell.cs
+ AuthorizationRuleListResult.TypeConverter.cs
+ AuthorizationRuleProperties.cs
+ AuthorizationRuleProperties.json.cs
+ AuthorizationRuleProperties.PowerShell.cs
+ AuthorizationRuleProperties.TypeConverter.cs
+ CheckNameAvailability.cs
+ CheckNameAvailability.json.cs
+ CheckNameAvailability.PowerShell.cs
+ CheckNameAvailability.TypeConverter.cs
+ CheckNameAvailabilityResult.cs
+ CheckNameAvailabilityResult.json.cs
+ CheckNameAvailabilityResult.PowerShell.cs
+ CheckNameAvailabilityResult.TypeConverter.cs
+ ConnectionState.cs
+ ConnectionState.json.cs
+ ConnectionState.PowerShell.cs
+ ConnectionState.TypeConverter.cs
+ ErrorAdditionalInfo.cs
+ ErrorAdditionalInfo.json.cs
+ ErrorAdditionalInfo.PowerShell.cs
+ ErrorAdditionalInfo.TypeConverter.cs
+ ErrorDetail.cs
+ ErrorDetail.json.cs
+ ErrorDetail.PowerShell.cs
+ ErrorDetail.TypeConverter.cs
+ ErrorResponse.cs
+ ErrorResponse.json.cs
+ ErrorResponse.PowerShell.cs
+ ErrorResponse.TypeConverter.cs
+ HybridConnection.cs
+ HybridConnection.json.cs
+ HybridConnection.PowerShell.cs
+ HybridConnection.TypeConverter.cs
+ HybridConnectionListResult.cs
+ HybridConnectionListResult.json.cs
+ HybridConnectionListResult.PowerShell.cs
+ HybridConnectionListResult.TypeConverter.cs
+ HybridConnectionProperties.cs
+ HybridConnectionProperties.json.cs
+ HybridConnectionProperties.PowerShell.cs
+ HybridConnectionProperties.TypeConverter.cs
+ NetworkRuleSet.cs
+ NetworkRuleSet.json.cs
+ NetworkRuleSet.PowerShell.cs
+ NetworkRuleSet.TypeConverter.cs
+ NetworkRuleSetProperties.cs
+ NetworkRuleSetProperties.json.cs
+ NetworkRuleSetProperties.PowerShell.cs
+ NetworkRuleSetProperties.TypeConverter.cs
+ NwRuleSetIPRules.cs
+ NwRuleSetIPRules.json.cs
+ NwRuleSetIPRules.PowerShell.cs
+ NwRuleSetIPRules.TypeConverter.cs
+ Operation.cs
+ Operation.json.cs
+ Operation.PowerShell.cs
+ Operation.TypeConverter.cs
+ OperationDisplay.cs
+ OperationDisplay.json.cs
+ OperationDisplay.PowerShell.cs
+ OperationDisplay.TypeConverter.cs
+ OperationListResult.cs
+ OperationListResult.json.cs
+ OperationListResult.PowerShell.cs
+ OperationListResult.TypeConverter.cs
+ PrivateEndpoint.cs
+ PrivateEndpoint.json.cs
+ PrivateEndpoint.PowerShell.cs
+ PrivateEndpoint.TypeConverter.cs
+ PrivateEndpointConnection.cs
+ PrivateEndpointConnection.json.cs
+ PrivateEndpointConnection.PowerShell.cs
+ PrivateEndpointConnection.TypeConverter.cs
+ PrivateEndpointConnectionListResult.cs
+ PrivateEndpointConnectionListResult.json.cs
+ PrivateEndpointConnectionListResult.PowerShell.cs
+ PrivateEndpointConnectionListResult.TypeConverter.cs
+ PrivateEndpointConnectionProperties.cs
+ PrivateEndpointConnectionProperties.json.cs
+ PrivateEndpointConnectionProperties.PowerShell.cs
+ PrivateEndpointConnectionProperties.TypeConverter.cs
+ PrivateLinkResource.cs
+ PrivateLinkResource.json.cs
+ PrivateLinkResource.PowerShell.cs
+ PrivateLinkResource.TypeConverter.cs
+ PrivateLinkResourceProperties.cs
+ PrivateLinkResourceProperties.json.cs
+ PrivateLinkResourceProperties.PowerShell.cs
+ PrivateLinkResourceProperties.TypeConverter.cs
+ PrivateLinkResourcesListResult.cs
+ PrivateLinkResourcesListResult.json.cs
+ PrivateLinkResourcesListResult.PowerShell.cs
+ PrivateLinkResourcesListResult.TypeConverter.cs
+ ProxyResource.cs
+ ProxyResource.json.cs
+ ProxyResource.PowerShell.cs
+ ProxyResource.TypeConverter.cs
+ RegenerateAccessKeyParameters.cs
+ RegenerateAccessKeyParameters.json.cs
+ RegenerateAccessKeyParameters.PowerShell.cs
+ RegenerateAccessKeyParameters.TypeConverter.cs
+ RelayIdentity.cs
+ RelayIdentity.json.cs
+ RelayIdentity.PowerShell.cs
+ RelayIdentity.TypeConverter.cs
+ RelayNamespace.cs
+ RelayNamespace.json.cs
+ RelayNamespace.PowerShell.cs
+ RelayNamespace.TypeConverter.cs
+ RelayNamespaceListResult.cs
+ RelayNamespaceListResult.json.cs
+ RelayNamespaceListResult.PowerShell.cs
+ RelayNamespaceListResult.TypeConverter.cs
+ RelayNamespaceProperties.cs
+ RelayNamespaceProperties.json.cs
+ RelayNamespaceProperties.PowerShell.cs
+ RelayNamespaceProperties.TypeConverter.cs
+ RelayUpdateParameters.cs
+ RelayUpdateParameters.json.cs
+ RelayUpdateParameters.PowerShell.cs
+ RelayUpdateParameters.TypeConverter.cs
+ Resource.cs
+ Resource.json.cs
+ Resource.PowerShell.cs
+ Resource.TypeConverter.cs
+ ResourceNamespacePatch.cs
+ ResourceNamespacePatch.json.cs
+ ResourceNamespacePatch.PowerShell.cs
+ ResourceNamespacePatch.TypeConverter.cs
+ ResourceNamespacePatchTags.cs
+ ResourceNamespacePatchTags.dictionary.cs
+ ResourceNamespacePatchTags.json.cs
+ ResourceNamespacePatchTags.PowerShell.cs
+ ResourceNamespacePatchTags.TypeConverter.cs
+ Sku.cs
+ Sku.json.cs
+ Sku.PowerShell.cs
+ Sku.TypeConverter.cs
+ SystemData.cs
+ SystemData.json.cs
+ SystemData.PowerShell.cs
+ SystemData.TypeConverter.cs
+ TrackedResource.cs
+ TrackedResource.json.cs
+ TrackedResource.PowerShell.cs
+ TrackedResource.TypeConverter.cs
+ TrackedResourceTags.cs
+ TrackedResourceTags.dictionary.cs
+ TrackedResourceTags.json.cs
+ TrackedResourceTags.PowerShell.cs
+ TrackedResourceTags.TypeConverter.cs
+ WcfRelay.cs
+ WcfRelay.json.cs
+ WcfRelay.PowerShell.cs
+ WcfRelay.TypeConverter.cs
+ WcfRelayProperties.cs
+ WcfRelayProperties.json.cs
+ WcfRelayProperties.PowerShell.cs
+ WcfRelayProperties.TypeConverter.cs
+ WcfRelaysListResult.cs
+ WcfRelaysListResult.json.cs
+ WcfRelaysListResult.PowerShell.cs
+ WcfRelaysListResult.TypeConverter.cs
+generated/
+ api/Relay.cs
+ cmdlets/
+  GetAzRelayAuthorizationRule_Get.cs
+  GetAzRelayAuthorizationRule_Get1.cs
+  GetAzRelayAuthorizationRule_Get2.cs
+  GetAzRelayAuthorizationRule_GetViaIdentity.cs
+  GetAzRelayAuthorizationRule_GetViaIdentity1.cs
+  GetAzRelayAuthorizationRule_GetViaIdentity2.cs
+  GetAzRelayAuthorizationRule_GetViaIdentityHybridConnection.cs
+  GetAzRelayAuthorizationRule_GetViaIdentityNamespace.cs
+  GetAzRelayAuthorizationRule_GetViaIdentityNamespace1.cs
+  GetAzRelayAuthorizationRule_GetViaIdentityNamespace2.cs
+  GetAzRelayAuthorizationRule_GetViaIdentityWcfRelay.cs
+  GetAzRelayAuthorizationRule_List.cs
+  GetAzRelayAuthorizationRule_List1.cs
+  GetAzRelayAuthorizationRule_List2.cs
+  GetAzRelayHybridConnection_Get.cs
+  GetAzRelayHybridConnection_GetViaIdentity.cs
+  GetAzRelayHybridConnection_GetViaIdentityNamespace.cs
+  GetAzRelayHybridConnection_List.cs
+  GetAzRelayKey_List.cs
+  GetAzRelayKey_List1.cs
+  GetAzRelayKey_List2.cs
+  GetAzRelayNamespaceNetworkRuleSet_Get.cs
+  GetAzRelayNamespaceNetworkRuleSet_GetViaIdentity.cs
+  GetAzRelayNamespace_Get.cs
+  GetAzRelayNamespace_GetViaIdentity.cs
+  GetAzRelayNamespace_List.cs
+  GetAzRelayNamespace_List1.cs
+  GetAzRelayOperation_List.cs
+  GetAzWcfRelay_Get.cs
+  GetAzWcfRelay_GetViaIdentity.cs
+  GetAzWcfRelay_GetViaIdentityNamespace.cs
+  GetAzWcfRelay_List.cs
+  NewAzRelayAuthorizationRule_CreateExpanded.cs
+  NewAzRelayAuthorizationRule_CreateExpanded1.cs
+  NewAzRelayAuthorizationRule_CreateExpanded2.cs
+  NewAzRelayAuthorizationRule_CreateViaJsonFilePath.cs
+  NewAzRelayAuthorizationRule_CreateViaJsonFilePath1.cs
+  NewAzRelayAuthorizationRule_CreateViaJsonFilePath2.cs
+  NewAzRelayAuthorizationRule_CreateViaJsonString.cs
+  NewAzRelayAuthorizationRule_CreateViaJsonString1.cs
+  NewAzRelayAuthorizationRule_CreateViaJsonString2.cs
+  NewAzRelayHybridConnection_Create.cs
+  NewAzRelayHybridConnection_CreateExpanded.cs
+  NewAzRelayHybridConnection_CreateViaIdentityNamespaceExpanded.cs
+  NewAzRelayHybridConnection_CreateViaJsonFilePath.cs
+  NewAzRelayHybridConnection_CreateViaJsonString.cs
+  NewAzRelayKey_RegenerateExpanded.cs
+  NewAzRelayKey_RegenerateExpanded1.cs
+  NewAzRelayKey_RegenerateExpanded2.cs
+  NewAzRelayKey_RegenerateViaJsonFilePath.cs
+  NewAzRelayKey_RegenerateViaJsonFilePath1.cs
+  NewAzRelayKey_RegenerateViaJsonFilePath2.cs
+  NewAzRelayKey_RegenerateViaJsonString.cs
+  NewAzRelayKey_RegenerateViaJsonString1.cs
+  NewAzRelayKey_RegenerateViaJsonString2.cs
+  NewAzRelayNamespaceNetworkRuleSet_CreateExpanded.cs
+  NewAzRelayNamespaceNetworkRuleSet_CreateViaIdentity.cs
+  NewAzRelayNamespaceNetworkRuleSet_CreateViaIdentityExpanded.cs
+  NewAzRelayNamespaceNetworkRuleSet_CreateViaJsonFilePath.cs
+  NewAzRelayNamespaceNetworkRuleSet_CreateViaJsonString.cs
+  NewAzRelayNamespace_CreateExpanded.cs
+  NewAzRelayNamespace_CreateViaIdentityExpanded.cs
+  NewAzRelayNamespace_CreateViaJsonFilePath.cs
+  NewAzRelayNamespace_CreateViaJsonString.cs
+  NewAzWcfRelay_Create.cs
+  NewAzWcfRelay_CreateExpanded.cs
+  NewAzWcfRelay_CreateViaIdentityNamespaceExpanded.cs
+  NewAzWcfRelay_CreateViaJsonFilePath.cs
+  NewAzWcfRelay_CreateViaJsonString.cs
+  RemoveAzRelayAuthorizationRule_Delete.cs
+  RemoveAzRelayAuthorizationRule_Delete1.cs
+  RemoveAzRelayAuthorizationRule_Delete2.cs
+  RemoveAzRelayAuthorizationRule_DeleteViaIdentity.cs
+  RemoveAzRelayAuthorizationRule_DeleteViaIdentity1.cs
+  RemoveAzRelayAuthorizationRule_DeleteViaIdentity2.cs
+  RemoveAzRelayAuthorizationRule_DeleteViaIdentityHybridConnection.cs
+  RemoveAzRelayAuthorizationRule_DeleteViaIdentityNamespace.cs
+  RemoveAzRelayAuthorizationRule_DeleteViaIdentityNamespace1.cs
+  RemoveAzRelayAuthorizationRule_DeleteViaIdentityNamespace2.cs
+  RemoveAzRelayAuthorizationRule_DeleteViaIdentityWcfRelay.cs
+  RemoveAzRelayHybridConnection_Delete.cs
+  RemoveAzRelayHybridConnection_DeleteViaIdentity.cs
+  RemoveAzRelayHybridConnection_DeleteViaIdentityNamespace.cs
+  RemoveAzRelayNamespace_Delete.cs
+  RemoveAzRelayNamespace_DeleteViaIdentity.cs
+  RemoveAzWcfRelay_Delete.cs
+  RemoveAzWcfRelay_DeleteViaIdentity.cs
+  RemoveAzWcfRelay_DeleteViaIdentityNamespace.cs
+  SetAzRelayAuthorizationRule_Update.cs
+  SetAzRelayAuthorizationRule_Update1.cs
+  SetAzRelayAuthorizationRule_Update2.cs
+  SetAzRelayAuthorizationRule_UpdateExpanded.cs
+  SetAzRelayAuthorizationRule_UpdateExpanded1.cs
+  SetAzRelayAuthorizationRule_UpdateExpanded2.cs
+  SetAzRelayAuthorizationRule_UpdateViaJsonFilePath.cs
+  SetAzRelayAuthorizationRule_UpdateViaJsonFilePath1.cs
+  SetAzRelayAuthorizationRule_UpdateViaJsonFilePath2.cs
+  SetAzRelayAuthorizationRule_UpdateViaJsonString.cs
+  SetAzRelayAuthorizationRule_UpdateViaJsonString1.cs
+  SetAzRelayAuthorizationRule_UpdateViaJsonString2.cs
+  SetAzRelayHybridConnection_Update.cs
+  SetAzRelayHybridConnection_UpdateExpanded.cs
+  SetAzRelayHybridConnection_UpdateViaJsonFilePath.cs
+  SetAzRelayHybridConnection_UpdateViaJsonString.cs
+  SetAzWcfRelay_Update.cs
+  SetAzWcfRelay_UpdateExpanded.cs
+  SetAzWcfRelay_UpdateViaJsonFilePath.cs
+  SetAzWcfRelay_UpdateViaJsonString.cs
+  TestAzRelayName_CheckExpanded.cs
+  TestAzRelayName_CheckViaJsonFilePath.cs
+  TestAzRelayName_CheckViaJsonString.cs
+  UpdateAzRelayAuthorizationRule_Update.cs
+  UpdateAzRelayAuthorizationRule_UpdateExpanded.cs
+  UpdateAzRelayAuthorizationRule_UpdateViaIdentity.cs
+  UpdateAzRelayAuthorizationRule_UpdateViaIdentityExpanded.cs
+  UpdateAzRelayAuthorizationRule_UpdateViaIdentityNamespace.cs
+  UpdateAzRelayAuthorizationRule_UpdateViaIdentityNamespaceExpanded.cs
+  UpdateAzRelayAuthorizationRule_UpdateViaIdentityWcfRelay.cs
+  UpdateAzRelayAuthorizationRule_UpdateViaIdentityWcfRelayExpanded.cs
+  UpdateAzRelayHybridConnection_Update.cs
+  UpdateAzRelayHybridConnection_UpdateExpanded.cs
+  UpdateAzRelayHybridConnection_UpdateViaIdentity.cs
+  UpdateAzRelayHybridConnection_UpdateViaIdentityExpanded.cs
+  UpdateAzRelayHybridConnection_UpdateViaIdentityNamespace.cs
+  UpdateAzRelayHybridConnection_UpdateViaIdentityNamespaceExpanded.cs
+  UpdateAzRelayNamespace_UpdateExpanded.cs
+  UpdateAzRelayNamespace_UpdateViaIdentityExpanded.cs
+  UpdateAzRelayNamespace_UpdateViaJsonFilePath.cs
+  UpdateAzRelayNamespace_UpdateViaJsonString.cs
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.Relay.GeneratedMSBuildEditorConfig.editorconfig

@@ -1,0 +1,404 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.Cmdlets.CosmosDB
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.CosmosDB/Microsoft.Azure.PowerShell.Cmdlets.CosmosDB.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.CosmosDB
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.CosmosDB/Microsoft.Azure.PowerShell.Cmdlets.CosmosDB.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.CosmosDB/Microsoft.Azure.PowerShell.Cmdlets.CosmosDB.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.Cmdlets.CosmosDB.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+AzureCosmosDBCmdletBase.cs
+Cassandra/
+ GetAzCosmosDBCassandraKeyspace.cs
+ GetAzCosmosDBCassandraKeyspaceThroughput.cs
+ GetAzCosmosDBCassandraTable.cs
+ GetAzCosmosDBCassandraTableThroughput.cs
+ InvokeAzCosmosDBCassandraKeyspaceThroughputMigration.cs
+ InvokeAzCosmosDBCassandraTableThroughputMigration.cs
+ NewAzCosmosDBCassandraClusterKey.cs
+ NewAzCosmosDBCassandraColumn.cs
+ NewAzCosmosDBCassandraKeyspace.cs
+ NewAzCosmosDBCassandraSchema.cs
+ NewAzCosmosDBCassandraTable.cs
+ RemoveAzCosmosDBCassandraKeyspace.cs
+ RemoveAzCosmosDBCassandraTable.cs
+ UpdateAzCosmosDBCassandraKeyspace.cs
+ UpdateAzCosmosDBCassandraKeyspaceThroughput.cs
+ UpdateAzCosmosDBCassandraTable.cs
+ UpdateAzCosmosDBCassandraTableThroughput.cs
+CosmosDBAccount/
+ GetAzCosmosDBAccount.cs
+ GetAzCosmosDBAccountKey.cs
+ NewAzCosmosDBAccount.cs
+ NewAzCosmosDBAccountKey.cs
+ NewAzCosmosDBDatabaseToRestore.cs
+ NewAzCosmosDBGremlinDatabaseToRestore.cs
+ NewAzCosmosDBLocationObject.cs
+ NewAzCosmosDBTableToRestore.cs
+ NewAzCosmosDBVirtualNetworkRule.cs
+ NewOrUpdateAzCosmosDBAccount.cs
+ RemoveAzCosmosDBAccount.cs
+ RestoreAzCosmosDBAccount.cs
+ RestoreRequestDynamicParameters.cs
+ UpdateAzCosmosDBAccount.cs
+ UpdateAzCosmosDBAccountFailoverPriority.cs
+ UpdateAzCosmosDBAccountRegion.cs
+Exceptions/
+ ConflictingResourceException.cs
+ ExceptionMessage.cs
+ ResourceNotFoundException.cs
+Fleet/
+ AddAzCosmosDBFleetspaceAccount.cs
+ GetAzCosmosDBFleet.cs
+ GetAzCosmosDBFleetspace.cs
+ GetAzCosmosDBFleetspaceAccount.cs
+ NewAzCosmosDBFleet.cs
+ NewAzCosmosDBFleetspace.cs
+ RemoveAzCosmosDBFleet.cs
+ RemoveAzCosmosDBFleetspace.cs
+ RemoveAzCosmosDBFleetspaceAccount.cs
+ UpdateAzCosmosDBFleet.cs
+ UpdateAzCosmosDBFleetspace.cs
+GetAzCosmosDBLocation.cs
+Gremlin/
+ GetAzCosmosDBGremlinDatabase.cs
+ GetAzCosmosDBGremlinDatabaseThroughput.cs
+ GetAzCosmosDBGremlinGraph.cs
+ GetAzCosmosDBGremlinGraphBackupInformation.cs
+ GetAzCosmosDBGremlinGraphThroughput.cs
+ InvokeAzCosmosDBGremlinDatabaseThroughputMigration.cs
+ InvokeAzCosmosDBGremlinGraphThroughputMigration.cs
+ NewAzCosmosDBGremlinCompositePath.cs
+ NewAzCosmosDBGremlinConflictResolutionPolicy.cs
+ NewAzCosmosDBGremlinDatabase.cs
+ NewAzCosmosDBGremlinGraph.cs
+ NewAzCosmosDBGremlinIncludedPath.cs
+ NewAzCosmosDBGremlinIncludedPathIndex.cs
+ NewAzCosmosDBGremlinIndexingPolicy.cs
+ NewAzCosmosDBGremlinSpatialSpec.cs
+ NewAzCosmosDBGremlinUniqueKey.cs
+ NewAzCosmosDBGremlinUniqueKeyPolicy.cs
+ RemoveAzCosmosDBGremlinDatabase.cs
+ RemoveAzCosmosDBGremlinGraph.cs
+ RestoreAzCosmosDBGremlinDatabase.cs
+ RestoreAzCosmosDBGremlinGraph.cs
+ UpdateAzCosmosDBGremlinDatabase.cs
+ UpdateAzCosmosDBGremlinDatabaseThroughput.cs
+ UpdateAzCosmosDBGremlinGraph.cs
+ UpdateAzCosmosDBGremlinGraphThroughput.cs
+Helpers/
+ Constants.cs
+ CosmosDBSessionCredential.cs
+ MongoRoleHelper.cs
+ ResourceIdentifierExtensions.cs
+ RoleHelper.cs
+ TableRoleHelper.cs
+ ThroughputHelper.cs
+ManagedCassandra/
+ GetAzManagedCassandraCluster.cs
+ GetAzManagedCassandraDatacenter.cs
+ NewAzManagedCassandraCluster.cs
+ NewAzManagedCassandraDatacenter.cs
+ NewOrUpdateAzManagedCassandraCluster.cs
+ NewOrUpdateAzManagedCassandraDatacenter.cs
+ RemoveAzManagedCassandraCluster.cs
+ RemoveAzManagedCassandraDatacenter.cs
+ UpdateAzManagedCassandraCluster.cs
+ UpdateAzManagedCassandraDatacenter.cs
+MigrateAzCosmosDBThroughput.cs
+Models/Cassandra/
+ PSCassandraKeyspaceGetPropertiesResource.cs
+ PSCassandraKeyspaceGetResults.cs
+ PSCassandraPartitionKey.cs
+ PSCassandraSchema.cs
+ PSCassandraTableGetPropertiesResource.cs
+ PSCassandraTableGetResults.cs
+ PSClusterKey.cs
+ PSColumn.cs
+Models/DatabaseAccount/
+ PSAnalyticalStorageConfiguration.cs
+ PSApiProperties.cs
+ PSBackupPolicy.cs
+ PSBackupPolicyMigrationState.cs
+ PSDatabaseAccountGetResults.cs
+ PSDatabaseAccountKeys.cs
+ PSLocation.cs
+ PSLocationGetResult.cs
+ PSLocationProperties.cs
+ PSVirtualNetworkRule.cs
+Models/Gremlin/
+ PSGremlinDatabaseGetPropertiesResource.cs
+ PSGremlinDatabaseGetResults.cs
+ PSGremlinGraphGetPropertiesResource.cs
+ PSGremlinGraphGetResults.cs
+Models/ManagedCassandra/
+ PSCertificate.cs
+ PSClusterResource.cs
+ PSClusterResourceProperties.cs
+ PSDataCenterResource.cs
+ PSDataCenterResourceProperties.cs
+ PSSeedNode.cs
+Models/
+ ModelHelper.cs
+ MongoDB/
+  PSMongoDBCollectionGetPropertiesResource.cs
+  PSMongoDBCollectionGetResults.cs
+  PSMongoDBDatabaseGetPropertiesResource.cs
+  PSMongoDBDatabaseGetResults.cs
+  PSMongoDBRoleDefinitionGetResults.cs
+  PSMongoDBUserDefinitionGetResults.cs
+  PSMongoIndex.cs
+  PSMongoIndexKeys.cs
+  PSMongoIndexOptions.cs
+  PSMongoPrivilege.cs
+  PSMongoPrivilegeResource.cs
+  PSMongoRole.cs
+ PSAutoscaleSettingsResource.cs
+ PSClientEncryptionIncludedPath.cs
+ PSClientEncryptionPolicy.cs
+ PSCompositePath.cs
+ PSConflictResolutionPolicy.cs
+ PSContainerPartitionKey.cs
+ PSExcludedPath.cs
+ PSFleetGetResults.cs
+ PSFleetspaceAccountGetResults.cs
+ PSFleetspaceGetResults.cs
+ PSIncludedPath.cs
+ PSIndexes.cs
+ PSIndexingPolicy.cs
+ PSKeyWrapMetadata.cs
+ PSSpatialSpec.cs
+ PSThroughputSettingsGetResults.cs
+ PSUniqueKey.cs
+ PSUniqueKeyPolicy.cs
+ PSVectorEmbedding.cs
+ PSVectorEmbeddingPolicy.cs
+ PSVectorIndex.cs
+ Restore/Gremlin/
+  PSGraphBackupInformation.cs
+  PSGremlinDatabaseToRestore.cs
+  PSRestorableGremlinDatabaseGetResult.cs
+  PSRestorableGremlinGraphGetResult.cs
+ Restore/MongoDB/
+  PSMongoDBBackupInformation.cs
+  PSRestorableMongodbCollectionGetResult.cs
+  PSRestorableMongodbDatabaseGetResult.cs
+ Restore/
+  PSDatabaseToRestore.cs
+  PSRestorableDatabaseAccountGetResult.cs
+  PSRestorableLocationResource.cs
+  PSRestoreParameters.cs
+  Sql/
+   PSRestorableSqlContainerGetResult.cs
+   PSRestorableSqlContainerPropertiesResourceContainer.cs
+   PSRestorableSqlDatabaseGetResult.cs
+   PSRestorableSqlDatabasePropertiesResourceDatabase.cs
+   PSSqlBackupInformation.cs
+  Table/
+   PSRestorableTableGetResult.cs
+   PSTableBackupInformation.cs
+   PSTablesToRestore.cs
+ Service/PSServiceGetResults.cs
+ Sql/
+  PSPermission.cs
+  PSSqlClientEncryptionIncludedPath.cs
+  PSSqlClientEncryptionKeyGetPropertiesResource.cs
+  PSSqlClientEncryptionKeyGetResults.cs
+  PSSqlClientEncryptionPolicy.cs
+  PSSqlConflictResolutionPolicy.cs
+  PSSqlContainerGetPropertiesResource.cs
+  PSSqlContainerGetResults.cs
+  PSSqlDatabaseGetPropertiesResource.cs
+  PSSqlDatabaseGetResults.cs
+  PSSqlIndexingPolicy.cs
+  PSSqlKeyWrapMetadata.cs
+  PSSqlRoleAssignmentGetResults.cs
+  PSSqlRoleDefinitionGetResults.cs
+  PSSqlStoredProcedureGetPropertiesResource.cs
+  PSSqlStoredProcedureGetResults.cs
+  PSSqlTriggerGetPropertiesResource.cs
+  PSSqlTriggerGetResults.cs
+  PSSqlUniqueKey.cs
+  PSSqlUniqueKeyPolicy.cs
+  PSSqlUserDefinedFunctionGetPropertiesResource.cs
+  PSSqlUserDefinedFunctionGetResults.cs
+  PSSqlVectorEmbedding.cs
+  PSSqlVectorEmbeddingPolicy.cs
+  PSSqlVectorIndex.cs
+ Table/
+  PSTableGetPropertiesResource.cs
+  PSTableGetResults.cs
+  PSTableRoleAssignmentGetResults.cs
+  PSTableRoleDefinitionGetResults.cs
+MongoDB/
+ GetAzCosmosDBMongoDBCollection.cs
+ GetAzCosmosDBMongoDBCollectionBackupInformation.cs
+ GetAzCosmosDBMongoDBCollectionThroughput.cs
+ GetAzCosmosDBMongoDBDatabase.cs
+ GetAzCosmosDBMongoDBDatabaseThroughput.cs
+ GetAzCosmosDBMongoDBRoleDefinition.cs
+ GetAzCosmosDBMongoDBUserDefinition.cs
+ InvokeAzCosmosDBMongoDBCollectionThroughputMigration.cs
+ InvokeAzCosmosDBMongoDBDatabaseThroughputMigration.cs
+ NewAzCosmosDBMongoDBCollection.cs
+ NewAzCosmosDBMongoDBDatabase.cs
+ NewAzCosmosDBMongoDBIndex.cs
+ NewAzCosmosDBMongoDBPrivilege.cs
+ NewAzCosmosDBMongoDBPrivilegeResource.cs
+ NewAzCosmosDBMongoDBRole.cs
+ NewAzCosmosDBMongoDBRoleDefinition.cs
+ NewAzCosmosDBMongoDBUserDefinition.cs
+ RemoveAzCosmosDBMongoDBCollection.cs
+ RemoveAzCosmosDBMongoDBDatabase.cs
+ RemoveAzCosmosDBMongoDBRoleDefinition.cs
+ RemoveAzCosmosDBMongoDBUserDefinition.cs
+ RestoreAzCosmosDBMongoDBCollection.cs
+ RestoreAzCosmosDBMongoDBDatabase.cs
+ UpdateAzCosmosDBMongoDBCollection.cs
+ UpdateAzCosmosDBMongoDBCollectionThroughput.cs
+ UpdateAzCosmosDBMongoDBDatabase.cs
+ UpdateAzCosmosDBMongoDBDatabaseThroughput.cs
+ UpdateAzCosmosDBMongoDBRoleDefinition.cs
+ UpdateAzCosmosDBMongoDBUserDefinition.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+Restore/
+ GetAzCosmosDBGremlinRestorableDatabase.cs
+ GetAzCosmosDBGremlinRestorableGraph.cs
+ GetAzCosmosDBGremlinRestorableResource.cs
+ GetAzCosmosDBMongoDBRestorableCollection.cs
+ GetAzCosmosDBMongoDBRestorableDatabase.cs
+ GetAzCosmosDBMongoDBRestorableResource.cs
+ GetAzCosmosDBRestorableDatabaseAccount.cs
+ GetAzCosmosDBSqlRestorableContainer.cs
+ GetAzCosmosDBSqlRestorableDatabase.cs
+ GetAzCosmosDBSqlRestorableResource.cs
+ GetAzCosmosDBTableRestorableResource.cs
+ GetAzCosmosDBTableRestorableTable.cs
+Service/
+ GetAzCosmosDBService.cs
+ NewAzCosmosDBService.cs
+ RemoveAzCosmosDBService.cs
+SQL/
+ GetAzCosmosDbClientEncryptionKey.cs
+ GetAzCosmosDBSqlContainer.cs
+ GetAzCosmosDBSqlContainerBackupInformation.cs
+ GetAzCosmosDBSqlContainerThroughput.cs
+ GetAzCosmosDBSqlDatabase.cs
+ GetAzCosmosDBSqlDatabaseThroughput.cs
+ GetAzCosmosDBSqlRoleAssignment.cs
+ GetAzCosmosDBSqlRoleDefinition.cs
+ GetAzCosmosDBSqlStoredProcedure.cs
+ GetAzCosmosDBSqlTrigger.cs
+ GetAzCosmosDBSqlUserDefinedFunction.cs
+ InvokeAzCosmosDBSqlContainerThroughputMigration.cs
+ InvokeAzCosmosDBSqlDatabaseThroughputMigration.cs
+ NewAzCosmosDbClientEncryptionKey.cs
+ NewAzCosmosDBPermission.cs
+ NewAzCosmosDBSqlCompositePath.cs
+ NewAzCosmosDBSqlConflictResolutionPolicy.cs
+ NewAzCosmosDBSqlContainer.cs
+ NewAzCosmosDBSqlDatabase.cs
+ NewAzCosmosDBSqlIncludedPath.cs
+ NewAzCosmosDBSqlIncludedPathIndex.cs
+ NewAzCosmosDBSqlIndexingPolicy.cs
+ NewAzCosmosDBSqlRoleAssignment.cs
+ NewAzCosmosDBSqlRoleDefinition.cs
+ NewAzCosmosDBSqlSpatialSpec.cs
+ NewAzCosmosDBSqlStoredProcedure.cs
+ NewAzCosmosDBSqlTrigger.cs
+ NewAzCosmosDBSqlUniqueKey.cs
+ NewAzCosmosDBSqlUniqueKeyPolicy.cs
+ NewAzCosmosDBSqlUserDefinedFunction.cs
+ NewAzCosmosDBSqlVectorEmbedding.cs
+ NewAzCosmosDBSqlVectorEmbeddingPolicy.cs
+ NewAzCosmosDBSqlVectorIndex.cs
+ RemoveAzCosmosDBSqlContainer.cs
+ RemoveAzCosmosDBSqlDatabase.cs
+ RemoveAzCosmosDBSqlRoleAssignment.cs
+ RemoveAzCosmosDBSqlRoleDefinition.cs
+ RemoveAzCosmosDBSqlStoredProcedure.cs
+ RemoveAzCosmosDBSqlTrigger.cs
+ RemoveAzCosmosDBSqlUserDefinedFunction.cs
+ RestoreAzCosmosDBSqlContainer.cs
+ RestoreAzCosmosDBSqlDatabase.cs
+ UpdateAzCosmosDbClientEncryptionKey.cs
+ UpdateAzCosmosDBSqlContainer.cs
+ UpdateAzCosmosDBSqlContainerThroughput.cs
+ UpdateAzCosmosDBSqlDatabase.cs
+ UpdateAzCosmosDBSqlDatabaseThroughput.cs
+ UpdateAzCosmosDBSqlRoleAssignment.cs
+ UpdateAzCosmosDBSqlRoleDefinition.cs
+ UpdateAzCosmosDBSqlStoredProcedure.cs
+ UpdateAzCosmosDBSqlTrigger.cs
+ UpdateAzCosmosDBSqlUserDefinedFunction.cs
+Table/
+ GetAzCosmosDBTable.cs
+ GetAzCosmosDBTableBackupInformation.cs
+ GetAzCosmosDBTableRoleAssignment.cs
+ GetAzCosmosDBTableRoleDefinition.cs
+ GetAzCosmosDBTableThroughput.cs
+ InvokeAzCosmosDBTableThroughputMigration.cs
+ NewAzCosmosDBTable.cs
+ NewAzCosmosDBTableRoleAssignment.cs
+ NewAzCosmosDBTableRoleDefinition.cs
+ RemoveAzCosmosDBTable.cs
+ RemoveAzCosmosDBTableRoleAssignment.cs
+ RemoveAzCosmosDBTableRoleDefinition.cs
+ RestoreAzCosmosDBTable.cs
+ UpdateAzCosmosDBTable.cs
+ UpdateAzCosmosDBTableRoleAssignment.cs
+ UpdateAzCosmosDBTableRoleDefinition.cs
+ UpdateAzCosmosDBTableThroughput.cs
+UpdateAzCosmosDBThroughput.cs
+
+[metadataReferences]
+../../../artifacts/Debug/Az.CosmosDB/Microsoft.Azure.PowerShell.CosmosDB.Management.Sdk.dll
+
+[analyzerConfigFiles]
+obj/Debug/CosmosDB.GeneratedMSBuildEditorConfig.editorconfig

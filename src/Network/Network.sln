@@ -95,6 +95,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NetworkSecurityPerimeter.Au
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Az.NetworkSecurityPerimeter", "..\..\generated\Network\NetworkSecurityPerimeter.Autorest\Az.NetworkSecurityPerimeter.csproj", "{A6A6852F-A15C-4F33-8C40-77848FB22E18}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExpressRouteLag.Autorest", "ExpressRouteLag.Autorest", "{30DE3E85-F6DE-DBD5-1745-94E8C44EB9C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Az.ExpressRouteLag", "..\..\generated\Network\ExpressRouteLag.Autorest\Az.ExpressRouteLag.csproj", "{245FE592-42FD-4EED-9DEA-E7CFB3193D46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -609,6 +613,18 @@ Global
 		{A6A6852F-A15C-4F33-8C40-77848FB22E18}.Release|x64.Build.0 = Release|Any CPU
 		{A6A6852F-A15C-4F33-8C40-77848FB22E18}.Release|x86.ActiveCfg = Release|Any CPU
 		{A6A6852F-A15C-4F33-8C40-77848FB22E18}.Release|x86.Build.0 = Release|Any CPU
+		{245FE592-42FD-4EED-9DEA-E7CFB3193D46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{245FE592-42FD-4EED-9DEA-E7CFB3193D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{245FE592-42FD-4EED-9DEA-E7CFB3193D46}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{245FE592-42FD-4EED-9DEA-E7CFB3193D46}.Debug|x64.Build.0 = Debug|Any CPU
+		{245FE592-42FD-4EED-9DEA-E7CFB3193D46}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{245FE592-42FD-4EED-9DEA-E7CFB3193D46}.Debug|x86.Build.0 = Debug|Any CPU
+		{245FE592-42FD-4EED-9DEA-E7CFB3193D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{245FE592-42FD-4EED-9DEA-E7CFB3193D46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{245FE592-42FD-4EED-9DEA-E7CFB3193D46}.Release|x64.ActiveCfg = Release|Any CPU
+		{245FE592-42FD-4EED-9DEA-E7CFB3193D46}.Release|x64.Build.0 = Release|Any CPU
+		{245FE592-42FD-4EED-9DEA-E7CFB3193D46}.Release|x86.ActiveCfg = Release|Any CPU
+		{245FE592-42FD-4EED-9DEA-E7CFB3193D46}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -642,5 +658,6 @@ Global
 		{2CFDC89F-326F-4E90-BB35-97763282B447} = {64E7C944-C1C6-401E-AF80-F7B1C94C45D2}
 		{794AED8B-5574-477B-B332-0730A0DF4DA8} = {64E7C944-C1C6-401E-AF80-F7B1C94C45D2}
 		{A6A6852F-A15C-4F33-8C40-77848FB22E18} = {3812C005-6816-54B0-F21E-A6FE92A91FD4}
+		{245FE592-42FD-4EED-9DEA-E7CFB3193D46} = {30DE3E85-F6DE-DBD5-1745-94E8C44EB9C3}
 	EndGlobalSection
 EndGlobal

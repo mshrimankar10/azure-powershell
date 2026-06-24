@@ -1,0 +1,600 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.AppComplianceAutomation.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.AppComplianceAutomation/AppComplianceAutomation.Autorest/bin/Az.AppComplianceAutomation.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.AppComplianceAutomation
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.AppComplianceAutomation/AppComplianceAutomation.Autorest/bin/Az.AppComplianceAutomation.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.AppComplianceAutomation/AppComplianceAutomation.Autorest/bin/Az.AppComplianceAutomation.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.AppComplianceAutomation.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/
+ AppComplianceAutomation/AppComplianceAutomation.Autorest/custom/csharp/GetAzAppComplianceAutomationSnapshot_List.cs
+  @folderNames=csharp
+ shared/ConfigKeys.cs
+generated/api/
+ AppComplianceAutomation.cs
+ Models/
+  Any.cs
+  Any.json.cs
+  Any.PowerShell.cs
+  Any.TypeConverter.cs
+  AppComplianceAutomationIdentity.cs
+  AppComplianceAutomationIdentity.json.cs
+  AppComplianceAutomationIdentity.PowerShell.cs
+  AppComplianceAutomationIdentity.TypeConverter.cs
+  Category.cs
+  Category.json.cs
+  Category.PowerShell.cs
+  Category.TypeConverter.cs
+  CertSyncRecord.cs
+  CertSyncRecord.json.cs
+  CertSyncRecord.PowerShell.cs
+  CertSyncRecord.TypeConverter.cs
+  CheckNameAvailabilityRequest.cs
+  CheckNameAvailabilityRequest.json.cs
+  CheckNameAvailabilityRequest.PowerShell.cs
+  CheckNameAvailabilityRequest.TypeConverter.cs
+  CheckNameAvailabilityResponse.cs
+  CheckNameAvailabilityResponse.json.cs
+  CheckNameAvailabilityResponse.PowerShell.cs
+  CheckNameAvailabilityResponse.TypeConverter.cs
+  ComplianceReportItem.cs
+  ComplianceReportItem.json.cs
+  ComplianceReportItem.PowerShell.cs
+  ComplianceReportItem.TypeConverter.cs
+  ComplianceResult.cs
+  ComplianceResult.json.cs
+  ComplianceResult.PowerShell.cs
+  ComplianceResult.TypeConverter.cs
+  Control.cs
+  Control.json.cs
+  Control.PowerShell.cs
+  Control.TypeConverter.cs
+  ControlFamily.cs
+  ControlFamily.json.cs
+  ControlFamily.PowerShell.cs
+  ControlFamily.TypeConverter.cs
+  ControlSyncRecord.cs
+  ControlSyncRecord.json.cs
+  ControlSyncRecord.PowerShell.cs
+  ControlSyncRecord.TypeConverter.cs
+  DownloadResponse.cs
+  DownloadResponse.json.cs
+  DownloadResponse.PowerShell.cs
+  DownloadResponse.TypeConverter.cs
+  DownloadResponseComplianceDetailedPdfReport.cs
+  DownloadResponseComplianceDetailedPdfReport.json.cs
+  DownloadResponseComplianceDetailedPdfReport.PowerShell.cs
+  DownloadResponseComplianceDetailedPdfReport.TypeConverter.cs
+  DownloadResponseCompliancePdfReport.cs
+  DownloadResponseCompliancePdfReport.json.cs
+  DownloadResponseCompliancePdfReport.PowerShell.cs
+  DownloadResponseCompliancePdfReport.TypeConverter.cs
+  ErrorAdditionalInfo.cs
+  ErrorAdditionalInfo.json.cs
+  ErrorAdditionalInfo.PowerShell.cs
+  ErrorAdditionalInfo.TypeConverter.cs
+  ErrorDetail.cs
+  ErrorDetail.json.cs
+  ErrorDetail.PowerShell.cs
+  ErrorDetail.TypeConverter.cs
+  ErrorResponse.cs
+  ErrorResponse.json.cs
+  ErrorResponse.PowerShell.cs
+  ErrorResponse.TypeConverter.cs
+  EvidenceFileDownloadRequest.cs
+  EvidenceFileDownloadRequest.json.cs
+  EvidenceFileDownloadRequest.PowerShell.cs
+  EvidenceFileDownloadRequest.TypeConverter.cs
+  EvidenceFileDownloadResponse.cs
+  EvidenceFileDownloadResponse.json.cs
+  EvidenceFileDownloadResponse.PowerShell.cs
+  EvidenceFileDownloadResponse.TypeConverter.cs
+  EvidenceFileDownloadResponseEvidenceFile.cs
+  EvidenceFileDownloadResponseEvidenceFile.json.cs
+  EvidenceFileDownloadResponseEvidenceFile.PowerShell.cs
+  EvidenceFileDownloadResponseEvidenceFile.TypeConverter.cs
+  EvidenceProperties.cs
+  EvidenceProperties.json.cs
+  EvidenceProperties.PowerShell.cs
+  EvidenceProperties.TypeConverter.cs
+  EvidenceResource.cs
+  EvidenceResource.json.cs
+  EvidenceResource.PowerShell.cs
+  EvidenceResource.TypeConverter.cs
+  EvidenceResourceListResult.cs
+  EvidenceResourceListResult.json.cs
+  EvidenceResourceListResult.PowerShell.cs
+  EvidenceResourceListResult.TypeConverter.cs
+  GetCollectionCountRequest.cs
+  GetCollectionCountRequest.json.cs
+  GetCollectionCountRequest.PowerShell.cs
+  GetCollectionCountRequest.TypeConverter.cs
+  GetCollectionCountResponse.cs
+  GetCollectionCountResponse.json.cs
+  GetCollectionCountResponse.PowerShell.cs
+  GetCollectionCountResponse.TypeConverter.cs
+  GetOverviewStatusRequest.cs
+  GetOverviewStatusRequest.json.cs
+  GetOverviewStatusRequest.PowerShell.cs
+  GetOverviewStatusRequest.TypeConverter.cs
+  GetOverviewStatusResponse.cs
+  GetOverviewStatusResponse.json.cs
+  GetOverviewStatusResponse.PowerShell.cs
+  GetOverviewStatusResponse.TypeConverter.cs
+  ListInUseStorageAccountsRequest.cs
+  ListInUseStorageAccountsRequest.json.cs
+  ListInUseStorageAccountsRequest.PowerShell.cs
+  ListInUseStorageAccountsRequest.TypeConverter.cs
+  ListInUseStorageAccountsResponse.cs
+  ListInUseStorageAccountsResponse.json.cs
+  ListInUseStorageAccountsResponse.PowerShell.cs
+  ListInUseStorageAccountsResponse.TypeConverter.cs
+  OnboardRequest.cs
+  OnboardRequest.json.cs
+  OnboardRequest.PowerShell.cs
+  OnboardRequest.TypeConverter.cs
+  OnboardResponse.cs
+  OnboardResponse.json.cs
+  OnboardResponse.PowerShell.cs
+  OnboardResponse.TypeConverter.cs
+  Operation.cs
+  Operation.json.cs
+  Operation.PowerShell.cs
+  Operation.TypeConverter.cs
+  OperationDisplay.cs
+  OperationDisplay.json.cs
+  OperationDisplay.PowerShell.cs
+  OperationDisplay.TypeConverter.cs
+  OperationListResult.cs
+  OperationListResult.json.cs
+  OperationListResult.PowerShell.cs
+  OperationListResult.TypeConverter.cs
+  OverviewStatus.cs
+  OverviewStatus.json.cs
+  OverviewStatus.PowerShell.cs
+  OverviewStatus.TypeConverter.cs
+  ProxyResource.cs
+  ProxyResource.json.cs
+  ProxyResource.PowerShell.cs
+  ProxyResource.TypeConverter.cs
+  QuickAssessment.cs
+  QuickAssessment.json.cs
+  QuickAssessment.PowerShell.cs
+  QuickAssessment.TypeConverter.cs
+  Recommendation.cs
+  Recommendation.json.cs
+  Recommendation.PowerShell.cs
+  Recommendation.TypeConverter.cs
+  RecommendationSolution.cs
+  RecommendationSolution.json.cs
+  RecommendationSolution.PowerShell.cs
+  RecommendationSolution.TypeConverter.cs
+  ReportComplianceStatus.cs
+  ReportComplianceStatus.json.cs
+  ReportComplianceStatus.PowerShell.cs
+  ReportComplianceStatus.TypeConverter.cs
+  ReportFixResult.cs
+  ReportFixResult.json.cs
+  ReportFixResult.PowerShell.cs
+  ReportFixResult.TypeConverter.cs
+  ReportPatchProperties.cs
+  ReportPatchProperties.json.cs
+  ReportPatchProperties.PowerShell.cs
+  ReportPatchProperties.TypeConverter.cs
+  ReportProperties.cs
+  ReportProperties.json.cs
+  ReportProperties.PowerShell.cs
+  ReportProperties.TypeConverter.cs
+  ReportResource.cs
+  ReportResource.json.cs
+  ReportResource.PowerShell.cs
+  ReportResource.TypeConverter.cs
+  ReportResourceListResult.cs
+  ReportResourceListResult.json.cs
+  ReportResourceListResult.PowerShell.cs
+  ReportResourceListResult.TypeConverter.cs
+  ReportResourcePatch.cs
+  ReportResourcePatch.json.cs
+  ReportResourcePatch.PowerShell.cs
+  ReportResourcePatch.TypeConverter.cs
+  ReportVerificationResult.cs
+  ReportVerificationResult.json.cs
+  ReportVerificationResult.PowerShell.cs
+  ReportVerificationResult.TypeConverter.cs
+  Resource.cs
+  Resource.json.cs
+  Resource.PowerShell.cs
+  Resource.TypeConverter.cs
+  ResourceItem.cs
+  ResourceItem.json.cs
+  ResourceItem.PowerShell.cs
+  ResourceItem.TypeConverter.cs
+  ResourceMetadata.cs
+  ResourceMetadata.json.cs
+  ResourceMetadata.PowerShell.cs
+  ResourceMetadata.TypeConverter.cs
+  Responsibility.cs
+  Responsibility.json.cs
+  Responsibility.PowerShell.cs
+  Responsibility.TypeConverter.cs
+  ResponsibilityResource.cs
+  ResponsibilityResource.json.cs
+  ResponsibilityResource.PowerShell.cs
+  ResponsibilityResource.TypeConverter.cs
+  ScopingAnswer.cs
+  ScopingAnswer.json.cs
+  ScopingAnswer.PowerShell.cs
+  ScopingAnswer.TypeConverter.cs
+  ScopingConfigurationProperties.cs
+  ScopingConfigurationProperties.json.cs
+  ScopingConfigurationProperties.PowerShell.cs
+  ScopingConfigurationProperties.TypeConverter.cs
+  ScopingConfigurationResource.cs
+  ScopingConfigurationResource.json.cs
+  ScopingConfigurationResource.PowerShell.cs
+  ScopingConfigurationResource.TypeConverter.cs
+  ScopingConfigurationResourceListResult.cs
+  ScopingConfigurationResourceListResult.json.cs
+  ScopingConfigurationResourceListResult.PowerShell.cs
+  ScopingConfigurationResourceListResult.TypeConverter.cs
+  ScopingQuestion.cs
+  ScopingQuestion.json.cs
+  ScopingQuestion.PowerShell.cs
+  ScopingQuestion.TypeConverter.cs
+  ScopingQuestions.cs
+  ScopingQuestions.json.cs
+  ScopingQuestions.PowerShell.cs
+  ScopingQuestions.TypeConverter.cs
+  SnapshotDownloadRequest.cs
+  SnapshotDownloadRequest.json.cs
+  SnapshotDownloadRequest.PowerShell.cs
+  SnapshotDownloadRequest.TypeConverter.cs
+  SnapshotProperties.cs
+  SnapshotProperties.json.cs
+  SnapshotProperties.PowerShell.cs
+  SnapshotProperties.TypeConverter.cs
+  SnapshotResource.cs
+  SnapshotResource.json.cs
+  SnapshotResource.PowerShell.cs
+  SnapshotResource.TypeConverter.cs
+  SnapshotResourceListResult.cs
+  SnapshotResourceListResult.json.cs
+  SnapshotResourceListResult.PowerShell.cs
+  SnapshotResourceListResult.TypeConverter.cs
+  StatusItem.cs
+  StatusItem.json.cs
+  StatusItem.PowerShell.cs
+  StatusItem.TypeConverter.cs
+  StorageInfo.cs
+  StorageInfo.json.cs
+  StorageInfo.PowerShell.cs
+  StorageInfo.TypeConverter.cs
+  SyncCertRecordRequest.cs
+  SyncCertRecordRequest.json.cs
+  SyncCertRecordRequest.PowerShell.cs
+  SyncCertRecordRequest.TypeConverter.cs
+  SyncCertRecordResponse.cs
+  SyncCertRecordResponse.json.cs
+  SyncCertRecordResponse.PowerShell.cs
+  SyncCertRecordResponse.TypeConverter.cs
+  SystemData.cs
+  SystemData.json.cs
+  SystemData.PowerShell.cs
+  SystemData.TypeConverter.cs
+  TriggerEvaluationProperty.cs
+  TriggerEvaluationProperty.json.cs
+  TriggerEvaluationProperty.PowerShell.cs
+  TriggerEvaluationProperty.TypeConverter.cs
+  TriggerEvaluationRequest.cs
+  TriggerEvaluationRequest.json.cs
+  TriggerEvaluationRequest.PowerShell.cs
+  TriggerEvaluationRequest.TypeConverter.cs
+  TriggerEvaluationResponse.cs
+  TriggerEvaluationResponse.json.cs
+  TriggerEvaluationResponse.PowerShell.cs
+  TriggerEvaluationResponse.TypeConverter.cs
+  WebhookProperties.cs
+  WebhookProperties.json.cs
+  WebhookProperties.PowerShell.cs
+  WebhookProperties.TypeConverter.cs
+  WebhookResource.cs
+  WebhookResource.json.cs
+  WebhookResource.PowerShell.cs
+  WebhookResource.TypeConverter.cs
+  WebhookResourceListResult.cs
+  WebhookResourceListResult.json.cs
+  WebhookResourceListResult.PowerShell.cs
+  WebhookResourceListResult.TypeConverter.cs
+  WebhookResourcePatch.cs
+  WebhookResourcePatch.json.cs
+  WebhookResourcePatch.PowerShell.cs
+  WebhookResourcePatch.TypeConverter.cs
+generated/cmdlets/
+ GetAzAppComplianceAutomationEvidence_Get.cs
+ GetAzAppComplianceAutomationEvidence_List.cs
+ GetAzAppComplianceAutomationOperation_List.cs
+ GetAzAppComplianceAutomationProviderActionCollectionCount_Get.cs
+ GetAzAppComplianceAutomationProviderActionCollectionCount_GetExpanded.cs
+ GetAzAppComplianceAutomationProviderActionCollectionCount_GetViaJsonFilePath.cs
+ GetAzAppComplianceAutomationProviderActionCollectionCount_GetViaJsonString.cs
+ GetAzAppComplianceAutomationProviderActionOverviewStatus_Get.cs
+ GetAzAppComplianceAutomationProviderActionOverviewStatus_GetExpanded.cs
+ GetAzAppComplianceAutomationProviderActionOverviewStatus_GetViaJsonFilePath.cs
+ GetAzAppComplianceAutomationProviderActionOverviewStatus_GetViaJsonString.cs
+ GetAzAppComplianceAutomationProviderAction_List.cs
+ GetAzAppComplianceAutomationProviderAction_ListExpanded.cs
+ GetAzAppComplianceAutomationProviderAction_ListViaJsonFilePath.cs
+ GetAzAppComplianceAutomationProviderAction_ListViaJsonString.cs
+ GetAzAppComplianceAutomationReportScopingQuestion_Get.cs
+ GetAzAppComplianceAutomationReport_Get.cs
+ GetAzAppComplianceAutomationReport_List.cs
+ GetAzAppComplianceAutomationScopingConfiguration_Get.cs
+ GetAzAppComplianceAutomationScopingConfiguration_List.cs
+ GetAzAppComplianceAutomationSnapshot_Get.cs
+ GetAzAppComplianceAutomationSnapshot_List.cs
+ GetAzAppComplianceAutomationWebhook_Get.cs
+ GetAzAppComplianceAutomationWebhook_List.cs
+ InvokeAzAppComplianceAutomationDownloadEvidence_Download.cs
+ InvokeAzAppComplianceAutomationDownloadEvidence_DownloadExpanded.cs
+ InvokeAzAppComplianceAutomationDownloadEvidence_DownloadViaIdentity.cs
+ InvokeAzAppComplianceAutomationDownloadEvidence_DownloadViaIdentityExpanded.cs
+ InvokeAzAppComplianceAutomationDownloadEvidence_DownloadViaIdentityReport.cs
+ InvokeAzAppComplianceAutomationDownloadEvidence_DownloadViaIdentityReportExpanded.cs
+ InvokeAzAppComplianceAutomationDownloadEvidence_DownloadViaJsonFilePath.cs
+ InvokeAzAppComplianceAutomationDownloadEvidence_DownloadViaJsonString.cs
+ InvokeAzAppComplianceAutomationDownloadSnapshot_Download.cs
+ InvokeAzAppComplianceAutomationDownloadSnapshot_DownloadExpanded.cs
+ InvokeAzAppComplianceAutomationDownloadSnapshot_DownloadViaIdentity.cs
+ InvokeAzAppComplianceAutomationDownloadSnapshot_DownloadViaIdentityExpanded.cs
+ InvokeAzAppComplianceAutomationDownloadSnapshot_DownloadViaIdentityReport.cs
+ InvokeAzAppComplianceAutomationDownloadSnapshot_DownloadViaIdentityReportExpanded.cs
+ InvokeAzAppComplianceAutomationDownloadSnapshot_DownloadViaJsonFilePath.cs
+ InvokeAzAppComplianceAutomationDownloadSnapshot_DownloadViaJsonString.cs
+ InvokeAzAppComplianceAutomationFixReport_Fix.cs
+ InvokeAzAppComplianceAutomationFixReport_FixViaIdentity.cs
+ InvokeAzAppComplianceAutomationOnboardProviderAction_Onboard.cs
+ InvokeAzAppComplianceAutomationOnboardProviderAction_OnboardExpanded.cs
+ InvokeAzAppComplianceAutomationOnboardProviderAction_OnboardViaJsonFilePath.cs
+ InvokeAzAppComplianceAutomationOnboardProviderAction_OnboardViaJsonString.cs
+ NewAzAppComplianceAutomationEvidence_Create.cs
+ NewAzAppComplianceAutomationEvidence_CreateExpanded.cs
+ NewAzAppComplianceAutomationEvidence_CreateViaIdentityReport.cs
+ NewAzAppComplianceAutomationEvidence_CreateViaIdentityReportExpanded.cs
+ NewAzAppComplianceAutomationEvidence_CreateViaJsonFilePath.cs
+ NewAzAppComplianceAutomationEvidence_CreateViaJsonString.cs
+ NewAzAppComplianceAutomationReport_Create.cs
+ NewAzAppComplianceAutomationReport_CreateExpanded.cs
+ NewAzAppComplianceAutomationReport_CreateViaJsonFilePath.cs
+ NewAzAppComplianceAutomationReport_CreateViaJsonString.cs
+ NewAzAppComplianceAutomationScopingConfiguration_Create.cs
+ NewAzAppComplianceAutomationScopingConfiguration_CreateExpanded.cs
+ NewAzAppComplianceAutomationScopingConfiguration_CreateViaIdentityReport.cs
+ NewAzAppComplianceAutomationScopingConfiguration_CreateViaIdentityReportExpanded.cs
+ NewAzAppComplianceAutomationScopingConfiguration_CreateViaJsonFilePath.cs
+ NewAzAppComplianceAutomationScopingConfiguration_CreateViaJsonString.cs
+ NewAzAppComplianceAutomationWebhook_Create.cs
+ NewAzAppComplianceAutomationWebhook_CreateExpanded.cs
+ NewAzAppComplianceAutomationWebhook_CreateViaIdentityReport.cs
+ NewAzAppComplianceAutomationWebhook_CreateViaIdentityReportExpanded.cs
+ NewAzAppComplianceAutomationWebhook_CreateViaJsonFilePath.cs
+ NewAzAppComplianceAutomationWebhook_CreateViaJsonString.cs
+ RemoveAzAppComplianceAutomationEvidence_Delete.cs
+ RemoveAzAppComplianceAutomationEvidence_DeleteViaIdentityReport.cs
+ RemoveAzAppComplianceAutomationReport_Delete.cs
+ RemoveAzAppComplianceAutomationScopingConfiguration_Delete.cs
+ RemoveAzAppComplianceAutomationScopingConfiguration_DeleteViaIdentityReport.cs
+ RemoveAzAppComplianceAutomationWebhook_Delete.cs
+ RemoveAzAppComplianceAutomationWebhook_DeleteViaIdentityReport.cs
+ StartAzAppComplianceAutomationProviderActionEvaluation_Trigger.cs
+ StartAzAppComplianceAutomationProviderActionEvaluation_TriggerExpanded.cs
+ StartAzAppComplianceAutomationProviderActionEvaluation_TriggerViaJsonFilePath.cs
+ StartAzAppComplianceAutomationProviderActionEvaluation_TriggerViaJsonString.cs
+ UpdateAzAppComplianceAutomationEvidence_Update.cs
+ UpdateAzAppComplianceAutomationEvidence_UpdateExpanded.cs
+ UpdateAzAppComplianceAutomationEvidence_UpdateViaIdentityReport.cs
+ UpdateAzAppComplianceAutomationEvidence_UpdateViaIdentityReportExpanded.cs
+ UpdateAzAppComplianceAutomationReport_Update.cs
+ UpdateAzAppComplianceAutomationReport_UpdateExpanded.cs
+ UpdateAzAppComplianceAutomationReport_UpdateViaJsonFilePath.cs
+ UpdateAzAppComplianceAutomationReport_UpdateViaJsonString.cs
+ UpdateAzAppComplianceAutomationScopingConfiguration_Update.cs
+ UpdateAzAppComplianceAutomationScopingConfiguration_UpdateExpanded.cs
+ UpdateAzAppComplianceAutomationScopingConfiguration_UpdateViaIdentityReport.cs
+ UpdateAzAppComplianceAutomationScopingConfiguration_UpdateViaIdentityReportExpanded.cs
+ UpdateAzAppComplianceAutomationWebhook_Update.cs
+ UpdateAzAppComplianceAutomationWebhook_UpdateExpanded.cs
+ UpdateAzAppComplianceAutomationWebhook_UpdateViaIdentityReport.cs
+ UpdateAzAppComplianceAutomationWebhook_UpdateViaIdentityReportExpanded.cs
+ UpdateAzAppComplianceAutomationWebhook_UpdateViaJsonFilePath.cs
+ UpdateAzAppComplianceAutomationWebhook_UpdateViaJsonString.cs
+generated/
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.AppComplianceAutomation.GeneratedMSBuildEditorConfig.editorconfig

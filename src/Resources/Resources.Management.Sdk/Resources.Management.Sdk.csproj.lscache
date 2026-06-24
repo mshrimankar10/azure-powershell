@@ -1,0 +1,352 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.Resources.Management.Sdk
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.Resources/Microsoft.Azure.PowerShell.Resources.Management.Sdk.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.Management.Resources
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.Resources/Microsoft.Azure.PowerShell.Resources.Management.Sdk.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,CS0108,CS1573,CS1570,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.Resources/Microsoft.Azure.PowerShell.Resources.Management.Sdk.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.Resources.Management.Sdk.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+Customizations/Models/
+ GenericResource.cs
+ GenericResourceExpanded.cs
+ WhatIfChange.cs
+Generated/
+ DeploymentOperations.cs
+ DeploymentOperationsExtensions.cs
+ DeploymentScriptsClient.cs
+ DeploymentScriptsOperations.cs
+ DeploymentScriptsOperationsExtensions.cs
+ DeploymentsOperations.cs
+ DeploymentsOperationsExtensions.cs
+ DeploymentStacksClient.cs
+ DeploymentStacksOperations.cs
+ DeploymentStacksOperationsExtensions.cs
+ FeatureClient.cs
+ FeatureClientExtensions.cs
+ FeaturesOperations.cs
+ FeaturesOperationsExtensions.cs
+ IDeploymentOperations.cs
+ IDeploymentScriptsClient.cs
+ IDeploymentScriptsOperations.cs
+ IDeploymentsOperations.cs
+ IDeploymentStacksClient.cs
+ IDeploymentStacksOperations.cs
+ IFeatureClient.cs
+ IFeaturesOperations.cs
+ IOperations.cs
+ IPrivateLinkAssociationOperations.cs
+ IProviderResourceTypesOperations.cs
+ IProvidersOperations.cs
+ IResourceGroupsOperations.cs
+ IResourceManagementClient.cs
+ IResourceManagementPrivateLinkOperations.cs
+ IResourcePrivateLinkClient.cs
+ IResourcesOperations.cs
+ ISubscriptionClient.cs
+ ISubscriptionFeatureRegistrationsOperations.cs
+ ISubscriptionsOperations.cs
+ ITagsOperations.cs
+ ITemplateSpecsClient.cs
+ ITemplateSpecsOperations.cs
+ ITemplateSpecVersionsOperations.cs
+ ITenantsOperations.cs
+ Models/
+  ActionOnUnmanage.cs
+  Alias.cs
+  AliasPath.cs
+  AliasPathAttributes.cs
+  AliasPathMetadata.cs
+  AliasPathTokenType.cs
+  AliasPattern.cs
+  AliasPatternType.cs
+  AliasType.cs
+  ApiProfile.cs
+  AuthorizationProfile.cs
+  AvailabilityZonePeers.cs
+  AzureCliScript.cs
+  AzureCliScriptProperties.cs
+  AzurePowerShellScript.cs
+  AzurePowerShellScriptProperties.cs
+  AzureResourceBase.cs
+  BasicDependency.cs
+  ChangeType.cs
+  CheckResourceNameResult.cs
+  CheckZonePeersRequest.cs
+  CheckZonePeersResult.cs
+  CleanupOptions.cs
+  ContainerConfiguration.cs
+  CreatedByType.cs
+  DebugSetting.cs
+  DenySettings.cs
+  DenySettingsMode.cs
+  DenyStatusMode.cs
+  Dependency.cs
+  Deployment.cs
+  DeploymentDiagnosticsDefinition.cs
+  DeploymentExportResult.cs
+  DeploymentExtended.cs
+  DeploymentExtendedFilter.cs
+  DeploymentMode.cs
+  DeploymentOperation.cs
+  DeploymentOperationProperties.cs
+  DeploymentParameter.cs
+  DeploymentProperties.cs
+  DeploymentPropertiesExtended.cs
+  DeploymentScript.cs
+  DeploymentScriptsError.cs
+  DeploymentScriptsErrorException.cs
+  DeploymentScriptUpdateParameter.cs
+  DeploymentStack.cs
+  DeploymentStackProperties.cs
+  DeploymentStackProvisioningState.cs
+  DeploymentStacksDebugSetting.cs
+  DeploymentStacksDeleteAtManagementGroupHeaders.cs
+  DeploymentStacksDeleteAtResourceGroupHeaders.cs
+  DeploymentStacksDeleteAtSubscriptionHeaders.cs
+  DeploymentStacksDeleteDetachEnum.cs
+  DeploymentStacksError.cs
+  DeploymentStacksErrorException.cs
+  DeploymentStacksParametersLink.cs
+  DeploymentStacksTemplateLink.cs
+  DeploymentStacksValidateStackAtManagementGroupHeaders.cs
+  DeploymentStacksValidateStackAtResourceGroupHeaders.cs
+  DeploymentStacksValidateStackAtSubscriptionHeaders.cs
+  DeploymentStackTemplateDefinition.cs
+  DeploymentStackValidateProperties.cs
+  DeploymentStackValidateResult.cs
+  DeploymentsWhatIfAtManagementGroupScopeHeaders.cs
+  DeploymentsWhatIfAtSubscriptionScopeHeaders.cs
+  DeploymentsWhatIfAtTenantScopeHeaders.cs
+  DeploymentsWhatIfHeaders.cs
+  DeploymentValidateResult.cs
+  DeploymentWhatIf.cs
+  DeploymentWhatIfProperties.cs
+  DeploymentWhatIfSettings.cs
+  EnvironmentVariable.cs
+  ErrorAdditionalInfo.cs
+  ErrorDefinition.cs
+  ErrorDetail.cs
+  ErrorResponse.cs
+  ErrorResponseAutoGenerated.cs
+  ErrorResponseAutoGeneratedException.cs
+  ErrorResponseException.cs
+  ExportTemplateOutputFormat.cs
+  ExportTemplateRequest.cs
+  ExpressionEvaluationOptions.cs
+  ExpressionEvaluationOptionsScopeType.cs
+  ExtendedLocation.cs
+  ExtendedLocationType.cs
+  FeatureProperties.cs
+  FeatureResult.cs
+  GenericResource.cs
+  GenericResourceExpanded.cs
+  GenericResourceFilter.cs
+  HttpMessage.cs
+  Identity.cs
+  IdentityUserAssignedIdentitiesValue.cs
+  KeyVaultParameterReference.cs
+  KeyVaultReference.cs
+  Level.cs
+  LinkedTemplateArtifact.cs
+  Location.cs
+  LocationMetadata.cs
+  LocationType.cs
+  LogProperties.cs
+  ManagedByTenant.cs
+  ManagedResourceReference.cs
+  ManagedServiceIdentity.cs
+  ManagedServiceIdentityType.cs
+  OnErrorDeployment.cs
+  OnErrorDeploymentExtended.cs
+  OnErrorDeploymentType.cs
+  Operation.cs
+  OperationDisplay.cs
+  OperationListResult.cs
+  Page.cs
+  Page1.cs
+  PairedRegion.cs
+  ParametersLink.cs
+  Peers.cs
+  Permission.cs
+  Plan.cs
+  PrivateLinkAssociation.cs
+  PrivateLinkAssociationGetResult.cs
+  PrivateLinkAssociationObject.cs
+  PrivateLinkAssociationProperties.cs
+  PrivateLinkAssociationPropertiesExpanded.cs
+  PropertyChangeType.cs
+  Provider.cs
+  ProviderAuthorizationConsentState.cs
+  ProviderConsentDefinition.cs
+  ProviderExtendedLocation.cs
+  ProviderPermission.cs
+  ProviderPermissionListResult.cs
+  ProviderRegistrationRequest.cs
+  ProviderResourceType.cs
+  ProviderResourceTypeListResult.cs
+  ProvisioningOperation.cs
+  ProvisioningState.cs
+  ProxyResource.cs
+  PublicNetworkAccessOptions.cs
+  RegionCategory.cs
+  RegionType.cs
+  Resource.cs
+  ResourceGroup.cs
+  ResourceGroupExportResult.cs
+  ResourceGroupFilter.cs
+  ResourceGroupFilterWithExpand.cs
+  ResourceGroupPatchable.cs
+  ResourceGroupProperties.cs
+  ResourceGroupsDeleteHeaders.cs
+  ResourceIdentityType.cs
+  ResourceManagementPrivateLink.cs
+  ResourceManagementPrivateLinkEndpointConnections.cs
+  ResourceManagementPrivateLinkListResult.cs
+  ResourceManagementPrivateLinkLocation.cs
+  ResourceName.cs
+  ResourceNameStatus.cs
+  ResourceProviderOperationDisplayProperties.cs
+  ResourceReference.cs
+  ResourceReferenceExtended.cs
+  ResourcesMoveInfo.cs
+  ResourceStatusMode.cs
+  RoleDefinition.cs
+  ScopedDeployment.cs
+  ScopedDeploymentWhatIf.cs
+  ScriptLog.cs
+  ScriptLogsList.cs
+  ScriptProvisioningState.cs
+  ScriptStatus.cs
+  ScriptType.cs
+  Sku.cs
+  SpendingLimit.cs
+  StatusMessage.cs
+  StorageAccountConfiguration.cs
+  SubResource.cs
+  Subscription.cs
+  SubscriptionFeatureRegistration.cs
+  SubscriptionFeatureRegistrationApprovalType.cs
+  SubscriptionFeatureRegistrationProperties.cs
+  SubscriptionFeatureRegistrationState.cs
+  SubscriptionPolicies.cs
+  SubscriptionState.cs
+  SystemData.cs
+  TagCount.cs
+  TagDetails.cs
+  Tags.cs
+  TagsCreateOrUpdateAtScopeHeaders.cs
+  TagsDeleteAtScopeHeaders.cs
+  TagsPatchOperation.cs
+  TagsPatchResource.cs
+  TagsResource.cs
+  TagsUpdateAtScopeHeaders.cs
+  TagValue.cs
+  TargetResource.cs
+  TemplateHashResult.cs
+  TemplateLink.cs
+  TemplateSpec.cs
+  TemplateSpecExpandKind.cs
+  TemplateSpecProperties.cs
+  TemplateSpecsError.cs
+  TemplateSpecsErrorException.cs
+  TemplateSpecUpdateModel.cs
+  TemplateSpecVersion.cs
+  TemplateSpecVersionInfo.cs
+  TemplateSpecVersionProperties.cs
+  TemplateSpecVersionUpdateModel.cs
+  TenantCategory.cs
+  TenantIdDescription.cs
+  UnmanageActionManagementGroupMode.cs
+  UnmanageActionResourceGroupMode.cs
+  UnmanageActionResourceMode.cs
+  UserAssignedIdentity.cs
+  ValidationLevel.cs
+  WhatIfChange.cs
+  WhatIfOperationProperties.cs
+  WhatIfOperationResult.cs
+  WhatIfPropertyChange.cs
+  WhatIfResultFormat.cs
+  ZoneMapping.cs
+ Operations.cs
+ OperationsExtensions.cs
+ PrivateLinkAssociationOperations.cs
+ PrivateLinkAssociationOperationsExtensions.cs
+ ProviderResourceTypesOperations.cs
+ ProviderResourceTypesOperationsExtensions.cs
+ ProvidersOperations.cs
+ ProvidersOperationsExtensions.cs
+ ResourceGroupsOperations.cs
+ ResourceGroupsOperationsExtensions.cs
+ ResourceManagementClient.cs
+ ResourceManagementPrivateLinkOperations.cs
+ ResourceManagementPrivateLinkOperationsExtensions.cs
+ ResourcePrivateLinkClient.cs
+ ResourcesOperations.cs
+ ResourcesOperationsExtensions.cs
+ SubscriptionClient.cs
+ SubscriptionClientExtensions.cs
+ SubscriptionFeatureRegistrationsOperations.cs
+ SubscriptionFeatureRegistrationsOperationsExtensions.cs
+ SubscriptionsOperations.cs
+ SubscriptionsOperationsExtensions.cs
+ TagsOperations.cs
+ TagsOperationsExtensions.cs
+ TemplateSpecsClient.cs
+ TemplateSpecsOperations.cs
+ TemplateSpecsOperationsExtensions.cs
+ TemplateSpecVersionsOperations.cs
+ TemplateSpecVersionsOperationsExtensions.cs
+ TenantsOperations.cs
+ TenantsOperationsExtensions.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+Utility/SafeJsonConvertWrapper.cs
+
+[analyzerConfigFiles]
+obj/Debug/Resources.Management.Sdk.GeneratedMSBuildEditorConfig.editorconfig

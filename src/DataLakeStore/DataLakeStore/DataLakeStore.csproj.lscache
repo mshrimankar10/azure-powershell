@@ -1,0 +1,135 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.Cmdlets.DataLakeStore
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.DataLakeStore/Microsoft.Azure.PowerShell.Cmdlets.DataLakeStore.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.Commands.DataLakeStore
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.DataLakeStore/Microsoft.Azure.PowerShell.Cmdlets.DataLakeStore.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.DataLakeStore/Microsoft.Azure.PowerShell.Cmdlets.DataLakeStore.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.Cmdlets.DataLakeStore.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+Commands/
+ AddAzureRmDataLakeStoreFirewallRule.cs
+ AddAzureRmDataLakeStoreTrustedIdProvider.cs
+ AddAzureRmDataLakeStoreVirtualNetworkRule.cs
+ EnableAzureRmDataLakeStoreKeyVault.cs
+ GetAzureRmDataLakeStoreAccount.cs
+ GetAzureRmDataLakeStoreFirewallRule.cs
+ GetAzureRmDataLakeStoreTrustedIdProvider.cs
+ GetAzureRmDataLakeStoreVirtualNetworkRule.cs
+ NewAzureRmDataLakeStoreAccount.cs
+ RemoveAzureRmDataLakeStoreAccount.cs
+ RemoveAzureRmDataLakeStoreFirewallRule.cs
+ RemoveAzureRmDataLakeStoreTrustedIdProvider.cs
+ RemoveAzureRmDataLakeStoreVirtualNetworkRule.cs
+ SetAzureRmDataLakeStoreAccount.cs
+ SetAzureRmDataLakeStoreFirewallRule.cs
+ SetAzureRmDataLakeStoreTrustedIdProvider.cs
+ SetAzureRmDataLakeStoreVirtualNetworkRule.cs
+ TestAzureRmDataLakeStoreAccount.cs
+DataPlaneCommands/
+ AddAzureRmDataLakeStoreItemContent.cs
+ ExportAzureRmDataLakeStoreChildItemProperties.cs
+ ExportAzureRmDataLakeStoreItem.cs
+ GetAzureRmDataLakeStoreChildItem.cs
+ GetAzureRmDataLakeStoreChildItemSummary.cs
+ GetAzureRmDataLakeStoreDeletedItem.cs
+ GetAzureRmDataLakeStoreDeletedItemsWithToken.cs
+ GetAzureRmDataLakeStoreItem.cs
+ GetAzureRmDataLakeStoreItemAclEntry.cs
+ GetAzureRmDataLakeStoreItemContent.cs
+ GetAzureRmDataLakeStoreItemOwner.cs
+ GetAzureRmDataLakeStoreItemPermission.cs
+ ImportAzureRmDataLakeStoreItem.cs
+ JoinAzureRmDataLakeStoreItem.cs
+ MoveAzureRmDataLakeStoreItem.cs
+ NewAzureRmDataLakeStoreItem.cs
+ RemoveAzureRmDataLakeStoreItem.cs
+ RemoveAzureRmDataLakeStoreItemAcl.cs
+ RemoveAzureRmDataLakeStoreItemAclEntry.cs
+ RestoreAzureRmDataLakeStoreDeletedItem.cs
+ SetAzureRmDataLakeStoreItemAcl.cs
+ SetAzureRmDataLakeStoreItemAclEntry.cs
+ SetAzureRmDataLakeStoreItemExpiry.cs
+ SetAzureRmDataLakeStoreItemOwner.cs
+ SetAzureRmDataLakeStoreItemPermission.cs
+ TestAzureRmDataLakeStoreItem.cs
+DataPlaneModels/
+ AdlsClientFactory.cs
+ AdlsLoggerTarget.cs
+ ByteEncoding.cs
+ DataLakeStoreChildItemSummary.cs
+ DataLakeStoreDeletedItem.cs
+ DataLakeStoreEnums.cs
+ DataLakeStoreFileSystemClient.cs
+ DataLakeStoreFileSystemCmdletBase.cs
+ DataLakeStoreItem.cs
+ DataLakeStoreItemAce.cs
+ DataLakeStoreItemPermissionInstance.cs
+ DataLakeStorePathInstance.cs
+ DeletedItemWithToken.cs
+ EncodingUtils.cs
+Models/
+ DataLakeStoreClient.cs
+ DataLakeStoreCmdletBase.cs
+ DataLakeStoreFirewallRule.cs
+ DataLakeStoreTokenCredential.cs
+ DataLakeStoreTraceLogger.cs
+ DataLakeStoreTracingInterceptor.cs
+ DataLakeStoreTrustedIdProvider.cs
+ DataLakeStoreVirtualNetworkRule.cs
+ GlobalMembers.cs
+ PSDataLakeStoreAccount.cs
+ PSDataLakeStoreAccountBasic.cs
+ StringOrByteArrayInstance.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/
+ AssemblyInfo.cs
+ Resources.Designer.cs
+
+[analyzerConfigFiles]
+obj/Debug/DataLakeStore.GeneratedMSBuildEditorConfig.editorconfig

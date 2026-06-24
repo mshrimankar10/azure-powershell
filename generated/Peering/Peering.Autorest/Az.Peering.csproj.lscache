@@ -1,0 +1,579 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.Peering.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.Peering/Peering.Autorest/bin/Az.Peering.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.Peering
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.Peering/Peering.Autorest/bin/Az.Peering.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.Peering/Peering.Autorest/bin/Az.Peering.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.Peering.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/Models/
+ BgpSession.cs
+ BgpSession.json.cs
+ BgpSession.PowerShell.cs
+ BgpSession.TypeConverter.cs
+ CdnPeeringPrefix.cs
+ CdnPeeringPrefix.json.cs
+ CdnPeeringPrefix.PowerShell.cs
+ CdnPeeringPrefix.TypeConverter.cs
+ CdnPeeringPrefixListResult.cs
+ CdnPeeringPrefixListResult.json.cs
+ CdnPeeringPrefixListResult.PowerShell.cs
+ CdnPeeringPrefixListResult.TypeConverter.cs
+ CdnPeeringPrefixProperties.cs
+ CdnPeeringPrefixProperties.json.cs
+ CdnPeeringPrefixProperties.PowerShell.cs
+ CdnPeeringPrefixProperties.TypeConverter.cs
+ CheckServiceProviderAvailabilityInput.cs
+ CheckServiceProviderAvailabilityInput.json.cs
+ CheckServiceProviderAvailabilityInput.PowerShell.cs
+ CheckServiceProviderAvailabilityInput.TypeConverter.cs
+ ConnectionMonitorTest.cs
+ ConnectionMonitorTest.json.cs
+ ConnectionMonitorTest.PowerShell.cs
+ ConnectionMonitorTest.TypeConverter.cs
+ ConnectionMonitorTestListResult.cs
+ ConnectionMonitorTestListResult.json.cs
+ ConnectionMonitorTestListResult.PowerShell.cs
+ ConnectionMonitorTestListResult.TypeConverter.cs
+ ConnectionMonitorTestProperties.cs
+ ConnectionMonitorTestProperties.json.cs
+ ConnectionMonitorTestProperties.PowerShell.cs
+ ConnectionMonitorTestProperties.TypeConverter.cs
+ ContactDetail.cs
+ ContactDetail.json.cs
+ ContactDetail.PowerShell.cs
+ ContactDetail.TypeConverter.cs
+ DirectConnection.cs
+ DirectConnection.json.cs
+ DirectConnection.PowerShell.cs
+ DirectConnection.TypeConverter.cs
+ DirectPeeringFacility.cs
+ DirectPeeringFacility.json.cs
+ DirectPeeringFacility.PowerShell.cs
+ DirectPeeringFacility.TypeConverter.cs
+ ErrorDetail.cs
+ ErrorDetail.json.cs
+ ErrorDetail.PowerShell.cs
+ ErrorDetail.TypeConverter.cs
+ ErrorResponse.cs
+ ErrorResponse.json.cs
+ ErrorResponse.PowerShell.cs
+ ErrorResponse.TypeConverter.cs
+ ExchangeConnection.cs
+ ExchangeConnection.json.cs
+ ExchangeConnection.PowerShell.cs
+ ExchangeConnection.TypeConverter.cs
+ ExchangePeeringFacility.cs
+ ExchangePeeringFacility.json.cs
+ ExchangePeeringFacility.PowerShell.cs
+ ExchangePeeringFacility.TypeConverter.cs
+ LogAnalyticsWorkspaceProperties.cs
+ LogAnalyticsWorkspaceProperties.json.cs
+ LogAnalyticsWorkspaceProperties.PowerShell.cs
+ LogAnalyticsWorkspaceProperties.TypeConverter.cs
+ LookingGlassOutput.cs
+ LookingGlassOutput.json.cs
+ LookingGlassOutput.PowerShell.cs
+ LookingGlassOutput.TypeConverter.cs
+ MetricDimension.cs
+ MetricDimension.json.cs
+ MetricDimension.PowerShell.cs
+ MetricDimension.TypeConverter.cs
+ MetricSpecification.cs
+ MetricSpecification.json.cs
+ MetricSpecification.PowerShell.cs
+ MetricSpecification.TypeConverter.cs
+ Operation.cs
+ Operation.json.cs
+ Operation.PowerShell.cs
+ Operation.TypeConverter.cs
+ OperationDisplayInfo.cs
+ OperationDisplayInfo.json.cs
+ OperationDisplayInfo.PowerShell.cs
+ OperationDisplayInfo.TypeConverter.cs
+ OperationListResult.cs
+ OperationListResult.json.cs
+ OperationListResult.PowerShell.cs
+ OperationListResult.TypeConverter.cs
+ OperationProperties.cs
+ OperationProperties.json.cs
+ OperationProperties.PowerShell.cs
+ OperationProperties.TypeConverter.cs
+ PeerAsn.cs
+ PeerAsn.json.cs
+ PeerAsn.PowerShell.cs
+ PeerAsn.TypeConverter.cs
+ PeerAsnListResult.cs
+ PeerAsnListResult.json.cs
+ PeerAsnListResult.PowerShell.cs
+ PeerAsnListResult.TypeConverter.cs
+ PeerAsnProperties.cs
+ PeerAsnProperties.json.cs
+ PeerAsnProperties.PowerShell.cs
+ PeerAsnProperties.TypeConverter.cs
+ Peering.cs
+ Peering.json.cs
+ Peering.PowerShell.cs
+ Peering.TypeConverter.cs
+ PeeringBandwidthOffer.cs
+ PeeringBandwidthOffer.json.cs
+ PeeringBandwidthOffer.PowerShell.cs
+ PeeringBandwidthOffer.TypeConverter.cs
+ PeeringIdentity.cs
+ PeeringIdentity.json.cs
+ PeeringIdentity.PowerShell.cs
+ PeeringIdentity.TypeConverter.cs
+ PeeringListResult.cs
+ PeeringListResult.json.cs
+ PeeringListResult.PowerShell.cs
+ PeeringListResult.TypeConverter.cs
+ PeeringLocation.cs
+ PeeringLocation.json.cs
+ PeeringLocation.PowerShell.cs
+ PeeringLocation.TypeConverter.cs
+ PeeringLocationListResult.cs
+ PeeringLocationListResult.json.cs
+ PeeringLocationListResult.PowerShell.cs
+ PeeringLocationListResult.TypeConverter.cs
+ PeeringLocationProperties.cs
+ PeeringLocationProperties.json.cs
+ PeeringLocationProperties.PowerShell.cs
+ PeeringLocationProperties.TypeConverter.cs
+ PeeringLocationPropertiesDirect.cs
+ PeeringLocationPropertiesDirect.json.cs
+ PeeringLocationPropertiesDirect.PowerShell.cs
+ PeeringLocationPropertiesDirect.TypeConverter.cs
+ PeeringLocationPropertiesExchange.cs
+ PeeringLocationPropertiesExchange.json.cs
+ PeeringLocationPropertiesExchange.PowerShell.cs
+ PeeringLocationPropertiesExchange.TypeConverter.cs
+ PeeringProperties.cs
+ PeeringProperties.json.cs
+ PeeringProperties.PowerShell.cs
+ PeeringProperties.TypeConverter.cs
+ PeeringPropertiesDirect.cs
+ PeeringPropertiesDirect.json.cs
+ PeeringPropertiesDirect.PowerShell.cs
+ PeeringPropertiesDirect.TypeConverter.cs
+ PeeringPropertiesExchange.cs
+ PeeringPropertiesExchange.json.cs
+ PeeringPropertiesExchange.PowerShell.cs
+ PeeringPropertiesExchange.TypeConverter.cs
+ PeeringReceivedRoute.cs
+ PeeringReceivedRoute.json.cs
+ PeeringReceivedRoute.PowerShell.cs
+ PeeringReceivedRoute.TypeConverter.cs
+ PeeringReceivedRouteListResult.cs
+ PeeringReceivedRouteListResult.json.cs
+ PeeringReceivedRouteListResult.PowerShell.cs
+ PeeringReceivedRouteListResult.TypeConverter.cs
+ PeeringRegisteredAsn.cs
+ PeeringRegisteredAsn.json.cs
+ PeeringRegisteredAsn.PowerShell.cs
+ PeeringRegisteredAsn.TypeConverter.cs
+ PeeringRegisteredAsnListResult.cs
+ PeeringRegisteredAsnListResult.json.cs
+ PeeringRegisteredAsnListResult.PowerShell.cs
+ PeeringRegisteredAsnListResult.TypeConverter.cs
+ PeeringRegisteredAsnProperties.cs
+ PeeringRegisteredAsnProperties.json.cs
+ PeeringRegisteredAsnProperties.PowerShell.cs
+ PeeringRegisteredAsnProperties.TypeConverter.cs
+ PeeringRegisteredPrefix.cs
+ PeeringRegisteredPrefix.json.cs
+ PeeringRegisteredPrefix.PowerShell.cs
+ PeeringRegisteredPrefix.TypeConverter.cs
+ PeeringRegisteredPrefixListResult.cs
+ PeeringRegisteredPrefixListResult.json.cs
+ PeeringRegisteredPrefixListResult.PowerShell.cs
+ PeeringRegisteredPrefixListResult.TypeConverter.cs
+ PeeringRegisteredPrefixProperties.cs
+ PeeringRegisteredPrefixProperties.json.cs
+ PeeringRegisteredPrefixProperties.PowerShell.cs
+ PeeringRegisteredPrefixProperties.TypeConverter.cs
+ PeeringService.cs
+ PeeringService.json.cs
+ PeeringService.PowerShell.cs
+ PeeringService.TypeConverter.cs
+ PeeringServiceCountry.cs
+ PeeringServiceCountry.json.cs
+ PeeringServiceCountry.PowerShell.cs
+ PeeringServiceCountry.TypeConverter.cs
+ PeeringServiceCountryListResult.cs
+ PeeringServiceCountryListResult.json.cs
+ PeeringServiceCountryListResult.PowerShell.cs
+ PeeringServiceCountryListResult.TypeConverter.cs
+ PeeringServiceListResult.cs
+ PeeringServiceListResult.json.cs
+ PeeringServiceListResult.PowerShell.cs
+ PeeringServiceListResult.TypeConverter.cs
+ PeeringServiceLocation.cs
+ PeeringServiceLocation.json.cs
+ PeeringServiceLocation.PowerShell.cs
+ PeeringServiceLocation.TypeConverter.cs
+ PeeringServiceLocationListResult.cs
+ PeeringServiceLocationListResult.json.cs
+ PeeringServiceLocationListResult.PowerShell.cs
+ PeeringServiceLocationListResult.TypeConverter.cs
+ PeeringServiceLocationProperties.cs
+ PeeringServiceLocationProperties.json.cs
+ PeeringServiceLocationProperties.PowerShell.cs
+ PeeringServiceLocationProperties.TypeConverter.cs
+ PeeringServicePrefix.cs
+ PeeringServicePrefix.json.cs
+ PeeringServicePrefix.PowerShell.cs
+ PeeringServicePrefix.TypeConverter.cs
+ PeeringServicePrefixEvent.cs
+ PeeringServicePrefixEvent.json.cs
+ PeeringServicePrefixEvent.PowerShell.cs
+ PeeringServicePrefixEvent.TypeConverter.cs
+ PeeringServicePrefixListResult.cs
+ PeeringServicePrefixListResult.json.cs
+ PeeringServicePrefixListResult.PowerShell.cs
+ PeeringServicePrefixListResult.TypeConverter.cs
+ PeeringServicePrefixProperties.cs
+ PeeringServicePrefixProperties.json.cs
+ PeeringServicePrefixProperties.PowerShell.cs
+ PeeringServicePrefixProperties.TypeConverter.cs
+ PeeringServiceProperties.cs
+ PeeringServiceProperties.json.cs
+ PeeringServiceProperties.PowerShell.cs
+ PeeringServiceProperties.TypeConverter.cs
+ PeeringServiceProvider.cs
+ PeeringServiceProvider.json.cs
+ PeeringServiceProvider.PowerShell.cs
+ PeeringServiceProvider.TypeConverter.cs
+ PeeringServiceProviderListResult.cs
+ PeeringServiceProviderListResult.json.cs
+ PeeringServiceProviderListResult.PowerShell.cs
+ PeeringServiceProviderListResult.TypeConverter.cs
+ PeeringServiceProviderProperties.cs
+ PeeringServiceProviderProperties.json.cs
+ PeeringServiceProviderProperties.PowerShell.cs
+ PeeringServiceProviderProperties.TypeConverter.cs
+ PeeringServiceSku.cs
+ PeeringServiceSku.json.cs
+ PeeringServiceSku.PowerShell.cs
+ PeeringServiceSku.TypeConverter.cs
+ PeeringServiceTags.cs
+ PeeringServiceTags.dictionary.cs
+ PeeringServiceTags.json.cs
+ PeeringServiceTags.PowerShell.cs
+ PeeringServiceTags.TypeConverter.cs
+ PeeringSku.cs
+ PeeringSku.json.cs
+ PeeringSku.PowerShell.cs
+ PeeringSku.TypeConverter.cs
+ PeeringTags.cs
+ PeeringTags.dictionary.cs
+ PeeringTags.json.cs
+ PeeringTags.PowerShell.cs
+ PeeringTags.TypeConverter.cs
+ Resource.cs
+ Resource.json.cs
+ Resource.PowerShell.cs
+ Resource.TypeConverter.cs
+ ResourceTags.cs
+ ResourceTags.dictionary.cs
+ ResourceTags.json.cs
+ ResourceTags.PowerShell.cs
+ ResourceTags.TypeConverter.cs
+ ResourceTags1.cs
+ ResourceTags1.json.cs
+ ResourceTags1.PowerShell.cs
+ ResourceTags1.TypeConverter.cs
+ RpUnbilledPrefix.cs
+ RpUnbilledPrefix.json.cs
+ RpUnbilledPrefix.PowerShell.cs
+ RpUnbilledPrefix.TypeConverter.cs
+ RpUnbilledPrefixListResult.cs
+ RpUnbilledPrefixListResult.json.cs
+ RpUnbilledPrefixListResult.PowerShell.cs
+ RpUnbilledPrefixListResult.TypeConverter.cs
+ ServiceSpecification.cs
+ ServiceSpecification.json.cs
+ ServiceSpecification.PowerShell.cs
+ ServiceSpecification.TypeConverter.cs
+ SubResource.cs
+ SubResource.json.cs
+ SubResource.PowerShell.cs
+ SubResource.TypeConverter.cs
+generated/
+ api/Peering.cs
+ cmdlets/
+  GetAzPeeringAsn_Get.cs
+  GetAzPeeringAsn_GetViaIdentity.cs
+  GetAzPeeringAsn_List.cs
+  GetAzPeeringCdnPrefix_List.cs
+  GetAzPeeringConnectionMonitorTest_Get.cs
+  GetAzPeeringConnectionMonitorTest_GetViaIdentity.cs
+  GetAzPeeringConnectionMonitorTest_GetViaIdentityPeeringService.cs
+  GetAzPeeringConnectionMonitorTest_List.cs
+  GetAzPeeringLegacy_List.cs
+  GetAzPeeringLocation_List.cs
+  GetAzPeeringOperation_List.cs
+  GetAzPeeringReceivedRoute_List.cs
+  GetAzPeeringRegisteredAsn_Get.cs
+  GetAzPeeringRegisteredAsn_GetViaIdentity.cs
+  GetAzPeeringRegisteredAsn_GetViaIdentityPeering.cs
+  GetAzPeeringRegisteredAsn_List.cs
+  GetAzPeeringRegisteredPrefix_Get.cs
+  GetAzPeeringRegisteredPrefix_GetViaIdentity.cs
+  GetAzPeeringRegisteredPrefix_GetViaIdentityPeering.cs
+  GetAzPeeringRegisteredPrefix_List.cs
+  GetAzPeeringRpUnbilledPrefix_List.cs
+  GetAzPeeringServiceCountry_List.cs
+  GetAzPeeringServiceLocation_List.cs
+  GetAzPeeringServicePrefix_Get.cs
+  GetAzPeeringServicePrefix_GetViaIdentity.cs
+  GetAzPeeringServicePrefix_GetViaIdentityPeeringService.cs
+  GetAzPeeringServicePrefix_List.cs
+  GetAzPeeringServiceProvider_List.cs
+  GetAzPeeringService_Get.cs
+  GetAzPeeringService_GetViaIdentity.cs
+  GetAzPeeringService_List.cs
+  GetAzPeeringService_List1.cs
+  GetAzPeering_Get.cs
+  GetAzPeering_GetViaIdentity.cs
+  GetAzPeering_List.cs
+  GetAzPeering_List1.cs
+  InitializeAzPeeringServiceConnectionMonitor_Initialize.cs
+  NewAzPeeringAsn_CreateExpanded.cs
+  NewAzPeeringConnectionMonitorTest_CreateExpanded.cs
+  NewAzPeeringRegisteredAsn_CreateExpanded.cs
+  NewAzPeeringRegisteredPrefix_CreateExpanded.cs
+  NewAzPeeringServicePrefix_CreateExpanded.cs
+  NewAzPeeringService_CreateExpanded.cs
+  NewAzPeering_CreateExpanded.cs
+  RemoveAzPeeringAsn_Delete.cs
+  RemoveAzPeeringAsn_DeleteViaIdentity.cs
+  RemoveAzPeeringConnectionMonitorTest_Delete.cs
+  RemoveAzPeeringConnectionMonitorTest_DeleteViaIdentity.cs
+  RemoveAzPeeringConnectionMonitorTest_DeleteViaIdentityPeeringService.cs
+  RemoveAzPeeringRegisteredAsn_Delete.cs
+  RemoveAzPeeringRegisteredAsn_DeleteViaIdentity.cs
+  RemoveAzPeeringRegisteredAsn_DeleteViaIdentityPeering.cs
+  RemoveAzPeeringRegisteredPrefix_Delete.cs
+  RemoveAzPeeringRegisteredPrefix_DeleteViaIdentity.cs
+  RemoveAzPeeringRegisteredPrefix_DeleteViaIdentityPeering.cs
+  RemoveAzPeeringServicePrefix_Delete.cs
+  RemoveAzPeeringServicePrefix_DeleteViaIdentity.cs
+  RemoveAzPeeringServicePrefix_DeleteViaIdentityPeeringService.cs
+  RemoveAzPeeringService_Delete.cs
+  RemoveAzPeeringService_DeleteViaIdentity.cs
+  RemoveAzPeering_Delete.cs
+  RemoveAzPeering_DeleteViaIdentity.cs
+  StartAzPeeringInvokeLookingGlass_Invoke.cs
+  TestAzPeeringRegisteredPrefix_Validate.cs
+  TestAzPeeringRegisteredPrefix_ValidateViaIdentity.cs
+  TestAzPeeringRegisteredPrefix_ValidateViaIdentityPeering.cs
+  TestAzPeeringServiceProviderAvailability_Check.cs
+  TestAzPeeringServiceProviderAvailability_CheckExpanded.cs
+  TestAzPeeringServiceProviderAvailability_CheckViaJsonFilePath.cs
+  TestAzPeeringServiceProviderAvailability_CheckViaJsonString.cs
+  UpdateAzPeeringAsn_UpdateExpanded.cs
+  UpdateAzPeeringAsn_UpdateViaIdentityExpanded.cs
+  UpdateAzPeeringConnectionMonitorTest_UpdateExpanded.cs
+  UpdateAzPeeringConnectionMonitorTest_UpdateViaIdentityExpanded.cs
+  UpdateAzPeeringConnectionMonitorTest_UpdateViaIdentityPeeringServiceExpanded.cs
+  UpdateAzPeeringRegisteredAsn_UpdateExpanded.cs
+  UpdateAzPeeringRegisteredAsn_UpdateViaIdentityExpanded.cs
+  UpdateAzPeeringRegisteredAsn_UpdateViaIdentityPeeringExpanded.cs
+  UpdateAzPeeringRegisteredPrefix_UpdateExpanded.cs
+  UpdateAzPeeringRegisteredPrefix_UpdateViaIdentityExpanded.cs
+  UpdateAzPeeringRegisteredPrefix_UpdateViaIdentityPeeringExpanded.cs
+  UpdateAzPeeringService_UpdateExpanded.cs
+  UpdateAzPeeringService_UpdateViaIdentityExpanded.cs
+  UpdateAzPeering_UpdateExpanded.cs
+  UpdateAzPeering_UpdateViaIdentityExpanded.cs
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.Peering.GeneratedMSBuildEditorConfig.editorconfig

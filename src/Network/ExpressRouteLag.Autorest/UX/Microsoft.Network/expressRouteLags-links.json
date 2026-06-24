@@ -1,0 +1,52 @@
+{
+  "resourceType": "expressRouteLags/links",
+  "apiVersion": "2025-09-01",
+  "learnMore": {
+    "url": "https://learn.microsoft.com/powershell/module/az.network"
+  },
+  "commands": [
+    {
+      "name": "Get-AzExpressRouteLagLink",
+      "description": "Retrieves the specified ExpressRouteLagLink resource.",
+      "path": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/expressRouteLags/{expressRouteLagName}/links/{linkName}",
+      "help": {
+        "learnMore": {
+          "url": "https://learn.microsoft.com/powershell/module/az.network/get-azexpressroutelaglink"
+        },
+        "parameterSets": [
+          {
+            "parameters": [
+              "-ExpressRouteLagName <String>",
+              "-LinkName <String>",
+              "-ResourceGroupName <String>",
+              "[-SubscriptionId <String[]>]"
+            ]
+          }
+        ]
+      },
+      "examples": [
+        {
+          "description": "Retrieves the specified ExpressRouteLagLink resource.",
+          "parameters": [
+            {
+              "name": "-ExpressRouteLagName",
+              "value": "[Path.expressRouteLagName]"
+            },
+            {
+              "name": "-LinkName",
+              "value": "[Path.linkName]"
+            },
+            {
+              "name": "-ResourceGroupName",
+              "value": "[Path.resourceGroupName]"
+            },
+            {
+              "name": "-SubscriptionId",
+              "value": "[Path.subscriptionId]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

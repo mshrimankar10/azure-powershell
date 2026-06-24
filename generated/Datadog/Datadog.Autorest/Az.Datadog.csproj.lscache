@@ -1,0 +1,521 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.Datadog.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.Datadog/Datadog.Autorest/bin/Az.Datadog.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.Datadog
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.Datadog/Datadog.Autorest/bin/Az.Datadog.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.Datadog/Datadog.Autorest/bin/Az.Datadog.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.Datadog.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/
+ Datadog.cs
+ Models/
+  AgentRules.cs
+  AgentRules.json.cs
+  AgentRules.PowerShell.cs
+  AgentRules.TypeConverter.cs
+  Any.cs
+  Any.json.cs
+  Any.PowerShell.cs
+  Any.TypeConverter.cs
+  BillingInfoResponse.cs
+  BillingInfoResponse.json.cs
+  BillingInfoResponse.PowerShell.cs
+  BillingInfoResponse.TypeConverter.cs
+  CreateResourceSupportedProperties.cs
+  CreateResourceSupportedProperties.json.cs
+  CreateResourceSupportedProperties.PowerShell.cs
+  CreateResourceSupportedProperties.TypeConverter.cs
+  CreateResourceSupportedResponse.cs
+  CreateResourceSupportedResponse.json.cs
+  CreateResourceSupportedResponse.PowerShell.cs
+  CreateResourceSupportedResponse.TypeConverter.cs
+  CreateResourceSupportedResponseList.cs
+  CreateResourceSupportedResponseList.json.cs
+  CreateResourceSupportedResponseList.PowerShell.cs
+  CreateResourceSupportedResponseList.TypeConverter.cs
+  DatadogAgreementProperties.cs
+  DatadogAgreementProperties.json.cs
+  DatadogAgreementProperties.PowerShell.cs
+  DatadogAgreementProperties.TypeConverter.cs
+  DatadogAgreementResource.cs
+  DatadogAgreementResource.json.cs
+  DatadogAgreementResource.PowerShell.cs
+  DatadogAgreementResource.TypeConverter.cs
+  DatadogAgreementResourceListResponse.cs
+  DatadogAgreementResourceListResponse.json.cs
+  DatadogAgreementResourceListResponse.PowerShell.cs
+  DatadogAgreementResourceListResponse.TypeConverter.cs
+  DatadogApiKey.cs
+  DatadogApiKey.json.cs
+  DatadogApiKey.PowerShell.cs
+  DatadogApiKey.TypeConverter.cs
+  DatadogApiKeyListResponse.cs
+  DatadogApiKeyListResponse.json.cs
+  DatadogApiKeyListResponse.PowerShell.cs
+  DatadogApiKeyListResponse.TypeConverter.cs
+  DatadogHost.cs
+  DatadogHost.json.cs
+  DatadogHost.PowerShell.cs
+  DatadogHost.TypeConverter.cs
+  DatadogHostListResponse.cs
+  DatadogHostListResponse.json.cs
+  DatadogHostListResponse.PowerShell.cs
+  DatadogHostListResponse.TypeConverter.cs
+  DatadogHostMetadata.cs
+  DatadogHostMetadata.json.cs
+  DatadogHostMetadata.PowerShell.cs
+  DatadogHostMetadata.TypeConverter.cs
+  DatadogIdentity.cs
+  DatadogIdentity.json.cs
+  DatadogIdentity.PowerShell.cs
+  DatadogIdentity.TypeConverter.cs
+  DatadogInstallMethod.cs
+  DatadogInstallMethod.json.cs
+  DatadogInstallMethod.PowerShell.cs
+  DatadogInstallMethod.TypeConverter.cs
+  DatadogLogsAgent.cs
+  DatadogLogsAgent.json.cs
+  DatadogLogsAgent.PowerShell.cs
+  DatadogLogsAgent.TypeConverter.cs
+  DatadogMonitorResource.cs
+  DatadogMonitorResource.json.cs
+  DatadogMonitorResource.PowerShell.cs
+  DatadogMonitorResource.TypeConverter.cs
+  DatadogMonitorResourceListResponse.cs
+  DatadogMonitorResourceListResponse.json.cs
+  DatadogMonitorResourceListResponse.PowerShell.cs
+  DatadogMonitorResourceListResponse.TypeConverter.cs
+  DatadogMonitorResourceUpdateParameters.cs
+  DatadogMonitorResourceUpdateParameters.json.cs
+  DatadogMonitorResourceUpdateParameters.PowerShell.cs
+  DatadogMonitorResourceUpdateParameters.TypeConverter.cs
+  DatadogMonitorResourceUpdateParametersTags.cs
+  DatadogMonitorResourceUpdateParametersTags.dictionary.cs
+  DatadogMonitorResourceUpdateParametersTags.json.cs
+  DatadogMonitorResourceUpdateParametersTags.PowerShell.cs
+  DatadogMonitorResourceUpdateParametersTags.TypeConverter.cs
+  DatadogOrganizationProperties.cs
+  DatadogOrganizationProperties.json.cs
+  DatadogOrganizationProperties.PowerShell.cs
+  DatadogOrganizationProperties.TypeConverter.cs
+  DatadogSetPasswordLink.cs
+  DatadogSetPasswordLink.json.cs
+  DatadogSetPasswordLink.PowerShell.cs
+  DatadogSetPasswordLink.TypeConverter.cs
+  DatadogSingleSignOnProperties.cs
+  DatadogSingleSignOnProperties.json.cs
+  DatadogSingleSignOnProperties.PowerShell.cs
+  DatadogSingleSignOnProperties.TypeConverter.cs
+  DatadogSingleSignOnResource.cs
+  DatadogSingleSignOnResource.json.cs
+  DatadogSingleSignOnResource.PowerShell.cs
+  DatadogSingleSignOnResource.TypeConverter.cs
+  DatadogSingleSignOnResourceListResponse.cs
+  DatadogSingleSignOnResourceListResponse.json.cs
+  DatadogSingleSignOnResourceListResponse.PowerShell.cs
+  DatadogSingleSignOnResourceListResponse.TypeConverter.cs
+  ErrorAdditionalInfo.cs
+  ErrorAdditionalInfo.json.cs
+  ErrorAdditionalInfo.PowerShell.cs
+  ErrorAdditionalInfo.TypeConverter.cs
+  ErrorDetail.cs
+  ErrorDetail.json.cs
+  ErrorDetail.PowerShell.cs
+  ErrorDetail.TypeConverter.cs
+  ErrorResponse.cs
+  ErrorResponse.json.cs
+  ErrorResponse.PowerShell.cs
+  ErrorResponse.TypeConverter.cs
+  FilteringTag.cs
+  FilteringTag.json.cs
+  FilteringTag.PowerShell.cs
+  FilteringTag.TypeConverter.cs
+  IdentityProperties.cs
+  IdentityProperties.json.cs
+  IdentityProperties.PowerShell.cs
+  IdentityProperties.TypeConverter.cs
+  LinkedResource.cs
+  LinkedResource.json.cs
+  LinkedResource.PowerShell.cs
+  LinkedResource.TypeConverter.cs
+  LinkedResourceListResponse.cs
+  LinkedResourceListResponse.json.cs
+  LinkedResourceListResponse.PowerShell.cs
+  LinkedResourceListResponse.TypeConverter.cs
+  LogRules.cs
+  LogRules.json.cs
+  LogRules.PowerShell.cs
+  LogRules.TypeConverter.cs
+  MarketplaceSaaSInfo.cs
+  MarketplaceSaaSInfo.json.cs
+  MarketplaceSaaSInfo.PowerShell.cs
+  MarketplaceSaaSInfo.TypeConverter.cs
+  MetricRules.cs
+  MetricRules.json.cs
+  MetricRules.PowerShell.cs
+  MetricRules.TypeConverter.cs
+  MonitoredResource.cs
+  MonitoredResource.json.cs
+  MonitoredResource.PowerShell.cs
+  MonitoredResource.TypeConverter.cs
+  MonitoredResourceListResponse.cs
+  MonitoredResourceListResponse.json.cs
+  MonitoredResourceListResponse.PowerShell.cs
+  MonitoredResourceListResponse.TypeConverter.cs
+  MonitoredSubscription.cs
+  MonitoredSubscription.json.cs
+  MonitoredSubscription.PowerShell.cs
+  MonitoredSubscription.TypeConverter.cs
+  MonitoredSubscriptionProperties.cs
+  MonitoredSubscriptionProperties.json.cs
+  MonitoredSubscriptionProperties.PowerShell.cs
+  MonitoredSubscriptionProperties.TypeConverter.cs
+  MonitoredSubscriptionPropertiesList.cs
+  MonitoredSubscriptionPropertiesList.json.cs
+  MonitoredSubscriptionPropertiesList.PowerShell.cs
+  MonitoredSubscriptionPropertiesList.TypeConverter.cs
+  MonitoringTagRules.cs
+  MonitoringTagRules.json.cs
+  MonitoringTagRules.PowerShell.cs
+  MonitoringTagRules.TypeConverter.cs
+  MonitoringTagRulesListResponse.cs
+  MonitoringTagRulesListResponse.json.cs
+  MonitoringTagRulesListResponse.PowerShell.cs
+  MonitoringTagRulesListResponse.TypeConverter.cs
+  MonitoringTagRulesProperties.cs
+  MonitoringTagRulesProperties.json.cs
+  MonitoringTagRulesProperties.PowerShell.cs
+  MonitoringTagRulesProperties.TypeConverter.cs
+  MonitorProperties.cs
+  MonitorProperties.json.cs
+  MonitorProperties.PowerShell.cs
+  MonitorProperties.TypeConverter.cs
+  MonitorUpdateProperties.cs
+  MonitorUpdateProperties.json.cs
+  MonitorUpdateProperties.PowerShell.cs
+  MonitorUpdateProperties.TypeConverter.cs
+  OperationDisplay.cs
+  OperationDisplay.json.cs
+  OperationDisplay.PowerShell.cs
+  OperationDisplay.TypeConverter.cs
+  OperationListResult.cs
+  OperationListResult.json.cs
+  OperationListResult.PowerShell.cs
+  OperationListResult.TypeConverter.cs
+  OperationResult.cs
+  OperationResult.json.cs
+  OperationResult.PowerShell.cs
+  OperationResult.TypeConverter.cs
+  PartnerBillingEntity.cs
+  PartnerBillingEntity.json.cs
+  PartnerBillingEntity.PowerShell.cs
+  PartnerBillingEntity.TypeConverter.cs
+  ProxyResource.cs
+  ProxyResource.json.cs
+  ProxyResource.PowerShell.cs
+  ProxyResource.TypeConverter.cs
+  Resource.cs
+  Resource.json.cs
+  Resource.PowerShell.cs
+  Resource.TypeConverter.cs
+  ResourceSku.cs
+  ResourceSku.json.cs
+  ResourceSku.PowerShell.cs
+  ResourceSku.TypeConverter.cs
+  ResubscribeProperties.cs
+  ResubscribeProperties.json.cs
+  ResubscribeProperties.PowerShell.cs
+  ResubscribeProperties.TypeConverter.cs
+  SubscriptionList.cs
+  SubscriptionList.json.cs
+  SubscriptionList.PowerShell.cs
+  SubscriptionList.TypeConverter.cs
+  SystemData.cs
+  SystemData.json.cs
+  SystemData.PowerShell.cs
+  SystemData.TypeConverter.cs
+  TrackedResource.cs
+  TrackedResource.json.cs
+  TrackedResource.PowerShell.cs
+  TrackedResource.TypeConverter.cs
+  TrackedResourceTags.cs
+  TrackedResourceTags.dictionary.cs
+  TrackedResourceTags.json.cs
+  TrackedResourceTags.PowerShell.cs
+  TrackedResourceTags.TypeConverter.cs
+  UserInfo.cs
+  UserInfo.json.cs
+  UserInfo.PowerShell.cs
+  UserInfo.TypeConverter.cs
+generated/cmdlets/
+ GetAzDatadogBillingInfo_Get.cs
+ GetAzDatadogBillingInfo_GetViaIdentity.cs
+ GetAzDatadogCreationSupported_Get.cs
+ GetAzDatadogCreationSupported_List.cs
+ GetAzDatadogMarketplaceAgreement_List.cs
+ GetAzDatadogMonitorApiKey_List.cs
+ GetAzDatadogMonitorDefaultKey_Get.cs
+ GetAzDatadogMonitorDefaultKey_GetViaIdentity.cs
+ GetAzDatadogMonitoredSubscription_Get.cs
+ GetAzDatadogMonitoredSubscription_GetViaIdentity.cs
+ GetAzDatadogMonitoredSubscription_GetViaIdentityMonitor.cs
+ GetAzDatadogMonitoredSubscription_List.cs
+ GetAzDatadogMonitorHost_List.cs
+ GetAzDatadogMonitorLinkedResource_List.cs
+ GetAzDatadogMonitorMonitoredResource_List.cs
+ GetAzDatadogMonitor_Get.cs
+ GetAzDatadogMonitor_GetViaIdentity.cs
+ GetAzDatadogMonitor_List.cs
+ GetAzDatadogMonitor_List1.cs
+ GetAzDatadogOperation_List.cs
+ GetAzDatadogSingleSignOnConfiguration_Get.cs
+ GetAzDatadogSingleSignOnConfiguration_GetViaIdentity.cs
+ GetAzDatadogSingleSignOnConfiguration_GetViaIdentityMonitor.cs
+ GetAzDatadogSingleSignOnConfiguration_List.cs
+ GetAzDatadogTagRule_Get.cs
+ GetAzDatadogTagRule_GetViaIdentity.cs
+ GetAzDatadogTagRule_GetViaIdentityMonitor.cs
+ GetAzDatadogTagRule_List.cs
+ InvokeAzDatadogResubscribeOrganization_Resubscribe.cs
+ InvokeAzDatadogResubscribeOrganization_ResubscribeExpanded.cs
+ InvokeAzDatadogResubscribeOrganization_ResubscribeViaIdentity.cs
+ InvokeAzDatadogResubscribeOrganization_ResubscribeViaIdentityExpanded.cs
+ InvokeAzDatadogResubscribeOrganization_ResubscribeViaJsonFilePath.cs
+ InvokeAzDatadogResubscribeOrganization_ResubscribeViaJsonString.cs
+ NewAzDatadogMarketplaceAgreement_CreateExpanded.cs
+ NewAzDatadogMarketplaceAgreement_CreateViaJsonFilePath.cs
+ NewAzDatadogMarketplaceAgreement_CreateViaJsonString.cs
+ NewAzDatadogMonitor_CreateExpanded.cs
+ NewAzDatadogMonitor_CreateViaIdentityExpanded.cs
+ NewAzDatadogMonitor_CreateViaJsonFilePath.cs
+ NewAzDatadogMonitor_CreateViaJsonString.cs
+ NewAzDatadogSingleSignOnConfiguration_CreateExpanded.cs
+ NewAzDatadogSingleSignOnConfiguration_CreateViaIdentityExpanded.cs
+ NewAzDatadogSingleSignOnConfiguration_CreateViaIdentityMonitorExpanded.cs
+ NewAzDatadogSingleSignOnConfiguration_CreateViaJsonFilePath.cs
+ NewAzDatadogSingleSignOnConfiguration_CreateViaJsonString.cs
+ NewAzDatadogTagRule_CreateExpanded.cs
+ NewAzDatadogTagRule_CreateViaIdentityExpanded.cs
+ NewAzDatadogTagRule_CreateViaIdentityMonitorExpanded.cs
+ NewAzDatadogTagRule_CreateViaJsonFilePath.cs
+ NewAzDatadogTagRule_CreateViaJsonString.cs
+ RemoveAzDatadogMonitoredSubscription_Delete.cs
+ RemoveAzDatadogMonitoredSubscription_DeleteViaIdentity.cs
+ RemoveAzDatadogMonitoredSubscription_DeleteViaIdentityMonitor.cs
+ RemoveAzDatadogMonitor_Delete.cs
+ RemoveAzDatadogMonitor_DeleteViaIdentity.cs
+ SetAzDatadogMonitorDefaultKey_SetExpanded.cs
+ SetAzDatadogMonitorDefaultKey_SetViaJsonFilePath.cs
+ SetAzDatadogMonitorDefaultKey_SetViaJsonString.cs
+ SetAzDatadogMonitoredSubscriptionCreateor_UpdateExpanded.cs
+ SetAzDatadogMonitoredSubscriptionCreateor_UpdateViaJsonFilePath.cs
+ SetAzDatadogMonitoredSubscriptionCreateor_UpdateViaJsonString.cs
+ UpdateAzDatadogMonitoredSubscription_UpdateExpanded.cs
+ UpdateAzDatadogMonitoredSubscription_UpdateViaIdentityExpanded.cs
+ UpdateAzDatadogMonitoredSubscription_UpdateViaIdentityMonitorExpanded.cs
+ UpdateAzDatadogMonitoredSubscription_UpdateViaJsonFilePath.cs
+ UpdateAzDatadogMonitoredSubscription_UpdateViaJsonString.cs
+ UpdateAzDatadogMonitorSetPasswordLink_Refresh.cs
+ UpdateAzDatadogMonitorSetPasswordLink_RefreshViaIdentity.cs
+ UpdateAzDatadogMonitor_UpdateExpanded.cs
+ UpdateAzDatadogMonitor_UpdateViaIdentityExpanded.cs
+ UpdateAzDatadogMonitor_UpdateViaJsonFilePath.cs
+ UpdateAzDatadogMonitor_UpdateViaJsonString.cs
+ UpdateAzDatadogSingleSignOnConfiguration_UpdateExpanded.cs
+ UpdateAzDatadogSingleSignOnConfiguration_UpdateViaIdentityExpanded.cs
+ UpdateAzDatadogSingleSignOnConfiguration_UpdateViaIdentityMonitorExpanded.cs
+ UpdateAzDatadogTagRule_UpdateExpanded.cs
+ UpdateAzDatadogTagRule_UpdateViaIdentityExpanded.cs
+ UpdateAzDatadogTagRule_UpdateViaIdentityMonitorExpanded.cs
+generated/
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.Datadog.GeneratedMSBuildEditorConfig.editorconfig

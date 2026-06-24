@@ -1,0 +1,149 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.Cmdlets.DataShare
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.DataShare/Microsoft.Azure.PowerShell.Cmdlets.DataShare.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.DataShare
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.DataShare/Microsoft.Azure.PowerShell.Cmdlets.DataShare.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.DataShare/Microsoft.Azure.PowerShell.Cmdlets.DataShare.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.Cmdlets.DataShare.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+Account/
+ GetAzDataShareAccount.cs
+ NewAzDataShareAccount.cs
+ RemoveAzDataShareAccount.cs
+Common/AzureDataShareCmdletBase.cs
+ConsumerInvitation/GetAzDataShareReceivedInvitation.cs
+DataSet/
+ GetAzDataShareDataSet.cs
+ NewAzDataShareDataSet.cs
+ RemoveAzDataShareDataSet.cs
+DataSetMapping/
+ GetAzDataShareDataSetMapping.cs
+ NewAzDataShareDataSetMapping.cs
+ RemoveAzDataShareDataSetMapping.cs
+Extensions/
+ ResourceIdentifierExtensions.cs
+ ResourceTypes.cs
+Invitation/
+ GetAzDataShareInvitation.cs
+ NewAzDataShareInvitation.cs
+ RemoveAzDataShareInvitation.cs
+Models/
+ ModelExtensions.cs
+ PSAdlsGen1FileDataSet.cs
+ PSAdlsGen1FolderDataSet.cs
+ PSAdlsGen2FileDataSet.cs
+ PSAdlsGen2FileDataSetMapping.cs
+ PSAdlsGen2FileSystemDataSet.cs
+ PSAdlsGen2FileSystemDataSetMapping.cs
+ PSAdlsGen2FolderDataSet.cs
+ PSAdlsGen2FolderDataSetMapping.cs
+ PSBlobContainerDataSet.cs
+ PSBlobContainerDataSetMapping.cs
+ PSBlobDataSet.cs
+ PSBlobDataSetMapping.cs
+ PSBlobFolderDataSet.cs
+ PSBlobFolderDataSetMapping.cs
+ PSDataShare.cs
+ PSDataShareAccount.cs
+ PSDataShareConsumerInvitation.cs
+ PSDataShareDataSet.cs
+ PSDataShareDataSetMapping.cs
+ PSDataShareInvitation.cs
+ PSDataShareProviderShareSubscription.cs
+ PSDataShareSourceDataSet.cs
+ PSDataShareSubscription.cs
+ PSDataShareSubscriptionSynchronization.cs
+ PSDataShareSynchronization.cs
+ PSDataShareSynchronizationDetail.cs
+ PSDataShareSynchronizationSetting.cs
+ PSDataShareTrigger.cs
+ PSIdentity.cs
+ PSProvisioningState.cs
+ PSResource.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+ParameterSetNames.cs
+Properties/
+ AssemblyInfo.cs
+ Resources.Designer.cs
+ProviderShareSubscriptions/
+ GrantAzDataShareSubscriptionAccess.cs
+ RevokeAzDataShareSubscriptionAccess.cs
+Share/
+ GetAzDataShare.cs
+ GetAzDataShareProviderShareSubscription.cs
+ NewAzDataShare.cs
+ RemoveAzDataShare.cs
+ SetAzDataShare.cs
+ShareSubscription/
+ GetAzDataShareSubscription.cs
+ NewAzDataShareSubscription.cs
+ RemoveAzDataShareSubscription.cs
+ShareSynchronization/
+ GetAzDataShareSynchronization.cs
+ GetAzDataShareSynchronizationDetail.cs
+SourceDataSet/GetAzDataShareSourceDataSet.cs
+Synchronization/
+ GetAzDataShareSubscriptionSynchronization.cs
+ GetAzDataShareSubscriptionSynchronizationDetail.cs
+ StartAzDataShareSynchronization.cs
+ StopAzDataShareSubscriptionSynchronization.cs
+SynchronizationSettings/
+ GetAzDataShareSynchronizationSetting.cs
+ NewAzDataShareSynchronizationSetting.cs
+ RemoveAzureDataShareSynchronizationSetting.cs
+Trigger/
+ GetAzDataShareTrigger.cs
+ NewAzDataShareTrigger.cs
+ RemoveAzDataShareTrigger.cs
+
+[metadataReferences]
+../../../artifacts/Debug/Az.DataShare/Microsoft.Azure.PowerShell.DataShare.Management.Sdk.dll
+
+[analyzerConfigFiles]
+obj/Debug/DataShare.GeneratedMSBuildEditorConfig.editorconfig

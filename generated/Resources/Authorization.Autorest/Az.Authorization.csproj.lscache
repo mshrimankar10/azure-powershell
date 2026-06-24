@@ -1,0 +1,504 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.Authorization.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.Resources/Authorization.Autorest/bin/Az.Authorization.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.Resources.Authorization
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.Resources/Authorization.Autorest/bin/Az.Authorization.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.Resources/Authorization.Autorest/bin/Az.Authorization.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.Authorization.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/
+ Authorization.cs
+ Models/
+  ApprovalSettings.cs
+  ApprovalSettings.json.cs
+  ApprovalSettings.PowerShell.cs
+  ApprovalSettings.TypeConverter.cs
+  ApprovalStage.cs
+  ApprovalStage.json.cs
+  ApprovalStage.PowerShell.cs
+  ApprovalStage.TypeConverter.cs
+  AuthorizationIdentity.cs
+  AuthorizationIdentity.json.cs
+  AuthorizationIdentity.PowerShell.cs
+  AuthorizationIdentity.TypeConverter.cs
+  CloudError.cs
+  CloudError.json.cs
+  CloudError.PowerShell.cs
+  CloudError.TypeConverter.cs
+  CloudErrorBody.cs
+  CloudErrorBody.json.cs
+  CloudErrorBody.PowerShell.cs
+  CloudErrorBody.TypeConverter.cs
+  EligibleChildResource.cs
+  EligibleChildResource.json.cs
+  EligibleChildResource.PowerShell.cs
+  EligibleChildResource.TypeConverter.cs
+  EligibleChildResourcesListResult.cs
+  EligibleChildResourcesListResult.json.cs
+  EligibleChildResourcesListResult.PowerShell.cs
+  EligibleChildResourcesListResult.TypeConverter.cs
+  ExpandedProperties.cs
+  ExpandedProperties.json.cs
+  ExpandedProperties.PowerShell.cs
+  ExpandedProperties.TypeConverter.cs
+  ExpandedPropertiesPrincipal.cs
+  ExpandedPropertiesPrincipal.json.cs
+  ExpandedPropertiesPrincipal.PowerShell.cs
+  ExpandedPropertiesPrincipal.TypeConverter.cs
+  ExpandedPropertiesRoleDefinition.cs
+  ExpandedPropertiesRoleDefinition.json.cs
+  ExpandedPropertiesRoleDefinition.PowerShell.cs
+  ExpandedPropertiesRoleDefinition.TypeConverter.cs
+  ExpandedPropertiesScope.cs
+  ExpandedPropertiesScope.json.cs
+  ExpandedPropertiesScope.PowerShell.cs
+  ExpandedPropertiesScope.TypeConverter.cs
+  PolicyAssignmentProperties.cs
+  PolicyAssignmentProperties.json.cs
+  PolicyAssignmentProperties.PowerShell.cs
+  PolicyAssignmentProperties.TypeConverter.cs
+  PolicyAssignmentPropertiesPolicy.cs
+  PolicyAssignmentPropertiesPolicy.json.cs
+  PolicyAssignmentPropertiesPolicy.PowerShell.cs
+  PolicyAssignmentPropertiesPolicy.TypeConverter.cs
+  PolicyAssignmentPropertiesRoleDefinition.cs
+  PolicyAssignmentPropertiesRoleDefinition.json.cs
+  PolicyAssignmentPropertiesRoleDefinition.PowerShell.cs
+  PolicyAssignmentPropertiesRoleDefinition.TypeConverter.cs
+  PolicyAssignmentPropertiesScope.cs
+  PolicyAssignmentPropertiesScope.json.cs
+  PolicyAssignmentPropertiesScope.PowerShell.cs
+  PolicyAssignmentPropertiesScope.TypeConverter.cs
+  PolicyProperties.cs
+  PolicyProperties.json.cs
+  PolicyProperties.PowerShell.cs
+  PolicyProperties.TypeConverter.cs
+  PolicyPropertiesScope.cs
+  PolicyPropertiesScope.json.cs
+  PolicyPropertiesScope.PowerShell.cs
+  PolicyPropertiesScope.TypeConverter.cs
+  Principal.cs
+  Principal.json.cs
+  Principal.PowerShell.cs
+  Principal.TypeConverter.cs
+  RoleAssignmentSchedule.cs
+  RoleAssignmentSchedule.json.cs
+  RoleAssignmentSchedule.PowerShell.cs
+  RoleAssignmentSchedule.TypeConverter.cs
+  RoleAssignmentScheduleFilter.cs
+  RoleAssignmentScheduleFilter.json.cs
+  RoleAssignmentScheduleFilter.PowerShell.cs
+  RoleAssignmentScheduleFilter.TypeConverter.cs
+  RoleAssignmentScheduleInstance.cs
+  RoleAssignmentScheduleInstance.json.cs
+  RoleAssignmentScheduleInstance.PowerShell.cs
+  RoleAssignmentScheduleInstance.TypeConverter.cs
+  RoleAssignmentScheduleInstanceFilter.cs
+  RoleAssignmentScheduleInstanceFilter.json.cs
+  RoleAssignmentScheduleInstanceFilter.PowerShell.cs
+  RoleAssignmentScheduleInstanceFilter.TypeConverter.cs
+  RoleAssignmentScheduleInstanceListResult.cs
+  RoleAssignmentScheduleInstanceListResult.json.cs
+  RoleAssignmentScheduleInstanceListResult.PowerShell.cs
+  RoleAssignmentScheduleInstanceListResult.TypeConverter.cs
+  RoleAssignmentScheduleInstanceProperties.cs
+  RoleAssignmentScheduleInstanceProperties.json.cs
+  RoleAssignmentScheduleInstanceProperties.PowerShell.cs
+  RoleAssignmentScheduleInstanceProperties.TypeConverter.cs
+  RoleAssignmentScheduleListResult.cs
+  RoleAssignmentScheduleListResult.json.cs
+  RoleAssignmentScheduleListResult.PowerShell.cs
+  RoleAssignmentScheduleListResult.TypeConverter.cs
+  RoleAssignmentScheduleProperties.cs
+  RoleAssignmentScheduleProperties.json.cs
+  RoleAssignmentScheduleProperties.PowerShell.cs
+  RoleAssignmentScheduleProperties.TypeConverter.cs
+  RoleAssignmentScheduleRequest.cs
+  RoleAssignmentScheduleRequest.json.cs
+  RoleAssignmentScheduleRequest.PowerShell.cs
+  RoleAssignmentScheduleRequest.TypeConverter.cs
+  RoleAssignmentScheduleRequestFilter.cs
+  RoleAssignmentScheduleRequestFilter.json.cs
+  RoleAssignmentScheduleRequestFilter.PowerShell.cs
+  RoleAssignmentScheduleRequestFilter.TypeConverter.cs
+  RoleAssignmentScheduleRequestListResult.cs
+  RoleAssignmentScheduleRequestListResult.json.cs
+  RoleAssignmentScheduleRequestListResult.PowerShell.cs
+  RoleAssignmentScheduleRequestListResult.TypeConverter.cs
+  RoleAssignmentScheduleRequestProperties.cs
+  RoleAssignmentScheduleRequestProperties.json.cs
+  RoleAssignmentScheduleRequestProperties.PowerShell.cs
+  RoleAssignmentScheduleRequestProperties.TypeConverter.cs
+  RoleAssignmentScheduleRequestPropertiesScheduleInfo.cs
+  RoleAssignmentScheduleRequestPropertiesScheduleInfo.json.cs
+  RoleAssignmentScheduleRequestPropertiesScheduleInfo.PowerShell.cs
+  RoleAssignmentScheduleRequestPropertiesScheduleInfo.TypeConverter.cs
+  RoleAssignmentScheduleRequestPropertiesScheduleInfoExpiration.cs
+  RoleAssignmentScheduleRequestPropertiesScheduleInfoExpiration.json.cs
+  RoleAssignmentScheduleRequestPropertiesScheduleInfoExpiration.PowerShell.cs
+  RoleAssignmentScheduleRequestPropertiesScheduleInfoExpiration.TypeConverter.cs
+  RoleAssignmentScheduleRequestPropertiesTicketInfo.cs
+  RoleAssignmentScheduleRequestPropertiesTicketInfo.json.cs
+  RoleAssignmentScheduleRequestPropertiesTicketInfo.PowerShell.cs
+  RoleAssignmentScheduleRequestPropertiesTicketInfo.TypeConverter.cs
+  RoleEligibilitySchedule.cs
+  RoleEligibilitySchedule.json.cs
+  RoleEligibilitySchedule.PowerShell.cs
+  RoleEligibilitySchedule.TypeConverter.cs
+  RoleEligibilityScheduleFilter.cs
+  RoleEligibilityScheduleFilter.json.cs
+  RoleEligibilityScheduleFilter.PowerShell.cs
+  RoleEligibilityScheduleFilter.TypeConverter.cs
+  RoleEligibilityScheduleInstance.cs
+  RoleEligibilityScheduleInstance.json.cs
+  RoleEligibilityScheduleInstance.PowerShell.cs
+  RoleEligibilityScheduleInstance.TypeConverter.cs
+  RoleEligibilityScheduleInstanceFilter.cs
+  RoleEligibilityScheduleInstanceFilter.json.cs
+  RoleEligibilityScheduleInstanceFilter.PowerShell.cs
+  RoleEligibilityScheduleInstanceFilter.TypeConverter.cs
+  RoleEligibilityScheduleInstanceListResult.cs
+  RoleEligibilityScheduleInstanceListResult.json.cs
+  RoleEligibilityScheduleInstanceListResult.PowerShell.cs
+  RoleEligibilityScheduleInstanceListResult.TypeConverter.cs
+  RoleEligibilityScheduleInstanceProperties.cs
+  RoleEligibilityScheduleInstanceProperties.json.cs
+  RoleEligibilityScheduleInstanceProperties.PowerShell.cs
+  RoleEligibilityScheduleInstanceProperties.TypeConverter.cs
+  RoleEligibilityScheduleListResult.cs
+  RoleEligibilityScheduleListResult.json.cs
+  RoleEligibilityScheduleListResult.PowerShell.cs
+  RoleEligibilityScheduleListResult.TypeConverter.cs
+  RoleEligibilityScheduleProperties.cs
+  RoleEligibilityScheduleProperties.json.cs
+  RoleEligibilityScheduleProperties.PowerShell.cs
+  RoleEligibilityScheduleProperties.TypeConverter.cs
+  RoleEligibilityScheduleRequest.cs
+  RoleEligibilityScheduleRequest.json.cs
+  RoleEligibilityScheduleRequest.PowerShell.cs
+  RoleEligibilityScheduleRequest.TypeConverter.cs
+  RoleEligibilityScheduleRequestFilter.cs
+  RoleEligibilityScheduleRequestFilter.json.cs
+  RoleEligibilityScheduleRequestFilter.PowerShell.cs
+  RoleEligibilityScheduleRequestFilter.TypeConverter.cs
+  RoleEligibilityScheduleRequestListResult.cs
+  RoleEligibilityScheduleRequestListResult.json.cs
+  RoleEligibilityScheduleRequestListResult.PowerShell.cs
+  RoleEligibilityScheduleRequestListResult.TypeConverter.cs
+  RoleEligibilityScheduleRequestProperties.cs
+  RoleEligibilityScheduleRequestProperties.json.cs
+  RoleEligibilityScheduleRequestProperties.PowerShell.cs
+  RoleEligibilityScheduleRequestProperties.TypeConverter.cs
+  RoleEligibilityScheduleRequestPropertiesScheduleInfo.cs
+  RoleEligibilityScheduleRequestPropertiesScheduleInfo.json.cs
+  RoleEligibilityScheduleRequestPropertiesScheduleInfo.PowerShell.cs
+  RoleEligibilityScheduleRequestPropertiesScheduleInfo.TypeConverter.cs
+  RoleEligibilityScheduleRequestPropertiesScheduleInfoExpiration.cs
+  RoleEligibilityScheduleRequestPropertiesScheduleInfoExpiration.json.cs
+  RoleEligibilityScheduleRequestPropertiesScheduleInfoExpiration.PowerShell.cs
+  RoleEligibilityScheduleRequestPropertiesScheduleInfoExpiration.TypeConverter.cs
+  RoleEligibilityScheduleRequestPropertiesTicketInfo.cs
+  RoleEligibilityScheduleRequestPropertiesTicketInfo.json.cs
+  RoleEligibilityScheduleRequestPropertiesTicketInfo.PowerShell.cs
+  RoleEligibilityScheduleRequestPropertiesTicketInfo.TypeConverter.cs
+  RoleManagementPolicy.cs
+  RoleManagementPolicy.json.cs
+  RoleManagementPolicy.PowerShell.cs
+  RoleManagementPolicy.TypeConverter.cs
+  RoleManagementPolicyApprovalRule.cs
+  RoleManagementPolicyApprovalRule.json.cs
+  RoleManagementPolicyApprovalRule.PowerShell.cs
+  RoleManagementPolicyApprovalRule.TypeConverter.cs
+  RoleManagementPolicyAssignment.cs
+  RoleManagementPolicyAssignment.json.cs
+  RoleManagementPolicyAssignment.PowerShell.cs
+  RoleManagementPolicyAssignment.TypeConverter.cs
+  RoleManagementPolicyAssignmentListResult.cs
+  RoleManagementPolicyAssignmentListResult.json.cs
+  RoleManagementPolicyAssignmentListResult.PowerShell.cs
+  RoleManagementPolicyAssignmentListResult.TypeConverter.cs
+  RoleManagementPolicyAssignmentProperties.cs
+  RoleManagementPolicyAssignmentProperties.json.cs
+  RoleManagementPolicyAssignmentProperties.PowerShell.cs
+  RoleManagementPolicyAssignmentProperties.TypeConverter.cs
+  RoleManagementPolicyAuthenticationContextRule.cs
+  RoleManagementPolicyAuthenticationContextRule.json.cs
+  RoleManagementPolicyAuthenticationContextRule.PowerShell.cs
+  RoleManagementPolicyAuthenticationContextRule.TypeConverter.cs
+  RoleManagementPolicyEnablementRule.cs
+  RoleManagementPolicyEnablementRule.json.cs
+  RoleManagementPolicyEnablementRule.PowerShell.cs
+  RoleManagementPolicyEnablementRule.TypeConverter.cs
+  RoleManagementPolicyExpirationRule.cs
+  RoleManagementPolicyExpirationRule.json.cs
+  RoleManagementPolicyExpirationRule.PowerShell.cs
+  RoleManagementPolicyExpirationRule.TypeConverter.cs
+  RoleManagementPolicyListResult.cs
+  RoleManagementPolicyListResult.json.cs
+  RoleManagementPolicyListResult.PowerShell.cs
+  RoleManagementPolicyListResult.TypeConverter.cs
+  RoleManagementPolicyNotificationRule.cs
+  RoleManagementPolicyNotificationRule.json.cs
+  RoleManagementPolicyNotificationRule.PowerShell.cs
+  RoleManagementPolicyNotificationRule.TypeConverter.cs
+  RoleManagementPolicyProperties.cs
+  RoleManagementPolicyProperties.json.cs
+  RoleManagementPolicyProperties.PowerShell.cs
+  RoleManagementPolicyProperties.TypeConverter.cs
+  RoleManagementPolicyRule.cs
+  RoleManagementPolicyRule.json.cs
+  RoleManagementPolicyRule.PowerShell.cs
+  RoleManagementPolicyRule.TypeConverter.cs
+  RoleManagementPolicyRuleTarget.cs
+  RoleManagementPolicyRuleTarget.json.cs
+  RoleManagementPolicyRuleTarget.PowerShell.cs
+  RoleManagementPolicyRuleTarget.TypeConverter.cs
+  UserSet.cs
+  UserSet.json.cs
+  UserSet.PowerShell.cs
+  UserSet.TypeConverter.cs
+generated/cmdlets/
+ GetAzRoleAssignmentScheduleInstance_Get.cs
+ GetAzRoleAssignmentScheduleInstance_GetViaIdentity.cs
+ GetAzRoleAssignmentScheduleInstance_List.cs
+ GetAzRoleAssignmentScheduleRequest_Get.cs
+ GetAzRoleAssignmentScheduleRequest_GetViaIdentity.cs
+ GetAzRoleAssignmentScheduleRequest_List.cs
+ GetAzRoleAssignmentSchedule_Get.cs
+ GetAzRoleAssignmentSchedule_GetViaIdentity.cs
+ GetAzRoleAssignmentSchedule_List.cs
+ GetAzRoleEligibilityScheduleInstance_Get.cs
+ GetAzRoleEligibilityScheduleInstance_GetViaIdentity.cs
+ GetAzRoleEligibilityScheduleInstance_List.cs
+ GetAzRoleEligibilityScheduleRequest_Get.cs
+ GetAzRoleEligibilityScheduleRequest_GetViaIdentity.cs
+ GetAzRoleEligibilityScheduleRequest_List.cs
+ GetAzRoleEligibilitySchedule_Get.cs
+ GetAzRoleEligibilitySchedule_GetViaIdentity.cs
+ GetAzRoleEligibilitySchedule_List.cs
+ GetAzRoleEligibleChildResource_Get.cs
+ GetAzRoleManagementPolicyAssignment_Get.cs
+ GetAzRoleManagementPolicyAssignment_GetViaIdentity.cs
+ GetAzRoleManagementPolicyAssignment_List.cs
+ GetAzRoleManagementPolicy_Get.cs
+ GetAzRoleManagementPolicy_GetViaIdentity.cs
+ GetAzRoleManagementPolicy_List.cs
+ NewAzRoleAssignmentScheduleRequest_CreateExpanded.cs
+ NewAzRoleAssignmentScheduleRequest_CreateViaJsonFilePath.cs
+ NewAzRoleAssignmentScheduleRequest_CreateViaJsonString.cs
+ NewAzRoleEligibilityScheduleRequest_CreateExpanded.cs
+ NewAzRoleEligibilityScheduleRequest_CreateViaJsonFilePath.cs
+ NewAzRoleEligibilityScheduleRequest_CreateViaJsonString.cs
+ NewAzRoleManagementPolicyAssignment_CreateExpanded.cs
+ NewAzRoleManagementPolicyAssignment_CreateViaJsonFilePath.cs
+ NewAzRoleManagementPolicyAssignment_CreateViaJsonString.cs
+ RemoveAzRoleManagementPolicyAssignment_Delete.cs
+ RemoveAzRoleManagementPolicyAssignment_DeleteViaIdentity.cs
+ RemoveAzRoleManagementPolicy_Delete.cs
+ RemoveAzRoleManagementPolicy_DeleteViaIdentity.cs
+ StopAzRoleAssignmentScheduleRequest_Cancel.cs
+ StopAzRoleAssignmentScheduleRequest_CancelViaIdentity.cs
+ StopAzRoleEligibilityScheduleRequest_Cancel.cs
+ StopAzRoleEligibilityScheduleRequest_CancelViaIdentity.cs
+ UpdateAzRoleAssignmentScheduleRequest_UpdateExpanded.cs
+ UpdateAzRoleAssignmentScheduleRequest_UpdateViaIdentityExpanded.cs
+ UpdateAzRoleEligibilityScheduleRequest_UpdateExpanded.cs
+ UpdateAzRoleEligibilityScheduleRequest_UpdateViaIdentityExpanded.cs
+ UpdateAzRoleManagementPolicyAssignment_UpdateExpanded.cs
+ UpdateAzRoleManagementPolicyAssignment_UpdateViaIdentityExpanded.cs
+ UpdateAzRoleManagementPolicy_UpdateExpanded.cs
+ UpdateAzRoleManagementPolicy_UpdateViaIdentityExpanded.cs
+ UpdateAzRoleManagementPolicy_UpdateViaJsonFilePath.cs
+ UpdateAzRoleManagementPolicy_UpdateViaJsonString.cs
+generated/
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.Authorization.GeneratedMSBuildEditorConfig.editorconfig

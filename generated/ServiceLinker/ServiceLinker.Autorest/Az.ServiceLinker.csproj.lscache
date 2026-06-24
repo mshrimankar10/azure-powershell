@@ -1,0 +1,478 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.ServiceLinker.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.ServiceLinker/ServiceLinker.Autorest/bin/Az.ServiceLinker.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.ServiceLinker
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.ServiceLinker/ServiceLinker.Autorest/bin/Az.ServiceLinker.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.ServiceLinker/ServiceLinker.Autorest/bin/Az.ServiceLinker.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.ServiceLinker.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/Models/
+ AccessKeyInfoBase.cs
+ AccessKeyInfoBase.json.cs
+ AccessKeyInfoBase.PowerShell.cs
+ AccessKeyInfoBase.TypeConverter.cs
+ Any.cs
+ Any.json.cs
+ Any.PowerShell.cs
+ Any.TypeConverter.cs
+ AuthInfoBase.cs
+ AuthInfoBase.json.cs
+ AuthInfoBase.PowerShell.cs
+ AuthInfoBase.TypeConverter.cs
+ AzureKeyVaultProperties.cs
+ AzureKeyVaultProperties.json.cs
+ AzureKeyVaultProperties.PowerShell.cs
+ AzureKeyVaultProperties.TypeConverter.cs
+ AzureResource.cs
+ AzureResource.json.cs
+ AzureResource.PowerShell.cs
+ AzureResource.TypeConverter.cs
+ AzureResourcePropertiesBase.cs
+ AzureResourcePropertiesBase.json.cs
+ AzureResourcePropertiesBase.PowerShell.cs
+ AzureResourcePropertiesBase.TypeConverter.cs
+ BasicErrorDryrunPrerequisiteResult.cs
+ BasicErrorDryrunPrerequisiteResult.json.cs
+ BasicErrorDryrunPrerequisiteResult.PowerShell.cs
+ BasicErrorDryrunPrerequisiteResult.TypeConverter.cs
+ ConfigurationInfo.cs
+ ConfigurationInfo.json.cs
+ ConfigurationInfo.PowerShell.cs
+ ConfigurationInfo.TypeConverter.cs
+ ConfigurationInfoAdditionalConfigurations.cs
+ ConfigurationInfoAdditionalConfigurations.dictionary.cs
+ ConfigurationInfoAdditionalConfigurations.json.cs
+ ConfigurationInfoAdditionalConfigurations.PowerShell.cs
+ ConfigurationInfoAdditionalConfigurations.TypeConverter.cs
+ ConfigurationInfoCustomizedKeys.cs
+ ConfigurationInfoCustomizedKeys.dictionary.cs
+ ConfigurationInfoCustomizedKeys.json.cs
+ ConfigurationInfoCustomizedKeys.PowerShell.cs
+ ConfigurationInfoCustomizedKeys.TypeConverter.cs
+ ConfigurationName.cs
+ ConfigurationName.json.cs
+ ConfigurationName.PowerShell.cs
+ ConfigurationName.TypeConverter.cs
+ ConfigurationNameItem.cs
+ ConfigurationNameItem.json.cs
+ ConfigurationNameItem.PowerShell.cs
+ ConfigurationNameItem.TypeConverter.cs
+ ConfigurationNameResult.cs
+ ConfigurationNameResult.json.cs
+ ConfigurationNameResult.PowerShell.cs
+ ConfigurationNameResult.TypeConverter.cs
+ ConfigurationNames.cs
+ ConfigurationNames.json.cs
+ ConfigurationNames.PowerShell.cs
+ ConfigurationNames.TypeConverter.cs
+ ConfigurationResult.cs
+ ConfigurationResult.json.cs
+ ConfigurationResult.PowerShell.cs
+ ConfigurationResult.TypeConverter.cs
+ ConfluentBootstrapServer.cs
+ ConfluentBootstrapServer.json.cs
+ ConfluentBootstrapServer.PowerShell.cs
+ ConfluentBootstrapServer.TypeConverter.cs
+ ConfluentSchemaRegistry.cs
+ ConfluentSchemaRegistry.json.cs
+ ConfluentSchemaRegistry.PowerShell.cs
+ ConfluentSchemaRegistry.TypeConverter.cs
+ CreateOrUpdateDryrunParameters.cs
+ CreateOrUpdateDryrunParameters.json.cs
+ CreateOrUpdateDryrunParameters.PowerShell.cs
+ CreateOrUpdateDryrunParameters.TypeConverter.cs
+ DatabaseAadAuthInfo.cs
+ DatabaseAadAuthInfo.json.cs
+ DatabaseAadAuthInfo.PowerShell.cs
+ DatabaseAadAuthInfo.TypeConverter.cs
+ DryrunList.cs
+ DryrunList.json.cs
+ DryrunList.PowerShell.cs
+ DryrunList.TypeConverter.cs
+ DryrunOperationPreview.cs
+ DryrunOperationPreview.json.cs
+ DryrunOperationPreview.PowerShell.cs
+ DryrunOperationPreview.TypeConverter.cs
+ DryrunParameters.cs
+ DryrunParameters.json.cs
+ DryrunParameters.PowerShell.cs
+ DryrunParameters.TypeConverter.cs
+ DryrunPatch.cs
+ DryrunPatch.json.cs
+ DryrunPatch.PowerShell.cs
+ DryrunPatch.TypeConverter.cs
+ DryrunPrerequisiteResult.cs
+ DryrunPrerequisiteResult.json.cs
+ DryrunPrerequisiteResult.PowerShell.cs
+ DryrunPrerequisiteResult.TypeConverter.cs
+ DryrunProperties.cs
+ DryrunProperties.json.cs
+ DryrunProperties.PowerShell.cs
+ DryrunProperties.TypeConverter.cs
+ DryrunResource.cs
+ DryrunResource.json.cs
+ DryrunResource.PowerShell.cs
+ DryrunResource.TypeConverter.cs
+ ErrorAdditionalInfo.cs
+ ErrorAdditionalInfo.json.cs
+ ErrorAdditionalInfo.PowerShell.cs
+ ErrorAdditionalInfo.TypeConverter.cs
+ ErrorDetail.cs
+ ErrorDetail.json.cs
+ ErrorDetail.PowerShell.cs
+ ErrorDetail.TypeConverter.cs
+ ErrorResponse.cs
+ ErrorResponse.json.cs
+ ErrorResponse.PowerShell.cs
+ ErrorResponse.TypeConverter.cs
+ FirewallRules.cs
+ FirewallRules.json.cs
+ FirewallRules.PowerShell.cs
+ FirewallRules.TypeConverter.cs
+ KeyVaultSecretReferenceSecretInfo.cs
+ KeyVaultSecretReferenceSecretInfo.json.cs
+ KeyVaultSecretReferenceSecretInfo.PowerShell.cs
+ KeyVaultSecretReferenceSecretInfo.TypeConverter.cs
+ KeyVaultSecretUriSecretInfo.cs
+ KeyVaultSecretUriSecretInfo.json.cs
+ KeyVaultSecretUriSecretInfo.PowerShell.cs
+ KeyVaultSecretUriSecretInfo.TypeConverter.cs
+ LinkerPatch.cs
+ LinkerPatch.json.cs
+ LinkerPatch.PowerShell.cs
+ LinkerPatch.TypeConverter.cs
+ LinkerProperties.cs
+ LinkerProperties.json.cs
+ LinkerProperties.PowerShell.cs
+ LinkerProperties.TypeConverter.cs
+ LinkerResource.cs
+ LinkerResource.json.cs
+ LinkerResource.PowerShell.cs
+ LinkerResource.TypeConverter.cs
+ Operation.cs
+ Operation.json.cs
+ Operation.PowerShell.cs
+ Operation.TypeConverter.cs
+ OperationDisplay.cs
+ OperationDisplay.json.cs
+ OperationDisplay.PowerShell.cs
+ OperationDisplay.TypeConverter.cs
+ OperationListResult.cs
+ OperationListResult.json.cs
+ OperationListResult.PowerShell.cs
+ OperationListResult.TypeConverter.cs
+ PermissionsMissingDryrunPrerequisiteResult.cs
+ PermissionsMissingDryrunPrerequisiteResult.json.cs
+ PermissionsMissingDryrunPrerequisiteResult.PowerShell.cs
+ PermissionsMissingDryrunPrerequisiteResult.TypeConverter.cs
+ ProxyResource.cs
+ ProxyResource.json.cs
+ ProxyResource.PowerShell.cs
+ ProxyResource.TypeConverter.cs
+ PublicNetworkSolution.cs
+ PublicNetworkSolution.json.cs
+ PublicNetworkSolution.PowerShell.cs
+ PublicNetworkSolution.TypeConverter.cs
+ Resource.cs
+ Resource.json.cs
+ Resource.PowerShell.cs
+ Resource.TypeConverter.cs
+ ResourceList.cs
+ ResourceList.json.cs
+ ResourceList.PowerShell.cs
+ ResourceList.TypeConverter.cs
+ SecretAuthInfo.cs
+ SecretAuthInfo.json.cs
+ SecretAuthInfo.PowerShell.cs
+ SecretAuthInfo.TypeConverter.cs
+ SecretInfoBase.cs
+ SecretInfoBase.json.cs
+ SecretInfoBase.PowerShell.cs
+ SecretInfoBase.TypeConverter.cs
+ SecretStore.cs
+ SecretStore.json.cs
+ SecretStore.PowerShell.cs
+ SecretStore.TypeConverter.cs
+ SelfHostedServer.cs
+ SelfHostedServer.json.cs
+ SelfHostedServer.PowerShell.cs
+ SelfHostedServer.TypeConverter.cs
+ ServiceLinkerIdentity.cs
+ ServiceLinkerIdentity.json.cs
+ ServiceLinkerIdentity.PowerShell.cs
+ ServiceLinkerIdentity.TypeConverter.cs
+ ServicePrincipalCertificateAuthInfo.cs
+ ServicePrincipalCertificateAuthInfo.json.cs
+ ServicePrincipalCertificateAuthInfo.PowerShell.cs
+ ServicePrincipalCertificateAuthInfo.TypeConverter.cs
+ ServicePrincipalSecretAuthInfo.cs
+ ServicePrincipalSecretAuthInfo.json.cs
+ ServicePrincipalSecretAuthInfo.PowerShell.cs
+ ServicePrincipalSecretAuthInfo.TypeConverter.cs
+ SourceConfiguration.cs
+ SourceConfiguration.json.cs
+ SourceConfiguration.PowerShell.cs
+ SourceConfiguration.TypeConverter.cs
+ SystemAssignedIdentityAuthInfo.cs
+ SystemAssignedIdentityAuthInfo.json.cs
+ SystemAssignedIdentityAuthInfo.PowerShell.cs
+ SystemAssignedIdentityAuthInfo.TypeConverter.cs
+ SystemData.cs
+ SystemData.json.cs
+ SystemData.PowerShell.cs
+ SystemData.TypeConverter.cs
+ TargetServiceBase.cs
+ TargetServiceBase.json.cs
+ TargetServiceBase.PowerShell.cs
+ TargetServiceBase.TypeConverter.cs
+ UserAccountAuthInfo.cs
+ UserAccountAuthInfo.json.cs
+ UserAccountAuthInfo.PowerShell.cs
+ UserAccountAuthInfo.TypeConverter.cs
+ UserAssignedIdentityAuthInfo.cs
+ UserAssignedIdentityAuthInfo.json.cs
+ UserAssignedIdentityAuthInfo.PowerShell.cs
+ UserAssignedIdentityAuthInfo.TypeConverter.cs
+ ValidateOperationResult.cs
+ ValidateOperationResult.json.cs
+ ValidateOperationResult.PowerShell.cs
+ ValidateOperationResult.TypeConverter.cs
+ ValidateResult.cs
+ ValidateResult.json.cs
+ ValidateResult.PowerShell.cs
+ ValidateResult.TypeConverter.cs
+ ValidationResultItem.cs
+ ValidationResultItem.json.cs
+ ValidationResultItem.PowerShell.cs
+ ValidationResultItem.TypeConverter.cs
+ ValueSecretInfo.cs
+ ValueSecretInfo.json.cs
+ ValueSecretInfo.PowerShell.cs
+ ValueSecretInfo.TypeConverter.cs
+ VNetSolution.cs
+ VNetSolution.json.cs
+ VNetSolution.PowerShell.cs
+ VNetSolution.TypeConverter.cs
+generated/
+ api/ServiceLinker.cs
+ cmdlets/
+  GetAzServiceLinkerConfigurationName_List.cs
+  GetAzServiceLinkerConfiguration_List.cs
+  GetAzServiceLinkerDryrun_Get.cs
+  GetAzServiceLinkerDryrun_GetViaIdentity.cs
+  GetAzServiceLinkerDryrun_List.cs
+  GetAzServiceLinkerOperation_List.cs
+  GetAzServiceLinker_Get.cs
+  GetAzServiceLinker_GetViaIdentity.cs
+  GetAzServiceLinker_List.cs
+  NewAzServiceLinkerConfiguration_Generate.cs
+  NewAzServiceLinkerConfiguration_GenerateExpanded.cs
+  NewAzServiceLinkerConfiguration_GenerateViaIdentity.cs
+  NewAzServiceLinkerConfiguration_GenerateViaIdentityExpanded.cs
+  NewAzServiceLinkerConfiguration_GenerateViaJsonFilePath.cs
+  NewAzServiceLinkerConfiguration_GenerateViaJsonString.cs
+  NewAzServiceLinkerDryrun_CreateExpanded.cs
+  NewAzServiceLinkerDryrun_CreateViaIdentityExpanded.cs
+  NewAzServiceLinker_CreateExpanded.cs
+  NewAzServiceLinker_CreateViaIdentityExpanded.cs
+  RemoveAzServiceLinkerDryrun_Delete.cs
+  RemoveAzServiceLinkerDryrun_DeleteViaIdentity.cs
+  RemoveAzServiceLinker_Delete.cs
+  RemoveAzServiceLinker_DeleteViaIdentity.cs
+  TestAzServiceLinker_Validate.cs
+  TestAzServiceLinker_ValidateViaIdentity.cs
+  UpdateAzServiceLinkerDryrun_UpdateExpanded.cs
+  UpdateAzServiceLinkerDryrun_UpdateViaIdentityExpanded.cs
+  UpdateAzServiceLinker_UpdateExpanded.cs
+  UpdateAzServiceLinker_UpdateViaIdentityExpanded.cs
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.ServiceLinker.GeneratedMSBuildEditorConfig.editorconfig

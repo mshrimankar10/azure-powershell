@@ -1,0 +1,575 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.Synapse.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.Synapse/Synapse.Autorest/bin/Az.Synapse.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.Synapse
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.Synapse/Synapse.Autorest/bin/Az.Synapse.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.Synapse/Synapse.Autorest/bin/Az.Synapse.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.Synapse.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/Models/
+ Any.cs
+ Any.json.cs
+ Any.PowerShell.cs
+ Any.TypeConverter.cs
+ Api10/
+  ProxyResource.cs
+  ProxyResource.json.cs
+  ProxyResource.PowerShell.cs
+  ProxyResource.TypeConverter.cs
+  Resource.cs
+  Resource.json.cs
+  Resource.PowerShell.cs
+  Resource.TypeConverter.cs
+  SystemData.cs
+  SystemData.json.cs
+  SystemData.PowerShell.cs
+  SystemData.TypeConverter.cs
+  TrackedResource.cs
+  TrackedResource.json.cs
+  TrackedResource.PowerShell.cs
+  TrackedResource.TypeConverter.cs
+  TrackedResourceTags.cs
+  TrackedResourceTags.dictionary.cs
+  TrackedResourceTags.json.cs
+  TrackedResourceTags.PowerShell.cs
+  TrackedResourceTags.TypeConverter.cs
+ Api20/
+  ErrorAdditionalInfo.cs
+  ErrorAdditionalInfo.json.cs
+  ErrorAdditionalInfo.PowerShell.cs
+  ErrorAdditionalInfo.TypeConverter.cs
+  ErrorDetail.cs
+  ErrorDetail.json.cs
+  ErrorDetail.PowerShell.cs
+  ErrorDetail.TypeConverter.cs
+  ErrorResponse.cs
+  ErrorResponse.json.cs
+  ErrorResponse.PowerShell.cs
+  ErrorResponse.TypeConverter.cs
+ Api20210601Preview/
+  AttachedDatabaseConfiguration.cs
+  AttachedDatabaseConfiguration.json.cs
+  AttachedDatabaseConfiguration.PowerShell.cs
+  AttachedDatabaseConfiguration.TypeConverter.cs
+  AttachedDatabaseConfigurationListResult.cs
+  AttachedDatabaseConfigurationListResult.json.cs
+  AttachedDatabaseConfigurationListResult.PowerShell.cs
+  AttachedDatabaseConfigurationListResult.TypeConverter.cs
+  AttachedDatabaseConfigurationProperties.cs
+  AttachedDatabaseConfigurationProperties.json.cs
+  AttachedDatabaseConfigurationProperties.PowerShell.cs
+  AttachedDatabaseConfigurationProperties.TypeConverter.cs
+  AzureCapacity.cs
+  AzureCapacity.json.cs
+  AzureCapacity.PowerShell.cs
+  AzureCapacity.TypeConverter.cs
+  AzureResourceSku.cs
+  AzureResourceSku.json.cs
+  AzureResourceSku.PowerShell.cs
+  AzureResourceSku.TypeConverter.cs
+  AzureSku.cs
+  AzureSku.json.cs
+  AzureSku.PowerShell.cs
+  AzureSku.TypeConverter.cs
+  CheckNameResult.cs
+  CheckNameResult.json.cs
+  CheckNameResult.PowerShell.cs
+  CheckNameResult.TypeConverter.cs
+  ClusterPrincipalAssignment.cs
+  ClusterPrincipalAssignment.json.cs
+  ClusterPrincipalAssignment.PowerShell.cs
+  ClusterPrincipalAssignment.TypeConverter.cs
+  ClusterPrincipalAssignmentCheckNameRequest.cs
+  ClusterPrincipalAssignmentCheckNameRequest.json.cs
+  ClusterPrincipalAssignmentCheckNameRequest.PowerShell.cs
+  ClusterPrincipalAssignmentCheckNameRequest.TypeConverter.cs
+  ClusterPrincipalAssignmentListResult.cs
+  ClusterPrincipalAssignmentListResult.json.cs
+  ClusterPrincipalAssignmentListResult.PowerShell.cs
+  ClusterPrincipalAssignmentListResult.TypeConverter.cs
+  ClusterPrincipalProperties.cs
+  ClusterPrincipalProperties.json.cs
+  ClusterPrincipalProperties.PowerShell.cs
+  ClusterPrincipalProperties.TypeConverter.cs
+  Database.cs
+  Database.json.cs
+  Database.PowerShell.cs
+  Database.TypeConverter.cs
+  DatabaseCheckNameRequest.cs
+  DatabaseCheckNameRequest.json.cs
+  DatabaseCheckNameRequest.PowerShell.cs
+  DatabaseCheckNameRequest.TypeConverter.cs
+  DatabaseListResult.cs
+  DatabaseListResult.json.cs
+  DatabaseListResult.PowerShell.cs
+  DatabaseListResult.TypeConverter.cs
+  DatabasePrincipalAssignment.cs
+  DatabasePrincipalAssignment.json.cs
+  DatabasePrincipalAssignment.PowerShell.cs
+  DatabasePrincipalAssignment.TypeConverter.cs
+  DatabasePrincipalAssignmentCheckNameRequest.cs
+  DatabasePrincipalAssignmentCheckNameRequest.json.cs
+  DatabasePrincipalAssignmentCheckNameRequest.PowerShell.cs
+  DatabasePrincipalAssignmentCheckNameRequest.TypeConverter.cs
+  DatabasePrincipalAssignmentListResult.cs
+  DatabasePrincipalAssignmentListResult.json.cs
+  DatabasePrincipalAssignmentListResult.PowerShell.cs
+  DatabasePrincipalAssignmentListResult.TypeConverter.cs
+  DatabasePrincipalProperties.cs
+  DatabasePrincipalProperties.json.cs
+  DatabasePrincipalProperties.PowerShell.cs
+  DatabasePrincipalProperties.TypeConverter.cs
+  DatabaseStatistics.cs
+  DatabaseStatistics.json.cs
+  DatabaseStatistics.PowerShell.cs
+  DatabaseStatistics.TypeConverter.cs
+  DataConnection.cs
+  DataConnection.json.cs
+  DataConnection.PowerShell.cs
+  DataConnection.TypeConverter.cs
+  DataConnectionCheckNameRequest.cs
+  DataConnectionCheckNameRequest.json.cs
+  DataConnectionCheckNameRequest.PowerShell.cs
+  DataConnectionCheckNameRequest.TypeConverter.cs
+  DataConnectionListResult.cs
+  DataConnectionListResult.json.cs
+  DataConnectionListResult.PowerShell.cs
+  DataConnectionListResult.TypeConverter.cs
+  DataConnectionValidation.cs
+  DataConnectionValidation.json.cs
+  DataConnectionValidation.PowerShell.cs
+  DataConnectionValidation.TypeConverter.cs
+  DataConnectionValidationListResult.cs
+  DataConnectionValidationListResult.json.cs
+  DataConnectionValidationListResult.PowerShell.cs
+  DataConnectionValidationListResult.TypeConverter.cs
+  DataConnectionValidationResult.cs
+  DataConnectionValidationResult.json.cs
+  DataConnectionValidationResult.PowerShell.cs
+  DataConnectionValidationResult.TypeConverter.cs
+  EventGridConnectionProperties.cs
+  EventGridConnectionProperties.json.cs
+  EventGridConnectionProperties.PowerShell.cs
+  EventGridConnectionProperties.TypeConverter.cs
+  EventGridDataConnection.cs
+  EventGridDataConnection.json.cs
+  EventGridDataConnection.PowerShell.cs
+  EventGridDataConnection.TypeConverter.cs
+  EventHubConnectionProperties.cs
+  EventHubConnectionProperties.json.cs
+  EventHubConnectionProperties.PowerShell.cs
+  EventHubConnectionProperties.TypeConverter.cs
+  EventHubDataConnection.cs
+  EventHubDataConnection.json.cs
+  EventHubDataConnection.PowerShell.cs
+  EventHubDataConnection.TypeConverter.cs
+  FollowerDatabaseDefinition.cs
+  FollowerDatabaseDefinition.json.cs
+  FollowerDatabaseDefinition.PowerShell.cs
+  FollowerDatabaseDefinition.TypeConverter.cs
+  FollowerDatabaseListResult.cs
+  FollowerDatabaseListResult.json.cs
+  FollowerDatabaseListResult.PowerShell.cs
+  FollowerDatabaseListResult.TypeConverter.cs
+  IotHubConnectionProperties.cs
+  IotHubConnectionProperties.json.cs
+  IotHubConnectionProperties.PowerShell.cs
+  IotHubConnectionProperties.TypeConverter.cs
+  IotHubDataConnection.cs
+  IotHubDataConnection.json.cs
+  IotHubDataConnection.PowerShell.cs
+  IotHubDataConnection.TypeConverter.cs
+  KustoPool.cs
+  KustoPool.json.cs
+  KustoPool.PowerShell.cs
+  KustoPool.TypeConverter.cs
+  KustoPoolCheckNameRequest.cs
+  KustoPoolCheckNameRequest.json.cs
+  KustoPoolCheckNameRequest.PowerShell.cs
+  KustoPoolCheckNameRequest.TypeConverter.cs
+  KustoPoolListResult.cs
+  KustoPoolListResult.json.cs
+  KustoPoolListResult.PowerShell.cs
+  KustoPoolListResult.TypeConverter.cs
+  KustoPoolProperties.cs
+  KustoPoolProperties.json.cs
+  KustoPoolProperties.PowerShell.cs
+  KustoPoolProperties.TypeConverter.cs
+  KustoPoolUpdate.cs
+  KustoPoolUpdate.json.cs
+  KustoPoolUpdate.PowerShell.cs
+  KustoPoolUpdate.TypeConverter.cs
+  KustoPoolUpdateTags.cs
+  KustoPoolUpdateTags.dictionary.cs
+  KustoPoolUpdateTags.json.cs
+  KustoPoolUpdateTags.PowerShell.cs
+  KustoPoolUpdateTags.TypeConverter.cs
+  LanguageExtension.cs
+  LanguageExtension.json.cs
+  LanguageExtension.PowerShell.cs
+  LanguageExtension.TypeConverter.cs
+  LanguageExtensionsList.cs
+  LanguageExtensionsList.json.cs
+  LanguageExtensionsList.PowerShell.cs
+  LanguageExtensionsList.TypeConverter.cs
+  ListResourceSkusResult.cs
+  ListResourceSkusResult.json.cs
+  ListResourceSkusResult.PowerShell.cs
+  ListResourceSkusResult.TypeConverter.cs
+  Operation.cs
+  Operation.json.cs
+  Operation.PowerShell.cs
+  Operation.TypeConverter.cs
+  OperationDisplay.cs
+  OperationDisplay.json.cs
+  OperationDisplay.PowerShell.cs
+  OperationDisplay.TypeConverter.cs
+  OperationListResult.cs
+  OperationListResult.json.cs
+  OperationListResult.PowerShell.cs
+  OperationListResult.TypeConverter.cs
+  OptimizedAutoscale.cs
+  OptimizedAutoscale.json.cs
+  OptimizedAutoscale.PowerShell.cs
+  OptimizedAutoscale.TypeConverter.cs
+  ReadWriteDatabase.cs
+  ReadWriteDatabase.json.cs
+  ReadWriteDatabase.PowerShell.cs
+  ReadWriteDatabase.TypeConverter.cs
+  ReadWriteDatabaseProperties.cs
+  ReadWriteDatabaseProperties.json.cs
+  ReadWriteDatabaseProperties.PowerShell.cs
+  ReadWriteDatabaseProperties.TypeConverter.cs
+  SkuDescription.cs
+  SkuDescription.json.cs
+  SkuDescription.PowerShell.cs
+  SkuDescription.TypeConverter.cs
+  SkuDescriptionList.cs
+  SkuDescriptionList.json.cs
+  SkuDescriptionList.PowerShell.cs
+  SkuDescriptionList.TypeConverter.cs
+  SkuLocationInfoItem.cs
+  SkuLocationInfoItem.json.cs
+  SkuLocationInfoItem.PowerShell.cs
+  SkuLocationInfoItem.TypeConverter.cs
+  TableLevelSharingProperties.cs
+  TableLevelSharingProperties.json.cs
+  TableLevelSharingProperties.PowerShell.cs
+  TableLevelSharingProperties.TypeConverter.cs
+ SynapseIdentity.cs
+ SynapseIdentity.json.cs
+ SynapseIdentity.PowerShell.cs
+ SynapseIdentity.TypeConverter.cs
+generated/api/Support/
+ AzureScaleType.Completer.cs
+ AzureScaleType.cs
+ AzureScaleType.TypeConverter.cs
+ BlobStorageEventType.Completer.cs
+ BlobStorageEventType.cs
+ BlobStorageEventType.TypeConverter.cs
+ ClusterPrincipalRole.Completer.cs
+ ClusterPrincipalRole.cs
+ ClusterPrincipalRole.TypeConverter.cs
+ Compression.Completer.cs
+ Compression.cs
+ Compression.TypeConverter.cs
+ CreatedByType.Completer.cs
+ CreatedByType.cs
+ CreatedByType.TypeConverter.cs
+ DatabasePrincipalRole.Completer.cs
+ DatabasePrincipalRole.cs
+ DatabasePrincipalRole.TypeConverter.cs
+ DataConnectionKind.Completer.cs
+ DataConnectionKind.cs
+ DataConnectionKind.TypeConverter.cs
+ DefaultPrincipalsModificationKind.Completer.cs
+ DefaultPrincipalsModificationKind.cs
+ DefaultPrincipalsModificationKind.TypeConverter.cs
+ EventGridDataFormat.Completer.cs
+ EventGridDataFormat.cs
+ EventGridDataFormat.TypeConverter.cs
+ EventHubDataFormat.Completer.cs
+ EventHubDataFormat.cs
+ EventHubDataFormat.TypeConverter.cs
+ IotHubDataFormat.Completer.cs
+ IotHubDataFormat.cs
+ IotHubDataFormat.TypeConverter.cs
+ Kind.Completer.cs
+ Kind.cs
+ Kind.TypeConverter.cs
+ LanguageExtensionName.Completer.cs
+ LanguageExtensionName.cs
+ LanguageExtensionName.TypeConverter.cs
+ PrincipalType.Completer.cs
+ PrincipalType.cs
+ PrincipalType.TypeConverter.cs
+ Reason.Completer.cs
+ Reason.cs
+ Reason.TypeConverter.cs
+ ResourceProvisioningState.Completer.cs
+ ResourceProvisioningState.cs
+ ResourceProvisioningState.TypeConverter.cs
+ SkuName.Completer.cs
+ SkuName.cs
+ SkuName.TypeConverter.cs
+ SkuSize.Completer.cs
+ SkuSize.cs
+ SkuSize.TypeConverter.cs
+ State.Completer.cs
+ State.cs
+ State.TypeConverter.cs
+ Type.Completer.cs
+ Type.cs
+ Type.TypeConverter.cs
+generated/
+ api/Synapse.cs
+ cmdlets/
+  AddAzSynapseKustoPoolLanguageExtension_AddExpanded.cs
+  AddAzSynapseKustoPoolLanguageExtension_AddViaIdentityExpanded.cs
+  GetAzSynapseKustoOperation_List.cs
+  GetAzSynapseKustoPoolAttachedDatabaseConfiguration_Get.cs
+  GetAzSynapseKustoPoolAttachedDatabaseConfiguration_GetViaIdentity.cs
+  GetAzSynapseKustoPoolAttachedDatabaseConfiguration_List.cs
+  GetAzSynapseKustoPoolDatabasePrincipalAssignment_Get.cs
+  GetAzSynapseKustoPoolDatabasePrincipalAssignment_GetViaIdentity.cs
+  GetAzSynapseKustoPoolDatabasePrincipalAssignment_List.cs
+  GetAzSynapseKustoPoolDatabase_Get.cs
+  GetAzSynapseKustoPoolDatabase_GetViaIdentity.cs
+  GetAzSynapseKustoPoolDatabase_List.cs
+  GetAzSynapseKustoPoolDataConnection_Get.cs
+  GetAzSynapseKustoPoolDataConnection_GetViaIdentity.cs
+  GetAzSynapseKustoPoolDataConnection_List.cs
+  GetAzSynapseKustoPoolFollowerDatabase_List.cs
+  GetAzSynapseKustoPoolLanguageExtension_List.cs
+  GetAzSynapseKustoPoolPrincipalAssignment_Get.cs
+  GetAzSynapseKustoPoolPrincipalAssignment_GetViaIdentity.cs
+  GetAzSynapseKustoPoolPrincipalAssignment_List.cs
+  GetAzSynapseKustoPoolSku_List.cs
+  GetAzSynapseKustoPoolSku_List1.cs
+  GetAzSynapseKustoPool_Get.cs
+  GetAzSynapseKustoPool_GetViaIdentity.cs
+  GetAzSynapseKustoPool_List.cs
+  InvokeAzSynapseDetachKustoPoolFollowerDatabase_DetachExpanded.cs
+  InvokeAzSynapseDetachKustoPoolFollowerDatabase_DetachViaIdentityExpanded.cs
+  NewAzSynapseKustoPoolAttachedDatabaseConfiguration_CreateExpanded.cs
+  NewAzSynapseKustoPoolDatabasePrincipalAssignment_CreateExpanded.cs
+  NewAzSynapseKustoPoolDatabase_Create.cs
+  NewAzSynapseKustoPoolDatabase_CreateExpanded.cs
+  NewAzSynapseKustoPoolDataConnection_Create.cs
+  NewAzSynapseKustoPoolDataConnection_CreateExpanded.cs
+  NewAzSynapseKustoPoolPrincipalAssignment_CreateExpanded.cs
+  NewAzSynapseKustoPool_Create.cs
+  NewAzSynapseKustoPool_CreateExpanded.cs
+  RemoveAzSynapseKustoPoolAttachedDatabaseConfiguration_Delete.cs
+  RemoveAzSynapseKustoPoolAttachedDatabaseConfiguration_DeleteViaIdentity.cs
+  RemoveAzSynapseKustoPoolDatabasePrincipalAssignment_Delete.cs
+  RemoveAzSynapseKustoPoolDatabasePrincipalAssignment_DeleteViaIdentity.cs
+  RemoveAzSynapseKustoPoolDatabase_Delete.cs
+  RemoveAzSynapseKustoPoolDatabase_DeleteViaIdentity.cs
+  RemoveAzSynapseKustoPoolDataConnection_Delete.cs
+  RemoveAzSynapseKustoPoolDataConnection_DeleteViaIdentity.cs
+  RemoveAzSynapseKustoPoolLanguageExtension_RemoveExpanded.cs
+  RemoveAzSynapseKustoPoolLanguageExtension_RemoveViaIdentityExpanded.cs
+  RemoveAzSynapseKustoPoolPrincipalAssignment_Delete.cs
+  RemoveAzSynapseKustoPoolPrincipalAssignment_DeleteViaIdentity.cs
+  RemoveAzSynapseKustoPool_Delete.cs
+  RemoveAzSynapseKustoPool_DeleteViaIdentity.cs
+  StartAzSynapseKustoPool_Start.cs
+  StartAzSynapseKustoPool_StartViaIdentity.cs
+  StopAzSynapseKustoPool_Stop.cs
+  StopAzSynapseKustoPool_StopViaIdentity.cs
+  UpdateAzSynapseKustoPoolDatabase_Update.cs
+  UpdateAzSynapseKustoPoolDatabase_UpdateExpanded.cs
+  UpdateAzSynapseKustoPoolDatabase_UpdateViaIdentity.cs
+  UpdateAzSynapseKustoPoolDatabase_UpdateViaIdentityExpanded.cs
+  UpdateAzSynapseKustoPoolDataConnection_Update.cs
+  UpdateAzSynapseKustoPoolDataConnection_UpdateExpanded.cs
+  UpdateAzSynapseKustoPoolDataConnection_UpdateViaIdentity.cs
+  UpdateAzSynapseKustoPoolDataConnection_UpdateViaIdentityExpanded.cs
+  UpdateAzSynapseKustoPool_UpdateExpanded.cs
+  UpdateAzSynapseKustoPool_UpdateViaIdentityExpanded.cs
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.Synapse.GeneratedMSBuildEditorConfig.editorconfig

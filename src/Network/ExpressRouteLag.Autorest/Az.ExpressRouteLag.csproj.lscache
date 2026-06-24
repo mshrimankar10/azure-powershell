@@ -1,0 +1,581 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.ExpressRouteLag.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.ExpressRouteLag
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>bin/Az.ExpressRouteLag.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1998,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.ExpressRouteLag.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+
+[sourceFiles]
+generated/api/
+ ExpressRouteLag.cs
+ Models/
+  Any.cs
+  Any.json.cs
+  Any.PowerShell.cs
+  Any.TypeConverter.cs
+  AzureAsyncOperationResult.cs
+  AzureAsyncOperationResult.json.cs
+  AzureAsyncOperationResult.PowerShell.cs
+  AzureAsyncOperationResult.TypeConverter.cs
+  ChildResource.cs
+  ChildResource.json.cs
+  ChildResource.PowerShell.cs
+  ChildResource.TypeConverter.cs
+  CloudError.cs
+  CloudError.json.cs
+  CloudError.PowerShell.cs
+  CloudError.TypeConverter.cs
+  CloudErrorBody.cs
+  CloudErrorBody.json.cs
+  CloudErrorBody.PowerShell.cs
+  CloudErrorBody.TypeConverter.cs
+  CommonErrorAdditionalInfo.cs
+  CommonErrorAdditionalInfo.json.cs
+  CommonErrorAdditionalInfo.PowerShell.cs
+  CommonErrorAdditionalInfo.TypeConverter.cs
+  CommonErrorDetail.cs
+  CommonErrorDetail.json.cs
+  CommonErrorDetail.PowerShell.cs
+  CommonErrorDetail.TypeConverter.cs
+  CommonErrorResponse.cs
+  CommonErrorResponse.json.cs
+  CommonErrorResponse.PowerShell.cs
+  CommonErrorResponse.TypeConverter.cs
+  CommonProxyResource.cs
+  CommonProxyResource.json.cs
+  CommonProxyResource.PowerShell.cs
+  CommonProxyResource.TypeConverter.cs
+  CommonResource.cs
+  CommonResource.json.cs
+  CommonResource.PowerShell.cs
+  CommonResource.TypeConverter.cs
+  CommonTrackedResource.cs
+  CommonTrackedResource.json.cs
+  CommonTrackedResource.PowerShell.cs
+  CommonTrackedResource.TypeConverter.cs
+  CommonTrackedResourceTags.cs
+  CommonTrackedResourceTags.dictionary.cs
+  CommonTrackedResourceTags.json.cs
+  CommonTrackedResourceTags.PowerShell.cs
+  CommonTrackedResourceTags.TypeConverter.cs
+  Components1Jq1T4ISchemasManagedserviceidentityPropertiesUserassignedidentitiesAdditionalproperties.cs
+  Components1Jq1T4ISchemasManagedserviceidentityPropertiesUserassignedidentitiesAdditionalproperties.json.cs
+  Components1Jq1T4ISchemasManagedserviceidentityPropertiesUserassignedidentitiesAdditionalproperties.PowerShell.cs
+  Components1Jq1T4ISchemasManagedserviceidentityPropertiesUserassignedidentitiesAdditionalproperties.TypeConverter.cs
+  Error.cs
+  Error.json.cs
+  Error.PowerShell.cs
+  Error.TypeConverter.cs
+  ErrorDetails.cs
+  ErrorDetails.json.cs
+  ErrorDetails.PowerShell.cs
+  ErrorDetails.TypeConverter.cs
+  ExpressRouteLag.cs
+  ExpressRouteLag.json.cs
+  ExpressRouteLag.PowerShell.cs
+  ExpressRouteLag.TypeConverter.cs
+  ExpressRouteLagAuthorization.cs
+  ExpressRouteLagAuthorization.json.cs
+  ExpressRouteLagAuthorization.PowerShell.cs
+  ExpressRouteLagAuthorization.TypeConverter.cs
+  ExpressRouteLagAuthorizationKeys.cs
+  ExpressRouteLagAuthorizationKeys.json.cs
+  ExpressRouteLagAuthorizationKeys.PowerShell.cs
+  ExpressRouteLagAuthorizationKeys.TypeConverter.cs
+  ExpressRouteLagAuthorizationListResult.cs
+  ExpressRouteLagAuthorizationListResult.json.cs
+  ExpressRouteLagAuthorizationListResult.PowerShell.cs
+  ExpressRouteLagAuthorizationListResult.TypeConverter.cs
+  ExpressRouteLagAuthorizationPropertiesFormat.cs
+  ExpressRouteLagAuthorizationPropertiesFormat.json.cs
+  ExpressRouteLagAuthorizationPropertiesFormat.PowerShell.cs
+  ExpressRouteLagAuthorizationPropertiesFormat.TypeConverter.cs
+  ExpressRouteLagIdentity.cs
+  ExpressRouteLagIdentity.json.cs
+  ExpressRouteLagIdentity.PowerShell.cs
+  ExpressRouteLagIdentity.TypeConverter.cs
+  ExpressRouteLagLink.cs
+  ExpressRouteLagLink.json.cs
+  ExpressRouteLagLink.PowerShell.cs
+  ExpressRouteLagLink.TypeConverter.cs
+  ExpressRouteLagLinkListResult.cs
+  ExpressRouteLagLinkListResult.json.cs
+  ExpressRouteLagLinkListResult.PowerShell.cs
+  ExpressRouteLagLinkListResult.TypeConverter.cs
+  ExpressRouteLagLinkPropertiesFormat.cs
+  ExpressRouteLagLinkPropertiesFormat.json.cs
+  ExpressRouteLagLinkPropertiesFormat.PowerShell.cs
+  ExpressRouteLagLinkPropertiesFormat.TypeConverter.cs
+  ExpressRouteLagListResult.cs
+  ExpressRouteLagListResult.json.cs
+  ExpressRouteLagListResult.PowerShell.cs
+  ExpressRouteLagListResult.TypeConverter.cs
+  ExpressRouteLagMember.cs
+  ExpressRouteLagMember.json.cs
+  ExpressRouteLagMember.PowerShell.cs
+  ExpressRouteLagMember.TypeConverter.cs
+  ExpressRouteLagMemberListResult.cs
+  ExpressRouteLagMemberListResult.json.cs
+  ExpressRouteLagMemberListResult.PowerShell.cs
+  ExpressRouteLagMemberListResult.TypeConverter.cs
+  ExpressRouteLagMemberPropertiesFormat.cs
+  ExpressRouteLagMemberPropertiesFormat.json.cs
+  ExpressRouteLagMemberPropertiesFormat.PowerShell.cs
+  ExpressRouteLagMemberPropertiesFormat.TypeConverter.cs
+  ExpressRouteLagPatch.cs
+  ExpressRouteLagPatch.json.cs
+  ExpressRouteLagPatch.PowerShell.cs
+  ExpressRouteLagPatch.TypeConverter.cs
+  ExpressRouteLagPatchTags.cs
+  ExpressRouteLagPatchTags.dictionary.cs
+  ExpressRouteLagPatchTags.json.cs
+  ExpressRouteLagPatchTags.PowerShell.cs
+  ExpressRouteLagPatchTags.TypeConverter.cs
+  ExpressRouteLagPropertiesFormat.cs
+  ExpressRouteLagPropertiesFormat.json.cs
+  ExpressRouteLagPropertiesFormat.PowerShell.cs
+  ExpressRouteLagPropertiesFormat.TypeConverter.cs
+  ExpressRouteLinkMacSecConfig.cs
+  ExpressRouteLinkMacSecConfig.json.cs
+  ExpressRouteLinkMacSecConfig.PowerShell.cs
+  ExpressRouteLinkMacSecConfig.TypeConverter.cs
+  ExtendedLocation.cs
+  ExtendedLocation.json.cs
+  ExtendedLocation.PowerShell.cs
+  ExtendedLocation.TypeConverter.cs
+  GenerateExpressRouteLagsLoaRequest.cs
+  GenerateExpressRouteLagsLoaRequest.json.cs
+  GenerateExpressRouteLagsLoaRequest.PowerShell.cs
+  GenerateExpressRouteLagsLoaRequest.TypeConverter.cs
+  GenerateExpressRouteLagsLoaResult.cs
+  GenerateExpressRouteLagsLoaResult.json.cs
+  GenerateExpressRouteLagsLoaResult.PowerShell.cs
+  GenerateExpressRouteLagsLoaResult.TypeConverter.cs
+  ManagedServiceIdentity.cs
+  ManagedServiceIdentity.json.cs
+  ManagedServiceIdentity.PowerShell.cs
+  ManagedServiceIdentity.TypeConverter.cs
+  ManagedServiceIdentityUserAssignedIdentities.cs
+  ManagedServiceIdentityUserAssignedIdentities.dictionary.cs
+  ManagedServiceIdentityUserAssignedIdentities.json.cs
+  ManagedServiceIdentityUserAssignedIdentities.PowerShell.cs
+  ManagedServiceIdentityUserAssignedIdentities.TypeConverter.cs
+  ProxyResource.cs
+  ProxyResource.json.cs
+  ProxyResource.PowerShell.cs
+  ProxyResource.TypeConverter.cs
+  Resource.cs
+  Resource.json.cs
+  Resource.PowerShell.cs
+  Resource.TypeConverter.cs
+  ResourceTags.cs
+  ResourceTags.dictionary.cs
+  ResourceTags.json.cs
+  ResourceTags.PowerShell.cs
+  ResourceTags.TypeConverter.cs
+  SubResource.cs
+  SubResource.json.cs
+  SubResource.PowerShell.cs
+  SubResource.TypeConverter.cs
+  SystemData.cs
+  SystemData.json.cs
+  SystemData.PowerShell.cs
+  SystemData.TypeConverter.cs
+  TagsObject.cs
+  TagsObject.json.cs
+  TagsObject.PowerShell.cs
+  TagsObject.TypeConverter.cs
+  TagsObjectTags.cs
+  TagsObjectTags.dictionary.cs
+  TagsObjectTags.json.cs
+  TagsObjectTags.PowerShell.cs
+  TagsObjectTags.TypeConverter.cs
+generated/cmdlets/
+ GetAzExpressRouteLagAuthorizationKey_List.cs
+ GetAzExpressRouteLagAuthorization_Get.cs
+ GetAzExpressRouteLagAuthorization_GetViaIdentity.cs
+ GetAzExpressRouteLagAuthorization_GetViaIdentityExpressRouteLag.cs
+ GetAzExpressRouteLagAuthorization_List.cs
+ GetAzExpressRouteLagLink_Get.cs
+ GetAzExpressRouteLagLink_GetViaIdentity.cs
+ GetAzExpressRouteLagLink_GetViaIdentityExpressRouteLag.cs
+ GetAzExpressRouteLagLink_List.cs
+ GetAzExpressRouteLagMember_Get.cs
+ GetAzExpressRouteLagMember_GetViaIdentity.cs
+ GetAzExpressRouteLagMember_GetViaIdentityExpressRouteLag.cs
+ GetAzExpressRouteLagMember_GetViaIdentityLink.cs
+ GetAzExpressRouteLagMember_List.cs
+ GetAzExpressRouteLag_Get.cs
+ GetAzExpressRouteLag_GetViaIdentity.cs
+ GetAzExpressRouteLag_List.cs
+ GetAzExpressRouteLag_List1.cs
+ NewAzExpressRouteLagAuthorization_CreateExpanded.cs
+ NewAzExpressRouteLagAuthorization_CreateViaIdentityExpressRouteLagExpanded.cs
+ NewAzExpressRouteLagAuthorization_CreateViaJsonFilePath.cs
+ NewAzExpressRouteLagAuthorization_CreateViaJsonString.cs
+ NewAzExpressRouteLagLoa_Generate.cs
+ NewAzExpressRouteLagLoa_GenerateExpanded.cs
+ NewAzExpressRouteLagLoa_GenerateViaIdentity.cs
+ NewAzExpressRouteLagLoa_GenerateViaIdentityExpanded.cs
+ NewAzExpressRouteLagLoa_GenerateViaJsonFilePath.cs
+ NewAzExpressRouteLagLoa_GenerateViaJsonString.cs
+ NewAzExpressRouteLag_CreateExpanded.cs
+ NewAzExpressRouteLag_CreateViaJsonFilePath.cs
+ NewAzExpressRouteLag_CreateViaJsonString.cs
+ RemoveAzExpressRouteLagAuthorization_Delete.cs
+ RemoveAzExpressRouteLagAuthorization_DeleteViaIdentity.cs
+ RemoveAzExpressRouteLagAuthorization_DeleteViaIdentityExpressRouteLag.cs
+ RemoveAzExpressRouteLag_Delete.cs
+ RemoveAzExpressRouteLag_DeleteViaIdentity.cs
+ UpdateAzExpressRouteLag_UpdateExpanded.cs
+ UpdateAzExpressRouteLag_UpdateViaIdentityExpanded.cs
+generated/
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[metadataReferences]
+<NUGET>/
+ azure.core/1.50.0/lib/netstandard2.0/Azure.Core.dll
+ hyak.common/1.2.2/lib/netstandard1.4/Hyak.Common.dll
+ microsoft.applicationinsights/2.18.0/lib/netstandard2.0/Microsoft.ApplicationInsights.dll
+ microsoft.azure.common/2.2.1/lib/netstandard1.4/Microsoft.Azure.Common.dll
+ microsoft.azure.powershell.authentication.abstractions/1.3.110-preview/lib/netstandard2.0/Microsoft.Azure.PowerShell.Authentication.Abstractions.dll
+ microsoft.azure.powershell.clients.aks/1.3.110-preview/lib/netstandard2.0/Microsoft.Azure.PowerShell.Clients.Aks.dll
+ microsoft.azure.powershell.clients.authorization/1.3.110-preview/lib/netstandard2.0/Microsoft.Azure.PowerShell.Clients.Authorization.dll
+ microsoft.azure.powershell.clients.compute/1.3.110-preview/lib/netstandard2.0/Microsoft.Azure.PowerShell.Clients.Compute.dll
+ microsoft.azure.powershell.clients.graph.rbac/1.3.110-preview/lib/netstandard2.0/Microsoft.Azure.PowerShell.Clients.Graph.Rbac.dll
+ microsoft.azure.powershell.clients.keyvault/1.3.110-preview/lib/netstandard2.0/Microsoft.Azure.PowerShell.Clients.KeyVault.dll
+ microsoft.azure.powershell.clients.monitor/1.3.110-preview/lib/netstandard2.0/Microsoft.Azure.PowerShell.Clients.Monitor.dll
+ microsoft.azure.powershell.clients.network/1.3.110-preview/lib/netstandard2.0/Microsoft.Azure.PowerShell.Clients.Network.dll
+ microsoft.azure.powershell.clients.policyinsights/1.3.110-preview/lib/netstandard2.0/Microsoft.Azure.PowerShell.Clients.PolicyInsights.dll
+ microsoft.azure.powershell.clients.resourcemanager/1.3.110-preview/lib/netstandard2.0/Microsoft.Azure.PowerShell.Clients.ResourceManager.dll
+ microsoft.azure.powershell.clients.storage.management/1.3.110-preview/lib/netstandard2.0/Microsoft.Azure.PowerShell.Clients.Storage.Management.dll
+ microsoft.azure.powershell.clients.websites/1.3.110-preview/lib/netstandard2.0/Microsoft.Azure.PowerShell.Clients.Websites.dll
+ microsoft.azure.powershell.common.share/1.3.110-preview/lib/netstandard2.0/Microsoft.Azure.PowerShell.Common.Share.dll
+ microsoft.azure.powershell.common/1.3.110-preview/lib/netstandard2.0/Microsoft.Azure.PowerShell.Common.dll
+ microsoft.azure.powershell.storage/1.3.110-preview/lib/netstandard2.0/Microsoft.Azure.PowerShell.Storage.dll
+ microsoft.azure.powershell.strategies/1.3.110-preview/lib/netstandard2.0/Microsoft.Azure.PowerShell.Strategies.dll
+ microsoft.bcl.asyncinterfaces/8.0.0/lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll
+ microsoft.csharp/4.7.0/ref/netstandard2.0/Microsoft.CSharp.dll
+ microsoft.extensions.dependencyinjection.abstractions/8.0.2/lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+ microsoft.extensions.logging.abstractions/8.0.3/lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll
+ microsoft.rest.clientruntime.azure/3.3.19/lib/netstandard2.0/Microsoft.Rest.ClientRuntime.Azure.dll
+ microsoft.rest.clientruntime/2.3.24/lib/netstandard2.0/Microsoft.Rest.ClientRuntime.dll
+ netstandard.library/2.0.3/build/netstandard2.0/ref/
+  Microsoft.Win32.Primitives.dll
+  mscorlib.dll
+  netstandard.dll
+  System.AppContext.dll
+  System.Collections.Concurrent.dll
+  System.Collections.dll
+  System.Collections.NonGeneric.dll
+  System.Collections.Specialized.dll
+  System.ComponentModel.Composition.dll
+  System.ComponentModel.dll
+  System.ComponentModel.EventBasedAsync.dll
+  System.ComponentModel.Primitives.dll
+  System.ComponentModel.TypeConverter.dll
+  System.Console.dll
+  System.Core.dll
+  System.Data.Common.dll
+  System.Data.dll
+  System.Diagnostics.Contracts.dll
+  System.Diagnostics.Debug.dll
+  System.Diagnostics.FileVersionInfo.dll
+  System.Diagnostics.Process.dll
+  System.Diagnostics.StackTrace.dll
+  System.Diagnostics.TextWriterTraceListener.dll
+  System.Diagnostics.Tools.dll
+  System.Diagnostics.TraceSource.dll
+  System.Diagnostics.Tracing.dll
+  System.dll
+  System.Drawing.dll
+  System.Drawing.Primitives.dll
+  System.Dynamic.Runtime.dll
+  System.Globalization.Calendars.dll
+  System.Globalization.dll
+  System.Globalization.Extensions.dll
+  System.IO.Compression.dll
+  System.IO.Compression.FileSystem.dll
+  System.IO.Compression.ZipFile.dll
+  System.IO.dll
+  System.IO.FileSystem.dll
+  System.IO.FileSystem.DriveInfo.dll
+  System.IO.FileSystem.Primitives.dll
+  System.IO.FileSystem.Watcher.dll
+  System.IO.IsolatedStorage.dll
+  System.IO.MemoryMappedFiles.dll
+  System.IO.Pipes.dll
+  System.IO.UnmanagedMemoryStream.dll
+  System.Linq.dll
+  System.Linq.Expressions.dll
+  System.Linq.Parallel.dll
+  System.Linq.Queryable.dll
+  System.Net.dll
+  System.Net.Http.dll
+  System.Net.NameResolution.dll
+  System.Net.NetworkInformation.dll
+  System.Net.Ping.dll
+  System.Net.Primitives.dll
+  System.Net.Requests.dll
+  System.Net.Security.dll
+  System.Net.Sockets.dll
+  System.Net.WebHeaderCollection.dll
+  System.Net.WebSockets.Client.dll
+  System.Net.WebSockets.dll
+  System.Numerics.dll
+  System.ObjectModel.dll
+  System.Reflection.dll
+  System.Reflection.Extensions.dll
+  System.Reflection.Primitives.dll
+  System.Resources.Reader.dll
+  System.Resources.ResourceManager.dll
+  System.Resources.Writer.dll
+  System.Runtime.CompilerServices.VisualC.dll
+  System.Runtime.dll
+  System.Runtime.Extensions.dll
+  System.Runtime.Handles.dll
+  System.Runtime.InteropServices.dll
+  System.Runtime.InteropServices.RuntimeInformation.dll
+  System.Runtime.Numerics.dll
+  System.Runtime.Serialization.dll
+  System.Runtime.Serialization.Formatters.dll
+  System.Runtime.Serialization.Json.dll
+  System.Runtime.Serialization.Primitives.dll
+  System.Runtime.Serialization.Xml.dll
+  System.Security.Claims.dll
+  System.Security.Cryptography.Algorithms.dll
+  System.Security.Cryptography.Csp.dll
+  System.Security.Cryptography.Encoding.dll
+  System.Security.Cryptography.Primitives.dll
+  System.Security.Cryptography.X509Certificates.dll
+  System.Security.Principal.dll
+  System.Security.SecureString.dll
+  System.ServiceModel.Web.dll
+  System.Text.Encoding.dll
+  System.Text.Encoding.Extensions.dll
+  System.Text.RegularExpressions.dll
+  System.Threading.dll
+  System.Threading.Overlapped.dll
+  System.Threading.Tasks.dll
+  System.Threading.Tasks.Parallel.dll
+  System.Threading.Thread.dll
+  System.Threading.ThreadPool.dll
+  System.Threading.Timer.dll
+  System.Transactions.dll
+  System.ValueTuple.dll
+  System.Web.dll
+  System.Windows.dll
+  System.Xml.dll
+  System.Xml.Linq.dll
+  System.Xml.ReaderWriter.dll
+  System.Xml.Serialization.dll
+  System.Xml.XDocument.dll
+  System.Xml.XmlDocument.dll
+  System.Xml.XmlSerializer.dll
+  System.Xml.XPath.dll
+  System.Xml.XPath.XDocument.dll
+ newtonsoft.json/13.0.2/lib/netstandard2.0/Newtonsoft.Json.dll
+ powershellstandard.library/5.1.0/lib/netstandard2.0/System.Management.Automation.dll
+ system.buffers/4.5.1/ref/netstandard2.0/System.Buffers.dll
+ system.clientmodel/1.8.0/lib/netstandard2.0/System.ClientModel.dll
+ system.diagnostics.diagnosticsource/8.0.1/lib/netstandard2.0/System.Diagnostics.DiagnosticSource.dll
+ system.memory.data/8.0.1/lib/netstandard2.0/System.Memory.Data.dll
+ system.memory/4.5.5/lib/netstandard2.0/System.Memory.dll
+ system.numerics.vectors/4.5.0/ref/netstandard2.0/System.Numerics.Vectors.dll
+ system.runtime.compilerservices.unsafe/6.1.0/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll
+ system.text.encodings.web/8.0.0/lib/netstandard2.0/System.Text.Encodings.Web.dll
+ system.text.json/8.0.6/lib/netstandard2.0/System.Text.Json.dll
+ system.threading.tasks.extensions/4.6.0/lib/netstandard2.0/System.Threading.Tasks.Extensions.dll
+
+[analyzerReferences]
+<NUGET>/
+ microsoft.extensions.logging.abstractions/8.0.3/analyzers/dotnet/roslyn4.4/cs/Microsoft.Extensions.Logging.Generators.dll
+ system.clientmodel/1.8.0/analyzers/dotnet/cs/System.ClientModel.SourceGeneration.dll
+ system.text.json/8.0.6/analyzers/dotnet/roslyn4.4/cs/System.Text.Json.SourceGeneration.dll
+
+[analyzerConfigFiles]
+obj/Debug/Az.ExpressRouteLag.GeneratedMSBuildEditorConfig.editorconfig

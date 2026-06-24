@@ -1,0 +1,538 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.DataTransfer.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.DataTransfer/DataTransfer.Autorest/bin/Az.DataTransfer.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=ADT
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.DataTransfer/DataTransfer.Autorest/bin/Az.DataTransfer.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.DataTransfer/DataTransfer.Autorest/bin/Az.DataTransfer.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.DataTransfer.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/
+ DataTransfer.cs
+ Models/
+  Action.cs
+  Action.json.cs
+  Action.PowerShell.cs
+  Action.TypeConverter.cs
+  Any.cs
+  Any.json.cs
+  Any.PowerShell.cs
+  Any.TypeConverter.cs
+  ApiFlowOptions.cs
+  ApiFlowOptions.json.cs
+  ApiFlowOptions.PowerShell.cs
+  ApiFlowOptions.TypeConverter.cs
+  ArmConnectionResponse.cs
+  ArmConnectionResponse.json.cs
+  ArmConnectionResponse.PowerShell.cs
+  ArmConnectionResponse.TypeConverter.cs
+  ArmFlowResponse.cs
+  ArmFlowResponse.json.cs
+  ArmFlowResponse.PowerShell.cs
+  ArmFlowResponse.TypeConverter.cs
+  ArmPipelineResponse.cs
+  ArmPipelineResponse.json.cs
+  ArmPipelineResponse.PowerShell.cs
+  ArmPipelineResponse.TypeConverter.cs
+  Connection.cs
+  Connection.json.cs
+  Connection.PowerShell.cs
+  Connection.TypeConverter.cs
+  ConnectionIdList.cs
+  ConnectionIdList.json.cs
+  ConnectionIdList.PowerShell.cs
+  ConnectionIdList.TypeConverter.cs
+  ConnectionListResult.cs
+  ConnectionListResult.json.cs
+  ConnectionListResult.PowerShell.cs
+  ConnectionListResult.TypeConverter.cs
+  ConnectionProperties.cs
+  ConnectionProperties.json.cs
+  ConnectionProperties.PowerShell.cs
+  ConnectionProperties.TypeConverter.cs
+  ConnectionsPatch.cs
+  ConnectionsPatch.json.cs
+  ConnectionsPatch.PowerShell.cs
+  ConnectionsPatch.TypeConverter.cs
+  ConnectionsPatchTags.cs
+  ConnectionsPatchTags.dictionary.cs
+  ConnectionsPatchTags.json.cs
+  ConnectionsPatchTags.PowerShell.cs
+  ConnectionsPatchTags.TypeConverter.cs
+  DataTransferIdentity.cs
+  DataTransferIdentity.json.cs
+  DataTransferIdentity.PowerShell.cs
+  DataTransferIdentity.TypeConverter.cs
+  ErrorAdditionalInfo.cs
+  ErrorAdditionalInfo.json.cs
+  ErrorAdditionalInfo.PowerShell.cs
+  ErrorAdditionalInfo.TypeConverter.cs
+  ErrorDetail.cs
+  ErrorDetail.json.cs
+  ErrorDetail.PowerShell.cs
+  ErrorDetail.TypeConverter.cs
+  ErrorResponse.cs
+  ErrorResponse.json.cs
+  ErrorResponse.PowerShell.cs
+  ErrorResponse.TypeConverter.cs
+  Flow.cs
+  Flow.json.cs
+  Flow.PowerShell.cs
+  Flow.TypeConverter.cs
+  FlowListResult.cs
+  FlowListResult.json.cs
+  FlowListResult.PowerShell.cs
+  FlowListResult.TypeConverter.cs
+  FlowProperties.cs
+  FlowProperties.json.cs
+  FlowProperties.PowerShell.cs
+  FlowProperties.TypeConverter.cs
+  FlowsPatch.cs
+  FlowsPatch.json.cs
+  FlowsPatch.PowerShell.cs
+  FlowsPatch.TypeConverter.cs
+  FlowsPatchTags.cs
+  FlowsPatchTags.dictionary.cs
+  FlowsPatchTags.json.cs
+  FlowsPatchTags.PowerShell.cs
+  FlowsPatchTags.TypeConverter.cs
+  GetDestinationEndpointPortsResult.cs
+  GetDestinationEndpointPortsResult.json.cs
+  GetDestinationEndpointPortsResult.PowerShell.cs
+  GetDestinationEndpointPortsResult.TypeConverter.cs
+  GetDestinationEndpointsResult.cs
+  GetDestinationEndpointsResult.json.cs
+  GetDestinationEndpointsResult.PowerShell.cs
+  GetDestinationEndpointsResult.TypeConverter.cs
+  GetStreamConnectionStringResult.cs
+  GetStreamConnectionStringResult.json.cs
+  GetStreamConnectionStringResult.PowerShell.cs
+  GetStreamConnectionStringResult.TypeConverter.cs
+  ListApprovedSchemasRequest.cs
+  ListApprovedSchemasRequest.json.cs
+  ListApprovedSchemasRequest.PowerShell.cs
+  ListApprovedSchemasRequest.TypeConverter.cs
+  ListFlowsByPipelineConnection.cs
+  ListFlowsByPipelineConnection.json.cs
+  ListFlowsByPipelineConnection.PowerShell.cs
+  ListFlowsByPipelineConnection.TypeConverter.cs
+  ListFlowsByPipelineResult.cs
+  ListFlowsByPipelineResult.json.cs
+  ListFlowsByPipelineResult.PowerShell.cs
+  ListFlowsByPipelineResult.TypeConverter.cs
+  ManagedServiceIdentity.cs
+  ManagedServiceIdentity.json.cs
+  ManagedServiceIdentity.PowerShell.cs
+  ManagedServiceIdentity.TypeConverter.cs
+  MessagingOptions.cs
+  MessagingOptions.json.cs
+  MessagingOptions.PowerShell.cs
+  MessagingOptions.TypeConverter.cs
+  PendingConnection.cs
+  PendingConnection.json.cs
+  PendingConnection.PowerShell.cs
+  PendingConnection.TypeConverter.cs
+  PendingConnectionListResult.cs
+  PendingConnectionListResult.json.cs
+  PendingConnectionListResult.PowerShell.cs
+  PendingConnectionListResult.TypeConverter.cs
+  PendingConnectionTags.cs
+  PendingConnectionTags.dictionary.cs
+  PendingConnectionTags.json.cs
+  PendingConnectionTags.PowerShell.cs
+  PendingConnectionTags.TypeConverter.cs
+  PendingFlow.cs
+  PendingFlow.json.cs
+  PendingFlow.PowerShell.cs
+  PendingFlow.TypeConverter.cs
+  PendingFlowListResult.cs
+  PendingFlowListResult.json.cs
+  PendingFlowListResult.PowerShell.cs
+  PendingFlowListResult.TypeConverter.cs
+  PendingFlowTags.cs
+  PendingFlowTags.dictionary.cs
+  PendingFlowTags.json.cs
+  PendingFlowTags.PowerShell.cs
+  PendingFlowTags.TypeConverter.cs
+  Pipeline.cs
+  Pipeline.json.cs
+  Pipeline.PowerShell.cs
+  Pipeline.TypeConverter.cs
+  PipelineListResult.cs
+  PipelineListResult.json.cs
+  PipelineListResult.PowerShell.cs
+  PipelineListResult.TypeConverter.cs
+  PipelineProperties.cs
+  PipelineProperties.json.cs
+  PipelineProperties.PowerShell.cs
+  PipelineProperties.TypeConverter.cs
+  PipelinesPatch.cs
+  PipelinesPatch.json.cs
+  PipelinesPatch.PowerShell.cs
+  PipelinesPatch.TypeConverter.cs
+  PipelinesPatchProperties.cs
+  PipelinesPatchProperties.json.cs
+  PipelinesPatchProperties.PowerShell.cs
+  PipelinesPatchProperties.TypeConverter.cs
+  PipelinesPatchTags.cs
+  PipelinesPatchTags.dictionary.cs
+  PipelinesPatchTags.json.cs
+  PipelinesPatchTags.PowerShell.cs
+  PipelinesPatchTags.TypeConverter.cs
+  Plan.cs
+  Plan.json.cs
+  Plan.PowerShell.cs
+  Plan.TypeConverter.cs
+  ReadInternalMetadataProperties.cs
+  ReadInternalMetadataProperties.dictionary.cs
+  ReadInternalMetadataProperties.json.cs
+  ReadInternalMetadataProperties.PowerShell.cs
+  ReadInternalMetadataProperties.TypeConverter.cs
+  ReadOperationStatusProperties.cs
+  ReadOperationStatusProperties.json.cs
+  ReadOperationStatusProperties.PowerShell.cs
+  ReadOperationStatusProperties.TypeConverter.cs
+  ReadPipelineConnection.cs
+  ReadPipelineConnection.dictionary.cs
+  ReadPipelineConnection.json.cs
+  ReadPipelineConnection.PowerShell.cs
+  ReadPipelineConnection.TypeConverter.cs
+  ReadPipelineConnectionProperties.cs
+  ReadPipelineConnectionProperties.dictionary.cs
+  ReadPipelineConnectionProperties.json.cs
+  ReadPipelineConnectionProperties.PowerShell.cs
+  ReadPipelineConnectionProperties.TypeConverter.cs
+  Resource.cs
+  Resource.json.cs
+  Resource.PowerShell.cs
+  Resource.TypeConverter.cs
+  ResourceBody.cs
+  ResourceBody.json.cs
+  ResourceBody.PowerShell.cs
+  ResourceBody.TypeConverter.cs
+  Schema.cs
+  Schema.json.cs
+  Schema.PowerShell.cs
+  Schema.TypeConverter.cs
+  SchemasListResult.cs
+  SchemasListResult.json.cs
+  SchemasListResult.PowerShell.cs
+  SchemasListResult.TypeConverter.cs
+  SelectedResource.cs
+  SelectedResource.json.cs
+  SelectedResource.PowerShell.cs
+  SelectedResource.TypeConverter.cs
+  SetDestinationEndpointPorts.cs
+  SetDestinationEndpointPorts.json.cs
+  SetDestinationEndpointPorts.PowerShell.cs
+  SetDestinationEndpointPorts.TypeConverter.cs
+  SetDestinationEndpoints.cs
+  SetDestinationEndpoints.json.cs
+  SetDestinationEndpoints.PowerShell.cs
+  SetDestinationEndpoints.TypeConverter.cs
+  SetSourceAddresses.cs
+  SetSourceAddresses.json.cs
+  SetSourceAddresses.PowerShell.cs
+  SetSourceAddresses.TypeConverter.cs
+  SetStreamPassphrase.cs
+  SetStreamPassphrase.json.cs
+  SetStreamPassphrase.PowerShell.cs
+  SetStreamPassphrase.TypeConverter.cs
+  StreamSourceAddresses.cs
+  StreamSourceAddresses.json.cs
+  StreamSourceAddresses.PowerShell.cs
+  StreamSourceAddresses.TypeConverter.cs
+  Subscriber.cs
+  Subscriber.json.cs
+  Subscriber.PowerShell.cs
+  Subscriber.TypeConverter.cs
+  SystemData.cs
+  SystemData.json.cs
+  SystemData.PowerShell.cs
+  SystemData.TypeConverter.cs
+  TrackedResource.cs
+  TrackedResource.json.cs
+  TrackedResource.PowerShell.cs
+  TrackedResource.TypeConverter.cs
+  TrackedResourceTags.cs
+  TrackedResourceTags.dictionary.cs
+  TrackedResourceTags.json.cs
+  TrackedResourceTags.PowerShell.cs
+  TrackedResourceTags.TypeConverter.cs
+  UserAssignedIdentities.cs
+  UserAssignedIdentities.dictionary.cs
+  UserAssignedIdentities.json.cs
+  UserAssignedIdentities.PowerShell.cs
+  UserAssignedIdentities.TypeConverter.cs
+  UserAssignedIdentity.cs
+  UserAssignedIdentity.json.cs
+  UserAssignedIdentity.PowerShell.cs
+  UserAssignedIdentity.TypeConverter.cs
+  ValidateSchemaResult.cs
+  ValidateSchemaResult.json.cs
+  ValidateSchemaResult.PowerShell.cs
+  ValidateSchemaResult.TypeConverter.cs
+generated/cmdlets/
+ ApproveAzDataTransferConnection_Approve.cs
+ ApproveAzDataTransferConnection_ApproveExpanded.cs
+ ApproveAzDataTransferConnection_ApproveViaIdentity.cs
+ ApproveAzDataTransferConnection_ApproveViaIdentityExpanded.cs
+ ApproveAzDataTransferConnection_ApproveViaJsonFilePath.cs
+ ApproveAzDataTransferConnection_ApproveViaJsonString.cs
+ DenyAzDataTransferConnection_Reject.cs
+ DenyAzDataTransferConnection_RejectExpanded.cs
+ DenyAzDataTransferConnection_RejectViaIdentity.cs
+ DenyAzDataTransferConnection_RejectViaIdentityExpanded.cs
+ DenyAzDataTransferConnection_RejectViaJsonFilePath.cs
+ DenyAzDataTransferConnection_RejectViaJsonString.cs
+ DisableAzDataTransferFlow_Disable.cs
+ DisableAzDataTransferFlow_DisableViaIdentity.cs
+ DisableAzDataTransferFlow_DisableViaIdentityConnection.cs
+ EnableAzDataTransferFlow_Enable.cs
+ EnableAzDataTransferFlow_EnableViaIdentity.cs
+ EnableAzDataTransferFlow_EnableViaIdentityConnection.cs
+ GetAzDataTransferConnection_Get.cs
+ GetAzDataTransferConnection_GetViaIdentity.cs
+ GetAzDataTransferConnection_List.cs
+ GetAzDataTransferConnection_List1.cs
+ GetAzDataTransferFlow_Get.cs
+ GetAzDataTransferFlow_GetViaIdentity.cs
+ GetAzDataTransferFlow_GetViaIdentityConnection.cs
+ GetAzDataTransferFlow_List.cs
+ GetAzDataTransferPendingConnection_List.cs
+ GetAzDataTransferPendingFlow_List.cs
+ GetAzDataTransferPipeline_Get.cs
+ GetAzDataTransferPipeline_GetViaIdentity.cs
+ GetAzDataTransferPipeline_List.cs
+ GetAzDataTransferPipeline_List1.cs
+ InvokeAzDataTransferExecutePipelineAction_Execute.cs
+ InvokeAzDataTransferExecutePipelineAction_ExecuteExpanded.cs
+ InvokeAzDataTransferExecutePipelineAction_ExecuteViaIdentity.cs
+ InvokeAzDataTransferExecutePipelineAction_ExecuteViaIdentityExpanded.cs
+ InvokeAzDataTransferExecutePipelineAction_ExecuteViaJsonFilePath.cs
+ InvokeAzDataTransferExecutePipelineAction_ExecuteViaJsonString.cs
+ InvokeAzDataTransferLinkPendingConnection_Link.cs
+ InvokeAzDataTransferLinkPendingConnection_LinkExpanded.cs
+ InvokeAzDataTransferLinkPendingConnection_LinkViaIdentity.cs
+ InvokeAzDataTransferLinkPendingConnection_LinkViaIdentityExpanded.cs
+ InvokeAzDataTransferLinkPendingConnection_LinkViaJsonFilePath.cs
+ InvokeAzDataTransferLinkPendingConnection_LinkViaJsonString.cs
+ InvokeAzDataTransferLinkPendingFlow_Link.cs
+ InvokeAzDataTransferLinkPendingFlow_LinkExpanded.cs
+ InvokeAzDataTransferLinkPendingFlow_LinkViaIdentity.cs
+ InvokeAzDataTransferLinkPendingFlow_LinkViaIdentityConnection.cs
+ InvokeAzDataTransferLinkPendingFlow_LinkViaIdentityConnectionExpanded.cs
+ InvokeAzDataTransferLinkPendingFlow_LinkViaIdentityExpanded.cs
+ InvokeAzDataTransferLinkPendingFlow_LinkViaJsonFilePath.cs
+ InvokeAzDataTransferLinkPendingFlow_LinkViaJsonString.cs
+ NewAzDataTransferConnection_CreateExpanded.cs
+ NewAzDataTransferConnection_CreateViaJsonFilePath.cs
+ NewAzDataTransferConnection_CreateViaJsonString.cs
+ NewAzDataTransferFlow_CreateExpanded.cs
+ NewAzDataTransferFlow_CreateViaJsonFilePath.cs
+ NewAzDataTransferFlow_CreateViaJsonString.cs
+ RemoveAzDataTransferConnection_Delete.cs
+ RemoveAzDataTransferConnection_DeleteViaIdentity.cs
+ RemoveAzDataTransferFlow_Delete.cs
+ RemoveAzDataTransferFlow_DeleteViaIdentity.cs
+ RemoveAzDataTransferFlow_DeleteViaIdentityConnection.cs
+ UpdateAzDataTransferConnection_UpdateExpanded.cs
+ UpdateAzDataTransferConnection_UpdateViaIdentityExpanded.cs
+ UpdateAzDataTransferConnection_UpdateViaJsonFilePath.cs
+ UpdateAzDataTransferConnection_UpdateViaJsonString.cs
+ UpdateAzDataTransferFlow_UpdateExpanded.cs
+ UpdateAzDataTransferFlow_UpdateViaIdentityConnectionExpanded.cs
+ UpdateAzDataTransferFlow_UpdateViaIdentityExpanded.cs
+ UpdateAzDataTransferFlow_UpdateViaJsonFilePath.cs
+ UpdateAzDataTransferFlow_UpdateViaJsonString.cs
+generated/
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.DataTransfer.GeneratedMSBuildEditorConfig.editorconfig

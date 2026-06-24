@@ -1,0 +1,441 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.Nginx.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.Nginx/Nginx.Autorest/bin/Az.Nginx.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.Nginx
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.Nginx/Nginx.Autorest/bin/Az.Nginx.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.Nginx/Nginx.Autorest/bin/Az.Nginx.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.Nginx.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/Models/
+ AnalysisCreate.cs
+ AnalysisCreate.json.cs
+ AnalysisCreate.PowerShell.cs
+ AnalysisCreate.TypeConverter.cs
+ AnalysisCreateConfig.cs
+ AnalysisCreateConfig.json.cs
+ AnalysisCreateConfig.PowerShell.cs
+ AnalysisCreateConfig.TypeConverter.cs
+ AnalysisDiagnostic.cs
+ AnalysisDiagnostic.json.cs
+ AnalysisDiagnostic.PowerShell.cs
+ AnalysisDiagnostic.TypeConverter.cs
+ AnalysisResult.cs
+ AnalysisResult.json.cs
+ AnalysisResult.PowerShell.cs
+ AnalysisResult.TypeConverter.cs
+ AnalysisResultData.cs
+ AnalysisResultData.json.cs
+ AnalysisResultData.PowerShell.cs
+ AnalysisResultData.TypeConverter.cs
+ Any.cs
+ Any.json.cs
+ Any.PowerShell.cs
+ Any.TypeConverter.cs
+ AutoUpgradeProfile.cs
+ AutoUpgradeProfile.json.cs
+ AutoUpgradeProfile.PowerShell.cs
+ AutoUpgradeProfile.TypeConverter.cs
+ ErrorAdditionalInfo.cs
+ ErrorAdditionalInfo.json.cs
+ ErrorAdditionalInfo.PowerShell.cs
+ ErrorAdditionalInfo.TypeConverter.cs
+ ErrorDetail.cs
+ ErrorDetail.json.cs
+ ErrorDetail.PowerShell.cs
+ ErrorDetail.TypeConverter.cs
+ IdentityProperties.cs
+ IdentityProperties.json.cs
+ IdentityProperties.PowerShell.cs
+ IdentityProperties.TypeConverter.cs
+ IdentityPropertiesUserAssignedIdentities.cs
+ IdentityPropertiesUserAssignedIdentities.dictionary.cs
+ IdentityPropertiesUserAssignedIdentities.json.cs
+ IdentityPropertiesUserAssignedIdentities.PowerShell.cs
+ IdentityPropertiesUserAssignedIdentities.TypeConverter.cs
+ NginxCertificate.cs
+ NginxCertificate.json.cs
+ NginxCertificate.PowerShell.cs
+ NginxCertificate.TypeConverter.cs
+ NginxCertificateErrorResponseBody.cs
+ NginxCertificateErrorResponseBody.json.cs
+ NginxCertificateErrorResponseBody.PowerShell.cs
+ NginxCertificateErrorResponseBody.TypeConverter.cs
+ NginxCertificateListResponse.cs
+ NginxCertificateListResponse.json.cs
+ NginxCertificateListResponse.PowerShell.cs
+ NginxCertificateListResponse.TypeConverter.cs
+ NginxCertificateProperties.cs
+ NginxCertificateProperties.json.cs
+ NginxCertificateProperties.PowerShell.cs
+ NginxCertificateProperties.TypeConverter.cs
+ NginxConfiguration.cs
+ NginxConfiguration.json.cs
+ NginxConfiguration.PowerShell.cs
+ NginxConfiguration.TypeConverter.cs
+ NginxConfigurationFile.cs
+ NginxConfigurationFile.json.cs
+ NginxConfigurationFile.PowerShell.cs
+ NginxConfigurationFile.TypeConverter.cs
+ NginxConfigurationListResponse.cs
+ NginxConfigurationListResponse.json.cs
+ NginxConfigurationListResponse.PowerShell.cs
+ NginxConfigurationListResponse.TypeConverter.cs
+ NginxConfigurationPackage.cs
+ NginxConfigurationPackage.json.cs
+ NginxConfigurationPackage.PowerShell.cs
+ NginxConfigurationPackage.TypeConverter.cs
+ NginxConfigurationProperties.cs
+ NginxConfigurationProperties.json.cs
+ NginxConfigurationProperties.PowerShell.cs
+ NginxConfigurationProperties.TypeConverter.cs
+ NginxDeployment.cs
+ NginxDeployment.json.cs
+ NginxDeployment.PowerShell.cs
+ NginxDeployment.TypeConverter.cs
+ NginxDeploymentListResponse.cs
+ NginxDeploymentListResponse.json.cs
+ NginxDeploymentListResponse.PowerShell.cs
+ NginxDeploymentListResponse.TypeConverter.cs
+ NginxDeploymentProperties.cs
+ NginxDeploymentProperties.json.cs
+ NginxDeploymentProperties.PowerShell.cs
+ NginxDeploymentProperties.TypeConverter.cs
+ NginxDeploymentScalingProperties.cs
+ NginxDeploymentScalingProperties.json.cs
+ NginxDeploymentScalingProperties.PowerShell.cs
+ NginxDeploymentScalingProperties.TypeConverter.cs
+ NginxDeploymentScalingPropertiesAutoScaleSettings.cs
+ NginxDeploymentScalingPropertiesAutoScaleSettings.json.cs
+ NginxDeploymentScalingPropertiesAutoScaleSettings.PowerShell.cs
+ NginxDeploymentScalingPropertiesAutoScaleSettings.TypeConverter.cs
+ NginxDeploymentTags.cs
+ NginxDeploymentTags.dictionary.cs
+ NginxDeploymentTags.json.cs
+ NginxDeploymentTags.PowerShell.cs
+ NginxDeploymentTags.TypeConverter.cs
+ NginxDeploymentUpdateParameters.cs
+ NginxDeploymentUpdateParameters.json.cs
+ NginxDeploymentUpdateParameters.PowerShell.cs
+ NginxDeploymentUpdateParameters.TypeConverter.cs
+ NginxDeploymentUpdateParametersTags.cs
+ NginxDeploymentUpdateParametersTags.dictionary.cs
+ NginxDeploymentUpdateParametersTags.json.cs
+ NginxDeploymentUpdateParametersTags.PowerShell.cs
+ NginxDeploymentUpdateParametersTags.TypeConverter.cs
+ NginxDeploymentUpdateProperties.cs
+ NginxDeploymentUpdateProperties.json.cs
+ NginxDeploymentUpdateProperties.PowerShell.cs
+ NginxDeploymentUpdateProperties.TypeConverter.cs
+ NginxDeploymentUserProfile.cs
+ NginxDeploymentUserProfile.json.cs
+ NginxDeploymentUserProfile.PowerShell.cs
+ NginxDeploymentUserProfile.TypeConverter.cs
+ NginxFrontendIPConfiguration.cs
+ NginxFrontendIPConfiguration.json.cs
+ NginxFrontendIPConfiguration.PowerShell.cs
+ NginxFrontendIPConfiguration.TypeConverter.cs
+ NginxIdentity.cs
+ NginxIdentity.json.cs
+ NginxIdentity.PowerShell.cs
+ NginxIdentity.TypeConverter.cs
+ NginxLogging.cs
+ NginxLogging.json.cs
+ NginxLogging.PowerShell.cs
+ NginxLogging.TypeConverter.cs
+ NginxNetworkInterfaceConfiguration.cs
+ NginxNetworkInterfaceConfiguration.json.cs
+ NginxNetworkInterfaceConfiguration.PowerShell.cs
+ NginxNetworkInterfaceConfiguration.TypeConverter.cs
+ NginxNetworkProfile.cs
+ NginxNetworkProfile.json.cs
+ NginxNetworkProfile.PowerShell.cs
+ NginxNetworkProfile.TypeConverter.cs
+ NginxPrivateIPAddress.cs
+ NginxPrivateIPAddress.json.cs
+ NginxPrivateIPAddress.PowerShell.cs
+ NginxPrivateIPAddress.TypeConverter.cs
+ NginxPublicIPAddress.cs
+ NginxPublicIPAddress.json.cs
+ NginxPublicIPAddress.PowerShell.cs
+ NginxPublicIPAddress.TypeConverter.cs
+ NginxStorageAccount.cs
+ NginxStorageAccount.json.cs
+ NginxStorageAccount.PowerShell.cs
+ NginxStorageAccount.TypeConverter.cs
+ OperationDisplay.cs
+ OperationDisplay.json.cs
+ OperationDisplay.PowerShell.cs
+ OperationDisplay.TypeConverter.cs
+ OperationListResult.cs
+ OperationListResult.json.cs
+ OperationListResult.PowerShell.cs
+ OperationListResult.TypeConverter.cs
+ OperationResult.cs
+ OperationResult.json.cs
+ OperationResult.PowerShell.cs
+ OperationResult.TypeConverter.cs
+ ResourceProviderDefaultErrorResponse.cs
+ ResourceProviderDefaultErrorResponse.json.cs
+ ResourceProviderDefaultErrorResponse.PowerShell.cs
+ ResourceProviderDefaultErrorResponse.TypeConverter.cs
+ ResourceSku.cs
+ ResourceSku.json.cs
+ ResourceSku.PowerShell.cs
+ ResourceSku.TypeConverter.cs
+ ScaleProfile.cs
+ ScaleProfile.json.cs
+ ScaleProfile.PowerShell.cs
+ ScaleProfile.TypeConverter.cs
+ ScaleProfileCapacity.cs
+ ScaleProfileCapacity.json.cs
+ ScaleProfileCapacity.PowerShell.cs
+ ScaleProfileCapacity.TypeConverter.cs
+ SystemData.cs
+ SystemData.json.cs
+ SystemData.PowerShell.cs
+ SystemData.TypeConverter.cs
+ UserIdentityProperties.cs
+ UserIdentityProperties.json.cs
+ UserIdentityProperties.PowerShell.cs
+ UserIdentityProperties.TypeConverter.cs
+generated/
+ api/Nginx.cs
+ cmdlets/
+  GetAzNginxCertificate_Get.cs
+  GetAzNginxCertificate_GetViaIdentity.cs
+  GetAzNginxCertificate_GetViaIdentityNginxDeployment.cs
+  GetAzNginxCertificate_List.cs
+  GetAzNginxConfiguration_Get.cs
+  GetAzNginxConfiguration_GetViaIdentity.cs
+  GetAzNginxConfiguration_GetViaIdentityNginxDeployment.cs
+  GetAzNginxConfiguration_List.cs
+  GetAzNginxDeployment_Get.cs
+  GetAzNginxDeployment_GetViaIdentity.cs
+  GetAzNginxDeployment_List.cs
+  GetAzNginxDeployment_List1.cs
+  GetAzNginxOperation_List.cs
+  InvokeAzNginxAnalysisConfiguration_AnalysisExpanded.cs
+  InvokeAzNginxAnalysisConfiguration_AnalysisViaIdentityExpanded.cs
+  InvokeAzNginxAnalysisConfiguration_AnalysisViaIdentityNginxDeploymentExpanded.cs
+  InvokeAzNginxAnalysisConfiguration_AnalysisViaJsonFilePath.cs
+  InvokeAzNginxAnalysisConfiguration_AnalysisViaJsonString.cs
+  NewAzNginxCertificate_CreateExpanded.cs
+  NewAzNginxCertificate_CreateViaIdentityNginxDeploymentExpanded.cs
+  NewAzNginxCertificate_CreateViaJsonFilePath.cs
+  NewAzNginxCertificate_CreateViaJsonString.cs
+  NewAzNginxConfiguration_CreateExpanded.cs
+  NewAzNginxConfiguration_CreateViaIdentityNginxDeploymentExpanded.cs
+  NewAzNginxConfiguration_CreateViaJsonFilePath.cs
+  NewAzNginxConfiguration_CreateViaJsonString.cs
+  NewAzNginxDeployment_CreateExpanded.cs
+  NewAzNginxDeployment_CreateViaJsonFilePath.cs
+  NewAzNginxDeployment_CreateViaJsonString.cs
+  RemoveAzNginxCertificate_Delete.cs
+  RemoveAzNginxCertificate_DeleteViaIdentity.cs
+  RemoveAzNginxCertificate_DeleteViaIdentityNginxDeployment.cs
+  RemoveAzNginxConfiguration_Delete.cs
+  RemoveAzNginxConfiguration_DeleteViaIdentity.cs
+  RemoveAzNginxConfiguration_DeleteViaIdentityNginxDeployment.cs
+  RemoveAzNginxDeployment_Delete.cs
+  RemoveAzNginxDeployment_DeleteViaIdentity.cs
+  UpdateAzNginxCertificate_UpdateExpanded.cs
+  UpdateAzNginxCertificate_UpdateViaIdentityExpanded.cs
+  UpdateAzNginxCertificate_UpdateViaIdentityNginxDeploymentExpanded.cs
+  UpdateAzNginxConfiguration_UpdateExpanded.cs
+  UpdateAzNginxConfiguration_UpdateViaIdentityExpanded.cs
+  UpdateAzNginxConfiguration_UpdateViaIdentityNginxDeploymentExpanded.cs
+  UpdateAzNginxDeployment_UpdateExpanded.cs
+  UpdateAzNginxDeployment_UpdateViaIdentityExpanded.cs
+  UpdateAzNginxDeployment_UpdateViaJsonFilePath.cs
+  UpdateAzNginxDeployment_UpdateViaJsonString.cs
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.Nginx.GeneratedMSBuildEditorConfig.editorconfig

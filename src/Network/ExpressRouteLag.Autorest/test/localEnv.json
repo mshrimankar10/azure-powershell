@@ -1,0 +1,22 @@
+{
+  "location": "eastus2euap",
+  "encapType": "QinQ",
+  "expressRouteLagName": "lag-4iq3yw",
+  "lacpTimer2": "Fast",
+  "link1Name": "link1",
+  "resourceGroupName": "expressroutelag-rg-dqlo2z",
+  "authorizationName3": "auth3-e034to",
+  "authorizationName": "auth-0ogr7w",
+  "Tenant": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+  "authorizationName2": "auth2-tzrwvp",
+  "noOfPorts": 1,
+  "peeringLocation": "OnPrem",
+  "link2Name": "link2",
+  "member1Name": "member1",
+  "lacpTimer": "Slow",
+  "minLinks": 1,
+  "expressRouteLagName1": "lag-vgetqz",
+  "billingType": "MeteredData",
+  "bandwidthInGbps": 10,
+  "SubscriptionId": "7d747eed-b44c-4257-8d43-df9ebd94546b"
+}

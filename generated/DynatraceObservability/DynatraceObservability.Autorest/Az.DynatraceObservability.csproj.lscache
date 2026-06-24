@@ -1,0 +1,552 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.DynatraceObservability.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.DynatraceObservability/DynatraceObservability.Autorest/bin/Az.DynatraceObservability.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.DynatraceObservability
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.DynatraceObservability/DynatraceObservability.Autorest/bin/Az.DynatraceObservability.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.DynatraceObservability/DynatraceObservability.Autorest/bin/Az.DynatraceObservability.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.DynatraceObservability.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/
+ DynatraceObservability.cs
+ Models/
+  AccountInfo.cs
+  AccountInfo.json.cs
+  AccountInfo.PowerShell.cs
+  AccountInfo.TypeConverter.cs
+  Any.cs
+  Any.json.cs
+  Any.PowerShell.cs
+  Any.TypeConverter.cs
+  AppServiceInfo.cs
+  AppServiceInfo.json.cs
+  AppServiceInfo.PowerShell.cs
+  AppServiceInfo.TypeConverter.cs
+  AppServiceListResponse.cs
+  AppServiceListResponse.json.cs
+  AppServiceListResponse.PowerShell.cs
+  AppServiceListResponse.TypeConverter.cs
+  ConnectedResourcesCountResponse.cs
+  ConnectedResourcesCountResponse.json.cs
+  ConnectedResourcesCountResponse.PowerShell.cs
+  ConnectedResourcesCountResponse.TypeConverter.cs
+  CreateResourceSupportedProperties.cs
+  CreateResourceSupportedProperties.json.cs
+  CreateResourceSupportedProperties.PowerShell.cs
+  CreateResourceSupportedProperties.TypeConverter.cs
+  CreateResourceSupportedResponse.cs
+  CreateResourceSupportedResponse.json.cs
+  CreateResourceSupportedResponse.PowerShell.cs
+  CreateResourceSupportedResponse.TypeConverter.cs
+  DynatraceEnvironmentProperties.cs
+  DynatraceEnvironmentProperties.json.cs
+  DynatraceEnvironmentProperties.PowerShell.cs
+  DynatraceEnvironmentProperties.TypeConverter.cs
+  DynatraceObservabilityIdentity.cs
+  DynatraceObservabilityIdentity.json.cs
+  DynatraceObservabilityIdentity.PowerShell.cs
+  DynatraceObservabilityIdentity.TypeConverter.cs
+  DynatraceSingleSignOnProperties.cs
+  DynatraceSingleSignOnProperties.json.cs
+  DynatraceSingleSignOnProperties.PowerShell.cs
+  DynatraceSingleSignOnProperties.TypeConverter.cs
+  DynatraceSingleSignOnResource.cs
+  DynatraceSingleSignOnResource.json.cs
+  DynatraceSingleSignOnResource.PowerShell.cs
+  DynatraceSingleSignOnResource.TypeConverter.cs
+  DynatraceSingleSignOnResourceListResult.cs
+  DynatraceSingleSignOnResourceListResult.json.cs
+  DynatraceSingleSignOnResourceListResult.PowerShell.cs
+  DynatraceSingleSignOnResourceListResult.TypeConverter.cs
+  EnvironmentInfo.cs
+  EnvironmentInfo.json.cs
+  EnvironmentInfo.PowerShell.cs
+  EnvironmentInfo.TypeConverter.cs
+  ErrorAdditionalInfo.cs
+  ErrorAdditionalInfo.json.cs
+  ErrorAdditionalInfo.PowerShell.cs
+  ErrorAdditionalInfo.TypeConverter.cs
+  ErrorDetail.cs
+  ErrorDetail.json.cs
+  ErrorDetail.PowerShell.cs
+  ErrorDetail.TypeConverter.cs
+  ErrorResponse.cs
+  ErrorResponse.json.cs
+  ErrorResponse.PowerShell.cs
+  ErrorResponse.TypeConverter.cs
+  FilteringTag.cs
+  FilteringTag.json.cs
+  FilteringTag.PowerShell.cs
+  FilteringTag.TypeConverter.cs
+  IdentityProperties.cs
+  IdentityProperties.json.cs
+  IdentityProperties.PowerShell.cs
+  IdentityProperties.TypeConverter.cs
+  IdentityPropertiesUserAssignedIdentities.cs
+  IdentityPropertiesUserAssignedIdentities.dictionary.cs
+  IdentityPropertiesUserAssignedIdentities.json.cs
+  IdentityPropertiesUserAssignedIdentities.PowerShell.cs
+  IdentityPropertiesUserAssignedIdentities.TypeConverter.cs
+  LinkableEnvironmentListResponse.cs
+  LinkableEnvironmentListResponse.json.cs
+  LinkableEnvironmentListResponse.PowerShell.cs
+  LinkableEnvironmentListResponse.TypeConverter.cs
+  LinkableEnvironmentRequest.cs
+  LinkableEnvironmentRequest.json.cs
+  LinkableEnvironmentRequest.PowerShell.cs
+  LinkableEnvironmentRequest.TypeConverter.cs
+  LinkableEnvironmentResponse.cs
+  LinkableEnvironmentResponse.json.cs
+  LinkableEnvironmentResponse.PowerShell.cs
+  LinkableEnvironmentResponse.TypeConverter.cs
+  LogRules.cs
+  LogRules.json.cs
+  LogRules.PowerShell.cs
+  LogRules.TypeConverter.cs
+  LogStatusRequest.cs
+  LogStatusRequest.json.cs
+  LogStatusRequest.PowerShell.cs
+  LogStatusRequest.TypeConverter.cs
+  ManageAgentInstallationRequest.cs
+  ManageAgentInstallationRequest.json.cs
+  ManageAgentInstallationRequest.PowerShell.cs
+  ManageAgentInstallationRequest.TypeConverter.cs
+  ManageAgentList.cs
+  ManageAgentList.json.cs
+  ManageAgentList.PowerShell.cs
+  ManageAgentList.TypeConverter.cs
+  ManagedServiceIdentity.cs
+  ManagedServiceIdentity.json.cs
+  ManagedServiceIdentity.PowerShell.cs
+  ManagedServiceIdentity.TypeConverter.cs
+  MarketplaceSaaSResourceDetailsRequest.cs
+  MarketplaceSaaSResourceDetailsRequest.json.cs
+  MarketplaceSaaSResourceDetailsRequest.PowerShell.cs
+  MarketplaceSaaSResourceDetailsRequest.TypeConverter.cs
+  MarketplaceSaaSResourceDetailsResponse.cs
+  MarketplaceSaaSResourceDetailsResponse.json.cs
+  MarketplaceSaaSResourceDetailsResponse.PowerShell.cs
+  MarketplaceSaaSResourceDetailsResponse.TypeConverter.cs
+  MarketplaceSubscriptionIdRequest.cs
+  MarketplaceSubscriptionIdRequest.json.cs
+  MarketplaceSubscriptionIdRequest.PowerShell.cs
+  MarketplaceSubscriptionIdRequest.TypeConverter.cs
+  MetricRules.cs
+  MetricRules.json.cs
+  MetricRules.PowerShell.cs
+  MetricRules.TypeConverter.cs
+  MetricsStatusResponse.cs
+  MetricsStatusResponse.json.cs
+  MetricsStatusResponse.PowerShell.cs
+  MetricsStatusResponse.TypeConverter.cs
+  MetricStatusRequest.cs
+  MetricStatusRequest.json.cs
+  MetricStatusRequest.PowerShell.cs
+  MetricStatusRequest.TypeConverter.cs
+  MonitoredResource.cs
+  MonitoredResource.json.cs
+  MonitoredResource.PowerShell.cs
+  MonitoredResource.TypeConverter.cs
+  MonitoredResourceListResponse.cs
+  MonitoredResourceListResponse.json.cs
+  MonitoredResourceListResponse.PowerShell.cs
+  MonitoredResourceListResponse.TypeConverter.cs
+  MonitoredSubscription.cs
+  MonitoredSubscription.json.cs
+  MonitoredSubscription.PowerShell.cs
+  MonitoredSubscription.TypeConverter.cs
+  MonitoredSubscriptionProperties.cs
+  MonitoredSubscriptionProperties.json.cs
+  MonitoredSubscriptionProperties.PowerShell.cs
+  MonitoredSubscriptionProperties.TypeConverter.cs
+  MonitoredSubscriptionPropertiesList.cs
+  MonitoredSubscriptionPropertiesList.json.cs
+  MonitoredSubscriptionPropertiesList.PowerShell.cs
+  MonitoredSubscriptionPropertiesList.TypeConverter.cs
+  MonitoringTagRulesProperties.cs
+  MonitoringTagRulesProperties.json.cs
+  MonitoringTagRulesProperties.PowerShell.cs
+  MonitoringTagRulesProperties.TypeConverter.cs
+  MonitorProperties.cs
+  MonitorProperties.json.cs
+  MonitorProperties.PowerShell.cs
+  MonitorProperties.TypeConverter.cs
+  MonitorResource.cs
+  MonitorResource.json.cs
+  MonitorResource.PowerShell.cs
+  MonitorResource.TypeConverter.cs
+  MonitorResourceListResult.cs
+  MonitorResourceListResult.json.cs
+  MonitorResourceListResult.PowerShell.cs
+  MonitorResourceListResult.TypeConverter.cs
+  MonitorResourceUpdate.cs
+  MonitorResourceUpdate.json.cs
+  MonitorResourceUpdate.PowerShell.cs
+  MonitorResourceUpdate.TypeConverter.cs
+  MonitorResourceUpdateTags.cs
+  MonitorResourceUpdateTags.dictionary.cs
+  MonitorResourceUpdateTags.json.cs
+  MonitorResourceUpdateTags.PowerShell.cs
+  MonitorResourceUpdateTags.TypeConverter.cs
+  MonitorUpdateProperties.cs
+  MonitorUpdateProperties.json.cs
+  MonitorUpdateProperties.PowerShell.cs
+  MonitorUpdateProperties.TypeConverter.cs
+  Operation.cs
+  Operation.json.cs
+  Operation.PowerShell.cs
+  Operation.TypeConverter.cs
+  OperationDisplay.cs
+  OperationDisplay.json.cs
+  OperationDisplay.PowerShell.cs
+  OperationDisplay.TypeConverter.cs
+  OperationListResult.cs
+  OperationListResult.json.cs
+  OperationListResult.PowerShell.cs
+  OperationListResult.TypeConverter.cs
+  PlanData.cs
+  PlanData.json.cs
+  PlanData.PowerShell.cs
+  PlanData.TypeConverter.cs
+  ProxyResource.cs
+  ProxyResource.json.cs
+  ProxyResource.PowerShell.cs
+  ProxyResource.TypeConverter.cs
+  Resource.cs
+  Resource.json.cs
+  Resource.PowerShell.cs
+  Resource.TypeConverter.cs
+  SsoDetailsRequest.cs
+  SsoDetailsRequest.json.cs
+  SsoDetailsRequest.PowerShell.cs
+  SsoDetailsRequest.TypeConverter.cs
+  SsoDetailsResponse.cs
+  SsoDetailsResponse.json.cs
+  SsoDetailsResponse.PowerShell.cs
+  SsoDetailsResponse.TypeConverter.cs
+  SubscriptionList.cs
+  SubscriptionList.json.cs
+  SubscriptionList.PowerShell.cs
+  SubscriptionList.TypeConverter.cs
+  SystemData.cs
+  SystemData.json.cs
+  SystemData.PowerShell.cs
+  SystemData.TypeConverter.cs
+  TagRule.cs
+  TagRule.json.cs
+  TagRule.PowerShell.cs
+  TagRule.TypeConverter.cs
+  TagRuleListResult.cs
+  TagRuleListResult.json.cs
+  TagRuleListResult.PowerShell.cs
+  TagRuleListResult.TypeConverter.cs
+  TrackedResource.cs
+  TrackedResource.json.cs
+  TrackedResource.PowerShell.cs
+  TrackedResource.TypeConverter.cs
+  TrackedResourceTags.cs
+  TrackedResourceTags.dictionary.cs
+  TrackedResourceTags.json.cs
+  TrackedResourceTags.PowerShell.cs
+  TrackedResourceTags.TypeConverter.cs
+  UpgradePlanRequest.cs
+  UpgradePlanRequest.json.cs
+  UpgradePlanRequest.PowerShell.cs
+  UpgradePlanRequest.TypeConverter.cs
+  UserAssignedIdentities.cs
+  UserAssignedIdentities.dictionary.cs
+  UserAssignedIdentities.json.cs
+  UserAssignedIdentities.PowerShell.cs
+  UserAssignedIdentities.TypeConverter.cs
+  UserAssignedIdentity.cs
+  UserAssignedIdentity.json.cs
+  UserAssignedIdentity.PowerShell.cs
+  UserAssignedIdentity.TypeConverter.cs
+  UserInfo.cs
+  UserInfo.json.cs
+  UserInfo.PowerShell.cs
+  UserInfo.TypeConverter.cs
+  VMExtensionPayload.cs
+  VMExtensionPayload.json.cs
+  VMExtensionPayload.PowerShell.cs
+  VMExtensionPayload.TypeConverter.cs
+  VMHostsListResponse.cs
+  VMHostsListResponse.json.cs
+  VMHostsListResponse.PowerShell.cs
+  VMHostsListResponse.TypeConverter.cs
+  VMInfo.cs
+  VMInfo.json.cs
+  VMInfo.PowerShell.cs
+  VMInfo.TypeConverter.cs
+generated/cmdlets/
+ GetAzDynatraceMonitorAppService_List.cs
+ GetAzDynatraceMonitoredResource_List.cs
+ GetAzDynatraceMonitoredResource_ListExpanded.cs
+ GetAzDynatraceMonitoredResource_ListViaJsonFilePath.cs
+ GetAzDynatraceMonitoredResource_ListViaJsonString.cs
+ GetAzDynatraceMonitoredSubscription_Get.cs
+ GetAzDynatraceMonitoredSubscription_GetViaIdentity.cs
+ GetAzDynatraceMonitoredSubscription_List.cs
+ GetAzDynatraceMonitorHost_List.cs
+ GetAzDynatraceMonitorLinkableEnv_ListExpanded.cs
+ GetAzDynatraceMonitorLinkableEnv_ListViaJsonFilePath.cs
+ GetAzDynatraceMonitorLinkableEnv_ListViaJsonString.cs
+ GetAzDynatraceMonitorMarketplaceSaaSResourceDetail_Get.cs
+ GetAzDynatraceMonitorMarketplaceSaaSResourceDetail_GetExpanded.cs
+ GetAzDynatraceMonitorMarketplaceSaaSResourceDetail_GetViaJsonFilePath.cs
+ GetAzDynatraceMonitorMarketplaceSaaSResourceDetail_GetViaJsonString.cs
+ GetAzDynatraceMonitorMetricStatus_Get.cs
+ GetAzDynatraceMonitorMetricStatus_GetExpanded.cs
+ GetAzDynatraceMonitorMetricStatus_GetViaIdentity.cs
+ GetAzDynatraceMonitorMetricStatus_GetViaIdentityExpanded.cs
+ GetAzDynatraceMonitorMetricStatus_GetViaJsonFilePath.cs
+ GetAzDynatraceMonitorMetricStatus_GetViaJsonString.cs
+ GetAzDynatraceMonitorSSOConfig_Get.cs
+ GetAzDynatraceMonitorSSOConfig_GetViaIdentity.cs
+ GetAzDynatraceMonitorSSOConfig_GetViaIdentityMonitor.cs
+ GetAzDynatraceMonitorSSODetail_GetExpanded.cs
+ GetAzDynatraceMonitorSSODetail_GetViaJsonFilePath.cs
+ GetAzDynatraceMonitorSSODetail_GetViaJsonString.cs
+ GetAzDynatraceMonitorTagRule_Get.cs
+ GetAzDynatraceMonitorTagRule_GetViaIdentity.cs
+ GetAzDynatraceMonitorTagRule_GetViaIdentityMonitor.cs
+ GetAzDynatraceMonitorVMHostPayload_Get.cs
+ GetAzDynatraceMonitor_Get.cs
+ GetAzDynatraceMonitor_GetViaIdentity.cs
+ GetAzDynatraceMonitor_List.cs
+ GetAzDynatraceMonitor_List1.cs
+ GetAzDynatraceOperation_List.cs
+ InvokeAzDynatraceManageMonitorAgentInstallation_Manage.cs
+ InvokeAzDynatraceManageMonitorAgentInstallation_ManageExpanded.cs
+ InvokeAzDynatraceManageMonitorAgentInstallation_ManageViaIdentity.cs
+ InvokeAzDynatraceManageMonitorAgentInstallation_ManageViaIdentityExpanded.cs
+ InvokeAzDynatraceManageMonitorAgentInstallation_ManageViaJsonFilePath.cs
+ InvokeAzDynatraceManageMonitorAgentInstallation_ManageViaJsonString.cs
+ NewAzDynatraceMonitoredSubscription_CreateExpanded.cs
+ NewAzDynatraceMonitoredSubscription_CreateViaJsonFilePath.cs
+ NewAzDynatraceMonitoredSubscription_CreateViaJsonString.cs
+ NewAzDynatraceMonitorSSOConfig_CreateExpanded.cs
+ NewAzDynatraceMonitorSSOConfig_CreateViaIdentityMonitorExpanded.cs
+ NewAzDynatraceMonitorSSOConfig_CreateViaJsonFilePath.cs
+ NewAzDynatraceMonitorSSOConfig_CreateViaJsonString.cs
+ NewAzDynatraceMonitorTagRule_CreateExpanded.cs
+ NewAzDynatraceMonitorTagRule_CreateViaIdentityMonitorExpanded.cs
+ NewAzDynatraceMonitorTagRule_CreateViaJsonFilePath.cs
+ NewAzDynatraceMonitorTagRule_CreateViaJsonString.cs
+ NewAzDynatraceMonitor_CreateExpanded.cs
+ NewAzDynatraceMonitor_CreateViaJsonFilePath.cs
+ NewAzDynatraceMonitor_CreateViaJsonString.cs
+ RemoveAzDynatraceMonitoredSubscription_Delete.cs
+ RemoveAzDynatraceMonitoredSubscription_DeleteViaIdentity.cs
+ RemoveAzDynatraceMonitorTagRule_Delete.cs
+ RemoveAzDynatraceMonitorTagRule_DeleteViaIdentity.cs
+ RemoveAzDynatraceMonitorTagRule_DeleteViaIdentityMonitor.cs
+ RemoveAzDynatraceMonitor_Delete.cs
+ RemoveAzDynatraceMonitor_DeleteViaIdentity.cs
+ UpdateAzDynatraceMonitorPlan_Upgrade.cs
+ UpdateAzDynatraceMonitorPlan_UpgradeExpanded.cs
+ UpdateAzDynatraceMonitorPlan_UpgradeViaIdentity.cs
+ UpdateAzDynatraceMonitorPlan_UpgradeViaIdentityExpanded.cs
+ UpdateAzDynatraceMonitorPlan_UpgradeViaJsonFilePath.cs
+ UpdateAzDynatraceMonitorPlan_UpgradeViaJsonString.cs
+ UpdateAzDynatraceMonitorSSOConfig_UpdateExpanded.cs
+ UpdateAzDynatraceMonitorSSOConfig_UpdateViaIdentityExpanded.cs
+ UpdateAzDynatraceMonitorSSOConfig_UpdateViaIdentityMonitorExpanded.cs
+ UpdateAzDynatraceMonitorTagRule_UpdateExpanded.cs
+ UpdateAzDynatraceMonitorTagRule_UpdateViaIdentityExpanded.cs
+ UpdateAzDynatraceMonitorTagRule_UpdateViaIdentityMonitorExpanded.cs
+ UpdateAzDynatraceMonitor_UpdateExpanded.cs
+ UpdateAzDynatraceMonitor_UpdateViaIdentityExpanded.cs
+ UpdateAzDynatraceMonitor_UpdateViaJsonFilePath.cs
+ UpdateAzDynatraceMonitor_UpdateViaJsonString.cs
+generated/
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.DynatraceObservability.GeneratedMSBuildEditorConfig.editorconfig

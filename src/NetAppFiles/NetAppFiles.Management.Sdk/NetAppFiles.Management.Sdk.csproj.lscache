@@ -1,0 +1,396 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.NetAppFiles.Management.Sdk
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.NetAppFiles/Microsoft.Azure.PowerShell.NetAppFiles.Management.Sdk.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.Management.NetAppFiles
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.NetAppFiles/Microsoft.Azure.PowerShell.NetAppFiles.Management.Sdk.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,CS0108,CS1573,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.NetAppFiles/Microsoft.Azure.PowerShell.NetAppFiles.Management.Sdk.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.NetAppFiles.Management.Sdk.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+Custom/
+ AccountBackupsOperations.cs
+ AccountBackupsOperationsExtensions.cs
+ BackupsOperations.cs
+ BackupsOperationsExtensions.cs
+ IAccountBackupsOperations.cs
+ IBackupsOperations.cs
+ INetAppManagementClient.cs
+ IVolumesOperations_2022_11_01_.cs
+ Models/
+  Backup2023_07_01.cs
+  BackupPatch2023_07_01.cs
+  BackupProperties2023_07_01.cs
+  BackupRestoreFiles2023_07_01.cs
+  BackupsRestoreFilesHeaders2023_07_01.cs
+  BackupStatus2023_07_01.cs
+  BackupType2023_07_01.cs
+  BackupVault.cs
+  VolumeBackupProperties2023_07_01.cs
+  VolumePatch2022_11_01.cs
+  VolumePatchPropertiesDataProtection_2022_11_01.cs
+  VolumePropertiesDataProtection_2022_11_01.cs
+  Volume_2022_11_01.cs
+ NetAppManagementClient.cs
+ Volumes_2022_11_01_Operations.cs
+ Volumes_2022_11_01_OperationsExtensions.cs
+Generated/
+ AccountsOperations.cs
+ AccountsOperationsExtensions.cs
+ BackupPoliciesOperations.cs
+ BackupPoliciesOperationsExtensions.cs
+ BackupsOperations.cs
+ BackupsOperationsExtensions.cs
+ BackupsUnderAccountOperations.cs
+ BackupsUnderAccountOperationsExtensions.cs
+ BackupsUnderBackupVaultOperations.cs
+ BackupsUnderBackupVaultOperationsExtensions.cs
+ BackupsUnderVolumeOperations.cs
+ BackupsUnderVolumeOperationsExtensions.cs
+ BackupVaultsOperations.cs
+ BackupVaultsOperationsExtensions.cs
+ IAccountsOperations.cs
+ IBackupPoliciesOperations.cs
+ IBackupsOperations.cs
+ IBackupsUnderAccountOperations.cs
+ IBackupsUnderBackupVaultOperations.cs
+ IBackupsUnderVolumeOperations.cs
+ IBackupVaultsOperations.cs
+ INetAppManagementClient.cs
+ INetAppResourceOperations.cs
+ INetAppResourceQuotaLimitsAccountOperations.cs
+ INetAppResourceQuotaLimitsOperations.cs
+ INetAppResourceRegionInfosOperations.cs
+ INetAppResourceUsagesOperations.cs
+ IOperations.cs
+ IPoolsOperations.cs
+ IRansomwareReportsOperations.cs
+ ISnapshotPoliciesOperations.cs
+ ISnapshotsOperations.cs
+ ISubvolumesOperations.cs
+ IVolumeGroupsOperations.cs
+ IVolumeQuotaRulesOperations.cs
+ IVolumesOperations.cs
+ Models/
+  AcceptGrowCapacityPoolForShortTermCloneSplit.cs
+  AccountEncryption.cs
+  AccountProperties.cs
+  AccountsChangeKeyVaultHeaders.cs
+  AccountsCreateOrUpdateHeaders.cs
+  AccountsDeleteHeaders.cs
+  AccountsGetChangeKeyVaultInformationHeaders.cs
+  AccountsRenewCredentialsHeaders.cs
+  AccountsTransitionToCmkHeaders.cs
+  AccountsUpdateHeaders.cs
+  ActiveDirectory.cs
+  ActiveDirectoryStatus.cs
+  ActualRansomwareProtectionState.cs
+  ApplicationType.cs
+  AuthorizeRequest.cs
+  AvsDataStore.cs
+  Backup.cs
+  BackupPatch.cs
+  BackupPatchProperties.cs
+  BackupPoliciesCreateHeaders.cs
+  BackupPoliciesDeleteHeaders.cs
+  BackupPoliciesUpdateHeaders.cs
+  BackupPolicy.cs
+  BackupPolicyPatch.cs
+  BackupPolicyProperties.cs
+  BackupProperties.cs
+  BackupRestoreFiles.cs
+  BackupsCreateHeaders.cs
+  BackupsDeleteHeaders.cs
+  BackupsMigrationRequest.cs
+  BackupStatus.cs
+  BackupsUnderAccountMigrateBackupsHeaders.cs
+  BackupsUnderBackupVaultRestoreFilesHeaders.cs
+  BackupsUnderVolumeMigrateBackupsHeaders.cs
+  BackupsUpdateHeaders.cs
+  BackupType.cs
+  BackupVault.cs
+  BackupVaultPatch.cs
+  BackupVaultProperties.cs
+  BackupVaultsCreateOrUpdateHeaders.cs
+  BackupVaultsDeleteHeaders.cs
+  BackupVaultsUpdateHeaders.cs
+  BreakFileLocksRequest.cs
+  BreakReplicationRequest.cs
+  CapacityPool.cs
+  CapacityPoolPatch.cs
+  ChangeKeyVault.cs
+  CheckAvailabilityResponse.cs
+  CheckNameResourceTypes.cs
+  CheckQuotaNameResourceTypes.cs
+  ChownMode.cs
+  ClusterPeerCommandResponse.cs
+  CoolAccessRetrievalPolicy.cs
+  CoolAccessTieringPolicy.cs
+  CreatedByType.cs
+  DailySchedule.cs
+  DesiredRansomwareProtectionState.cs
+  DestinationReplication.cs
+  Dimension.cs
+  EnableSubvolumes.cs
+  EncryptionIdentity.cs
+  EncryptionKeySource.cs
+  EncryptionTransitionRequest.cs
+  EndpointType.cs
+  ErrorAdditionalInfo.cs
+  ErrorDetail.cs
+  ErrorResponse.cs
+  ErrorResponseException.cs
+  Exclude.cs
+  ExportPolicyRule.cs
+  FileAccessLogs.cs
+  FilePathAvailabilityRequest.cs
+  GetGroupIdListForLDAPUserRequest.cs
+  GetGroupIdListForLDAPUserResponse.cs
+  GetKeyVaultStatusResponse.cs
+  GetKeyVaultStatusResponseProperties.cs
+  HourlySchedule.cs
+  InAvailabilityReasonType.cs
+  KeySource.cs
+  KeyVaultPrivateEndpoint.cs
+  KeyVaultProperties.cs
+  KeyVaultStatus.cs
+  LdapSearchScopeOpt.cs
+  ListQuotaReportResponse.cs
+  ListQuotaReportResult.cs
+  ListReplicationsRequest.cs
+  LogSpecification.cs
+  ManagedServiceIdentity.cs
+  ManagedServiceIdentityType.cs
+  MetricAggregationType.cs
+  MetricSpecification.cs
+  MirrorState.cs
+  MonthlySchedule.cs
+  MountTargetProperties.cs
+  MultiAdStatus.cs
+  NetAppAccount.cs
+  NetAppAccountPatch.cs
+  NetAppProvisioningState.cs
+  NetAppResourceUpdateNetworkSiblingSetHeaders.cs
+  NetworkFeatures.cs
+  NetworkSiblingSet.cs
+  NetworkSiblingSetProvisioningState.cs
+  NicInfo.cs
+  Operation.cs
+  OperationDisplay.cs
+  OperationProperties.cs
+  Page.cs
+  PeerClusterForVolumeMigrationRequest.cs
+  PlacementKeyValuePairs.cs
+  PoolChangeRequest.cs
+  PoolPatchProperties.cs
+  PoolProperties.cs
+  PoolPropertiesEncryptionType.cs
+  PoolsCreateOrUpdateHeaders.cs
+  PoolsDeleteHeaders.cs
+  PoolsUpdateHeaders.cs
+  ProxyResource.cs
+  QosType.cs
+  QueryNetworkSiblingSetRequest.cs
+  QuotaAvailabilityRequest.cs
+  QuotaItem.cs
+  QuotaItemProperties.cs
+  QuotaReport.cs
+  QuotaReportFilterRequest.cs
+  QuotaType.cs
+  RansomwareProtectionPatchSettings.cs
+  RansomwareProtectionSettings.cs
+  RansomwareReport.cs
+  RansomwareReportProperties.cs
+  RansomwareReportsClearSuspectsHeaders.cs
+  RansomwareReportSeverity.cs
+  RansomwareReportState.cs
+  RansomwareSuspectResolution.cs
+  RansomwareSuspects.cs
+  RansomwareSuspectsClearRequest.cs
+  ReestablishReplicationRequest.cs
+  RegionInfo.cs
+  RegionInfoAvailabilityZoneMappingsItem.cs
+  RegionInfoResource.cs
+  RegionStorageToNetworkProximity.cs
+  RelocateVolumeRequest.cs
+  RemotePath.cs
+  Replication.cs
+  ReplicationMirrorState.cs
+  ReplicationObject.cs
+  ReplicationSchedule.cs
+  ReplicationStatus.cs
+  ReplicationType.cs
+  Resource.cs
+  ResourceNameAvailabilityRequest.cs
+  RestoreStatus.cs
+  SecurityStyle.cs
+  ServiceLevel.cs
+  ServiceSpecification.cs
+  SmbAccessBasedEnumeration.cs
+  SmbNonBrowsable.cs
+  Snapshot.cs
+  SnapshotPoliciesDeleteHeaders.cs
+  SnapshotPoliciesUpdateHeaders.cs
+  SnapshotPolicy.cs
+  SnapshotPolicyPatch.cs
+  SnapshotPolicyProperties.cs
+  SnapshotPolicyVolumeList.cs
+  SnapshotProperties.cs
+  SnapshotRestoreFiles.cs
+  SnapshotsCreateHeaders.cs
+  SnapshotsDeleteHeaders.cs
+  SnapshotsRestoreFilesHeaders.cs
+  SnapshotsUpdateHeaders.cs
+  SubvolumeInfo.cs
+  SubvolumeModel.cs
+  SubvolumeModelProperties.cs
+  SubvolumePatchParams.cs
+  SubvolumePatchRequest.cs
+  SubvolumeProperties.cs
+  SubvolumesCreateHeaders.cs
+  SubvolumesDeleteHeaders.cs
+  SubvolumesGetMetadataHeaders.cs
+  SubvolumesUpdateHeaders.cs
+  SuspectFile.cs
+  SvmPeerCommandResponse.cs
+  SystemData.cs
+  TrackedResource.cs
+  UpdateNetworkSiblingSetRequest.cs
+  UsageName.cs
+  UsageProperties.cs
+  UsageResult.cs
+  UserAssignedIdentity.cs
+  Volume.cs
+  VolumeBackupProperties.cs
+  VolumeBackupRelationshipStatus.cs
+  VolumeBackups.cs
+  VolumeGroup.cs
+  VolumeGroupDetails.cs
+  VolumeGroupListProperties.cs
+  VolumeGroupMetaData.cs
+  VolumeGroupProperties.cs
+  VolumeGroupsCreateHeaders.cs
+  VolumeGroupsDeleteHeaders.cs
+  VolumeGroupVolumeProperties.cs
+  VolumePatch.cs
+  VolumePatchProperties.cs
+  VolumePatchPropertiesDataProtection.cs
+  VolumePatchPropertiesExportPolicy.cs
+  VolumeProperties.cs
+  VolumePropertiesDataProtection.cs
+  VolumePropertiesExportPolicy.cs
+  VolumeQuotaRule.cs
+  VolumeQuotaRulePatch.cs
+  VolumeQuotaRulesCreateHeaders.cs
+  VolumeQuotaRulesDeleteHeaders.cs
+  VolumeQuotaRulesProperties.cs
+  VolumeQuotaRulesUpdateHeaders.cs
+  VolumeRelocationProperties.cs
+  VolumeReplicationRelationshipStatus.cs
+  VolumeRestoreRelationshipStatus.cs
+  VolumeRevert.cs
+  VolumesAuthorizeExternalReplicationHeaders.cs
+  VolumesAuthorizeReplicationHeaders.cs
+  VolumesBreakFileLocksHeaders.cs
+  VolumesBreakReplicationHeaders.cs
+  VolumesCreateOrUpdateHeaders.cs
+  VolumesDeleteHeaders.cs
+  VolumesDeleteReplicationHeaders.cs
+  VolumesFinalizeExternalReplicationHeaders.cs
+  VolumesFinalizeRelocationHeaders.cs
+  VolumesListGetGroupIdListForLdapUserHeaders.cs
+  VolumesListQuotaReportHeaders.cs
+  VolumeSnapshotProperties.cs
+  VolumesPeerExternalClusterHeaders.cs
+  VolumesPerformReplicationTransferHeaders.cs
+  VolumesPoolChangeHeaders.cs
+  VolumesPopulateAvailabilityZoneHeaders.cs
+  VolumesReestablishReplicationHeaders.cs
+  VolumesReInitializeReplicationHeaders.cs
+  VolumesRelocateHeaders.cs
+  VolumesResetCifsPasswordHeaders.cs
+  VolumesResyncReplicationHeaders.cs
+  VolumesRevertHeaders.cs
+  VolumesRevertRelocationHeaders.cs
+  VolumesSplitCloneFromParentHeaders.cs
+  VolumeStorageToNetworkProximity.cs
+  VolumesUpdateHeaders.cs
+  WeeklySchedule.cs
+ NetAppManagementClient.cs
+ NetAppResourceOperations.cs
+ NetAppResourceOperationsExtensions.cs
+ NetAppResourceQuotaLimitsAccountOperations.cs
+ NetAppResourceQuotaLimitsAccountOperationsExtensions.cs
+ NetAppResourceQuotaLimitsOperations.cs
+ NetAppResourceQuotaLimitsOperationsExtensions.cs
+ NetAppResourceRegionInfosOperations.cs
+ NetAppResourceRegionInfosOperationsExtensions.cs
+ NetAppResourceUsagesOperations.cs
+ NetAppResourceUsagesOperationsExtensions.cs
+ Operations.cs
+ OperationsExtensions.cs
+ PoolsOperations.cs
+ PoolsOperationsExtensions.cs
+ RansomwareReportsOperations.cs
+ RansomwareReportsOperationsExtensions.cs
+ SnapshotPoliciesOperations.cs
+ SnapshotPoliciesOperationsExtensions.cs
+ SnapshotsOperations.cs
+ SnapshotsOperationsExtensions.cs
+ SubvolumesOperations.cs
+ SubvolumesOperationsExtensions.cs
+ VolumeGroupsOperations.cs
+ VolumeGroupsOperationsExtensions.cs
+ VolumeQuotaRulesOperations.cs
+ VolumeQuotaRulesOperationsExtensions.cs
+ VolumesOperations.cs
+ VolumesOperationsExtensions.cs
+ListNextLink.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+
+[analyzerConfigFiles]
+obj/Debug/NetAppFiles.Management.Sdk.GeneratedMSBuildEditorConfig.editorconfig

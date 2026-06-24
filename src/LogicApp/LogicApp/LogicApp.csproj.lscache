@@ -1,0 +1,144 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.Cmdlets.LogicApp
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.LogicApp/Microsoft.Azure.PowerShell.Cmdlets.LogicApp.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.Commands.LogicApp
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.LogicApp/Microsoft.Azure.PowerShell.Cmdlets.LogicApp.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.LogicApp/Microsoft.Azure.PowerShell.Cmdlets.LogicApp.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.Cmdlets.LogicApp.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+Cmdlets/IntegrationAccount/
+ GetAzureIntegrationAccountAgreementCommand.cs
+ GetAzureIntegrationAccountAssemblyCommand.cs
+ GetAzureIntegrationAccountBatchConfigurationCommand.cs
+ GetAzureIntegrationAccountCallbackUrlCommand.cs
+ GetAzureIntegrationAccountCertificateCommand.cs
+ GetAzureIntegrationAccountCommand.cs
+ GetAzureIntegrationAccountGeneratedIcnCommand.cs
+ GetAzureIntegrationAccountMapCommand.cs
+ GetAzureIntegrationAccountPartnerCommand.cs
+ GetAzureIntegrationAccountReceivedIcnCommand.cs
+ GetAzureIntegrationAccountSchemaCommand.cs
+ NewAzureIntegrationAccountAgreementCommand.cs
+ NewAzureIntegrationAccountAssemblyCommand.cs
+ NewAzureIntegrationAccountBatchConfigurationCommand.cs
+ NewAzureIntegrationAccountCertificateCommand.cs
+ NewAzureIntegrationAccountCommand.cs
+ NewAzureIntegrationAccountMapCommand.cs
+ NewAzureIntegrationAccountPartnerCommand.cs
+ NewAzureIntegrationAccountSchemaCommand.cs
+ RemoveAzureIntegrationAccountAgreementCommand.cs
+ RemoveAzureIntegrationAccountAssemblyCommand.cs
+ RemoveAzureIntegrationAccountBatchConfigurationCommand.cs
+ RemoveAzureIntegrationAccountCertificateCommand.cs
+ RemoveAzureIntegrationAccountCommand.cs
+ RemoveAzureIntegrationAccountMapCommand.cs
+ RemoveAzureIntegrationAccountPartnerCommand.cs
+ RemoveAzureIntegrationAccountReceivedIcnCommand.cs
+ RemoveAzureIntegrationAccountSchemaCommand.cs
+ SetAzureIntegrationAccountAssemblyCommand.cs
+ SetAzureIntegrationAccountBatchConfigurationCommand.cs
+ UpdateAzureIntegrationAccountAgreementCommand.cs
+ UpdateAzureIntegrationAccountCertificateCommand.cs
+ UpdateAzureIntegrationAccountCommand.cs
+ UpdateAzureIntegrationAccountGeneratedIcnCommand.cs
+ UpdateAzureIntegrationAccountMapCommand.cs
+ UpdateAzureIntegrationAccountPartnerCommand.cs
+ UpdateAzureIntegrationAccountReceivedIcnCommand.cs
+ UpdateAzureIntegrationAccountSchemaCommand.cs
+Cmdlets/LogicApp/
+ CancelAzureLogicAppRunCommand.cs
+ GetAzureLogicAppCommand.cs
+ GetAzureLogicAppRunActionCommand.cs
+ GetAzureLogicAppRunHistoryCommand.cs
+ GetAzureLogicAppTriggerCallbackUrlCommand.cs
+ GetAzureLogicAppTriggerCommand.cs
+ GetAzureLogicAppTriggerHistoryCommand.cs
+ GetAzureLogicAppUpgradedDefinitionCommand.cs
+ NewAzureLogicAppCommand.cs
+ RemoveAzureLogicAppCommand.cs
+ RunAzureLogicAppCommand.cs
+ UpdateAzureLogicAppCommand.cs
+ ValidateAzureLogicAppCommand.cs
+Models/
+ PSIntegrationAccountAssembly.cs
+ PSIntegrationAccountBatchConfiguration.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/
+ AssemblyInfo.cs
+ Resource.Designer.cs
+Utilities/
+ CmdletHelper.cs
+ Constants.cs
+ ControlNumberType.cs
+ IntegrationAccountAgreementOperations.cs
+ IntegrationAccountAssemblyOperations.cs
+ IntegrationAccountBatchConfigurationOperations.cs
+ IntegrationAccountCertificateOperations.cs
+ IntegrationAccountClient.cs
+ IntegrationAccountControlNumber.cs
+ IntegrationAccountGeneratedControlNumberOperations.cs
+ IntegrationAccountMapOperations.cs
+ IntegrationAccountOperations.cs
+ IntegrationAccountPartnerOperations.cs
+ IntegrationAccountReceivedControlNumberOperations.cs
+ IntegrationAccountSchemaOperations.cs
+ LogicAppBaseCmdlet.cs
+ LogicAppClient.cs
+ LogicAppClientRunOperations.cs
+ LogicAppClientTriggerOperations.cs
+ MessageType.cs
+ ParameterSet.cs
+ QualifiedIntegrationAccountControlNumber.cs
+ WebsitesClient.cs
+
+[metadataReferences]
+../../../artifacts/Debug/Az.LogicApp/Microsoft.Azure.PowerShell.LogicApp.Management.Sdk.dll
+
+[analyzerConfigFiles]
+obj/Debug/LogicApp.GeneratedMSBuildEditorConfig.editorconfig

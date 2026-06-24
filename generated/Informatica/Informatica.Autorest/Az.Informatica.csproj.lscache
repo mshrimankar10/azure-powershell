@@ -1,0 +1,471 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.Informatica.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.Informatica/Informatica.Autorest/bin/Az.Informatica.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.Informatica
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.Informatica/Informatica.Autorest/bin/Az.Informatica.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.Informatica/Informatica.Autorest/bin/Az.Informatica.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.Informatica.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/
+ Informatica.cs
+ Models/
+  AdvancedCustomProperties.cs
+  AdvancedCustomProperties.json.cs
+  AdvancedCustomProperties.PowerShell.cs
+  AdvancedCustomProperties.TypeConverter.cs
+  Any.cs
+  Any.json.cs
+  Any.PowerShell.cs
+  Any.TypeConverter.cs
+  ApplicationConfigs.cs
+  ApplicationConfigs.json.cs
+  ApplicationConfigs.PowerShell.cs
+  ApplicationConfigs.TypeConverter.cs
+  ApplicationTypeMetadata.cs
+  ApplicationTypeMetadata.json.cs
+  ApplicationTypeMetadata.PowerShell.cs
+  ApplicationTypeMetadata.TypeConverter.cs
+  CdiConfigProps.cs
+  CdiConfigProps.json.cs
+  CdiConfigProps.PowerShell.cs
+  CdiConfigProps.TypeConverter.cs
+  CheckDependenciesResponse.cs
+  CheckDependenciesResponse.json.cs
+  CheckDependenciesResponse.PowerShell.cs
+  CheckDependenciesResponse.TypeConverter.cs
+  CompanyDetails.cs
+  CompanyDetails.json.cs
+  CompanyDetails.PowerShell.cs
+  CompanyDetails.TypeConverter.cs
+  CompanyDetailsUpdate.cs
+  CompanyDetailsUpdate.json.cs
+  CompanyDetailsUpdate.PowerShell.cs
+  CompanyDetailsUpdate.TypeConverter.cs
+  ComputeUnitsMetadata.cs
+  ComputeUnitsMetadata.json.cs
+  ComputeUnitsMetadata.PowerShell.cs
+  ComputeUnitsMetadata.TypeConverter.cs
+  ErrorAdditionalInfo.cs
+  ErrorAdditionalInfo.json.cs
+  ErrorAdditionalInfo.PowerShell.cs
+  ErrorAdditionalInfo.TypeConverter.cs
+  ErrorDetail.cs
+  ErrorDetail.json.cs
+  ErrorDetail.PowerShell.cs
+  ErrorDetail.TypeConverter.cs
+  ErrorResponse.cs
+  ErrorResponse.json.cs
+  ErrorResponse.PowerShell.cs
+  ErrorResponse.TypeConverter.cs
+  InfaRuntimeResourceFetchMetaData.cs
+  InfaRuntimeResourceFetchMetaData.json.cs
+  InfaRuntimeResourceFetchMetaData.PowerShell.cs
+  InfaRuntimeResourceFetchMetaData.TypeConverter.cs
+  InfaServerlessFetchConfigProperties.cs
+  InfaServerlessFetchConfigProperties.json.cs
+  InfaServerlessFetchConfigProperties.PowerShell.cs
+  InfaServerlessFetchConfigProperties.TypeConverter.cs
+  InformaticaIdentity.cs
+  InformaticaIdentity.json.cs
+  InformaticaIdentity.PowerShell.cs
+  InformaticaIdentity.TypeConverter.cs
+  InformaticaOrganizationResource.cs
+  InformaticaOrganizationResource.json.cs
+  InformaticaOrganizationResource.PowerShell.cs
+  InformaticaOrganizationResource.TypeConverter.cs
+  InformaticaOrganizationResourceListResult.cs
+  InformaticaOrganizationResourceListResult.json.cs
+  InformaticaOrganizationResourceListResult.PowerShell.cs
+  InformaticaOrganizationResourceListResult.TypeConverter.cs
+  InformaticaOrganizationResourceUpdate.cs
+  InformaticaOrganizationResourceUpdate.json.cs
+  InformaticaOrganizationResourceUpdate.PowerShell.cs
+  InformaticaOrganizationResourceUpdate.TypeConverter.cs
+  InformaticaOrganizationResourceUpdateTags.cs
+  InformaticaOrganizationResourceUpdateTags.dictionary.cs
+  InformaticaOrganizationResourceUpdateTags.json.cs
+  InformaticaOrganizationResourceUpdateTags.PowerShell.cs
+  InformaticaOrganizationResourceUpdateTags.TypeConverter.cs
+  InformaticaProperties.cs
+  InformaticaProperties.json.cs
+  InformaticaProperties.PowerShell.cs
+  InformaticaProperties.TypeConverter.cs
+  InformaticaServerlessRuntimeProperties.cs
+  InformaticaServerlessRuntimeProperties.json.cs
+  InformaticaServerlessRuntimeProperties.PowerShell.cs
+  InformaticaServerlessRuntimeProperties.TypeConverter.cs
+  InformaticaServerlessRuntimeResource.cs
+  InformaticaServerlessRuntimeResource.json.cs
+  InformaticaServerlessRuntimeResource.PowerShell.cs
+  InformaticaServerlessRuntimeResource.TypeConverter.cs
+  InformaticaServerlessRuntimeResourceList.cs
+  InformaticaServerlessRuntimeResourceList.json.cs
+  InformaticaServerlessRuntimeResourceList.PowerShell.cs
+  InformaticaServerlessRuntimeResourceList.TypeConverter.cs
+  InformaticaServerlessRuntimeResourceListResult.cs
+  InformaticaServerlessRuntimeResourceListResult.json.cs
+  InformaticaServerlessRuntimeResourceListResult.PowerShell.cs
+  InformaticaServerlessRuntimeResourceListResult.TypeConverter.cs
+  InformaticaServerlessRuntimeResourceUpdate.cs
+  InformaticaServerlessRuntimeResourceUpdate.json.cs
+  InformaticaServerlessRuntimeResourceUpdate.PowerShell.cs
+  InformaticaServerlessRuntimeResourceUpdate.TypeConverter.cs
+  LinkOrganization.cs
+  LinkOrganization.json.cs
+  LinkOrganization.PowerShell.cs
+  LinkOrganization.TypeConverter.cs
+  MarketplaceDetails.cs
+  MarketplaceDetails.json.cs
+  MarketplaceDetails.PowerShell.cs
+  MarketplaceDetails.TypeConverter.cs
+  MarketplaceDetailsUpdate.cs
+  MarketplaceDetailsUpdate.json.cs
+  MarketplaceDetailsUpdate.PowerShell.cs
+  MarketplaceDetailsUpdate.TypeConverter.cs
+  NetworkInterfaceConfiguration.cs
+  NetworkInterfaceConfiguration.json.cs
+  NetworkInterfaceConfiguration.PowerShell.cs
+  NetworkInterfaceConfiguration.TypeConverter.cs
+  NetworkInterfaceConfigurationUpdate.cs
+  NetworkInterfaceConfigurationUpdate.json.cs
+  NetworkInterfaceConfigurationUpdate.PowerShell.cs
+  NetworkInterfaceConfigurationUpdate.TypeConverter.cs
+  OfferDetails.cs
+  OfferDetails.json.cs
+  OfferDetails.PowerShell.cs
+  OfferDetails.TypeConverter.cs
+  OfferDetailsUpdate.cs
+  OfferDetailsUpdate.json.cs
+  OfferDetailsUpdate.PowerShell.cs
+  OfferDetailsUpdate.TypeConverter.cs
+  Operation.cs
+  Operation.json.cs
+  Operation.PowerShell.cs
+  Operation.TypeConverter.cs
+  OperationDisplay.cs
+  OperationDisplay.json.cs
+  OperationDisplay.PowerShell.cs
+  OperationDisplay.TypeConverter.cs
+  OperationListResult.cs
+  OperationListResult.json.cs
+  OperationListResult.PowerShell.cs
+  OperationListResult.TypeConverter.cs
+  OrganizationProperties.cs
+  OrganizationProperties.json.cs
+  OrganizationProperties.PowerShell.cs
+  OrganizationProperties.TypeConverter.cs
+  OrganizationPropertiesCustomUpdate.cs
+  OrganizationPropertiesCustomUpdate.json.cs
+  OrganizationPropertiesCustomUpdate.PowerShell.cs
+  OrganizationPropertiesCustomUpdate.TypeConverter.cs
+  ProxyResource.cs
+  ProxyResource.json.cs
+  ProxyResource.PowerShell.cs
+  ProxyResource.TypeConverter.cs
+  RegionsMetadata.cs
+  RegionsMetadata.json.cs
+  RegionsMetadata.PowerShell.cs
+  RegionsMetadata.TypeConverter.cs
+  Resource.cs
+  Resource.json.cs
+  Resource.PowerShell.cs
+  Resource.TypeConverter.cs
+  ServerlessConfigProperties.cs
+  ServerlessConfigProperties.json.cs
+  ServerlessConfigProperties.PowerShell.cs
+  ServerlessConfigProperties.TypeConverter.cs
+  ServerlessMetadataResponse.cs
+  ServerlessMetadataResponse.json.cs
+  ServerlessMetadataResponse.PowerShell.cs
+  ServerlessMetadataResponse.TypeConverter.cs
+  ServerlessRuntimeConfigProperties.cs
+  ServerlessRuntimeConfigProperties.json.cs
+  ServerlessRuntimeConfigProperties.PowerShell.cs
+  ServerlessRuntimeConfigProperties.TypeConverter.cs
+  ServerlessRuntimeConfigPropertiesUpdate.cs
+  ServerlessRuntimeConfigPropertiesUpdate.json.cs
+  ServerlessRuntimeConfigPropertiesUpdate.PowerShell.cs
+  ServerlessRuntimeConfigPropertiesUpdate.TypeConverter.cs
+  ServerlessRuntimeDependency.cs
+  ServerlessRuntimeDependency.json.cs
+  ServerlessRuntimeDependency.PowerShell.cs
+  ServerlessRuntimeDependency.TypeConverter.cs
+  ServerlessRuntimeNetworkProfile.cs
+  ServerlessRuntimeNetworkProfile.json.cs
+  ServerlessRuntimeNetworkProfile.PowerShell.cs
+  ServerlessRuntimeNetworkProfile.TypeConverter.cs
+  ServerlessRuntimeNetworkProfileUpdate.cs
+  ServerlessRuntimeNetworkProfileUpdate.json.cs
+  ServerlessRuntimeNetworkProfileUpdate.PowerShell.cs
+  ServerlessRuntimeNetworkProfileUpdate.TypeConverter.cs
+  ServerlessRuntimePropertiesCustomUpdate.cs
+  ServerlessRuntimePropertiesCustomUpdate.json.cs
+  ServerlessRuntimePropertiesCustomUpdate.PowerShell.cs
+  ServerlessRuntimePropertiesCustomUpdate.TypeConverter.cs
+  ServerlessRuntimeTag.cs
+  ServerlessRuntimeTag.json.cs
+  ServerlessRuntimeTag.PowerShell.cs
+  ServerlessRuntimeTag.TypeConverter.cs
+  ServerlessRuntimeUserContextProperties.cs
+  ServerlessRuntimeUserContextProperties.json.cs
+  ServerlessRuntimeUserContextProperties.PowerShell.cs
+  ServerlessRuntimeUserContextProperties.TypeConverter.cs
+  ServerlessRuntimeUserContextPropertiesUpdate.cs
+  ServerlessRuntimeUserContextPropertiesUpdate.json.cs
+  ServerlessRuntimeUserContextPropertiesUpdate.PowerShell.cs
+  ServerlessRuntimeUserContextPropertiesUpdate.TypeConverter.cs
+  SystemData.cs
+  SystemData.json.cs
+  SystemData.PowerShell.cs
+  SystemData.TypeConverter.cs
+  TrackedResource.cs
+  TrackedResource.json.cs
+  TrackedResource.PowerShell.cs
+  TrackedResource.TypeConverter.cs
+  TrackedResourceTags.cs
+  TrackedResourceTags.dictionary.cs
+  TrackedResourceTags.json.cs
+  TrackedResourceTags.PowerShell.cs
+  TrackedResourceTags.TypeConverter.cs
+  UserDetails.cs
+  UserDetails.json.cs
+  UserDetails.PowerShell.cs
+  UserDetails.TypeConverter.cs
+  UserDetailsUpdate.cs
+  UserDetailsUpdate.json.cs
+  UserDetailsUpdate.PowerShell.cs
+  UserDetailsUpdate.TypeConverter.cs
+generated/cmdlets/
+ GetAzInformaticaOperation_List.cs
+ GetAzInformaticaOrganizationServerlessMetadata_Get.cs
+ GetAzInformaticaOrganizationServerlessMetadata_GetViaIdentity.cs
+ GetAzInformaticaOrganizationServerlessRuntime_Get.cs
+ GetAzInformaticaOrganizationServerlessRuntime_GetViaIdentity.cs
+ GetAzInformaticaOrganization_Get.cs
+ GetAzInformaticaOrganization_GetViaIdentity.cs
+ GetAzInformaticaOrganization_List.cs
+ GetAzInformaticaOrganization_List1.cs
+ GetAzInformaticaServerlessRuntime_Get.cs
+ GetAzInformaticaServerlessRuntime_GetViaIdentity.cs
+ GetAzInformaticaServerlessRuntime_GetViaIdentityOrganization.cs
+ GetAzInformaticaServerlessRuntime_List.cs
+ InvokeAzInformaticaServerlessRuntimeResource_Serverless.cs
+ InvokeAzInformaticaServerlessRuntimeResource_ServerlessViaIdentity.cs
+ InvokeAzInformaticaServerlessRuntimeResource_ServerlessViaIdentityOrganization.cs
+ NewAzInformaticaOrganization_CreateExpanded.cs
+ NewAzInformaticaOrganization_CreateViaJsonFilePath.cs
+ NewAzInformaticaOrganization_CreateViaJsonString.cs
+ NewAzInformaticaServerlessRuntime_CreateExpanded.cs
+ NewAzInformaticaServerlessRuntime_CreateViaJsonFilePath.cs
+ NewAzInformaticaServerlessRuntime_CreateViaJsonString.cs
+ RemoveAzInformaticaOrganization_Delete.cs
+ RemoveAzInformaticaOrganization_DeleteViaIdentity.cs
+ RemoveAzInformaticaServerlessRuntime_Delete.cs
+ RemoveAzInformaticaServerlessRuntime_DeleteViaIdentity.cs
+ RemoveAzInformaticaServerlessRuntime_DeleteViaIdentityOrganization.cs
+ StartAzInformaticaServerlessRuntimeFailedServerlessRuntime_Start.cs
+ StartAzInformaticaServerlessRuntimeFailedServerlessRuntime_StartViaIdentity.cs
+ StartAzInformaticaServerlessRuntimeFailedServerlessRuntime_StartViaIdentityOrganization.cs
+ TestAzInformaticaServerlessRuntimeDependency_Check.cs
+ TestAzInformaticaServerlessRuntimeDependency_CheckViaIdentity.cs
+ TestAzInformaticaServerlessRuntimeDependency_CheckViaIdentityOrganization.cs
+ UpdateAzInformaticaOrganization_UpdateExpanded.cs
+ UpdateAzInformaticaOrganization_UpdateViaIdentityExpanded.cs
+ UpdateAzInformaticaOrganization_UpdateViaJsonFilePath.cs
+ UpdateAzInformaticaOrganization_UpdateViaJsonString.cs
+ UpdateAzInformaticaServerlessRuntime_UpdateExpanded.cs
+ UpdateAzInformaticaServerlessRuntime_UpdateViaIdentityExpanded.cs
+ UpdateAzInformaticaServerlessRuntime_UpdateViaIdentityOrganizationExpanded.cs
+ UpdateAzInformaticaServerlessRuntime_UpdateViaJsonFilePath.cs
+ UpdateAzInformaticaServerlessRuntime_UpdateViaJsonString.cs
+generated/
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.Informatica.GeneratedMSBuildEditorConfig.editorconfig

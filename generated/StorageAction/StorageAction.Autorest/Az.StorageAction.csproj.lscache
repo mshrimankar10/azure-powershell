@@ -1,0 +1,381 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.StorageAction.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.StorageAction/StorageAction.Autorest/bin/Az.StorageAction.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.StorageAction
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.StorageAction/StorageAction.Autorest/bin/Az.StorageAction.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.StorageAction/StorageAction.Autorest/bin/Az.StorageAction.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.StorageAction.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/Models/
+ Any.cs
+ Any.json.cs
+ Any.PowerShell.cs
+ Any.TypeConverter.cs
+ ElseCondition.cs
+ ElseCondition.json.cs
+ ElseCondition.PowerShell.cs
+ ElseCondition.TypeConverter.cs
+ ErrorAdditionalInfo.cs
+ ErrorAdditionalInfo.json.cs
+ ErrorAdditionalInfo.PowerShell.cs
+ ErrorAdditionalInfo.TypeConverter.cs
+ ErrorDetail.cs
+ ErrorDetail.json.cs
+ ErrorDetail.PowerShell.cs
+ ErrorDetail.TypeConverter.cs
+ ErrorResponse.cs
+ ErrorResponse.json.cs
+ ErrorResponse.PowerShell.cs
+ ErrorResponse.TypeConverter.cs
+ IfCondition.cs
+ IfCondition.json.cs
+ IfCondition.PowerShell.cs
+ IfCondition.TypeConverter.cs
+ ManagedServiceIdentity.cs
+ ManagedServiceIdentity.json.cs
+ ManagedServiceIdentity.PowerShell.cs
+ ManagedServiceIdentity.TypeConverter.cs
+ Operation.cs
+ Operation.json.cs
+ Operation.PowerShell.cs
+ Operation.TypeConverter.cs
+ OperationDisplay.cs
+ OperationDisplay.json.cs
+ OperationDisplay.PowerShell.cs
+ OperationDisplay.TypeConverter.cs
+ OperationListResult.cs
+ OperationListResult.json.cs
+ OperationListResult.PowerShell.cs
+ OperationListResult.TypeConverter.cs
+ ProxyResource.cs
+ ProxyResource.json.cs
+ ProxyResource.PowerShell.cs
+ ProxyResource.TypeConverter.cs
+ Resource.cs
+ Resource.json.cs
+ Resource.PowerShell.cs
+ Resource.TypeConverter.cs
+ StorageActionIdentity.cs
+ StorageActionIdentity.json.cs
+ StorageActionIdentity.PowerShell.cs
+ StorageActionIdentity.TypeConverter.cs
+ StorageTask.cs
+ StorageTask.json.cs
+ StorageTask.PowerShell.cs
+ StorageTask.TypeConverter.cs
+ StorageTaskAction.cs
+ StorageTaskAction.json.cs
+ StorageTaskAction.PowerShell.cs
+ StorageTaskAction.TypeConverter.cs
+ StorageTaskAssignment.cs
+ StorageTaskAssignment.json.cs
+ StorageTaskAssignment.PowerShell.cs
+ StorageTaskAssignment.TypeConverter.cs
+ StorageTaskAssignmentsListResult.cs
+ StorageTaskAssignmentsListResult.json.cs
+ StorageTaskAssignmentsListResult.PowerShell.cs
+ StorageTaskAssignmentsListResult.TypeConverter.cs
+ StorageTaskOperation.cs
+ StorageTaskOperation.json.cs
+ StorageTaskOperation.PowerShell.cs
+ StorageTaskOperation.TypeConverter.cs
+ StorageTaskOperationParameters.cs
+ StorageTaskOperationParameters.dictionary.cs
+ StorageTaskOperationParameters.json.cs
+ StorageTaskOperationParameters.PowerShell.cs
+ StorageTaskOperationParameters.TypeConverter.cs
+ StorageTaskPreviewAction.cs
+ StorageTaskPreviewAction.json.cs
+ StorageTaskPreviewAction.PowerShell.cs
+ StorageTaskPreviewAction.TypeConverter.cs
+ StorageTaskPreviewActionCondition.cs
+ StorageTaskPreviewActionCondition.json.cs
+ StorageTaskPreviewActionCondition.PowerShell.cs
+ StorageTaskPreviewActionCondition.TypeConverter.cs
+ StorageTaskPreviewActionIfCondition.cs
+ StorageTaskPreviewActionIfCondition.json.cs
+ StorageTaskPreviewActionIfCondition.PowerShell.cs
+ StorageTaskPreviewActionIfCondition.TypeConverter.cs
+ StorageTaskPreviewActionProperties.cs
+ StorageTaskPreviewActionProperties.json.cs
+ StorageTaskPreviewActionProperties.PowerShell.cs
+ StorageTaskPreviewActionProperties.TypeConverter.cs
+ StorageTaskPreviewBlobProperties.cs
+ StorageTaskPreviewBlobProperties.json.cs
+ StorageTaskPreviewBlobProperties.PowerShell.cs
+ StorageTaskPreviewBlobProperties.TypeConverter.cs
+ StorageTaskPreviewContainerProperties.cs
+ StorageTaskPreviewContainerProperties.json.cs
+ StorageTaskPreviewContainerProperties.PowerShell.cs
+ StorageTaskPreviewContainerProperties.TypeConverter.cs
+ StorageTaskPreviewKeyValueProperties.cs
+ StorageTaskPreviewKeyValueProperties.json.cs
+ StorageTaskPreviewKeyValueProperties.PowerShell.cs
+ StorageTaskPreviewKeyValueProperties.TypeConverter.cs
+ StorageTaskProperties.cs
+ StorageTaskProperties.json.cs
+ StorageTaskProperties.PowerShell.cs
+ StorageTaskProperties.TypeConverter.cs
+ StorageTaskReportInstance.cs
+ StorageTaskReportInstance.json.cs
+ StorageTaskReportInstance.PowerShell.cs
+ StorageTaskReportInstance.TypeConverter.cs
+ StorageTaskReportProperties.cs
+ StorageTaskReportProperties.json.cs
+ StorageTaskReportProperties.PowerShell.cs
+ StorageTaskReportProperties.TypeConverter.cs
+ StorageTaskReportSummary.cs
+ StorageTaskReportSummary.json.cs
+ StorageTaskReportSummary.PowerShell.cs
+ StorageTaskReportSummary.TypeConverter.cs
+ StorageTasksListResult.cs
+ StorageTasksListResult.json.cs
+ StorageTasksListResult.PowerShell.cs
+ StorageTasksListResult.TypeConverter.cs
+ StorageTaskUpdateParameters.cs
+ StorageTaskUpdateParameters.json.cs
+ StorageTaskUpdateParameters.PowerShell.cs
+ StorageTaskUpdateParameters.TypeConverter.cs
+ StorageTaskUpdateParametersTags.cs
+ StorageTaskUpdateParametersTags.dictionary.cs
+ StorageTaskUpdateParametersTags.json.cs
+ StorageTaskUpdateParametersTags.PowerShell.cs
+ StorageTaskUpdateParametersTags.TypeConverter.cs
+ StorageTaskUpdateProperties.cs
+ StorageTaskUpdateProperties.json.cs
+ StorageTaskUpdateProperties.PowerShell.cs
+ StorageTaskUpdateProperties.TypeConverter.cs
+ SystemData.cs
+ SystemData.json.cs
+ SystemData.PowerShell.cs
+ SystemData.TypeConverter.cs
+ TrackedResource.cs
+ TrackedResource.json.cs
+ TrackedResource.PowerShell.cs
+ TrackedResource.TypeConverter.cs
+ TrackedResourceTags.cs
+ TrackedResourceTags.dictionary.cs
+ TrackedResourceTags.json.cs
+ TrackedResourceTags.PowerShell.cs
+ TrackedResourceTags.TypeConverter.cs
+ UserAssignedIdentities.cs
+ UserAssignedIdentities.dictionary.cs
+ UserAssignedIdentities.json.cs
+ UserAssignedIdentities.PowerShell.cs
+ UserAssignedIdentities.TypeConverter.cs
+ UserAssignedIdentity.cs
+ UserAssignedIdentity.json.cs
+ UserAssignedIdentity.PowerShell.cs
+ UserAssignedIdentity.TypeConverter.cs
+generated/
+ api/StorageAction.cs
+ cmdlets/
+  GetAzStorageActionOperation_List.cs
+  GetAzStorageActionTaskAssignment_List.cs
+  GetAzStorageActionTasksReport_List.cs
+  GetAzStorageActionTask_Get.cs
+  GetAzStorageActionTask_GetViaIdentity.cs
+  GetAzStorageActionTask_List.cs
+  GetAzStorageActionTask_List1.cs
+  InvokeAzStorageActionTaskPreviewAction_PreviewExpanded.cs
+  InvokeAzStorageActionTaskPreviewAction_PreviewViaIdentityExpanded.cs
+  InvokeAzStorageActionTaskPreviewAction_PreviewViaJsonFilePath.cs
+  InvokeAzStorageActionTaskPreviewAction_PreviewViaJsonString.cs
+  NewAzStorageActionTask_CreateExpanded.cs
+  NewAzStorageActionTask_CreateViaJsonFilePath.cs
+  NewAzStorageActionTask_CreateViaJsonString.cs
+  RemoveAzStorageActionTask_Delete.cs
+  RemoveAzStorageActionTask_DeleteViaIdentity.cs
+  UpdateAzStorageActionTask_UpdateExpanded.cs
+  UpdateAzStorageActionTask_UpdateViaIdentityExpanded.cs
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.StorageAction.GeneratedMSBuildEditorConfig.editorconfig

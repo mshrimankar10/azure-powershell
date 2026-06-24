@@ -1,0 +1,502 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.MariaDb.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.MariaDb/MariaDb.Autorest/bin/Az.MariaDb.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.MariaDb
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.MariaDb/MariaDb.Autorest/bin/Az.MariaDb.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.MariaDb/MariaDb.Autorest/bin/Az.MariaDb.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.MariaDb.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/
+ MariaDb.cs
+ Models/
+  Any.cs
+  Any.json.cs
+  Any.PowerShell.cs
+  Any.TypeConverter.cs
+  Api20180601Preview/
+   CloudError.cs
+   CloudError.json.cs
+   CloudError.PowerShell.cs
+   CloudError.TypeConverter.cs
+   CloudErrorBody.cs
+   CloudErrorBody.json.cs
+   CloudErrorBody.PowerShell.cs
+   CloudErrorBody.TypeConverter.cs
+   Configuration.cs
+   Configuration.json.cs
+   Configuration.PowerShell.cs
+   Configuration.TypeConverter.cs
+   ConfigurationListResult.cs
+   ConfigurationListResult.json.cs
+   ConfigurationListResult.PowerShell.cs
+   ConfigurationListResult.TypeConverter.cs
+   ConfigurationProperties.cs
+   ConfigurationProperties.json.cs
+   ConfigurationProperties.PowerShell.cs
+   ConfigurationProperties.TypeConverter.cs
+   Database.cs
+   Database.json.cs
+   Database.PowerShell.cs
+   Database.TypeConverter.cs
+   DatabaseListResult.cs
+   DatabaseListResult.json.cs
+   DatabaseListResult.PowerShell.cs
+   DatabaseListResult.TypeConverter.cs
+   DatabaseProperties.cs
+   DatabaseProperties.json.cs
+   DatabaseProperties.PowerShell.cs
+   DatabaseProperties.TypeConverter.cs
+   FirewallRule.cs
+   FirewallRule.json.cs
+   FirewallRule.PowerShell.cs
+   FirewallRule.TypeConverter.cs
+   FirewallRuleListResult.cs
+   FirewallRuleListResult.json.cs
+   FirewallRuleListResult.PowerShell.cs
+   FirewallRuleListResult.TypeConverter.cs
+   FirewallRuleProperties.cs
+   FirewallRuleProperties.json.cs
+   FirewallRuleProperties.PowerShell.cs
+   FirewallRuleProperties.TypeConverter.cs
+   LogFile.cs
+   LogFile.json.cs
+   LogFile.PowerShell.cs
+   LogFile.TypeConverter.cs
+   LogFileListResult.cs
+   LogFileListResult.json.cs
+   LogFileListResult.PowerShell.cs
+   LogFileListResult.TypeConverter.cs
+   LogFileProperties.cs
+   LogFileProperties.json.cs
+   LogFileProperties.PowerShell.cs
+   LogFileProperties.TypeConverter.cs
+   NameAvailability.cs
+   NameAvailability.json.cs
+   NameAvailability.PowerShell.cs
+   NameAvailability.TypeConverter.cs
+   NameAvailabilityRequest.cs
+   NameAvailabilityRequest.json.cs
+   NameAvailabilityRequest.PowerShell.cs
+   NameAvailabilityRequest.TypeConverter.cs
+   Operation.cs
+   Operation.json.cs
+   Operation.PowerShell.cs
+   Operation.TypeConverter.cs
+   OperationDisplay.cs
+   OperationDisplay.json.cs
+   OperationDisplay.PowerShell.cs
+   OperationDisplay.TypeConverter.cs
+   OperationListResult.cs
+   OperationListResult.json.cs
+   OperationListResult.PowerShell.cs
+   OperationListResult.TypeConverter.cs
+   OperationProperties.cs
+   OperationProperties.dictionary.cs
+   OperationProperties.json.cs
+   OperationProperties.PowerShell.cs
+   OperationProperties.TypeConverter.cs
+   PerformanceTierListResult.cs
+   PerformanceTierListResult.json.cs
+   PerformanceTierListResult.PowerShell.cs
+   PerformanceTierListResult.TypeConverter.cs
+   PerformanceTierProperties.cs
+   PerformanceTierProperties.json.cs
+   PerformanceTierProperties.PowerShell.cs
+   PerformanceTierProperties.TypeConverter.cs
+   PerformanceTierServiceLevelObjectives.cs
+   PerformanceTierServiceLevelObjectives.json.cs
+   PerformanceTierServiceLevelObjectives.PowerShell.cs
+   PerformanceTierServiceLevelObjectives.TypeConverter.cs
+   ProxyResource.cs
+   ProxyResource.json.cs
+   ProxyResource.PowerShell.cs
+   ProxyResource.TypeConverter.cs
+   ResourceIdentity.cs
+   ResourceIdentity.json.cs
+   ResourceIdentity.PowerShell.cs
+   ResourceIdentity.TypeConverter.cs
+   SecurityAlertPolicyProperties.cs
+   SecurityAlertPolicyProperties.json.cs
+   SecurityAlertPolicyProperties.PowerShell.cs
+   SecurityAlertPolicyProperties.TypeConverter.cs
+   Server.cs
+   Server.json.cs
+   Server.PowerShell.cs
+   Server.TypeConverter.cs
+   ServerForCreate.cs
+   ServerForCreate.json.cs
+   ServerForCreate.PowerShell.cs
+   ServerForCreate.TypeConverter.cs
+   ServerForCreateTags.cs
+   ServerForCreateTags.dictionary.cs
+   ServerForCreateTags.json.cs
+   ServerForCreateTags.PowerShell.cs
+   ServerForCreateTags.TypeConverter.cs
+   ServerListResult.cs
+   ServerListResult.json.cs
+   ServerListResult.PowerShell.cs
+   ServerListResult.TypeConverter.cs
+   ServerProperties.cs
+   ServerProperties.json.cs
+   ServerProperties.PowerShell.cs
+   ServerProperties.TypeConverter.cs
+   ServerPropertiesForCreate.cs
+   ServerPropertiesForCreate.json.cs
+   ServerPropertiesForCreate.PowerShell.cs
+   ServerPropertiesForCreate.TypeConverter.cs
+   ServerPropertiesForDefaultCreate.cs
+   ServerPropertiesForDefaultCreate.json.cs
+   ServerPropertiesForDefaultCreate.PowerShell.cs
+   ServerPropertiesForDefaultCreate.TypeConverter.cs
+   ServerPropertiesForGeoRestore.cs
+   ServerPropertiesForGeoRestore.json.cs
+   ServerPropertiesForGeoRestore.PowerShell.cs
+   ServerPropertiesForGeoRestore.TypeConverter.cs
+   ServerPropertiesForReplica.cs
+   ServerPropertiesForReplica.json.cs
+   ServerPropertiesForReplica.PowerShell.cs
+   ServerPropertiesForReplica.TypeConverter.cs
+   ServerPropertiesForRestore.cs
+   ServerPropertiesForRestore.json.cs
+   ServerPropertiesForRestore.PowerShell.cs
+   ServerPropertiesForRestore.TypeConverter.cs
+   ServerSecurityAlertPolicy.cs
+   ServerSecurityAlertPolicy.json.cs
+   ServerSecurityAlertPolicy.PowerShell.cs
+   ServerSecurityAlertPolicy.TypeConverter.cs
+   ServerUpdateParameters.cs
+   ServerUpdateParameters.json.cs
+   ServerUpdateParameters.PowerShell.cs
+   ServerUpdateParameters.TypeConverter.cs
+   ServerUpdateParametersProperties.cs
+   ServerUpdateParametersProperties.json.cs
+   ServerUpdateParametersProperties.PowerShell.cs
+   ServerUpdateParametersProperties.TypeConverter.cs
+   ServerUpdateParametersTags.cs
+   ServerUpdateParametersTags.dictionary.cs
+   ServerUpdateParametersTags.json.cs
+   ServerUpdateParametersTags.PowerShell.cs
+   ServerUpdateParametersTags.TypeConverter.cs
+   Sku.cs
+   Sku.json.cs
+   Sku.PowerShell.cs
+   Sku.TypeConverter.cs
+   StorageProfile.cs
+   StorageProfile.json.cs
+   StorageProfile.PowerShell.cs
+   StorageProfile.TypeConverter.cs
+   TrackedResource.cs
+   TrackedResource.json.cs
+   TrackedResource.PowerShell.cs
+   TrackedResource.TypeConverter.cs
+   TrackedResourceTags.cs
+   TrackedResourceTags.dictionary.cs
+   TrackedResourceTags.json.cs
+   TrackedResourceTags.PowerShell.cs
+   TrackedResourceTags.TypeConverter.cs
+   VirtualNetworkRule.cs
+   VirtualNetworkRule.json.cs
+   VirtualNetworkRule.PowerShell.cs
+   VirtualNetworkRule.TypeConverter.cs
+   VirtualNetworkRuleListResult.cs
+   VirtualNetworkRuleListResult.json.cs
+   VirtualNetworkRuleListResult.PowerShell.cs
+   VirtualNetworkRuleListResult.TypeConverter.cs
+   VirtualNetworkRuleProperties.cs
+   VirtualNetworkRuleProperties.json.cs
+   VirtualNetworkRuleProperties.PowerShell.cs
+   VirtualNetworkRuleProperties.TypeConverter.cs
+  MariaDbIdentity.cs
+  MariaDbIdentity.json.cs
+  MariaDbIdentity.PowerShell.cs
+  MariaDbIdentity.TypeConverter.cs
+ Support/
+  CreateMode.Completer.cs
+  CreateMode.cs
+  CreateMode.TypeConverter.cs
+  GeoRedundantBackup.Completer.cs
+  GeoRedundantBackup.cs
+  GeoRedundantBackup.TypeConverter.cs
+  IdentityType.Completer.cs
+  IdentityType.cs
+  IdentityType.TypeConverter.cs
+  OperationOrigin.Completer.cs
+  OperationOrigin.cs
+  OperationOrigin.TypeConverter.cs
+  SecurityAlertPolicyName.Completer.cs
+  SecurityAlertPolicyName.cs
+  SecurityAlertPolicyName.TypeConverter.cs
+  ServerSecurityAlertPolicyState.Completer.cs
+  ServerSecurityAlertPolicyState.cs
+  ServerSecurityAlertPolicyState.TypeConverter.cs
+  ServerState.Completer.cs
+  ServerState.cs
+  ServerState.TypeConverter.cs
+  ServerVersion.Completer.cs
+  ServerVersion.cs
+  ServerVersion.TypeConverter.cs
+  SkuTier.Completer.cs
+  SkuTier.cs
+  SkuTier.TypeConverter.cs
+  SslEnforcementEnum.Completer.cs
+  SslEnforcementEnum.cs
+  SslEnforcementEnum.TypeConverter.cs
+  StorageAutogrow.Completer.cs
+  StorageAutogrow.cs
+  StorageAutogrow.TypeConverter.cs
+  VirtualNetworkRuleState.Completer.cs
+  VirtualNetworkRuleState.cs
+  VirtualNetworkRuleState.TypeConverter.cs
+generated/cmdlets/
+ GetAzMariaDbConfiguration_Get.cs
+ GetAzMariaDbConfiguration_GetViaIdentity.cs
+ GetAzMariaDbConfiguration_List.cs
+ GetAzMariaDbDatabase_Get.cs
+ GetAzMariaDbDatabase_GetViaIdentity.cs
+ GetAzMariaDbDatabase_List.cs
+ GetAzMariaDbFirewallRule_Get.cs
+ GetAzMariaDbFirewallRule_GetViaIdentity.cs
+ GetAzMariaDbFirewallRule_List.cs
+ GetAzMariaDbLocationBasedPerformanceTier_List.cs
+ GetAzMariaDbLogFile_List.cs
+ GetAzMariaDbOperation_List.cs
+ GetAzMariaDbReplica_List.cs
+ GetAzMariaDbServerSecurityAlertPolicy_Get.cs
+ GetAzMariaDbServerSecurityAlertPolicy_GetViaIdentity.cs
+ GetAzMariaDbServer_Get.cs
+ GetAzMariaDbServer_GetViaIdentity.cs
+ GetAzMariaDbServer_List.cs
+ GetAzMariaDbServer_List1.cs
+ GetAzMariaDbVirtualNetworkRule_Get.cs
+ GetAzMariaDbVirtualNetworkRule_GetViaIdentity.cs
+ GetAzMariaDbVirtualNetworkRule_List.cs
+ InvokeAzMariaDbExecuteCheckNameAvailability_Execute.cs
+ InvokeAzMariaDbExecuteCheckNameAvailability_ExecuteExpanded.cs
+ InvokeAzMariaDbExecuteCheckNameAvailability_ExecuteViaIdentity.cs
+ InvokeAzMariaDbExecuteCheckNameAvailability_ExecuteViaIdentityExpanded.cs
+ NewAzMariaDbConfiguration_CreateExpanded.cs
+ NewAzMariaDbDatabase_Create.cs
+ NewAzMariaDbDatabase_CreateExpanded.cs
+ NewAzMariaDbDatabase_CreateViaIdentity.cs
+ NewAzMariaDbDatabase_CreateViaIdentityExpanded.cs
+ NewAzMariaDbFirewallRule_CreateExpanded.cs
+ NewAzMariaDbServerSecurityAlertPolicy_Create.cs
+ NewAzMariaDbServerSecurityAlertPolicy_CreateExpanded.cs
+ NewAzMariaDbServerSecurityAlertPolicy_CreateViaIdentity.cs
+ NewAzMariaDbServerSecurityAlertPolicy_CreateViaIdentityExpanded.cs
+ NewAzMariaDbServer_Create.cs
+ NewAzMariaDbServer_CreateExpanded.cs
+ NewAzMariaDbServer_CreateViaIdentity.cs
+ NewAzMariaDbServer_CreateViaIdentityExpanded.cs
+ NewAzMariaDbVirtualNetworkRule_CreateExpanded.cs
+ RemoveAzMariaDbDatabase_Delete.cs
+ RemoveAzMariaDbDatabase_DeleteViaIdentity.cs
+ RemoveAzMariaDbFirewallRule_Delete.cs
+ RemoveAzMariaDbFirewallRule_DeleteViaIdentity.cs
+ RemoveAzMariaDbServer_Delete.cs
+ RemoveAzMariaDbServer_DeleteViaIdentity.cs
+ RemoveAzMariaDbVirtualNetworkRule_Delete.cs
+ RemoveAzMariaDbVirtualNetworkRule_DeleteViaIdentity.cs
+ RestartAzMariaDbServer_Restart.cs
+ RestartAzMariaDbServer_RestartViaIdentity.cs
+ SetAzMariaDbDatabase_Update.cs
+ SetAzMariaDbDatabase_UpdateExpanded.cs
+ SetAzMariaDbServerSecurityAlertPolicy_Update.cs
+ SetAzMariaDbServerSecurityAlertPolicy_UpdateExpanded.cs
+ UpdateAzMariaDbConfiguration_UpdateExpanded.cs
+ UpdateAzMariaDbConfiguration_UpdateViaIdentityExpanded.cs
+ UpdateAzMariaDbFirewallRule_UpdateExpanded.cs
+ UpdateAzMariaDbFirewallRule_UpdateViaIdentityExpanded.cs
+ UpdateAzMariaDbServer_Update.cs
+ UpdateAzMariaDbServer_UpdateExpanded.cs
+ UpdateAzMariaDbServer_UpdateViaIdentity.cs
+ UpdateAzMariaDbServer_UpdateViaIdentityExpanded.cs
+ UpdateAzMariaDbVirtualNetworkRule_UpdateExpanded.cs
+ UpdateAzMariaDbVirtualNetworkRule_UpdateViaIdentityExpanded.cs
+generated/
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.MariaDb.GeneratedMSBuildEditorConfig.editorconfig

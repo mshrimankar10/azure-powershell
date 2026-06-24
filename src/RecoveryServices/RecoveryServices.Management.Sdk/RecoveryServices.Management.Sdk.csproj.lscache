@@ -1,0 +1,198 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.RecoveryServices.Management.Sdk
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.RecoveryServices/Microsoft.Azure.PowerShell.RecoveryServices.Management.Sdk.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.Management.RecoveryServices
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.RecoveryServices/Microsoft.Azure.PowerShell.RecoveryServices.Management.Sdk.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,CS0108,CS1573,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.RecoveryServices/Microsoft.Azure.PowerShell.RecoveryServices.Management.Sdk.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.RecoveryServices.Management.Sdk.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+Generated/
+ DeletedVaultsOperations.cs
+ DeletedVaultsOperationsExtensions.cs
+ IDeletedVaultsOperations.cs
+ IOperations.cs
+ IPrivateLinkResourcesOperations.cs
+ IRecoveryServicesClient.cs
+ IRecoveryServicesOperations.cs
+ IRegisteredIdentitiesOperations.cs
+ IReplicationUsagesOperations.cs
+ IUsagesOperations.cs
+ IVaultCertificatesOperations.cs
+ IVaultExtendedInfoOperations.cs
+ IVaultsOperations.cs
+ Models/
+  AlertsState.cs
+  AssociatedIdentity.cs
+  AuthType.cs
+  AzureMonitorAlertSettings.cs
+  BackupStorageVersion.cs
+  BcdrSecurityLevel.cs
+  CapabilitiesProperties.cs
+  CapabilitiesResponse.cs
+  CapabilitiesResponseProperties.cs
+  CertificateRequest.cs
+  CheckNameAvailabilityParameters.cs
+  CheckNameAvailabilityResult.cs
+  ClassicAlertSettings.cs
+  ClientDiscoveryDisplay.cs
+  ClientDiscoveryForLogSpecification.cs
+  ClientDiscoveryForProperties.cs
+  ClientDiscoveryForServiceSpecification.cs
+  ClientDiscoveryValueForSingleApi.cs
+  CloudErrorRecoveryService.cs
+  CloudErrorRecoveryServiceException.cs
+  CmkKekIdentity.cs
+  CmkKeyVaultProperties.cs
+  CreatedByType.cs
+  CrossRegionRestore.cs
+  CrossSubscriptionRestoreSettings.cs
+  CrossSubscriptionRestoreState.cs
+  DeletedVault.cs
+  DeletedVaultProperties.cs
+  DeletedVaultsUndeleteHeaders.cs
+  DeletedVaultUndeleteInput.cs
+  DeletedVaultUndeleteInputProperties.cs
+  DNSZone.cs
+  DNSZoneResponse.cs
+  EnhancedSecurityState.cs
+  Error.cs
+  ErrorAdditionalInfo.cs
+  ErrorDetail.cs
+  ErrorResponse.cs
+  ErrorResponseException.cs
+  IdentityData.cs
+  IdentityType.cs
+  ImmutabilitySettings.cs
+  ImmutabilityState.cs
+  InfrastructureEncryptionState.cs
+  JobsSummary.cs
+  MonitoringSettings.cs
+  MonitoringSummary.cs
+  MultiUserAuthorization.cs
+  NameInfo.cs
+  OperationResource.cs
+  Page.cs
+  PatchTrackedResource.cs
+  PatchVault.cs
+  PrivateEndpoint.cs
+  PrivateEndpointConnection.cs
+  PrivateEndpointConnectionStatus.cs
+  PrivateEndpointConnectionVaultProperties.cs
+  PrivateLinkResource.cs
+  PrivateLinkResourceProperties.cs
+  PrivateLinkServiceConnectionState.cs
+  ProvisioningState.cs
+  ProxyResource.cs
+  PublicNetworkAccess.cs
+  RawCertificateData.cs
+  ReplicationUsage.cs
+  Resource.cs
+  ResourceCapabilities.cs
+  ResourceCapabilitiesBase.cs
+  ResourceCertificateAndAadDetails.cs
+  ResourceCertificateAndAcsDetails.cs
+  ResourceCertificateDetails.cs
+  ResourceIdentityType.cs
+  ResourceMoveState.cs
+  RestoreSettings.cs
+  SecureScoreLevel.cs
+  SecuritySettings.cs
+  Sku.cs
+  SkuName.cs
+  SoftDeleteSettings.cs
+  SoftDeleteState.cs
+  SourceScanConfiguration.cs
+  StandardTierStorageRedundancy.cs
+  State.cs
+  SystemData.cs
+  TrackedResource.cs
+  TriggerType.cs
+  UpgradeDetails.cs
+  UsagesUnit.cs
+  UserIdentity.cs
+  Vault.cs
+  VaultCertificateResponse.cs
+  VaultExtendedInfo.cs
+  VaultExtendedInfoResource.cs
+  VaultPrivateEndpointState.cs
+  VaultProperties.cs
+  VaultPropertiesEncryption.cs
+  VaultPropertiesMoveDetails.cs
+  VaultPropertiesRedundancySettings.cs
+  VaultsCreateOrUpdateHeaders.cs
+  VaultsDeleteHeaders.cs
+  VaultSubResourceType.cs
+  VaultsUpdateHeaders.cs
+  VaultUpgradeState.cs
+  VaultUsage.cs
+ Operations.cs
+ OperationsExtensions.cs
+ PrivateLinkResourcesOperations.cs
+ PrivateLinkResourcesOperationsExtensions.cs
+ RecoveryServicesClient.cs
+ RecoveryServicesClientExtensions.cs
+ RecoveryServicesOperations.cs
+ RecoveryServicesOperationsExtensions.cs
+ RegisteredIdentitiesOperations.cs
+ RegisteredIdentitiesOperationsExtensions.cs
+ ReplicationUsagesOperations.cs
+ ReplicationUsagesOperationsExtensions.cs
+ UsagesOperations.cs
+ UsagesOperationsExtensions.cs
+ VaultCertificatesOperations.cs
+ VaultCertificatesOperationsExtensions.cs
+ VaultExtendedInfoOperations.cs
+ VaultExtendedInfoOperationsExtensions.cs
+ VaultsOperations.cs
+ VaultsOperationsExtensions.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/RecoveryServices.Management.Sdk.GeneratedMSBuildEditorConfig.editorconfig

@@ -1,0 +1,627 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.FrontDoor.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.FrontDoor/FrontDoor.Autorest/bin/Az.FrontDoor.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.FrontDoor
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.FrontDoor/FrontDoor.Autorest/bin/Az.FrontDoor.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.FrontDoor/FrontDoor.Autorest/bin/Az.FrontDoor.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.FrontDoor.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/
+ FrontDoor.cs
+ Models/
+  AzureAsyncOperationResult.cs
+  AzureAsyncOperationResult.json.cs
+  AzureAsyncOperationResult.PowerShell.cs
+  AzureAsyncOperationResult.TypeConverter.cs
+  Backend.cs
+  Backend.json.cs
+  Backend.PowerShell.cs
+  Backend.TypeConverter.cs
+  BackendPool.cs
+  BackendPool.json.cs
+  BackendPool.PowerShell.cs
+  BackendPool.TypeConverter.cs
+  BackendPoolListResult.cs
+  BackendPoolListResult.json.cs
+  BackendPoolListResult.PowerShell.cs
+  BackendPoolListResult.TypeConverter.cs
+  BackendPoolProperties.cs
+  BackendPoolProperties.json.cs
+  BackendPoolProperties.PowerShell.cs
+  BackendPoolProperties.TypeConverter.cs
+  BackendPoolsSettings.cs
+  BackendPoolsSettings.json.cs
+  BackendPoolsSettings.PowerShell.cs
+  BackendPoolsSettings.TypeConverter.cs
+  BackendPoolUpdateParameters.cs
+  BackendPoolUpdateParameters.json.cs
+  BackendPoolUpdateParameters.PowerShell.cs
+  BackendPoolUpdateParameters.TypeConverter.cs
+  CacheConfiguration.cs
+  CacheConfiguration.json.cs
+  CacheConfiguration.PowerShell.cs
+  CacheConfiguration.TypeConverter.cs
+  CheckNameAvailabilityInput.cs
+  CheckNameAvailabilityInput.json.cs
+  CheckNameAvailabilityInput.PowerShell.cs
+  CheckNameAvailabilityInput.TypeConverter.cs
+  CheckNameAvailabilityOutput.cs
+  CheckNameAvailabilityOutput.json.cs
+  CheckNameAvailabilityOutput.PowerShell.cs
+  CheckNameAvailabilityOutput.TypeConverter.cs
+  CustomHttpsConfiguration.cs
+  CustomHttpsConfiguration.json.cs
+  CustomHttpsConfiguration.PowerShell.cs
+  CustomHttpsConfiguration.TypeConverter.cs
+  CustomRule.cs
+  CustomRule.json.cs
+  CustomRule.PowerShell.cs
+  CustomRule.TypeConverter.cs
+  CustomRuleList.cs
+  CustomRuleList.json.cs
+  CustomRuleList.PowerShell.cs
+  CustomRuleList.TypeConverter.cs
+  DefaultErrorResponse.cs
+  DefaultErrorResponse.json.cs
+  DefaultErrorResponse.PowerShell.cs
+  DefaultErrorResponse.TypeConverter.cs
+  DefaultErrorResponseError.cs
+  DefaultErrorResponseError.json.cs
+  DefaultErrorResponseError.PowerShell.cs
+  DefaultErrorResponseError.TypeConverter.cs
+  Error.cs
+  Error.json.cs
+  Error.PowerShell.cs
+  Error.TypeConverter.cs
+  ErrorDetails.cs
+  ErrorDetails.json.cs
+  ErrorDetails.PowerShell.cs
+  ErrorDetails.TypeConverter.cs
+  ErrorResponse.cs
+  ErrorResponse.json.cs
+  ErrorResponse.PowerShell.cs
+  ErrorResponse.TypeConverter.cs
+  ForwardingConfiguration.cs
+  ForwardingConfiguration.json.cs
+  ForwardingConfiguration.PowerShell.cs
+  ForwardingConfiguration.TypeConverter.cs
+  FrontDoor.cs
+  FrontDoor.json.cs
+  FrontDoor.PowerShell.cs
+  FrontDoor.TypeConverter.cs
+  FrontDoorCertificateSourceParameters.cs
+  FrontDoorCertificateSourceParameters.json.cs
+  FrontDoorCertificateSourceParameters.PowerShell.cs
+  FrontDoorCertificateSourceParameters.TypeConverter.cs
+  FrontDoorIdentity.cs
+  FrontDoorIdentity.json.cs
+  FrontDoorIdentity.PowerShell.cs
+  FrontDoorIdentity.TypeConverter.cs
+  FrontDoorListResult.cs
+  FrontDoorListResult.json.cs
+  FrontDoorListResult.PowerShell.cs
+  FrontDoorListResult.TypeConverter.cs
+  FrontDoorProperties.cs
+  FrontDoorProperties.json.cs
+  FrontDoorProperties.PowerShell.cs
+  FrontDoorProperties.TypeConverter.cs
+  FrontDoorPropertiesExtendedProperties.cs
+  FrontDoorPropertiesExtendedProperties.dictionary.cs
+  FrontDoorPropertiesExtendedProperties.json.cs
+  FrontDoorPropertiesExtendedProperties.PowerShell.cs
+  FrontDoorPropertiesExtendedProperties.TypeConverter.cs
+  FrontDoorUpdateParameters.cs
+  FrontDoorUpdateParameters.json.cs
+  FrontDoorUpdateParameters.PowerShell.cs
+  FrontDoorUpdateParameters.TypeConverter.cs
+  FrontendEndpoint.cs
+  FrontendEndpoint.json.cs
+  FrontendEndpoint.PowerShell.cs
+  FrontendEndpoint.TypeConverter.cs
+  FrontendEndpointLink.cs
+  FrontendEndpointLink.json.cs
+  FrontendEndpointLink.PowerShell.cs
+  FrontendEndpointLink.TypeConverter.cs
+  FrontendEndpointProperties.cs
+  FrontendEndpointProperties.json.cs
+  FrontendEndpointProperties.PowerShell.cs
+  FrontendEndpointProperties.TypeConverter.cs
+  FrontendEndpointsListResult.cs
+  FrontendEndpointsListResult.json.cs
+  FrontendEndpointsListResult.PowerShell.cs
+  FrontendEndpointsListResult.TypeConverter.cs
+  FrontendEndpointUpdateParameters.cs
+  FrontendEndpointUpdateParameters.json.cs
+  FrontendEndpointUpdateParameters.PowerShell.cs
+  FrontendEndpointUpdateParameters.TypeConverter.cs
+  FrontendEndpointUpdateParametersWebApplicationFirewallPolicyLink.cs
+  FrontendEndpointUpdateParametersWebApplicationFirewallPolicyLink.json.cs
+  FrontendEndpointUpdateParametersWebApplicationFirewallPolicyLink.PowerShell.cs
+  FrontendEndpointUpdateParametersWebApplicationFirewallPolicyLink.TypeConverter.cs
+  GroupByVariable.cs
+  GroupByVariable.json.cs
+  GroupByVariable.PowerShell.cs
+  GroupByVariable.TypeConverter.cs
+  HeaderAction.cs
+  HeaderAction.json.cs
+  HeaderAction.PowerShell.cs
+  HeaderAction.TypeConverter.cs
+  HealthProbeSettingsListResult.cs
+  HealthProbeSettingsListResult.json.cs
+  HealthProbeSettingsListResult.PowerShell.cs
+  HealthProbeSettingsListResult.TypeConverter.cs
+  HealthProbeSettingsModel.cs
+  HealthProbeSettingsModel.json.cs
+  HealthProbeSettingsModel.PowerShell.cs
+  HealthProbeSettingsModel.TypeConverter.cs
+  HealthProbeSettingsProperties.cs
+  HealthProbeSettingsProperties.json.cs
+  HealthProbeSettingsProperties.PowerShell.cs
+  HealthProbeSettingsProperties.TypeConverter.cs
+  HealthProbeSettingsUpdateParameters.cs
+  HealthProbeSettingsUpdateParameters.json.cs
+  HealthProbeSettingsUpdateParameters.PowerShell.cs
+  HealthProbeSettingsUpdateParameters.TypeConverter.cs
+  KeyVaultCertificateSourceParameters.cs
+  KeyVaultCertificateSourceParameters.json.cs
+  KeyVaultCertificateSourceParameters.PowerShell.cs
+  KeyVaultCertificateSourceParameters.TypeConverter.cs
+  KeyVaultCertificateSourceParametersVault.cs
+  KeyVaultCertificateSourceParametersVault.json.cs
+  KeyVaultCertificateSourceParametersVault.PowerShell.cs
+  KeyVaultCertificateSourceParametersVault.TypeConverter.cs
+  LoadBalancingSettingsListResult.cs
+  LoadBalancingSettingsListResult.json.cs
+  LoadBalancingSettingsListResult.PowerShell.cs
+  LoadBalancingSettingsListResult.TypeConverter.cs
+  LoadBalancingSettingsModel.cs
+  LoadBalancingSettingsModel.json.cs
+  LoadBalancingSettingsModel.PowerShell.cs
+  LoadBalancingSettingsModel.TypeConverter.cs
+  LoadBalancingSettingsProperties.cs
+  LoadBalancingSettingsProperties.json.cs
+  LoadBalancingSettingsProperties.PowerShell.cs
+  LoadBalancingSettingsProperties.TypeConverter.cs
+  LoadBalancingSettingsUpdateParameters.cs
+  LoadBalancingSettingsUpdateParameters.json.cs
+  LoadBalancingSettingsUpdateParameters.PowerShell.cs
+  LoadBalancingSettingsUpdateParameters.TypeConverter.cs
+  ManagedRuleDefinition.cs
+  ManagedRuleDefinition.json.cs
+  ManagedRuleDefinition.PowerShell.cs
+  ManagedRuleDefinition.TypeConverter.cs
+  ManagedRuleExclusion.cs
+  ManagedRuleExclusion.json.cs
+  ManagedRuleExclusion.PowerShell.cs
+  ManagedRuleExclusion.TypeConverter.cs
+  ManagedRuleGroupDefinition.cs
+  ManagedRuleGroupDefinition.json.cs
+  ManagedRuleGroupDefinition.PowerShell.cs
+  ManagedRuleGroupDefinition.TypeConverter.cs
+  ManagedRuleGroupOverride.cs
+  ManagedRuleGroupOverride.json.cs
+  ManagedRuleGroupOverride.PowerShell.cs
+  ManagedRuleGroupOverride.TypeConverter.cs
+  ManagedRuleOverride.cs
+  ManagedRuleOverride.json.cs
+  ManagedRuleOverride.PowerShell.cs
+  ManagedRuleOverride.TypeConverter.cs
+  ManagedRuleSet.cs
+  ManagedRuleSet.json.cs
+  ManagedRuleSet.PowerShell.cs
+  ManagedRuleSet.TypeConverter.cs
+  ManagedRuleSetDefinition.cs
+  ManagedRuleSetDefinition.json.cs
+  ManagedRuleSetDefinition.PowerShell.cs
+  ManagedRuleSetDefinition.TypeConverter.cs
+  ManagedRuleSetDefinitionList.cs
+  ManagedRuleSetDefinitionList.json.cs
+  ManagedRuleSetDefinitionList.PowerShell.cs
+  ManagedRuleSetDefinitionList.TypeConverter.cs
+  ManagedRuleSetDefinitionProperties.cs
+  ManagedRuleSetDefinitionProperties.json.cs
+  ManagedRuleSetDefinitionProperties.PowerShell.cs
+  ManagedRuleSetDefinitionProperties.TypeConverter.cs
+  ManagedRuleSetList.cs
+  ManagedRuleSetList.json.cs
+  ManagedRuleSetList.PowerShell.cs
+  ManagedRuleSetList.TypeConverter.cs
+  MatchCondition.cs
+  MatchCondition.json.cs
+  MatchCondition.PowerShell.cs
+  MatchCondition.TypeConverter.cs
+  PolicySettings.cs
+  PolicySettings.json.cs
+  PolicySettings.PowerShell.cs
+  PolicySettings.TypeConverter.cs
+  PolicySettingsLogScrubbing.cs
+  PolicySettingsLogScrubbing.json.cs
+  PolicySettingsLogScrubbing.PowerShell.cs
+  PolicySettingsLogScrubbing.TypeConverter.cs
+  PurgeParameters.cs
+  PurgeParameters.json.cs
+  PurgeParameters.PowerShell.cs
+  PurgeParameters.TypeConverter.cs
+  RedirectConfiguration.cs
+  RedirectConfiguration.json.cs
+  RedirectConfiguration.PowerShell.cs
+  RedirectConfiguration.TypeConverter.cs
+  Resource.cs
+  Resource.json.cs
+  Resource.PowerShell.cs
+  Resource.TypeConverter.cs
+  ResourceTags.cs
+  ResourceTags.dictionary.cs
+  ResourceTags.json.cs
+  ResourceTags.PowerShell.cs
+  ResourceTags.TypeConverter.cs
+  RouteConfiguration.cs
+  RouteConfiguration.json.cs
+  RouteConfiguration.PowerShell.cs
+  RouteConfiguration.TypeConverter.cs
+  RoutingRule.cs
+  RoutingRule.json.cs
+  RoutingRule.PowerShell.cs
+  RoutingRule.TypeConverter.cs
+  RoutingRuleLink.cs
+  RoutingRuleLink.json.cs
+  RoutingRuleLink.PowerShell.cs
+  RoutingRuleLink.TypeConverter.cs
+  RoutingRuleListResult.cs
+  RoutingRuleListResult.json.cs
+  RoutingRuleListResult.PowerShell.cs
+  RoutingRuleListResult.TypeConverter.cs
+  RoutingRuleProperties.cs
+  RoutingRuleProperties.json.cs
+  RoutingRuleProperties.PowerShell.cs
+  RoutingRuleProperties.TypeConverter.cs
+  RoutingRuleUpdateParameters.cs
+  RoutingRuleUpdateParameters.json.cs
+  RoutingRuleUpdateParameters.PowerShell.cs
+  RoutingRuleUpdateParameters.TypeConverter.cs
+  RoutingRuleUpdateParametersWebApplicationFirewallPolicyLink.cs
+  RoutingRuleUpdateParametersWebApplicationFirewallPolicyLink.json.cs
+  RoutingRuleUpdateParametersWebApplicationFirewallPolicyLink.PowerShell.cs
+  RoutingRuleUpdateParametersWebApplicationFirewallPolicyLink.TypeConverter.cs
+  RulesEngine.cs
+  RulesEngine.json.cs
+  RulesEngine.PowerShell.cs
+  RulesEngine.TypeConverter.cs
+  RulesEngineAction.cs
+  RulesEngineAction.json.cs
+  RulesEngineAction.PowerShell.cs
+  RulesEngineAction.TypeConverter.cs
+  RulesEngineListResult.cs
+  RulesEngineListResult.json.cs
+  RulesEngineListResult.PowerShell.cs
+  RulesEngineListResult.TypeConverter.cs
+  RulesEngineMatchCondition.cs
+  RulesEngineMatchCondition.json.cs
+  RulesEngineMatchCondition.PowerShell.cs
+  RulesEngineMatchCondition.TypeConverter.cs
+  RulesEngineProperties.cs
+  RulesEngineProperties.json.cs
+  RulesEngineProperties.PowerShell.cs
+  RulesEngineProperties.TypeConverter.cs
+  RulesEngineRule.cs
+  RulesEngineRule.json.cs
+  RulesEngineRule.PowerShell.cs
+  RulesEngineRule.TypeConverter.cs
+  RulesEngineUpdateParameters.cs
+  RulesEngineUpdateParameters.json.cs
+  RulesEngineUpdateParameters.PowerShell.cs
+  RulesEngineUpdateParameters.TypeConverter.cs
+  SecurityPolicyLink.cs
+  SecurityPolicyLink.json.cs
+  SecurityPolicyLink.PowerShell.cs
+  SecurityPolicyLink.TypeConverter.cs
+  Sku.cs
+  Sku.json.cs
+  Sku.PowerShell.cs
+  Sku.TypeConverter.cs
+  SubResource.cs
+  SubResource.json.cs
+  SubResource.PowerShell.cs
+  SubResource.TypeConverter.cs
+  TagsObject.cs
+  TagsObject.json.cs
+  TagsObject.PowerShell.cs
+  TagsObject.TypeConverter.cs
+  TagsObjectTags.cs
+  TagsObjectTags.dictionary.cs
+  TagsObjectTags.json.cs
+  TagsObjectTags.PowerShell.cs
+  TagsObjectTags.TypeConverter.cs
+  ValidateCustomDomainInput.cs
+  ValidateCustomDomainInput.json.cs
+  ValidateCustomDomainInput.PowerShell.cs
+  ValidateCustomDomainInput.TypeConverter.cs
+  ValidateCustomDomainOutput.cs
+  ValidateCustomDomainOutput.json.cs
+  ValidateCustomDomainOutput.PowerShell.cs
+  ValidateCustomDomainOutput.TypeConverter.cs
+  WebApplicationFirewallPolicy.cs
+  WebApplicationFirewallPolicy.json.cs
+  WebApplicationFirewallPolicy.PowerShell.cs
+  WebApplicationFirewallPolicy.TypeConverter.cs
+  WebApplicationFirewallPolicyList.cs
+  WebApplicationFirewallPolicyList.json.cs
+  WebApplicationFirewallPolicyList.PowerShell.cs
+  WebApplicationFirewallPolicyList.TypeConverter.cs
+  WebApplicationFirewallPolicyProperties.cs
+  WebApplicationFirewallPolicyProperties.json.cs
+  WebApplicationFirewallPolicyProperties.PowerShell.cs
+  WebApplicationFirewallPolicyProperties.TypeConverter.cs
+  WebApplicationFirewallScrubbingRules.cs
+  WebApplicationFirewallScrubbingRules.json.cs
+  WebApplicationFirewallScrubbingRules.PowerShell.cs
+  WebApplicationFirewallScrubbingRules.TypeConverter.cs
+generated/cmdlets/
+ DisableAzFrontDoorCustomDomainHttps_Disable.cs
+ DisableAzFrontDoorCustomDomainHttps_DisableViaIdentity.cs
+ DisableAzFrontDoorCustomDomainHttps_DisableViaIdentityFrontDoor.cs
+ EnableAzFrontDoorCustomDomainHttps_Enable.cs
+ EnableAzFrontDoorCustomDomainHttps_EnableExpanded.cs
+ EnableAzFrontDoorCustomDomainHttps_EnableViaIdentity.cs
+ EnableAzFrontDoorCustomDomainHttps_EnableViaIdentityFrontDoor.cs
+ EnableAzFrontDoorCustomDomainHttps_EnableViaJsonFilePath.cs
+ EnableAzFrontDoorCustomDomainHttps_EnableViaJsonString.cs
+ GetAzFrontDoorFrontendEndpoint_Get.cs
+ GetAzFrontDoorFrontendEndpoint_GetViaIdentity.cs
+ GetAzFrontDoorFrontendEndpoint_GetViaIdentityFrontDoor.cs
+ GetAzFrontDoorFrontendEndpoint_List.cs
+ GetAzFrontDoorRulesEngine_Get.cs
+ GetAzFrontDoorRulesEngine_GetViaIdentity.cs
+ GetAzFrontDoorRulesEngine_GetViaIdentityFrontDoor.cs
+ GetAzFrontDoorRulesEngine_List.cs
+ GetAzFrontDoorWafManagedRuleSetDefinition_List.cs
+ GetAzFrontDoorWafPolicy_Get.cs
+ GetAzFrontDoorWafPolicy_GetViaIdentity.cs
+ GetAzFrontDoorWafPolicy_List.cs
+ GetAzFrontDoorWafPolicy_List1.cs
+ GetAzFrontDoor_Get.cs
+ GetAzFrontDoor_GetViaIdentity.cs
+ GetAzFrontDoor_List.cs
+ GetAzFrontDoor_List1.cs
+ NewAzFrontDoorRulesEngine_CreateExpanded.cs
+ NewAzFrontDoorRulesEngine_CreateViaJsonFilePath.cs
+ NewAzFrontDoorRulesEngine_CreateViaJsonString.cs
+ NewAzFrontDoorWafPolicy_CreateExpanded.cs
+ NewAzFrontDoorWafPolicy_CreateViaJsonFilePath.cs
+ NewAzFrontDoorWafPolicy_CreateViaJsonString.cs
+ NewAzFrontDoor_CreateExpanded.cs
+ NewAzFrontDoor_CreateViaJsonFilePath.cs
+ NewAzFrontDoor_CreateViaJsonString.cs
+ RemoveAzFrontDoorContent_Purge.cs
+ RemoveAzFrontDoorContent_PurgeExpanded.cs
+ RemoveAzFrontDoorContent_PurgeViaIdentity.cs
+ RemoveAzFrontDoorContent_PurgeViaIdentityExpanded.cs
+ RemoveAzFrontDoorContent_PurgeViaJsonFilePath.cs
+ RemoveAzFrontDoorContent_PurgeViaJsonString.cs
+ RemoveAzFrontDoorRulesEngine_Delete.cs
+ RemoveAzFrontDoorRulesEngine_DeleteViaIdentity.cs
+ RemoveAzFrontDoorRulesEngine_DeleteViaIdentityFrontDoor.cs
+ RemoveAzFrontDoorWafPolicy_Delete.cs
+ RemoveAzFrontDoorWafPolicy_DeleteViaIdentity.cs
+ RemoveAzFrontDoor_Delete.cs
+ RemoveAzFrontDoor_DeleteViaIdentity.cs
+ SetAzFrontDoorRulesEngine_UpdateExpanded.cs
+ SetAzFrontDoorRulesEngine_UpdateExpanded1.cs
+ SetAzFrontDoorRulesEngine_UpdateViaJsonFilePath.cs
+ SetAzFrontDoorRulesEngine_UpdateViaJsonString.cs
+ SetAzFrontDoorWafPolicy_UpdateExpanded.cs
+ SetAzFrontDoorWafPolicy_UpdateViaJsonFilePath.cs
+ SetAzFrontDoorWafPolicy_UpdateViaJsonString.cs
+ SetAzFrontDoor_UpdateExpanded.cs
+ SetAzFrontDoor_UpdateViaJsonFilePath.cs
+ SetAzFrontDoor_UpdateViaJsonString.cs
+ TestAzFrontDoorCustomDomain_Validate.cs
+ TestAzFrontDoorCustomDomain_ValidateExpanded.cs
+ TestAzFrontDoorCustomDomain_ValidateViaIdentity.cs
+ TestAzFrontDoorCustomDomain_ValidateViaIdentityExpanded.cs
+ TestAzFrontDoorCustomDomain_ValidateViaJsonFilePath.cs
+ TestAzFrontDoorCustomDomain_ValidateViaJsonString.cs
+ TestAzFrontDoorNameAvailabilityWithSubscription_Check.cs
+ TestAzFrontDoorNameAvailabilityWithSubscription_CheckExpanded.cs
+ TestAzFrontDoorNameAvailabilityWithSubscription_CheckViaJsonFilePath.cs
+ TestAzFrontDoorNameAvailabilityWithSubscription_CheckViaJsonString.cs
+ TestAzFrontDoorNameAvailability_Check.cs
+ TestAzFrontDoorNameAvailability_CheckExpanded.cs
+ TestAzFrontDoorNameAvailability_CheckViaJsonFilePath.cs
+ TestAzFrontDoorNameAvailability_CheckViaJsonString.cs
+ UpdateAzFrontDoorWafPolicy_UpdateExpanded.cs
+ UpdateAzFrontDoorWafPolicy_UpdateViaIdentityExpanded.cs
+ UpdateAzFrontDoor_UpdateExpanded.cs
+ UpdateAzFrontDoor_UpdateViaIdentityExpanded.cs
+generated/
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.FrontDoor.GeneratedMSBuildEditorConfig.editorconfig

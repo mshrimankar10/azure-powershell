@@ -1,0 +1,430 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.DiskPool.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.DiskPool/DiskPool.Autorest/bin/Az.DiskPool.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.DiskPool
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.DiskPool/DiskPool.Autorest/bin/Az.DiskPool.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.DiskPool/DiskPool.Autorest/bin/Az.DiskPool.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.DiskPool.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/
+ DiskPool.cs
+ Models/
+  Acl.cs
+  Acl.json.cs
+  Acl.PowerShell.cs
+  Acl.TypeConverter.cs
+  Any.cs
+  Any.json.cs
+  Any.PowerShell.cs
+  Any.TypeConverter.cs
+  Disk.cs
+  Disk.json.cs
+  Disk.PowerShell.cs
+  Disk.TypeConverter.cs
+  DiskPool.cs
+  DiskPool.json.cs
+  DiskPool.PowerShell.cs
+  DiskPool.TypeConverter.cs
+  DiskPoolCreate.cs
+  DiskPoolCreate.json.cs
+  DiskPoolCreate.PowerShell.cs
+  DiskPoolCreate.TypeConverter.cs
+  DiskPoolCreateProperties.cs
+  DiskPoolCreateProperties.json.cs
+  DiskPoolCreateProperties.PowerShell.cs
+  DiskPoolCreateProperties.TypeConverter.cs
+  DiskPoolCreateTags.cs
+  DiskPoolCreateTags.dictionary.cs
+  DiskPoolCreateTags.json.cs
+  DiskPoolCreateTags.PowerShell.cs
+  DiskPoolCreateTags.TypeConverter.cs
+  DiskPoolIdentity.cs
+  DiskPoolIdentity.json.cs
+  DiskPoolIdentity.PowerShell.cs
+  DiskPoolIdentity.TypeConverter.cs
+  DiskPoolListResult.cs
+  DiskPoolListResult.json.cs
+  DiskPoolListResult.PowerShell.cs
+  DiskPoolListResult.TypeConverter.cs
+  DiskPoolProperties.cs
+  DiskPoolProperties.json.cs
+  DiskPoolProperties.PowerShell.cs
+  DiskPoolProperties.TypeConverter.cs
+  DiskPoolUpdate.cs
+  DiskPoolUpdate.json.cs
+  DiskPoolUpdate.PowerShell.cs
+  DiskPoolUpdate.TypeConverter.cs
+  DiskPoolUpdateProperties.cs
+  DiskPoolUpdateProperties.json.cs
+  DiskPoolUpdateProperties.PowerShell.cs
+  DiskPoolUpdateProperties.TypeConverter.cs
+  DiskPoolUpdateTags.cs
+  DiskPoolUpdateTags.dictionary.cs
+  DiskPoolUpdateTags.json.cs
+  DiskPoolUpdateTags.PowerShell.cs
+  DiskPoolUpdateTags.TypeConverter.cs
+  DiskPoolZoneInfo.cs
+  DiskPoolZoneInfo.json.cs
+  DiskPoolZoneInfo.PowerShell.cs
+  DiskPoolZoneInfo.TypeConverter.cs
+  DiskPoolZoneListResult.cs
+  DiskPoolZoneListResult.json.cs
+  DiskPoolZoneListResult.PowerShell.cs
+  DiskPoolZoneListResult.TypeConverter.cs
+  EndpointDependency.cs
+  EndpointDependency.json.cs
+  EndpointDependency.PowerShell.cs
+  EndpointDependency.TypeConverter.cs
+  EndpointDetail.cs
+  EndpointDetail.json.cs
+  EndpointDetail.PowerShell.cs
+  EndpointDetail.TypeConverter.cs
+  Error.cs
+  Error.json.cs
+  Error.PowerShell.cs
+  Error.TypeConverter.cs
+  ErrorAdditionalInfo.cs
+  ErrorAdditionalInfo.json.cs
+  ErrorAdditionalInfo.PowerShell.cs
+  ErrorAdditionalInfo.TypeConverter.cs
+  ErrorResponse.cs
+  ErrorResponse.json.cs
+  ErrorResponse.PowerShell.cs
+  ErrorResponse.TypeConverter.cs
+  IscsiLun.cs
+  IscsiLun.json.cs
+  IscsiLun.PowerShell.cs
+  IscsiLun.TypeConverter.cs
+  IscsiTarget.cs
+  IscsiTarget.json.cs
+  IscsiTarget.PowerShell.cs
+  IscsiTarget.TypeConverter.cs
+  IscsiTargetCreate.cs
+  IscsiTargetCreate.json.cs
+  IscsiTargetCreate.PowerShell.cs
+  IscsiTargetCreate.TypeConverter.cs
+  IscsiTargetCreateProperties.cs
+  IscsiTargetCreateProperties.json.cs
+  IscsiTargetCreateProperties.PowerShell.cs
+  IscsiTargetCreateProperties.TypeConverter.cs
+  IscsiTargetList.cs
+  IscsiTargetList.json.cs
+  IscsiTargetList.PowerShell.cs
+  IscsiTargetList.TypeConverter.cs
+  IscsiTargetProperties.cs
+  IscsiTargetProperties.json.cs
+  IscsiTargetProperties.PowerShell.cs
+  IscsiTargetProperties.TypeConverter.cs
+  IscsiTargetUpdate.cs
+  IscsiTargetUpdate.json.cs
+  IscsiTargetUpdate.PowerShell.cs
+  IscsiTargetUpdate.TypeConverter.cs
+  IscsiTargetUpdateProperties.cs
+  IscsiTargetUpdateProperties.json.cs
+  IscsiTargetUpdateProperties.PowerShell.cs
+  IscsiTargetUpdateProperties.TypeConverter.cs
+  OutboundEnvironmentEndpoint.cs
+  OutboundEnvironmentEndpoint.json.cs
+  OutboundEnvironmentEndpoint.PowerShell.cs
+  OutboundEnvironmentEndpoint.TypeConverter.cs
+  OutboundEnvironmentEndpointList.cs
+  OutboundEnvironmentEndpointList.json.cs
+  OutboundEnvironmentEndpointList.PowerShell.cs
+  OutboundEnvironmentEndpointList.TypeConverter.cs
+  ProxyResource.cs
+  ProxyResource.json.cs
+  ProxyResource.PowerShell.cs
+  ProxyResource.TypeConverter.cs
+  Resource.cs
+  Resource.json.cs
+  Resource.PowerShell.cs
+  Resource.TypeConverter.cs
+  ResourceSkuCapability.cs
+  ResourceSkuCapability.json.cs
+  ResourceSkuCapability.PowerShell.cs
+  ResourceSkuCapability.TypeConverter.cs
+  ResourceSkuInfo.cs
+  ResourceSkuInfo.json.cs
+  ResourceSkuInfo.PowerShell.cs
+  ResourceSkuInfo.TypeConverter.cs
+  ResourceSkuListResult.cs
+  ResourceSkuListResult.json.cs
+  ResourceSkuListResult.PowerShell.cs
+  ResourceSkuListResult.TypeConverter.cs
+  ResourceSkuLocationInfo.cs
+  ResourceSkuLocationInfo.json.cs
+  ResourceSkuLocationInfo.PowerShell.cs
+  ResourceSkuLocationInfo.TypeConverter.cs
+  ResourceSkuRestrictionInfo.cs
+  ResourceSkuRestrictionInfo.json.cs
+  ResourceSkuRestrictionInfo.PowerShell.cs
+  ResourceSkuRestrictionInfo.TypeConverter.cs
+  ResourceSkuRestrictions.cs
+  ResourceSkuRestrictions.json.cs
+  ResourceSkuRestrictions.PowerShell.cs
+  ResourceSkuRestrictions.TypeConverter.cs
+  ResourceSkuZoneDetails.cs
+  ResourceSkuZoneDetails.json.cs
+  ResourceSkuZoneDetails.PowerShell.cs
+  ResourceSkuZoneDetails.TypeConverter.cs
+  Sku.cs
+  Sku.json.cs
+  Sku.PowerShell.cs
+  Sku.TypeConverter.cs
+  StoragePoolOperationDisplay.cs
+  StoragePoolOperationDisplay.json.cs
+  StoragePoolOperationDisplay.PowerShell.cs
+  StoragePoolOperationDisplay.TypeConverter.cs
+  StoragePoolOperationListResult.cs
+  StoragePoolOperationListResult.json.cs
+  StoragePoolOperationListResult.PowerShell.cs
+  StoragePoolOperationListResult.TypeConverter.cs
+  StoragePoolRpOperation.cs
+  StoragePoolRpOperation.json.cs
+  StoragePoolRpOperation.PowerShell.cs
+  StoragePoolRpOperation.TypeConverter.cs
+  SystemMetadata.cs
+  SystemMetadata.json.cs
+  SystemMetadata.PowerShell.cs
+  SystemMetadata.TypeConverter.cs
+  TrackedResource.cs
+  TrackedResource.json.cs
+  TrackedResource.PowerShell.cs
+  TrackedResource.TypeConverter.cs
+  TrackedResourceTags.cs
+  TrackedResourceTags.dictionary.cs
+  TrackedResourceTags.json.cs
+  TrackedResourceTags.PowerShell.cs
+  TrackedResourceTags.TypeConverter.cs
+generated/cmdlets/
+ GetAzDiskPoolIscsiTarget_Get.cs
+ GetAzDiskPoolIscsiTarget_GetViaIdentity.cs
+ GetAzDiskPoolIscsiTarget_GetViaIdentityDiskPool.cs
+ GetAzDiskPoolIscsiTarget_List.cs
+ GetAzDiskPoolOperation_List.cs
+ GetAzDiskPoolOutboundNetworkDependencyEndpoint_List.cs
+ GetAzDiskPoolResourceSku_List.cs
+ GetAzDiskPoolZone_List.cs
+ GetAzDiskPool_Get.cs
+ GetAzDiskPool_GetViaIdentity.cs
+ GetAzDiskPool_List.cs
+ GetAzDiskPool_List1.cs
+ InvokeAzDiskPoolRedeployment_Redeploy.cs
+ InvokeAzDiskPoolRedeployment_RedeployViaIdentity.cs
+ NewAzDiskPoolIscsiTarget_CreateExpanded.cs
+ NewAzDiskPoolIscsiTarget_CreateViaIdentityDiskPoolExpanded.cs
+ NewAzDiskPoolIscsiTarget_CreateViaJsonFilePath.cs
+ NewAzDiskPoolIscsiTarget_CreateViaJsonString.cs
+ NewAzDiskPool_CreateExpanded.cs
+ NewAzDiskPool_CreateViaJsonFilePath.cs
+ NewAzDiskPool_CreateViaJsonString.cs
+ RemoveAzDiskPoolIscsiTarget_Delete.cs
+ RemoveAzDiskPoolIscsiTarget_DeleteViaIdentity.cs
+ RemoveAzDiskPoolIscsiTarget_DeleteViaIdentityDiskPool.cs
+ RemoveAzDiskPool_Delete.cs
+ RemoveAzDiskPool_DeleteViaIdentity.cs
+ StartAzDiskPool_Start.cs
+ StartAzDiskPool_StartViaIdentity.cs
+ StopAzDiskPool_Deallocate.cs
+ StopAzDiskPool_DeallocateViaIdentity.cs
+ UpdateAzDiskPoolIscsiTarget_UpdateExpanded.cs
+ UpdateAzDiskPoolIscsiTarget_UpdateViaIdentityDiskPoolExpanded.cs
+ UpdateAzDiskPoolIscsiTarget_UpdateViaIdentityExpanded.cs
+ UpdateAzDiskPoolIscsiTarget_UpdateViaJsonFilePath.cs
+ UpdateAzDiskPoolIscsiTarget_UpdateViaJsonString.cs
+ UpdateAzDiskPool_UpdateExpanded.cs
+ UpdateAzDiskPool_UpdateViaIdentityExpanded.cs
+ UpdateAzDiskPool_UpdateViaJsonFilePath.cs
+ UpdateAzDiskPool_UpdateViaJsonString.cs
+generated/
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.DiskPool.GeneratedMSBuildEditorConfig.editorconfig

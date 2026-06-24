@@ -1,0 +1,576 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.EdgeOrder.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.EdgeOrder/EdgeOrder.Autorest/bin/Az.EdgeOrder.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.EdgeOrder
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.EdgeOrder/EdgeOrder.Autorest/bin/Az.EdgeOrder.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.EdgeOrder/EdgeOrder.Autorest/bin/Az.EdgeOrder.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.EdgeOrder.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/
+ EdgeOrder.cs
+ Models/
+  AddressDetails.cs
+  AddressDetails.json.cs
+  AddressDetails.PowerShell.cs
+  AddressDetails.TypeConverter.cs
+  AddressProperties.cs
+  AddressProperties.json.cs
+  AddressProperties.PowerShell.cs
+  AddressProperties.TypeConverter.cs
+  AddressResource.cs
+  AddressResource.json.cs
+  AddressResource.PowerShell.cs
+  AddressResource.TypeConverter.cs
+  AddressResourceList.cs
+  AddressResourceList.json.cs
+  AddressResourceList.PowerShell.cs
+  AddressResourceList.TypeConverter.cs
+  AddressUpdateParameter.cs
+  AddressUpdateParameter.json.cs
+  AddressUpdateParameter.PowerShell.cs
+  AddressUpdateParameter.TypeConverter.cs
+  AddressUpdateParameterTags.cs
+  AddressUpdateParameterTags.dictionary.cs
+  AddressUpdateParameterTags.json.cs
+  AddressUpdateParameterTags.PowerShell.cs
+  AddressUpdateParameterTags.TypeConverter.cs
+  AddressUpdateProperties.cs
+  AddressUpdateProperties.json.cs
+  AddressUpdateProperties.PowerShell.cs
+  AddressUpdateProperties.TypeConverter.cs
+  Any.cs
+  Any.json.cs
+  Any.PowerShell.cs
+  Any.TypeConverter.cs
+  AvailabilityInformation.cs
+  AvailabilityInformation.json.cs
+  AvailabilityInformation.PowerShell.cs
+  AvailabilityInformation.TypeConverter.cs
+  BasicInformation.cs
+  BasicInformation.json.cs
+  BasicInformation.PowerShell.cs
+  BasicInformation.TypeConverter.cs
+  BillingMeterDetails.cs
+  BillingMeterDetails.json.cs
+  BillingMeterDetails.PowerShell.cs
+  BillingMeterDetails.TypeConverter.cs
+  CancellationReason.cs
+  CancellationReason.json.cs
+  CancellationReason.PowerShell.cs
+  CancellationReason.TypeConverter.cs
+  CommonProperties.cs
+  CommonProperties.json.cs
+  CommonProperties.PowerShell.cs
+  CommonProperties.TypeConverter.cs
+  Configuration.cs
+  Configuration.json.cs
+  Configuration.PowerShell.cs
+  Configuration.TypeConverter.cs
+  ConfigurationFilters.cs
+  ConfigurationFilters.json.cs
+  ConfigurationFilters.PowerShell.cs
+  ConfigurationFilters.TypeConverter.cs
+  ConfigurationProperties.cs
+  ConfigurationProperties.json.cs
+  ConfigurationProperties.PowerShell.cs
+  ConfigurationProperties.TypeConverter.cs
+  Configurations.cs
+  Configurations.json.cs
+  Configurations.PowerShell.cs
+  Configurations.TypeConverter.cs
+  ConfigurationsRequest.cs
+  ConfigurationsRequest.json.cs
+  ConfigurationsRequest.PowerShell.cs
+  ConfigurationsRequest.TypeConverter.cs
+  ContactDetails.cs
+  ContactDetails.json.cs
+  ContactDetails.PowerShell.cs
+  ContactDetails.TypeConverter.cs
+  CostInformation.cs
+  CostInformation.json.cs
+  CostInformation.PowerShell.cs
+  CostInformation.TypeConverter.cs
+  CustomerSubscriptionDetails.cs
+  CustomerSubscriptionDetails.json.cs
+  CustomerSubscriptionDetails.PowerShell.cs
+  CustomerSubscriptionDetails.TypeConverter.cs
+  CustomerSubscriptionRegisteredFeatures.cs
+  CustomerSubscriptionRegisteredFeatures.json.cs
+  CustomerSubscriptionRegisteredFeatures.PowerShell.cs
+  CustomerSubscriptionRegisteredFeatures.TypeConverter.cs
+  Description.cs
+  Description.json.cs
+  Description.PowerShell.cs
+  Description.TypeConverter.cs
+  DeviceDetails.cs
+  DeviceDetails.json.cs
+  DeviceDetails.PowerShell.cs
+  DeviceDetails.TypeConverter.cs
+  Dimensions.cs
+  Dimensions.json.cs
+  Dimensions.PowerShell.cs
+  Dimensions.TypeConverter.cs
+  DisplayInfo.cs
+  DisplayInfo.json.cs
+  DisplayInfo.PowerShell.cs
+  DisplayInfo.TypeConverter.cs
+  EdgeOrderIdentity.cs
+  EdgeOrderIdentity.json.cs
+  EdgeOrderIdentity.PowerShell.cs
+  EdgeOrderIdentity.TypeConverter.cs
+  EncryptionPreferences.cs
+  EncryptionPreferences.json.cs
+  EncryptionPreferences.PowerShell.cs
+  EncryptionPreferences.TypeConverter.cs
+  ErrorAdditionalInfo.cs
+  ErrorAdditionalInfo.json.cs
+  ErrorAdditionalInfo.PowerShell.cs
+  ErrorAdditionalInfo.TypeConverter.cs
+  ErrorDetail.cs
+  ErrorDetail.json.cs
+  ErrorDetail.PowerShell.cs
+  ErrorDetail.TypeConverter.cs
+  ErrorResponse.cs
+  ErrorResponse.json.cs
+  ErrorResponse.PowerShell.cs
+  ErrorResponse.TypeConverter.cs
+  FilterableProperty.cs
+  FilterableProperty.json.cs
+  FilterableProperty.PowerShell.cs
+  FilterableProperty.TypeConverter.cs
+  ForwardShippingDetails.cs
+  ForwardShippingDetails.json.cs
+  ForwardShippingDetails.PowerShell.cs
+  ForwardShippingDetails.TypeConverter.cs
+  HierarchyInformation.cs
+  HierarchyInformation.json.cs
+  HierarchyInformation.PowerShell.cs
+  HierarchyInformation.TypeConverter.cs
+  ImageInformation.cs
+  ImageInformation.json.cs
+  ImageInformation.PowerShell.cs
+  ImageInformation.TypeConverter.cs
+  Link.cs
+  Link.json.cs
+  Link.PowerShell.cs
+  Link.TypeConverter.cs
+  ManagementResourcePreferences.cs
+  ManagementResourcePreferences.json.cs
+  ManagementResourcePreferences.PowerShell.cs
+  ManagementResourcePreferences.TypeConverter.cs
+  MeterDetails.cs
+  MeterDetails.json.cs
+  MeterDetails.PowerShell.cs
+  MeterDetails.TypeConverter.cs
+  NotificationPreference.cs
+  NotificationPreference.json.cs
+  NotificationPreference.PowerShell.cs
+  NotificationPreference.TypeConverter.cs
+  Operation.cs
+  Operation.json.cs
+  Operation.PowerShell.cs
+  Operation.TypeConverter.cs
+  OperationDisplay.cs
+  OperationDisplay.json.cs
+  OperationDisplay.PowerShell.cs
+  OperationDisplay.TypeConverter.cs
+  OperationListResult.cs
+  OperationListResult.json.cs
+  OperationListResult.PowerShell.cs
+  OperationListResult.TypeConverter.cs
+  OrderItemDetails.cs
+  OrderItemDetails.json.cs
+  OrderItemDetails.PowerShell.cs
+  OrderItemDetails.TypeConverter.cs
+  OrderItemProperties.cs
+  OrderItemProperties.json.cs
+  OrderItemProperties.PowerShell.cs
+  OrderItemProperties.TypeConverter.cs
+  OrderItemResource.cs
+  OrderItemResource.json.cs
+  OrderItemResource.PowerShell.cs
+  OrderItemResource.TypeConverter.cs
+  OrderItemResourceList.cs
+  OrderItemResourceList.json.cs
+  OrderItemResourceList.PowerShell.cs
+  OrderItemResourceList.TypeConverter.cs
+  OrderItemUpdateParameter.cs
+  OrderItemUpdateParameter.json.cs
+  OrderItemUpdateParameter.PowerShell.cs
+  OrderItemUpdateParameter.TypeConverter.cs
+  OrderItemUpdateParameterTags.cs
+  OrderItemUpdateParameterTags.dictionary.cs
+  OrderItemUpdateParameterTags.json.cs
+  OrderItemUpdateParameterTags.PowerShell.cs
+  OrderItemUpdateParameterTags.TypeConverter.cs
+  OrderItemUpdateProperties.cs
+  OrderItemUpdateProperties.json.cs
+  OrderItemUpdateProperties.PowerShell.cs
+  OrderItemUpdateProperties.TypeConverter.cs
+  OrderProperties.cs
+  OrderProperties.json.cs
+  OrderProperties.PowerShell.cs
+  OrderProperties.TypeConverter.cs
+  OrderResource.cs
+  OrderResource.json.cs
+  OrderResource.PowerShell.cs
+  OrderResource.TypeConverter.cs
+  OrderResourceList.cs
+  OrderResourceList.json.cs
+  OrderResourceList.PowerShell.cs
+  OrderResourceList.TypeConverter.cs
+  Pav2MeterDetails.cs
+  Pav2MeterDetails.json.cs
+  Pav2MeterDetails.PowerShell.cs
+  Pav2MeterDetails.TypeConverter.cs
+  Preferences.cs
+  Preferences.json.cs
+  Preferences.PowerShell.cs
+  Preferences.TypeConverter.cs
+  Product.cs
+  Product.json.cs
+  Product.PowerShell.cs
+  Product.TypeConverter.cs
+  ProductDetails.cs
+  ProductDetails.json.cs
+  ProductDetails.PowerShell.cs
+  ProductDetails.TypeConverter.cs
+  ProductFamilies.cs
+  ProductFamilies.json.cs
+  ProductFamilies.PowerShell.cs
+  ProductFamilies.TypeConverter.cs
+  ProductFamiliesMetadata.cs
+  ProductFamiliesMetadata.json.cs
+  ProductFamiliesMetadata.PowerShell.cs
+  ProductFamiliesMetadata.TypeConverter.cs
+  ProductFamiliesMetadataDetails.cs
+  ProductFamiliesMetadataDetails.json.cs
+  ProductFamiliesMetadataDetails.PowerShell.cs
+  ProductFamiliesMetadataDetails.TypeConverter.cs
+  ProductFamiliesRequest.cs
+  ProductFamiliesRequest.json.cs
+  ProductFamiliesRequest.PowerShell.cs
+  ProductFamiliesRequest.TypeConverter.cs
+  ProductFamiliesRequestFilterableProperties.cs
+  ProductFamiliesRequestFilterableProperties.dictionary.cs
+  ProductFamiliesRequestFilterableProperties.json.cs
+  ProductFamiliesRequestFilterableProperties.PowerShell.cs
+  ProductFamiliesRequestFilterableProperties.TypeConverter.cs
+  ProductFamily.cs
+  ProductFamily.json.cs
+  ProductFamily.PowerShell.cs
+  ProductFamily.TypeConverter.cs
+  ProductFamilyProperties.cs
+  ProductFamilyProperties.json.cs
+  ProductFamilyProperties.PowerShell.cs
+  ProductFamilyProperties.TypeConverter.cs
+  ProductLine.cs
+  ProductLine.json.cs
+  ProductLine.PowerShell.cs
+  ProductLine.TypeConverter.cs
+  ProductLineProperties.cs
+  ProductLineProperties.json.cs
+  ProductLineProperties.PowerShell.cs
+  ProductLineProperties.TypeConverter.cs
+  ProductProperties.cs
+  ProductProperties.json.cs
+  ProductProperties.PowerShell.cs
+  ProductProperties.TypeConverter.cs
+  ProxyResource.cs
+  ProxyResource.json.cs
+  ProxyResource.PowerShell.cs
+  ProxyResource.TypeConverter.cs
+  PurchaseMeterDetails.cs
+  PurchaseMeterDetails.json.cs
+  PurchaseMeterDetails.PowerShell.cs
+  PurchaseMeterDetails.TypeConverter.cs
+  Resource.cs
+  Resource.json.cs
+  Resource.PowerShell.cs
+  Resource.TypeConverter.cs
+  ResourceIdentity.cs
+  ResourceIdentity.json.cs
+  ResourceIdentity.PowerShell.cs
+  ResourceIdentity.TypeConverter.cs
+  ResourceProviderDetails.cs
+  ResourceProviderDetails.json.cs
+  ResourceProviderDetails.PowerShell.cs
+  ResourceProviderDetails.TypeConverter.cs
+  ReturnOrderItemDetails.cs
+  ReturnOrderItemDetails.json.cs
+  ReturnOrderItemDetails.PowerShell.cs
+  ReturnOrderItemDetails.TypeConverter.cs
+  ReverseShippingDetails.cs
+  ReverseShippingDetails.json.cs
+  ReverseShippingDetails.PowerShell.cs
+  ReverseShippingDetails.TypeConverter.cs
+  ShippingAddress.cs
+  ShippingAddress.json.cs
+  ShippingAddress.PowerShell.cs
+  ShippingAddress.TypeConverter.cs
+  ShippingDetails.cs
+  ShippingDetails.json.cs
+  ShippingDetails.PowerShell.cs
+  ShippingDetails.TypeConverter.cs
+  Specification.cs
+  Specification.json.cs
+  Specification.PowerShell.cs
+  Specification.TypeConverter.cs
+  StageDetails.cs
+  StageDetails.json.cs
+  StageDetails.PowerShell.cs
+  StageDetails.TypeConverter.cs
+  SystemData.cs
+  SystemData.json.cs
+  SystemData.PowerShell.cs
+  SystemData.TypeConverter.cs
+  TrackedResource.cs
+  TrackedResource.json.cs
+  TrackedResource.PowerShell.cs
+  TrackedResource.TypeConverter.cs
+  TrackedResourceTags.cs
+  TrackedResourceTags.dictionary.cs
+  TrackedResourceTags.json.cs
+  TrackedResourceTags.PowerShell.cs
+  TrackedResourceTags.TypeConverter.cs
+  TransportPreferences.cs
+  TransportPreferences.json.cs
+  TransportPreferences.PowerShell.cs
+  TransportPreferences.TypeConverter.cs
+generated/cmdlets/
+ GetAzEdgeOrderAddress_Get.cs
+ GetAzEdgeOrderAddress_List.cs
+ GetAzEdgeOrderAddress_List1.cs
+ GetAzEdgeOrderConfiguration_ListExpanded.cs
+ GetAzEdgeOrderConfiguration_ListViaJsonFilePath.cs
+ GetAzEdgeOrderConfiguration_ListViaJsonString.cs
+ GetAzEdgeOrderItem_Get.cs
+ GetAzEdgeOrderItem_List.cs
+ GetAzEdgeOrderItem_List1.cs
+ GetAzEdgeOrderOperation_List.cs
+ GetAzEdgeOrderProductFamilyMetadata_List.cs
+ GetAzEdgeOrderProductFamily_ListExpanded.cs
+ GetAzEdgeOrderProductFamily_ListViaJsonFilePath.cs
+ GetAzEdgeOrderProductFamily_ListViaJsonString.cs
+ GetAzEdgeOrder_Get.cs
+ GetAzEdgeOrder_GetViaIdentityOrder.cs
+ GetAzEdgeOrder_List.cs
+ GetAzEdgeOrder_List1.cs
+ InvokeAzEdgeOrderItemCancellation_CancelExpanded.cs
+ InvokeAzEdgeOrderItemCancellation_CancelViaIdentityExpanded.cs
+ InvokeAzEdgeOrderItemCancellation_CancelViaJsonFilePath.cs
+ InvokeAzEdgeOrderItemCancellation_CancelViaJsonString.cs
+ InvokeAzEdgeOrderReturnOrderItem_ReturnExpanded.cs
+ InvokeAzEdgeOrderReturnOrderItem_ReturnViaIdentityExpanded.cs
+ InvokeAzEdgeOrderReturnOrderItem_ReturnViaJsonFilePath.cs
+ InvokeAzEdgeOrderReturnOrderItem_ReturnViaJsonString.cs
+ NewAzEdgeOrderAddress_CreateExpanded.cs
+ NewAzEdgeOrderAddress_CreateViaJsonFilePath.cs
+ NewAzEdgeOrderAddress_CreateViaJsonString.cs
+ NewAzEdgeOrderItem_CreateExpanded.cs
+ NewAzEdgeOrderItem_CreateViaJsonFilePath.cs
+ NewAzEdgeOrderItem_CreateViaJsonString.cs
+ RemoveAzEdgeOrderAddress_Delete.cs
+ RemoveAzEdgeOrderAddress_DeleteViaIdentity.cs
+ RemoveAzEdgeOrderItem_Delete.cs
+ RemoveAzEdgeOrderItem_DeleteViaIdentity.cs
+ UpdateAzEdgeOrderAddress_UpdateExpanded.cs
+ UpdateAzEdgeOrderAddress_UpdateViaIdentityExpanded.cs
+ UpdateAzEdgeOrderAddress_UpdateViaJsonFilePath.cs
+ UpdateAzEdgeOrderAddress_UpdateViaJsonString.cs
+ UpdateAzEdgeOrderItem_UpdateExpanded.cs
+ UpdateAzEdgeOrderItem_UpdateViaIdentityExpanded.cs
+ UpdateAzEdgeOrderItem_UpdateViaJsonFilePath.cs
+ UpdateAzEdgeOrderItem_UpdateViaJsonString.cs
+generated/
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.EdgeOrder.GeneratedMSBuildEditorConfig.editorconfig

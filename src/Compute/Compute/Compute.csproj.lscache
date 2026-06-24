@@ -1,0 +1,882 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.Cmdlets.Compute
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.Compute/Microsoft.Azure.PowerShell.Cmdlets.Compute.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.Commands.Compute
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.Compute/Microsoft.Azure.PowerShell.Cmdlets.Compute.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.Compute/Microsoft.Azure.PowerShell.Cmdlets.Compute.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.Cmdlets.Compute.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+AvailabilitySets/
+ AvailabilitySetBaseCmdlet.cs
+ ConvertAzureAvailabilitySetCommand.cs
+ GetAzureAvailabilitySetCommand.cs
+ NewAzureAvailabilitySetCommand.cs
+ RemoveAzureAvailabilitySetCommand.cs
+ StartAzureAvailabilitySetMigrationCommand.cs
+ StopAzureAvailabilitySetMigrationCommand.cs
+ TestAzureAvailabilitySetMigrationCommand.cs
+ UpdateAzureAvailabilitySetCommand.cs
+Common/
+ ARMStorageProvider.cs
+ ARMStorageService.cs
+ AzureContextAdapterExtensions.cs
+ AzureStorageContext.cs
+ ComputeAutoMapperProfile.cs
+ ComputeClient.cs
+ ComputeClientBaseCmdlet.cs
+ ComputeClientInstancViewMethod.cs
+ ComputeCloudException.cs
+ ComputeTokenCredential.cs
+ ConstantStringTypes.cs
+ DiagnosticsHelper.cs
+ HashTableExtensions.cs
+ LocationStringExtensions.cs
+ StorageManagementClient.cs
+ Utils.cs
+ ValidateBase64EncodedString.cs
+Custom/
+ VirtualMachineExtensions.cs
+ VirtualMachineScaleSetExtensions.cs
+ VirtualMachineScaleSetsOperationsExtensions.cs
+ VirtualMachinesOperationsExtensions.cs
+Disk/
+ GetAzDiskAccessCommand.cs
+ NewAzDiskAccessCommand.cs
+ RemoveDiskAccessCommand.cs
+Extension/ADDomain/
+ ADDomainExtensionPrivateSettings.cs
+ ADDomainExtensionPublicSettings.cs
+ GetAzureVMADDomainExtensionCommand.cs
+ SetAzureVMADDomainExtensionCommand.cs
+ VirtualMachineADDomainExtensionContext.cs
+Extension/AEM/
+ AEMExtensionConstants.cs
+ AEMHelper.cs
+ AEMStringExtensions.cs
+ AEMTestResult.cs
+ ArrayExtensions.cs
+ AzureSLA.cs
+ ExtensionConfig.cs
+ GetAzureRmVMAEMExtension.cs
+ KeyValuePair.cs
+ PerformanceCounter.cs
+ RemoveAzureRmVMAEMExtension.cs
+ SetAzureRmVMAEMExtension.cs
+ TestAzureRmVMAEMExtension.cs
+Extension/AzureDiskEncryption/
+ AzureDiskEncryptionExtensionConstants.cs
+ AzureDiskEncryptionExtensionContext.cs
+ AzureDiskEncryptionExtensionProtectedSettings.cs
+ AzureDiskEncryptionExtensionPublicSettings.cs
+ AzureDiskEncryptionMode.cs
+ DisableAzureDiskEncryption.cs
+ GetAzureDiskEncryptionStatus.cs
+ RemoveAzureDiskEncryptionExtension.cs
+ SetAzureDiskEncryptionExtension.cs
+Extension/AzureVMBackup/
+ AzureVMBackupConfig.cs
+ AzureVMBackupException.cs
+ AzureVMBackupExtensionProtectedSettings.cs
+ AzureVMBackupExtensionPublicSettings.cs
+ AzureVMBackupExtensionUtil.cs
+ RemoveAzureVMBackup.cs
+ SetAzureVMBackupExtension.cs
+Extension/BGInfo/
+ SetAzureVMBGInfoExtension.cs
+ VirtualMachineBGInfoExtensionContext.cs
+Extension/Chef/
+ GetAzureRmVMChefExtension.cs
+ RemoveAzureRmVMChefExtension.cs
+ SetAzureVMChefExtension.cs
+Extension/CustomScript/
+ CustomScriptExtensionPrivateSettings.cs
+ CustomScriptExtensionPublicSettings.cs
+ GetAzureVMCustomScriptExtensionCommand.cs
+ RemoveAzureVMCustomScriptExtensionCommand.cs
+ SetAzureVMCustomScriptExtensionCommand.cs
+ VirtualMachineCustomScriptExtensionContext.cs
+Extension/Diagnostics/
+ AddAzureRmVmssDiagnosticsExtension.cs
+ DiagnosticsExtensionConstants.cs
+ GetAzureRmVMDiagnosticsExtension.cs
+ RemoveAzureRmVMDiagnosticsExtension.cs
+ RemoveAzureRmVmssDiagnosticsExtension.cs
+ SetAzureRmVMDiagnosticsExtension.cs
+ WADPrivateConfigSchema.cs
+Extension/DSC/
+ ConfigurationParseResult.cs
+ ConfigurationParsingHelper.cs
+ DscExtensionCmdletCommonBase.cs
+ DscExtensionCmdletConstants.cs
+ DscExtensionPrivateSettings.cs
+ DscExtensionPublicSettings.cs
+ DscExtensionPublishCmdletCommonBase.cs
+ DscExtensionSettingsSerializer.cs
+ GetAzureVMDscExtensionCommand.cs
+ GetAzureVMDscExtensionStatusCommand.cs
+ GetDscResourceException.cs
+ PublishAzureVMDscConfigurationCommand.cs
+ RemoveAzureVMDscExtensionCommand.cs
+ SetAzureVMDscExtensionCommand.cs
+ VirtualMachineDscExtensionContext.cs
+ VirtualMachineDscExtensionStatusContext.cs
+Extension/
+ GetAzureVMExtensionCommand.cs
+ NetcoreExtension.cs
+ RemoveAzureVMExtensionCommand.cs
+ SetAzureVMExtensionBaseCmdlet.cs
+ SetAzureVMExtensionCommand.cs
+ SqlServer/
+  AzureVMSqlServerAutoBackupSettings.cs
+  AzureVMSqlServerAutoPatchingSettings.cs
+  AzureVMSqlServerAutoTelemetrySettings.cs
+  AzureVMSqlServerConfiguration.cs
+  AzureVMSqlServerKeyVaultCredential.cs
+  AzureVMSqlServerKeyVaultCredentialSettings.cs
+  AzureVMSqlServerPrivateSettings.cs
+  AzureVMSqlServerPublicSettings.cs
+  GetAzureVMSqlServerExtensionCommand.cs
+  NewAzureVMSqlServerAutoBackupConfig.cs
+  NewAzureVMSqlServerAutoPatchingConfig.cs
+  NewAzureVMSqlServerKeyVaultCredentialConfig.cs
+  PrivateKeyVaultCredentialSettings.cs
+  RemoveAzureVMSqlServerExtensionCommand.cs
+  SetAzureVMSqlServerExtensionCommand.cs
+  VirtualMachineSqlServerExtensionContext.cs
+ VirtualMachineExtensionBaseCmdlet.cs
+ VirtualMachineScaleSetExtensionBaseCmdlet.cs
+ VMAccess/
+  GetAzureVMAccessExtension.cs
+  RemoveAzureVMAccessExtension.cs
+  SetAzureVMAccessExtension.cs
+  VirtualMachineAccessExtensionContext.cs
+  VMAccessExtensionPrivateSettings.cs
+  VMAccessExtensionPublicSettings.cs
+ VmssDiskEncryption/
+  AzureVmssDiskEncryptionExtensionContext.cs
+  AzureVmssDiskEncryptionExtensionPublicSettings.cs
+  DisableAzureVmssDiskEncryption.cs
+  GetAzureVmssDiskEncryptionStatus.cs
+  GetAzureVmssVMDiskEncryptionStatus.cs
+  SetAzureVmssDiskEncryptionExtension.cs
+ExtensionImages/
+ GetAzureVMExtensionImageCommand.cs
+ GetAzureVMExtensionImageTypeCommand.cs
+ VirtualMachineExtensionImageBaseCmdlet.cs
+Generated/CapacityReservation/
+ GetAzCapacityReservationCommand.cs
+ GetAzCapacityReservationGroupCommand.cs
+ NewAzCapacityReservationCommand.cs
+ NewAzCapacityReservationGroupCommand.cs
+ RemoveAzCapacityReservationCommand.cs
+ RemoveAzCapacityReservationGroupCommand.cs
+ UpdateAzCapacityReservationCommand.cs
+ UpdateAzCapacityReservationGroupCommand.cs
+Generated/
+ ComputeAutomationBaseCmdlet.cs
+ DedicatedHost/
+  DedicatedHostCreateOrUpdateMethod.cs
+  DedicatedHostDeleteMethod.cs
+  DedicatedHostGetMethod.cs
+  DedicatedHostRestartMethod.cs
+  DedicatedHostSizeGetMethod.cs
+  DedicatedHostUpdateMethod.cs
+ DedicatedHostGroup/
+  DedicatedHostGroupCreateOrUpdateMethod.cs
+  DedicatedHostGroupDeleteMethod.cs
+  DedicatedHostGroupGetMethod.cs
+ Disk/Config/
+  NewAzureDiskPurchasePlanConfig.cs
+  NewAzureRmDiskConfigCommand.cs
+  NewAzureRmDiskUpdateConfigCommand.cs
+  SetAzDiskSecurityProfile.cs
+  SetAzureRmDiskDiskEncryptionKeyCommand.cs
+  SetAzureRmDiskImageReferenceCommand.cs
+  SetAzureRmDiskKeyEncryptionKeyCommand.cs
+  SetAzureRmDiskUpdateDiskEncryptionKeyCommand.cs
+  SetAzureRmDiskUpdateKeyEncryptionKeyCommand.cs
+ Disk/
+  DiskCreateOrUpdateMethod.cs
+  DiskDeleteMethod.cs
+  DiskGetMethod.cs
+  DiskGrantAccessMethod.cs
+  DiskRevokeAccessMethod.cs
+  DiskUpdateMethod.cs
+  GetAzDiskEncryptionSetAssociatedResourceCommand.cs
+ DiskEncryptionSet/
+  Config/NewAzureRmDiskEncryptionSetConfigCommand.cs
+  DiskEncryptionSetCreateOrUpdateMethod.cs
+  DiskEncryptionSetDeleteMethod.cs
+  DiskEncryptionSetGetMethod.cs
+  DiskEncryptionSetUpdateMethod.cs
+ Gallery/
+  AddAzureVmGalleryApplicationCommand.cs
+  AddAzureVmssGalleryApplicationCommand.cs
+  GalleryCreateOrUpdateMethod.cs
+  GalleryDeleteMethod.cs
+  GalleryGetMethod.cs
+  NewAzureVmGalleryApplicationCommand.cs
+  NewAzureVmssGalleryApplicationCommand.cs
+  RemoveAzureVmGalleryApplicationCommand.cs
+  RemoveAzureVmssGalleryApplicationCommand.cs
+ GalleryImage/
+  GalleryImageCreateOrUpdateMethod.cs
+  GalleryImageDeleteMethod.cs
+  GalleryImageGetMethod.cs
+ GalleryImageVersion/
+  GalleryImageVersionCreateOrUpdateMethod.cs
+  GalleryImageVersionDeleteMethod.cs
+  GalleryImageVersionGetMethod.cs
+ GalleryInVMAccessControlProfile/
+  GetAzGalleryInVMAccessControlProfile.cs
+  NewAzGalleryInVMAccessControlProfile.cs
+  RemoveAzGalleryInVMAccessControlProfile.cs
+  UpdateAzGalleryInVMAccessControlProfile.cs
+ GalleryInVMAccessControlProfileVersion/Config/
+  AddAzGalleryInVMAccessControlProfileVersionRulesIdentity.cs
+  AddAzGalleryInVMAccessControlProfileVersionRulesPrivilege.cs
+  AddAzGalleryInVMAccessControlProfileVersionRulesRole.cs
+  AddAzGalleryInVMAccessControlProfileVersionRulesRoleAssignment.cs
+  NewAzGalleryInVMAccessControlProfileVersionConfig.cs
+  RemoveAzGalleryInVMAccessControlProfileVersionRulesIdentity.cs
+  RemoveAzGalleryInVMAccessControlProfileVersionRulesPrivilege.cs
+  RemoveAzGalleryInVmAccessControlProfileVersionRulesRole.cs
+  RemoveAzGalleryInVMAccessControlProfileVersionRulesRoleAssignment.cs
+ GalleryInVMAccessControlProfileVersion/
+  GetAzGalleryInVMAccessControlProfileVersion.cs
+  NewAzGalleryInVMAccessControlProfileVersion.cs
+  RemoveAzGalleryInVMAccessControlProfileVersion.cs
+  UpdateAzGalleryInVMAccessControlProfileVersion.cs
+ Image/Config/
+  AddAzureRmImageDataDiskCommand.cs
+  NewAzureRmImageConfigCommand.cs
+  RemoveAzureRmImageDataDiskCommand.cs
+  SetAzureRmImageOsDiskCommand.cs
+ Image/
+  ImageCreateOrUpdateMethod.cs
+  ImageDeleteMethod.cs
+  ImageGetMethod.cs
+ LogAnalytic/
+  LogAnalyticExportRequestRateByIntervalMethod.cs
+  LogAnalyticExportThrottledRequestsMethod.cs
+ Models/
+  ComputeAutoMapperProfile.cs
+  PSAccessUri.cs
+  PSApplicationProfile.cs
+  PSArgument.cs
+  PSCapacityReservation.cs
+  PSCapacityReservationGroup.cs
+  PSCapacityReservationGroupList.cs
+  PSCapacityReservationList.cs
+  PSCommunityGallery.cs
+  PSCommunityGalleryImage.cs
+  PSCommunityGalleryImageVersion.cs
+  PSDisk.cs
+  PSDiskEncryptionSet.cs
+  PSDiskEncryptionSetList.cs
+  PSDiskList.cs
+  PSDiskUpdate.cs
+  PSGallery.cs
+  PSGalleryImage.cs
+  PSGalleryImageList.cs
+  PSGalleryImageVersion.cs
+  PSGalleryImageVersionList.cs
+  PSGalleryInVMAccessControlProfile.cs
+  PSGalleryInVMAccessControlProfileList.cs
+  PSGalleryInVMAccessControlProfileVersion.cs
+  PSGalleryInVMAccessControlProfileVersionList.cs
+  PSGalleryList.cs
+  PSHost.cs
+  PSHostGroup.cs
+  PSHostGroupInstanceView.cs
+  PSHostGroupList.cs
+  PSHostList.cs
+  PSImage.cs
+  PSImageList.cs
+  PSLogAnalyticsOperationResult.cs
+  PSProximityPlacementGroup.cs
+  PSProximityPlacementGroupList.cs
+  PSRecoveryWalkResponse.cs
+  PSResourceSku.cs
+  PSRestorePoint.cs
+  PSRestorePointCollection.cs
+  PSRollingUpgradeStatusInfo.cs
+  PSRunCommandDocument.cs
+  PSRunCommandDocumentBase.cs
+  PSRunCommandResult.cs
+  PSSharedGallery.cs
+  PSSharedGalleryImage.cs
+  PSSharedGalleryImageList.cs
+  PSSharedGalleryImageVersion.cs
+  PSSharedGalleryImageVersionList.cs
+  PSSharedGalleryList.cs
+  PSSnapshot.cs
+  PSSnapshotList.cs
+  PSSnapshotUpdate.cs
+  PSUpgradeOperationHistoricalStatusInfo.cs
+  PSVirtualMachineCaptureResult.cs
+  PSVirtualMachineInstanceView.cs
+  PSVirtualMachineScaleSet.cs
+  PSVirtualMachineScaleSetInstanceView.cs
+  PSVirtualMachineScaleSetList.cs
+  PSVirtualMachineScaleSetSku.cs
+  PSVirtualMachineScaleSetVM.cs
+  PSVirtualMachineScaleSetVMInstanceView.cs
+  PSVirtualMachineScaleSetVMList.cs
+  PSVirtualMachineSize.cs
+  PSVMGalleryApplication.cs
+ ProximityPlacementGroup/
+  ProximityPlacementGroupCreateOrUpdateMethod.cs
+  ProximityPlacementGroupDeleteMethod.cs
+  ProximityPlacementGroupGetMethod.cs
+ ResourceSku/ResourceSkuListMethod.cs
+ Snapshot/Config/
+  NewAzureRmSnapshotConfigCommand.cs
+  NewAzureRmSnapshotUpdateConfigCommand.cs
+  SetAzureRmSnapshotDiskEncryptionKeyCommand.cs
+  SetAzureRmSnapshotImageReferenceCommand.cs
+  SetAzureRmSnapshotKeyEncryptionKeyCommand.cs
+  SetAzureRmSnapshotUpdateDiskEncryptionKeyCommand.cs
+  SetAzureRmSnapshotUpdateKeyEncryptionKeyCommand.cs
+ Snapshot/
+  SnapshotCreateOrUpdateMethod.cs
+  SnapshotDeleteMethod.cs
+  SnapshotGetMethod.cs
+  SnapshotGrantAccessMethod.cs
+  SnapshotRevokeAccessMethod.cs
+  SnapshotUpdateMethod.cs
+ VirtualMachine/
+  InvokeAzureVMInstallPatch.cs
+  InvokeAzureVMPatchAssessmentCommand.cs
+  VirtualMachineConvertToManagedDisksMethod.cs
+  VirtualMachineReimageMethod.cs
+  VirtualMachineRunCommandMethod.cs
+ VirtualMachineRunCommand/VirtualMachineRunCommandGetMethod.cs
+ VirtualMachineScaleSet/Config/
+  AddAzureRmVmssAdditionalUnattendContentCommand.cs
+  AddAzureRmVmssDataDiskCommand.cs
+  AddAzureRmVmssExtensionCommand.cs
+  AddAzureRmVmssNetworkInterfaceConfigurationCommand.cs
+  AddAzureRmVmssSecretCommand.cs
+  AddAzureRmVmssSkuProfileVmSizeCommand.cs
+  AddAzureRmVmssSshPublicKeyCommand.cs
+  AddAzureRmVmssWinRMListenerCommand.cs
+  NewAzureRmVmssConfigCommand.cs
+  NewAzureRmVmssIpConfigCommand.cs
+  NewAzureRmVmssIpTagConfigCommand.cs
+  NewAzureRmVmssVaultCertificateConfigCommand.cs
+  RemoveAzureRmVmssDataDiskCommand.cs
+  RemoveAzureRmVmssExtensionCommand.cs
+  RemoveAzureRmVmssNetworkInterfaceConfigurationCommand.cs
+  RemoveAzureRmVmssSkuProfileVmSizeCommand.cs
+  SetAzureRmVmssBootDiagnosticCommand.cs
+  SetAzureRmVmssOsProfileCommand.cs
+  SetAzureRmVmssRollingUpgradePolicyCommand.cs
+  SetAzureRmVmssSecurityProfileCommand.cs
+  SetAzureRmVmssStorageProfileCommand.cs
+  SetAzureRmVmssUefiCommand.cs
+  SetAzVmssProxyAgentSetting.cs
+ VirtualMachineScaleSet/
+  VirtualMachineScaleSetCreateOrUpdateMethod.cs
+  VirtualMachineScaleSetDeallocateMethod.cs
+  VirtualMachineScaleSetDeleteInstancesMethod.cs
+  VirtualMachineScaleSetForceRecoveryServiceFabricPlatformUpdateDomainWalkMethod.cs
+  VirtualMachineScaleSetGetMethod.cs
+  VirtualMachineScaleSetListSkusMethod.cs
+  VirtualMachineScaleSetReimageMethod.cs
+  VirtualMachineScaleSetRestartMethod.cs
+  VirtualMachineScaleSetSetOrchestrationServiceStateMethod.cs
+  VirtualMachineScaleSetStartMethod.cs
+  VirtualMachineScaleSetUpdateInstancesMethod.cs
+  VirtualMachineScaleSetUpdateMethod.cs
+ VirtualMachineScaleSetRollingUpgrade/
+  VirtualMachineScaleSetRollingUpgradeCancelMethod.cs
+  VirtualMachineScaleSetRollingUpgradeGetLatestMethod.cs
+  VirtualMachineScaleSetRollingUpgradeStartOSUpgradeMethod.cs
+ VirtualMachineScaleSetVM/
+  VirtualMachineScaleSetVMGetMethod.cs
+  VirtualMachineScaleSetVMReimageMethod.cs
+  VirtualMachineScaleSetVMRunCommandMethod.cs
+  VirtualMachineScaleSetVMUpdateMethod.cs
+Images/
+ GetAzureVMImageCommand.cs
+ GetAzureVMImageOfferCommand.cs
+ GetAzureVMImagePublisherCommand.cs
+ GetAzureVMImageSkuCommand.cs
+ VirtualMachineImageBaseCmdlet.cs
+Manual/
+ AddAzureRmVmssVMDataDiskCommand.cs
+ AddAzVmssRunCommand.cs
+ PSLogAnalyticsOperationResult.cs
+ PSOperationStatusResponse.cs
+ PSRunCommandResult.cs
+ PSVirtualMachineInstallPatchesResult.cs
+ PSVirtualMachinePatchAssessmentResult.cs
+ PSVirtualMachineRunCommand.cs
+ PSVirtualMachineScaleSet.cs
+ PSVirtualMachineScaleSetExtension.cs
+ PSVirtualMachineScaleSetExtensionProfile.cs
+ PSVirtualMachineScaleSetVMProfile.cs
+ RemoveAzureRmVmssVMDataDiskCommand.cs
+ RemoveAzVmssRunComand.cs
+ VirtualMachineScaleSetCreateOrUpdateMethod.cs
+ VirtualMachineScaleSetRollingUpgrade/VirtualMachineScaleSetRollingExtensionStartUpgrade.cs
+Models/
+ AzureDiskEncryptionStatusContext.cs
+ DisplayHintType.cs
+ PSAvailabilitySet.cs
+ PSAzureOperationResponse.cs
+ PSComputeLongRunningOperation.cs
+ PSDiskAccess.cs
+ PSDiskAccessList.cs
+ PSExtendedLocation.cs
+ PSOperation.cs
+ PSPurchasePlan.cs
+ PSSshPublicKeyResource.cs
+ PSSshPublicKeyResourceList.cs
+ PSSyncOutputEvents.cs
+ PSUsage.cs
+ PSVirtualMachine.cs
+ PSVirtualMachineDataDisk.cs
+ PSVirtualMachineExtension.cs
+ PSVirtualMachineExtensionImage.cs
+ PSVirtualMachineImage.cs
+ PSVirtualMachineImageResource.cs
+ PSVirtualMachineInstanceView.cs
+ PSVirtualMachineList.cs
+ PSVirtualMachineListStatus.cs
+ PSVirtualMachineRunCommandList.cs
+ PSVirtualMachineScaleSetExtension.cs
+ PSVirtualMachineSize.cs
+ PSVmssDiskEncryptionStatusContext.cs
+ PSVmssVMDiskEncryptionStatusContext.cs
+ UploadParameters.cs
+ VhdDownloadContext.cs
+ VhdDownloaderModel.cs
+ VhdUploadContext.cs
+ VhdUploaderModel.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/
+ AssemblyInfo.cs
+ Resources.Designer.cs
+RemoteDesktop/
+ GetAzureRemoteDesktopFileCommand.cs
+ VirtualMachineRemoteDesktopBaseCmdlet.cs
+RestorePoints/
+ GetAzRestorePoint.cs
+ GetAzRestorePointCollection.cs
+ NewAzRestorePoint.cs
+ NewAzRestorePointCollection.cs
+ RemoveAzRestorePoint.cs
+ RemoveAzRestorePointCollection.cs
+ UpdateAzRestorePointCollection.cs
+StorageServices/
+ AddAzureVhdCommand.cs
+ CloudPageBlobObjectFactory.cs
+ SaveAzureVhdCommand.cs
+ StorageCredentialsFactory.cs
+ StorageUtilities.cs
+ VirtualHardDiskSettingData.cs
+ WmiUtilities.cs
+Strategies/
+ AsyncCmdletExtensions.cs
+ Client.cs
+ ComputeRp/
+  ApiEntityReferenceStrategy.cs
+  AvailabilitySetStrategy.cs
+  ComputeStrategy.cs
+  DataDiskStrategy.cs
+  DedicatedHostStrategy.cs
+  ImageAndOsType.cs
+  ImageDataDiskStrategy.cs
+  ImageEx.cs
+  Images.cs
+  LinuxConfigurationStrategy.cs
+  ManagedDiskParametersStrategy.cs
+  ManagedDiskStrategy.cs
+  NetworkInterfaceReferenceStrategy.cs
+  ProximityPlacementGroupStrategy.cs
+  SubResourceStrategy.cs
+  VirtualMachineScaleSetStrategy.cs
+  VirtualMachineStrategy.cs
+  WindowsConfigurationStrategy.cs
+ Network/
+  BackendAddressPoolStrategy.cs
+  FrontendIPConfigurationStrategy.cs
+  InboundNetPoolStrategy.cs
+  LoadBalancerStrategy.cs
+  LoadBalancingRuleStrategy.cs
+  NetworkInterfaceStrategy.cs
+  NetworkSecurityGroupPolicy.cs
+  NetworkStrategy.cs
+  PublicIPAddressStrategy.cs
+  SubnetStrategy.cs
+  VirtualNetworkStrategy.cs
+ ResourceManager/ResourceGroupStrategy.cs
+ ResourceStrategyEx.cs
+Sync/
+ ComputeStats.cs
+ Download/
+  BlobHandle.cs
+  BlobUri.cs
+  Downloader.cs
+  DownloaderParameters.cs
+ IO/StreamWithReadProgress.cs
+ Program.cs
+ ProgressRecord.cs
+ ProgressStatus.cs
+ ProgressTracker.cs
+ ServicePointHandler.cs
+ Threading/Parallel.cs
+ Upload/
+  BlobCreator.cs
+  BlobCreatorBase.cs
+  BlobSynchronizer.cs
+  ComputeStats.cs
+  DataWithRange.cs
+  DiskSynchronizer.cs
+  DiskUploadCreator.cs
+  ExtensionMethods.cs
+  IndexRangeHelper.cs
+  PatchingBlobCreator.cs
+  SerializationUtil.cs
+  UploadContext.cs
+  UploadContextDisk.cs
+  UploadOperationMetaData.cs
+Usage/
+ GetAzureSshKey.cs
+ GetAzureVMUsageCommand.cs
+ NewAzureSshKey.cs
+ RemoveAzureSshKey.cs
+ UpdateAzureSshKey.cs
+ VirtualMachineUsageBaseCmdlet.cs
+VhdManagement/Async/
+ AsyncMachine.cs
+ ExceptionExtension.cs
+VhdManagement/Model/
+ AttributeHelper.cs
+ BitMap.cs
+ Block.cs
+ BlockAllocationTable.cs
+ DiskGeometry.cs
+ DiskType.cs
+ HostOsType.cs
+ IndexRange.cs
+ IndexRangeComparer.cs
+ Model.cs
+ ParentLocator.cs
+ Persistence/
+  AbstractDiskBlockFactory.cs
+  BitMapFactory.cs
+  BlockAllocationTableFactory.cs
+  CloudVhdFileCreator.cs
+  DifferencingDiskBlockFactory.cs
+  DiskTypeFactory.cs
+  DynamicDiskBlockFactory.cs
+  FixedDiskBlockFactory.cs
+  IBlockFactory.cs
+  SectorFactory.cs
+  StreamHelper.cs
+  VhdConstants.cs
+  VhdDataReader.cs
+  VhdDataWriter.cs
+  VhdFileFactory.cs
+  VhdFooterFactory.cs
+  VhdFooterSerializer.cs
+  VhdHeaderFactory.cs
+  VhdParentLocatorFactory.cs
+ PlatformCode.cs
+ Sector.cs
+ VhdCookie.cs
+ VhdCookieType.cs
+ VhdCreatorVersion.cs
+ VhdEntityAttribute.cs
+ VhdEntityDescriptor.cs
+ VhdFeature.cs
+ VhdFile.cs
+ VhdFileFormatVersion.cs
+ VhdFooter.cs
+ VhdHeader.cs
+ VhdHeaderVersion.cs
+ VhdPropertyAttribute.cs
+ VhdPropertyDescriptor.cs
+ VhdTimeStamp.cs
+VhdManagement/
+ SparseStream.cs
+ VirtualDiskStream.cs
+VirtualMachine/Action/
+ MoveAzureVMToVmssCommand.cs
+ RestartAzureVMCommand.cs
+ SaveAzureVMImageCommand.cs
+ SetAzureVMCommand.cs
+ StartAzureVMCommand.cs
+ StopAzureVMCommand.cs
+ VirtualMachineActionBaseCmdlet.cs
+VirtualMachine/Config/
+ AddAzureVMAdditionalUnattendContentCommand.cs
+ AddAzureVMDataDiskCommand.cs
+ AddAzureVMNetworkInterfaceCommand.cs
+ AddAzureVMSecretCommand.cs
+ AddAzureVMSshPublicKeyCommand.cs
+ NewAzureVMConfigCommand.cs
+ NewAzureVMDataDiskCommand.cs
+ RemoveAzureVMDataDiskCommand.cs
+ RemoveAzureVMNetworkInterfaceCommand.cs
+ RemoveAzureVMSecretCommand.cs
+ SetAzureVMBootDiagnosticsCommand.cs
+ SetAzureVMDataDiskCommand.cs
+ SetAzureVMOperatingSystemCommand.cs
+ SetAzureVMOSDiskCommand.cs
+ SetAzureVMPlan.cs
+ SetAzureVMSecurityProfile.cs
+ SetAzureVMSourceImage.cs
+ SetAzureVMUefi.cs
+ SetAzVMProxyAgentSetting.cs
+VirtualMachine/Operation/
+ GetAzureVMBootDiagnosticsDataCommand.cs
+ GetAzureVMCommand.cs
+ NewAzureVMCommand.cs
+ RemoveAzureVMCommand.cs
+ UpdateAzureVMCommand.cs
+VirtualMachine/RunCommand/
+ GetAzVmRunCommand.cs
+ GetAzVmssVmRunCommand.cs
+VirtualMachine/
+ VirtualMachineBaseCmdlet.cs
+ VirtualMachineCmdletHelper.cs
+VirtualMachineSizes/
+ GetAzureVMSizeCommand.cs
+ VirtualMachineSizeBaseCmdlet.cs
+
+[metadataReferences]
+../../../artifacts/Debug/Az.Compute/
+ Microsoft.Azure.Commands.Compute.AlcWrapper.dll
+ Microsoft.Azure.PowerShell.Cmdlets.Compute.Helpers.dll
+ Microsoft.Azure.PowerShell.Compute.Management.Sdk.dll
+<NUGET>/
+ azure.core/1.50.0/lib/netstandard2.0/Azure.Core.dll
+ azure.storage.blobs/12.13.0/lib/netstandard2.0/Azure.Storage.Blobs.dll
+ azure.storage.common/12.12.0/lib/netstandard2.0/Azure.Storage.Common.dll
+ hyak.common/1.2.2/lib/netstandard1.4/Hyak.Common.dll
+ microsoft.applicationinsights/2.18.0/lib/netstandard2.0/Microsoft.ApplicationInsights.dll
+ microsoft.azure.common/2.2.1/lib/netstandard1.4/Microsoft.Azure.Common.dll
+ microsoft.azure.management.resourcegraph/2.1.0/lib/netstandard2.0/Microsoft.Azure.Management.ResourceGraph.dll
+ microsoft.azure.powershell.authentication.abstractions/1.3.110-preview/lib/netstandard2.0/Microsoft.Azure.PowerShell.Authentication.Abstractions.dll
+ microsoft.azure.powershell.automapper/6.2.2/lib/netstandard2.0/Microsoft.Azure.PowerShell.AutoMapper.dll
+ microsoft.azure.powershell.clients.aks/1.3.110-preview/lib/netstandard2.0/Microsoft.Azure.PowerShell.Clients.Aks.dll
+ microsoft.azure.powershell.clients.authorization/1.3.110-preview/lib/netstandard2.0/Microsoft.Azure.PowerShell.Clients.Authorization.dll
+ microsoft.azure.powershell.clients.compute/1.3.110-preview/lib/netstandard2.0/Microsoft.Azure.PowerShell.Clients.Compute.dll
+ microsoft.azure.powershell.clients.graph.rbac/1.3.110-preview/lib/netstandard2.0/Microsoft.Azure.PowerShell.Clients.Graph.Rbac.dll
+ microsoft.azure.powershell.clients.keyvault/1.3.110-preview/lib/netstandard2.0/Microsoft.Azure.PowerShell.Clients.KeyVault.dll
+ microsoft.azure.powershell.clients.monitor/1.3.110-preview/lib/netstandard2.0/Microsoft.Azure.PowerShell.Clients.Monitor.dll
+ microsoft.azure.powershell.clients.network/1.3.110-preview/lib/netstandard2.0/Microsoft.Azure.PowerShell.Clients.Network.dll
+ microsoft.azure.powershell.clients.policyinsights/1.3.110-preview/lib/netstandard2.0/Microsoft.Azure.PowerShell.Clients.PolicyInsights.dll
+ microsoft.azure.powershell.clients.resourcemanager/1.3.110-preview/lib/netstandard2.0/Microsoft.Azure.PowerShell.Clients.ResourceManager.dll
+ microsoft.azure.powershell.clients.storage.management/1.3.110-preview/lib/netstandard2.0/Microsoft.Azure.PowerShell.Clients.Storage.Management.dll
+ microsoft.azure.powershell.clients.websites/1.3.110-preview/lib/netstandard2.0/Microsoft.Azure.PowerShell.Clients.Websites.dll
+ microsoft.azure.powershell.common.share/1.3.110-preview/lib/netstandard2.0/Microsoft.Azure.PowerShell.Common.Share.dll
+ microsoft.azure.powershell.common/1.3.110-preview/lib/netstandard2.0/Microsoft.Azure.PowerShell.Common.dll
+ microsoft.azure.powershell.storage/1.3.110-preview/lib/netstandard2.0/Microsoft.Azure.PowerShell.Storage.dll
+ microsoft.azure.powershell.strategies/1.3.110-preview/lib/netstandard2.0/Microsoft.Azure.PowerShell.Strategies.dll
+ microsoft.bcl.asyncinterfaces/8.0.0/lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll
+ microsoft.csharp/4.7.0/ref/netstandard2.0/Microsoft.CSharp.dll
+ microsoft.extensions.dependencyinjection.abstractions/8.0.2/lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+ microsoft.extensions.logging.abstractions/8.0.3/lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll
+ microsoft.rest.clientruntime.azure/3.3.19/lib/netstandard2.0/Microsoft.Rest.ClientRuntime.Azure.dll
+ microsoft.rest.clientruntime/2.3.24/lib/netstandard2.0/Microsoft.Rest.ClientRuntime.dll
+ netstandard.library/2.0.3/build/netstandard2.0/ref/
+  Microsoft.Win32.Primitives.dll
+  mscorlib.dll
+  netstandard.dll
+  System.AppContext.dll
+  System.Collections.Concurrent.dll
+  System.Collections.dll
+  System.Collections.NonGeneric.dll
+  System.Collections.Specialized.dll
+  System.ComponentModel.Composition.dll
+  System.ComponentModel.dll
+  System.ComponentModel.EventBasedAsync.dll
+  System.ComponentModel.Primitives.dll
+  System.ComponentModel.TypeConverter.dll
+  System.Console.dll
+  System.Core.dll
+  System.Data.Common.dll
+  System.Data.dll
+  System.Diagnostics.Contracts.dll
+  System.Diagnostics.Debug.dll
+  System.Diagnostics.FileVersionInfo.dll
+  System.Diagnostics.Process.dll
+  System.Diagnostics.StackTrace.dll
+  System.Diagnostics.TextWriterTraceListener.dll
+  System.Diagnostics.Tools.dll
+  System.Diagnostics.TraceSource.dll
+  System.Diagnostics.Tracing.dll
+  System.dll
+  System.Drawing.dll
+  System.Drawing.Primitives.dll
+  System.Dynamic.Runtime.dll
+  System.Globalization.Calendars.dll
+  System.Globalization.dll
+  System.Globalization.Extensions.dll
+  System.IO.Compression.dll
+  System.IO.Compression.FileSystem.dll
+  System.IO.Compression.ZipFile.dll
+  System.IO.dll
+  System.IO.FileSystem.dll
+  System.IO.FileSystem.DriveInfo.dll
+  System.IO.FileSystem.Primitives.dll
+  System.IO.FileSystem.Watcher.dll
+  System.IO.IsolatedStorage.dll
+  System.IO.MemoryMappedFiles.dll
+  System.IO.Pipes.dll
+  System.IO.UnmanagedMemoryStream.dll
+  System.Linq.dll
+  System.Linq.Expressions.dll
+  System.Linq.Parallel.dll
+  System.Linq.Queryable.dll
+  System.Net.dll
+  System.Net.Http.dll
+  System.Net.NameResolution.dll
+  System.Net.NetworkInformation.dll
+  System.Net.Ping.dll
+  System.Net.Primitives.dll
+  System.Net.Requests.dll
+  System.Net.Security.dll
+  System.Net.Sockets.dll
+  System.Net.WebHeaderCollection.dll
+  System.Net.WebSockets.Client.dll
+  System.Net.WebSockets.dll
+  System.Numerics.dll
+  System.ObjectModel.dll
+  System.Reflection.dll
+  System.Reflection.Extensions.dll
+  System.Reflection.Primitives.dll
+  System.Resources.Reader.dll
+  System.Resources.ResourceManager.dll
+  System.Resources.Writer.dll
+  System.Runtime.CompilerServices.VisualC.dll
+  System.Runtime.dll
+  System.Runtime.Extensions.dll
+  System.Runtime.Handles.dll
+  System.Runtime.InteropServices.dll
+  System.Runtime.InteropServices.RuntimeInformation.dll
+  System.Runtime.Numerics.dll
+  System.Runtime.Serialization.dll
+  System.Runtime.Serialization.Formatters.dll
+  System.Runtime.Serialization.Json.dll
+  System.Runtime.Serialization.Primitives.dll
+  System.Runtime.Serialization.Xml.dll
+  System.Security.Claims.dll
+  System.Security.Cryptography.Algorithms.dll
+  System.Security.Cryptography.Csp.dll
+  System.Security.Cryptography.Encoding.dll
+  System.Security.Cryptography.Primitives.dll
+  System.Security.Cryptography.X509Certificates.dll
+  System.Security.Principal.dll
+  System.Security.SecureString.dll
+  System.ServiceModel.Web.dll
+  System.Text.Encoding.dll
+  System.Text.Encoding.Extensions.dll
+  System.Text.RegularExpressions.dll
+  System.Threading.dll
+  System.Threading.Overlapped.dll
+  System.Threading.Tasks.dll
+  System.Threading.Tasks.Parallel.dll
+  System.Threading.Thread.dll
+  System.Threading.ThreadPool.dll
+  System.Threading.Timer.dll
+  System.Transactions.dll
+  System.ValueTuple.dll
+  System.Web.dll
+  System.Windows.dll
+  System.Xml.dll
+  System.Xml.Linq.dll
+  System.Xml.ReaderWriter.dll
+  System.Xml.Serialization.dll
+  System.Xml.XDocument.dll
+  System.Xml.XmlDocument.dll
+  System.Xml.XmlSerializer.dll
+  System.Xml.XPath.dll
+  System.Xml.XPath.XDocument.dll
+ newtonsoft.json/13.0.2/lib/netstandard2.0/Newtonsoft.Json.dll
+ powershellstandard.library/5.1.0/lib/netstandard2.0/System.Management.Automation.dll
+ system.buffers/4.5.1/ref/netstandard2.0/System.Buffers.dll
+ system.clientmodel/1.8.0/lib/netstandard2.0/System.ClientModel.dll
+ system.codedom/4.5.0/ref/netstandard2.0/System.CodeDom.dll
+ system.diagnostics.diagnosticsource/8.0.1/lib/netstandard2.0/System.Diagnostics.DiagnosticSource.dll
+ system.io.filesystem.accesscontrol/5.0.0/ref/netstandard2.0/System.IO.FileSystem.AccessControl.dll
+ system.io.hashing/6.0.0/lib/netstandard2.0/System.IO.Hashing.dll
+ system.management/4.5.0/ref/netstandard2.0/System.Management.dll
+ system.memory.data/8.0.1/lib/netstandard2.0/System.Memory.Data.dll
+ system.memory/4.5.5/lib/netstandard2.0/System.Memory.dll
+ system.numerics.vectors/4.5.0/ref/netstandard2.0/System.Numerics.Vectors.dll
+ system.reflection.dispatchproxy/4.5.0/ref/netstandard2.0/System.Reflection.DispatchProxy.dll
+ system.reflection.emit.ilgeneration/4.3.0/ref/netstandard1.0/System.Reflection.Emit.ILGeneration.dll
+ system.reflection.emit/4.3.0/ref/netstandard1.1/System.Reflection.Emit.dll
+ system.runtime.compilerservices.unsafe/6.1.0/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll
+ system.security.accesscontrol/5.0.0/ref/netstandard2.0/System.Security.AccessControl.dll
+ system.security.cryptography.xml/4.7.1/ref/netstandard2.0/System.Security.Cryptography.Xml.dll
+ system.security.permissions/4.7.0/ref/netstandard2.0/System.Security.Permissions.dll
+ system.security.principal.windows/5.0.0/ref/netstandard2.0/System.Security.Principal.Windows.dll
+ system.servicemodel.primitives/4.7.0/ref/netstandard2.0/
+  System.ServiceModel.dll
+  System.ServiceModel.Primitives.dll
+ system.text.encodings.web/8.0.0/lib/netstandard2.0/System.Text.Encodings.Web.dll
+ system.text.json/8.0.6/lib/netstandard2.0/System.Text.Json.dll
+ system.threading.tasks.extensions/4.6.0/lib/netstandard2.0/System.Threading.Tasks.Extensions.dll
+ windowsazure.storage/9.3.0/lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll
+
+[analyzerReferences]
+<NUGET>/
+ microsoft.extensions.logging.abstractions/8.0.3/analyzers/dotnet/roslyn4.4/cs/Microsoft.Extensions.Logging.Generators.dll
+ system.clientmodel/1.8.0/analyzers/dotnet/cs/System.ClientModel.SourceGeneration.dll
+ system.text.json/8.0.6/analyzers/dotnet/roslyn4.4/cs/System.Text.Json.SourceGeneration.dll
+
+[analyzerConfigFiles]
+obj/Debug/Compute.GeneratedMSBuildEditorConfig.editorconfig

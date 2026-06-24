@@ -1,0 +1,534 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.Dashboard.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.Dashboard/Dashboard.Autorest/bin/Az.Dashboard.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.Dashboard
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.Dashboard/Dashboard.Autorest/bin/Az.Dashboard.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.Dashboard/Dashboard.Autorest/bin/Az.Dashboard.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.Dashboard.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/
+ Dashboard.cs
+ Models/
+  Any.cs
+  Any.json.cs
+  Any.PowerShell.cs
+  Any.TypeConverter.cs
+  AzureMonitorWorkspaceIntegration.cs
+  AzureMonitorWorkspaceIntegration.json.cs
+  AzureMonitorWorkspaceIntegration.PowerShell.cs
+  AzureMonitorWorkspaceIntegration.TypeConverter.cs
+  DashboardIdentity.cs
+  DashboardIdentity.json.cs
+  DashboardIdentity.PowerShell.cs
+  DashboardIdentity.TypeConverter.cs
+  EnterpriseConfigurations.cs
+  EnterpriseConfigurations.json.cs
+  EnterpriseConfigurations.PowerShell.cs
+  EnterpriseConfigurations.TypeConverter.cs
+  EnterpriseDetails.cs
+  EnterpriseDetails.json.cs
+  EnterpriseDetails.PowerShell.cs
+  EnterpriseDetails.TypeConverter.cs
+  ErrorAdditionalInfo.cs
+  ErrorAdditionalInfo.json.cs
+  ErrorAdditionalInfo.PowerShell.cs
+  ErrorAdditionalInfo.TypeConverter.cs
+  ErrorDetail.cs
+  ErrorDetail.json.cs
+  ErrorDetail.PowerShell.cs
+  ErrorDetail.TypeConverter.cs
+  ErrorResponse.cs
+  ErrorResponse.json.cs
+  ErrorResponse.PowerShell.cs
+  ErrorResponse.TypeConverter.cs
+  GrafanaAvailablePlugin.cs
+  GrafanaAvailablePlugin.json.cs
+  GrafanaAvailablePlugin.PowerShell.cs
+  GrafanaAvailablePlugin.TypeConverter.cs
+  GrafanaAvailablePluginListResponse.cs
+  GrafanaAvailablePluginListResponse.json.cs
+  GrafanaAvailablePluginListResponse.PowerShell.cs
+  GrafanaAvailablePluginListResponse.TypeConverter.cs
+  GrafanaConfigurations.cs
+  GrafanaConfigurations.json.cs
+  GrafanaConfigurations.PowerShell.cs
+  GrafanaConfigurations.TypeConverter.cs
+  GrafanaIntegrations.cs
+  GrafanaIntegrations.json.cs
+  GrafanaIntegrations.PowerShell.cs
+  GrafanaIntegrations.TypeConverter.cs
+  GrafanaPlugin.cs
+  GrafanaPlugin.json.cs
+  GrafanaPlugin.PowerShell.cs
+  GrafanaPlugin.TypeConverter.cs
+  IntegrationFabric.cs
+  IntegrationFabric.json.cs
+  IntegrationFabric.PowerShell.cs
+  IntegrationFabric.TypeConverter.cs
+  IntegrationFabricListResponse.cs
+  IntegrationFabricListResponse.json.cs
+  IntegrationFabricListResponse.PowerShell.cs
+  IntegrationFabricListResponse.TypeConverter.cs
+  IntegrationFabricProperties.cs
+  IntegrationFabricProperties.json.cs
+  IntegrationFabricProperties.PowerShell.cs
+  IntegrationFabricProperties.TypeConverter.cs
+  IntegrationFabricPropertiesUpdateParameters.cs
+  IntegrationFabricPropertiesUpdateParameters.json.cs
+  IntegrationFabricPropertiesUpdateParameters.PowerShell.cs
+  IntegrationFabricPropertiesUpdateParameters.TypeConverter.cs
+  IntegrationFabricsDeleteAcceptedResponseHeaders.cs
+  IntegrationFabricsDeleteAcceptedResponseHeaders.json.cs
+  IntegrationFabricsDeleteAcceptedResponseHeaders.PowerShell.cs
+  IntegrationFabricsDeleteAcceptedResponseHeaders.TypeConverter.cs
+  IntegrationFabricsUpdateAcceptedResponseHeaders.cs
+  IntegrationFabricsUpdateAcceptedResponseHeaders.json.cs
+  IntegrationFabricsUpdateAcceptedResponseHeaders.PowerShell.cs
+  IntegrationFabricsUpdateAcceptedResponseHeaders.TypeConverter.cs
+  IntegrationFabricUpdateParameters.cs
+  IntegrationFabricUpdateParameters.json.cs
+  IntegrationFabricUpdateParameters.PowerShell.cs
+  IntegrationFabricUpdateParameters.TypeConverter.cs
+  IntegrationFabricUpdateParametersTags.cs
+  IntegrationFabricUpdateParametersTags.dictionary.cs
+  IntegrationFabricUpdateParametersTags.json.cs
+  IntegrationFabricUpdateParametersTags.PowerShell.cs
+  IntegrationFabricUpdateParametersTags.TypeConverter.cs
+  ManagedDashboard.cs
+  ManagedDashboard.json.cs
+  ManagedDashboard.PowerShell.cs
+  ManagedDashboard.TypeConverter.cs
+  ManagedDashboardListResponse.cs
+  ManagedDashboardListResponse.json.cs
+  ManagedDashboardListResponse.PowerShell.cs
+  ManagedDashboardListResponse.TypeConverter.cs
+  ManagedDashboardProperties.cs
+  ManagedDashboardProperties.json.cs
+  ManagedDashboardProperties.PowerShell.cs
+  ManagedDashboardProperties.TypeConverter.cs
+  ManagedDashboardUpdateParameters.cs
+  ManagedDashboardUpdateParameters.json.cs
+  ManagedDashboardUpdateParameters.PowerShell.cs
+  ManagedDashboardUpdateParameters.TypeConverter.cs
+  ManagedDashboardUpdateParametersTags.cs
+  ManagedDashboardUpdateParametersTags.dictionary.cs
+  ManagedDashboardUpdateParametersTags.json.cs
+  ManagedDashboardUpdateParametersTags.PowerShell.cs
+  ManagedDashboardUpdateParametersTags.TypeConverter.cs
+  ManagedGrafana.cs
+  ManagedGrafana.json.cs
+  ManagedGrafana.PowerShell.cs
+  ManagedGrafana.TypeConverter.cs
+  ManagedGrafanaListResponse.cs
+  ManagedGrafanaListResponse.json.cs
+  ManagedGrafanaListResponse.PowerShell.cs
+  ManagedGrafanaListResponse.TypeConverter.cs
+  ManagedGrafanaProperties.cs
+  ManagedGrafanaProperties.json.cs
+  ManagedGrafanaProperties.PowerShell.cs
+  ManagedGrafanaProperties.TypeConverter.cs
+  ManagedGrafanaPropertiesGrafanaPlugins.cs
+  ManagedGrafanaPropertiesGrafanaPlugins.dictionary.cs
+  ManagedGrafanaPropertiesGrafanaPlugins.json.cs
+  ManagedGrafanaPropertiesGrafanaPlugins.PowerShell.cs
+  ManagedGrafanaPropertiesGrafanaPlugins.TypeConverter.cs
+  ManagedGrafanaPropertiesUpdateParameters.cs
+  ManagedGrafanaPropertiesUpdateParameters.json.cs
+  ManagedGrafanaPropertiesUpdateParameters.PowerShell.cs
+  ManagedGrafanaPropertiesUpdateParameters.TypeConverter.cs
+  ManagedGrafanaPropertiesUpdateParametersGrafanaPlugins.cs
+  ManagedGrafanaPropertiesUpdateParametersGrafanaPlugins.dictionary.cs
+  ManagedGrafanaPropertiesUpdateParametersGrafanaPlugins.json.cs
+  ManagedGrafanaPropertiesUpdateParametersGrafanaPlugins.PowerShell.cs
+  ManagedGrafanaPropertiesUpdateParametersGrafanaPlugins.TypeConverter.cs
+  ManagedGrafanaTags.cs
+  ManagedGrafanaTags.dictionary.cs
+  ManagedGrafanaTags.json.cs
+  ManagedGrafanaTags.PowerShell.cs
+  ManagedGrafanaTags.TypeConverter.cs
+  ManagedGrafanaUpdateParameters.cs
+  ManagedGrafanaUpdateParameters.json.cs
+  ManagedGrafanaUpdateParameters.PowerShell.cs
+  ManagedGrafanaUpdateParameters.TypeConverter.cs
+  ManagedGrafanaUpdateParametersTags.cs
+  ManagedGrafanaUpdateParametersTags.dictionary.cs
+  ManagedGrafanaUpdateParametersTags.json.cs
+  ManagedGrafanaUpdateParametersTags.PowerShell.cs
+  ManagedGrafanaUpdateParametersTags.TypeConverter.cs
+  ManagedPrivateEndpointConnectionState.cs
+  ManagedPrivateEndpointConnectionState.json.cs
+  ManagedPrivateEndpointConnectionState.PowerShell.cs
+  ManagedPrivateEndpointConnectionState.TypeConverter.cs
+  ManagedPrivateEndpointModel.cs
+  ManagedPrivateEndpointModel.json.cs
+  ManagedPrivateEndpointModel.PowerShell.cs
+  ManagedPrivateEndpointModel.TypeConverter.cs
+  ManagedPrivateEndpointModelListResponse.cs
+  ManagedPrivateEndpointModelListResponse.json.cs
+  ManagedPrivateEndpointModelListResponse.PowerShell.cs
+  ManagedPrivateEndpointModelListResponse.TypeConverter.cs
+  ManagedPrivateEndpointModelProperties.cs
+  ManagedPrivateEndpointModelProperties.json.cs
+  ManagedPrivateEndpointModelProperties.PowerShell.cs
+  ManagedPrivateEndpointModelProperties.TypeConverter.cs
+  ManagedPrivateEndpointUpdateParameters.cs
+  ManagedPrivateEndpointUpdateParameters.json.cs
+  ManagedPrivateEndpointUpdateParameters.PowerShell.cs
+  ManagedPrivateEndpointUpdateParameters.TypeConverter.cs
+  ManagedPrivateEndpointUpdateParametersTags.cs
+  ManagedPrivateEndpointUpdateParametersTags.dictionary.cs
+  ManagedPrivateEndpointUpdateParametersTags.json.cs
+  ManagedPrivateEndpointUpdateParametersTags.PowerShell.cs
+  ManagedPrivateEndpointUpdateParametersTags.TypeConverter.cs
+  ManagedServiceIdentity.cs
+  ManagedServiceIdentity.json.cs
+  ManagedServiceIdentity.PowerShell.cs
+  ManagedServiceIdentity.TypeConverter.cs
+  MarketplaceTrialQuota.cs
+  MarketplaceTrialQuota.json.cs
+  MarketplaceTrialQuota.PowerShell.cs
+  MarketplaceTrialQuota.TypeConverter.cs
+  Operation.cs
+  Operation.json.cs
+  Operation.PowerShell.cs
+  Operation.TypeConverter.cs
+  OperationDisplay.cs
+  OperationDisplay.json.cs
+  OperationDisplay.PowerShell.cs
+  OperationDisplay.TypeConverter.cs
+  OperationListResult.cs
+  OperationListResult.json.cs
+  OperationListResult.PowerShell.cs
+  OperationListResult.TypeConverter.cs
+  PrivateEndpoint.cs
+  PrivateEndpoint.json.cs
+  PrivateEndpoint.PowerShell.cs
+  PrivateEndpoint.TypeConverter.cs
+  PrivateEndpointConnection.cs
+  PrivateEndpointConnection.json.cs
+  PrivateEndpointConnection.PowerShell.cs
+  PrivateEndpointConnection.TypeConverter.cs
+  PrivateEndpointConnectionListResult.cs
+  PrivateEndpointConnectionListResult.json.cs
+  PrivateEndpointConnectionListResult.PowerShell.cs
+  PrivateEndpointConnectionListResult.TypeConverter.cs
+  PrivateEndpointConnectionProperties.cs
+  PrivateEndpointConnectionProperties.json.cs
+  PrivateEndpointConnectionProperties.PowerShell.cs
+  PrivateEndpointConnectionProperties.TypeConverter.cs
+  PrivateLinkResource.cs
+  PrivateLinkResource.json.cs
+  PrivateLinkResource.PowerShell.cs
+  PrivateLinkResource.TypeConverter.cs
+  PrivateLinkResourceListResult.cs
+  PrivateLinkResourceListResult.json.cs
+  PrivateLinkResourceListResult.PowerShell.cs
+  PrivateLinkResourceListResult.TypeConverter.cs
+  PrivateLinkResourceProperties.cs
+  PrivateLinkResourceProperties.json.cs
+  PrivateLinkResourceProperties.PowerShell.cs
+  PrivateLinkResourceProperties.TypeConverter.cs
+  PrivateLinkServiceConnectionState.cs
+  PrivateLinkServiceConnectionState.json.cs
+  PrivateLinkServiceConnectionState.PowerShell.cs
+  PrivateLinkServiceConnectionState.TypeConverter.cs
+  ProxyResource.cs
+  ProxyResource.json.cs
+  ProxyResource.PowerShell.cs
+  ProxyResource.TypeConverter.cs
+  Resource.cs
+  Resource.json.cs
+  Resource.PowerShell.cs
+  Resource.TypeConverter.cs
+  ResourceSku.cs
+  ResourceSku.json.cs
+  ResourceSku.PowerShell.cs
+  ResourceSku.TypeConverter.cs
+  SaasSubscriptionDetails.cs
+  SaasSubscriptionDetails.json.cs
+  SaasSubscriptionDetails.PowerShell.cs
+  SaasSubscriptionDetails.TypeConverter.cs
+  Security.cs
+  Security.json.cs
+  Security.PowerShell.cs
+  Security.TypeConverter.cs
+  Smtp.cs
+  Smtp.json.cs
+  Smtp.PowerShell.cs
+  Smtp.TypeConverter.cs
+  Snapshots.cs
+  Snapshots.json.cs
+  Snapshots.PowerShell.cs
+  Snapshots.TypeConverter.cs
+  SubscriptionTerm.cs
+  SubscriptionTerm.json.cs
+  SubscriptionTerm.PowerShell.cs
+  SubscriptionTerm.TypeConverter.cs
+  SystemData.cs
+  SystemData.json.cs
+  SystemData.PowerShell.cs
+  SystemData.TypeConverter.cs
+  TrackedResource.cs
+  TrackedResource.json.cs
+  TrackedResource.PowerShell.cs
+  TrackedResource.TypeConverter.cs
+  TrackedResourceTags.cs
+  TrackedResourceTags.dictionary.cs
+  TrackedResourceTags.json.cs
+  TrackedResourceTags.PowerShell.cs
+  TrackedResourceTags.TypeConverter.cs
+  UnifiedAlertingScreenshots.cs
+  UnifiedAlertingScreenshots.json.cs
+  UnifiedAlertingScreenshots.PowerShell.cs
+  UnifiedAlertingScreenshots.TypeConverter.cs
+  UserAssignedIdentities.cs
+  UserAssignedIdentities.dictionary.cs
+  UserAssignedIdentities.json.cs
+  UserAssignedIdentities.PowerShell.cs
+  UserAssignedIdentities.TypeConverter.cs
+  UserAssignedIdentity.cs
+  UserAssignedIdentity.json.cs
+  UserAssignedIdentity.PowerShell.cs
+  UserAssignedIdentity.TypeConverter.cs
+  Users.cs
+  Users.json.cs
+  Users.PowerShell.cs
+  Users.TypeConverter.cs
+generated/cmdlets/
+ GetAzGrafanaDashboard_Get.cs
+ GetAzGrafanaDashboard_GetViaIdentity.cs
+ GetAzGrafanaDashboard_List.cs
+ GetAzGrafanaDashboard_List1.cs
+ GetAzGrafanaIntegrationFabric_Get.cs
+ GetAzGrafanaIntegrationFabric_GetViaIdentity.cs
+ GetAzGrafanaIntegrationFabric_GetViaIdentityGrafana.cs
+ GetAzGrafanaIntegrationFabric_List.cs
+ GetAzGrafanaOperation_List.cs
+ GetAzGrafana_Get.cs
+ GetAzGrafana_GetViaIdentity.cs
+ GetAzGrafana_List.cs
+ GetAzGrafana_List1.cs
+ InvokeAzGrafanaFetchGrafanaAvailablePlugin_Fetch.cs
+ InvokeAzGrafanaFetchGrafanaAvailablePlugin_FetchViaIdentity.cs
+ NewAzGrafanaIntegrationFabric_CreateExpanded.cs
+ NewAzGrafanaIntegrationFabric_CreateViaIdentityGrafanaExpanded.cs
+ NewAzGrafanaIntegrationFabric_CreateViaJsonFilePath.cs
+ NewAzGrafanaIntegrationFabric_CreateViaJsonString.cs
+ NewAzGrafanaManagedDashboard_CreateExpanded.cs
+ NewAzGrafanaManagedDashboard_CreateViaJsonFilePath.cs
+ NewAzGrafanaManagedDashboard_CreateViaJsonString.cs
+ NewAzGrafana_CreateExpanded.cs
+ NewAzGrafana_CreateViaJsonFilePath.cs
+ NewAzGrafana_CreateViaJsonString.cs
+ RemoveAzGrafanaIntegrationFabric_Delete.cs
+ RemoveAzGrafanaIntegrationFabric_DeleteViaIdentity.cs
+ RemoveAzGrafanaIntegrationFabric_DeleteViaIdentityGrafana.cs
+ RemoveAzGrafanaManagedDashboard_Delete.cs
+ RemoveAzGrafanaManagedDashboard_DeleteViaIdentity.cs
+ RemoveAzGrafana_Delete.cs
+ RemoveAzGrafana_DeleteViaIdentity.cs
+ TestAzGrafanaEnterpriseDetail_Check.cs
+ TestAzGrafanaEnterpriseDetail_CheckViaIdentity.cs
+ UpdateAzGrafanaIntegrationFabric_UpdateExpanded.cs
+ UpdateAzGrafanaIntegrationFabric_UpdateViaIdentityExpanded.cs
+ UpdateAzGrafanaIntegrationFabric_UpdateViaIdentityGrafanaExpanded.cs
+ UpdateAzGrafanaIntegrationFabric_UpdateViaJsonFilePath.cs
+ UpdateAzGrafanaIntegrationFabric_UpdateViaJsonString.cs
+ UpdateAzGrafanaManagedDashboard_UpdateExpanded.cs
+ UpdateAzGrafanaManagedDashboard_UpdateViaIdentityExpanded.cs
+ UpdateAzGrafanaManagedDashboard_UpdateViaJsonFilePath.cs
+ UpdateAzGrafanaManagedDashboard_UpdateViaJsonString.cs
+ UpdateAzGrafana_UpdateExpanded.cs
+ UpdateAzGrafana_UpdateViaIdentityExpanded.cs
+generated/
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.Dashboard.GeneratedMSBuildEditorConfig.editorconfig

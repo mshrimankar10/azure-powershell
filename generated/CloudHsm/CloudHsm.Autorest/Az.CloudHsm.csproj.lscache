@@ -1,0 +1,383 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.CloudHsm.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.CloudHsm/CloudHsm.Autorest/bin/Az.CloudHsm.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.CloudHsm
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.CloudHsm/CloudHsm.Autorest/bin/Az.CloudHsm.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.CloudHsm/CloudHsm.Autorest/bin/Az.CloudHsm.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.CloudHsm.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/
+ CloudHsm.cs
+ Models/
+  Any.cs
+  Any.json.cs
+  Any.PowerShell.cs
+  Any.TypeConverter.cs
+  BackupRequestProperties.cs
+  BackupRequestProperties.json.cs
+  BackupRequestProperties.PowerShell.cs
+  BackupRequestProperties.TypeConverter.cs
+  BackupRestoreBaseResultProperties.cs
+  BackupRestoreBaseResultProperties.json.cs
+  BackupRestoreBaseResultProperties.PowerShell.cs
+  BackupRestoreBaseResultProperties.TypeConverter.cs
+  BackupRestoreRequestBaseProperties.cs
+  BackupRestoreRequestBaseProperties.json.cs
+  BackupRestoreRequestBaseProperties.PowerShell.cs
+  BackupRestoreRequestBaseProperties.TypeConverter.cs
+  BackupResult.cs
+  BackupResult.json.cs
+  BackupResult.PowerShell.cs
+  BackupResult.TypeConverter.cs
+  BackupResultProperties.cs
+  BackupResultProperties.json.cs
+  BackupResultProperties.PowerShell.cs
+  BackupResultProperties.TypeConverter.cs
+  CloudHsmCluster.cs
+  CloudHsmCluster.json.cs
+  CloudHsmCluster.PowerShell.cs
+  CloudHsmCluster.TypeConverter.cs
+  CloudHsmClusterBackupStatusGetAcceptedResponseHeaders.cs
+  CloudHsmClusterBackupStatusGetAcceptedResponseHeaders.json.cs
+  CloudHsmClusterBackupStatusGetAcceptedResponseHeaders.PowerShell.cs
+  CloudHsmClusterBackupStatusGetAcceptedResponseHeaders.TypeConverter.cs
+  CloudHsmClusterListResult.cs
+  CloudHsmClusterListResult.json.cs
+  CloudHsmClusterListResult.PowerShell.cs
+  CloudHsmClusterListResult.TypeConverter.cs
+  CloudHsmClusterPatchParameters.cs
+  CloudHsmClusterPatchParameters.json.cs
+  CloudHsmClusterPatchParameters.PowerShell.cs
+  CloudHsmClusterPatchParameters.TypeConverter.cs
+  CloudHsmClusterPatchParametersTags.cs
+  CloudHsmClusterPatchParametersTags.dictionary.cs
+  CloudHsmClusterPatchParametersTags.json.cs
+  CloudHsmClusterPatchParametersTags.PowerShell.cs
+  CloudHsmClusterPatchParametersTags.TypeConverter.cs
+  CloudHsmClusterProperties.cs
+  CloudHsmClusterProperties.json.cs
+  CloudHsmClusterProperties.PowerShell.cs
+  CloudHsmClusterProperties.TypeConverter.cs
+  CloudHsmClusterResource.cs
+  CloudHsmClusterResource.json.cs
+  CloudHsmClusterResource.PowerShell.cs
+  CloudHsmClusterResource.TypeConverter.cs
+  CloudHsmClusterRestoreStatusGetAcceptedResponseHeaders.cs
+  CloudHsmClusterRestoreStatusGetAcceptedResponseHeaders.json.cs
+  CloudHsmClusterRestoreStatusGetAcceptedResponseHeaders.PowerShell.cs
+  CloudHsmClusterRestoreStatusGetAcceptedResponseHeaders.TypeConverter.cs
+  CloudHsmClustersBackupAcceptedResponseHeaders.cs
+  CloudHsmClustersBackupAcceptedResponseHeaders.json.cs
+  CloudHsmClustersBackupAcceptedResponseHeaders.PowerShell.cs
+  CloudHsmClustersBackupAcceptedResponseHeaders.TypeConverter.cs
+  CloudHsmClusterSku.cs
+  CloudHsmClusterSku.json.cs
+  CloudHsmClusterSku.PowerShell.cs
+  CloudHsmClusterSku.TypeConverter.cs
+  CloudHsmClustersRestoreAcceptedResponseHeaders.cs
+  CloudHsmClustersRestoreAcceptedResponseHeaders.json.cs
+  CloudHsmClustersRestoreAcceptedResponseHeaders.PowerShell.cs
+  CloudHsmClustersRestoreAcceptedResponseHeaders.TypeConverter.cs
+  CloudHsmClustersValidateBackupPropertiesAcceptedResponseHeaders.cs
+  CloudHsmClustersValidateBackupPropertiesAcceptedResponseHeaders.json.cs
+  CloudHsmClustersValidateBackupPropertiesAcceptedResponseHeaders.PowerShell.cs
+  CloudHsmClustersValidateBackupPropertiesAcceptedResponseHeaders.TypeConverter.cs
+  CloudHsmClustersValidateRestorePropertiesAcceptedResponseHeaders.cs
+  CloudHsmClustersValidateRestorePropertiesAcceptedResponseHeaders.json.cs
+  CloudHsmClustersValidateRestorePropertiesAcceptedResponseHeaders.PowerShell.cs
+  CloudHsmClustersValidateRestorePropertiesAcceptedResponseHeaders.TypeConverter.cs
+  CloudHsmIdentity.cs
+  CloudHsmIdentity.json.cs
+  CloudHsmIdentity.PowerShell.cs
+  CloudHsmIdentity.TypeConverter.cs
+  CloudHsmProperties.cs
+  CloudHsmProperties.json.cs
+  CloudHsmProperties.PowerShell.cs
+  CloudHsmProperties.TypeConverter.cs
+  ErrorAdditionalInfo.cs
+  ErrorAdditionalInfo.json.cs
+  ErrorAdditionalInfo.PowerShell.cs
+  ErrorAdditionalInfo.TypeConverter.cs
+  ErrorDetail.cs
+  ErrorDetail.json.cs
+  ErrorDetail.PowerShell.cs
+  ErrorDetail.TypeConverter.cs
+  ErrorResponse.cs
+  ErrorResponse.json.cs
+  ErrorResponse.PowerShell.cs
+  ErrorResponse.TypeConverter.cs
+  ManagedServiceIdentity.cs
+  ManagedServiceIdentity.json.cs
+  ManagedServiceIdentity.PowerShell.cs
+  ManagedServiceIdentity.TypeConverter.cs
+  PrivateEndpoint.cs
+  PrivateEndpoint.json.cs
+  PrivateEndpoint.PowerShell.cs
+  PrivateEndpoint.TypeConverter.cs
+  PrivateEndpointConnection.cs
+  PrivateEndpointConnection.json.cs
+  PrivateEndpointConnection.PowerShell.cs
+  PrivateEndpointConnection.TypeConverter.cs
+  PrivateEndpointConnectionListResult.cs
+  PrivateEndpointConnectionListResult.json.cs
+  PrivateEndpointConnectionListResult.PowerShell.cs
+  PrivateEndpointConnectionListResult.TypeConverter.cs
+  PrivateEndpointConnectionProperties.cs
+  PrivateEndpointConnectionProperties.json.cs
+  PrivateEndpointConnectionProperties.PowerShell.cs
+  PrivateEndpointConnectionProperties.TypeConverter.cs
+  PrivateLinkResource.cs
+  PrivateLinkResource.json.cs
+  PrivateLinkResource.PowerShell.cs
+  PrivateLinkResource.TypeConverter.cs
+  PrivateLinkResourceListResult.cs
+  PrivateLinkResourceListResult.json.cs
+  PrivateLinkResourceListResult.PowerShell.cs
+  PrivateLinkResourceListResult.TypeConverter.cs
+  PrivateLinkResourceProperties.cs
+  PrivateLinkResourceProperties.json.cs
+  PrivateLinkResourceProperties.PowerShell.cs
+  PrivateLinkResourceProperties.TypeConverter.cs
+  PrivateLinkServiceConnectionState.cs
+  PrivateLinkServiceConnectionState.json.cs
+  PrivateLinkServiceConnectionState.PowerShell.cs
+  PrivateLinkServiceConnectionState.TypeConverter.cs
+  ProxyResource.cs
+  ProxyResource.json.cs
+  ProxyResource.PowerShell.cs
+  ProxyResource.TypeConverter.cs
+  Resource.cs
+  Resource.json.cs
+  Resource.PowerShell.cs
+  Resource.TypeConverter.cs
+  RestoreRequestProperties.cs
+  RestoreRequestProperties.json.cs
+  RestoreRequestProperties.PowerShell.cs
+  RestoreRequestProperties.TypeConverter.cs
+  RestoreResult.cs
+  RestoreResult.json.cs
+  RestoreResult.PowerShell.cs
+  RestoreResult.TypeConverter.cs
+  SystemData.cs
+  SystemData.json.cs
+  SystemData.PowerShell.cs
+  SystemData.TypeConverter.cs
+  TrackedResource.cs
+  TrackedResource.json.cs
+  TrackedResource.PowerShell.cs
+  TrackedResource.TypeConverter.cs
+  TrackedResourceTags.cs
+  TrackedResourceTags.dictionary.cs
+  TrackedResourceTags.json.cs
+  TrackedResourceTags.PowerShell.cs
+  TrackedResourceTags.TypeConverter.cs
+  UserAssignedIdentities.cs
+  UserAssignedIdentities.dictionary.cs
+  UserAssignedIdentities.json.cs
+  UserAssignedIdentities.PowerShell.cs
+  UserAssignedIdentities.TypeConverter.cs
+  UserAssignedIdentity.cs
+  UserAssignedIdentity.json.cs
+  UserAssignedIdentity.PowerShell.cs
+  UserAssignedIdentity.TypeConverter.cs
+generated/cmdlets/
+ BackupAzCloudHsm_BackupExpanded.cs
+ GetAzCloudHsm_Get.cs
+ GetAzCloudHsm_List.cs
+ GetAzCloudHsm_List1.cs
+ NewAzCloudHsm_CreateExpanded.cs
+ RemoveAzCloudHsm_Delete.cs
+ RestoreAzCloudHsm_RestoreExpanded.cs
+ UpdateAzCloudHsm_UpdateExpanded.cs
+generated/
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.CloudHsm.GeneratedMSBuildEditorConfig.editorconfig

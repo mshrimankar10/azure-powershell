@@ -1,0 +1,253 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.Cmdlets.NetAppFiles
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.NetAppFiles/Microsoft.Azure.PowerShell.Cmdlets.NetAppFiles.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.NetAppFiles
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.NetAppFiles/Microsoft.Azure.PowerShell.Cmdlets.NetAppFiles.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.NetAppFiles/Microsoft.Azure.PowerShell.Cmdlets.NetAppFiles.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.Cmdlets.NetAppFiles.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+Account/
+ GetNetAppFilesAccount.cs
+ GetNetAppFilesAccountKeyVaultStatus.cs
+ InvokeCMKNetAppFilesAccountChangeKeyVault.cs
+ NewNetAppFilesAccount.cs
+ RemoveNetAppFilesAccount.cs
+ SetNetAppFilesAccount.cs
+ TransitionCMKNetAppFilesAccountCredential.cs
+ UpdateNetAppFilesAccount.cs
+ UpdateNetAppFilesAccountCredential.cs
+ActiveDirectory/
+ GetNetAppFilesActiveDirectory.cs
+ NewNetAppFilesActiveDirectory.cs
+ RemoveNetAppFilesActiveDirectory.cs
+ UpdateNetAppFilesActiveDirectory.cs
+BackupPolicy/
+ GetNetAppFilesBackupPolicy.cs
+ NewNetAppFilesBackupPolicy.cs
+ RemoveNetAppFilesBackupPolicy.cs
+ SetNetAppFilesBackupPolicy.cs
+ UpdateNetAppFilesBackupPolicy.cs
+Backups/
+ GetNetAppFilesBackup.cs
+ NewNetAppFilesBackup.cs
+ RemoveNetAppFilesBackup.cs
+ RestoreNetAppFilesBackupFiles.cs
+ UpdateNetAppFilesBackup.cs
+BackupVault/
+ GetNetAppFilesBackupVault.cs
+ NewNetAppFilesBackupVault.cs
+ RemoveNetAppFilesBackupVault.cs
+ SetNetAppFilesBackupVault.cs
+ UpdateNetAppFilesBackupVault.cs
+Common/AzureNetAppFilesCmdletBase.cs
+Helpers/
+ BackupExtensions.cs
+ BackupPolicyExtensions.cs
+ BackupVaultExtensions.cs
+ CheckAvailabilityResponseExtensions.cs
+ GroupIdsForLdapUserExtensions.cs
+ LdapSearchScopeOptExtensions.cs
+ ListNextLink.cs
+ ModelExtensions.cs
+ NetAppAccountExtensions.cs
+ NetWorkSiblingSetExtensions.cs
+ QuotaReportExtensions.cs
+ RansomwareReportExtensions.cs
+ RegionInfoExtensions.cs
+ ReplicationExtensions.cs
+ SnapshotPolicyExtensions.cs
+ SubscriptionQuotaItemExtensions.cs
+ SubvolumeExtensions.cs
+ UsagesExtensions.cs
+ VaultExtensions.cs
+ VolumeGroupExtensions.cs
+ VolumeQuotaRuleExtensions.cs
+Models/
+ PSANFKeyVaultPrivateEndpoint.cs
+ PSCheckAvailabilityResponse.cs
+ PSEncryptionIdenity.cs
+ PSGetGroupIdListForLDAPUserResponse.cs
+ PSIdentity.cs
+ PSKeyValuePairs.cs
+ PSManagedServiceIdentity.cs
+ PSNetAppFileReplicationStatus.cs
+ PSNetAppFilesAccount.cs
+ PSNetAppFilesAccountEncryption.cs
+ PSNetAppFilesActiveDirectory.cs
+ PSNetAppFilesApplicationType.cs
+ PSNetAppFilesBackup.cs
+ PSNetAppFilesBackupPolicy.cs
+ PSNetAppFilesBackupVault.cs
+ PSNetAppFilesDailySchedule.cs
+ PSNetAppFilesDestinationReplication.cs
+ PSNetAppFilesExportPolicyRule.cs
+ PSNetAppFilesHourlySchedule.cs
+ PSNetAppFilesKeyVaultProperties.cs
+ PSNetAppFilesLdapSearchScopeOpt.cs
+ PSNetAppFilesMonthlySchedule.cs
+ PSNetAppFilesPool.cs
+ PSNetAppFilesQuotaReport.cs
+ PSNetAppFilesRansomwareReport.cs
+ PSNetAppFilesReplication.cs
+ PSNetAppFilesReplicationObject.cs
+ PSNetAppFilesSnapshot.cs
+ PSNetAppFilesSnapshotPolicy.cs
+ PSNetAppFilesSubscriptionQuotaLimit.cs
+ PSNetAppFilesSubvolumeInfo.cs
+ PSNetAppFilesSubvolumeModel.cs
+ PSNetAppFilesUsageName.cs
+ PSNetAppFilesUsages.cs
+ PSNetAppFilesVault.cs
+ PSNetAppFilesVolume.cs
+ PSNetAppFilesVolumeBackup.cs
+ PSNetAppFilesVolumeBackupProperties.cs
+ PSNetAppFilesVolumeBackupStatus.cs
+ PSNetAppFilesVolumeDataProtection.cs
+ PSNetAppFilesVolumeExportPolicy.cs
+ PSNetAppFilesVolumeGroupDetail.cs
+ PSNetAppFilesVolumeGroupListProperties.cs
+ PSNetAppFilesVolumeGroupMetaData.cs
+ PSNetAppFilesVolumeGroupVolumeProperties.cs
+ PSNetAppFilesVolumeQuotaRule.cs
+ PSNetAppFilesVolumeRansomwareProperties.cs
+ PSNetAppFilesVolumeRelocationProperties.cs
+ PSNetAppFilesVolumeRestoreStatus.cs
+ PSNetAppFilesVolumeSnapshot.cs
+ PSNetAppFilesWeeklySchedule.cs
+ PSNetAppNetworkSiblingSet.cs
+ PSNetAppNicInfo.cs
+ PSRegionInfo.cs
+ PSRemotePath.cs
+ PSSvmPeerCommandResponse.cs
+ PSSystemData.cs
+ PSUserAssignedIdentity.cs
+NetAppResource/
+ GetAzureRmNetAppFilesFilePathAvailability.cs
+ GetAzureRmNetAppFilesNameAvailability.cs
+ GetAzureRmNetAppFilesNetAppFilesRegionInfo.cs
+ GetAzureRmNetAppFilesNetworkSiblingSetQuery.cs
+ GetAzureRmNetAppFilesQuotaAvailability.cs
+ GetAzureRmNetAppFilesUsage.cs
+ UpdateNetAppFilesNetworkSiblingSet.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Pool/
+ GetNetAppFilesPool.cs
+ NewNetAppFilesPool.cs
+ RemoveNetAppFilesPool.cs
+ SetNetAppFilesPool.cs
+ UpdateNetAppFilesPool.cs
+Properties/
+ AssemblyInfo.cs
+ Resources.Designer.cs
+QuotaLimits/GetAzureRmNetAppFilesQuotaLimit.cs
+Ransomware/
+ ClearNetAppFilesRansomwareReportSuspect.cs
+ GetNetAppFilesRansomwareReport.cs
+Replication/
+ AuthorizeNetAppFilesExternalReplication.cs
+ AuthorizeNetAppFilesReplicatione.cs
+ BreakNetAppFilesReplication.cs
+ GetNetAppFilesReplicationStatus.cs
+ GetNetAppFilesVolumeReplications.cs
+ InitializeNetAppFilesReplication.cs
+ ReestablishNetAppFilesReplication.cs
+ RemoveNetAppFilesReplication.cs
+ ResyncNetAppFilesReplication.cs
+ StartAzureNetAppFilesFinalizeExternalReplication.cs
+ StartAzureNetAppFilesPerformExternalReplication.cs
+ StartNetAppFilesPeerExternalCluster.cs
+Snapshot/
+ GetNetAppFilesSnapshot.cs
+ NewNetAppFilesSnapshot.cs
+ RemoveNetAppFilesSnapshot.cs
+ RestoreNetAppFilesSnapshotFiles.cs
+ SplitCloneFromParent.cs
+SnapshotPolicy/
+ GetNetAppFilesSnapshotPolicy.cs
+ GetNetAppFilesSnapshotPolicyVolumeList.cs
+ NewNetAppFilesSnapshotPolicy.cs
+ RemoveNetAppFilesSnapshotPolicy.cs
+ SetNetAppFilesSnapshotPolicy.cs
+ UpdateNetAppFilesSnapshotPolicy.cs
+Subvolume/
+ GetNetAppFilesSubVolume.cs
+ GetNetAppFilesSubVolumeMetadata.cs
+ NewNetAppFilesSubvolume.cs
+ RemoveNetAppFilesSubvolume.cs
+ UpdateNetAppFilesSubvolume.cs
+Volume/
+ GetGroupIdListForLDAPUser.cs
+ GetNetAppFilesVolume.cs
+ GetNetAppFilesVolumeBackupStatus.cs
+ GetNetAppFilesVolumeRestoreStatus.cs
+ NewAzureNetAppFilesExportPolicyObject.cs
+ NewAzureNetAppFilesExportPolicyRuleObject.cs
+ NewNetAppFilesVolume.cs
+ RemoveNetAppFilesVolume.cs
+ ResetNetAppFilesVolumeCifsPassword.cs
+ RevertNetAppFilesVolume.cs
+ SetNetAppFilesVolumePool.cs
+ UnlockNetAppFilesVolumeFileLock.cs
+ UpdateNetAppFilesVolume.cs
+VolumeGroup/
+ GetNetAppFilesVolumeGroup.cs
+ NewNetAppFilesVolumeGroup.cs
+ RemoveNetAppFilesVolumeGroup.cs
+VolumeQuotaRules/
+ GetAzureRmNetAppFilesVolumeQuotaReport.cs
+ GetNetAppFilesVolumeQuotaRule.cs
+ NewNetAppFilesVolumeQuotaRule.cs
+ RemoveNetAppFilesVolumeQuotaRule.cs
+ UpdateNetAppFilesVolumeQuotaRule.cs
+
+[metadataReferences]
+../../../artifacts/Debug/Az.NetAppFiles/Microsoft.Azure.PowerShell.NetAppFiles.Management.Sdk.dll
+
+[analyzerConfigFiles]
+obj/Debug/NetAppFiles.GeneratedMSBuildEditorConfig.editorconfig

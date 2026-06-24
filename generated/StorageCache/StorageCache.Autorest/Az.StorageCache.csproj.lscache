@@ -1,0 +1,548 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.StorageCache.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.StorageCache/StorageCache.Autorest/bin/Az.StorageCache.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.StorageCache
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.StorageCache/StorageCache.Autorest/bin/Az.StorageCache.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.StorageCache/StorageCache.Autorest/bin/Az.StorageCache.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.StorageCache.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/Models/
+ AmlFilesystem.cs
+ AmlFilesystem.json.cs
+ AmlFilesystem.PowerShell.cs
+ AmlFilesystem.TypeConverter.cs
+ AmlFilesystemArchive.cs
+ AmlFilesystemArchive.json.cs
+ AmlFilesystemArchive.PowerShell.cs
+ AmlFilesystemArchive.TypeConverter.cs
+ AmlFilesystemArchiveInfo.cs
+ AmlFilesystemArchiveInfo.json.cs
+ AmlFilesystemArchiveInfo.PowerShell.cs
+ AmlFilesystemArchiveInfo.TypeConverter.cs
+ AmlFilesystemArchiveStatus.cs
+ AmlFilesystemArchiveStatus.json.cs
+ AmlFilesystemArchiveStatus.PowerShell.cs
+ AmlFilesystemArchiveStatus.TypeConverter.cs
+ AmlFilesystemCheckSubnetError.cs
+ AmlFilesystemCheckSubnetError.json.cs
+ AmlFilesystemCheckSubnetError.PowerShell.cs
+ AmlFilesystemCheckSubnetError.TypeConverter.cs
+ AmlFilesystemCheckSubnetErrorFilesystemSubnet.cs
+ AmlFilesystemCheckSubnetErrorFilesystemSubnet.json.cs
+ AmlFilesystemCheckSubnetErrorFilesystemSubnet.PowerShell.cs
+ AmlFilesystemCheckSubnetErrorFilesystemSubnet.TypeConverter.cs
+ AmlFilesystemClientInfo.cs
+ AmlFilesystemClientInfo.json.cs
+ AmlFilesystemClientInfo.PowerShell.cs
+ AmlFilesystemClientInfo.TypeConverter.cs
+ AmlFilesystemContainerStorageInterface.cs
+ AmlFilesystemContainerStorageInterface.json.cs
+ AmlFilesystemContainerStorageInterface.PowerShell.cs
+ AmlFilesystemContainerStorageInterface.TypeConverter.cs
+ AmlFilesystemEncryptionSettings.cs
+ AmlFilesystemEncryptionSettings.json.cs
+ AmlFilesystemEncryptionSettings.PowerShell.cs
+ AmlFilesystemEncryptionSettings.TypeConverter.cs
+ AmlFilesystemHealth.cs
+ AmlFilesystemHealth.json.cs
+ AmlFilesystemHealth.PowerShell.cs
+ AmlFilesystemHealth.TypeConverter.cs
+ AmlFilesystemHsmSettings.cs
+ AmlFilesystemHsmSettings.json.cs
+ AmlFilesystemHsmSettings.PowerShell.cs
+ AmlFilesystemHsmSettings.TypeConverter.cs
+ AmlFilesystemIdentity.cs
+ AmlFilesystemIdentity.json.cs
+ AmlFilesystemIdentity.PowerShell.cs
+ AmlFilesystemIdentity.TypeConverter.cs
+ AmlFilesystemProperties.cs
+ AmlFilesystemProperties.json.cs
+ AmlFilesystemProperties.PowerShell.cs
+ AmlFilesystemProperties.TypeConverter.cs
+ AmlFilesystemPropertiesHsm.cs
+ AmlFilesystemPropertiesHsm.json.cs
+ AmlFilesystemPropertiesHsm.PowerShell.cs
+ AmlFilesystemPropertiesHsm.TypeConverter.cs
+ AmlFilesystemPropertiesMaintenanceWindow.cs
+ AmlFilesystemPropertiesMaintenanceWindow.json.cs
+ AmlFilesystemPropertiesMaintenanceWindow.PowerShell.cs
+ AmlFilesystemPropertiesMaintenanceWindow.TypeConverter.cs
+ AmlFilesystemRootSquashSettings.cs
+ AmlFilesystemRootSquashSettings.json.cs
+ AmlFilesystemRootSquashSettings.PowerShell.cs
+ AmlFilesystemRootSquashSettings.TypeConverter.cs
+ AmlFilesystemsListResult.cs
+ AmlFilesystemsListResult.json.cs
+ AmlFilesystemsListResult.PowerShell.cs
+ AmlFilesystemsListResult.TypeConverter.cs
+ AmlFilesystemSubnetInfo.cs
+ AmlFilesystemSubnetInfo.json.cs
+ AmlFilesystemSubnetInfo.PowerShell.cs
+ AmlFilesystemSubnetInfo.TypeConverter.cs
+ AmlFilesystemsUpdateAcceptedResponseHeaders.cs
+ AmlFilesystemsUpdateAcceptedResponseHeaders.json.cs
+ AmlFilesystemsUpdateAcceptedResponseHeaders.PowerShell.cs
+ AmlFilesystemsUpdateAcceptedResponseHeaders.TypeConverter.cs
+ AmlFilesystemUpdate.cs
+ AmlFilesystemUpdate.json.cs
+ AmlFilesystemUpdate.PowerShell.cs
+ AmlFilesystemUpdate.TypeConverter.cs
+ AmlFilesystemUpdateProperties.cs
+ AmlFilesystemUpdateProperties.json.cs
+ AmlFilesystemUpdateProperties.PowerShell.cs
+ AmlFilesystemUpdateProperties.TypeConverter.cs
+ AmlFilesystemUpdatePropertiesMaintenanceWindow.cs
+ AmlFilesystemUpdatePropertiesMaintenanceWindow.json.cs
+ AmlFilesystemUpdatePropertiesMaintenanceWindow.PowerShell.cs
+ AmlFilesystemUpdatePropertiesMaintenanceWindow.TypeConverter.cs
+ AmlFilesystemUpdateTags.cs
+ AmlFilesystemUpdateTags.dictionary.cs
+ AmlFilesystemUpdateTags.json.cs
+ AmlFilesystemUpdateTags.PowerShell.cs
+ AmlFilesystemUpdateTags.TypeConverter.cs
+ Any.cs
+ Any.json.cs
+ Any.PowerShell.cs
+ Any.TypeConverter.cs
+ AutoExportJob.cs
+ AutoExportJob.json.cs
+ AutoExportJob.PowerShell.cs
+ AutoExportJob.TypeConverter.cs
+ AutoExportJobProperties.cs
+ AutoExportJobProperties.json.cs
+ AutoExportJobProperties.PowerShell.cs
+ AutoExportJobProperties.TypeConverter.cs
+ AutoExportJobPropertiesStatus.cs
+ AutoExportJobPropertiesStatus.json.cs
+ AutoExportJobPropertiesStatus.PowerShell.cs
+ AutoExportJobPropertiesStatus.TypeConverter.cs
+ AutoExportJobsListResult.cs
+ AutoExportJobsListResult.json.cs
+ AutoExportJobsListResult.PowerShell.cs
+ AutoExportJobsListResult.TypeConverter.cs
+ AutoExportJobsUpdateAcceptedResponseHeaders.cs
+ AutoExportJobsUpdateAcceptedResponseHeaders.json.cs
+ AutoExportJobsUpdateAcceptedResponseHeaders.PowerShell.cs
+ AutoExportJobsUpdateAcceptedResponseHeaders.TypeConverter.cs
+ AutoExportJobUpdate.cs
+ AutoExportJobUpdate.json.cs
+ AutoExportJobUpdate.PowerShell.cs
+ AutoExportJobUpdate.TypeConverter.cs
+ AutoExportJobUpdateProperties.cs
+ AutoExportJobUpdateProperties.json.cs
+ AutoExportJobUpdateProperties.PowerShell.cs
+ AutoExportJobUpdateProperties.TypeConverter.cs
+ AutoExportJobUpdateTags.cs
+ AutoExportJobUpdateTags.dictionary.cs
+ AutoExportJobUpdateTags.json.cs
+ AutoExportJobUpdateTags.PowerShell.cs
+ AutoExportJobUpdateTags.TypeConverter.cs
+ AutoImportJob.cs
+ AutoImportJob.json.cs
+ AutoImportJob.PowerShell.cs
+ AutoImportJob.TypeConverter.cs
+ AutoImportJobProperties.cs
+ AutoImportJobProperties.json.cs
+ AutoImportJobProperties.PowerShell.cs
+ AutoImportJobProperties.TypeConverter.cs
+ AutoImportJobPropertiesStatus.cs
+ AutoImportJobPropertiesStatus.json.cs
+ AutoImportJobPropertiesStatus.PowerShell.cs
+ AutoImportJobPropertiesStatus.TypeConverter.cs
+ AutoImportJobPropertiesStatusBlobSyncEvents.cs
+ AutoImportJobPropertiesStatusBlobSyncEvents.json.cs
+ AutoImportJobPropertiesStatusBlobSyncEvents.PowerShell.cs
+ AutoImportJobPropertiesStatusBlobSyncEvents.TypeConverter.cs
+ AutoImportJobsListResult.cs
+ AutoImportJobsListResult.json.cs
+ AutoImportJobsListResult.PowerShell.cs
+ AutoImportJobsListResult.TypeConverter.cs
+ AutoImportJobsUpdateAcceptedResponseHeaders.cs
+ AutoImportJobsUpdateAcceptedResponseHeaders.json.cs
+ AutoImportJobsUpdateAcceptedResponseHeaders.PowerShell.cs
+ AutoImportJobsUpdateAcceptedResponseHeaders.TypeConverter.cs
+ AutoImportJobUpdate.cs
+ AutoImportJobUpdate.json.cs
+ AutoImportJobUpdate.PowerShell.cs
+ AutoImportJobUpdate.TypeConverter.cs
+ AutoImportJobUpdateProperties.cs
+ AutoImportJobUpdateProperties.json.cs
+ AutoImportJobUpdateProperties.PowerShell.cs
+ AutoImportJobUpdateProperties.TypeConverter.cs
+ AutoImportJobUpdateTags.cs
+ AutoImportJobUpdateTags.dictionary.cs
+ AutoImportJobUpdateTags.json.cs
+ AutoImportJobUpdateTags.PowerShell.cs
+ AutoImportJobUpdateTags.TypeConverter.cs
+ CloudError.cs
+ CloudError.json.cs
+ CloudError.PowerShell.cs
+ CloudError.TypeConverter.cs
+ CloudErrorBody.cs
+ CloudErrorBody.json.cs
+ CloudErrorBody.PowerShell.cs
+ CloudErrorBody.TypeConverter.cs
+ ErrorAdditionalInfo.cs
+ ErrorAdditionalInfo.json.cs
+ ErrorAdditionalInfo.PowerShell.cs
+ ErrorAdditionalInfo.TypeConverter.cs
+ ErrorDetail.cs
+ ErrorDetail.json.cs
+ ErrorDetail.PowerShell.cs
+ ErrorDetail.TypeConverter.cs
+ ErrorResponse.cs
+ ErrorResponse.json.cs
+ ErrorResponse.PowerShell.cs
+ ErrorResponse.TypeConverter.cs
+ ImportJob.cs
+ ImportJob.json.cs
+ ImportJob.PowerShell.cs
+ ImportJob.TypeConverter.cs
+ ImportJobProperties.cs
+ ImportJobProperties.json.cs
+ ImportJobProperties.PowerShell.cs
+ ImportJobProperties.TypeConverter.cs
+ ImportJobPropertiesStatus.cs
+ ImportJobPropertiesStatus.json.cs
+ ImportJobPropertiesStatus.PowerShell.cs
+ ImportJobPropertiesStatus.TypeConverter.cs
+ ImportJobsListResult.cs
+ ImportJobsListResult.json.cs
+ ImportJobsListResult.PowerShell.cs
+ ImportJobsListResult.TypeConverter.cs
+ ImportJobsUpdateAcceptedResponseHeaders.cs
+ ImportJobsUpdateAcceptedResponseHeaders.json.cs
+ ImportJobsUpdateAcceptedResponseHeaders.PowerShell.cs
+ ImportJobsUpdateAcceptedResponseHeaders.TypeConverter.cs
+ ImportJobUpdate.cs
+ ImportJobUpdate.json.cs
+ ImportJobUpdate.PowerShell.cs
+ ImportJobUpdate.TypeConverter.cs
+ ImportJobUpdateProperties.cs
+ ImportJobUpdateProperties.json.cs
+ ImportJobUpdateProperties.PowerShell.cs
+ ImportJobUpdateProperties.TypeConverter.cs
+ ImportJobUpdateTags.cs
+ ImportJobUpdateTags.dictionary.cs
+ ImportJobUpdateTags.json.cs
+ ImportJobUpdateTags.PowerShell.cs
+ ImportJobUpdateTags.TypeConverter.cs
+ KeyVaultKeyReference.cs
+ KeyVaultKeyReference.json.cs
+ KeyVaultKeyReference.PowerShell.cs
+ KeyVaultKeyReference.TypeConverter.cs
+ KeyVaultKeyReferenceSourceVault.cs
+ KeyVaultKeyReferenceSourceVault.json.cs
+ KeyVaultKeyReferenceSourceVault.PowerShell.cs
+ KeyVaultKeyReferenceSourceVault.TypeConverter.cs
+ RequiredAmlFilesystemSubnetsSize.cs
+ RequiredAmlFilesystemSubnetsSize.json.cs
+ RequiredAmlFilesystemSubnetsSize.PowerShell.cs
+ RequiredAmlFilesystemSubnetsSize.TypeConverter.cs
+ RequiredAmlFilesystemSubnetsSizeInfo.cs
+ RequiredAmlFilesystemSubnetsSizeInfo.json.cs
+ RequiredAmlFilesystemSubnetsSizeInfo.PowerShell.cs
+ RequiredAmlFilesystemSubnetsSizeInfo.TypeConverter.cs
+ Resource.cs
+ Resource.json.cs
+ Resource.PowerShell.cs
+ Resource.TypeConverter.cs
+ SkuName.cs
+ SkuName.json.cs
+ SkuName.PowerShell.cs
+ SkuName.TypeConverter.cs
+ StorageCacheIdentity.cs
+ StorageCacheIdentity.json.cs
+ StorageCacheIdentity.PowerShell.cs
+ StorageCacheIdentity.TypeConverter.cs
+ SystemData.cs
+ SystemData.json.cs
+ SystemData.PowerShell.cs
+ SystemData.TypeConverter.cs
+ TrackedResource.cs
+ TrackedResource.json.cs
+ TrackedResource.PowerShell.cs
+ TrackedResource.TypeConverter.cs
+ TrackedResourceTags.cs
+ TrackedResourceTags.dictionary.cs
+ TrackedResourceTags.json.cs
+ TrackedResourceTags.PowerShell.cs
+ TrackedResourceTags.TypeConverter.cs
+ UserAssignedIdentities.cs
+ UserAssignedIdentities.dictionary.cs
+ UserAssignedIdentities.json.cs
+ UserAssignedIdentities.PowerShell.cs
+ UserAssignedIdentities.TypeConverter.cs
+ UserAssignedIdentitiesValue.cs
+ UserAssignedIdentitiesValue.json.cs
+ UserAssignedIdentitiesValue.PowerShell.cs
+ UserAssignedIdentitiesValue.TypeConverter.cs
+generated/
+ api/StorageCache.cs
+ cmdlets/
+  GetAzStorageCacheAmlFileSystemSubnetRequiredSize_GetExpanded.cs
+  GetAzStorageCacheAmlFileSystem_Get.cs
+  GetAzStorageCacheAmlFileSystem_GetViaIdentity.cs
+  GetAzStorageCacheAmlFileSystem_List.cs
+  GetAzStorageCacheAmlFileSystem_List1.cs
+  GetAzStorageCacheAutoExportJob_Get.cs
+  GetAzStorageCacheAutoExportJob_GetViaIdentity.cs
+  GetAzStorageCacheAutoExportJob_GetViaIdentityAmlFilesystem.cs
+  GetAzStorageCacheAutoExportJob_List.cs
+  GetAzStorageCacheAutoImportJob_Get.cs
+  GetAzStorageCacheAutoImportJob_GetViaIdentity.cs
+  GetAzStorageCacheAutoImportJob_GetViaIdentityAmlFilesystem.cs
+  GetAzStorageCacheAutoImportJob_List.cs
+  GetAzStorageCacheImportJob_Get.cs
+  GetAzStorageCacheImportJob_GetViaIdentity.cs
+  GetAzStorageCacheImportJob_GetViaIdentityAmlFilesystem.cs
+  GetAzStorageCacheImportJob_List.cs
+  InvokeAzStorageCacheAmlFileSystemArchive_ArchiveExpanded.cs
+  InvokeAzStorageCacheAmlFileSystemArchive_ArchiveViaIdentityExpanded.cs
+  InvokeAzStorageCacheAmlFileSystemArchive_ArchiveViaJsonFilePath.cs
+  InvokeAzStorageCacheAmlFileSystemArchive_ArchiveViaJsonString.cs
+  NewAzStorageCacheAmlFileSystem_CreateExpanded.cs
+  NewAzStorageCacheAmlFileSystem_CreateViaIdentityExpanded.cs
+  NewAzStorageCacheAmlFileSystem_CreateViaJsonFilePath.cs
+  NewAzStorageCacheAmlFileSystem_CreateViaJsonString.cs
+  NewAzStorageCacheAutoExportJob_CreateExpanded.cs
+  NewAzStorageCacheAutoExportJob_CreateViaIdentityAmlFilesystemExpanded.cs
+  NewAzStorageCacheAutoExportJob_CreateViaIdentityExpanded.cs
+  NewAzStorageCacheAutoExportJob_CreateViaJsonFilePath.cs
+  NewAzStorageCacheAutoExportJob_CreateViaJsonString.cs
+  NewAzStorageCacheAutoImportJob_CreateExpanded.cs
+  NewAzStorageCacheAutoImportJob_CreateViaIdentityAmlFilesystemExpanded.cs
+  NewAzStorageCacheAutoImportJob_CreateViaIdentityExpanded.cs
+  NewAzStorageCacheAutoImportJob_CreateViaJsonFilePath.cs
+  NewAzStorageCacheAutoImportJob_CreateViaJsonString.cs
+  NewAzStorageCacheImportJob_CreateExpanded.cs
+  NewAzStorageCacheImportJob_CreateViaIdentityAmlFilesystemExpanded.cs
+  NewAzStorageCacheImportJob_CreateViaIdentityExpanded.cs
+  NewAzStorageCacheImportJob_CreateViaJsonFilePath.cs
+  NewAzStorageCacheImportJob_CreateViaJsonString.cs
+  RemoveAzStorageCacheAmlFileSystem_Delete.cs
+  RemoveAzStorageCacheAmlFileSystem_DeleteViaIdentity.cs
+  RemoveAzStorageCacheAutoExportJob_Delete.cs
+  RemoveAzStorageCacheAutoExportJob_DeleteViaIdentity.cs
+  RemoveAzStorageCacheAutoExportJob_DeleteViaIdentityAmlFilesystem.cs
+  RemoveAzStorageCacheAutoImportJob_Delete.cs
+  RemoveAzStorageCacheAutoImportJob_DeleteViaIdentity.cs
+  RemoveAzStorageCacheAutoImportJob_DeleteViaIdentityAmlFilesystem.cs
+  RemoveAzStorageCacheImportJob_Delete.cs
+  RemoveAzStorageCacheImportJob_DeleteViaIdentity.cs
+  RemoveAzStorageCacheImportJob_DeleteViaIdentityAmlFilesystem.cs
+  StopAzStorageCacheAmlFilesystemArchive_Cancel.cs
+  StopAzStorageCacheAmlFilesystemArchive_CancelViaIdentity.cs
+  TestAzStorageCacheAmlFileSystemSubnet_CheckExpanded.cs
+  TestAzStorageCacheAmlFileSystemSubnet_CheckViaJsonFilePath.cs
+  TestAzStorageCacheAmlFileSystemSubnet_CheckViaJsonString.cs
+  UpdateAzStorageCacheAmlFileSystem_UpdateExpanded.cs
+  UpdateAzStorageCacheAmlFileSystem_UpdateViaIdentityExpanded.cs
+  UpdateAzStorageCacheAmlFileSystem_UpdateViaJsonFilePath.cs
+  UpdateAzStorageCacheAmlFileSystem_UpdateViaJsonString.cs
+  UpdateAzStorageCacheAutoExportJob_UpdateExpanded.cs
+  UpdateAzStorageCacheAutoExportJob_UpdateViaIdentityAmlFilesystemExpanded.cs
+  UpdateAzStorageCacheAutoExportJob_UpdateViaIdentityExpanded.cs
+  UpdateAzStorageCacheAutoExportJob_UpdateViaJsonFilePath.cs
+  UpdateAzStorageCacheAutoExportJob_UpdateViaJsonString.cs
+  UpdateAzStorageCacheAutoImportJob_UpdateExpanded.cs
+  UpdateAzStorageCacheAutoImportJob_UpdateViaIdentityAmlFilesystemExpanded.cs
+  UpdateAzStorageCacheAutoImportJob_UpdateViaIdentityExpanded.cs
+  UpdateAzStorageCacheAutoImportJob_UpdateViaJsonFilePath.cs
+  UpdateAzStorageCacheAutoImportJob_UpdateViaJsonString.cs
+  UpdateAzStorageCacheImportJob_UpdateExpanded.cs
+  UpdateAzStorageCacheImportJob_UpdateViaIdentityAmlFilesystemExpanded.cs
+  UpdateAzStorageCacheImportJob_UpdateViaIdentityExpanded.cs
+  UpdateAzStorageCacheImportJob_UpdateViaJsonFilePath.cs
+  UpdateAzStorageCacheImportJob_UpdateViaJsonString.cs
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.StorageCache.GeneratedMSBuildEditorConfig.editorconfig

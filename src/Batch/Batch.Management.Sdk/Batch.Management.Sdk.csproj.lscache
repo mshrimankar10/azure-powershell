@@ -1,0 +1,282 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.Batch.Management.Sdk
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.Batch/Microsoft.Azure.PowerShell.Batch.Management.Sdk.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.Management.Batch
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.Batch/Microsoft.Azure.PowerShell.Batch.Management.Sdk.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,CS0108,CS1573,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.Batch/Microsoft.Azure.PowerShell.Batch.Management.Sdk.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.Batch.Management.Sdk.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+Generated/
+ ApplicationOperations.cs
+ ApplicationOperationsExtensions.cs
+ ApplicationPackageOperations.cs
+ ApplicationPackageOperationsExtensions.cs
+ BatchAccountOperations.cs
+ BatchAccountOperationsExtensions.cs
+ BatchManagementClient.cs
+ CertificateOperations.cs
+ CertificateOperationsExtensions.cs
+ IApplicationOperations.cs
+ IApplicationPackageOperations.cs
+ IBatchAccountOperations.cs
+ IBatchManagementClient.cs
+ ICertificateOperations.cs
+ ILocationOperations.cs
+ INetworkSecurityPerimeterOperations.cs
+ IOperations.cs
+ IPoolOperations.cs
+ IPrivateEndpointConnectionOperations.cs
+ IPrivateLinkResourceOperations.cs
+ LocationOperations.cs
+ LocationOperationsExtensions.cs
+ Models/
+  AccessRule.cs
+  AccessRuleDirection.cs
+  AccessRuleProperties.cs
+  AccessRulePropertiesSubscriptionsItem.cs
+  AccountKeyType.cs
+  ActivateApplicationPackageParameters.cs
+  AllocationState.cs
+  Application.cs
+  ApplicationPackage.cs
+  ApplicationPackageProperties.cs
+  ApplicationPackageReference.cs
+  ApplicationProperties.cs
+  AuthenticationMode.cs
+  AutomaticOSUpgradePolicy.cs
+  AutoScaleRun.cs
+  AutoScaleRunError.cs
+  AutoScaleSettings.cs
+  AutoStorageAuthenticationMode.cs
+  AutoStorageBaseProperties.cs
+  AutoStorageProperties.cs
+  AutoUserScope.cs
+  AutoUserSpecification.cs
+  AzureBlobFileSystemConfiguration.cs
+  AzureFileShareConfiguration.cs
+  AzureProxyResource.cs
+  AzureResource.cs
+  BatchAccount.cs
+  BatchAccountCreateHeaders.cs
+  BatchAccountCreateParameters.cs
+  BatchAccountCreateProperties.cs
+  BatchAccountDeleteHeaders.cs
+  BatchAccountIdentity.cs
+  BatchAccountKeys.cs
+  BatchAccountProperties.cs
+  BatchAccountRegenerateKeyParameters.cs
+  BatchAccountUpdateParameters.cs
+  BatchAccountUpdateProperties.cs
+  BatchLocationQuota.cs
+  BatchPoolIdentity.cs
+  CachingType.cs
+  Certificate.cs
+  CertificateBaseProperties.cs
+  CertificateCancelDeletionHeaders.cs
+  CertificateCreateHeaders.cs
+  CertificateCreateOrUpdateParameters.cs
+  CertificateCreateOrUpdateProperties.cs
+  CertificateDeleteHeaders.cs
+  CertificateFormat.cs
+  CertificateGetHeaders.cs
+  CertificateProperties.cs
+  CertificateProvisioningState.cs
+  CertificateReference.cs
+  CertificateStoreLocation.cs
+  CertificateUpdateHeaders.cs
+  CertificateVisibility.cs
+  CheckNameAvailabilityParameters.cs
+  CheckNameAvailabilityResult.cs
+  CIFSMountConfiguration.cs
+  ComputeNodeDeallocationOption.cs
+  ComputeNodeFillType.cs
+  ComputeNodeIdentityReference.cs
+  ContainerConfiguration.cs
+  ContainerHostBatchBindMountEntry.cs
+  ContainerHostDataPath.cs
+  ContainerRegistry.cs
+  ContainerType.cs
+  ContainerWorkingDirectory.cs
+  CreatedByType.cs
+  DataDisk.cs
+  DeleteCertificateError.cs
+  DeploymentConfiguration.cs
+  DetectorResponse.cs
+  DetectorResponseProperties.cs
+  DiffDiskPlacement.cs
+  DiffDiskSettings.cs
+  DiskEncryptionConfiguration.cs
+  DiskEncryptionTarget.cs
+  DynamicVNetAssignmentScope.cs
+  ElevationLevel.cs
+  EncryptionProperties.cs
+  EndpointAccessDefaultAction.cs
+  EndpointAccessProfile.cs
+  EndpointDependency.cs
+  EndpointDetail.cs
+  EnvironmentSetting.cs
+  ErrorAdditionalInfo.cs
+  ErrorDetail.cs
+  ErrorResponse.cs
+  ErrorResponseException.cs
+  FixedScaleSettings.cs
+  ImageReference.cs
+  InboundEndpointProtocol.cs
+  InboundNatPool.cs
+  InterNodeCommunicationState.cs
+  IPAddressProvisioningType.cs
+  IPRule.cs
+  IPRuleAction.cs
+  IssueType.cs
+  KeySource.cs
+  KeyVaultProperties.cs
+  KeyVaultReference.cs
+  LinuxUserConfiguration.cs
+  LoginMode.cs
+  ManagedDisk.cs
+  MetadataItem.cs
+  MountConfiguration.cs
+  NameAvailabilityReason.cs
+  NetworkConfiguration.cs
+  NetworkProfile.cs
+  NetworkSecurityGroupRule.cs
+  NetworkSecurityGroupRuleAccess.cs
+  NetworkSecurityPerimeter.cs
+  NetworkSecurityPerimeterConfiguration.cs
+  NetworkSecurityPerimeterConfigurationProperties.cs
+  NetworkSecurityPerimeterConfigurationProvisioningState.cs
+  NetworkSecurityPerimeterReconcileConfigurationHeaders.cs
+  NetworkSecurityProfile.cs
+  NFSMountConfiguration.cs
+  NodeCommunicationMode.cs
+  NodePlacementConfiguration.cs
+  NodePlacementPolicyType.cs
+  Operation.cs
+  OperationDisplay.cs
+  OSDisk.cs
+  OutboundEnvironmentEndpoint.cs
+  PackageState.cs
+  Page.cs
+  Pool.cs
+  PoolAllocationMode.cs
+  PoolCreateHeaders.cs
+  PoolDeleteHeaders.cs
+  PoolDisableAutoScaleHeaders.cs
+  PoolEndpointConfiguration.cs
+  PoolGetHeaders.cs
+  PoolIdentityType.cs
+  PoolProperties.cs
+  PoolProvisioningState.cs
+  PoolStopResizeHeaders.cs
+  PoolUpdateHeaders.cs
+  PrivateEndpoint.cs
+  PrivateEndpointConnection.cs
+  PrivateEndpointConnectionDeleteHeaders.cs
+  PrivateEndpointConnectionProperties.cs
+  PrivateEndpointConnectionProvisioningState.cs
+  PrivateEndpointConnectionUpdateHeaders.cs
+  PrivateLinkResource.cs
+  PrivateLinkResourceProperties.cs
+  PrivateLinkServiceConnectionState.cs
+  PrivateLinkServiceConnectionStatus.cs
+  ProvisioningIssue.cs
+  ProvisioningIssueProperties.cs
+  ProvisioningState.cs
+  ProxyResource.cs
+  PublicIPAddressConfiguration.cs
+  PublicNetworkAccessType.cs
+  ResizeError.cs
+  ResizeOperationStatus.cs
+  Resource.cs
+  ResourceAssociation.cs
+  ResourceAssociationAccessMode.cs
+  ResourceFile.cs
+  ResourceIdentityType.cs
+  ResourceType.cs
+  RollingUpgradePolicy.cs
+  ScaleSettings.cs
+  SecurityEncryptionTypes.cs
+  SecurityProfile.cs
+  SecurityTypes.cs
+  ServiceArtifactReference.cs
+  Severity.cs
+  SkuCapability.cs
+  StartTask.cs
+  StorageAccountType.cs
+  SupportedSku.cs
+  SystemData.cs
+  TaskContainerSettings.cs
+  TaskSchedulingPolicy.cs
+  UefiSettings.cs
+  UpgradeMode.cs
+  UpgradePolicy.cs
+  UserAccount.cs
+  UserAssignedIdentities.cs
+  UserIdentity.cs
+  VirtualMachineConfiguration.cs
+  VirtualMachineFamilyCoreQuota.cs
+  VMDiskSecurityProfile.cs
+  VMExtension.cs
+  WindowsConfiguration.cs
+  WindowsUserConfiguration.cs
+ NetworkSecurityPerimeterOperations.cs
+ NetworkSecurityPerimeterOperationsExtensions.cs
+ Operations.cs
+ OperationsExtensions.cs
+ PoolOperations.cs
+ PoolOperationsExtensions.cs
+ PrivateEndpointConnectionOperations.cs
+ PrivateEndpointConnectionOperationsExtensions.cs
+ PrivateLinkResourceOperations.cs
+ PrivateLinkResourceOperationsExtensions.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Batch.Management.Sdk.GeneratedMSBuildEditorConfig.editorconfig

@@ -1,0 +1,279 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.CognitiveServices.Management.Sdk
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.CognitiveServices/Microsoft.Azure.PowerShell.CognitiveServices.Management.Sdk.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.Management.CognitiveServices
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.CognitiveServices/Microsoft.Azure.PowerShell.CognitiveServices.Management.Sdk.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,CS0108,CS1573,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.CognitiveServices/Microsoft.Azure.PowerShell.CognitiveServices.Management.Sdk.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.CognitiveServices.Management.Sdk.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+Generated/
+ AccountsOperations.cs
+ AccountsOperationsExtensions.cs
+ CognitiveServicesManagementClient.cs
+ CognitiveServicesManagementClientExtensions.cs
+ CommitmentPlansOperations.cs
+ CommitmentPlansOperationsExtensions.cs
+ CommitmentTiersOperations.cs
+ CommitmentTiersOperationsExtensions.cs
+ DefenderForAISettingsOperations.cs
+ DefenderForAISettingsOperationsExtensions.cs
+ DeletedAccountsOperations.cs
+ DeletedAccountsOperationsExtensions.cs
+ DeploymentsOperations.cs
+ DeploymentsOperationsExtensions.cs
+ EncryptionScopesOperations.cs
+ EncryptionScopesOperationsExtensions.cs
+ IAccountsOperations.cs
+ ICognitiveServicesManagementClient.cs
+ ICommitmentPlansOperations.cs
+ ICommitmentTiersOperations.cs
+ IDefenderForAISettingsOperations.cs
+ IDeletedAccountsOperations.cs
+ IDeploymentsOperations.cs
+ IEncryptionScopesOperations.cs
+ ILocationBasedModelCapacitiesOperations.cs
+ IModelCapacitiesOperations.cs
+ IModelsOperations.cs
+ INetworkSecurityPerimeterConfigurationsOperations.cs
+ IOperations.cs
+ IPrivateEndpointConnectionsOperations.cs
+ IPrivateLinkResourcesOperations.cs
+ IRaiBlocklistItemsOperations.cs
+ IRaiBlocklistsOperations.cs
+ IRaiContentFiltersOperations.cs
+ IRaiPoliciesOperations.cs
+ IResourceSkusOperations.cs
+ IUsagesOperations.cs
+ LocationBasedModelCapacitiesOperations.cs
+ LocationBasedModelCapacitiesOperationsExtensions.cs
+ ModelCapacitiesOperations.cs
+ ModelCapacitiesOperationsExtensions.cs
+ Models/
+  AbusePenalty.cs
+  AbusePenaltyAction.cs
+  Account.cs
+  AccountModel.cs
+  AccountProperties.cs
+  AccountSku.cs
+  AccountSkuListResult.cs
+  ActionType.cs
+  ApiKeys.cs
+  ApiProperties.cs
+  AzureEntityResource.cs
+  BillingMeterInfo.cs
+  ByPassSelection.cs
+  CalculateModelCapacityParameter.cs
+  CalculateModelCapacityResult.cs
+  CalculateModelCapacityResultEstimatedCapacity.cs
+  CallRateLimit.cs
+  CapacityConfig.cs
+  CheckDomainAvailabilityParameter.cs
+  CheckSkuAvailabilityParameter.cs
+  CommitmentCost.cs
+  CommitmentPeriod.cs
+  CommitmentPlan.cs
+  CommitmentPlanAccountAssociation.cs
+  CommitmentPlanAccountAssociationProperties.cs
+  CommitmentPlanAssociation.cs
+  CommitmentPlanProperties.cs
+  CommitmentPlanProvisioningState.cs
+  CommitmentPlansDeleteAssociationHeaders.cs
+  CommitmentPlansDeletePlanHeaders.cs
+  CommitmentPlansUpdatePlanHeaders.cs
+  CommitmentQuota.cs
+  CommitmentTier.cs
+  ContentLevel.cs
+  CreatedByType.cs
+  CustomBlocklistConfig.cs
+  DefenderForAISetting.cs
+  DefenderForAISettingProperties.cs
+  DefenderForAISettingState.cs
+  Deployment.cs
+  DeploymentCapacitySettings.cs
+  DeploymentModel.cs
+  DeploymentModelVersionUpgradeOption.cs
+  DeploymentProperties.cs
+  DeploymentProvisioningState.cs
+  DeploymentScaleSettings.cs
+  DeploymentScaleType.cs
+  DeploymentsUpdateHeaders.cs
+  DomainAvailability.cs
+  Encryption.cs
+  EncryptionScope.cs
+  EncryptionScopeProperties.cs
+  EncryptionScopeProvisioningState.cs
+  EncryptionScopesDeleteHeaders.cs
+  EncryptionScopeState.cs
+  ErrorAdditionalInfo.cs
+  ErrorDetail.cs
+  ErrorResponse.cs
+  ErrorResponseException.cs
+  HostingModel.cs
+  Identity.cs
+  IpRule.cs
+  KeyName.cs
+  KeySource.cs
+  KeyVaultProperties.cs
+  MetricName.cs
+  Model.cs
+  ModelCapacityCalculatorWorkload.cs
+  ModelCapacityCalculatorWorkloadRequestParam.cs
+  ModelCapacityListResultValueItem.cs
+  ModelDeprecationInfo.cs
+  ModelLifecycleStatus.cs
+  ModelSku.cs
+  ModelSkuCapacityProperties.cs
+  MultiRegionSettings.cs
+  NetworkRuleAction.cs
+  NetworkRuleSet.cs
+  NetworkSecurityPerimeter.cs
+  NetworkSecurityPerimeterAccessRule.cs
+  NetworkSecurityPerimeterAccessRuleProperties.cs
+  NetworkSecurityPerimeterAccessRulePropertiesSubscriptionsItem.cs
+  NetworkSecurityPerimeterConfiguration.cs
+  NetworkSecurityPerimeterConfigurationAssociationInfo.cs
+  NetworkSecurityPerimeterConfigurationProperties.cs
+  NetworkSecurityPerimeterConfigurationsReconcileHeaders.cs
+  NetworkSecurityPerimeterProfileInfo.cs
+  NspAccessRuleDirection.cs
+  Operation.cs
+  OperationDisplay.cs
+  Origin.cs
+  Page.cs
+  PatchResourceTags.cs
+  PatchResourceTagsAndSku.cs
+  PrivateEndpoint.cs
+  PrivateEndpointConnection.cs
+  PrivateEndpointConnectionListResult.cs
+  PrivateEndpointConnectionProperties.cs
+  PrivateEndpointConnectionProvisioningState.cs
+  PrivateEndpointServiceConnectionStatus.cs
+  PrivateLinkResource.cs
+  PrivateLinkResourceListResult.cs
+  PrivateLinkResourceProperties.cs
+  PrivateLinkServiceConnectionState.cs
+  ProvisioningIssue.cs
+  ProvisioningIssueProperties.cs
+  ProvisioningState.cs
+  ProxyResource.cs
+  PublicNetworkAccess.cs
+  QuotaLimit.cs
+  QuotaUsageStatus.cs
+  RaiBlocklist.cs
+  RaiBlocklistConfig.cs
+  RaiBlocklistItem.cs
+  RaiBlocklistItemBulkRequest.cs
+  RaiBlocklistItemProperties.cs
+  RaiBlocklistItemsDeleteHeaders.cs
+  RaiBlocklistProperties.cs
+  RaiBlocklistsDeleteHeaders.cs
+  RaiContentFilter.cs
+  RaiContentFilterProperties.cs
+  RaiMonitorConfig.cs
+  RaiPoliciesDeleteHeaders.cs
+  RaiPolicy.cs
+  RaiPolicyContentFilter.cs
+  RaiPolicyContentSource.cs
+  RaiPolicyMode.cs
+  RaiPolicyProperties.cs
+  RaiPolicyType.cs
+  RegenerateKeyParameters.cs
+  RegionSetting.cs
+  RequestMatchPattern.cs
+  Resource.cs
+  ResourceIdentityType.cs
+  ResourceSku.cs
+  ResourceSkuRestrictionInfo.cs
+  ResourceSkuRestrictions.cs
+  ResourceSkuRestrictionsReasonCode.cs
+  ResourceSkuRestrictionsType.cs
+  RoutingMethods.cs
+  Sku.cs
+  SkuAvailability.cs
+  SkuAvailabilityListResult.cs
+  SkuCapability.cs
+  SkuChangeInfo.cs
+  SkuResource.cs
+  SkuTier.cs
+  SystemData.cs
+  ThrottlingRule.cs
+  UnitType.cs
+  Usage.cs
+  UsageListResult.cs
+  UserAssignedIdentity.cs
+  UserOwnedAmlWorkspace.cs
+  UserOwnedStorage.cs
+  VirtualNetworkRule.cs
+ ModelsOperations.cs
+ ModelsOperationsExtensions.cs
+ NetworkSecurityPerimeterConfigurationsOperations.cs
+ NetworkSecurityPerimeterConfigurationsOperationsExtensions.cs
+ Operations.cs
+ OperationsExtensions.cs
+ PrivateEndpointConnectionsOperations.cs
+ PrivateEndpointConnectionsOperationsExtensions.cs
+ PrivateLinkResourcesOperations.cs
+ PrivateLinkResourcesOperationsExtensions.cs
+ RaiBlocklistItemsOperations.cs
+ RaiBlocklistItemsOperationsExtensions.cs
+ RaiBlocklistsOperations.cs
+ RaiBlocklistsOperationsExtensions.cs
+ RaiContentFiltersOperations.cs
+ RaiContentFiltersOperationsExtensions.cs
+ RaiPoliciesOperations.cs
+ RaiPoliciesOperationsExtensions.cs
+ ResourceSkusOperations.cs
+ ResourceSkusOperationsExtensions.cs
+ UsagesOperations.cs
+ UsagesOperationsExtensions.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/CognitiveServices.Management.Sdk.GeneratedMSBuildEditorConfig.editorconfig

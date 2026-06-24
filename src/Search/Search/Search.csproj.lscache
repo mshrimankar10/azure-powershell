@@ -1,0 +1,132 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.Cmdlets.Search
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.Search/Microsoft.Azure.PowerShell.Cmdlets.Search.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.Commands.Management.Search
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.Search/Microsoft.Azure.PowerShell.Cmdlets.Search.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.Search/Microsoft.Azure.PowerShell.Cmdlets.Search.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.Cmdlets.Search.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+Models/
+ PSAadAuthFailureMode.cs
+ PsAadOrApiKeyAuthOption.cs
+ PSAccessRule.cs
+ PSAuthOptionName.cs
+ PSAuthOptions.cs
+ PSComputeType.cs
+ PSDataExfiltrationProtection.cs
+ PSHostingMode.cs
+ PSIdentity.cs
+ PSIdentityType.cs
+ PSIPRule.cs
+ PSNetworkRuleSet.cs
+ PSNetworkSecurityPerimeter.cs
+ PSNetworkSecurityPerimeterConfiguration.cs
+ PSNetworkSecurityPerimeterConfigurationProvisioningState.cs
+ PSNetworkSecurityProfile.cs
+ PSPrivateEndpoint.cs
+ PSPrivateEndpointConnection.cs
+ PSPrivateLinkResource.cs
+ PSPrivateLinkServiceConnectionState.cs
+ PSPrivateLinkServiceConnectionStatus.cs
+ PSPublicNetworkAccess.cs
+ PSResourceAssociation.cs
+ PSSearchAdminKey.cs
+ PSSearchAdminKeyKind.cs
+ PSSearchBypass.cs
+ PSSearchQueryKey.cs
+ PSSearchService.cs
+ PSSearchServiceStatus.cs
+ PSSemanticSearchMode.cs
+ PSShareablePrivateLinkResourceType.cs
+ PSSharedPrivateLinkResource.cs
+ PSSharedPrivateLinkResourceProvisioningState.cs
+ PSSharedPrivateLinkResourceStatus.cs
+ PSSkuName.cs
+ PSUpgradeAvailable.cs
+NetworkSecurityPerimeterConfiguration/
+ GetNetworkSecurityPerimeterConfigurationCommand.cs
+ NetworkSecurityPerimeterConfigurationsBaseCmdlet.cs
+ ReconcileNetworkSecurityPerimeterConfigurationCommand.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+PrivateEndpointConnections/
+ GetSearchServicePrivateEndpointConnectionCommand.cs
+ PrivateEndpointConnectionBaseCmdlet.cs
+ RemoveSearchServicePrivateEndpointConnectionCommand.cs
+ SetSearchServicePrivateEndpointConnectionCommand.cs
+PrivateLinkResources/
+ GetSearchPrivateLinkResourceCommand.cs
+ PrivateLinkResourcesBaseCmdlet.cs
+Properties/
+ AssemblyInfo.cs
+ Resources.Designer.cs
+SearchService/
+ GetSearchServiceAdminKeyPairCommand.cs
+ GetSearchServiceCommand.cs
+ GetSearchServiceQueryKeyCommand.cs
+ NewSearchServiceAdminKeyCommand.cs
+ NewSearchServiceCommand.cs
+ NewSearchServiceQueryKeyCommand.cs
+ RemoveSearchServiceCommand.cs
+ RemoveSearchServiceQueryKey.cs
+ SearchManagementClient.cs
+ SearchServiceBaseCmdlet.cs
+ SetSearchServiceCommand.cs
+ UpgradeSearchServiceCommand.cs
+SharedPrivateLinkResources/
+ GetSearchServiceSharedPrivateLinkResourceCommand.cs
+ NewSearchServiceSharedPrivateLinkResourceCommand.cs
+ RemoveSearchServiceSharedPrivateLinkResourceCommand.cs
+ SetSearchServiceSharedPrivateLinkResourceCommand.cs
+ SharedPrivateLinkResourceBaseCmdlet.cs
+
+[metadataReferences]
+../../../artifacts/Debug/Az.Search/Microsoft.Azure.PowerShell.Search.Management.Sdk.dll
+
+[analyzerConfigFiles]
+obj/Debug/Search.GeneratedMSBuildEditorConfig.editorconfig

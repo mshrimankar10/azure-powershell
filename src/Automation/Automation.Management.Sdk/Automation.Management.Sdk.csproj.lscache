@@ -1,0 +1,418 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.Automation.Management.Sdk
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.Automation/Microsoft.Azure.PowerShell.Automation.Management.Sdk.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.Management.Automation
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.Automation/Microsoft.Azure.PowerShell.Automation.Management.Sdk.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,CS0108,CS1573,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.Automation/Microsoft.Azure.PowerShell.Automation.Management.Sdk.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.Automation.Management.Sdk.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+Customization/
+ SoftwareUpdateConfigurationMachineRunsOperationsExtensions.cs
+ SoftwareUpdateConfigurationRunsOperationsExtensions.cs
+ SoftwareUpdateConfigurationsOperationsExtensions.cs
+Generated/
+ ActivityOperations.cs
+ ActivityOperationsExtensions.cs
+ AgentRegistrationInformationOperations.cs
+ AgentRegistrationInformationOperationsExtensions.cs
+ AutomationAccountOperations.cs
+ AutomationAccountOperationsExtensions.cs
+ AutomationClient.cs
+ CertificateOperations.cs
+ CertificateOperationsExtensions.cs
+ ConnectionOperations.cs
+ ConnectionOperationsExtensions.cs
+ ConnectionTypeOperations.cs
+ ConnectionTypeOperationsExtensions.cs
+ CredentialOperations.cs
+ CredentialOperationsExtensions.cs
+ DscCompilationJobOperations.cs
+ DscCompilationJobOperationsExtensions.cs
+ DscCompilationJobStreamOperations.cs
+ DscCompilationJobStreamOperationsExtensions.cs
+ DscConfigurationOperations.cs
+ DscConfigurationOperationsExtensions.cs
+ DscNodeConfigurationOperations.cs
+ DscNodeConfigurationOperationsExtensions.cs
+ DscNodeOperations.cs
+ DscNodeOperationsExtensions.cs
+ FieldsOperations.cs
+ FieldsOperationsExtensions.cs
+ HybridRunbookWorkerGroupOperations.cs
+ HybridRunbookWorkerGroupOperationsExtensions.cs
+ HybridRunbookWorkersOperations.cs
+ HybridRunbookWorkersOperationsExtensions.cs
+ IActivityOperations.cs
+ IAgentRegistrationInformationOperations.cs
+ IAutomationAccountOperations.cs
+ IAutomationClient.cs
+ ICertificateOperations.cs
+ IConnectionOperations.cs
+ IConnectionTypeOperations.cs
+ ICredentialOperations.cs
+ IDscCompilationJobOperations.cs
+ IDscCompilationJobStreamOperations.cs
+ IDscConfigurationOperations.cs
+ IDscNodeConfigurationOperations.cs
+ IDscNodeOperations.cs
+ IFieldsOperations.cs
+ IHybridRunbookWorkerGroupOperations.cs
+ IHybridRunbookWorkersOperations.cs
+ IJobOperations.cs
+ IJobScheduleOperations.cs
+ IJobStreamOperations.cs
+ IKeysOperations.cs
+ IModuleOperations.cs
+ INodeReportsOperations.cs
+ IObjectDataTypesOperations.cs
+ IPowerShell72ModuleOperations.cs
+ IPython3PackageOperations.cs
+ IRunbookDraftOperations.cs
+ IRunbookOperations.cs
+ IScheduleOperations.cs
+ ISoftwareUpdateConfigurationMachineRunsOperations.cs
+ ISoftwareUpdateConfigurationRunsOperations.cs
+ ISoftwareUpdateConfigurationsOperations.cs
+ ISourceControlOperations.cs
+ ISourceControlSyncJobOperations.cs
+ ISourceControlSyncJobStreamsOperations.cs
+ IStatisticsOperations.cs
+ ITestJobOperations.cs
+ ITestJobStreamsOperations.cs
+ IUsagesOperations.cs
+ IVariableOperations.cs
+ IWebhookOperations.cs
+ JobOperations.cs
+ JobOperationsExtensions.cs
+ JobScheduleOperations.cs
+ JobScheduleOperationsExtensions.cs
+ JobStreamOperations.cs
+ JobStreamOperationsExtensions.cs
+ KeysOperations.cs
+ KeysOperationsExtensions.cs
+ Models/
+  Activity.cs
+  ActivityOutputType.cs
+  ActivityParameter.cs
+  ActivityParameterSet.cs
+  ActivityParameterValidationSet.cs
+  ActivityProperties.cs
+  AdvancedSchedule.cs
+  AdvancedScheduleMonthlyOccurrence.cs
+  AgentRegistration.cs
+  AgentRegistrationKeyName.cs
+  AgentRegistrationKeys.cs
+  AgentRegistrationRegenerateKeyParameter.cs
+  AutomationAccount.cs
+  AutomationAccountCreateOrUpdateParameters.cs
+  AutomationAccountCreateOrUpdateProperties.cs
+  AutomationAccountProperties.cs
+  AutomationAccountState.cs
+  AutomationAccountUpdateParameters.cs
+  AutomationAccountUpdateProperties.cs
+  AutomationKeyName.cs
+  AutomationKeyPermissions.cs
+  AzureQueryProperties.cs
+  Certificate.cs
+  CertificateCreateOrUpdateParameters.cs
+  CertificateCreateOrUpdateProperties.cs
+  CertificateProperties.cs
+  CertificateUpdateParameters.cs
+  CertificateUpdateProperties.cs
+  Connection.cs
+  ConnectionCreateOrUpdateParameters.cs
+  ConnectionCreateOrUpdateProperties.cs
+  ConnectionProperties.cs
+  ConnectionType.cs
+  ConnectionTypeAssociationProperty.cs
+  ConnectionTypeCreateOrUpdateParameters.cs
+  ConnectionTypeCreateOrUpdateProperties.cs
+  ConnectionTypeProperties.cs
+  ConnectionUpdateParameters.cs
+  ConnectionUpdateProperties.cs
+  ContentHash.cs
+  ContentLink.cs
+  ContentSource.cs
+  ContentSourceType.cs
+  CreatedByType.cs
+  Credential.cs
+  CredentialCreateOrUpdateParameters.cs
+  CredentialCreateOrUpdateProperties.cs
+  CredentialProperties.cs
+  CredentialUpdateParameters.cs
+  CredentialUpdateProperties.cs
+  DscCompilationJob.cs
+  DscCompilationJobCreateParameters.cs
+  DscCompilationJobCreateProperties.cs
+  DscCompilationJobProperties.cs
+  DscConfiguration.cs
+  DscConfigurationAssociationProperty.cs
+  DscConfigurationCreateOrUpdateParameters.cs
+  DscConfigurationCreateOrUpdateProperties.cs
+  DscConfigurationParameter.cs
+  DscConfigurationProperties.cs
+  DscConfigurationProvisioningState.cs
+  DscConfigurationState.cs
+  DscConfigurationUpdateParameters.cs
+  DscMetaConfiguration.cs
+  DscNode.cs
+  DscNodeConfiguration.cs
+  DscNodeConfigurationAssociationProperty.cs
+  DscNodeConfigurationCreateOrUpdateParameters.cs
+  DscNodeConfigurationCreateOrUpdateParametersProperties.cs
+  DscNodeConfigurationProperties.cs
+  DscNodeExtensionHandlerAssociationProperty.cs
+  DscNodeProperties.cs
+  DscNodeReport.cs
+  DscNodeUpdateParameters.cs
+  DscNodeUpdateParametersProperties.cs
+  DscReportError.cs
+  DscReportResource.cs
+  DscReportResourceNavigation.cs
+  EncryptionKeySourceType.cs
+  EncryptionProperties.cs
+  EncryptionPropertiesIdentity.cs
+  ErrorResponse.cs
+  ErrorResponseException.cs
+  FieldDefinition.cs
+  GroupTypeEnum.cs
+  HttpStatusCode.cs
+  HybridRunbookWorker.cs
+  HybridRunbookWorkerCreateOrUpdateParameters.cs
+  HybridRunbookWorkerCreateParameters.cs
+  HybridRunbookWorkerGroup.cs
+  HybridRunbookWorkerGroupCreateOrUpdateParameters.cs
+  HybridRunbookWorkerGroupCreateOrUpdateProperties.cs
+  HybridRunbookWorkerGroupProperties.cs
+  HybridRunbookWorkerMoveParameters.cs
+  HybridRunbookWorkerProperties.cs
+  Identity.cs
+  IdentityUserAssignedIdentitiesValue.cs
+  Job.cs
+  JobCollectionItem.cs
+  JobCollectionItemProperties.cs
+  JobCreateParameters.cs
+  JobCreateProperties.cs
+  JobNavigation.cs
+  JobProperties.cs
+  JobProvisioningState.cs
+  JobSchedule.cs
+  JobScheduleCreateParameters.cs
+  JobScheduleCreateProperties.cs
+  JobScheduleProperties.cs
+  JobStatus.cs
+  JobStream.cs
+  JobStreamListResult.cs
+  JobStreamType.cs
+  Key.cs
+  KeyListResult.cs
+  KeyVaultProperties.cs
+  LinuxProperties.cs
+  LinuxUpdateClasses.cs
+  Module.cs
+  ModuleCreateOrUpdateParameters.cs
+  ModuleCreateOrUpdateProperties.cs
+  ModuleErrorInfo.cs
+  ModuleProperties.cs
+  ModuleProvisioningState.cs
+  ModuleUpdateParameters.cs
+  ModuleUpdateProperties.cs
+  NonAzureQueryProperties.cs
+  OperatingSystemType.cs
+  Page.cs
+  Page1.cs
+  PrivateEndpointConnection.cs
+  PrivateEndpointConnectionProperties.cs
+  PrivateEndpointProperty.cs
+  PrivateLinkServiceConnectionStateProperty.cs
+  ProvisioningState.cs
+  ProxyResource.cs
+  PythonPackageCreateParameters.cs
+  PythonPackageCreateProperties.cs
+  PythonPackageUpdateParameters.cs
+  Resource.cs
+  ResourceIdentityType.cs
+  RunAsCredentialAssociationProperty.cs
+  Runbook.cs
+  RunbookAssociationProperty.cs
+  RunbookCreateOrUpdateDraftProperties.cs
+  RunbookCreateOrUpdateParameters.cs
+  RunbookCreateOrUpdateProperties.cs
+  RunbookDraft.cs
+  RunbookDraftReplaceContentHeaders.cs
+  RunbookDraftUndoEditResult.cs
+  RunbookParameter.cs
+  RunbookProperties.cs
+  RunbookProvisioningState.cs
+  RunbookPublishHeaders.cs
+  RunbookState.cs
+  RunbookTypeEnum.cs
+  RunbookUpdateParameters.cs
+  RunbookUpdateProperties.cs
+  Schedule.cs
+  ScheduleAssociationProperty.cs
+  ScheduleCreateOrUpdateParameters.cs
+  ScheduleCreateOrUpdateProperties.cs
+  ScheduleDay.cs
+  ScheduleFrequency.cs
+  ScheduleProperties.cs
+  ScheduleUpdateParameters.cs
+  ScheduleUpdateProperties.cs
+  Sku.cs
+  SkuNameEnum.cs
+  SoftwareUpdateConfiguration.cs
+  SoftwareUpdateConfigurationCollectionItem.cs
+  SoftwareUpdateConfigurationCollectionItemProperties.cs
+  SoftwareUpdateConfigurationListResult.cs
+  SoftwareUpdateConfigurationMachineRun.cs
+  SoftwareUpdateConfigurationMachineRunListResult.cs
+  SoftwareUpdateConfigurationProperties.cs
+  SoftwareUpdateConfigurationRun.cs
+  SoftwareUpdateConfigurationRunListResult.cs
+  SoftwareUpdateConfigurationRunProperties.cs
+  SoftwareUpdateConfigurationRunTaskProperties.cs
+  SoftwareUpdateConfigurationRunTasks.cs
+  SoftwareUpdateConfigurationTasks.cs
+  SourceControl.cs
+  SourceControlCreateOrUpdateParameters.cs
+  SourceControlCreateOrUpdateProperties.cs
+  SourceControlProperties.cs
+  SourceControlSecurityTokenProperties.cs
+  SourceControlSyncJob.cs
+  SourceControlSyncJobById.cs
+  SourceControlSyncJobByIdProperties.cs
+  SourceControlSyncJobCreateParameters.cs
+  SourceControlSyncJobCreateProperties.cs
+  SourceControlSyncJobProperties.cs
+  SourceControlSyncJobStream.cs
+  SourceControlSyncJobStreamById.cs
+  SourceControlSyncJobStreamByIdProperties.cs
+  SourceControlSyncJobStreamProperties.cs
+  SourceControlUpdateParameters.cs
+  SourceControlUpdateProperties.cs
+  SourceType.cs
+  Statistics.cs
+  StreamType.cs
+  SUCScheduleProperties.cs
+  SyncType.cs
+  SystemData.cs
+  TagOperators.cs
+  TagSettingsProperties.cs
+  TargetProperties.cs
+  TaskProperties.cs
+  TestJob.cs
+  TestJobCreateParameters.cs
+  TokenType.cs
+  TrackedResource.cs
+  TypeField.cs
+  UpdateConfiguration.cs
+  UpdateConfigurationMachineRunProperties.cs
+  UpdateConfigurationNavigation.cs
+  Usage.cs
+  UsageCounterName.cs
+  Variable.cs
+  VariableCreateOrUpdateParameters.cs
+  VariableCreateOrUpdateProperties.cs
+  VariableProperties.cs
+  VariableUpdateParameters.cs
+  VariableUpdateProperties.cs
+  Webhook.cs
+  WebhookCreateOrUpdateParameters.cs
+  WebhookCreateOrUpdateProperties.cs
+  WebhookProperties.cs
+  WebhookUpdateParameters.cs
+  WebhookUpdateProperties.cs
+  WindowsProperties.cs
+  WindowsUpdateClasses.cs
+  WorkerType.cs
+ ModuleOperations.cs
+ ModuleOperationsExtensions.cs
+ NodeReportsOperations.cs
+ NodeReportsOperationsExtensions.cs
+ ObjectDataTypesOperations.cs
+ ObjectDataTypesOperationsExtensions.cs
+ PowerShell72ModuleOperations.cs
+ PowerShell72ModuleOperationsExtensions.cs
+ Python3PackageOperations.cs
+ Python3PackageOperationsExtensions.cs
+ RunbookDraftOperations.cs
+ RunbookDraftOperationsExtensions.cs
+ RunbookOperations.cs
+ RunbookOperationsExtensions.cs
+ ScheduleOperations.cs
+ ScheduleOperationsExtensions.cs
+ SoftwareUpdateConfigurationMachineRunsOperations.cs
+ SoftwareUpdateConfigurationMachineRunsOperationsExtensions.cs
+ SoftwareUpdateConfigurationRunsOperations.cs
+ SoftwareUpdateConfigurationRunsOperationsExtensions.cs
+ SoftwareUpdateConfigurationsOperations.cs
+ SoftwareUpdateConfigurationsOperationsExtensions.cs
+ SourceControlOperations.cs
+ SourceControlOperationsExtensions.cs
+ SourceControlSyncJobOperations.cs
+ SourceControlSyncJobOperationsExtensions.cs
+ SourceControlSyncJobStreamsOperations.cs
+ SourceControlSyncJobStreamsOperationsExtensions.cs
+ StatisticsOperations.cs
+ StatisticsOperationsExtensions.cs
+ TestJobOperations.cs
+ TestJobOperationsExtensions.cs
+ TestJobStreamsOperations.cs
+ TestJobStreamsOperationsExtensions.cs
+ UsagesOperations.cs
+ UsagesOperationsExtensions.cs
+ VariableOperations.cs
+ VariableOperationsExtensions.cs
+ WebhookOperations.cs
+ WebhookOperationsExtensions.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Automation.Management.Sdk.GeneratedMSBuildEditorConfig.editorconfig

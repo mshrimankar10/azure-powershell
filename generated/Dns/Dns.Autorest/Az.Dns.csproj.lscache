@@ -1,0 +1,378 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.Dns.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.Dns/Dns.Autorest/bin/Az.Dns.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.Dns
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.Dns/Dns.Autorest/bin/Az.Dns.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.Dns/Dns.Autorest/bin/Az.Dns.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.Dns.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/
+ Dns.cs
+ Models/
+  AaaaRecord.cs
+  AaaaRecord.json.cs
+  AaaaRecord.PowerShell.cs
+  AaaaRecord.TypeConverter.cs
+  ARecord.cs
+  ARecord.json.cs
+  ARecord.PowerShell.cs
+  ARecord.TypeConverter.cs
+  CaaRecord.cs
+  CaaRecord.json.cs
+  CaaRecord.PowerShell.cs
+  CaaRecord.TypeConverter.cs
+  CloudError.cs
+  CloudError.json.cs
+  CloudError.PowerShell.cs
+  CloudError.TypeConverter.cs
+  CloudErrorBody.cs
+  CloudErrorBody.json.cs
+  CloudErrorBody.PowerShell.cs
+  CloudErrorBody.TypeConverter.cs
+  CnameRecord.cs
+  CnameRecord.json.cs
+  CnameRecord.PowerShell.cs
+  CnameRecord.TypeConverter.cs
+  DelegationSignerInfo.cs
+  DelegationSignerInfo.json.cs
+  DelegationSignerInfo.PowerShell.cs
+  DelegationSignerInfo.TypeConverter.cs
+  Digest.cs
+  Digest.json.cs
+  Digest.PowerShell.cs
+  Digest.TypeConverter.cs
+  DnsIdentity.cs
+  DnsIdentity.json.cs
+  DnsIdentity.PowerShell.cs
+  DnsIdentity.TypeConverter.cs
+  DnsResourceReference.cs
+  DnsResourceReference.json.cs
+  DnsResourceReference.PowerShell.cs
+  DnsResourceReference.TypeConverter.cs
+  DnsResourceReferenceRequest.cs
+  DnsResourceReferenceRequest.json.cs
+  DnsResourceReferenceRequest.PowerShell.cs
+  DnsResourceReferenceRequest.TypeConverter.cs
+  DnsResourceReferenceRequestProperties.cs
+  DnsResourceReferenceRequestProperties.json.cs
+  DnsResourceReferenceRequestProperties.PowerShell.cs
+  DnsResourceReferenceRequestProperties.TypeConverter.cs
+  DnsResourceReferenceResult.cs
+  DnsResourceReferenceResult.json.cs
+  DnsResourceReferenceResult.PowerShell.cs
+  DnsResourceReferenceResult.TypeConverter.cs
+  DnsResourceReferenceResultProperties.cs
+  DnsResourceReferenceResultProperties.json.cs
+  DnsResourceReferenceResultProperties.PowerShell.cs
+  DnsResourceReferenceResultProperties.TypeConverter.cs
+  DnssecConfig.cs
+  DnssecConfig.json.cs
+  DnssecConfig.PowerShell.cs
+  DnssecConfig.TypeConverter.cs
+  DnssecConfigListResult.cs
+  DnssecConfigListResult.json.cs
+  DnssecConfigListResult.PowerShell.cs
+  DnssecConfigListResult.TypeConverter.cs
+  DnssecProperties.cs
+  DnssecProperties.json.cs
+  DnssecProperties.PowerShell.cs
+  DnssecProperties.TypeConverter.cs
+  DsRecord.cs
+  DsRecord.json.cs
+  DsRecord.PowerShell.cs
+  DsRecord.TypeConverter.cs
+  MxRecord.cs
+  MxRecord.json.cs
+  MxRecord.PowerShell.cs
+  MxRecord.TypeConverter.cs
+  NaptrRecord.cs
+  NaptrRecord.json.cs
+  NaptrRecord.PowerShell.cs
+  NaptrRecord.TypeConverter.cs
+  NsRecord.cs
+  NsRecord.json.cs
+  NsRecord.PowerShell.cs
+  NsRecord.TypeConverter.cs
+  PtrRecord.cs
+  PtrRecord.json.cs
+  PtrRecord.PowerShell.cs
+  PtrRecord.TypeConverter.cs
+  RecordSet.cs
+  RecordSet.json.cs
+  RecordSet.PowerShell.cs
+  RecordSet.TypeConverter.cs
+  RecordSetListResult.cs
+  RecordSetListResult.json.cs
+  RecordSetListResult.PowerShell.cs
+  RecordSetListResult.TypeConverter.cs
+  RecordSetProperties.cs
+  RecordSetProperties.json.cs
+  RecordSetProperties.PowerShell.cs
+  RecordSetProperties.TypeConverter.cs
+  RecordSetPropertiesMetadata.cs
+  RecordSetPropertiesMetadata.dictionary.cs
+  RecordSetPropertiesMetadata.json.cs
+  RecordSetPropertiesMetadata.PowerShell.cs
+  RecordSetPropertiesMetadata.TypeConverter.cs
+  RecordSetUpdateParameters.cs
+  RecordSetUpdateParameters.json.cs
+  RecordSetUpdateParameters.PowerShell.cs
+  RecordSetUpdateParameters.TypeConverter.cs
+  Resource.cs
+  Resource.json.cs
+  Resource.PowerShell.cs
+  Resource.TypeConverter.cs
+  ResourceTags.cs
+  ResourceTags.dictionary.cs
+  ResourceTags.json.cs
+  ResourceTags.PowerShell.cs
+  ResourceTags.TypeConverter.cs
+  SigningKey.cs
+  SigningKey.json.cs
+  SigningKey.PowerShell.cs
+  SigningKey.TypeConverter.cs
+  SoaRecord.cs
+  SoaRecord.json.cs
+  SoaRecord.PowerShell.cs
+  SoaRecord.TypeConverter.cs
+  SrvRecord.cs
+  SrvRecord.json.cs
+  SrvRecord.PowerShell.cs
+  SrvRecord.TypeConverter.cs
+  SubResource.cs
+  SubResource.json.cs
+  SubResource.PowerShell.cs
+  SubResource.TypeConverter.cs
+  SystemData.cs
+  SystemData.json.cs
+  SystemData.PowerShell.cs
+  SystemData.TypeConverter.cs
+  TlsaRecord.cs
+  TlsaRecord.json.cs
+  TlsaRecord.PowerShell.cs
+  TlsaRecord.TypeConverter.cs
+  TxtRecord.cs
+  TxtRecord.json.cs
+  TxtRecord.PowerShell.cs
+  TxtRecord.TypeConverter.cs
+  Zone.cs
+  Zone.json.cs
+  Zone.PowerShell.cs
+  Zone.TypeConverter.cs
+  ZoneListResult.cs
+  ZoneListResult.json.cs
+  ZoneListResult.PowerShell.cs
+  ZoneListResult.TypeConverter.cs
+  ZoneProperties.cs
+  ZoneProperties.json.cs
+  ZoneProperties.PowerShell.cs
+  ZoneProperties.TypeConverter.cs
+  ZoneUpdate.cs
+  ZoneUpdate.json.cs
+  ZoneUpdate.PowerShell.cs
+  ZoneUpdate.TypeConverter.cs
+  ZoneUpdateTags.cs
+  ZoneUpdateTags.dictionary.cs
+  ZoneUpdateTags.json.cs
+  ZoneUpdateTags.PowerShell.cs
+  ZoneUpdateTags.TypeConverter.cs
+generated/cmdlets/
+ GetAzDnsDnssecConfig_Get.cs
+ GetAzDnsDnssecConfig_GetViaIdentity.cs
+ GetAzDnsDnssecConfig_List.cs
+ NewAzDnsDnssecConfig_Create.cs
+ NewAzDnsDnssecConfig_CreateViaIdentity.cs
+ RemoveAzDnsDnssecConfig_Delete.cs
+ RemoveAzDnsDnssecConfig_DeleteViaIdentity.cs
+generated/
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.Dns.GeneratedMSBuildEditorConfig.editorconfig

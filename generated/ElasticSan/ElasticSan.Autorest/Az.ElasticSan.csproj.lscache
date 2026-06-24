@@ -1,0 +1,528 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.ElasticSan.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.ElasticSan/ElasticSan.Autorest/bin/Az.ElasticSan.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.ElasticSan
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.ElasticSan/ElasticSan.Autorest/bin/Az.ElasticSan.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.ElasticSan/ElasticSan.Autorest/bin/Az.ElasticSan.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.ElasticSan.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/
+ ElasticSan/ElasticSan.Autorest/custom/IdentityUserAssignedIdentities.json.cs
+ shared/ConfigKeys.cs
+generated/api/
+ ElasticSan.cs
+ Models/
+  Any.cs
+  Any.json.cs
+  Any.PowerShell.cs
+  Any.TypeConverter.cs
+  AutoScaleProperties.cs
+  AutoScaleProperties.json.cs
+  AutoScaleProperties.PowerShell.cs
+  AutoScaleProperties.TypeConverter.cs
+  DiskSnapshotList.cs
+  DiskSnapshotList.json.cs
+  DiskSnapshotList.PowerShell.cs
+  DiskSnapshotList.TypeConverter.cs
+  ElasticSan.cs
+  ElasticSan.json.cs
+  ElasticSan.PowerShell.cs
+  ElasticSan.TypeConverter.cs
+  ElasticSanIdentity.cs
+  ElasticSanIdentity.json.cs
+  ElasticSanIdentity.PowerShell.cs
+  ElasticSanIdentity.TypeConverter.cs
+  ElasticSanList.cs
+  ElasticSanList.json.cs
+  ElasticSanList.PowerShell.cs
+  ElasticSanList.TypeConverter.cs
+  ElasticSanProperties.cs
+  ElasticSanProperties.json.cs
+  ElasticSanProperties.PowerShell.cs
+  ElasticSanProperties.TypeConverter.cs
+  ElasticSanUpdate.cs
+  ElasticSanUpdate.json.cs
+  ElasticSanUpdate.PowerShell.cs
+  ElasticSanUpdate.TypeConverter.cs
+  ElasticSanUpdateProperties.cs
+  ElasticSanUpdateProperties.json.cs
+  ElasticSanUpdateProperties.PowerShell.cs
+  ElasticSanUpdateProperties.TypeConverter.cs
+  ElasticSanUpdateTags.cs
+  ElasticSanUpdateTags.dictionary.cs
+  ElasticSanUpdateTags.json.cs
+  ElasticSanUpdateTags.PowerShell.cs
+  ElasticSanUpdateTags.TypeConverter.cs
+  EncryptionIdentity.cs
+  EncryptionIdentity.json.cs
+  EncryptionIdentity.PowerShell.cs
+  EncryptionIdentity.TypeConverter.cs
+  EncryptionProperties.cs
+  EncryptionProperties.json.cs
+  EncryptionProperties.PowerShell.cs
+  EncryptionProperties.TypeConverter.cs
+  ErrorAdditionalInfo.cs
+  ErrorAdditionalInfo.json.cs
+  ErrorAdditionalInfo.PowerShell.cs
+  ErrorAdditionalInfo.TypeConverter.cs
+  ErrorDetail.cs
+  ErrorDetail.json.cs
+  ErrorDetail.PowerShell.cs
+  ErrorDetail.TypeConverter.cs
+  ErrorResponse.cs
+  ErrorResponse.json.cs
+  ErrorResponse.PowerShell.cs
+  ErrorResponse.TypeConverter.cs
+  Identity.cs
+  Identity.json.cs
+  Identity.PowerShell.cs
+  Identity.TypeConverter.cs
+  IdentityUserAssignedIdentities.cs
+  IdentityUserAssignedIdentities.dictionary.cs
+  IdentityUserAssignedIdentities.json.cs
+  IdentityUserAssignedIdentities.PowerShell.cs
+  IdentityUserAssignedIdentities.TypeConverter.cs
+  IscsiTargetInfo.cs
+  IscsiTargetInfo.json.cs
+  IscsiTargetInfo.PowerShell.cs
+  IscsiTargetInfo.TypeConverter.cs
+  KeyVaultProperties.cs
+  KeyVaultProperties.json.cs
+  KeyVaultProperties.PowerShell.cs
+  KeyVaultProperties.TypeConverter.cs
+  ManagedByInfo.cs
+  ManagedByInfo.json.cs
+  ManagedByInfo.PowerShell.cs
+  ManagedByInfo.TypeConverter.cs
+  NetworkRuleSet.cs
+  NetworkRuleSet.json.cs
+  NetworkRuleSet.PowerShell.cs
+  NetworkRuleSet.TypeConverter.cs
+  Operation.cs
+  Operation.json.cs
+  Operation.PowerShell.cs
+  Operation.TypeConverter.cs
+  OperationDisplay.cs
+  OperationDisplay.json.cs
+  OperationDisplay.PowerShell.cs
+  OperationDisplay.TypeConverter.cs
+  OperationListResult.cs
+  OperationListResult.json.cs
+  OperationListResult.PowerShell.cs
+  OperationListResult.TypeConverter.cs
+  PreValidationResponse.cs
+  PreValidationResponse.json.cs
+  PreValidationResponse.PowerShell.cs
+  PreValidationResponse.TypeConverter.cs
+  PrivateEndpoint.cs
+  PrivateEndpoint.json.cs
+  PrivateEndpoint.PowerShell.cs
+  PrivateEndpoint.TypeConverter.cs
+  PrivateEndpointConnection.cs
+  PrivateEndpointConnection.json.cs
+  PrivateEndpointConnection.PowerShell.cs
+  PrivateEndpointConnection.TypeConverter.cs
+  PrivateEndpointConnectionListResult.cs
+  PrivateEndpointConnectionListResult.json.cs
+  PrivateEndpointConnectionListResult.PowerShell.cs
+  PrivateEndpointConnectionListResult.TypeConverter.cs
+  PrivateEndpointConnectionProperties.cs
+  PrivateEndpointConnectionProperties.json.cs
+  PrivateEndpointConnectionProperties.PowerShell.cs
+  PrivateEndpointConnectionProperties.TypeConverter.cs
+  PrivateLinkResource.cs
+  PrivateLinkResource.json.cs
+  PrivateLinkResource.PowerShell.cs
+  PrivateLinkResource.TypeConverter.cs
+  PrivateLinkResourceListResult.cs
+  PrivateLinkResourceListResult.json.cs
+  PrivateLinkResourceListResult.PowerShell.cs
+  PrivateLinkResourceListResult.TypeConverter.cs
+  PrivateLinkResourceProperties.cs
+  PrivateLinkResourceProperties.json.cs
+  PrivateLinkResourceProperties.PowerShell.cs
+  PrivateLinkResourceProperties.TypeConverter.cs
+  PrivateLinkServiceConnectionState.cs
+  PrivateLinkServiceConnectionState.json.cs
+  PrivateLinkServiceConnectionState.PowerShell.cs
+  PrivateLinkServiceConnectionState.TypeConverter.cs
+  ProxyResource.cs
+  ProxyResource.json.cs
+  ProxyResource.PowerShell.cs
+  ProxyResource.TypeConverter.cs
+  Resource.cs
+  Resource.json.cs
+  Resource.PowerShell.cs
+  Resource.TypeConverter.cs
+  ScaleUpProperties.cs
+  ScaleUpProperties.json.cs
+  ScaleUpProperties.PowerShell.cs
+  ScaleUpProperties.TypeConverter.cs
+  Sku.cs
+  Sku.json.cs
+  Sku.PowerShell.cs
+  Sku.TypeConverter.cs
+  SkuCapability.cs
+  SkuCapability.json.cs
+  SkuCapability.PowerShell.cs
+  SkuCapability.TypeConverter.cs
+  SkuInformation.cs
+  SkuInformation.json.cs
+  SkuInformation.PowerShell.cs
+  SkuInformation.TypeConverter.cs
+  SkuInformationList.cs
+  SkuInformationList.json.cs
+  SkuInformationList.PowerShell.cs
+  SkuInformationList.TypeConverter.cs
+  SkuLocationInfo.cs
+  SkuLocationInfo.json.cs
+  SkuLocationInfo.PowerShell.cs
+  SkuLocationInfo.TypeConverter.cs
+  Snapshot.cs
+  Snapshot.json.cs
+  Snapshot.PowerShell.cs
+  Snapshot.TypeConverter.cs
+  SnapshotCreationData.cs
+  SnapshotCreationData.json.cs
+  SnapshotCreationData.PowerShell.cs
+  SnapshotCreationData.TypeConverter.cs
+  SnapshotList.cs
+  SnapshotList.json.cs
+  SnapshotList.PowerShell.cs
+  SnapshotList.TypeConverter.cs
+  SnapshotProperties.cs
+  SnapshotProperties.json.cs
+  SnapshotProperties.PowerShell.cs
+  SnapshotProperties.TypeConverter.cs
+  SourceCreationData.cs
+  SourceCreationData.json.cs
+  SourceCreationData.PowerShell.cs
+  SourceCreationData.TypeConverter.cs
+  SystemData.cs
+  SystemData.json.cs
+  SystemData.PowerShell.cs
+  SystemData.TypeConverter.cs
+  TrackedResource.cs
+  TrackedResource.json.cs
+  TrackedResource.PowerShell.cs
+  TrackedResource.TypeConverter.cs
+  TrackedResourceTags.cs
+  TrackedResourceTags.dictionary.cs
+  TrackedResourceTags.json.cs
+  TrackedResourceTags.PowerShell.cs
+  TrackedResourceTags.TypeConverter.cs
+  UserAssignedIdentity.cs
+  UserAssignedIdentity.json.cs
+  UserAssignedIdentity.PowerShell.cs
+  UserAssignedIdentity.TypeConverter.cs
+  VirtualNetworkRule.cs
+  VirtualNetworkRule.json.cs
+  VirtualNetworkRule.PowerShell.cs
+  VirtualNetworkRule.TypeConverter.cs
+  Volume.cs
+  Volume.json.cs
+  Volume.PowerShell.cs
+  Volume.TypeConverter.cs
+  VolumeGroup.cs
+  VolumeGroup.json.cs
+  VolumeGroup.PowerShell.cs
+  VolumeGroup.TypeConverter.cs
+  VolumeGroupList.cs
+  VolumeGroupList.json.cs
+  VolumeGroupList.PowerShell.cs
+  VolumeGroupList.TypeConverter.cs
+  VolumeGroupProperties.cs
+  VolumeGroupProperties.json.cs
+  VolumeGroupProperties.PowerShell.cs
+  VolumeGroupProperties.TypeConverter.cs
+  VolumeGroupUpdate.cs
+  VolumeGroupUpdate.json.cs
+  VolumeGroupUpdate.PowerShell.cs
+  VolumeGroupUpdate.TypeConverter.cs
+  VolumeGroupUpdateProperties.cs
+  VolumeGroupUpdateProperties.json.cs
+  VolumeGroupUpdateProperties.PowerShell.cs
+  VolumeGroupUpdateProperties.TypeConverter.cs
+  VolumeList.cs
+  VolumeList.json.cs
+  VolumeList.PowerShell.cs
+  VolumeList.TypeConverter.cs
+  VolumeNameList.cs
+  VolumeNameList.json.cs
+  VolumeNameList.PowerShell.cs
+  VolumeNameList.TypeConverter.cs
+  VolumeProperties.cs
+  VolumeProperties.json.cs
+  VolumeProperties.PowerShell.cs
+  VolumeProperties.TypeConverter.cs
+  VolumeUpdate.cs
+  VolumeUpdate.json.cs
+  VolumeUpdate.PowerShell.cs
+  VolumeUpdate.TypeConverter.cs
+  VolumeUpdateProperties.cs
+  VolumeUpdateProperties.json.cs
+  VolumeUpdateProperties.PowerShell.cs
+  VolumeUpdateProperties.TypeConverter.cs
+generated/cmdlets/
+ GetAzElasticSanOperation_List.cs
+ GetAzElasticSanSkuList_List.cs
+ GetAzElasticSanVolumeGroup_Get.cs
+ GetAzElasticSanVolumeGroup_GetViaIdentity.cs
+ GetAzElasticSanVolumeGroup_GetViaIdentityElasticSan.cs
+ GetAzElasticSanVolumeGroup_List.cs
+ GetAzElasticSanVolumeSnapshot_Get.cs
+ GetAzElasticSanVolumeSnapshot_GetViaIdentity.cs
+ GetAzElasticSanVolumeSnapshot_GetViaIdentityElasticSan.cs
+ GetAzElasticSanVolumeSnapshot_GetViaIdentityVolumegroup.cs
+ GetAzElasticSanVolumeSnapshot_List.cs
+ GetAzElasticSanVolume_Get.cs
+ GetAzElasticSanVolume_GetViaIdentity.cs
+ GetAzElasticSanVolume_GetViaIdentityElasticSan.cs
+ GetAzElasticSanVolume_GetViaIdentityVolumegroup.cs
+ GetAzElasticSanVolume_List.cs
+ GetAzElasticSan_Get.cs
+ GetAzElasticSan_GetViaIdentity.cs
+ GetAzElasticSan_List.cs
+ GetAzElasticSan_List1.cs
+ NewAzElasticSanVolumeGroup_CreateExpanded.cs
+ NewAzElasticSanVolumeGroup_CreateViaIdentityElasticSanExpanded.cs
+ NewAzElasticSanVolumeGroup_CreateViaIdentityExpanded.cs
+ NewAzElasticSanVolumeSnapshot_CreateExpanded.cs
+ NewAzElasticSanVolumeSnapshot_CreateViaIdentityElasticSanExpanded.cs
+ NewAzElasticSanVolumeSnapshot_CreateViaIdentityExpanded.cs
+ NewAzElasticSanVolumeSnapshot_CreateViaIdentityVolumegroupExpanded.cs
+ NewAzElasticSanVolume_CreateExpanded.cs
+ NewAzElasticSanVolume_CreateViaIdentityElasticSanExpanded.cs
+ NewAzElasticSanVolume_CreateViaIdentityExpanded.cs
+ NewAzElasticSanVolume_CreateViaIdentityVolumegroupExpanded.cs
+ NewAzElasticSan_CreateExpanded.cs
+ NewAzElasticSan_CreateViaIdentityExpanded.cs
+ RemoveAzElasticSanVolumeGroup_Delete.cs
+ RemoveAzElasticSanVolumeGroup_DeleteViaIdentity.cs
+ RemoveAzElasticSanVolumeGroup_DeleteViaIdentityElasticSan.cs
+ RemoveAzElasticSanVolumeSnapshot_Delete.cs
+ RemoveAzElasticSanVolumeSnapshot_DeleteViaIdentity.cs
+ RemoveAzElasticSanVolumeSnapshot_DeleteViaIdentityElasticSan.cs
+ RemoveAzElasticSanVolumeSnapshot_DeleteViaIdentityVolumegroup.cs
+ RemoveAzElasticSanVolume_Delete.cs
+ RemoveAzElasticSanVolume_DeleteViaIdentity.cs
+ RemoveAzElasticSanVolume_DeleteViaIdentityElasticSan.cs
+ RemoveAzElasticSanVolume_DeleteViaIdentityVolumegroup.cs
+ RemoveAzElasticSan_Delete.cs
+ RemoveAzElasticSan_DeleteViaIdentity.cs
+ TestAzElasticSanVolumeBackup_Backup.cs
+ TestAzElasticSanVolumeBackup_BackupExpanded.cs
+ TestAzElasticSanVolumeBackup_BackupViaIdentity.cs
+ TestAzElasticSanVolumeBackup_BackupViaIdentityElasticSan.cs
+ TestAzElasticSanVolumeBackup_BackupViaIdentityElasticSanExpanded.cs
+ TestAzElasticSanVolumeBackup_BackupViaIdentityExpanded.cs
+ TestAzElasticSanVolumeBackup_BackupViaJsonFilePath.cs
+ TestAzElasticSanVolumeBackup_BackupViaJsonString.cs
+ TestAzElasticSanVolumeRestore_Restore.cs
+ TestAzElasticSanVolumeRestore_RestoreExpanded.cs
+ TestAzElasticSanVolumeRestore_RestoreViaIdentity.cs
+ TestAzElasticSanVolumeRestore_RestoreViaIdentityElasticSan.cs
+ TestAzElasticSanVolumeRestore_RestoreViaIdentityElasticSanExpanded.cs
+ TestAzElasticSanVolumeRestore_RestoreViaIdentityExpanded.cs
+ TestAzElasticSanVolumeRestore_RestoreViaJsonFilePath.cs
+ TestAzElasticSanVolumeRestore_RestoreViaJsonString.cs
+ UpdateAzElasticSanVolumeGroup_UpdateExpanded.cs
+ UpdateAzElasticSanVolumeGroup_UpdateViaIdentityElasticSanExpanded.cs
+ UpdateAzElasticSanVolumeGroup_UpdateViaIdentityExpanded.cs
+ UpdateAzElasticSanVolume_UpdateExpanded.cs
+ UpdateAzElasticSanVolume_UpdateViaIdentityElasticSanExpanded.cs
+ UpdateAzElasticSanVolume_UpdateViaIdentityExpanded.cs
+ UpdateAzElasticSanVolume_UpdateViaIdentityVolumegroupExpanded.cs
+ UpdateAzElasticSan_UpdateExpanded.cs
+ UpdateAzElasticSan_UpdateViaIdentityExpanded.cs
+generated/
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.ElasticSan.GeneratedMSBuildEditorConfig.editorconfig

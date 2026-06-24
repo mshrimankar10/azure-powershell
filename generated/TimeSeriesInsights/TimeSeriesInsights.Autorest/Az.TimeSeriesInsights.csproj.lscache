@@ -1,0 +1,594 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.TimeSeriesInsights.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.TimeSeriesInsights/TimeSeriesInsights.Autorest/bin/Az.TimeSeriesInsights.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.TimeSeriesInsights
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.TimeSeriesInsights/TimeSeriesInsights.Autorest/bin/Az.TimeSeriesInsights.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.TimeSeriesInsights/TimeSeriesInsights.Autorest/bin/Az.TimeSeriesInsights.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.TimeSeriesInsights.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/Models/Api20200515/
+ AccessPolicyCreateOrUpdateParameters.cs
+ AccessPolicyCreateOrUpdateParameters.json.cs
+ AccessPolicyCreateOrUpdateParameters.PowerShell.cs
+ AccessPolicyCreateOrUpdateParameters.TypeConverter.cs
+ AccessPolicyListResponse.cs
+ AccessPolicyListResponse.json.cs
+ AccessPolicyListResponse.PowerShell.cs
+ AccessPolicyListResponse.TypeConverter.cs
+ AccessPolicyMutableProperties.cs
+ AccessPolicyMutableProperties.json.cs
+ AccessPolicyMutableProperties.PowerShell.cs
+ AccessPolicyMutableProperties.TypeConverter.cs
+ AccessPolicyResource.cs
+ AccessPolicyResource.json.cs
+ AccessPolicyResource.PowerShell.cs
+ AccessPolicyResource.TypeConverter.cs
+ AccessPolicyResourceProperties.cs
+ AccessPolicyResourceProperties.json.cs
+ AccessPolicyResourceProperties.PowerShell.cs
+ AccessPolicyResourceProperties.TypeConverter.cs
+ AccessPolicyUpdateParameters.cs
+ AccessPolicyUpdateParameters.json.cs
+ AccessPolicyUpdateParameters.PowerShell.cs
+ AccessPolicyUpdateParameters.TypeConverter.cs
+ AzureEventSourceProperties.cs
+ AzureEventSourceProperties.json.cs
+ AzureEventSourceProperties.PowerShell.cs
+ AzureEventSourceProperties.TypeConverter.cs
+ CloudError.cs
+ CloudError.json.cs
+ CloudError.PowerShell.cs
+ CloudError.TypeConverter.cs
+ CloudErrorBody.cs
+ CloudErrorBody.json.cs
+ CloudErrorBody.PowerShell.cs
+ CloudErrorBody.TypeConverter.cs
+ CreateOrUpdateTrackedResourceProperties.cs
+ CreateOrUpdateTrackedResourceProperties.json.cs
+ CreateOrUpdateTrackedResourceProperties.PowerShell.cs
+ CreateOrUpdateTrackedResourceProperties.TypeConverter.cs
+ CreateOrUpdateTrackedResourcePropertiesTags.cs
+ CreateOrUpdateTrackedResourcePropertiesTags.dictionary.cs
+ CreateOrUpdateTrackedResourcePropertiesTags.json.cs
+ CreateOrUpdateTrackedResourcePropertiesTags.PowerShell.cs
+ CreateOrUpdateTrackedResourcePropertiesTags.TypeConverter.cs
+ EnvironmentCreateOrUpdateParameters.cs
+ EnvironmentCreateOrUpdateParameters.json.cs
+ EnvironmentCreateOrUpdateParameters.PowerShell.cs
+ EnvironmentCreateOrUpdateParameters.TypeConverter.cs
+ EnvironmentListResponse.cs
+ EnvironmentListResponse.json.cs
+ EnvironmentListResponse.PowerShell.cs
+ EnvironmentListResponse.TypeConverter.cs
+ EnvironmentResource.cs
+ EnvironmentResource.json.cs
+ EnvironmentResource.PowerShell.cs
+ EnvironmentResource.TypeConverter.cs
+ EnvironmentResourceProperties.cs
+ EnvironmentResourceProperties.json.cs
+ EnvironmentResourceProperties.PowerShell.cs
+ EnvironmentResourceProperties.TypeConverter.cs
+ EnvironmentStateDetails.cs
+ EnvironmentStateDetails.json.cs
+ EnvironmentStateDetails.PowerShell.cs
+ EnvironmentStateDetails.TypeConverter.cs
+ EnvironmentStatus.cs
+ EnvironmentStatus.json.cs
+ EnvironmentStatus.PowerShell.cs
+ EnvironmentStatus.TypeConverter.cs
+ EnvironmentUpdateParameters.cs
+ EnvironmentUpdateParameters.json.cs
+ EnvironmentUpdateParameters.PowerShell.cs
+ EnvironmentUpdateParameters.TypeConverter.cs
+ EnvironmentUpdateParametersTags.cs
+ EnvironmentUpdateParametersTags.dictionary.cs
+ EnvironmentUpdateParametersTags.json.cs
+ EnvironmentUpdateParametersTags.PowerShell.cs
+ EnvironmentUpdateParametersTags.TypeConverter.cs
+ EventHubEventSourceCommonProperties.cs
+ EventHubEventSourceCommonProperties.json.cs
+ EventHubEventSourceCommonProperties.PowerShell.cs
+ EventHubEventSourceCommonProperties.TypeConverter.cs
+ EventHubEventSourceCreateOrUpdateParameters.cs
+ EventHubEventSourceCreateOrUpdateParameters.json.cs
+ EventHubEventSourceCreateOrUpdateParameters.PowerShell.cs
+ EventHubEventSourceCreateOrUpdateParameters.TypeConverter.cs
+ EventHubEventSourceCreationProperties.cs
+ EventHubEventSourceCreationProperties.json.cs
+ EventHubEventSourceCreationProperties.PowerShell.cs
+ EventHubEventSourceCreationProperties.TypeConverter.cs
+ EventHubEventSourceMutableProperties.cs
+ EventHubEventSourceMutableProperties.json.cs
+ EventHubEventSourceMutableProperties.PowerShell.cs
+ EventHubEventSourceMutableProperties.TypeConverter.cs
+ EventHubEventSourceResource.cs
+ EventHubEventSourceResource.json.cs
+ EventHubEventSourceResource.PowerShell.cs
+ EventHubEventSourceResource.TypeConverter.cs
+ EventHubEventSourceResourceProperties.cs
+ EventHubEventSourceResourceProperties.json.cs
+ EventHubEventSourceResourceProperties.PowerShell.cs
+ EventHubEventSourceResourceProperties.TypeConverter.cs
+ EventHubEventSourceUpdateParameters.cs
+ EventHubEventSourceUpdateParameters.json.cs
+ EventHubEventSourceUpdateParameters.PowerShell.cs
+ EventHubEventSourceUpdateParameters.TypeConverter.cs
+ EventSourceCommonProperties.cs
+ EventSourceCommonProperties.json.cs
+ EventSourceCommonProperties.PowerShell.cs
+ EventSourceCommonProperties.TypeConverter.cs
+ EventSourceCreateOrUpdateParameters.cs
+ EventSourceCreateOrUpdateParameters.json.cs
+ EventSourceCreateOrUpdateParameters.PowerShell.cs
+ EventSourceCreateOrUpdateParameters.TypeConverter.cs
+ EventSourceListResponse.cs
+ EventSourceListResponse.json.cs
+ EventSourceListResponse.PowerShell.cs
+ EventSourceListResponse.TypeConverter.cs
+ EventSourceMutableProperties.cs
+ EventSourceMutableProperties.json.cs
+ EventSourceMutableProperties.PowerShell.cs
+ EventSourceMutableProperties.TypeConverter.cs
+ EventSourceResource.cs
+ EventSourceResource.json.cs
+ EventSourceResource.PowerShell.cs
+ EventSourceResource.TypeConverter.cs
+ EventSourceUpdateParameters.cs
+ EventSourceUpdateParameters.json.cs
+ EventSourceUpdateParameters.PowerShell.cs
+ EventSourceUpdateParameters.TypeConverter.cs
+ EventSourceUpdateParametersTags.cs
+ EventSourceUpdateParametersTags.dictionary.cs
+ EventSourceUpdateParametersTags.json.cs
+ EventSourceUpdateParametersTags.PowerShell.cs
+ EventSourceUpdateParametersTags.TypeConverter.cs
+ Gen1EnvironmentCreateOrUpdateParameters.cs
+ Gen1EnvironmentCreateOrUpdateParameters.json.cs
+ Gen1EnvironmentCreateOrUpdateParameters.PowerShell.cs
+ Gen1EnvironmentCreateOrUpdateParameters.TypeConverter.cs
+ Gen1EnvironmentCreationProperties.cs
+ Gen1EnvironmentCreationProperties.json.cs
+ Gen1EnvironmentCreationProperties.PowerShell.cs
+ Gen1EnvironmentCreationProperties.TypeConverter.cs
+ Gen1EnvironmentMutableProperties.cs
+ Gen1EnvironmentMutableProperties.json.cs
+ Gen1EnvironmentMutableProperties.PowerShell.cs
+ Gen1EnvironmentMutableProperties.TypeConverter.cs
+ Gen1EnvironmentResource.cs
+ Gen1EnvironmentResource.json.cs
+ Gen1EnvironmentResource.PowerShell.cs
+ Gen1EnvironmentResource.TypeConverter.cs
+ Gen1EnvironmentResourceProperties.cs
+ Gen1EnvironmentResourceProperties.json.cs
+ Gen1EnvironmentResourceProperties.PowerShell.cs
+ Gen1EnvironmentResourceProperties.TypeConverter.cs
+ Gen1EnvironmentUpdateParameters.cs
+ Gen1EnvironmentUpdateParameters.json.cs
+ Gen1EnvironmentUpdateParameters.PowerShell.cs
+ Gen1EnvironmentUpdateParameters.TypeConverter.cs
+ Gen2EnvironmentCreateOrUpdateParameters.cs
+ Gen2EnvironmentCreateOrUpdateParameters.json.cs
+ Gen2EnvironmentCreateOrUpdateParameters.PowerShell.cs
+ Gen2EnvironmentCreateOrUpdateParameters.TypeConverter.cs
+ Gen2EnvironmentCreationProperties.cs
+ Gen2EnvironmentCreationProperties.json.cs
+ Gen2EnvironmentCreationProperties.PowerShell.cs
+ Gen2EnvironmentCreationProperties.TypeConverter.cs
+ Gen2EnvironmentMutableProperties.cs
+ Gen2EnvironmentMutableProperties.json.cs
+ Gen2EnvironmentMutableProperties.PowerShell.cs
+ Gen2EnvironmentMutableProperties.TypeConverter.cs
+ Gen2EnvironmentResource.cs
+ Gen2EnvironmentResource.json.cs
+ Gen2EnvironmentResource.PowerShell.cs
+ Gen2EnvironmentResource.TypeConverter.cs
+ Gen2EnvironmentResourceProperties.cs
+ Gen2EnvironmentResourceProperties.json.cs
+ Gen2EnvironmentResourceProperties.PowerShell.cs
+ Gen2EnvironmentResourceProperties.TypeConverter.cs
+ Gen2EnvironmentUpdateParameters.cs
+ Gen2EnvironmentUpdateParameters.json.cs
+ Gen2EnvironmentUpdateParameters.PowerShell.cs
+ Gen2EnvironmentUpdateParameters.TypeConverter.cs
+ Gen2StorageConfigurationInput.cs
+ Gen2StorageConfigurationInput.json.cs
+ Gen2StorageConfigurationInput.PowerShell.cs
+ Gen2StorageConfigurationInput.TypeConverter.cs
+ Gen2StorageConfigurationMutableProperties.cs
+ Gen2StorageConfigurationMutableProperties.json.cs
+ Gen2StorageConfigurationMutableProperties.PowerShell.cs
+ Gen2StorageConfigurationMutableProperties.TypeConverter.cs
+ Gen2StorageConfigurationOutput.cs
+ Gen2StorageConfigurationOutput.json.cs
+ Gen2StorageConfigurationOutput.PowerShell.cs
+ Gen2StorageConfigurationOutput.TypeConverter.cs
+ IngressEnvironmentStatus.cs
+ IngressEnvironmentStatus.json.cs
+ IngressEnvironmentStatus.PowerShell.cs
+ IngressEnvironmentStatus.TypeConverter.cs
+ IoTHubEventSourceCommonProperties.cs
+ IoTHubEventSourceCommonProperties.json.cs
+ IoTHubEventSourceCommonProperties.PowerShell.cs
+ IoTHubEventSourceCommonProperties.TypeConverter.cs
+ IoTHubEventSourceCreateOrUpdateParameters.cs
+ IoTHubEventSourceCreateOrUpdateParameters.json.cs
+ IoTHubEventSourceCreateOrUpdateParameters.PowerShell.cs
+ IoTHubEventSourceCreateOrUpdateParameters.TypeConverter.cs
+ IoTHubEventSourceCreationProperties.cs
+ IoTHubEventSourceCreationProperties.json.cs
+ IoTHubEventSourceCreationProperties.PowerShell.cs
+ IoTHubEventSourceCreationProperties.TypeConverter.cs
+ IoTHubEventSourceMutableProperties.cs
+ IoTHubEventSourceMutableProperties.json.cs
+ IoTHubEventSourceMutableProperties.PowerShell.cs
+ IoTHubEventSourceMutableProperties.TypeConverter.cs
+ IoTHubEventSourceResource.cs
+ IoTHubEventSourceResource.json.cs
+ IoTHubEventSourceResource.PowerShell.cs
+ IoTHubEventSourceResource.TypeConverter.cs
+ IoTHubEventSourceResourceProperties.cs
+ IoTHubEventSourceResourceProperties.json.cs
+ IoTHubEventSourceResourceProperties.PowerShell.cs
+ IoTHubEventSourceResourceProperties.TypeConverter.cs
+ IoTHubEventSourceUpdateParameters.cs
+ IoTHubEventSourceUpdateParameters.json.cs
+ IoTHubEventSourceUpdateParameters.PowerShell.cs
+ IoTHubEventSourceUpdateParameters.TypeConverter.cs
+ LocalTimestamp.cs
+ LocalTimestamp.json.cs
+ LocalTimestamp.PowerShell.cs
+ LocalTimestamp.TypeConverter.cs
+ LocalTimestampTimeZoneOffset.cs
+ LocalTimestampTimeZoneOffset.json.cs
+ LocalTimestampTimeZoneOffset.PowerShell.cs
+ LocalTimestampTimeZoneOffset.TypeConverter.cs
+ Operation.cs
+ Operation.json.cs
+ Operation.PowerShell.cs
+ Operation.TypeConverter.cs
+ OperationDisplay.cs
+ OperationDisplay.json.cs
+ OperationDisplay.PowerShell.cs
+ OperationDisplay.TypeConverter.cs
+ OperationListResult.cs
+ OperationListResult.json.cs
+ OperationListResult.PowerShell.cs
+ OperationListResult.TypeConverter.cs
+ ReferenceDataSetCreateOrUpdateParameters.cs
+ ReferenceDataSetCreateOrUpdateParameters.json.cs
+ ReferenceDataSetCreateOrUpdateParameters.PowerShell.cs
+ ReferenceDataSetCreateOrUpdateParameters.TypeConverter.cs
+ ReferenceDataSetCreationProperties.cs
+ ReferenceDataSetCreationProperties.json.cs
+ ReferenceDataSetCreationProperties.PowerShell.cs
+ ReferenceDataSetCreationProperties.TypeConverter.cs
+ ReferenceDataSetKeyProperty.cs
+ ReferenceDataSetKeyProperty.json.cs
+ ReferenceDataSetKeyProperty.PowerShell.cs
+ ReferenceDataSetKeyProperty.TypeConverter.cs
+ ReferenceDataSetListResponse.cs
+ ReferenceDataSetListResponse.json.cs
+ ReferenceDataSetListResponse.PowerShell.cs
+ ReferenceDataSetListResponse.TypeConverter.cs
+ ReferenceDataSetResource.cs
+ ReferenceDataSetResource.json.cs
+ ReferenceDataSetResource.PowerShell.cs
+ ReferenceDataSetResource.TypeConverter.cs
+ ReferenceDataSetResourceProperties.cs
+ ReferenceDataSetResourceProperties.json.cs
+ ReferenceDataSetResourceProperties.PowerShell.cs
+ ReferenceDataSetResourceProperties.TypeConverter.cs
+ ReferenceDataSetUpdateParameters.cs
+ ReferenceDataSetUpdateParameters.json.cs
+ ReferenceDataSetUpdateParameters.PowerShell.cs
+ ReferenceDataSetUpdateParameters.TypeConverter.cs
+ ReferenceDataSetUpdateParametersTags.cs
+ ReferenceDataSetUpdateParametersTags.dictionary.cs
+ ReferenceDataSetUpdateParametersTags.json.cs
+ ReferenceDataSetUpdateParametersTags.PowerShell.cs
+ ReferenceDataSetUpdateParametersTags.TypeConverter.cs
+ Resource.cs
+ Resource.json.cs
+ Resource.PowerShell.cs
+ Resource.TypeConverter.cs
+ ResourceProperties.cs
+ ResourceProperties.json.cs
+ ResourceProperties.PowerShell.cs
+ ResourceProperties.TypeConverter.cs
+ Sku.cs
+ Sku.json.cs
+ Sku.PowerShell.cs
+ Sku.TypeConverter.cs
+ TimeSeriesIdProperty.cs
+ TimeSeriesIdProperty.json.cs
+ TimeSeriesIdProperty.PowerShell.cs
+ TimeSeriesIdProperty.TypeConverter.cs
+ TrackedResource.cs
+ TrackedResource.json.cs
+ TrackedResource.PowerShell.cs
+ TrackedResource.TypeConverter.cs
+ TrackedResourceTags.cs
+ TrackedResourceTags.dictionary.cs
+ TrackedResourceTags.json.cs
+ TrackedResourceTags.PowerShell.cs
+ TrackedResourceTags.TypeConverter.cs
+ WarmStorageEnvironmentStatus.cs
+ WarmStorageEnvironmentStatus.json.cs
+ WarmStorageEnvironmentStatus.PowerShell.cs
+ WarmStorageEnvironmentStatus.TypeConverter.cs
+ WarmStoragePropertiesUsage.cs
+ WarmStoragePropertiesUsage.json.cs
+ WarmStoragePropertiesUsage.PowerShell.cs
+ WarmStoragePropertiesUsage.TypeConverter.cs
+ WarmStoragePropertiesUsageStateDetails.cs
+ WarmStoragePropertiesUsageStateDetails.json.cs
+ WarmStoragePropertiesUsageStateDetails.PowerShell.cs
+ WarmStoragePropertiesUsageStateDetails.TypeConverter.cs
+ WarmStoreConfigurationProperties.cs
+ WarmStoreConfigurationProperties.json.cs
+ WarmStoreConfigurationProperties.PowerShell.cs
+ WarmStoreConfigurationProperties.TypeConverter.cs
+generated/api/Models/
+ TimeSeriesInsightsIdentity.cs
+ TimeSeriesInsightsIdentity.json.cs
+ TimeSeriesInsightsIdentity.PowerShell.cs
+ TimeSeriesInsightsIdentity.TypeConverter.cs
+generated/api/Support/
+ AccessPolicyRole.Completer.cs
+ AccessPolicyRole.cs
+ AccessPolicyRole.TypeConverter.cs
+ DataStringComparisonBehavior.Completer.cs
+ DataStringComparisonBehavior.cs
+ DataStringComparisonBehavior.TypeConverter.cs
+ IngressState.Completer.cs
+ IngressState.cs
+ IngressState.TypeConverter.cs
+ Kind.Completer.cs
+ Kind.cs
+ Kind.TypeConverter.cs
+ LocalTimestampFormat.Completer.cs
+ LocalTimestampFormat.cs
+ LocalTimestampFormat.TypeConverter.cs
+ PropertyType.Completer.cs
+ PropertyType.cs
+ PropertyType.TypeConverter.cs
+ ProvisioningState.Completer.cs
+ ProvisioningState.cs
+ ProvisioningState.TypeConverter.cs
+ ReferenceDataKeyPropertyType.Completer.cs
+ ReferenceDataKeyPropertyType.cs
+ ReferenceDataKeyPropertyType.TypeConverter.cs
+ SkuName.Completer.cs
+ SkuName.cs
+ SkuName.TypeConverter.cs
+ StorageLimitExceededBehavior.Completer.cs
+ StorageLimitExceededBehavior.cs
+ StorageLimitExceededBehavior.TypeConverter.cs
+ WarmStoragePropertiesState.Completer.cs
+ WarmStoragePropertiesState.cs
+ WarmStoragePropertiesState.TypeConverter.cs
+generated/
+ api/TimeSeriesInsights.cs
+ cmdlets/
+  GetAzTimeSeriesInsightsAccessPolicy_Get.cs
+  GetAzTimeSeriesInsightsAccessPolicy_GetViaIdentity.cs
+  GetAzTimeSeriesInsightsAccessPolicy_List.cs
+  GetAzTimeSeriesInsightsEnvironment_Get.cs
+  GetAzTimeSeriesInsightsEnvironment_GetViaIdentity.cs
+  GetAzTimeSeriesInsightsEnvironment_List.cs
+  GetAzTimeSeriesInsightsEnvironment_List1.cs
+  GetAzTimeSeriesInsightsEventSource_Get.cs
+  GetAzTimeSeriesInsightsEventSource_GetViaIdentity.cs
+  GetAzTimeSeriesInsightsEventSource_List.cs
+  GetAzTimeSeriesInsightsOperation_List.cs
+  GetAzTimeSeriesInsightsReferenceDataSet_Get.cs
+  GetAzTimeSeriesInsightsReferenceDataSet_GetViaIdentity.cs
+  GetAzTimeSeriesInsightsReferenceDataSet_List.cs
+  NewAzTimeSeriesInsightsAccessPolicy_CreateExpanded.cs
+  NewAzTimeSeriesInsightsEnvironment_Create.cs
+  NewAzTimeSeriesInsightsEnvironment_CreateExpanded.cs
+  NewAzTimeSeriesInsightsEventSource_Create.cs
+  NewAzTimeSeriesInsightsEventSource_CreateExpanded.cs
+  NewAzTimeSeriesInsightsReferenceDataSet_CreateExpanded.cs
+  RemoveAzTimeSeriesInsightsAccessPolicy_Delete.cs
+  RemoveAzTimeSeriesInsightsAccessPolicy_DeleteViaIdentity.cs
+  RemoveAzTimeSeriesInsightsEnvironment_Delete.cs
+  RemoveAzTimeSeriesInsightsEnvironment_DeleteViaIdentity.cs
+  RemoveAzTimeSeriesInsightsEventSource_Delete.cs
+  RemoveAzTimeSeriesInsightsEventSource_DeleteViaIdentity.cs
+  RemoveAzTimeSeriesInsightsReferenceDataSet_Delete.cs
+  RemoveAzTimeSeriesInsightsReferenceDataSet_DeleteViaIdentity.cs
+  UpdateAzTimeSeriesInsightsAccessPolicy_UpdateExpanded.cs
+  UpdateAzTimeSeriesInsightsAccessPolicy_UpdateViaIdentityExpanded.cs
+  UpdateAzTimeSeriesInsightsEnvironment_UpdateExpanded.cs
+  UpdateAzTimeSeriesInsightsEnvironment_UpdateViaIdentityExpanded.cs
+  UpdateAzTimeSeriesInsightsEventSource_UpdateExpanded.cs
+  UpdateAzTimeSeriesInsightsEventSource_UpdateViaIdentityExpanded.cs
+  UpdateAzTimeSeriesInsightsReferenceDataSet_UpdateExpanded.cs
+  UpdateAzTimeSeriesInsightsReferenceDataSet_UpdateViaIdentityExpanded.cs
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.TimeSeriesInsights.GeneratedMSBuildEditorConfig.editorconfig

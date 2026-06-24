@@ -1,0 +1,109 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.Cmdlets.DataLakeAnalytics
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.DataLakeAnalytics/Microsoft.Azure.PowerShell.Cmdlets.DataLakeAnalytics.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.Commands.DataLakeAnalytics
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.DataLakeAnalytics/Microsoft.Azure.PowerShell.Cmdlets.DataLakeAnalytics.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.DataLakeAnalytics/Microsoft.Azure.PowerShell.Cmdlets.DataLakeAnalytics.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.Cmdlets.DataLakeAnalytics.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+Commands/
+ AddAzureRmDataLakeAnalyticsDataSource.cs
+ AddAzureRmDataLakeAnalyticsFirewallRule.cs
+ GetAzureRmDataLakeAnalyticsAccount.cs
+ GetAzureRmDataLakeAnalyticsCatalogItem.cs
+ GetAzureRmDataLakeAnalyticsCatalogItemAclEntry.cs
+ GetAzureRmDataLakeAnalyticsComputePolicy.cs
+ GetAzureRmDataLakeAnalyticsDataSource.cs
+ GetAzureRmDataLakeAnalyticsFirewallRule.cs
+ GetAzureRmDataLakeAnalyticsJob.cs
+ GetAzureRmDataLakeAnalyticsJobPipeline.cs
+ GetAzureRmDataLakeAnalyticsJobRecurrence.cs
+ NewAzureRmDataLakeAnalyticsAccount.cs
+ NewAzureRmDataLakeAnalyticsCatalogCredential.cs
+ NewAzureRmDataLakeAnalyticsComputePolicy.cs
+ RemoveAzureRmDataLakeAnalyticsAccount.cs
+ RemoveAzureRmDataLakeAnalyticsCatalogCredential.cs
+ RemoveAzureRmDataLakeAnalyticsCatalogItemAclEntry.cs
+ RemoveAzureRmDataLakeAnalyticsComputePolicy.cs
+ RemoveAzureRmDataLakeAnalyticsDataSource.cs
+ RemoveAzureRmDataLakeAnalyticsFirewallRule.cs
+ SetAzureRmDataLakeAnalyticsAccount.cs
+ SetAzureRmDataLakeAnalyticsCatalogCredential.cs
+ SetAzureRmDataLakeAnalyticsCatalogItemAclEntry.cs
+ SetAzureRmDataLakeAnalyticsDataSource.cs
+ SetAzureRmDataLakeAnalyticsFirewallRule.cs
+ StopAzureRmDataLakeAnalyticsJob.cs
+ SubmitAzureRmDataLakeAnalyticsJob.cs
+ TestAzureRmDataLakeAnalyticsAccount.cs
+ TestAzureRmDataLakeAnalyticsCatalogItem.cs
+ UpdateAzureRmDataLakeAnalyticsComputePolicy.cs
+ WaitAzureRmDataLakeAnalyticsJob.cs
+Models/
+ AdlDataSource.cs
+ CatalogPathInstance.cs
+ DataLakeAnalyticsClient.cs
+ DataLakeAnalyticsCmdletBase.cs
+ DataLakeAnalyticsEnums.cs
+ DataLakeAnalyticsFirewallRule.cs
+ PSDataLakeAnalyticsAccount.cs
+ PSDataLakeAnalyticsAccountBasic.cs
+ PSDataLakeAnalyticsAcl.cs
+ PSDataLakeAnalyticsComputePolicy.cs
+ PSDataLakeStoreAccountInfo.cs
+ PSJobInformationBasic.cs
+ PSJobPipelineInformation.cs
+ PSJobRecurrenceInformation.cs
+ PSStorageAccountInfo.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/
+ AssemblyInfo.cs
+ Resources.Designer.cs
+
+[analyzerConfigFiles]
+obj/Debug/DataLakeAnalytics.GeneratedMSBuildEditorConfig.editorconfig

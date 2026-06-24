@@ -1,0 +1,553 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.Sphere.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.Sphere/Sphere.Autorest/bin/Az.Sphere.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.Sphere
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.Sphere/Sphere.Autorest/bin/Az.Sphere.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.Sphere/Sphere.Autorest/bin/Az.Sphere.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.Sphere.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/Models/
+ Any.cs
+ Any.json.cs
+ Any.PowerShell.cs
+ Any.TypeConverter.cs
+ Catalog.cs
+ Catalog.json.cs
+ Catalog.PowerShell.cs
+ Catalog.TypeConverter.cs
+ CatalogListResult.cs
+ CatalogListResult.json.cs
+ CatalogListResult.PowerShell.cs
+ CatalogListResult.TypeConverter.cs
+ CatalogProperties.cs
+ CatalogProperties.json.cs
+ CatalogProperties.PowerShell.cs
+ CatalogProperties.TypeConverter.cs
+ CatalogUpdate.cs
+ CatalogUpdate.json.cs
+ CatalogUpdate.PowerShell.cs
+ CatalogUpdate.TypeConverter.cs
+ CatalogUpdateTags.cs
+ CatalogUpdateTags.dictionary.cs
+ CatalogUpdateTags.json.cs
+ CatalogUpdateTags.PowerShell.cs
+ CatalogUpdateTags.TypeConverter.cs
+ Certificate.cs
+ Certificate.json.cs
+ Certificate.PowerShell.cs
+ Certificate.TypeConverter.cs
+ CertificateChainResponse.cs
+ CertificateChainResponse.json.cs
+ CertificateChainResponse.PowerShell.cs
+ CertificateChainResponse.TypeConverter.cs
+ CertificateListResult.cs
+ CertificateListResult.json.cs
+ CertificateListResult.PowerShell.cs
+ CertificateListResult.TypeConverter.cs
+ CertificateProperties.cs
+ CertificateProperties.json.cs
+ CertificateProperties.PowerShell.cs
+ CertificateProperties.TypeConverter.cs
+ ClaimDevicesRequest.cs
+ ClaimDevicesRequest.json.cs
+ ClaimDevicesRequest.PowerShell.cs
+ ClaimDevicesRequest.TypeConverter.cs
+ CountDeviceResponse.cs
+ CountDeviceResponse.json.cs
+ CountDeviceResponse.PowerShell.cs
+ CountDeviceResponse.TypeConverter.cs
+ CountDevicesResponse.cs
+ CountDevicesResponse.json.cs
+ CountDevicesResponse.PowerShell.cs
+ CountDevicesResponse.TypeConverter.cs
+ CountElementsResponse.cs
+ CountElementsResponse.json.cs
+ CountElementsResponse.PowerShell.cs
+ CountElementsResponse.TypeConverter.cs
+ Deployment.cs
+ Deployment.json.cs
+ Deployment.PowerShell.cs
+ Deployment.TypeConverter.cs
+ DeploymentListResult.cs
+ DeploymentListResult.json.cs
+ DeploymentListResult.PowerShell.cs
+ DeploymentListResult.TypeConverter.cs
+ DeploymentProperties.cs
+ DeploymentProperties.json.cs
+ DeploymentProperties.PowerShell.cs
+ DeploymentProperties.TypeConverter.cs
+ Device.cs
+ Device.json.cs
+ Device.PowerShell.cs
+ Device.TypeConverter.cs
+ DeviceGroup.cs
+ DeviceGroup.json.cs
+ DeviceGroup.PowerShell.cs
+ DeviceGroup.TypeConverter.cs
+ DeviceGroupListResult.cs
+ DeviceGroupListResult.json.cs
+ DeviceGroupListResult.PowerShell.cs
+ DeviceGroupListResult.TypeConverter.cs
+ DeviceGroupProperties.cs
+ DeviceGroupProperties.json.cs
+ DeviceGroupProperties.PowerShell.cs
+ DeviceGroupProperties.TypeConverter.cs
+ DeviceGroupUpdate.cs
+ DeviceGroupUpdate.json.cs
+ DeviceGroupUpdate.PowerShell.cs
+ DeviceGroupUpdate.TypeConverter.cs
+ DeviceGroupUpdateProperties.cs
+ DeviceGroupUpdateProperties.json.cs
+ DeviceGroupUpdateProperties.PowerShell.cs
+ DeviceGroupUpdateProperties.TypeConverter.cs
+ DeviceInsight.cs
+ DeviceInsight.json.cs
+ DeviceInsight.PowerShell.cs
+ DeviceInsight.TypeConverter.cs
+ DeviceListResult.cs
+ DeviceListResult.json.cs
+ DeviceListResult.PowerShell.cs
+ DeviceListResult.TypeConverter.cs
+ DevicePatchProperties.cs
+ DevicePatchProperties.json.cs
+ DevicePatchProperties.PowerShell.cs
+ DevicePatchProperties.TypeConverter.cs
+ DeviceProperties.cs
+ DeviceProperties.json.cs
+ DeviceProperties.PowerShell.cs
+ DeviceProperties.TypeConverter.cs
+ DeviceUpdate.cs
+ DeviceUpdate.json.cs
+ DeviceUpdate.PowerShell.cs
+ DeviceUpdate.TypeConverter.cs
+ DeviceUpdateProperties.cs
+ DeviceUpdateProperties.json.cs
+ DeviceUpdateProperties.PowerShell.cs
+ DeviceUpdateProperties.TypeConverter.cs
+ ErrorAdditionalInfo.cs
+ ErrorAdditionalInfo.json.cs
+ ErrorAdditionalInfo.PowerShell.cs
+ ErrorAdditionalInfo.TypeConverter.cs
+ ErrorDetail.cs
+ ErrorDetail.json.cs
+ ErrorDetail.PowerShell.cs
+ ErrorDetail.TypeConverter.cs
+ ErrorResponse.cs
+ ErrorResponse.json.cs
+ ErrorResponse.PowerShell.cs
+ ErrorResponse.TypeConverter.cs
+ GenerateCapabilityImageRequest.cs
+ GenerateCapabilityImageRequest.json.cs
+ GenerateCapabilityImageRequest.PowerShell.cs
+ GenerateCapabilityImageRequest.TypeConverter.cs
+ Image.cs
+ Image.json.cs
+ Image.PowerShell.cs
+ Image.TypeConverter.cs
+ ImageListResult.cs
+ ImageListResult.json.cs
+ ImageListResult.PowerShell.cs
+ ImageListResult.TypeConverter.cs
+ ImageProperties.cs
+ ImageProperties.json.cs
+ ImageProperties.PowerShell.cs
+ ImageProperties.TypeConverter.cs
+ ListDeviceGroupsRequest.cs
+ ListDeviceGroupsRequest.json.cs
+ ListDeviceGroupsRequest.PowerShell.cs
+ ListDeviceGroupsRequest.TypeConverter.cs
+ Operation.cs
+ Operation.json.cs
+ Operation.PowerShell.cs
+ Operation.TypeConverter.cs
+ OperationDisplay.cs
+ OperationDisplay.json.cs
+ OperationDisplay.PowerShell.cs
+ OperationDisplay.TypeConverter.cs
+ OperationListResult.cs
+ OperationListResult.json.cs
+ OperationListResult.PowerShell.cs
+ OperationListResult.TypeConverter.cs
+ PagedDeviceInsight.cs
+ PagedDeviceInsight.json.cs
+ PagedDeviceInsight.PowerShell.cs
+ PagedDeviceInsight.TypeConverter.cs
+ Product.cs
+ Product.json.cs
+ Product.PowerShell.cs
+ Product.TypeConverter.cs
+ ProductListResult.cs
+ ProductListResult.json.cs
+ ProductListResult.PowerShell.cs
+ ProductListResult.TypeConverter.cs
+ ProductProperties.cs
+ ProductProperties.json.cs
+ ProductProperties.PowerShell.cs
+ ProductProperties.TypeConverter.cs
+ ProductUpdate.cs
+ ProductUpdate.json.cs
+ ProductUpdate.PowerShell.cs
+ ProductUpdate.TypeConverter.cs
+ ProductUpdateProperties.cs
+ ProductUpdateProperties.json.cs
+ ProductUpdateProperties.PowerShell.cs
+ ProductUpdateProperties.TypeConverter.cs
+ ProofOfPossessionNonceRequest.cs
+ ProofOfPossessionNonceRequest.json.cs
+ ProofOfPossessionNonceRequest.PowerShell.cs
+ ProofOfPossessionNonceRequest.TypeConverter.cs
+ ProofOfPossessionNonceResponse.cs
+ ProofOfPossessionNonceResponse.json.cs
+ ProofOfPossessionNonceResponse.PowerShell.cs
+ ProofOfPossessionNonceResponse.TypeConverter.cs
+ ProxyResource.cs
+ ProxyResource.json.cs
+ ProxyResource.PowerShell.cs
+ ProxyResource.TypeConverter.cs
+ Resource.cs
+ Resource.json.cs
+ Resource.PowerShell.cs
+ Resource.TypeConverter.cs
+ SignedCapabilityImageResponse.cs
+ SignedCapabilityImageResponse.json.cs
+ SignedCapabilityImageResponse.PowerShell.cs
+ SignedCapabilityImageResponse.TypeConverter.cs
+ SphereIdentity.cs
+ SphereIdentity.json.cs
+ SphereIdentity.PowerShell.cs
+ SphereIdentity.TypeConverter.cs
+ SystemData.cs
+ SystemData.json.cs
+ SystemData.PowerShell.cs
+ SystemData.TypeConverter.cs
+ TrackedResource.cs
+ TrackedResource.json.cs
+ TrackedResource.PowerShell.cs
+ TrackedResource.TypeConverter.cs
+ TrackedResourceTags.cs
+ TrackedResourceTags.dictionary.cs
+ TrackedResourceTags.json.cs
+ TrackedResourceTags.PowerShell.cs
+ TrackedResourceTags.TypeConverter.cs
+generated/
+ api/Sphere.cs
+ cmdlets/
+  GetAzSphereCatalogDeviceGroup_ListExpanded.cs
+  GetAzSphereCatalogDeviceInsight_List.cs
+  GetAzSphereCatalogDevice_List.cs
+  GetAzSphereCatalog_Get.cs
+  GetAzSphereCatalog_GetViaIdentity.cs
+  GetAzSphereCatalog_List.cs
+  GetAzSphereCatalog_List1.cs
+  GetAzSphereCertificateCertChain_Retrieve.cs
+  GetAzSphereCertificateCertChain_RetrieveViaIdentity.cs
+  GetAzSphereCertificateCertChain_RetrieveViaIdentityCatalog.cs
+  GetAzSphereCertificateProof_RetrieveExpanded.cs
+  GetAzSphereCertificateProof_RetrieveViaIdentityCatalogExpanded.cs
+  GetAzSphereCertificateProof_RetrieveViaIdentityExpanded.cs
+  GetAzSphereCertificate_Get.cs
+  GetAzSphereCertificate_GetViaIdentity.cs
+  GetAzSphereCertificate_GetViaIdentityCatalog.cs
+  GetAzSphereCertificate_List.cs
+  GetAzSphereDeployment_Get.cs
+  GetAzSphereDeployment_GetViaIdentity.cs
+  GetAzSphereDeployment_GetViaIdentityCatalog.cs
+  GetAzSphereDeployment_GetViaIdentityDeviceGroup.cs
+  GetAzSphereDeployment_GetViaIdentityProduct.cs
+  GetAzSphereDeployment_List.cs
+  GetAzSphereDeviceGroup_Get.cs
+  GetAzSphereDeviceGroup_GetViaIdentity.cs
+  GetAzSphereDeviceGroup_GetViaIdentityCatalog.cs
+  GetAzSphereDeviceGroup_GetViaIdentityProduct.cs
+  GetAzSphereDeviceGroup_List.cs
+  GetAzSphereDevice_Get.cs
+  GetAzSphereDevice_GetViaIdentity.cs
+  GetAzSphereDevice_GetViaIdentityCatalog.cs
+  GetAzSphereDevice_GetViaIdentityDeviceGroup.cs
+  GetAzSphereDevice_GetViaIdentityProduct.cs
+  GetAzSphereDevice_List.cs
+  GetAzSphereImage_Get.cs
+  GetAzSphereImage_GetViaIdentity.cs
+  GetAzSphereImage_GetViaIdentityCatalog.cs
+  GetAzSphereImage_List.cs
+  GetAzSphereOperation_List.cs
+  GetAzSphereProduct_Get.cs
+  GetAzSphereProduct_GetViaIdentity.cs
+  GetAzSphereProduct_GetViaIdentityCatalog.cs
+  GetAzSphereProduct_List.cs
+  InvokeAzSphereCountCatalogDevice_CountDevice.cs
+  InvokeAzSphereCountCatalogDevice_CountDeviceViaIdentity.cs
+  InvokeAzSphereCountDeviceGroupDevice_CountDevice.cs
+  InvokeAzSphereCountDeviceGroupDevice_CountDeviceViaIdentity.cs
+  InvokeAzSphereCountDeviceGroupDevice_CountDeviceViaIdentityCatalog.cs
+  InvokeAzSphereCountDeviceGroupDevice_CountDeviceViaIdentityProduct.cs
+  InvokeAzSphereCountProductDevice_CountDevice.cs
+  InvokeAzSphereCountProductDevice_CountDeviceViaIdentity.cs
+  InvokeAzSphereCountProductDevice_CountDeviceViaIdentityCatalog.cs
+  NewAzSphereCatalog_CreateExpanded.cs
+  NewAzSphereCatalog_CreateViaJsonFilePath.cs
+  NewAzSphereCatalog_CreateViaJsonString.cs
+  NewAzSphereDeployment_CreateExpanded.cs
+  NewAzSphereDeployment_CreateViaJsonFilePath.cs
+  NewAzSphereDeployment_CreateViaJsonString.cs
+  NewAzSphereDeviceCapabilityImage_GenerateExpanded.cs
+  NewAzSphereDeviceCapabilityImage_GenerateViaIdentityCatalogExpanded.cs
+  NewAzSphereDeviceCapabilityImage_GenerateViaIdentityDeviceGroupExpanded.cs
+  NewAzSphereDeviceCapabilityImage_GenerateViaIdentityProductExpanded.cs
+  NewAzSphereDeviceCapabilityImage_GenerateViaJsonFilePath.cs
+  NewAzSphereDeviceCapabilityImage_GenerateViaJsonString.cs
+  NewAzSphereDeviceGroup_CreateExpanded.cs
+  NewAzSphereDeviceGroup_CreateViaJsonFilePath.cs
+  NewAzSphereDeviceGroup_CreateViaJsonString.cs
+  NewAzSphereDevice_CreateExpanded.cs
+  NewAzSphereDevice_CreateViaJsonFilePath.cs
+  NewAzSphereDevice_CreateViaJsonString.cs
+  NewAzSphereImage_CreateExpanded.cs
+  NewAzSphereImage_CreateViaJsonFilePath.cs
+  NewAzSphereImage_CreateViaJsonString.cs
+  NewAzSphereProductDefaultDeviceGroup_Generate.cs
+  NewAzSphereProductDefaultDeviceGroup_GenerateViaIdentity.cs
+  NewAzSphereProductDefaultDeviceGroup_GenerateViaIdentityCatalog.cs
+  NewAzSphereProduct_CreateExpanded.cs
+  NewAzSphereProduct_CreateViaJsonFilePath.cs
+  NewAzSphereProduct_CreateViaJsonString.cs
+  RemoveAzSphereCatalog_Delete.cs
+  RemoveAzSphereCatalog_DeleteViaIdentity.cs
+  RemoveAzSphereDeviceGroup_Delete.cs
+  RemoveAzSphereDeviceGroup_DeleteViaIdentity.cs
+  RemoveAzSphereDeviceGroup_DeleteViaIdentityCatalog.cs
+  RemoveAzSphereDeviceGroup_DeleteViaIdentityProduct.cs
+  RemoveAzSphereProduct_Delete.cs
+  RemoveAzSphereProduct_DeleteViaIdentity.cs
+  RemoveAzSphereProduct_DeleteViaIdentityCatalog.cs
+  SetAzSphereCatalog_UpdateExpanded.cs
+  SetAzSphereCatalog_UpdateViaJsonFilePath.cs
+  SetAzSphereCatalog_UpdateViaJsonString.cs
+  SetAzSphereDeployment_UpdateExpanded.cs
+  SetAzSphereDeployment_UpdateViaJsonFilePath.cs
+  SetAzSphereDeployment_UpdateViaJsonString.cs
+  SetAzSphereDeviceGroup_UpdateExpanded.cs
+  SetAzSphereDeviceGroup_UpdateViaJsonFilePath.cs
+  SetAzSphereDeviceGroup_UpdateViaJsonString.cs
+  SetAzSphereDevice_UpdateExpanded.cs
+  SetAzSphereDevice_UpdateViaJsonFilePath.cs
+  SetAzSphereDevice_UpdateViaJsonString.cs
+  SetAzSphereImage_UpdateExpanded.cs
+  SetAzSphereImage_UpdateViaJsonFilePath.cs
+  SetAzSphereImage_UpdateViaJsonString.cs
+  SetAzSphereProduct_UpdateExpanded.cs
+  SetAzSphereProduct_UpdateViaJsonFilePath.cs
+  SetAzSphereProduct_UpdateViaJsonString.cs
+  UpdateAzSphereCatalog_UpdateExpanded.cs
+  UpdateAzSphereCatalog_UpdateViaIdentityExpanded.cs
+  UpdateAzSphereCatalog_UpdateViaJsonFilePath.cs
+  UpdateAzSphereCatalog_UpdateViaJsonString.cs
+  UpdateAzSphereDeviceGroup_UpdateExpanded.cs
+  UpdateAzSphereDeviceGroup_UpdateViaIdentityCatalogExpanded.cs
+  UpdateAzSphereDeviceGroup_UpdateViaIdentityExpanded.cs
+  UpdateAzSphereDeviceGroup_UpdateViaIdentityProductExpanded.cs
+  UpdateAzSphereDeviceGroup_UpdateViaJsonFilePath.cs
+  UpdateAzSphereDeviceGroup_UpdateViaJsonString.cs
+  UpdateAzSphereDevice_UpdateExpanded.cs
+  UpdateAzSphereDevice_UpdateViaIdentityCatalogExpanded.cs
+  UpdateAzSphereDevice_UpdateViaIdentityDeviceGroupExpanded.cs
+  UpdateAzSphereDevice_UpdateViaIdentityExpanded.cs
+  UpdateAzSphereDevice_UpdateViaIdentityProductExpanded.cs
+  UpdateAzSphereDevice_UpdateViaJsonFilePath.cs
+  UpdateAzSphereDevice_UpdateViaJsonString.cs
+  UpdateAzSphereProduct_UpdateExpanded.cs
+  UpdateAzSphereProduct_UpdateViaIdentityCatalogExpanded.cs
+  UpdateAzSphereProduct_UpdateViaIdentityExpanded.cs
+  UpdateAzSphereProduct_UpdateViaJsonFilePath.cs
+  UpdateAzSphereProduct_UpdateViaJsonString.cs
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.Sphere.GeneratedMSBuildEditorConfig.editorconfig

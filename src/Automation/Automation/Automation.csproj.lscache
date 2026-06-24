@@ -1,0 +1,257 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.Cmdlets.Automation
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.Automation/Microsoft.Azure.PowerShell.Cmdlets.Automation.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.Commands.Automation
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.Automation/Microsoft.Azure.PowerShell.Cmdlets.Automation.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.Automation/Microsoft.Azure.PowerShell.Cmdlets.Automation.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.Cmdlets.Automation.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+Cmdlet/
+ AzureAutomationBaseCmdlet.cs
+ ExportAzureAutomationDscConfiguration.cs
+ ExportAzureAutomationDscNodeReportContent.cs
+ ExportAzureAutomationRunbook.cs
+ GetAzureAutomationAccount.cs
+ GetAzureAutomationAgentRegistrationInformation.cs
+ GetAzureAutomationCertificate.cs
+ GetAzureAutomationConfiguration.cs
+ GetAzureAutomationConnection.cs
+ GetAzureAutomationCredential.cs
+ GetAzureAutomationDscCompilationJob.cs
+ GetAzureAutomationDscCompilationJobOutput.cs
+ GetAzureAutomationDscNode.cs
+ GetAzureAutomationDscNodeConfiguration.cs
+ GetAzureAutomationDscNodeConfigurationDeployment.cs
+ GetAzureAutomationDscNodeConfigurationDeploymentSchedule.cs
+ GetAzureAutomationDscNodeReport.cs
+ GetAzureAutomationDscOnboardingMetaconfig.cs
+ GetAzureAutomationHybridRunbookWorker.cs
+ GetAzureAutomationHybridRunbookWorkerGroup.cs
+ GetAzureAutomationHybridWorkerGroup.cs
+ GetAzureAutomationJob.cs
+ GetAzureAutomationJobOutput.cs
+ GetAzureAutomationJobOutputRecord.cs
+ GetAzureAutomationModule.cs
+ GetAzureAutomationPython3Package.cs
+ GetAzureAutomationRunbook.cs
+ GetAzureAutomationSchedule.cs
+ GetAzureAutomationScheduledRunbook.cs
+ GetAzureAutomationSourceControl.cs
+ GetAzureAutomationSourceControlSyncJob.cs
+ GetAzureAutomationSourceControlSyncJobOutput.cs
+ GetAzureAutomationVariable.cs
+ GetAzureAutomationWebhook.cs
+ ImportAzureAutomationDscConfiguration.cs
+ ImportAzureAutomationDscNodeConfiguration.cs
+ ImportAzureAutomationRunbook.cs
+ MoveAzureAutomationHybridRunbookWorker.cs
+ NewAzureAutomationAccount.cs
+ NewAzureAutomationCertificate.cs
+ NewAzureAutomationConnection.cs
+ NewAzureAutomationCredential.cs
+ NewAzureAutomationHybridRunbookWorker.cs
+ NewAzureAutomationHybridRunbookWorkerGroup.cs
+ NewAzureAutomationKey.cs
+ NewAzureAutomationModule.cs
+ NewAzureAutomationPython3Package.cs
+ NewAzureAutomationRunbook.cs
+ NewAzureAutomationSchedule.cs
+ NewAzureAutomationSourceControl.cs
+ NewAzureAutomationVariable.cs
+ NewAzureAutomationWebhook.cs
+ PublishAzureAutomationRunbook.cs
+ RegisterAzureAutomationDscNode.cs
+ RegisterAzureAutomationScheduledRunbook.cs
+ RemoveAzureAutomationAccount.cs
+ RemoveAzureAutomationCertificate.cs
+ RemoveAzureAutomationConnection.cs
+ RemoveAzureAutomationConnectionType.cs
+ RemoveAzureAutomationCredential.cs
+ RemoveAzureAutomationDscConfiguration.cs
+ RemoveAzureAutomationDscNodeConfiguration.cs
+ RemoveAzureAutomationHybridRunbookWorker.cs
+ RemoveAzureAutomationHybridRunbookWorkerGroup.cs
+ RemoveAzureAutomationHybridWorkerGroup.cs
+ RemoveAzureAutomationModule.cs
+ RemoveAzureAutomationPython3Package.cs
+ RemoveAzureAutomationRunbook.cs
+ RemoveAzureAutomationSchedule.cs
+ RemoveAzureAutomationSourceControl.cs
+ RemoveAzureAutomationVariable.cs
+ RemoveAzureAutomationWebhook.cs
+ ResumeAzureAutomationJob.cs
+ SetAzureAutomationAccount.cs
+ SetAzureAutomationCertificate.cs
+ SetAzureAutomationConnection.cs
+ SetAzureAutomationCredential.cs
+ SetAzureAutomationDscNode.cs
+ SetAzureAutomationHybridRunbookWorkerGroup.cs
+ SetAzureAutomationModule.cs
+ SetAzureAutomationPython3Package.cs
+ SetAzureAutomationRunbook.cs
+ SetAzureAutomationSchedule.cs
+ SetAzureAutomationVariable.cs
+ SetAzureAutomationWebhook.cs
+ StartAzureAutomationDscCompilationJob.cs
+ StartAzureAutomationDscNodeConfigurationDeployment.cs
+ StartAzureAutomationRunbook.cs
+ StartAzureAutomationSourceControlSyncJob.cs
+ StopAzureAutomationDscNodeConfigurationDeployment.cs
+ StopAzureAutomationJob.cs
+ SuspendAzureAutomationJob.cs
+ UnregisterAzureAutomationDscNode.cs
+ UnregisterAzureAutomationScheduledRunbook.cs
+ UpdateAzureAutomationPython3Package.cs
+ UpdateAzureAutomationSourceControl.cs
+ UpdateManagement/
+  GetAzureAutomationSoftwareUpdateConfiguration.cs
+  GetAzureAutomationSoftwareUpdateMachineRun.cs
+  GetAzureAutomationSoftwareUpdateRun.cs
+  NewAutomationUpdateManagementAzureQuery.cs
+  NewAzureAutomationSoftwareUpdateConfiguration.cs
+  RemoveAzureAutomationSoftwareUpdateConfiguration.cs
+Common/
+ AutomationCmdletParameterSet.cs
+ AutomationPSClient.cs
+ AutomationPSClientDSC.cs
+ AutomationPSClientSoftwareUpdateConfiguration.cs
+ AutomationPSClientSourceControl.cs
+ AutomationPSClientWebhook.cs
+ AzureAutomationErrorInfo.cs
+ AzureAutomationErrorResponseMessage.cs
+ AzureAutomationOperationException.cs
+ CompilationJobStreamType.cs
+ Constants.cs
+ DscNodeStatus.cs
+ IAutomationPSClient.cs
+ PowershellJsonConverter.cs
+ RequestSettings.cs
+ Requires.cs
+ RequiresExtensions.cs
+ ResourceCommonException.cs
+ ResourceNotFoundException.cs
+ RunbookTypeSdkValue.cs
+ SourceControlSyncJobStreamType.cs
+ StreamType.cs
+ Utils.cs
+ VariableUpdateFields.cs
+DataContract/
+ ErrorResponse.cs
+ OdataError.cs
+ OdataErrorMessage.cs
+Model/
+ AgentRegistration.cs
+ AutomationAccount.cs
+ BaseProperties.cs
+ CertificateInfo.cs
+ CompilationJob.cs
+ Configuration.cs
+ ConfigurationContent.cs
+ Connection.cs
+ CredentialInfo.cs
+ DayOfWeek.cs
+ DscNode.cs
+ DscNodeReport.cs
+ DscOnboardingMetaconfig.cs
+ HybridRunbookWorker.cs
+ HybridRunbookWorkerGroup.cs
+ Job.cs
+ JobSchedule.cs
+ JobStream.cs
+ JobStreamRecord.cs
+ Module.cs
+ MonthlyScheduleOptions.cs
+ NodeConfiguration.cs
+ NodeConfigurationDeployment.cs
+ NodeConfigurationDeploymentSchedule.cs
+ Runbook.cs
+ Schedule.cs
+ ScheduleFrequency.cs
+ SourceControl.cs
+ SourceControlSyncJob.cs
+ SourceControlSyncJobRecord.cs
+ SourceControlSyncJobStream.cs
+ SourceControlSyncJobStreamRecord.cs
+ UpdateManagement/
+  AzureQueryProperties.cs
+  BaseArmProperties.cs
+  ComputerType.cs
+  ErrorInfo.cs
+  LinuxConfiguration.cs
+  LinuxPackageClasses.cs
+  NonAzureQueryProperties.cs
+  OperatingSystemType.cs
+  RebootSetting.cs
+  SoftareUpdateConfigurationRunTaskProperties.cs
+  SoftareUpdateConfigurationRunTasks.cs
+  SoftwareUpdateConfiguration.cs
+  SoftwareUpdateMachineRun.cs
+  SoftwareUpdateMachineRunStatus.cs
+  SoftwareUpdateRun.cs
+  SoftwareUpdateRunStatus.cs
+  TagOperators.cs
+  TagSettings.cs
+  Tasks.cs
+  UpdateConfiguration.cs
+  UpdateTarget.cs
+  WindowsConfiguration.cs
+  WindowsUpdateClasses.cs
+ Variable.cs
+ Webhook.cs
+ WeeklyScheduleOptions.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/
+ AssemblyInfo.cs
+ Resources.Designer.cs
+
+[metadataReferences]
+../../../artifacts/Debug/Az.Automation/Microsoft.Azure.PowerShell.Automation.Management.Sdk.dll
+
+[analyzerConfigFiles]
+obj/Debug/Automation.GeneratedMSBuildEditorConfig.editorconfig

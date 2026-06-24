@@ -1,0 +1,446 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.AppConfiguration.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.AppConfiguration/AppConfiguration.Autorest/bin/Az.AppConfiguration.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.AppConfiguration
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.AppConfiguration/AppConfiguration.Autorest/bin/Az.AppConfiguration.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.AppConfiguration/AppConfiguration.Autorest/bin/Az.AppConfiguration.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.AppConfiguration.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/
+ AppConfiguration.cs
+ Models/
+  Any.cs
+  Any.json.cs
+  Any.PowerShell.cs
+  Any.TypeConverter.cs
+  ApiKey.cs
+  ApiKey.json.cs
+  ApiKey.PowerShell.cs
+  ApiKey.TypeConverter.cs
+  ApiKeyListResult.cs
+  ApiKeyListResult.json.cs
+  ApiKeyListResult.PowerShell.cs
+  ApiKeyListResult.TypeConverter.cs
+  AppConfigurationIdentity.cs
+  AppConfigurationIdentity.json.cs
+  AppConfigurationIdentity.PowerShell.cs
+  AppConfigurationIdentity.TypeConverter.cs
+  CheckNameAvailabilityParameters.cs
+  CheckNameAvailabilityParameters.json.cs
+  CheckNameAvailabilityParameters.PowerShell.cs
+  CheckNameAvailabilityParameters.TypeConverter.cs
+  ConfigurationStore.cs
+  ConfigurationStore.json.cs
+  ConfigurationStore.PowerShell.cs
+  ConfigurationStore.TypeConverter.cs
+  ConfigurationStoreListResult.cs
+  ConfigurationStoreListResult.json.cs
+  ConfigurationStoreListResult.PowerShell.cs
+  ConfigurationStoreListResult.TypeConverter.cs
+  ConfigurationStoreProperties.cs
+  ConfigurationStoreProperties.json.cs
+  ConfigurationStoreProperties.PowerShell.cs
+  ConfigurationStoreProperties.TypeConverter.cs
+  ConfigurationStorePropertiesUpdateParameters.cs
+  ConfigurationStorePropertiesUpdateParameters.json.cs
+  ConfigurationStorePropertiesUpdateParameters.PowerShell.cs
+  ConfigurationStorePropertiesUpdateParameters.TypeConverter.cs
+  ConfigurationStoreUpdateParameters.cs
+  ConfigurationStoreUpdateParameters.json.cs
+  ConfigurationStoreUpdateParameters.PowerShell.cs
+  ConfigurationStoreUpdateParameters.TypeConverter.cs
+  ConfigurationStoreUpdateParametersTags.cs
+  ConfigurationStoreUpdateParametersTags.dictionary.cs
+  ConfigurationStoreUpdateParametersTags.json.cs
+  ConfigurationStoreUpdateParametersTags.PowerShell.cs
+  ConfigurationStoreUpdateParametersTags.TypeConverter.cs
+  DeletedConfigurationStore.cs
+  DeletedConfigurationStore.json.cs
+  DeletedConfigurationStore.PowerShell.cs
+  DeletedConfigurationStore.TypeConverter.cs
+  DeletedConfigurationStoreListResult.cs
+  DeletedConfigurationStoreListResult.json.cs
+  DeletedConfigurationStoreListResult.PowerShell.cs
+  DeletedConfigurationStoreListResult.TypeConverter.cs
+  DeletedConfigurationStoreProperties.cs
+  DeletedConfigurationStoreProperties.json.cs
+  DeletedConfigurationStoreProperties.PowerShell.cs
+  DeletedConfigurationStoreProperties.TypeConverter.cs
+  DeletedConfigurationStorePropertiesTags.cs
+  DeletedConfigurationStorePropertiesTags.dictionary.cs
+  DeletedConfigurationStorePropertiesTags.json.cs
+  DeletedConfigurationStorePropertiesTags.PowerShell.cs
+  DeletedConfigurationStorePropertiesTags.TypeConverter.cs
+  EncryptionProperties.cs
+  EncryptionProperties.json.cs
+  EncryptionProperties.PowerShell.cs
+  EncryptionProperties.TypeConverter.cs
+  ErrorAdditionalInfo.cs
+  ErrorAdditionalInfo.json.cs
+  ErrorAdditionalInfo.PowerShell.cs
+  ErrorAdditionalInfo.TypeConverter.cs
+  ErrorDetails.cs
+  ErrorDetails.json.cs
+  ErrorDetails.PowerShell.cs
+  ErrorDetails.TypeConverter.cs
+  ErrorResponse.cs
+  ErrorResponse.json.cs
+  ErrorResponse.PowerShell.cs
+  ErrorResponse.TypeConverter.cs
+  KeyValue.cs
+  KeyValue.json.cs
+  KeyValue.PowerShell.cs
+  KeyValue.TypeConverter.cs
+  KeyValueListResult.cs
+  KeyValueListResult.json.cs
+  KeyValueListResult.PowerShell.cs
+  KeyValueListResult.TypeConverter.cs
+  KeyValueProperties.cs
+  KeyValueProperties.json.cs
+  KeyValueProperties.PowerShell.cs
+  KeyValueProperties.TypeConverter.cs
+  KeyValuePropertiesTags.cs
+  KeyValuePropertiesTags.dictionary.cs
+  KeyValuePropertiesTags.json.cs
+  KeyValuePropertiesTags.PowerShell.cs
+  KeyValuePropertiesTags.TypeConverter.cs
+  KeyVaultProperties.cs
+  KeyVaultProperties.json.cs
+  KeyVaultProperties.PowerShell.cs
+  KeyVaultProperties.TypeConverter.cs
+  LogSpecification.cs
+  LogSpecification.json.cs
+  LogSpecification.PowerShell.cs
+  LogSpecification.TypeConverter.cs
+  MetricDimension.cs
+  MetricDimension.json.cs
+  MetricDimension.PowerShell.cs
+  MetricDimension.TypeConverter.cs
+  MetricSpecification.cs
+  MetricSpecification.json.cs
+  MetricSpecification.PowerShell.cs
+  MetricSpecification.TypeConverter.cs
+  NameAvailabilityStatus.cs
+  NameAvailabilityStatus.json.cs
+  NameAvailabilityStatus.PowerShell.cs
+  NameAvailabilityStatus.TypeConverter.cs
+  OperationDefinition.cs
+  OperationDefinition.json.cs
+  OperationDefinition.PowerShell.cs
+  OperationDefinition.TypeConverter.cs
+  OperationDefinitionDisplay.cs
+  OperationDefinitionDisplay.json.cs
+  OperationDefinitionDisplay.PowerShell.cs
+  OperationDefinitionDisplay.TypeConverter.cs
+  OperationDefinitionListResult.cs
+  OperationDefinitionListResult.json.cs
+  OperationDefinitionListResult.PowerShell.cs
+  OperationDefinitionListResult.TypeConverter.cs
+  OperationProperties.cs
+  OperationProperties.json.cs
+  OperationProperties.PowerShell.cs
+  OperationProperties.TypeConverter.cs
+  PrivateEndpoint.cs
+  PrivateEndpoint.json.cs
+  PrivateEndpoint.PowerShell.cs
+  PrivateEndpoint.TypeConverter.cs
+  PrivateEndpointConnection.cs
+  PrivateEndpointConnection.json.cs
+  PrivateEndpointConnection.PowerShell.cs
+  PrivateEndpointConnection.TypeConverter.cs
+  PrivateEndpointConnectionListResult.cs
+  PrivateEndpointConnectionListResult.json.cs
+  PrivateEndpointConnectionListResult.PowerShell.cs
+  PrivateEndpointConnectionListResult.TypeConverter.cs
+  PrivateEndpointConnectionProperties.cs
+  PrivateEndpointConnectionProperties.json.cs
+  PrivateEndpointConnectionProperties.PowerShell.cs
+  PrivateEndpointConnectionProperties.TypeConverter.cs
+  PrivateEndpointConnectionReference.cs
+  PrivateEndpointConnectionReference.json.cs
+  PrivateEndpointConnectionReference.PowerShell.cs
+  PrivateEndpointConnectionReference.TypeConverter.cs
+  PrivateLinkResource.cs
+  PrivateLinkResource.json.cs
+  PrivateLinkResource.PowerShell.cs
+  PrivateLinkResource.TypeConverter.cs
+  PrivateLinkResourceListResult.cs
+  PrivateLinkResourceListResult.json.cs
+  PrivateLinkResourceListResult.PowerShell.cs
+  PrivateLinkResourceListResult.TypeConverter.cs
+  PrivateLinkResourceProperties.cs
+  PrivateLinkResourceProperties.json.cs
+  PrivateLinkResourceProperties.PowerShell.cs
+  PrivateLinkResourceProperties.TypeConverter.cs
+  PrivateLinkServiceConnectionState.cs
+  PrivateLinkServiceConnectionState.json.cs
+  PrivateLinkServiceConnectionState.PowerShell.cs
+  PrivateLinkServiceConnectionState.TypeConverter.cs
+  RegenerateKeyParameters.cs
+  RegenerateKeyParameters.json.cs
+  RegenerateKeyParameters.PowerShell.cs
+  RegenerateKeyParameters.TypeConverter.cs
+  Resource.cs
+  Resource.json.cs
+  Resource.PowerShell.cs
+  Resource.TypeConverter.cs
+  ResourceIdentity.cs
+  ResourceIdentity.json.cs
+  ResourceIdentity.PowerShell.cs
+  ResourceIdentity.TypeConverter.cs
+  ResourceIdentityUserAssignedIdentities.cs
+  ResourceIdentityUserAssignedIdentities.dictionary.cs
+  ResourceIdentityUserAssignedIdentities.json.cs
+  ResourceIdentityUserAssignedIdentities.PowerShell.cs
+  ResourceIdentityUserAssignedIdentities.TypeConverter.cs
+  ServiceSpecification.cs
+  ServiceSpecification.json.cs
+  ServiceSpecification.PowerShell.cs
+  ServiceSpecification.TypeConverter.cs
+  Sku.cs
+  Sku.json.cs
+  Sku.PowerShell.cs
+  Sku.TypeConverter.cs
+  SystemData.cs
+  SystemData.json.cs
+  SystemData.PowerShell.cs
+  SystemData.TypeConverter.cs
+  TrackedResource.cs
+  TrackedResource.json.cs
+  TrackedResource.PowerShell.cs
+  TrackedResource.TypeConverter.cs
+  TrackedResourceTags.cs
+  TrackedResourceTags.dictionary.cs
+  TrackedResourceTags.json.cs
+  TrackedResourceTags.PowerShell.cs
+  TrackedResourceTags.TypeConverter.cs
+  UserIdentity.cs
+  UserIdentity.json.cs
+  UserIdentity.PowerShell.cs
+  UserIdentity.TypeConverter.cs
+generated/cmdlets/
+ ClearAzAppConfigurationDeletedStore_Purge.cs
+ ClearAzAppConfigurationDeletedStore_PurgeViaIdentity.cs
+ GetAzAppConfigurationDeletedStore_Get.cs
+ GetAzAppConfigurationDeletedStore_GetViaIdentity.cs
+ GetAzAppConfigurationDeletedStore_List.cs
+ GetAzAppConfigurationOperation_List.cs
+ GetAzAppConfigurationStoreKey_List.cs
+ GetAzAppConfigurationStore_Get.cs
+ GetAzAppConfigurationStore_GetViaIdentity.cs
+ GetAzAppConfigurationStore_List.cs
+ GetAzAppConfigurationStore_List1.cs
+ NewAzAppConfigurationStoreKey_Regenerate.cs
+ NewAzAppConfigurationStoreKey_RegenerateExpanded.cs
+ NewAzAppConfigurationStoreKey_RegenerateViaIdentity.cs
+ NewAzAppConfigurationStoreKey_RegenerateViaIdentityExpanded.cs
+ NewAzAppConfigurationStoreKey_RegenerateViaJsonFilePath.cs
+ NewAzAppConfigurationStoreKey_RegenerateViaJsonString.cs
+ NewAzAppConfigurationStore_CreateExpanded.cs
+ NewAzAppConfigurationStore_CreateViaJsonFilePath.cs
+ NewAzAppConfigurationStore_CreateViaJsonString.cs
+ RemoveAzAppConfigurationStore_Delete.cs
+ RemoveAzAppConfigurationStore_DeleteViaIdentity.cs
+ TestAzAppConfigurationOperation_Check.cs
+ TestAzAppConfigurationOperation_CheckExpanded.cs
+ TestAzAppConfigurationOperation_CheckViaIdentity.cs
+ TestAzAppConfigurationOperation_CheckViaJsonFilePath.cs
+ TestAzAppConfigurationOperation_CheckViaJsonString.cs
+ TestAzAppConfigurationStoreNameAvailability_Check.cs
+ TestAzAppConfigurationStoreNameAvailability_CheckExpanded.cs
+ TestAzAppConfigurationStoreNameAvailability_CheckViaJsonFilePath.cs
+ TestAzAppConfigurationStoreNameAvailability_CheckViaJsonString.cs
+ UpdateAzAppConfigurationStore_UpdateExpanded.cs
+ UpdateAzAppConfigurationStore_UpdateViaIdentityExpanded.cs
+generated/
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.AppConfiguration.GeneratedMSBuildEditorConfig.editorconfig

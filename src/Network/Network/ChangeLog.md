@@ -19,6 +19,17 @@
 --->
 
 ## Upcoming Release
+* Added `Get-AzExpressRouteLag` cmdlet to retrieve ExpressRouteLag resources
+* Added `New-AzExpressRouteLag` cmdlet to create a new ExpressRouteLag resource
+* Added `Update-AzExpressRouteLag` cmdlet to update tags on an ExpressRouteLag resource
+* Added `Remove-AzExpressRouteLag` cmdlet to delete an ExpressRouteLag resource
+* Added `Get-AzExpressRouteLagAuthorization` cmdlet to retrieve ExpressRouteLag authorizations
+* Added `New-AzExpressRouteLagAuthorization` cmdlet to create an ExpressRouteLag authorization
+* Added `Remove-AzExpressRouteLagAuthorization` cmdlet to delete an ExpressRouteLag authorization
+* Added `Get-AzExpressRouteLagAuthorizationKey` cmdlet to list authorization keys
+* Added `Get-AzExpressRouteLagLink` cmdlet to retrieve ExpressRouteLag links
+* Added `Get-AzExpressRouteLagMember` cmdlet to retrieve ExpressRouteLag link members
+* Added `New-AzExpressRouteLagLOA` cmdlet to generate a Letter of Authorization for an ExpressRouteLag
 
 ## Version 7.26.0
 * Onboarded `Microsoft.KubernetesConfiguration/privateLinkScopes` to Private Link Common Cmdlets

@@ -1,0 +1,149 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.Cmdlets.DataFactoryV1
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.DataFactory/Microsoft.Azure.PowerShell.Cmdlets.DataFactoryV1.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.Commands.DataFactories
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.DataFactory/Microsoft.Azure.PowerShell.Cmdlets.DataFactoryV1.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.DataFactory/Microsoft.Azure.PowerShell.Cmdlets.DataFactoryV1.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.Cmdlets.DataFactoryV1.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+ActivityWindows/GetAzureDataFactoryActivityWindowsCommand.cs
+Constants.cs
+DataFactories/
+ GetAzureDataFactoryCommand.cs
+ NewAzureDataFactoryCommand.cs
+ RemoveAzureDataFactoryCommand.cs
+DataFactoryBaseCmdlet.cs
+DataFactoryCommonUtilities.cs
+Datasets/
+ DatasetContextBaseCmdlet.cs
+ GetAzureDataFactoryDatasetCommand.cs
+ NewAzureDataFactoryDatasetCommand.cs
+ RemoveAzureDataFactoryDatasetCommand.cs
+DataSlices/
+ DataSliceContextBaseCmdlet.cs
+ GetAzureDataFactoryRunCommand.cs
+ GetAzureDataFactorySliceCommand.cs
+ SaveAzureDataFactoryLog.cs
+ SetAzureDataFactorySliceStatusCommand.cs
+Encrypt/NewAzureDataFactoryEncryptValueCommand.cs
+ExceptionExtensions.cs
+Gateway/
+ GetAzureDataFactoryGatewayAuthKeyCommand.cs
+ GetAzureDataFactoryGatewayCommand.cs
+ NewAzureDataFactoryGatewayAuthKeyCommand.cs
+ NewAzureDataFactoryGatewayCommand.cs
+ RemoveAzureDataFactoryGatewayCommand.cs
+ SetAzureDataFactoryGatewayCommand.cs
+Hubs/
+ GetAzureDataFactoryHubCommand.cs
+ HubContextBaseCmdlet.cs
+ NewAzureDataFactoryHubCommand.cs
+ RemoveAzureDataFactoryHubCommand.cs
+LinkedServices/
+ GetAzureDataFactoryLinkedServiceCommand.cs
+ LinkedServiceContextBaseCmdlet.cs
+ NewAzureDataFactoryLinkedServiceCommand.cs
+ RemoveAzureDataFactoryLinkedServiceCommand.cs
+Models/
+ ActivityWindowFilterOptions.cs
+ BlobDownloadParameters.cs
+ CreatePSDataFactoryParameters.cs
+ CreatePSHubParameters.cs
+ CreatePSLinkedServiceParameters.cs
+ CreatePSPipelineParameters.cs
+ CreatePSTableParameters.cs
+ DataFactoryClient.ActivityWindows.cs
+ DataFactoryClient.cs
+ DataFactoryClient.DataFactories.cs
+ DataFactoryClient.Datasets.cs
+ DataFactoryClient.DataSlices.cs
+ DataFactoryClient.Encrypt.cs
+ DataFactoryClient.Gateway.cs
+ DataFactoryClient.Hubs.cs
+ DataFactoryClient.LinkedServices.cs
+ DataFactoryClient.Pipelines.cs
+ DataFactoryClientExtensions.cs
+ DataFactoryFilterOptions.cs
+ DataFactoryParametersBase.cs
+ DataSliceFilterOptions.cs
+ DataSliceRunFilterOptions.cs
+ HubFilterOptions.cs
+ LinkedServiceFilterOptions.cs
+ NewDataFactoryGatewayAuthKeyParameters.cs
+ PatchPSDataFactoryParameters.cs
+ PipelineFilterOptions.cs
+ PSActivityWindow.cs
+ PSDataFactory.cs
+ PSDataFactoryGateway.cs
+ PSDataFactoryGatewayAuthKey.cs
+ PSDataFactoryGatewayKey.cs
+ PSDataset.cs
+ PSDataSlice.cs
+ PSDataSliceRun.cs
+ PSHub.cs
+ PSLinkedService.cs
+ PSPipeline.cs
+ PSRunLogInfo.cs
+ TableFilterOptions.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Pipelines/
+ GetAzureDataFactoryPipelineCommand.cs
+ NewAzureDataFactoryPipelineCommand.cs
+ PipelineContextBaseCmdlet.cs
+ RemoveAzureDataFactoryPipelineCommand.cs
+ ResumeAzureDataFactoryPipelineCommand.cs
+ SetAzureDataFactoryPipelineActivePeriodCommand.cs
+ SuspendAzureDataFactoryPipelineCommand.cs
+Properties/
+ AssemblyInfo.cs
+ Resources.Designer.cs
+ProvisioningFailedException.cs
+
+[analyzerConfigFiles]
+obj/Debug/DataFactoryV1.GeneratedMSBuildEditorConfig.editorconfig

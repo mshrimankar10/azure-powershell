@@ -1,0 +1,250 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.StorageSync.Management.Sdk
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.StorageSync/Microsoft.Azure.PowerShell.StorageSync.Management.Sdk.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.Management.StorageSync
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.StorageSync/Microsoft.Azure.PowerShell.StorageSync.Management.Sdk.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,CS0108,CS1573,CS0114,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.StorageSync/Microsoft.Azure.PowerShell.StorageSync.Management.Sdk.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.StorageSync.Management.Sdk.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+Generated/
+ CloudEndpointsOperations.cs
+ CloudEndpointsOperationsExtensions.cs
+ ICloudEndpointsOperations.cs
+ IOperations.cs
+ IOperationStatusOperations.cs
+ IPrivateEndpointConnectionsOperations.cs
+ IPrivateLinkResourcesOperations.cs
+ IRegisteredServersOperations.cs
+ IServerEndpointsOperations.cs
+ IStorageSyncManagementClient.cs
+ IStorageSyncServicesOperations.cs
+ ISyncGroupsOperations.cs
+ IWorkflowsOperations.cs
+ Models/
+  BackupRequest.cs
+  ChangeDetectionMode.cs
+  CheckNameAvailabilityParameters.cs
+  CheckNameAvailabilityResult.cs
+  CloudEndpoint.cs
+  CloudEndpointAfsShareMetadataCertificatePublicKeys.cs
+  CloudEndpointChangeEnumerationActivity.cs
+  CloudEndpointChangeEnumerationActivityState.cs
+  CloudEndpointChangeEnumerationStatus.cs
+  CloudEndpointChangeEnumerationTotalCountsState.cs
+  CloudEndpointCreateParameters.cs
+  CloudEndpointCreateParametersProperties.cs
+  CloudEndpointLastChangeEnumerationStatus.cs
+  CloudEndpointProperties.cs
+  CloudEndpointsAfsShareMetadataCertificatePublicKeysHeaders.cs
+  CloudEndpointsCreateHeaders.cs
+  CloudEndpointsDeleteHeaders.cs
+  CloudEndpointsGetHeaders.cs
+  CloudEndpointsListBySyncGroupHeaders.cs
+  CloudEndpointsPostBackupHeaders.cs
+  CloudEndpointsPostRestoreHeaders.cs
+  CloudEndpointsPreBackupHeaders.cs
+  CloudEndpointsPreRestoreHeaders.cs
+  CloudEndpointsRestoreheartbeatHeaders.cs
+  CloudEndpointsTriggerChangeDetectionHeaders.cs
+  CloudTieringCachePerformance.cs
+  CloudTieringDatePolicyStatus.cs
+  CloudTieringFilesNotTiering.cs
+  CloudTieringLowDiskMode.cs
+  CloudTieringLowDiskModeState.cs
+  CloudTieringSpaceSavings.cs
+  CloudTieringVolumeFreeSpacePolicyStatus.cs
+  CreatedByType.cs
+  ErrorAdditionalInfo.cs
+  ErrorDetail.cs
+  ErrorResponse.cs
+  ErrorResponseException.cs
+  FeatureStatus.cs
+  FilesNotTieringError.cs
+  IncomingTrafficPolicy.cs
+  InitialDownloadPolicy.cs
+  InitialUploadPolicy.cs
+  LocalCacheMode.cs
+  LocationOperationStatus.cs
+  LocationOperationStatusHeaders.cs
+  ManagedServiceIdentity.cs
+  ManagedServiceIdentityType.cs
+  NameAvailabilityReason.cs
+  OperationDirection.cs
+  OperationDisplayInfo.cs
+  OperationEntity.cs
+  OperationProperties.cs
+  OperationResourceMetricSpecification.cs
+  OperationResourceMetricSpecificationDimension.cs
+  OperationResourceServiceSpecification.cs
+  OperationsListHeaders.cs
+  OperationStatus.cs
+  OperationStatusGetHeaders.cs
+  Page.cs
+  PostBackupResponse.cs
+  PostBackupResponseProperties.cs
+  PostRestoreRequest.cs
+  PreRestoreRequest.cs
+  PrivateEndpoint.cs
+  PrivateEndpointConnection.cs
+  PrivateEndpointConnectionProperties.cs
+  PrivateEndpointConnectionProvisioningState.cs
+  PrivateEndpointConnectionsCreateHeaders.cs
+  PrivateEndpointConnectionsDeleteHeaders.cs
+  PrivateEndpointConnectionsListByStorageSyncServiceHeaders.cs
+  PrivateEndpointServiceConnectionStatus.cs
+  PrivateLinkResource.cs
+  PrivateLinkResourceListResult.cs
+  PrivateLinkResourceProperties.cs
+  PrivateLinkServiceConnectionState.cs
+  ProxyResource.cs
+  RecallActionParameters.cs
+  RegisteredServer.cs
+  RegisteredServerAgentVersionStatus.cs
+  RegisteredServerCreateParameters.cs
+  RegisteredServerCreateParametersProperties.cs
+  RegisteredServerProperties.cs
+  RegisteredServersCreateHeaders.cs
+  RegisteredServersDeleteHeaders.cs
+  RegisteredServersGetHeaders.cs
+  RegisteredServersListByStorageSyncServiceHeaders.cs
+  RegisteredServersTriggerRolloverHeaders.cs
+  RegisteredServersUpdateHeaders.cs
+  RegisteredServerUpdateParameters.cs
+  RegisteredServerUpdateProperties.cs
+  Resource.cs
+  RestoreFileSpec.cs
+  ServerAuthType.cs
+  ServerEndpoint.cs
+  ServerEndpointBackgroundDataDownloadActivity.cs
+  ServerEndpointCloudTieringStatus.cs
+  ServerEndpointCreateParameters.cs
+  ServerEndpointCreateParametersProperties.cs
+  ServerEndpointFilesNotSyncingError.cs
+  ServerEndpointHealthState.cs
+  ServerEndpointOfflineDataTransferState.cs
+  ServerEndpointProperties.cs
+  ServerEndpointProvisioningStatus.cs
+  ServerEndpointProvisioningStepStatus.cs
+  ServerEndpointRecallError.cs
+  ServerEndpointRecallStatus.cs
+  ServerEndpointsCreateHeaders.cs
+  ServerEndpointsDeleteHeaders.cs
+  ServerEndpointsGetHeaders.cs
+  ServerEndpointsListBySyncGroupHeaders.cs
+  ServerEndpointsRecallActionHeaders.cs
+  ServerEndpointsUpdateHeaders.cs
+  ServerEndpointSyncActivityState.cs
+  ServerEndpointSyncActivityStatus.cs
+  ServerEndpointSyncMode.cs
+  ServerEndpointSyncSessionStatus.cs
+  ServerEndpointSyncStatus.cs
+  ServerEndpointUpdateParameters.cs
+  ServerEndpointUpdateProperties.cs
+  ServerProvisioningStatus.cs
+  StorageSyncApiError.cs
+  StorageSyncError.cs
+  StorageSyncErrorDetails.cs
+  StorageSyncErrorException.cs
+  StorageSyncInnerErrorDetails.cs
+  StorageSyncService.cs
+  StorageSyncServiceCreateParameters.cs
+  StorageSyncServiceCreateParametersProperties.cs
+  StorageSyncServiceProperties.cs
+  StorageSyncServicesCreateHeaders.cs
+  StorageSyncServicesDeleteHeaders.cs
+  StorageSyncServicesGetHeaders.cs
+  StorageSyncServicesListByResourceGroupHeaders.cs
+  StorageSyncServicesListBySubscriptionHeaders.cs
+  StorageSyncServicesUpdateHeaders.cs
+  StorageSyncServiceUpdateParameters.cs
+  StorageSyncServiceUpdateProperties.cs
+  SyncGroup.cs
+  SyncGroupCreateParameters.cs
+  SyncGroupProperties.cs
+  SyncGroupsCreateHeaders.cs
+  SyncGroupsDeleteHeaders.cs
+  SyncGroupsGetHeaders.cs
+  SyncGroupsListByStorageSyncServiceHeaders.cs
+  SystemData.cs
+  TrackedResource.cs
+  TriggerChangeDetectionParameters.cs
+  TriggerRolloverRequest.cs
+  Type.cs
+  UserAssignedIdentity.cs
+  Workflow.cs
+  WorkflowProperties.cs
+  WorkflowsAbortHeaders.cs
+  WorkflowsGetHeaders.cs
+  WorkflowsListByStorageSyncServiceHeaders.cs
+  WorkflowStatus.cs
+ Operations.cs
+ OperationsExtensions.cs
+ OperationStatusOperations.cs
+ OperationStatusOperationsExtensions.cs
+ PrivateEndpointConnectionsOperations.cs
+ PrivateEndpointConnectionsOperationsExtensions.cs
+ PrivateLinkResourcesOperations.cs
+ PrivateLinkResourcesOperationsExtensions.cs
+ RegisteredServersOperations.cs
+ RegisteredServersOperationsExtensions.cs
+ ServerEndpointsOperations.cs
+ ServerEndpointsOperationsExtensions.cs
+ StorageSyncManagementClient.cs
+ StorageSyncManagementClientExtensions.cs
+ StorageSyncServicesOperations.cs
+ StorageSyncServicesOperationsExtensions.cs
+ SyncGroupsOperations.cs
+ SyncGroupsOperationsExtensions.cs
+ WorkflowsOperations.cs
+ WorkflowsOperationsExtensions.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/StorageSync.Management.Sdk.GeneratedMSBuildEditorConfig.editorconfig

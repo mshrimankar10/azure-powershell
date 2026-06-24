@@ -1,0 +1,400 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.Purview.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.Purview/Purview.Autorest/bin/Az.Purview.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.Purview
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.Purview/Purview.Autorest/bin/Az.Purview.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.Purview/Purview.Autorest/bin/Az.Purview.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.Purview.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/Models/
+ AccessKeys.cs
+ AccessKeys.json.cs
+ AccessKeys.PowerShell.cs
+ AccessKeys.TypeConverter.cs
+ Account.cs
+ Account.json.cs
+ Account.PowerShell.cs
+ Account.TypeConverter.cs
+ AccountEndpoints.cs
+ AccountEndpoints.json.cs
+ AccountEndpoints.PowerShell.cs
+ AccountEndpoints.TypeConverter.cs
+ AccountList.cs
+ AccountList.json.cs
+ AccountList.PowerShell.cs
+ AccountList.TypeConverter.cs
+ AccountProperties.cs
+ AccountProperties.json.cs
+ AccountProperties.PowerShell.cs
+ AccountProperties.TypeConverter.cs
+ AccountPropertiesEndpoints.cs
+ AccountPropertiesEndpoints.json.cs
+ AccountPropertiesEndpoints.PowerShell.cs
+ AccountPropertiesEndpoints.TypeConverter.cs
+ AccountPropertiesManagedResources.cs
+ AccountPropertiesManagedResources.json.cs
+ AccountPropertiesManagedResources.PowerShell.cs
+ AccountPropertiesManagedResources.TypeConverter.cs
+ AccountSku.cs
+ AccountSku.json.cs
+ AccountSku.PowerShell.cs
+ AccountSku.TypeConverter.cs
+ AccountUpdateParameters.cs
+ AccountUpdateParameters.json.cs
+ AccountUpdateParameters.PowerShell.cs
+ AccountUpdateParameters.TypeConverter.cs
+ AccountUpdateParametersTags.cs
+ AccountUpdateParametersTags.dictionary.cs
+ AccountUpdateParametersTags.json.cs
+ AccountUpdateParametersTags.PowerShell.cs
+ AccountUpdateParametersTags.TypeConverter.cs
+ CheckNameAvailabilityRequest.cs
+ CheckNameAvailabilityRequest.json.cs
+ CheckNameAvailabilityRequest.PowerShell.cs
+ CheckNameAvailabilityRequest.TypeConverter.cs
+ CheckNameAvailabilityResult.cs
+ CheckNameAvailabilityResult.json.cs
+ CheckNameAvailabilityResult.PowerShell.cs
+ CheckNameAvailabilityResult.TypeConverter.cs
+ CloudConnectors.cs
+ CloudConnectors.json.cs
+ CloudConnectors.PowerShell.cs
+ CloudConnectors.TypeConverter.cs
+ CollectionAdminUpdate.cs
+ CollectionAdminUpdate.json.cs
+ CollectionAdminUpdate.PowerShell.cs
+ CollectionAdminUpdate.TypeConverter.cs
+ DefaultAccountPayload.cs
+ DefaultAccountPayload.json.cs
+ DefaultAccountPayload.PowerShell.cs
+ DefaultAccountPayload.TypeConverter.cs
+ DimensionProperties.cs
+ DimensionProperties.json.cs
+ DimensionProperties.PowerShell.cs
+ DimensionProperties.TypeConverter.cs
+ ErrorModel.cs
+ ErrorModel.json.cs
+ ErrorModel.PowerShell.cs
+ ErrorModel.TypeConverter.cs
+ ErrorResponseModel.cs
+ ErrorResponseModel.json.cs
+ ErrorResponseModel.PowerShell.cs
+ ErrorResponseModel.TypeConverter.cs
+ ErrorResponseModelError.cs
+ ErrorResponseModelError.json.cs
+ ErrorResponseModelError.PowerShell.cs
+ ErrorResponseModelError.TypeConverter.cs
+ Identity.cs
+ Identity.json.cs
+ Identity.PowerShell.cs
+ Identity.TypeConverter.cs
+ ManagedResources.cs
+ ManagedResources.json.cs
+ ManagedResources.PowerShell.cs
+ ManagedResources.TypeConverter.cs
+ Operation.cs
+ Operation.json.cs
+ Operation.PowerShell.cs
+ Operation.TypeConverter.cs
+ OperationDisplay.cs
+ OperationDisplay.json.cs
+ OperationDisplay.PowerShell.cs
+ OperationDisplay.TypeConverter.cs
+ OperationList.cs
+ OperationList.json.cs
+ OperationList.PowerShell.cs
+ OperationList.TypeConverter.cs
+ OperationMetaLogSpecification.cs
+ OperationMetaLogSpecification.json.cs
+ OperationMetaLogSpecification.PowerShell.cs
+ OperationMetaLogSpecification.TypeConverter.cs
+ OperationMetaMetricSpecification.cs
+ OperationMetaMetricSpecification.json.cs
+ OperationMetaMetricSpecification.PowerShell.cs
+ OperationMetaMetricSpecification.TypeConverter.cs
+ OperationMetaServiceSpecification.cs
+ OperationMetaServiceSpecification.json.cs
+ OperationMetaServiceSpecification.PowerShell.cs
+ OperationMetaServiceSpecification.TypeConverter.cs
+ OperationProperties.cs
+ OperationProperties.json.cs
+ OperationProperties.PowerShell.cs
+ OperationProperties.TypeConverter.cs
+ PrivateEndpoint.cs
+ PrivateEndpoint.json.cs
+ PrivateEndpoint.PowerShell.cs
+ PrivateEndpoint.TypeConverter.cs
+ PrivateEndpointConnection.cs
+ PrivateEndpointConnection.json.cs
+ PrivateEndpointConnection.PowerShell.cs
+ PrivateEndpointConnection.TypeConverter.cs
+ PrivateEndpointConnectionList.cs
+ PrivateEndpointConnectionList.json.cs
+ PrivateEndpointConnectionList.PowerShell.cs
+ PrivateEndpointConnectionList.TypeConverter.cs
+ PrivateEndpointConnectionProperties.cs
+ PrivateEndpointConnectionProperties.json.cs
+ PrivateEndpointConnectionProperties.PowerShell.cs
+ PrivateEndpointConnectionProperties.TypeConverter.cs
+ PrivateLinkResource.cs
+ PrivateLinkResource.json.cs
+ PrivateLinkResource.PowerShell.cs
+ PrivateLinkResource.TypeConverter.cs
+ PrivateLinkResourceList.cs
+ PrivateLinkResourceList.json.cs
+ PrivateLinkResourceList.PowerShell.cs
+ PrivateLinkResourceList.TypeConverter.cs
+ PrivateLinkResourceProperties.cs
+ PrivateLinkResourceProperties.json.cs
+ PrivateLinkResourceProperties.PowerShell.cs
+ PrivateLinkResourceProperties.TypeConverter.cs
+ PrivateLinkServiceConnectionState.cs
+ PrivateLinkServiceConnectionState.json.cs
+ PrivateLinkServiceConnectionState.PowerShell.cs
+ PrivateLinkServiceConnectionState.TypeConverter.cs
+ ProxyResource.cs
+ ProxyResource.json.cs
+ ProxyResource.PowerShell.cs
+ ProxyResource.TypeConverter.cs
+ PurviewIdentity.cs
+ PurviewIdentity.json.cs
+ PurviewIdentity.PowerShell.cs
+ PurviewIdentity.TypeConverter.cs
+ SystemData.cs
+ SystemData.json.cs
+ SystemData.PowerShell.cs
+ SystemData.TypeConverter.cs
+ TrackedResource.cs
+ TrackedResource.json.cs
+ TrackedResource.PowerShell.cs
+ TrackedResource.TypeConverter.cs
+ TrackedResourceSystemData.cs
+ TrackedResourceSystemData.json.cs
+ TrackedResourceSystemData.PowerShell.cs
+ TrackedResourceSystemData.TypeConverter.cs
+ TrackedResourceTags.cs
+ TrackedResourceTags.dictionary.cs
+ TrackedResourceTags.json.cs
+ TrackedResourceTags.PowerShell.cs
+ TrackedResourceTags.TypeConverter.cs
+generated/
+ api/Purview.cs
+ cmdlets/
+  AddAzPurviewAccountRootCollectionAdmin_AddExpanded.cs
+  AddAzPurviewAccountRootCollectionAdmin_AddViaIdentityExpanded.cs
+  AddAzPurviewAccountRootCollectionAdmin_AddViaJsonFilePath.cs
+  AddAzPurviewAccountRootCollectionAdmin_AddViaJsonString.cs
+  GetAzPurviewAccountKey_List.cs
+  GetAzPurviewAccount_Get.cs
+  GetAzPurviewAccount_GetViaIdentity.cs
+  GetAzPurviewAccount_List.cs
+  GetAzPurviewAccount_List1.cs
+  GetAzPurviewDefaultAccount_Get.cs
+  GetAzPurviewOperation_List.cs
+  NewAzPurviewAccount_CreateExpanded.cs
+  NewAzPurviewAccount_CreateViaJsonFilePath.cs
+  NewAzPurviewAccount_CreateViaJsonString.cs
+  RemoveAzPurviewAccount_Delete.cs
+  RemoveAzPurviewAccount_DeleteViaIdentity.cs
+  RemoveAzPurviewDefaultAccount_Remove.cs
+  SetAzPurviewDefaultAccount_SetExpanded.cs
+  SetAzPurviewDefaultAccount_SetViaJsonFilePath.cs
+  SetAzPurviewDefaultAccount_SetViaJsonString.cs
+  TestAzPurviewAccountNameAvailability_CheckExpanded.cs
+  TestAzPurviewAccountNameAvailability_CheckViaJsonFilePath.cs
+  TestAzPurviewAccountNameAvailability_CheckViaJsonString.cs
+  UpdateAzPurviewAccount_UpdateExpanded.cs
+  UpdateAzPurviewAccount_UpdateViaIdentityExpanded.cs
+  UpdateAzPurviewAccount_UpdateViaJsonFilePath.cs
+  UpdateAzPurviewAccount_UpdateViaJsonString.cs
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.Purview.GeneratedMSBuildEditorConfig.editorconfig

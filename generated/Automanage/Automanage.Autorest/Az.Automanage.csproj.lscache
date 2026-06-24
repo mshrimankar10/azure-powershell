@@ -1,0 +1,409 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.Automanage.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.Automanage/Automanage.Autorest/bin/Az.Automanage.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.Automanage
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.Automanage/Automanage.Autorest/bin/Az.Automanage.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.Automanage/Automanage.Autorest/bin/Az.Automanage.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.Automanage.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/
+ Automanage.cs
+ Models/
+  Any.cs
+  Any.json.cs
+  Any.PowerShell.cs
+  Any.TypeConverter.cs
+  AssignmentReportProperties.cs
+  AssignmentReportProperties.json.cs
+  AssignmentReportProperties.PowerShell.cs
+  AssignmentReportProperties.TypeConverter.cs
+  AutomanageIdentity.cs
+  AutomanageIdentity.json.cs
+  AutomanageIdentity.PowerShell.cs
+  AutomanageIdentity.TypeConverter.cs
+  BestPractice.cs
+  BestPractice.json.cs
+  BestPractice.PowerShell.cs
+  BestPractice.TypeConverter.cs
+  BestPracticeList.cs
+  BestPracticeList.json.cs
+  BestPracticeList.PowerShell.cs
+  BestPracticeList.TypeConverter.cs
+  ConfigurationDictionary.cs
+  ConfigurationDictionary.dictionary.cs
+  ConfigurationDictionary.json.cs
+  ConfigurationDictionary.PowerShell.cs
+  ConfigurationDictionary.TypeConverter.cs
+  ConfigurationProfile.cs
+  ConfigurationProfile.json.cs
+  ConfigurationProfile.PowerShell.cs
+  ConfigurationProfile.TypeConverter.cs
+  ConfigurationProfileAssignment.cs
+  ConfigurationProfileAssignment.json.cs
+  ConfigurationProfileAssignment.PowerShell.cs
+  ConfigurationProfileAssignment.TypeConverter.cs
+  ConfigurationProfileAssignmentList.cs
+  ConfigurationProfileAssignmentList.json.cs
+  ConfigurationProfileAssignmentList.PowerShell.cs
+  ConfigurationProfileAssignmentList.TypeConverter.cs
+  ConfigurationProfileAssignmentProperties.cs
+  ConfigurationProfileAssignmentProperties.json.cs
+  ConfigurationProfileAssignmentProperties.PowerShell.cs
+  ConfigurationProfileAssignmentProperties.TypeConverter.cs
+  ConfigurationProfileList.cs
+  ConfigurationProfileList.json.cs
+  ConfigurationProfileList.PowerShell.cs
+  ConfigurationProfileList.TypeConverter.cs
+  ConfigurationProfileProperties.cs
+  ConfigurationProfileProperties.json.cs
+  ConfigurationProfileProperties.PowerShell.cs
+  ConfigurationProfileProperties.TypeConverter.cs
+  ConfigurationProfileUpdate.cs
+  ConfigurationProfileUpdate.json.cs
+  ConfigurationProfileUpdate.PowerShell.cs
+  ConfigurationProfileUpdate.TypeConverter.cs
+  ErrorAdditionalInfo.cs
+  ErrorAdditionalInfo.json.cs
+  ErrorAdditionalInfo.PowerShell.cs
+  ErrorAdditionalInfo.TypeConverter.cs
+  ErrorDetail.cs
+  ErrorDetail.json.cs
+  ErrorDetail.PowerShell.cs
+  ErrorDetail.TypeConverter.cs
+  ErrorResponse.cs
+  ErrorResponse.json.cs
+  ErrorResponse.PowerShell.cs
+  ErrorResponse.TypeConverter.cs
+  Operation.cs
+  Operation.json.cs
+  Operation.PowerShell.cs
+  Operation.TypeConverter.cs
+  OperationDisplay.cs
+  OperationDisplay.json.cs
+  OperationDisplay.PowerShell.cs
+  OperationDisplay.TypeConverter.cs
+  OperationListResult.cs
+  OperationListResult.json.cs
+  OperationListResult.PowerShell.cs
+  OperationListResult.TypeConverter.cs
+  ProxyResource.cs
+  ProxyResource.json.cs
+  ProxyResource.PowerShell.cs
+  ProxyResource.TypeConverter.cs
+  Report.cs
+  Report.json.cs
+  Report.PowerShell.cs
+  Report.TypeConverter.cs
+  ReportList.cs
+  ReportList.json.cs
+  ReportList.PowerShell.cs
+  ReportList.TypeConverter.cs
+  ReportResource.cs
+  ReportResource.json.cs
+  ReportResource.PowerShell.cs
+  ReportResource.TypeConverter.cs
+  Resource.cs
+  Resource.json.cs
+  Resource.PowerShell.cs
+  Resource.TypeConverter.cs
+  ServicePrincipal.cs
+  ServicePrincipal.json.cs
+  ServicePrincipal.PowerShell.cs
+  ServicePrincipal.TypeConverter.cs
+  ServicePrincipalListResult.cs
+  ServicePrincipalListResult.json.cs
+  ServicePrincipalListResult.PowerShell.cs
+  ServicePrincipalListResult.TypeConverter.cs
+  ServicePrincipalProperties.cs
+  ServicePrincipalProperties.json.cs
+  ServicePrincipalProperties.PowerShell.cs
+  ServicePrincipalProperties.TypeConverter.cs
+  SystemData.cs
+  SystemData.json.cs
+  SystemData.PowerShell.cs
+  SystemData.TypeConverter.cs
+  TrackedResource.cs
+  TrackedResource.json.cs
+  TrackedResource.PowerShell.cs
+  TrackedResource.TypeConverter.cs
+  TrackedResourceTags.cs
+  TrackedResourceTags.dictionary.cs
+  TrackedResourceTags.json.cs
+  TrackedResourceTags.PowerShell.cs
+  TrackedResourceTags.TypeConverter.cs
+  UpdateResource.cs
+  UpdateResource.json.cs
+  UpdateResource.PowerShell.cs
+  UpdateResource.TypeConverter.cs
+  UpdateResourceTags.cs
+  UpdateResourceTags.dictionary.cs
+  UpdateResourceTags.json.cs
+  UpdateResourceTags.PowerShell.cs
+  UpdateResourceTags.TypeConverter.cs
+generated/cmdlets/
+ GetAzAutomanageBestPractice_Get.cs
+ GetAzAutomanageBestPractice_List.cs
+ GetAzAutomanageConfigProfileAssignment_Get.cs
+ GetAzAutomanageConfigProfileAssignment_GetViaIdentity.cs
+ GetAzAutomanageConfigProfileAssignment_GetViaIdentityConfigurationProfileAssignment.cs
+ GetAzAutomanageConfigProfileAssignment_List1.cs
+ GetAzAutomanageConfigProfileAssignment_List2.cs
+ GetAzAutomanageConfigProfileAssignment_List3.cs
+ GetAzAutomanageConfigProfileAssignment_List4.cs
+ GetAzAutomanageConfigProfileHciAssignment_Get.cs
+ GetAzAutomanageConfigProfileHciAssignment_GetViaIdentity.cs
+ GetAzAutomanageConfigProfileHciAssignment_GetViaIdentityCluster.cs
+ GetAzAutomanageConfigProfileHcrpAssignment_Get.cs
+ GetAzAutomanageConfigProfileHcrpAssignment_GetViaIdentity.cs
+ GetAzAutomanageConfigProfileHcrpAssignment_GetViaIdentityMachine.cs
+ GetAzAutomanageConfigProfile_Get.cs
+ GetAzAutomanageConfigProfile_GetViaIdentity.cs
+ GetAzAutomanageConfigProfile_List.cs
+ GetAzAutomanageConfigProfile_List1.cs
+ GetAzAutomanageHciReport_Get.cs
+ GetAzAutomanageHciReport_GetViaIdentity.cs
+ GetAzAutomanageHciReport_GetViaIdentityCluster.cs
+ GetAzAutomanageHciReport_GetViaIdentityConfigurationProfileAssignment.cs
+ GetAzAutomanageHciReport_List.cs
+ GetAzAutomanageHcrpReport_Get.cs
+ GetAzAutomanageHcrpReport_GetViaIdentity.cs
+ GetAzAutomanageHcrpReport_GetViaIdentityConfigurationProfileAssignment.cs
+ GetAzAutomanageHcrpReport_GetViaIdentityMachine.cs
+ GetAzAutomanageHcrpReport_List.cs
+ GetAzAutomanageOperation_List.cs
+ GetAzAutomanageReport_Get.cs
+ GetAzAutomanageReport_GetViaIdentity.cs
+ GetAzAutomanageReport_GetViaIdentityConfigurationProfileAssignment.cs
+ GetAzAutomanageReport_GetViaIdentityReport.cs
+ GetAzAutomanageReport_List.cs
+ NewAzAutomanageConfigProfileAssignment_CreateExpanded.cs
+ NewAzAutomanageConfigProfileAssignment_CreateViaIdentityConfigurationProfileAssignmentExpanded.cs
+ NewAzAutomanageConfigProfileAssignment_CreateViaJsonFilePath.cs
+ NewAzAutomanageConfigProfileAssignment_CreateViaJsonString.cs
+ NewAzAutomanageConfigProfileHciAssignment_CreateExpanded.cs
+ NewAzAutomanageConfigProfileHciAssignment_CreateViaIdentityClusterExpanded.cs
+ NewAzAutomanageConfigProfileHciAssignment_CreateViaJsonFilePath.cs
+ NewAzAutomanageConfigProfileHciAssignment_CreateViaJsonString.cs
+ NewAzAutomanageConfigProfileHcrpAssignment_CreateExpanded.cs
+ NewAzAutomanageConfigProfileHcrpAssignment_CreateViaIdentityMachineExpanded.cs
+ NewAzAutomanageConfigProfileHcrpAssignment_CreateViaJsonFilePath.cs
+ NewAzAutomanageConfigProfileHcrpAssignment_CreateViaJsonString.cs
+ NewAzAutomanageConfigProfile_CreateExpanded.cs
+ NewAzAutomanageConfigProfile_CreateViaJsonFilePath.cs
+ NewAzAutomanageConfigProfile_CreateViaJsonString.cs
+ RemoveAzAutomanageConfigProfileAssignment_Delete.cs
+ RemoveAzAutomanageConfigProfileAssignment_DeleteViaIdentity.cs
+ RemoveAzAutomanageConfigProfileAssignment_DeleteViaIdentityConfigurationProfileAssignment.cs
+ RemoveAzAutomanageConfigProfileHciAssignment_Delete.cs
+ RemoveAzAutomanageConfigProfileHciAssignment_DeleteViaIdentity.cs
+ RemoveAzAutomanageConfigProfileHciAssignment_DeleteViaIdentityCluster.cs
+ RemoveAzAutomanageConfigProfileHcrpAssignment_Delete.cs
+ RemoveAzAutomanageConfigProfileHcrpAssignment_DeleteViaIdentity.cs
+ RemoveAzAutomanageConfigProfileHcrpAssignment_DeleteViaIdentityMachine.cs
+ RemoveAzAutomanageConfigProfile_Delete.cs
+ RemoveAzAutomanageConfigProfile_DeleteViaIdentity.cs
+ UpdateAzAutomanageConfigProfileAssignment_UpdateExpanded.cs
+ UpdateAzAutomanageConfigProfileAssignment_UpdateViaIdentityConfigurationProfileAssignmentExpanded.cs
+ UpdateAzAutomanageConfigProfileAssignment_UpdateViaIdentityExpanded.cs
+ UpdateAzAutomanageConfigProfileHciAssignment_UpdateExpanded.cs
+ UpdateAzAutomanageConfigProfileHciAssignment_UpdateViaIdentityClusterExpanded.cs
+ UpdateAzAutomanageConfigProfileHciAssignment_UpdateViaIdentityExpanded.cs
+ UpdateAzAutomanageConfigProfileHcrpAssignment_UpdateExpanded.cs
+ UpdateAzAutomanageConfigProfileHcrpAssignment_UpdateViaIdentityExpanded.cs
+ UpdateAzAutomanageConfigProfileHcrpAssignment_UpdateViaIdentityMachineExpanded.cs
+ UpdateAzAutomanageConfigProfile_UpdateExpanded.cs
+ UpdateAzAutomanageConfigProfile_UpdateViaIdentityExpanded.cs
+ UpdateAzAutomanageConfigProfile_UpdateViaJsonFilePath.cs
+ UpdateAzAutomanageConfigProfile_UpdateViaJsonString.cs
+generated/
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.Automanage.GeneratedMSBuildEditorConfig.editorconfig

@@ -1,0 +1,80 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.Cmdlets.RecoveryServices.Backup.Helpers
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.RecoveryServices/Microsoft.Azure.PowerShell.Cmdlets.RecoveryServices.Backup.Helpers.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.Commands.RecoveryServices.Backup.Helpers
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.RecoveryServices/Microsoft.Azure.PowerShell.Cmdlets.RecoveryServices.Backup.Helpers.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.RecoveryServices/Microsoft.Azure.PowerShell.Cmdlets.RecoveryServices.Backup.Helpers.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.Cmdlets.RecoveryServices.Backup.Helpers.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+Conversions/
+ ConversionHelpers.cs
+ JobConversions.cs
+ RecoveryPointConversions.cs
+ RetentionPolicyConversions.cs
+ SchedulePolicyConversions.cs
+ SubPolicyConversions.cs
+Extensions/
+ EnumExtensions.cs
+ HttpHeadersExtensions.cs
+HelperUtils.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+ServiceClientHelpers.cs
+TrackingHelpers.cs
+Validations/PolicyValidations.cs
+
+[metadataReferences]
+../../../artifacts/Debug/Az.RecoveryServices/
+ Microsoft.Azure.PowerShell.Cmdlets.RecoveryServices.Backup.Logger.dll
+ Microsoft.Azure.PowerShell.Cmdlets.RecoveryServices.Backup.Models.dll
+ Microsoft.Azure.PowerShell.RecoveryServices.Backup.CrossRegionRestore.Management.Sdk.dll
+ Microsoft.Azure.PowerShell.RecoveryServices.Backup.Management.Sdk.dll
+
+[analyzerConfigFiles]
+obj/Debug/RecoveryServices.Backup.Helpers.GeneratedMSBuildEditorConfig.editorconfig

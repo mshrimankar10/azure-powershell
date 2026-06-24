@@ -1,0 +1,367 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.ConnectedKubernetes.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.ConnectedKubernetes/ConnectedKubernetes.Autorest/bin/Az.ConnectedKubernetes.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.ConnectedKubernetes
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.ConnectedKubernetes/ConnectedKubernetes.Autorest/bin/Az.ConnectedKubernetes.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.ConnectedKubernetes/ConnectedKubernetes.Autorest/bin/Az.ConnectedKubernetes.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.ConnectedKubernetes.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/
+ ConnectedKubernetes/ConnectedKubernetes.Autorest/custom/Csharp/Module.cs
+  @folderNames=Csharp
+ shared/ConfigKeys.cs
+generated/api/
+ ConnectedKubernetes.cs
+ Models/
+  AadProfile.cs
+  AadProfile.json.cs
+  AadProfile.PowerShell.cs
+  AadProfile.TypeConverter.cs
+  AgentError.cs
+  AgentError.json.cs
+  AgentError.PowerShell.cs
+  AgentError.TypeConverter.cs
+  Any.cs
+  Any.json.cs
+  Any.PowerShell.cs
+  Any.TypeConverter.cs
+  ArcAgentProfile.cs
+  ArcAgentProfile.json.cs
+  ArcAgentProfile.PowerShell.cs
+  ArcAgentProfile.TypeConverter.cs
+  ArcAgentryConfigurations.cs
+  ArcAgentryConfigurations.json.cs
+  ArcAgentryConfigurations.PowerShell.cs
+  ArcAgentryConfigurations.TypeConverter.cs
+  ArcAgentryConfigurationsProtectedSettings.cs
+  ArcAgentryConfigurationsProtectedSettings.dictionary.cs
+  ArcAgentryConfigurationsProtectedSettings.json.cs
+  ArcAgentryConfigurationsProtectedSettings.PowerShell.cs
+  ArcAgentryConfigurationsProtectedSettings.TypeConverter.cs
+  ArcAgentryConfigurationsSettings.cs
+  ArcAgentryConfigurationsSettings.dictionary.cs
+  ArcAgentryConfigurationsSettings.json.cs
+  ArcAgentryConfigurationsSettings.PowerShell.cs
+  ArcAgentryConfigurationsSettings.TypeConverter.cs
+  ConnectedCluster.cs
+  ConnectedCluster.json.cs
+  ConnectedCluster.PowerShell.cs
+  ConnectedCluster.TypeConverter.cs
+  ConnectedClusterIdentity.cs
+  ConnectedClusterIdentity.json.cs
+  ConnectedClusterIdentity.PowerShell.cs
+  ConnectedClusterIdentity.TypeConverter.cs
+  ConnectedClusterList.cs
+  ConnectedClusterList.json.cs
+  ConnectedClusterList.PowerShell.cs
+  ConnectedClusterList.TypeConverter.cs
+  ConnectedClusterPatch.cs
+  ConnectedClusterPatch.json.cs
+  ConnectedClusterPatch.PowerShell.cs
+  ConnectedClusterPatch.TypeConverter.cs
+  ConnectedClusterPatchProperties.cs
+  ConnectedClusterPatchProperties.json.cs
+  ConnectedClusterPatchProperties.PowerShell.cs
+  ConnectedClusterPatchProperties.TypeConverter.cs
+  ConnectedClusterPatchTags.cs
+  ConnectedClusterPatchTags.dictionary.cs
+  ConnectedClusterPatchTags.json.cs
+  ConnectedClusterPatchTags.PowerShell.cs
+  ConnectedClusterPatchTags.TypeConverter.cs
+  ConnectedClusterProperties.cs
+  ConnectedClusterProperties.json.cs
+  ConnectedClusterProperties.PowerShell.cs
+  ConnectedClusterProperties.TypeConverter.cs
+  ConnectedClusterPropertiesMiscellaneousProperties.cs
+  ConnectedClusterPropertiesMiscellaneousProperties.dictionary.cs
+  ConnectedClusterPropertiesMiscellaneousProperties.json.cs
+  ConnectedClusterPropertiesMiscellaneousProperties.PowerShell.cs
+  ConnectedClusterPropertiesMiscellaneousProperties.TypeConverter.cs
+  ConnectedKubernetesIdentity.cs
+  ConnectedKubernetesIdentity.json.cs
+  ConnectedKubernetesIdentity.PowerShell.cs
+  ConnectedKubernetesIdentity.TypeConverter.cs
+  CredentialResult.cs
+  CredentialResult.json.cs
+  CredentialResult.PowerShell.cs
+  CredentialResult.TypeConverter.cs
+  CredentialResults.cs
+  CredentialResults.json.cs
+  CredentialResults.PowerShell.cs
+  CredentialResults.TypeConverter.cs
+  ErrorAdditionalInfo.cs
+  ErrorAdditionalInfo.json.cs
+  ErrorAdditionalInfo.PowerShell.cs
+  ErrorAdditionalInfo.TypeConverter.cs
+  ErrorDetail.cs
+  ErrorDetail.json.cs
+  ErrorDetail.PowerShell.cs
+  ErrorDetail.TypeConverter.cs
+  ErrorResponse.cs
+  ErrorResponse.json.cs
+  ErrorResponse.PowerShell.cs
+  ErrorResponse.TypeConverter.cs
+  Gateway.cs
+  Gateway.json.cs
+  Gateway.PowerShell.cs
+  Gateway.TypeConverter.cs
+  HybridConnectionConfig.cs
+  HybridConnectionConfig.json.cs
+  HybridConnectionConfig.PowerShell.cs
+  HybridConnectionConfig.TypeConverter.cs
+  ListClusterUserCredentialProperties.cs
+  ListClusterUserCredentialProperties.json.cs
+  ListClusterUserCredentialProperties.PowerShell.cs
+  ListClusterUserCredentialProperties.TypeConverter.cs
+  OidcIssuerProfile.cs
+  OidcIssuerProfile.json.cs
+  OidcIssuerProfile.PowerShell.cs
+  OidcIssuerProfile.TypeConverter.cs
+  Operation.cs
+  Operation.json.cs
+  Operation.PowerShell.cs
+  Operation.TypeConverter.cs
+  OperationDisplay.cs
+  OperationDisplay.json.cs
+  OperationDisplay.PowerShell.cs
+  OperationDisplay.TypeConverter.cs
+  OperationList.cs
+  OperationList.json.cs
+  OperationList.PowerShell.cs
+  OperationList.TypeConverter.cs
+  Resource.cs
+  Resource.json.cs
+  Resource.PowerShell.cs
+  Resource.TypeConverter.cs
+  SecurityProfile.cs
+  SecurityProfile.json.cs
+  SecurityProfile.PowerShell.cs
+  SecurityProfile.TypeConverter.cs
+  SecurityProfileWorkloadIdentity.cs
+  SecurityProfileWorkloadIdentity.json.cs
+  SecurityProfileWorkloadIdentity.PowerShell.cs
+  SecurityProfileWorkloadIdentity.TypeConverter.cs
+  SystemComponent.cs
+  SystemComponent.json.cs
+  SystemComponent.PowerShell.cs
+  SystemComponent.TypeConverter.cs
+  SystemData.cs
+  SystemData.json.cs
+  SystemData.PowerShell.cs
+  SystemData.TypeConverter.cs
+  TrackedResource.cs
+  TrackedResource.json.cs
+  TrackedResource.PowerShell.cs
+  TrackedResource.TypeConverter.cs
+  TrackedResourceTags.cs
+  TrackedResourceTags.dictionary.cs
+  TrackedResourceTags.json.cs
+  TrackedResourceTags.PowerShell.cs
+  TrackedResourceTags.TypeConverter.cs
+generated/cmdlets/
+ GetAzConnectedKubernetesOperation_Get.cs
+ GetAzConnectedKubernetesUserCredential_List.cs
+ GetAzConnectedKubernetesUserCredential_ListExpanded.cs
+ GetAzConnectedKubernetesUserCredential_ListViaJsonFilePath.cs
+ GetAzConnectedKubernetesUserCredential_ListViaJsonString.cs
+ GetAzConnectedKubernetes_Get.cs
+ GetAzConnectedKubernetes_GetViaIdentity.cs
+ GetAzConnectedKubernetes_List.cs
+ GetAzConnectedKubernetes_List1.cs
+ NewAzConnectedKubernetes_CreateExpanded.cs
+ RemoveAzConnectedKubernetes_Delete.cs
+ RemoveAzConnectedKubernetes_DeleteViaIdentity.cs
+ SetAzConnectedKubernetes_UpdateExpanded.cs
+ UpdateAzConnectedKubernetes_UpdateExpanded.cs
+ UpdateAzConnectedKubernetes_UpdateViaIdentityExpanded.cs
+generated/
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.ConnectedKubernetes.GeneratedMSBuildEditorConfig.editorconfig

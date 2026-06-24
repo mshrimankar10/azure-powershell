@@ -1,0 +1,300 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.LogicApp.Management.Sdk
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.LogicApp/Microsoft.Azure.PowerShell.LogicApp.Management.Sdk.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.Management.LogicApp
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.LogicApp/Microsoft.Azure.PowerShell.LogicApp.Management.Sdk.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,CS0108,CS1573,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.LogicApp/Microsoft.Azure.PowerShell.LogicApp.Management.Sdk.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.LogicApp.Management.Sdk.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+Generated/
+ IIntegrationAccountAgreementsOperations.cs
+ IIntegrationAccountAssembliesOperations.cs
+ IIntegrationAccountBatchConfigurationsOperations.cs
+ IIntegrationAccountCertificatesOperations.cs
+ IIntegrationAccountMapsOperations.cs
+ IIntegrationAccountPartnersOperations.cs
+ IIntegrationAccountSchemasOperations.cs
+ IIntegrationAccountSessionsOperations.cs
+ IIntegrationAccountsOperations.cs
+ ILogicManagementClient.cs
+ IntegrationAccountAgreementsOperations.cs
+ IntegrationAccountAgreementsOperationsExtensions.cs
+ IntegrationAccountAssembliesOperations.cs
+ IntegrationAccountAssembliesOperationsExtensions.cs
+ IntegrationAccountBatchConfigurationsOperations.cs
+ IntegrationAccountBatchConfigurationsOperationsExtensions.cs
+ IntegrationAccountCertificatesOperations.cs
+ IntegrationAccountCertificatesOperationsExtensions.cs
+ IntegrationAccountMapsOperations.cs
+ IntegrationAccountMapsOperationsExtensions.cs
+ IntegrationAccountPartnersOperations.cs
+ IntegrationAccountPartnersOperationsExtensions.cs
+ IntegrationAccountSchemasOperations.cs
+ IntegrationAccountSchemasOperationsExtensions.cs
+ IntegrationAccountSessionsOperations.cs
+ IntegrationAccountSessionsOperationsExtensions.cs
+ IntegrationAccountsOperations.cs
+ IntegrationAccountsOperationsExtensions.cs
+ IOperations.cs
+ IWorkflowRunActionRepetitionsOperations.cs
+ IWorkflowRunActionRepetitionsRequestHistoriesOperations.cs
+ IWorkflowRunActionRequestHistoriesOperations.cs
+ IWorkflowRunActionScopeRepetitionsOperations.cs
+ IWorkflowRunActionsOperations.cs
+ IWorkflowRunOperations.cs
+ IWorkflowRunsOperations.cs
+ IWorkflowsOperations.cs
+ IWorkflowTriggerHistoriesOperations.cs
+ IWorkflowTriggersOperations.cs
+ IWorkflowVersionsOperations.cs
+ IWorkflowVersionTriggersOperations.cs
+ LogicManagementClient.cs
+ Models/
+  AgreementContent.cs
+  AgreementType.cs
+  ArtifactContentPropertiesDefinition.cs
+  ArtifactProperties.cs
+  AS2AcknowledgementConnectionSettings.cs
+  AS2AgreementContent.cs
+  AS2EnvelopeSettings.cs
+  AS2ErrorSettings.cs
+  AS2MdnSettings.cs
+  AS2MessageConnectionSettings.cs
+  AS2OneWayAgreement.cs
+  AS2ProtocolSettings.cs
+  AS2SecuritySettings.cs
+  AS2ValidationSettings.cs
+  AssemblyDefinition.cs
+  AssemblyProperties.cs
+  AzureResourceErrorInfo.cs
+  B2BPartnerContent.cs
+  BatchConfiguration.cs
+  BatchConfigurationProperties.cs
+  BatchReleaseCriteria.cs
+  BusinessIdentity.cs
+  CallbackUrl.cs
+  ContentHash.cs
+  ContentLink.cs
+  Correlation.cs
+  DayOfWeek.cs
+  DaysOfWeek.cs
+  EdifactAcknowledgementSettings.cs
+  EdifactAgreementContent.cs
+  EdifactCharacterSet.cs
+  EdifactDecimalIndicator.cs
+  EdifactDelimiterOverride.cs
+  EdifactEnvelopeOverride.cs
+  EdifactEnvelopeSettings.cs
+  EdifactFramingSettings.cs
+  EdifactMessageFilter.cs
+  EdifactMessageIdentifier.cs
+  EdifactOneWayAgreement.cs
+  EdifactProcessingSettings.cs
+  EdifactProtocolSettings.cs
+  EdifactSchemaReference.cs
+  EdifactValidationOverride.cs
+  EdifactValidationSettings.cs
+  EncryptionAlgorithm.cs
+  ErrorInfo.cs
+  ErrorProperties.cs
+  ErrorResponse.cs
+  ErrorResponseException.cs
+  EventLevel.cs
+  Expression.cs
+  ExpressionRoot.cs
+  GenerateUpgradedDefinitionParameters.cs
+  GetCallbackUrlParameters.cs
+  HashingAlgorithm.cs
+  IntegrationAccount.cs
+  IntegrationAccountAgreement.cs
+  IntegrationAccountAgreementFilter.cs
+  IntegrationAccountAgreementProperties.cs
+  IntegrationAccountCertificate.cs
+  IntegrationAccountCertificateProperties.cs
+  IntegrationAccountMap.cs
+  IntegrationAccountMapFilter.cs
+  IntegrationAccountMapProperties.cs
+  IntegrationAccountMapPropertiesParametersSchema.cs
+  IntegrationAccountPartner.cs
+  IntegrationAccountPartnerFilter.cs
+  IntegrationAccountPartnerProperties.cs
+  IntegrationAccountSchema.cs
+  IntegrationAccountSchemaFilter.cs
+  IntegrationAccountSchemaProperties.cs
+  IntegrationAccountSession.cs
+  IntegrationAccountSessionFilter.cs
+  IntegrationAccountSessionProperties.cs
+  IntegrationAccountSku.cs
+  IntegrationAccountSkuName.cs
+  JsonSchema.cs
+  KeyType.cs
+  KeyVaultKey.cs
+  KeyVaultKeyAttributes.cs
+  KeyVaultKeyReference.cs
+  KeyVaultKeyReferenceKeyVault.cs
+  KeyVaultReference.cs
+  ListKeyVaultKeysDefinition.cs
+  MapType.cs
+  MessageFilterType.cs
+  Operation.cs
+  OperationDisplay.cs
+  OperationResult.cs
+  OperationResultProperties.cs
+  Page.cs
+  Page1.cs
+  Page2.cs
+  ParameterType.cs
+  PartnerContent.cs
+  PartnerType.cs
+  RecurrenceFrequency.cs
+  RecurrenceSchedule.cs
+  RecurrenceScheduleOccurrence.cs
+  RegenerateActionParameter.cs
+  RepetitionIndex.cs
+  Request.cs
+  RequestHistory.cs
+  RequestHistoryProperties.cs
+  Resource.cs
+  ResourceReference.cs
+  Response.cs
+  RetryHistory.cs
+  RunActionCorrelation.cs
+  RunCorrelation.cs
+  SchemaType.cs
+  SegmentTerminatorSuffix.cs
+  SetTriggerStateActionDefinition.cs
+  SigningAlgorithm.cs
+  Sku.cs
+  SkuName.cs
+  SubResource.cs
+  TrackEventsOperationOptions.cs
+  TrackingEvent.cs
+  TrackingEventErrorInfo.cs
+  TrackingEventsDefinition.cs
+  TrackingRecordType.cs
+  TrailingSeparatorPolicy.cs
+  UsageIndicator.cs
+  Workflow.cs
+  WorkflowFilter.cs
+  WorkflowOutputParameter.cs
+  WorkflowParameter.cs
+  WorkflowProperties.cs
+  WorkflowProvisioningState.cs
+  WorkflowRun.cs
+  WorkflowRunAction.cs
+  WorkflowRunActionFilter.cs
+  WorkflowRunActionProperties.cs
+  WorkflowRunActionRepetitionDefinition.cs
+  WorkflowRunActionRepetitionDefinitionCollection.cs
+  WorkflowRunActionRepetitionProperties.cs
+  WorkflowRunFilter.cs
+  WorkflowRunProperties.cs
+  WorkflowRunTrigger.cs
+  WorkflowState.cs
+  WorkflowStatus.cs
+  WorkflowTrigger.cs
+  WorkflowTriggerCallbackUrl.cs
+  WorkflowTriggerFilter.cs
+  WorkflowTriggerHistory.cs
+  WorkflowTriggerHistoryFilter.cs
+  WorkflowTriggerHistoryProperties.cs
+  WorkflowTriggerListCallbackUrlQueries.cs
+  WorkflowTriggerProperties.cs
+  WorkflowTriggerProvisioningState.cs
+  WorkflowTriggerRecurrence.cs
+  WorkflowVersion.cs
+  WorkflowVersionProperties.cs
+  X12AcknowledgementSettings.cs
+  X12AgreementContent.cs
+  X12CharacterSet.cs
+  X12DateFormat.cs
+  X12DelimiterOverrides.cs
+  X12EnvelopeOverride.cs
+  X12EnvelopeSettings.cs
+  X12FramingSettings.cs
+  X12MessageFilter.cs
+  X12MessageIdentifier.cs
+  X12OneWayAgreement.cs
+  X12ProcessingSettings.cs
+  X12ProtocolSettings.cs
+  X12SchemaReference.cs
+  X12SecuritySettings.cs
+  X12TimeFormat.cs
+  X12ValidationOverride.cs
+  X12ValidationSettings.cs
+ Operations.cs
+ OperationsExtensions.cs
+ WorkflowRunActionRepetitionsOperations.cs
+ WorkflowRunActionRepetitionsOperationsExtensions.cs
+ WorkflowRunActionRepetitionsRequestHistoriesOperations.cs
+ WorkflowRunActionRepetitionsRequestHistoriesOperationsExtensions.cs
+ WorkflowRunActionRequestHistoriesOperations.cs
+ WorkflowRunActionRequestHistoriesOperationsExtensions.cs
+ WorkflowRunActionScopeRepetitionsOperations.cs
+ WorkflowRunActionScopeRepetitionsOperationsExtensions.cs
+ WorkflowRunActionsOperations.cs
+ WorkflowRunActionsOperationsExtensions.cs
+ WorkflowRunOperations.cs
+ WorkflowRunOperationsExtensions.cs
+ WorkflowRunsOperations.cs
+ WorkflowRunsOperationsExtensions.cs
+ WorkflowsOperations.cs
+ WorkflowsOperationsExtensions.cs
+ WorkflowTriggerHistoriesOperations.cs
+ WorkflowTriggerHistoriesOperationsExtensions.cs
+ WorkflowTriggersOperations.cs
+ WorkflowTriggersOperationsExtensions.cs
+ WorkflowVersionsOperations.cs
+ WorkflowVersionsOperationsExtensions.cs
+ WorkflowVersionTriggersOperations.cs
+ WorkflowVersionTriggersOperationsExtensions.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+
+[analyzerConfigFiles]
+obj/Debug/LogicApp.Management.Sdk.GeneratedMSBuildEditorConfig.editorconfig

@@ -1,0 +1,532 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.SqlVirtualMachine.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.SqlVirtualMachine/SqlVirtualMachine.Autorest/bin/Az.SqlVirtualMachine.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.SqlVirtualMachine
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.SqlVirtualMachine/SqlVirtualMachine.Autorest/bin/Az.SqlVirtualMachine.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.SqlVirtualMachine/SqlVirtualMachine.Autorest/bin/Az.SqlVirtualMachine.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.SqlVirtualMachine.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/Models/
+ Any.cs
+ Any.json.cs
+ Any.PowerShell.cs
+ Any.TypeConverter.cs
+ Api20/
+  SystemData.cs
+  SystemData.json.cs
+  SystemData.PowerShell.cs
+  SystemData.TypeConverter.cs
+ Api20220801Preview/
+  AadAuthenticationSettings.cs
+  AadAuthenticationSettings.json.cs
+  AadAuthenticationSettings.PowerShell.cs
+  AadAuthenticationSettings.TypeConverter.cs
+  AdditionalFeaturesServerConfigurations.cs
+  AdditionalFeaturesServerConfigurations.json.cs
+  AdditionalFeaturesServerConfigurations.PowerShell.cs
+  AdditionalFeaturesServerConfigurations.TypeConverter.cs
+  AgConfiguration.cs
+  AgConfiguration.json.cs
+  AgConfiguration.PowerShell.cs
+  AgConfiguration.TypeConverter.cs
+  AgReplica.cs
+  AgReplica.json.cs
+  AgReplica.PowerShell.cs
+  AgReplica.TypeConverter.cs
+  AssessmentSettings.cs
+  AssessmentSettings.json.cs
+  AssessmentSettings.PowerShell.cs
+  AssessmentSettings.TypeConverter.cs
+  AutoBackupSettings.cs
+  AutoBackupSettings.json.cs
+  AutoBackupSettings.PowerShell.cs
+  AutoBackupSettings.TypeConverter.cs
+  AutoPatchingSettings.cs
+  AutoPatchingSettings.json.cs
+  AutoPatchingSettings.PowerShell.cs
+  AutoPatchingSettings.TypeConverter.cs
+  AvailabilityGroupListener.cs
+  AvailabilityGroupListener.json.cs
+  AvailabilityGroupListener.PowerShell.cs
+  AvailabilityGroupListener.TypeConverter.cs
+  AvailabilityGroupListenerListResult.cs
+  AvailabilityGroupListenerListResult.json.cs
+  AvailabilityGroupListenerListResult.PowerShell.cs
+  AvailabilityGroupListenerListResult.TypeConverter.cs
+  AvailabilityGroupListenerProperties.cs
+  AvailabilityGroupListenerProperties.json.cs
+  AvailabilityGroupListenerProperties.PowerShell.cs
+  AvailabilityGroupListenerProperties.TypeConverter.cs
+  KeyVaultCredentialSettings.cs
+  KeyVaultCredentialSettings.json.cs
+  KeyVaultCredentialSettings.PowerShell.cs
+  KeyVaultCredentialSettings.TypeConverter.cs
+  LoadBalancerConfiguration.cs
+  LoadBalancerConfiguration.json.cs
+  LoadBalancerConfiguration.PowerShell.cs
+  LoadBalancerConfiguration.TypeConverter.cs
+  MultiSubnetIPConfiguration.cs
+  MultiSubnetIPConfiguration.json.cs
+  MultiSubnetIPConfiguration.PowerShell.cs
+  MultiSubnetIPConfiguration.TypeConverter.cs
+  Operation.cs
+  Operation.json.cs
+  Operation.PowerShell.cs
+  Operation.TypeConverter.cs
+  OperationDisplay.cs
+  OperationDisplay.json.cs
+  OperationDisplay.PowerShell.cs
+  OperationDisplay.TypeConverter.cs
+  OperationListResult.cs
+  OperationListResult.json.cs
+  OperationListResult.PowerShell.cs
+  OperationListResult.TypeConverter.cs
+  OperationProperties.cs
+  OperationProperties.dictionary.cs
+  OperationProperties.json.cs
+  OperationProperties.PowerShell.cs
+  OperationProperties.TypeConverter.cs
+  PrivateIPAddress.cs
+  PrivateIPAddress.json.cs
+  PrivateIPAddress.PowerShell.cs
+  PrivateIPAddress.TypeConverter.cs
+  ProxyResource.cs
+  ProxyResource.json.cs
+  ProxyResource.PowerShell.cs
+  ProxyResource.TypeConverter.cs
+  Resource.cs
+  Resource.json.cs
+  Resource.PowerShell.cs
+  Resource.TypeConverter.cs
+  ResourceIdentity.cs
+  ResourceIdentity.json.cs
+  ResourceIdentity.PowerShell.cs
+  ResourceIdentity.TypeConverter.cs
+  Schedule.cs
+  Schedule.json.cs
+  Schedule.PowerShell.cs
+  Schedule.TypeConverter.cs
+  ServerConfigurationsManagementSettings.cs
+  ServerConfigurationsManagementSettings.json.cs
+  ServerConfigurationsManagementSettings.PowerShell.cs
+  ServerConfigurationsManagementSettings.TypeConverter.cs
+  SqlConnectivityUpdateSettings.cs
+  SqlConnectivityUpdateSettings.json.cs
+  SqlConnectivityUpdateSettings.PowerShell.cs
+  SqlConnectivityUpdateSettings.TypeConverter.cs
+  SqlInstanceSettings.cs
+  SqlInstanceSettings.json.cs
+  SqlInstanceSettings.PowerShell.cs
+  SqlInstanceSettings.TypeConverter.cs
+  SqlStorageSettings.cs
+  SqlStorageSettings.json.cs
+  SqlStorageSettings.PowerShell.cs
+  SqlStorageSettings.TypeConverter.cs
+  SqlStorageUpdateSettings.cs
+  SqlStorageUpdateSettings.json.cs
+  SqlStorageUpdateSettings.PowerShell.cs
+  SqlStorageUpdateSettings.TypeConverter.cs
+  SqlTempDbSettings.cs
+  SqlTempDbSettings.json.cs
+  SqlTempDbSettings.PowerShell.cs
+  SqlTempDbSettings.TypeConverter.cs
+  SqlVirtualMachine.cs
+  SqlVirtualMachine.json.cs
+  SqlVirtualMachine.PowerShell.cs
+  SqlVirtualMachine.TypeConverter.cs
+  SqlVirtualMachineGroup.cs
+  SqlVirtualMachineGroup.json.cs
+  SqlVirtualMachineGroup.PowerShell.cs
+  SqlVirtualMachineGroup.TypeConverter.cs
+  SqlVirtualMachineGroupListResult.cs
+  SqlVirtualMachineGroupListResult.json.cs
+  SqlVirtualMachineGroupListResult.PowerShell.cs
+  SqlVirtualMachineGroupListResult.TypeConverter.cs
+  SqlVirtualMachineGroupProperties.cs
+  SqlVirtualMachineGroupProperties.json.cs
+  SqlVirtualMachineGroupProperties.PowerShell.cs
+  SqlVirtualMachineGroupProperties.TypeConverter.cs
+  SqlVirtualMachineGroupUpdate.cs
+  SqlVirtualMachineGroupUpdate.json.cs
+  SqlVirtualMachineGroupUpdate.PowerShell.cs
+  SqlVirtualMachineGroupUpdate.TypeConverter.cs
+  SqlVirtualMachineGroupUpdateTags.cs
+  SqlVirtualMachineGroupUpdateTags.dictionary.cs
+  SqlVirtualMachineGroupUpdateTags.json.cs
+  SqlVirtualMachineGroupUpdateTags.PowerShell.cs
+  SqlVirtualMachineGroupUpdateTags.TypeConverter.cs
+  SqlVirtualMachineListResult.cs
+  SqlVirtualMachineListResult.json.cs
+  SqlVirtualMachineListResult.PowerShell.cs
+  SqlVirtualMachineListResult.TypeConverter.cs
+  SqlVirtualMachineProperties.cs
+  SqlVirtualMachineProperties.json.cs
+  SqlVirtualMachineProperties.PowerShell.cs
+  SqlVirtualMachineProperties.TypeConverter.cs
+  SqlVirtualMachineUpdate.cs
+  SqlVirtualMachineUpdate.json.cs
+  SqlVirtualMachineUpdate.PowerShell.cs
+  SqlVirtualMachineUpdate.TypeConverter.cs
+  SqlVirtualMachineUpdateTags.cs
+  SqlVirtualMachineUpdateTags.dictionary.cs
+  SqlVirtualMachineUpdateTags.json.cs
+  SqlVirtualMachineUpdateTags.PowerShell.cs
+  SqlVirtualMachineUpdateTags.TypeConverter.cs
+  SqlVMTroubleshooting.cs
+  SqlVMTroubleshooting.json.cs
+  SqlVMTroubleshooting.PowerShell.cs
+  SqlVMTroubleshooting.TypeConverter.cs
+  SqlWorkloadTypeUpdateSettings.cs
+  SqlWorkloadTypeUpdateSettings.json.cs
+  SqlWorkloadTypeUpdateSettings.PowerShell.cs
+  SqlWorkloadTypeUpdateSettings.TypeConverter.cs
+  StorageConfigurationSettings.cs
+  StorageConfigurationSettings.json.cs
+  StorageConfigurationSettings.PowerShell.cs
+  StorageConfigurationSettings.TypeConverter.cs
+  TrackedResource.cs
+  TrackedResource.json.cs
+  TrackedResource.PowerShell.cs
+  TrackedResource.TypeConverter.cs
+  TrackedResourceTags.cs
+  TrackedResourceTags.dictionary.cs
+  TrackedResourceTags.json.cs
+  TrackedResourceTags.PowerShell.cs
+  TrackedResourceTags.TypeConverter.cs
+  TroubleshootingAdditionalProperties.cs
+  TroubleshootingAdditionalProperties.json.cs
+  TroubleshootingAdditionalProperties.PowerShell.cs
+  TroubleshootingAdditionalProperties.TypeConverter.cs
+  TroubleshootingStatus.cs
+  TroubleshootingStatus.json.cs
+  TroubleshootingStatus.PowerShell.cs
+  TroubleshootingStatus.TypeConverter.cs
+  UnhealthyReplicaInfo.cs
+  UnhealthyReplicaInfo.json.cs
+  UnhealthyReplicaInfo.PowerShell.cs
+  UnhealthyReplicaInfo.TypeConverter.cs
+  WsfcDomainCredentials.cs
+  WsfcDomainCredentials.json.cs
+  WsfcDomainCredentials.PowerShell.cs
+  WsfcDomainCredentials.TypeConverter.cs
+  WsfcDomainProfile.cs
+  WsfcDomainProfile.json.cs
+  WsfcDomainProfile.PowerShell.cs
+  WsfcDomainProfile.TypeConverter.cs
+ Api30/
+  ErrorAdditionalInfo.cs
+  ErrorAdditionalInfo.json.cs
+  ErrorAdditionalInfo.PowerShell.cs
+  ErrorAdditionalInfo.TypeConverter.cs
+  ErrorDetail.cs
+  ErrorDetail.json.cs
+  ErrorDetail.PowerShell.cs
+  ErrorDetail.TypeConverter.cs
+  ErrorResponse.cs
+  ErrorResponse.json.cs
+  ErrorResponse.PowerShell.cs
+  ErrorResponse.TypeConverter.cs
+ SqlVirtualMachineIdentity.cs
+ SqlVirtualMachineIdentity.json.cs
+ SqlVirtualMachineIdentity.PowerShell.cs
+ SqlVirtualMachineIdentity.TypeConverter.cs
+generated/api/
+ SqlVirtualMachineManagementClient.cs
+ Support/
+  AssessmentDayOfWeek.Completer.cs
+  AssessmentDayOfWeek.cs
+  AssessmentDayOfWeek.TypeConverter.cs
+  AutoBackupDaysOfWeek.Completer.cs
+  AutoBackupDaysOfWeek.cs
+  AutoBackupDaysOfWeek.TypeConverter.cs
+  BackupScheduleType.Completer.cs
+  BackupScheduleType.cs
+  BackupScheduleType.TypeConverter.cs
+  ClusterConfiguration.Completer.cs
+  ClusterConfiguration.cs
+  ClusterConfiguration.TypeConverter.cs
+  ClusterManagerType.Completer.cs
+  ClusterManagerType.cs
+  ClusterManagerType.TypeConverter.cs
+  ClusterSubnetType.Completer.cs
+  ClusterSubnetType.cs
+  ClusterSubnetType.TypeConverter.cs
+  Commit.Completer.cs
+  Commit.cs
+  Commit.TypeConverter.cs
+  ConnectivityType.Completer.cs
+  ConnectivityType.cs
+  ConnectivityType.TypeConverter.cs
+  CreatedByType.Completer.cs
+  CreatedByType.cs
+  CreatedByType.TypeConverter.cs
+  DayOfWeek.Completer.cs
+  DayOfWeek.cs
+  DayOfWeek.TypeConverter.cs
+  DiskConfigurationType.Completer.cs
+  DiskConfigurationType.cs
+  DiskConfigurationType.TypeConverter.cs
+  Failover.Completer.cs
+  Failover.cs
+  Failover.TypeConverter.cs
+  FullBackupFrequencyType.Completer.cs
+  FullBackupFrequencyType.cs
+  FullBackupFrequencyType.TypeConverter.cs
+  IdentityType.Completer.cs
+  IdentityType.cs
+  IdentityType.TypeConverter.cs
+  LeastPrivilegeMode.Completer.cs
+  LeastPrivilegeMode.cs
+  LeastPrivilegeMode.TypeConverter.cs
+  OperationOrigin.Completer.cs
+  OperationOrigin.cs
+  OperationOrigin.TypeConverter.cs
+  ReadableSecondary.Completer.cs
+  ReadableSecondary.cs
+  ReadableSecondary.TypeConverter.cs
+  Role.Completer.cs
+  Role.cs
+  Role.TypeConverter.cs
+  ScaleType.Completer.cs
+  ScaleType.cs
+  ScaleType.TypeConverter.cs
+  SqlImageSku.Completer.cs
+  SqlImageSku.cs
+  SqlImageSku.TypeConverter.cs
+  SqlManagementMode.Completer.cs
+  SqlManagementMode.cs
+  SqlManagementMode.TypeConverter.cs
+  SqlServerLicenseType.Completer.cs
+  SqlServerLicenseType.cs
+  SqlServerLicenseType.TypeConverter.cs
+  SqlVMGroupImageSku.Completer.cs
+  SqlVMGroupImageSku.cs
+  SqlVMGroupImageSku.TypeConverter.cs
+  SqlWorkloadType.Completer.cs
+  SqlWorkloadType.cs
+  SqlWorkloadType.TypeConverter.cs
+  StorageWorkloadType.Completer.cs
+  StorageWorkloadType.cs
+  StorageWorkloadType.TypeConverter.cs
+  TroubleshootingScenario.Completer.cs
+  TroubleshootingScenario.cs
+  TroubleshootingScenario.TypeConverter.cs
+generated/cmdlets/
+ GetAzAvailabilityGroupListener_Get.cs
+ GetAzAvailabilityGroupListener_GetViaIdentity.cs
+ GetAzAvailabilityGroupListener_List.cs
+ GetAzSqlVMGroup_Get.cs
+ GetAzSqlVMGroup_GetViaIdentity.cs
+ GetAzSqlVMGroup_List.cs
+ GetAzSqlVMGroup_List1.cs
+ GetAzSqlVMOperation_List.cs
+ GetAzSqlVM_Get.cs
+ GetAzSqlVM_GetViaIdentity.cs
+ GetAzSqlVM_List.cs
+ GetAzSqlVM_List1.cs
+ GetAzSqlVM_List2.cs
+ InvokeAzRedeploySqlVM_Redeploy.cs
+ InvokeAzRedeploySqlVM_RedeployViaIdentity.cs
+ InvokeAzSqlVMTroubleshoot_TroubleshootExpanded.cs
+ InvokeAzSqlVMTroubleshoot_TroubleshootViaIdentityExpanded.cs
+ NewAzAvailabilityGroupListener_CreateExpanded.cs
+ NewAzAvailabilityGroupListener_CreateViaIdentity.cs
+ NewAzSqlVMGroup_CreateExpanded.cs
+ NewAzSqlVMGroup_CreateViaIdentity.cs
+ NewAzSqlVM_CreateExpanded.cs
+ NewAzSqlVM_CreateViaIdentity.cs
+ RemoveAzAvailabilityGroupListener_Delete.cs
+ RemoveAzAvailabilityGroupListener_DeleteViaIdentity.cs
+ RemoveAzSqlVMGroup_Delete.cs
+ RemoveAzSqlVMGroup_DeleteViaIdentity.cs
+ RemoveAzSqlVM_Delete.cs
+ RemoveAzSqlVM_DeleteViaIdentity.cs
+ StartAzSqlVMAssessment_Start.cs
+ StartAzSqlVMAssessment_StartViaIdentity.cs
+generated/
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.SqlVirtualMachine.GeneratedMSBuildEditorConfig.editorconfig

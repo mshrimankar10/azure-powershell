@@ -1,0 +1,179 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.IotHub.Management.Sdk
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.IotHub/Microsoft.Azure.PowerShell.IotHub.Management.Sdk.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.Management.IotHub
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.IotHub/Microsoft.Azure.PowerShell.IotHub.Management.Sdk.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,CS0108,CS1573,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.IotHub/Microsoft.Azure.PowerShell.IotHub.Management.Sdk.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.IotHub.Management.Sdk.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+Generated/
+ CertificatesOperations.cs
+ CertificatesOperationsExtensions.cs
+ ICertificatesOperations.cs
+ IIotHubClient.cs
+ IIotHubOperations.cs
+ IIotHubResourceOperations.cs
+ IOperations.cs
+ IotHubClient.cs
+ IotHubOperations.cs
+ IotHubOperationsExtensions.cs
+ IotHubResourceOperations.cs
+ IotHubResourceOperationsExtensions.cs
+ IPrivateEndpointConnectionsOperations.cs
+ IPrivateLinkResourcesOperations.cs
+ IResourceProviderCommonOperations.cs
+ Models/
+  AccessRights.cs
+  ArmIdentity.cs
+  ArmUserIdentity.cs
+  AuthenticationType.cs
+  Capabilities.cs
+  CertificateBodyDescription.cs
+  CertificateDescription.cs
+  CertificateListDescription.cs
+  CertificateProperties.cs
+  CertificatePropertiesWithNonce.cs
+  CertificateVerificationDescription.cs
+  CertificateWithNonceDescription.cs
+  CloudToDeviceProperties.cs
+  CreatedByType.cs
+  DefaultAction.cs
+  EndpointHealthData.cs
+  EndpointHealthStatus.cs
+  EnrichmentProperties.cs
+  ErrorDetails.cs
+  ErrorDetailsException.cs
+  EventHubConsumerGroupBodyDescription.cs
+  EventHubConsumerGroupInfo.cs
+  EventHubConsumerGroupName.cs
+  EventHubProperties.cs
+  ExportDevicesRequest.cs
+  FailoverInput.cs
+  FallbackRouteProperties.cs
+  FeedbackProperties.cs
+  GroupIdInformation.cs
+  GroupIdInformationProperties.cs
+  ImportDevicesRequest.cs
+  IotHubCapacity.cs
+  IotHubDescription.cs
+  IotHubLocationDescription.cs
+  IotHubNameAvailabilityInfo.cs
+  IotHubNameUnavailabilityReason.cs
+  IotHubProperties.cs
+  IotHubQuotaMetricInfo.cs
+  IotHubReplicaRoleType.cs
+  IotHubScaleType.cs
+  IotHubSku.cs
+  IotHubSkuDescription.cs
+  IotHubSkuInfo.cs
+  IotHubSkuTier.cs
+  IpFilterActionType.cs
+  IpFilterRule.cs
+  JobResponse.cs
+  JobStatus.cs
+  JobType.cs
+  ManagedIdentity.cs
+  MatchedRoute.cs
+  MessagingEndpointProperties.cs
+  Name.cs
+  NetworkRuleIPAction.cs
+  NetworkRuleSetIpRule.cs
+  NetworkRuleSetProperties.cs
+  Operation.cs
+  OperationDisplay.cs
+  OperationInputs.cs
+  Page.cs
+  PrivateEndpoint.cs
+  PrivateEndpointConnection.cs
+  PrivateEndpointConnectionProperties.cs
+  PrivateLinkResources.cs
+  PrivateLinkServiceConnectionState.cs
+  PrivateLinkServiceConnectionStatus.cs
+  PublicNetworkAccess.cs
+  RegistryStatistics.cs
+  Resource.cs
+  ResourceIdentityType.cs
+  RouteCompilationError.cs
+  RouteErrorPosition.cs
+  RouteErrorRange.cs
+  RouteErrorSeverity.cs
+  RouteProperties.cs
+  RoutingEndpoints.cs
+  RoutingEventHubProperties.cs
+  RoutingMessage.cs
+  RoutingProperties.cs
+  RoutingServiceBusQueueEndpointProperties.cs
+  RoutingServiceBusTopicEndpointProperties.cs
+  RoutingSource.cs
+  RoutingStorageContainerProperties.cs
+  RoutingTwin.cs
+  RoutingTwinProperties.cs
+  SharedAccessSignatureAuthorizationRule.cs
+  StorageEndpointProperties.cs
+  SystemData.cs
+  TagsResource.cs
+  TestAllRoutesInput.cs
+  TestAllRoutesResult.cs
+  TestRouteInput.cs
+  TestRouteResult.cs
+  TestRouteResultDetails.cs
+  UserSubscriptionQuota.cs
+  UserSubscriptionQuotaListResult.cs
+ Operations.cs
+ OperationsExtensions.cs
+ PrivateEndpointConnectionsOperations.cs
+ PrivateEndpointConnectionsOperationsExtensions.cs
+ PrivateLinkResourcesOperations.cs
+ PrivateLinkResourcesOperationsExtensions.cs
+ ResourceProviderCommonOperations.cs
+ ResourceProviderCommonOperationsExtensions.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+
+[analyzerConfigFiles]
+obj/Debug/IotHub.Management.Sdk.GeneratedMSBuildEditorConfig.editorconfig

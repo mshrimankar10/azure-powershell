@@ -1,0 +1,277 @@
+{
+  "Get-AzExpressRouteLagAuthorization+[NoContext]+List+$GET+https://management.azure.com/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/authorizations?api-version=2025-09-01+1": {
+    "Request": {
+      "Method": "GET",
+      "RequestUri": "https://management.azure.com/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/authorizations?api-version=2025-09-01",
+      "Content": null,
+      "isContentBase64": false,
+      "Headers": {
+        "x-ms-unique-id": [ "2" ],
+        "x-ms-client-request-id": [ "10358630-368f-4a62-bc19-7afa49ee8ef9" ],
+        "CommandName": [ "Get-AzExpressRouteLagAuthorization" ],
+        "FullCommandName": [ "Get-AzExpressRouteLagAuthorization_List" ],
+        "ParameterSetName": [ "__AllParameterSets" ],
+        "User-Agent": [ "AzurePowershell/v12.2.0", "PSVersion/v7.5.5", "Az.ExpressRouteLag/0.1.0" ],
+        "Authorization": [ "[Filtered]" ]
+      },
+      "ContentHeaders": {
+      }
+    },
+    "Response": {
+      "StatusCode": 200,
+      "Headers": {
+        "Cache-Control": [ "no-cache" ],
+        "Pragma": [ "no-cache" ],
+        "x-ms-request-id": [ "3f93e7e3-d576-48a3-91e4-53e11a6d1aaa" ],
+        "x-ms-throttle-levels": [ "operationConcurrencyPct=0.3, etc" ],
+        "x-ms-correlation-request-id": [ "f2016e70-250f-4bd9-bba6-3562210c14ae" ],
+        "x-ms-arm-service-request-id": [ "810299b9-a908-4d9f-9711-ce06d441004b" ],
+        "Strict-Transport-Security": [ "max-age=31536000; includeSubDomains" ],
+        "x-ms-operation-identifier": [ "tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47,objectId=b2518563-eafc-4ef4-aa06-011b62695a06/eastus2euap/1898dd1d-41bd-408e-abe9-f17e7f196a0a" ],
+        "x-ms-throttling-version": [ "v2" ],
+        "x-ms-ratelimit-remaining-subscription-reads": [ "1099" ],
+        "x-ms-routing-request-id": [ "EASTUS2EUAP:20260512T194128Z:f2016e70-250f-4bd9-bba6-3562210c14ae" ],
+        "X-Content-Type-Options": [ "nosniff" ],
+        "X-Cache": [ "CONFIG_NOCACHE" ],
+        "X-MSEdge-Ref": [ "Ref A: 303FF0BADFC84D3483684199EF1D90F4 Ref B: MWH011020808052 Ref C: 2026-05-12T19:41:26Z" ],
+        "Date": [ "Tue, 12 May 2026 19:41:27 GMT" ]
+      },
+      "ContentHeaders": {
+        "Content-Length": [ "815" ],
+        "Content-Type": [ "application/json; charset=utf-8" ],
+        "Expires": [ "-1" ]
+      },
+      "Content": "{\"value\":[{\"name\":\"auth-c63trz\",\"id\":\"/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/authorizations/auth-c63trz\",\"etag\":\"W/\\\"b5247a66-6f23-4f42-94d7-5ebf734f591b\\\"\",\"properties\":{\"provisioningState\":\"Succeeded\",\"authorizationUseStatus\":\"Available\"},\"type\":\"Microsoft.Network/expressRouteLags/authorizations\"},{\"name\":\"auth2-73s6tj\",\"id\":\"/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/authorizations/auth2-73s6tj\",\"etag\":\"W/\\\"b5247a66-6f23-4f42-94d7-5ebf734f591b\\\"\",\"properties\":{\"provisioningState\":\"Succeeded\",\"authorizationUseStatus\":\"Available\"},\"type\":\"Microsoft.Network/expressRouteLags/authorizations\"}]}",
+      "isContentBase64": false
+    }
+  },
+  "Get-AzExpressRouteLagAuthorization+[NoContext]+Get+$GET+https://management.azure.com/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/authorizations/auth-c63trz?api-version=2025-09-01+1": {
+    "Request": {
+      "Method": "GET",
+      "RequestUri": "https://management.azure.com/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/authorizations/auth-c63trz?api-version=2025-09-01",
+      "Content": null,
+      "isContentBase64": false,
+      "Headers": {
+        "x-ms-unique-id": [ "3" ],
+        "x-ms-client-request-id": [ "27e48c5b-2fa1-4fa8-858b-e3399b433feb" ],
+        "CommandName": [ "Get-AzExpressRouteLagAuthorization" ],
+        "FullCommandName": [ "Get-AzExpressRouteLagAuthorization_Get" ],
+        "ParameterSetName": [ "__AllParameterSets" ],
+        "User-Agent": [ "AzurePowershell/v12.2.0", "PSVersion/v7.5.5", "Az.ExpressRouteLag/0.1.0" ],
+        "Authorization": [ "[Filtered]" ]
+      },
+      "ContentHeaders": {
+      }
+    },
+    "Response": {
+      "StatusCode": 200,
+      "Headers": {
+        "Cache-Control": [ "no-cache" ],
+        "Pragma": [ "no-cache" ],
+        "x-ms-request-id": [ "3655683b-1f16-483c-a012-e4fce403abfb" ],
+        "x-ms-throttle-levels": [ "operationConcurrencyPct=0.7, etc" ],
+        "x-ms-correlation-request-id": [ "a16c2c30-4e3a-4ceb-8c51-074b34f8f2af" ],
+        "x-ms-arm-service-request-id": [ "e72268f4-d99f-47d2-93c7-884c974076a4" ],
+        "Strict-Transport-Security": [ "max-age=31536000; includeSubDomains" ],
+        "x-ms-operation-identifier": [ "tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47,objectId=b2518563-eafc-4ef4-aa06-011b62695a06/eastus2euap/36c17974-ddb6-4ae6-9792-ec477c742a64" ],
+        "x-ms-throttling-version": [ "v2" ],
+        "x-ms-ratelimit-remaining-subscription-reads": [ "1099" ],
+        "x-ms-routing-request-id": [ "EASTUS2EUAP:20260512T194128Z:a16c2c30-4e3a-4ceb-8c51-074b34f8f2af" ],
+        "X-Content-Type-Options": [ "nosniff" ],
+        "X-Cache": [ "CONFIG_NOCACHE" ],
+        "X-MSEdge-Ref": [ "Ref A: E9A923ABEA824A86A149C95389236841 Ref B: MWH011020808052 Ref C: 2026-05-12T19:41:28Z" ],
+        "Date": [ "Tue, 12 May 2026 19:41:28 GMT" ]
+      },
+      "ContentHeaders": {
+        "Content-Length": [ "400" ],
+        "Content-Type": [ "application/json; charset=utf-8" ],
+        "Expires": [ "-1" ]
+      },
+      "Content": "{\"name\":\"auth-c63trz\",\"id\":\"/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/authorizations/auth-c63trz\",\"etag\":\"W/\\\"b5247a66-6f23-4f42-94d7-5ebf734f591b\\\"\",\"properties\":{\"provisioningState\":\"Succeeded\",\"authorizationUseStatus\":\"Available\"},\"type\":\"Microsoft.Network/expressRouteLags/authorizations\"}",
+      "isContentBase64": false
+    }
+  },
+  "Get-AzExpressRouteLagAuthorization+[NoContext]+GetViaIdentityExpressRouteLag+$GET+https://management.azure.com/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy?api-version=2025-09-01+1": {
+    "Request": {
+      "Method": "GET",
+      "RequestUri": "https://management.azure.com/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy?api-version=2025-09-01",
+      "Content": null,
+      "isContentBase64": false,
+      "Headers": {
+        "x-ms-unique-id": [ "4" ],
+        "x-ms-client-request-id": [ "7b5c7c55-75c6-4ce1-a276-eae02d085eae" ],
+        "CommandName": [ "Get-AzExpressRouteLag" ],
+        "FullCommandName": [ "Get-AzExpressRouteLag_Get" ],
+        "ParameterSetName": [ "__AllParameterSets" ],
+        "User-Agent": [ "AzurePowershell/v12.2.0", "PSVersion/v7.5.5", "Az.ExpressRouteLag/0.1.0" ],
+        "Authorization": [ "[Filtered]" ]
+      },
+      "ContentHeaders": {
+      }
+    },
+    "Response": {
+      "StatusCode": 200,
+      "Headers": {
+        "Cache-Control": [ "no-cache" ],
+        "Pragma": [ "no-cache" ],
+        "x-ms-request-id": [ "b95b66d0-4439-46d6-b723-6b241d32b4b5" ],
+        "x-ms-throttle-levels": [ "operationConcurrencyPct=0.7, etc" ],
+        "x-ms-correlation-request-id": [ "0e9cf8a7-9ae8-4eeb-a9ff-04f2bf76c757" ],
+        "x-ms-arm-service-request-id": [ "7ad3828d-01bc-42e4-bb86-843f8db4159f" ],
+        "Strict-Transport-Security": [ "max-age=31536000; includeSubDomains" ],
+        "x-ms-throttling-version": [ "v2" ],
+        "x-ms-ratelimit-remaining-subscription-reads": [ "1099" ],
+        "x-ms-routing-request-id": [ "EASTUS2EUAP:20260512T194129Z:0e9cf8a7-9ae8-4eeb-a9ff-04f2bf76c757" ],
+        "X-Content-Type-Options": [ "nosniff" ],
+        "X-Cache": [ "CONFIG_NOCACHE" ],
+        "X-MSEdge-Ref": [ "Ref A: 06F2E42C221D46EB943B40BDE0050A01 Ref B: MWH011020808052 Ref C: 2026-05-12T19:41:29Z" ],
+        "Date": [ "Tue, 12 May 2026 19:41:29 GMT" ]
+      },
+      "ContentHeaders": {
+        "Content-Length": [ "2650" ],
+        "Content-Type": [ "application/json; charset=utf-8" ],
+        "Expires": [ "-1" ]
+      },
+      "Content": "{\"name\":\"lag-u27esy\",\"id\":\"/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy\",\"etag\":\"W/\\\"b5247a66-6f23-4f42-94d7-5ebf734f591b\\\"\",\"type\":\"Microsoft.Network/expressRouteLags\",\"location\":\"eastus2euap\",\"properties\":{\"provisioningState\":\"Succeeded\",\"resourceGuid\":\"ae20c8b7-243a-49d3-bea5-7b7c75adcb09\",\"links\":[{\"name\":\"link1\",\"id\":\"/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/links/link1\",\"etag\":\"W/\\\"b5247a66-6f23-4f42-94d7-5ebf734f591b\\\"\",\"properties\":{\"provisioningState\":\"Succeeded\",\"routerName\":\"exr04.sin30\",\"interfaceName\":\"ae505\",\"adminState\":\"Disabled\",\"macSecConfig\":{\"cipher\":\"GcmAes128\",\"sciState\":\"Disabled\"},\"members\":[{\"name\":\"member1\",\"id\":\"/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/links/link1/members/member1\",\"etag\":\"W/\\\"b5247a66-6f23-4f42-94d7-5ebf734f591b\\\"\",\"properties\":{\"provisioningState\":\"Succeeded\",\"interfaceName\":\"xe-0/1/10:2\",\"patchPanelId\":\"PATCH-PANEL-43\",\"rackId\":\"RACK-43\",\"coloLocation\":\"\",\"connectorType\":\"LC\",\"adminState\":\"Enabled\"},\"type\":\"Microsoft.Network/expressRouteLags/links/members\"}]},\"type\":\"Microsoft.Network/expressRouteLags/links\"},{\"name\":\"link2\",\"id\":\"/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/links/link2\",\"etag\":\"W/\\\"b5247a66-6f23-4f42-94d7-5ebf734f591b\\\"\",\"properties\":{\"provisioningState\":\"Succeeded\",\"routerName\":\"exr04.dummy\",\"interfaceName\":\"ae505\",\"adminState\":\"Disabled\",\"macSecConfig\":{\"cipher\":\"GcmAes128\",\"sciState\":\"Disabled\"},\"members\":[{\"name\":\"member1\",\"id\":\"/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/links/link2/members/member1\",\"etag\":\"W/\\\"b5247a66-6f23-4f42-94d7-5ebf734f591b\\\"\",\"properties\":{\"provisioningState\":\"Succeeded\",\"interfaceName\":\"xe-0/1/10:2\",\"patchPanelId\":\"PATCH-PANEL-44\",\"rackId\":\"RACK-44\",\"coloLocation\":\"\",\"connectorType\":\"LC\",\"adminState\":\"Enabled\"},\"type\":\"Microsoft.Network/expressRouteLags/links/members\"}]},\"type\":\"Microsoft.Network/expressRouteLags/links\"}],\"peeringLocation\":\"OnPrem\",\"bandwidthInGbps\":10,\"encapsulation\":\"QinQ\",\"provisionedBandwidthInGbps\":0.0,\"mtu\":\"1500\",\"allocationDate\":\"5/6/2026 5:55:47 PM\",\"etherType\":\"0x8100\",\"billingType\":\"MeteredData\",\"numberOfPorts\":1,\"minimumActivePortsRequired\":1,\"lacpTimer\":\"Fast\"}}",
+      "isContentBase64": false
+    }
+  },
+  "Get-AzExpressRouteLagAuthorization+[NoContext]+GetViaIdentityExpressRouteLag+$GET+https://management.azure.com/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/authorizations/auth-c63trz?api-version=2025-09-01+2": {
+    "Request": {
+      "Method": "GET",
+      "RequestUri": "https://management.azure.com/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/authorizations/auth-c63trz?api-version=2025-09-01",
+      "Content": null,
+      "isContentBase64": false,
+      "Headers": {
+        "x-ms-unique-id": [ "5" ],
+        "x-ms-client-request-id": [ "0d332334-257b-4af2-bb9c-55a55d2db071" ],
+        "CommandName": [ "Get-AzExpressRouteLagAuthorization" ],
+        "FullCommandName": [ "Get-AzExpressRouteLagAuthorization_GetViaIdentityExpressRouteLag" ],
+        "ParameterSetName": [ "__AllParameterSets" ],
+        "User-Agent": [ "AzurePowershell/v12.2.0", "PSVersion/v7.5.5", "Az.ExpressRouteLag/0.1.0" ],
+        "Authorization": [ "[Filtered]" ]
+      },
+      "ContentHeaders": {
+      }
+    },
+    "Response": {
+      "StatusCode": 200,
+      "Headers": {
+        "Cache-Control": [ "no-cache" ],
+        "Pragma": [ "no-cache" ],
+        "x-ms-request-id": [ "a36cd585-134a-43ad-b9f4-c6959457fdd0" ],
+        "x-ms-throttle-levels": [ "operationRatePct=0.1, operationConcurrencyPct=0.7, etc" ],
+        "x-ms-correlation-request-id": [ "100d89f2-2b79-4e4d-9a93-39002530151b" ],
+        "x-ms-arm-service-request-id": [ "15d0f276-f712-4c5c-bb3c-1a94c2683b74" ],
+        "Strict-Transport-Security": [ "max-age=31536000; includeSubDomains" ],
+        "x-ms-operation-identifier": [ "tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47,objectId=b2518563-eafc-4ef4-aa06-011b62695a06/eastus2euap/96f55a28-cfe0-427f-9302-134ed67e517d" ],
+        "x-ms-throttling-version": [ "v2" ],
+        "x-ms-ratelimit-remaining-subscription-reads": [ "1099" ],
+        "x-ms-routing-request-id": [ "EASTUS2EUAP:20260512T194129Z:100d89f2-2b79-4e4d-9a93-39002530151b" ],
+        "X-Content-Type-Options": [ "nosniff" ],
+        "X-Cache": [ "CONFIG_NOCACHE" ],
+        "X-MSEdge-Ref": [ "Ref A: BD787CFE035E4BAF880C8749062B5EE9 Ref B: MWH011020808052 Ref C: 2026-05-12T19:41:29Z" ],
+        "Date": [ "Tue, 12 May 2026 19:41:29 GMT" ]
+      },
+      "ContentHeaders": {
+        "Content-Length": [ "400" ],
+        "Content-Type": [ "application/json; charset=utf-8" ],
+        "Expires": [ "-1" ]
+      },
+      "Content": "{\"name\":\"auth-c63trz\",\"id\":\"/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/authorizations/auth-c63trz\",\"etag\":\"W/\\\"b5247a66-6f23-4f42-94d7-5ebf734f591b\\\"\",\"properties\":{\"provisioningState\":\"Succeeded\",\"authorizationUseStatus\":\"Available\"},\"type\":\"Microsoft.Network/expressRouteLags/authorizations\"}",
+      "isContentBase64": false
+    }
+  },
+  "Get-AzExpressRouteLagAuthorization+[NoContext]+GetViaIdentity+$GET+https://management.azure.com/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/authorizations/auth-c63trz?api-version=2025-09-01+1": {
+    "Request": {
+      "Method": "GET",
+      "RequestUri": "https://management.azure.com/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/authorizations/auth-c63trz?api-version=2025-09-01",
+      "Content": null,
+      "isContentBase64": false,
+      "Headers": {
+        "x-ms-unique-id": [ "6" ],
+        "x-ms-client-request-id": [ "2c2d779f-2769-44c7-810a-74f4d7e4f7fc" ],
+        "CommandName": [ "Get-AzExpressRouteLagAuthorization" ],
+        "FullCommandName": [ "Get-AzExpressRouteLagAuthorization_Get" ],
+        "ParameterSetName": [ "__AllParameterSets" ],
+        "User-Agent": [ "AzurePowershell/v12.2.0", "PSVersion/v7.5.5", "Az.ExpressRouteLag/0.1.0" ],
+        "Authorization": [ "[Filtered]" ]
+      },
+      "ContentHeaders": {
+      }
+    },
+    "Response": {
+      "StatusCode": 200,
+      "Headers": {
+        "Cache-Control": [ "no-cache" ],
+        "Pragma": [ "no-cache" ],
+        "x-ms-request-id": [ "42a8f68d-adb1-4a5f-a016-6860dd522c7e" ],
+        "x-ms-throttle-levels": [ "operationRatePct=0.2, operationConcurrencyPct=0.7, etc" ],
+        "x-ms-correlation-request-id": [ "4eed2ce0-d8b7-44bd-85cb-62bcd106a82f" ],
+        "x-ms-arm-service-request-id": [ "bdbcd881-2773-4fcb-b52f-a3cd185a1646" ],
+        "Strict-Transport-Security": [ "max-age=31536000; includeSubDomains" ],
+        "x-ms-operation-identifier": [ "tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47,objectId=b2518563-eafc-4ef4-aa06-011b62695a06/eastus2euap/3cce4dd5-4f58-473d-93e6-a5edeb8eef51" ],
+        "x-ms-throttling-version": [ "v2" ],
+        "x-ms-ratelimit-remaining-subscription-reads": [ "1098" ],
+        "x-ms-routing-request-id": [ "EASTUS2EUAP:20260512T194130Z:4eed2ce0-d8b7-44bd-85cb-62bcd106a82f" ],
+        "X-Content-Type-Options": [ "nosniff" ],
+        "X-Cache": [ "CONFIG_NOCACHE" ],
+        "X-MSEdge-Ref": [ "Ref A: 9AEFBFFD25254915A2D618AC24D19738 Ref B: MWH011020808052 Ref C: 2026-05-12T19:41:30Z" ],
+        "Date": [ "Tue, 12 May 2026 19:41:29 GMT" ]
+      },
+      "ContentHeaders": {
+        "Content-Length": [ "400" ],
+        "Content-Type": [ "application/json; charset=utf-8" ],
+        "Expires": [ "-1" ]
+      },
+      "Content": "{\"name\":\"auth-c63trz\",\"id\":\"/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/authorizations/auth-c63trz\",\"etag\":\"W/\\\"b5247a66-6f23-4f42-94d7-5ebf734f591b\\\"\",\"properties\":{\"provisioningState\":\"Succeeded\",\"authorizationUseStatus\":\"Available\"},\"type\":\"Microsoft.Network/expressRouteLags/authorizations\"}",
+      "isContentBase64": false
+    }
+  },
+  "Get-AzExpressRouteLagAuthorization+[NoContext]+GetViaIdentity+$GET+https://management.azure.com/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/authorizations/auth-c63trz?api-version=2025-09-01+2": {
+    "Request": {
+      "Method": "GET",
+      "RequestUri": "https://management.azure.com/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/authorizations/auth-c63trz?api-version=2025-09-01",
+      "Content": null,
+      "isContentBase64": false,
+      "Headers": {
+        "x-ms-unique-id": [ "7" ],
+        "x-ms-client-request-id": [ "d88e35b1-ee7f-49aa-a5f3-7ad156d30069" ],
+        "CommandName": [ "Get-AzExpressRouteLagAuthorization" ],
+        "FullCommandName": [ "Get-AzExpressRouteLagAuthorization_GetViaIdentity" ],
+        "ParameterSetName": [ "__AllParameterSets" ],
+        "User-Agent": [ "AzurePowershell/v12.2.0", "PSVersion/v7.5.5", "Az.ExpressRouteLag/0.1.0" ],
+        "Authorization": [ "[Filtered]" ]
+      },
+      "ContentHeaders": {
+      }
+    },
+    "Response": {
+      "StatusCode": 200,
+      "Headers": {
+        "Cache-Control": [ "no-cache" ],
+        "Pragma": [ "no-cache" ],
+        "x-ms-request-id": [ "8ea2c785-30db-4096-9435-2d0369125cbc" ],
+        "x-ms-throttle-levels": [ "operationRatePct=0.2, operationConcurrencyPct=0.7, etc" ],
+        "x-ms-correlation-request-id": [ "8730bf43-bd7a-4f20-a262-56d57bd6417e" ],
+        "x-ms-arm-service-request-id": [ "fd209811-ebb7-418b-bdc9-1f0b670274eb" ],
+        "Strict-Transport-Security": [ "max-age=31536000; includeSubDomains" ],
+        "x-ms-operation-identifier": [ "tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47,objectId=b2518563-eafc-4ef4-aa06-011b62695a06/eastus2euap/5c8535a4-332c-4f6d-9582-5ded7907725e" ],
+        "x-ms-throttling-version": [ "v2" ],
+        "x-ms-ratelimit-remaining-subscription-reads": [ "1098" ],
+        "x-ms-routing-request-id": [ "EASTUS2EUAP:20260512T194130Z:8730bf43-bd7a-4f20-a262-56d57bd6417e" ],
+        "X-Content-Type-Options": [ "nosniff" ],
+        "X-Cache": [ "CONFIG_NOCACHE" ],
+        "X-MSEdge-Ref": [ "Ref A: 02C51CAE14B640B6AA5DC634DE8C261B Ref B: MWH011020808052 Ref C: 2026-05-12T19:41:30Z" ],
+        "Date": [ "Tue, 12 May 2026 19:41:30 GMT" ]
+      },
+      "ContentHeaders": {
+        "Content-Length": [ "400" ],
+        "Content-Type": [ "application/json; charset=utf-8" ],
+        "Expires": [ "-1" ]
+      },
+      "Content": "{\"name\":\"auth-c63trz\",\"id\":\"/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/authorizations/auth-c63trz\",\"etag\":\"W/\\\"b5247a66-6f23-4f42-94d7-5ebf734f591b\\\"\",\"properties\":{\"provisioningState\":\"Succeeded\",\"authorizationUseStatus\":\"Available\"},\"type\":\"Microsoft.Network/expressRouteLags/authorizations\"}",
+      "isContentBase64": false
+    }
+  }
+}

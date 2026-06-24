@@ -1,0 +1,248 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.Cmdlets.Websites.Helper
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.Websites/Microsoft.Azure.PowerShell.Cmdlets.Websites.Helper.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.Websites.Helper
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.Websites/Microsoft.Azure.PowerShell.Cmdlets.Websites.Helper.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,CS0108,CS1573,CS0114,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.Websites/Microsoft.Azure.PowerShell.Cmdlets.Websites.Helper.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.Cmdlets.Websites.Helper.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+Network/
+ DefaultSecurityRulesOperations.cs
+ DefaultSecurityRulesOperationsExtensions.cs
+ IDefaultSecurityRulesOperations.cs
+ INetworkInterfacesOperations.cs
+ INetworkManagementClient.cs
+ INetworkSecurityGroupsOperations.cs
+ IPrivateEndpointsOperations.cs
+ IRoutesOperations.cs
+ IRouteTablesOperations.cs
+ ISecurityRulesOperations.cs
+ IServiceTagsOperations.cs
+ ISubnetsOperations.cs
+ IVirtualNetworksOperations.cs
+ Models/
+  AddressSpace.cs
+  ApplicationGatewayBackendAddress.cs
+  ApplicationGatewayBackendAddressPool.cs
+  ApplicationGatewayBackendAddressPoolPropertiesFormat.cs
+  ApplicationSecurityGroup.cs
+  ApplicationSecurityGroupPropertiesFormat.cs
+  BackendAddressPool.cs
+  BackendAddressPoolPropertiesFormat.cs
+  CustomDnsConfigPropertiesFormat.cs
+  DdosSettings.cs
+  DdosSettingsProtectionCoverage.cs
+  Delegation.cs
+  DhcpOptions.cs
+  EffectiveNetworkSecurityGroup.cs
+  EffectiveNetworkSecurityGroupAssociation.cs
+  EffectiveNetworkSecurityRule.cs
+  EffectiveRoute.cs
+  EffectiveRouteSource.cs
+  EffectiveRouteState.cs
+  EffectiveSecurityRuleProtocol.cs
+  Error.cs
+  ErrorDetails.cs
+  ErrorException.cs
+  ExtendedLocation.cs
+  ExtendedLocationTypes.cs
+  FlowLog.cs
+  FlowLogFormatParameters.cs
+  FlowLogFormatType.cs
+  FlowLogPropertiesFormat.cs
+  FrontendIPConfiguration.cs
+  FrontendIPConfigurationPropertiesFormat.cs
+  InboundNatRule.cs
+  InboundNatRulePropertiesFormat.cs
+  IPAddressAvailabilityResult.cs
+  IPAllocationMethod.cs
+  IPConfiguration.cs
+  IPConfigurationProfile.cs
+  IPConfigurationProfilePropertiesFormat.cs
+  IPConfigurationPropertiesFormat.cs
+  IpTag.cs
+  IPVersion.cs
+  LoadBalancerBackendAddress.cs
+  LoadBalancerBackendAddressPropertiesFormat.cs
+  NetworkIntentPolicy.cs
+  NetworkIntentPolicyConfiguration.cs
+  NetworkInterface.cs
+  NetworkInterfaceDnsSettings.cs
+  NetworkInterfaceIPConfiguration.cs
+  NetworkInterfaceIPConfigurationPrivateLinkConnectionProperties.cs
+  NetworkInterfaceIPConfigurationPropertiesFormat.cs
+  NetworkInterfaceListResult.cs
+  NetworkInterfacePropertiesFormat.cs
+  NetworkInterfaceTapConfiguration.cs
+  NetworkInterfaceTapConfigurationPropertiesFormat.cs
+  NetworkSecurityGroup.cs
+  NetworkSecurityGroupPropertiesFormat.cs
+  Page.cs
+  PrepareNetworkPoliciesRequest.cs
+  PrivateDnsZoneConfig.cs
+  PrivateDnsZoneGroup.cs
+  PrivateDnsZoneGroupPropertiesFormat.cs
+  PrivateDnsZonePropertiesFormat.cs
+  PrivateEndpoint.cs
+  PrivateEndpointProperties.cs
+  PrivateLinkServiceConnection.cs
+  PrivateLinkServiceConnectionProperties.cs
+  PrivateLinkServiceConnectionState.cs
+  ProvisioningState.cs
+  PublicIPAddress.cs
+  PublicIPAddressDnsSettings.cs
+  PublicIPAddressPropertiesFormat.cs
+  PublicIPAddressSku.cs
+  PublicIPAddressSkuName.cs
+  PublicIPAddressSkuTier.cs
+  RecordSet.cs
+  Resource.cs
+  ResourceNavigationLink.cs
+  ResourceNavigationLinkFormat.cs
+  RetentionPolicyParameters.cs
+  Route.cs
+  RouteNextHopType.cs
+  RoutePropertiesFormat.cs
+  RouteTable.cs
+  RouteTablePropertiesFormat.cs
+  SecurityRule.cs
+  SecurityRuleAccess.cs
+  SecurityRuleDirection.cs
+  SecurityRulePropertiesFormat.cs
+  SecurityRuleProtocol.cs
+  ServiceAssociationLink.cs
+  ServiceAssociationLinkPropertiesFormat.cs
+  ServiceDelegationPropertiesFormat.cs
+  ServiceEndpointPolicy.cs
+  ServiceEndpointPolicyDefinition.cs
+  ServiceEndpointPolicyDefinitionPropertiesFormat.cs
+  ServiceEndpointPolicyPropertiesFormat.cs
+  ServiceEndpointPropertiesFormat.cs
+  ServiceTagInformation.cs
+  ServiceTagInformationPropertiesFormat.cs
+  ServiceTagsListResult.cs
+  Subnet.cs
+  SubnetListResult.cs
+  SubnetPropertiesFormat.cs
+  SubResource.cs
+  TagsObject.cs
+  TrafficAnalyticsConfigurationProperties.cs
+  TrafficAnalyticsProperties.cs
+  TransportProtocol.cs
+  UnprepareNetworkPoliciesRequest.cs
+  VirtualNetwork.cs
+  VirtualNetworkBgpCommunities.cs
+  VirtualNetworkPeering.cs
+  VirtualNetworkPeeringPropertiesFormat.cs
+  VirtualNetworkPeeringState.cs
+  VirtualNetworkPropertiesFormat.cs
+  VirtualNetworkTap.cs
+  VirtualNetworkTapPropertiesFormat.cs
+  VirtualNetworkUsage.cs
+  VirtualNetworkUsageName.cs
+ NetworkInterfacesOperations.cs
+ NetworkInterfacesOperationsExtensions.cs
+ NetworkManagementClient.cs
+ NetworkSecurityGroupsOperations.cs
+ NetworkSecurityGroupsOperationsExtensions.cs
+ PrivateEndpointsOperations.cs
+ PrivateEndpointsOperationsExtensions.cs
+ RoutesOperations.cs
+ RoutesOperationsExtensions.cs
+ RouteTablesOperations.cs
+ RouteTablesOperationsExtensions.cs
+ SecurityRulesOperations.cs
+ SecurityRulesOperationsExtensions.cs
+ ServiceTagsOperations.cs
+ ServiceTagsOperationsExtensions.cs
+ SubnetsOperations.cs
+ SubnetsOperationsExtensions.cs
+ VirtualNetworksOperations.cs
+ VirtualNetworksOperationsExtensions.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+PrivateDns/
+ IPrivateDnsManagementClient.cs
+ IPrivateZonesOperations.cs
+ IRecordSetsOperations.cs
+ IVirtualNetworkLinksOperations.cs
+ Models/
+  AaaaRecord.cs
+  ARecord.cs
+  CnameRecord.cs
+  MxRecord.cs
+  Page.cs
+  PrivateZone.cs
+  PrivateZoneProperties.cs
+  ProvisioningState.cs
+  ProxyResource.cs
+  PtrRecord.cs
+  RecordSet.cs
+  RecordSetListResult.cs
+  RecordSetProperties.cs
+  RecordType.cs
+  Resource.cs
+  SoaRecord.cs
+  SrvRecord.cs
+  SubResource.cs
+  TrackedResource.cs
+  TxtRecord.cs
+  VirtualNetworkLink.cs
+  VirtualNetworkLinkProperties.cs
+  VirtualNetworkLinkState.cs
+ PrivateDnsManagementClient.cs
+ PrivateZonesOperations.cs
+ PrivateZonesOperationsExtensions.cs
+ RecordSetsOperations.cs
+ RecordSetsOperationsExtensions.cs
+ VirtualNetworkLinksOperations.cs
+ VirtualNetworkLinksOperationsExtensions.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Websites.Helper.GeneratedMSBuildEditorConfig.editorconfig

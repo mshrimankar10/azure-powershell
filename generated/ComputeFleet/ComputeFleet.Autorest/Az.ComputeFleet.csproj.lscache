@@ -1,0 +1,625 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.ComputeFleet.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.ComputeFleet/ComputeFleet.Autorest/bin/Az.ComputeFleet.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.ComputeFleet
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.ComputeFleet/ComputeFleet.Autorest/bin/Az.ComputeFleet.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.ComputeFleet/ComputeFleet.Autorest/bin/Az.ComputeFleet.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.ComputeFleet.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/
+ ComputeFleet.cs
+ Models/
+  AdditionalCapabilities.cs
+  AdditionalCapabilities.json.cs
+  AdditionalCapabilities.PowerShell.cs
+  AdditionalCapabilities.TypeConverter.cs
+  AdditionalLocationsProfile.cs
+  AdditionalLocationsProfile.json.cs
+  AdditionalLocationsProfile.PowerShell.cs
+  AdditionalLocationsProfile.TypeConverter.cs
+  AdditionalUnattendContent.cs
+  AdditionalUnattendContent.json.cs
+  AdditionalUnattendContent.PowerShell.cs
+  AdditionalUnattendContent.TypeConverter.cs
+  Any.cs
+  Any.json.cs
+  Any.PowerShell.cs
+  Any.TypeConverter.cs
+  ApiEntityReference.cs
+  ApiEntityReference.json.cs
+  ApiEntityReference.PowerShell.cs
+  ApiEntityReference.TypeConverter.cs
+  ApiError.cs
+  ApiError.json.cs
+  ApiError.PowerShell.cs
+  ApiError.TypeConverter.cs
+  ApiErrorBase.cs
+  ApiErrorBase.json.cs
+  ApiErrorBase.PowerShell.cs
+  ApiErrorBase.TypeConverter.cs
+  ApplicationProfile.cs
+  ApplicationProfile.json.cs
+  ApplicationProfile.PowerShell.cs
+  ApplicationProfile.TypeConverter.cs
+  BasePriorityProfile.cs
+  BasePriorityProfile.json.cs
+  BasePriorityProfile.PowerShell.cs
+  BasePriorityProfile.TypeConverter.cs
+  BaseVirtualMachineProfile.cs
+  BaseVirtualMachineProfile.json.cs
+  BaseVirtualMachineProfile.PowerShell.cs
+  BaseVirtualMachineProfile.TypeConverter.cs
+  BootDiagnostics.cs
+  BootDiagnostics.json.cs
+  BootDiagnostics.PowerShell.cs
+  BootDiagnostics.TypeConverter.cs
+  CapacityReservationProfile.cs
+  CapacityReservationProfile.json.cs
+  CapacityReservationProfile.PowerShell.cs
+  CapacityReservationProfile.TypeConverter.cs
+  ComponentsQjfoe3SchemasManagedserviceidentityupdatePropertiesUserassignedidentitiesAdditionalproperties.cs
+  ComponentsQjfoe3SchemasManagedserviceidentityupdatePropertiesUserassignedidentitiesAdditionalproperties.json.cs
+  ComponentsQjfoe3SchemasManagedserviceidentityupdatePropertiesUserassignedidentitiesAdditionalproperties.PowerShell.cs
+  ComponentsQjfoe3SchemasManagedserviceidentityupdatePropertiesUserassignedidentitiesAdditionalproperties.TypeConverter.cs
+  ComputeFleetIdentity.cs
+  ComputeFleetIdentity.json.cs
+  ComputeFleetIdentity.PowerShell.cs
+  ComputeFleetIdentity.TypeConverter.cs
+  ComputeProfile.cs
+  ComputeProfile.json.cs
+  ComputeProfile.PowerShell.cs
+  ComputeProfile.TypeConverter.cs
+  DiagnosticsProfile.cs
+  DiagnosticsProfile.json.cs
+  DiagnosticsProfile.PowerShell.cs
+  DiagnosticsProfile.TypeConverter.cs
+  DiffDiskSettings.cs
+  DiffDiskSettings.json.cs
+  DiffDiskSettings.PowerShell.cs
+  DiffDiskSettings.TypeConverter.cs
+  DiskEncryptionSetParameters.cs
+  DiskEncryptionSetParameters.json.cs
+  DiskEncryptionSetParameters.PowerShell.cs
+  DiskEncryptionSetParameters.TypeConverter.cs
+  EncryptionIdentity.cs
+  EncryptionIdentity.json.cs
+  EncryptionIdentity.PowerShell.cs
+  EncryptionIdentity.TypeConverter.cs
+  ErrorAdditionalInfo.cs
+  ErrorAdditionalInfo.json.cs
+  ErrorAdditionalInfo.PowerShell.cs
+  ErrorAdditionalInfo.TypeConverter.cs
+  ErrorDetail.cs
+  ErrorDetail.json.cs
+  ErrorDetail.PowerShell.cs
+  ErrorDetail.TypeConverter.cs
+  ErrorResponse.cs
+  ErrorResponse.json.cs
+  ErrorResponse.PowerShell.cs
+  ErrorResponse.TypeConverter.cs
+  Fleet.cs
+  Fleet.json.cs
+  Fleet.PowerShell.cs
+  Fleet.TypeConverter.cs
+  FleetListResult.cs
+  FleetListResult.json.cs
+  FleetListResult.PowerShell.cs
+  FleetListResult.TypeConverter.cs
+  FleetProperties.cs
+  FleetProperties.json.cs
+  FleetProperties.PowerShell.cs
+  FleetProperties.TypeConverter.cs
+  FleetUpdate.cs
+  FleetUpdate.json.cs
+  FleetUpdate.PowerShell.cs
+  FleetUpdate.TypeConverter.cs
+  FleetUpdateTags.cs
+  FleetUpdateTags.dictionary.cs
+  FleetUpdateTags.json.cs
+  FleetUpdateTags.PowerShell.cs
+  FleetUpdateTags.TypeConverter.cs
+  ImageReference.cs
+  ImageReference.json.cs
+  ImageReference.PowerShell.cs
+  ImageReference.TypeConverter.cs
+  InnerError.cs
+  InnerError.json.cs
+  InnerError.PowerShell.cs
+  InnerError.TypeConverter.cs
+  KeyVaultSecretReference.cs
+  KeyVaultSecretReference.json.cs
+  KeyVaultSecretReference.PowerShell.cs
+  KeyVaultSecretReference.TypeConverter.cs
+  LinuxConfiguration.cs
+  LinuxConfiguration.json.cs
+  LinuxConfiguration.PowerShell.cs
+  LinuxConfiguration.TypeConverter.cs
+  LinuxPatchSettings.cs
+  LinuxPatchSettings.json.cs
+  LinuxPatchSettings.PowerShell.cs
+  LinuxPatchSettings.TypeConverter.cs
+  LinuxVMGuestPatchAutomaticByPlatformSettings.cs
+  LinuxVMGuestPatchAutomaticByPlatformSettings.json.cs
+  LinuxVMGuestPatchAutomaticByPlatformSettings.PowerShell.cs
+  LinuxVMGuestPatchAutomaticByPlatformSettings.TypeConverter.cs
+  LocationProfile.cs
+  LocationProfile.json.cs
+  LocationProfile.PowerShell.cs
+  LocationProfile.TypeConverter.cs
+  ManagedServiceIdentity.cs
+  ManagedServiceIdentity.json.cs
+  ManagedServiceIdentity.PowerShell.cs
+  ManagedServiceIdentity.TypeConverter.cs
+  ManagedServiceIdentityUpdate.cs
+  ManagedServiceIdentityUpdate.json.cs
+  ManagedServiceIdentityUpdate.PowerShell.cs
+  ManagedServiceIdentityUpdate.TypeConverter.cs
+  ManagedServiceIdentityUpdateUserAssignedIdentities.cs
+  ManagedServiceIdentityUpdateUserAssignedIdentities.dictionary.cs
+  ManagedServiceIdentityUpdateUserAssignedIdentities.json.cs
+  ManagedServiceIdentityUpdateUserAssignedIdentities.PowerShell.cs
+  ManagedServiceIdentityUpdateUserAssignedIdentities.TypeConverter.cs
+  Operation.cs
+  Operation.json.cs
+  Operation.PowerShell.cs
+  Operation.TypeConverter.cs
+  OperationDisplay.cs
+  OperationDisplay.json.cs
+  OperationDisplay.PowerShell.cs
+  OperationDisplay.TypeConverter.cs
+  OperationListResult.cs
+  OperationListResult.json.cs
+  OperationListResult.PowerShell.cs
+  OperationListResult.TypeConverter.cs
+  OSImageNotificationProfile.cs
+  OSImageNotificationProfile.json.cs
+  OSImageNotificationProfile.PowerShell.cs
+  OSImageNotificationProfile.TypeConverter.cs
+  PatchSettings.cs
+  PatchSettings.json.cs
+  PatchSettings.PowerShell.cs
+  PatchSettings.TypeConverter.cs
+  Plan.cs
+  Plan.json.cs
+  Plan.PowerShell.cs
+  Plan.TypeConverter.cs
+  ProxyAgentSettings.cs
+  ProxyAgentSettings.json.cs
+  ProxyAgentSettings.PowerShell.cs
+  ProxyAgentSettings.TypeConverter.cs
+  PublicIPAddressSku.cs
+  PublicIPAddressSku.json.cs
+  PublicIPAddressSku.PowerShell.cs
+  PublicIPAddressSku.TypeConverter.cs
+  RegularPriorityProfile.cs
+  RegularPriorityProfile.json.cs
+  RegularPriorityProfile.PowerShell.cs
+  RegularPriorityProfile.TypeConverter.cs
+  Resource.cs
+  Resource.json.cs
+  Resource.PowerShell.cs
+  Resource.TypeConverter.cs
+  ResourcePlanUpdate.cs
+  ResourcePlanUpdate.json.cs
+  ResourcePlanUpdate.PowerShell.cs
+  ResourcePlanUpdate.TypeConverter.cs
+  ScheduledEventsProfile.cs
+  ScheduledEventsProfile.json.cs
+  ScheduledEventsProfile.PowerShell.cs
+  ScheduledEventsProfile.TypeConverter.cs
+  SecurityPostureReference.cs
+  SecurityPostureReference.json.cs
+  SecurityPostureReference.PowerShell.cs
+  SecurityPostureReference.TypeConverter.cs
+  SecurityProfile.cs
+  SecurityProfile.json.cs
+  SecurityProfile.PowerShell.cs
+  SecurityProfile.TypeConverter.cs
+  ServiceArtifactReference.cs
+  ServiceArtifactReference.json.cs
+  ServiceArtifactReference.PowerShell.cs
+  ServiceArtifactReference.TypeConverter.cs
+  SpotPriorityProfile.cs
+  SpotPriorityProfile.json.cs
+  SpotPriorityProfile.PowerShell.cs
+  SpotPriorityProfile.TypeConverter.cs
+  SshConfiguration.cs
+  SshConfiguration.json.cs
+  SshConfiguration.PowerShell.cs
+  SshConfiguration.TypeConverter.cs
+  SshPublicKey.cs
+  SshPublicKey.json.cs
+  SshPublicKey.PowerShell.cs
+  SshPublicKey.TypeConverter.cs
+  SubResource.cs
+  SubResource.json.cs
+  SubResource.PowerShell.cs
+  SubResource.TypeConverter.cs
+  SubResourceReadOnly.cs
+  SubResourceReadOnly.json.cs
+  SubResourceReadOnly.PowerShell.cs
+  SubResourceReadOnly.TypeConverter.cs
+  SystemData.cs
+  SystemData.json.cs
+  SystemData.PowerShell.cs
+  SystemData.TypeConverter.cs
+  TerminateNotificationProfile.cs
+  TerminateNotificationProfile.json.cs
+  TerminateNotificationProfile.PowerShell.cs
+  TerminateNotificationProfile.TypeConverter.cs
+  TrackedResource.cs
+  TrackedResource.json.cs
+  TrackedResource.PowerShell.cs
+  TrackedResource.TypeConverter.cs
+  TrackedResourceTags.cs
+  TrackedResourceTags.dictionary.cs
+  TrackedResourceTags.json.cs
+  TrackedResourceTags.PowerShell.cs
+  TrackedResourceTags.TypeConverter.cs
+  UefiSettings.cs
+  UefiSettings.json.cs
+  UefiSettings.PowerShell.cs
+  UefiSettings.TypeConverter.cs
+  UserAssignedIdentities.cs
+  UserAssignedIdentities.dictionary.cs
+  UserAssignedIdentities.json.cs
+  UserAssignedIdentities.PowerShell.cs
+  UserAssignedIdentities.TypeConverter.cs
+  UserAssignedIdentity.cs
+  UserAssignedIdentity.json.cs
+  UserAssignedIdentity.PowerShell.cs
+  UserAssignedIdentity.TypeConverter.cs
+  VaultCertificate.cs
+  VaultCertificate.json.cs
+  VaultCertificate.PowerShell.cs
+  VaultCertificate.TypeConverter.cs
+  VaultSecretGroup.cs
+  VaultSecretGroup.json.cs
+  VaultSecretGroup.PowerShell.cs
+  VaultSecretGroup.TypeConverter.cs
+  VirtualHardDisk.cs
+  VirtualHardDisk.json.cs
+  VirtualHardDisk.PowerShell.cs
+  VirtualHardDisk.TypeConverter.cs
+  VirtualMachineScaleSet.cs
+  VirtualMachineScaleSet.json.cs
+  VirtualMachineScaleSet.PowerShell.cs
+  VirtualMachineScaleSet.TypeConverter.cs
+  VirtualMachineScaleSetDataDisk.cs
+  VirtualMachineScaleSetDataDisk.json.cs
+  VirtualMachineScaleSetDataDisk.PowerShell.cs
+  VirtualMachineScaleSetDataDisk.TypeConverter.cs
+  VirtualMachineScaleSetExtension.cs
+  VirtualMachineScaleSetExtension.json.cs
+  VirtualMachineScaleSetExtension.PowerShell.cs
+  VirtualMachineScaleSetExtension.TypeConverter.cs
+  VirtualMachineScaleSetExtensionProfile.cs
+  VirtualMachineScaleSetExtensionProfile.json.cs
+  VirtualMachineScaleSetExtensionProfile.PowerShell.cs
+  VirtualMachineScaleSetExtensionProfile.TypeConverter.cs
+  VirtualMachineScaleSetExtensionProperties.cs
+  VirtualMachineScaleSetExtensionProperties.json.cs
+  VirtualMachineScaleSetExtensionProperties.PowerShell.cs
+  VirtualMachineScaleSetExtensionProperties.TypeConverter.cs
+  VirtualMachineScaleSetExtensionPropertiesProtectedSettings.cs
+  VirtualMachineScaleSetExtensionPropertiesProtectedSettings.dictionary.cs
+  VirtualMachineScaleSetExtensionPropertiesProtectedSettings.json.cs
+  VirtualMachineScaleSetExtensionPropertiesProtectedSettings.PowerShell.cs
+  VirtualMachineScaleSetExtensionPropertiesProtectedSettings.TypeConverter.cs
+  VirtualMachineScaleSetExtensionPropertiesSettings.cs
+  VirtualMachineScaleSetExtensionPropertiesSettings.dictionary.cs
+  VirtualMachineScaleSetExtensionPropertiesSettings.json.cs
+  VirtualMachineScaleSetExtensionPropertiesSettings.PowerShell.cs
+  VirtualMachineScaleSetExtensionPropertiesSettings.TypeConverter.cs
+  VirtualMachineScaleSetHardwareProfile.cs
+  VirtualMachineScaleSetHardwareProfile.json.cs
+  VirtualMachineScaleSetHardwareProfile.PowerShell.cs
+  VirtualMachineScaleSetHardwareProfile.TypeConverter.cs
+  VirtualMachineScaleSetIPConfiguration.cs
+  VirtualMachineScaleSetIPConfiguration.json.cs
+  VirtualMachineScaleSetIPConfiguration.PowerShell.cs
+  VirtualMachineScaleSetIPConfiguration.TypeConverter.cs
+  VirtualMachineScaleSetIPConfigurationProperties.cs
+  VirtualMachineScaleSetIPConfigurationProperties.json.cs
+  VirtualMachineScaleSetIPConfigurationProperties.PowerShell.cs
+  VirtualMachineScaleSetIPConfigurationProperties.TypeConverter.cs
+  VirtualMachineScaleSetIPTag.cs
+  VirtualMachineScaleSetIPTag.json.cs
+  VirtualMachineScaleSetIPTag.PowerShell.cs
+  VirtualMachineScaleSetIPTag.TypeConverter.cs
+  VirtualMachineScaleSetListResult.cs
+  VirtualMachineScaleSetListResult.json.cs
+  VirtualMachineScaleSetListResult.PowerShell.cs
+  VirtualMachineScaleSetListResult.TypeConverter.cs
+  VirtualMachineScaleSetManagedDiskParameters.cs
+  VirtualMachineScaleSetManagedDiskParameters.json.cs
+  VirtualMachineScaleSetManagedDiskParameters.PowerShell.cs
+  VirtualMachineScaleSetManagedDiskParameters.TypeConverter.cs
+  VirtualMachineScaleSetNetworkConfiguration.cs
+  VirtualMachineScaleSetNetworkConfiguration.json.cs
+  VirtualMachineScaleSetNetworkConfiguration.PowerShell.cs
+  VirtualMachineScaleSetNetworkConfiguration.TypeConverter.cs
+  VirtualMachineScaleSetNetworkConfigurationDnsSettings.cs
+  VirtualMachineScaleSetNetworkConfigurationDnsSettings.json.cs
+  VirtualMachineScaleSetNetworkConfigurationDnsSettings.PowerShell.cs
+  VirtualMachineScaleSetNetworkConfigurationDnsSettings.TypeConverter.cs
+  VirtualMachineScaleSetNetworkConfigurationProperties.cs
+  VirtualMachineScaleSetNetworkConfigurationProperties.json.cs
+  VirtualMachineScaleSetNetworkConfigurationProperties.PowerShell.cs
+  VirtualMachineScaleSetNetworkConfigurationProperties.TypeConverter.cs
+  VirtualMachineScaleSetNetworkProfile.cs
+  VirtualMachineScaleSetNetworkProfile.json.cs
+  VirtualMachineScaleSetNetworkProfile.PowerShell.cs
+  VirtualMachineScaleSetNetworkProfile.TypeConverter.cs
+  VirtualMachineScaleSetOSDisk.cs
+  VirtualMachineScaleSetOSDisk.json.cs
+  VirtualMachineScaleSetOSDisk.PowerShell.cs
+  VirtualMachineScaleSetOSDisk.TypeConverter.cs
+  VirtualMachineScaleSetOSProfile.cs
+  VirtualMachineScaleSetOSProfile.json.cs
+  VirtualMachineScaleSetOSProfile.PowerShell.cs
+  VirtualMachineScaleSetOSProfile.TypeConverter.cs
+  VirtualMachineScaleSetPublicIPAddressConfiguration.cs
+  VirtualMachineScaleSetPublicIPAddressConfiguration.json.cs
+  VirtualMachineScaleSetPublicIPAddressConfiguration.PowerShell.cs
+  VirtualMachineScaleSetPublicIPAddressConfiguration.TypeConverter.cs
+  VirtualMachineScaleSetPublicIPAddressConfigurationDnsSettings.cs
+  VirtualMachineScaleSetPublicIPAddressConfigurationDnsSettings.json.cs
+  VirtualMachineScaleSetPublicIPAddressConfigurationDnsSettings.PowerShell.cs
+  VirtualMachineScaleSetPublicIPAddressConfigurationDnsSettings.TypeConverter.cs
+  VirtualMachineScaleSetPublicIPAddressConfigurationProperties.cs
+  VirtualMachineScaleSetPublicIPAddressConfigurationProperties.json.cs
+  VirtualMachineScaleSetPublicIPAddressConfigurationProperties.PowerShell.cs
+  VirtualMachineScaleSetPublicIPAddressConfigurationProperties.TypeConverter.cs
+  VirtualMachineScaleSetStorageProfile.cs
+  VirtualMachineScaleSetStorageProfile.json.cs
+  VirtualMachineScaleSetStorageProfile.PowerShell.cs
+  VirtualMachineScaleSetStorageProfile.TypeConverter.cs
+  VMAttributeMinMaxDouble.cs
+  VMAttributeMinMaxDouble.json.cs
+  VMAttributeMinMaxDouble.PowerShell.cs
+  VMAttributeMinMaxDouble.TypeConverter.cs
+  VMAttributeMinMaxInteger.cs
+  VMAttributeMinMaxInteger.json.cs
+  VMAttributeMinMaxInteger.PowerShell.cs
+  VMAttributeMinMaxInteger.TypeConverter.cs
+  VMAttributes.cs
+  VMAttributes.json.cs
+  VMAttributes.PowerShell.cs
+  VMAttributes.TypeConverter.cs
+  VMDiskSecurityProfile.cs
+  VMDiskSecurityProfile.json.cs
+  VMDiskSecurityProfile.PowerShell.cs
+  VMDiskSecurityProfile.TypeConverter.cs
+  VMGalleryApplication.cs
+  VMGalleryApplication.json.cs
+  VMGalleryApplication.PowerShell.cs
+  VMGalleryApplication.TypeConverter.cs
+  VMSizeProfile.cs
+  VMSizeProfile.json.cs
+  VMSizeProfile.PowerShell.cs
+  VMSizeProfile.TypeConverter.cs
+  VMSizeProperties.cs
+  VMSizeProperties.json.cs
+  VMSizeProperties.PowerShell.cs
+  VMSizeProperties.TypeConverter.cs
+  WindowsConfiguration.cs
+  WindowsConfiguration.json.cs
+  WindowsConfiguration.PowerShell.cs
+  WindowsConfiguration.TypeConverter.cs
+  WindowsVMGuestPatchAutomaticByPlatformSettings.cs
+  WindowsVMGuestPatchAutomaticByPlatformSettings.json.cs
+  WindowsVMGuestPatchAutomaticByPlatformSettings.PowerShell.cs
+  WindowsVMGuestPatchAutomaticByPlatformSettings.TypeConverter.cs
+  WinRmConfiguration.cs
+  WinRmConfiguration.json.cs
+  WinRmConfiguration.PowerShell.cs
+  WinRmConfiguration.TypeConverter.cs
+  WinRmListener.cs
+  WinRmListener.json.cs
+  WinRmListener.PowerShell.cs
+  WinRmListener.TypeConverter.cs
+generated/cmdlets/
+ GetAzComputeFleetOperation_List.cs
+ GetAzComputeFleetVMSS_List.cs
+ GetAzComputeFleet_Get.cs
+ GetAzComputeFleet_GetViaIdentity.cs
+ GetAzComputeFleet_ListByResourceGroup.cs
+ GetAzComputeFleet_ListBySubscriptionId.cs
+ NewAzComputeFleet_Create.cs
+ NewAzComputeFleet_CreateViaIdentity.cs
+ RemoveAzComputeFleet_Delete.cs
+ RemoveAzComputeFleet_DeleteViaIdentity.cs
+ UpdateAzComputeFleet_Update.cs
+ UpdateAzComputeFleet_UpdateViaIdentity.cs
+generated/
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.ComputeFleet.GeneratedMSBuildEditorConfig.editorconfig

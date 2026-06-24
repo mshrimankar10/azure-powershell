@@ -1,0 +1,541 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.Policy.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.Resources/Policy.Autorest/bin/Az.Policy.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.Policy
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.Resources/Policy.Autorest/bin/Az.Policy.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.Resources/Policy.Autorest/bin/Az.Policy.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.Policy.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/Resources/Policy.Autorest/custom/
+ PolicyDefinitionGroup.cs
+ PolicyDefinitionPropertiesPolicyRule.cs
+ PolicyDefinitionReference.cs
+ PolicyExemptionProperties.json.cs
+ SerializationHelpers.cs
+../../../src/shared/ConfigKeys.cs
+generated/api/Models/
+ Any.cs
+ Any.json.cs
+ Any.PowerShell.cs
+ Any.TypeConverter.cs
+ CloudError.cs
+ CloudError.json.cs
+ CloudError.PowerShell.cs
+ CloudError.TypeConverter.cs
+ ErrorAdditionalInfo.cs
+ ErrorAdditionalInfo.json.cs
+ ErrorAdditionalInfo.PowerShell.cs
+ ErrorAdditionalInfo.TypeConverter.cs
+ ErrorResponse.cs
+ ErrorResponse.json.cs
+ ErrorResponse.PowerShell.cs
+ ErrorResponse.TypeConverter.cs
+ Identity.cs
+ Identity.json.cs
+ Identity.PowerShell.cs
+ Identity.TypeConverter.cs
+ IdentityUserAssignedIdentities.cs
+ IdentityUserAssignedIdentities.dictionary.cs
+ IdentityUserAssignedIdentities.json.cs
+ IdentityUserAssignedIdentities.PowerShell.cs
+ IdentityUserAssignedIdentities.TypeConverter.cs
+ NonComplianceMessage.cs
+ NonComplianceMessage.json.cs
+ NonComplianceMessage.PowerShell.cs
+ NonComplianceMessage.TypeConverter.cs
+ Override.cs
+ Override.json.cs
+ Override.PowerShell.cs
+ Override.TypeConverter.cs
+ ParameterDefinitions.cs
+ ParameterDefinitions.dictionary.cs
+ ParameterDefinitions.json.cs
+ ParameterDefinitions.PowerShell.cs
+ ParameterDefinitions.TypeConverter.cs
+ ParameterDefinitionsValue.cs
+ ParameterDefinitionsValue.json.cs
+ ParameterDefinitionsValue.PowerShell.cs
+ ParameterDefinitionsValue.TypeConverter.cs
+ ParameterDefinitionsValueAllowedValuesItem.cs
+ ParameterDefinitionsValueAllowedValuesItem.dictionary.cs
+ ParameterDefinitionsValueAllowedValuesItem.json.cs
+ ParameterDefinitionsValueAllowedValuesItem.PowerShell.cs
+ ParameterDefinitionsValueAllowedValuesItem.TypeConverter.cs
+ ParameterDefinitionsValueDefaultValue.cs
+ ParameterDefinitionsValueDefaultValue.dictionary.cs
+ ParameterDefinitionsValueDefaultValue.json.cs
+ ParameterDefinitionsValueDefaultValue.PowerShell.cs
+ ParameterDefinitionsValueDefaultValue.TypeConverter.cs
+ ParameterDefinitionsValueMetadata.cs
+ ParameterDefinitionsValueMetadata.dictionary.cs
+ ParameterDefinitionsValueMetadata.json.cs
+ ParameterDefinitionsValueMetadata.PowerShell.cs
+ ParameterDefinitionsValueMetadata.TypeConverter.cs
+ ParameterValues.cs
+ ParameterValues.dictionary.cs
+ ParameterValues.json.cs
+ ParameterValues.PowerShell.cs
+ ParameterValues.TypeConverter.cs
+ ParameterValuesValue.cs
+ ParameterValuesValue.json.cs
+ ParameterValuesValue.PowerShell.cs
+ ParameterValuesValue.TypeConverter.cs
+ PolicyAssignment.cs
+ PolicyAssignment.json.cs
+ PolicyAssignment.PowerShell.cs
+ PolicyAssignment.TypeConverter.cs
+ PolicyAssignmentListResult.cs
+ PolicyAssignmentListResult.json.cs
+ PolicyAssignmentListResult.PowerShell.cs
+ PolicyAssignmentListResult.TypeConverter.cs
+ PolicyAssignmentProperties.cs
+ PolicyAssignmentProperties.json.cs
+ PolicyAssignmentProperties.PowerShell.cs
+ PolicyAssignmentProperties.TypeConverter.cs
+ PolicyAssignmentPropertiesMetadata.cs
+ PolicyAssignmentPropertiesMetadata.dictionary.cs
+ PolicyAssignmentPropertiesMetadata.json.cs
+ PolicyAssignmentPropertiesMetadata.PowerShell.cs
+ PolicyAssignmentPropertiesMetadata.TypeConverter.cs
+ PolicyAssignmentUpdate.cs
+ PolicyAssignmentUpdate.json.cs
+ PolicyAssignmentUpdate.PowerShell.cs
+ PolicyAssignmentUpdate.TypeConverter.cs
+ PolicyAssignmentUpdateProperties.cs
+ PolicyAssignmentUpdateProperties.json.cs
+ PolicyAssignmentUpdateProperties.PowerShell.cs
+ PolicyAssignmentUpdateProperties.TypeConverter.cs
+ PolicyDefinition.cs
+ PolicyDefinition.json.cs
+ PolicyDefinition.PowerShell.cs
+ PolicyDefinition.TypeConverter.cs
+ PolicyDefinitionGroup.cs
+ PolicyDefinitionGroup.json.cs
+ PolicyDefinitionGroup.PowerShell.cs
+ PolicyDefinitionGroup.TypeConverter.cs
+ PolicyDefinitionListResult.cs
+ PolicyDefinitionListResult.json.cs
+ PolicyDefinitionListResult.PowerShell.cs
+ PolicyDefinitionListResult.TypeConverter.cs
+ PolicyDefinitionProperties.cs
+ PolicyDefinitionProperties.json.cs
+ PolicyDefinitionProperties.PowerShell.cs
+ PolicyDefinitionProperties.TypeConverter.cs
+ PolicyDefinitionPropertiesMetadata.cs
+ PolicyDefinitionPropertiesMetadata.dictionary.cs
+ PolicyDefinitionPropertiesMetadata.json.cs
+ PolicyDefinitionPropertiesMetadata.PowerShell.cs
+ PolicyDefinitionPropertiesMetadata.TypeConverter.cs
+ PolicyDefinitionPropertiesPolicyRule.cs
+ PolicyDefinitionPropertiesPolicyRule.dictionary.cs
+ PolicyDefinitionPropertiesPolicyRule.json.cs
+ PolicyDefinitionPropertiesPolicyRule.PowerShell.cs
+ PolicyDefinitionPropertiesPolicyRule.TypeConverter.cs
+ PolicyDefinitionReference.cs
+ PolicyDefinitionReference.json.cs
+ PolicyDefinitionReference.PowerShell.cs
+ PolicyDefinitionReference.TypeConverter.cs
+ PolicyDefinitionVersion.cs
+ PolicyDefinitionVersion.json.cs
+ PolicyDefinitionVersion.PowerShell.cs
+ PolicyDefinitionVersion.TypeConverter.cs
+ PolicyDefinitionVersionListResult.cs
+ PolicyDefinitionVersionListResult.json.cs
+ PolicyDefinitionVersionListResult.PowerShell.cs
+ PolicyDefinitionVersionListResult.TypeConverter.cs
+ PolicyDefinitionVersionProperties.cs
+ PolicyDefinitionVersionProperties.json.cs
+ PolicyDefinitionVersionProperties.PowerShell.cs
+ PolicyDefinitionVersionProperties.TypeConverter.cs
+ PolicyDefinitionVersionPropertiesMetadata.cs
+ PolicyDefinitionVersionPropertiesMetadata.dictionary.cs
+ PolicyDefinitionVersionPropertiesMetadata.json.cs
+ PolicyDefinitionVersionPropertiesMetadata.PowerShell.cs
+ PolicyDefinitionVersionPropertiesMetadata.TypeConverter.cs
+ PolicyDefinitionVersionPropertiesPolicyRule.cs
+ PolicyDefinitionVersionPropertiesPolicyRule.dictionary.cs
+ PolicyDefinitionVersionPropertiesPolicyRule.json.cs
+ PolicyDefinitionVersionPropertiesPolicyRule.PowerShell.cs
+ PolicyDefinitionVersionPropertiesPolicyRule.TypeConverter.cs
+ PolicyExemption.cs
+ PolicyExemption.json.cs
+ PolicyExemption.PowerShell.cs
+ PolicyExemption.TypeConverter.cs
+ PolicyExemptionListResult.cs
+ PolicyExemptionListResult.json.cs
+ PolicyExemptionListResult.PowerShell.cs
+ PolicyExemptionListResult.TypeConverter.cs
+ PolicyExemptionProperties.cs
+ PolicyExemptionProperties.json.cs
+ PolicyExemptionProperties.PowerShell.cs
+ PolicyExemptionProperties.TypeConverter.cs
+ PolicyExemptionPropertiesMetadata.cs
+ PolicyExemptionPropertiesMetadata.dictionary.cs
+ PolicyExemptionPropertiesMetadata.json.cs
+ PolicyExemptionPropertiesMetadata.PowerShell.cs
+ PolicyExemptionPropertiesMetadata.TypeConverter.cs
+ PolicyExemptionUpdate.cs
+ PolicyExemptionUpdate.json.cs
+ PolicyExemptionUpdate.PowerShell.cs
+ PolicyExemptionUpdate.TypeConverter.cs
+ PolicyExemptionUpdateProperties.cs
+ PolicyExemptionUpdateProperties.json.cs
+ PolicyExemptionUpdateProperties.PowerShell.cs
+ PolicyExemptionUpdateProperties.TypeConverter.cs
+ PolicyIdentity.cs
+ PolicyIdentity.json.cs
+ PolicyIdentity.PowerShell.cs
+ PolicyIdentity.TypeConverter.cs
+ PolicySetDefinition.cs
+ PolicySetDefinition.json.cs
+ PolicySetDefinition.PowerShell.cs
+ PolicySetDefinition.TypeConverter.cs
+ PolicySetDefinitionListResult.cs
+ PolicySetDefinitionListResult.json.cs
+ PolicySetDefinitionListResult.PowerShell.cs
+ PolicySetDefinitionListResult.TypeConverter.cs
+ PolicySetDefinitionProperties.cs
+ PolicySetDefinitionProperties.json.cs
+ PolicySetDefinitionProperties.PowerShell.cs
+ PolicySetDefinitionProperties.TypeConverter.cs
+ PolicySetDefinitionPropertiesMetadata.cs
+ PolicySetDefinitionPropertiesMetadata.dictionary.cs
+ PolicySetDefinitionPropertiesMetadata.json.cs
+ PolicySetDefinitionPropertiesMetadata.PowerShell.cs
+ PolicySetDefinitionPropertiesMetadata.TypeConverter.cs
+ PolicySetDefinitionVersion.cs
+ PolicySetDefinitionVersion.json.cs
+ PolicySetDefinitionVersion.PowerShell.cs
+ PolicySetDefinitionVersion.TypeConverter.cs
+ PolicySetDefinitionVersionListResult.cs
+ PolicySetDefinitionVersionListResult.json.cs
+ PolicySetDefinitionVersionListResult.PowerShell.cs
+ PolicySetDefinitionVersionListResult.TypeConverter.cs
+ PolicySetDefinitionVersionProperties.cs
+ PolicySetDefinitionVersionProperties.json.cs
+ PolicySetDefinitionVersionProperties.PowerShell.cs
+ PolicySetDefinitionVersionProperties.TypeConverter.cs
+ PolicySetDefinitionVersionPropertiesMetadata.cs
+ PolicySetDefinitionVersionPropertiesMetadata.dictionary.cs
+ PolicySetDefinitionVersionPropertiesMetadata.json.cs
+ PolicySetDefinitionVersionPropertiesMetadata.PowerShell.cs
+ PolicySetDefinitionVersionPropertiesMetadata.TypeConverter.cs
+ ResourceSelector.cs
+ ResourceSelector.json.cs
+ ResourceSelector.PowerShell.cs
+ ResourceSelector.TypeConverter.cs
+ Selector.cs
+ Selector.json.cs
+ Selector.PowerShell.cs
+ Selector.TypeConverter.cs
+ SystemData.cs
+ SystemData.json.cs
+ SystemData.PowerShell.cs
+ SystemData.TypeConverter.cs
+ UserAssignedIdentitiesValue.cs
+ UserAssignedIdentitiesValue.json.cs
+ UserAssignedIdentitiesValue.PowerShell.cs
+ UserAssignedIdentitiesValue.TypeConverter.cs
+generated/
+ api/Policy.cs
+ cmdlets/
+  GetAzPolicyAssignment_Get.cs
+  GetAzPolicyAssignment_Get1.cs
+  GetAzPolicyAssignment_GetViaIdentity.cs
+  GetAzPolicyAssignment_List.cs
+  GetAzPolicyAssignment_List1.cs
+  GetAzPolicyAssignment_List2.cs
+  GetAzPolicyAssignment_List3.cs
+  GetAzPolicyDefinitionBuilt_Get.cs
+  GetAzPolicyDefinitionBuilt_GetViaIdentity.cs
+  GetAzPolicyDefinitionBuilt_List.cs
+  GetAzPolicyDefinitionVersionBuiltin_List.cs
+  GetAzPolicyDefinitionVersionBuilt_Get.cs
+  GetAzPolicyDefinitionVersionBuilt_GetViaIdentity.cs
+  GetAzPolicyDefinitionVersionBuilt_GetViaIdentityPolicyDefinition.cs
+  GetAzPolicyDefinitionVersionBuilt_List.cs
+  GetAzPolicyDefinitionVersion_Get.cs
+  GetAzPolicyDefinitionVersion_Get1.cs
+  GetAzPolicyDefinitionVersion_GetViaIdentity.cs
+  GetAzPolicyDefinitionVersion_GetViaIdentity1.cs
+  GetAzPolicyDefinitionVersion_GetViaIdentityPolicyDefinition.cs
+  GetAzPolicyDefinitionVersion_GetViaIdentityPolicyDefinition1.cs
+  GetAzPolicyDefinitionVersion_List.cs
+  GetAzPolicyDefinitionVersion_List1.cs
+  GetAzPolicyDefinitionVersion_List2.cs
+  GetAzPolicyDefinitionVersion_List3.cs
+  GetAzPolicyDefinition_Get.cs
+  GetAzPolicyDefinition_Get1.cs
+  GetAzPolicyDefinition_GetViaIdentity.cs
+  GetAzPolicyDefinition_GetViaIdentity1.cs
+  GetAzPolicyDefinition_List.cs
+  GetAzPolicyDefinition_List1.cs
+  GetAzPolicyExemption_Get.cs
+  GetAzPolicyExemption_GetViaIdentity.cs
+  GetAzPolicyExemption_List.cs
+  GetAzPolicyExemption_List1.cs
+  GetAzPolicyExemption_List2.cs
+  GetAzPolicyExemption_List3.cs
+  GetAzPolicySetDefinitionBuilt_Get.cs
+  GetAzPolicySetDefinitionBuilt_GetViaIdentity.cs
+  GetAzPolicySetDefinitionBuilt_List.cs
+  GetAzPolicySetDefinitionVersionBuiltin_List.cs
+  GetAzPolicySetDefinitionVersionBuilt_Get.cs
+  GetAzPolicySetDefinitionVersionBuilt_GetViaIdentity.cs
+  GetAzPolicySetDefinitionVersionBuilt_GetViaIdentityPolicySetDefinition.cs
+  GetAzPolicySetDefinitionVersionBuilt_List.cs
+  GetAzPolicySetDefinitionVersion_Get.cs
+  GetAzPolicySetDefinitionVersion_Get1.cs
+  GetAzPolicySetDefinitionVersion_GetViaIdentity.cs
+  GetAzPolicySetDefinitionVersion_GetViaIdentity1.cs
+  GetAzPolicySetDefinitionVersion_GetViaIdentityPolicySetDefinition.cs
+  GetAzPolicySetDefinitionVersion_GetViaIdentityPolicySetDefinition1.cs
+  GetAzPolicySetDefinitionVersion_List.cs
+  GetAzPolicySetDefinitionVersion_List1.cs
+  GetAzPolicySetDefinitionVersion_List2.cs
+  GetAzPolicySetDefinitionVersion_List3.cs
+  GetAzPolicySetDefinition_Get.cs
+  GetAzPolicySetDefinition_Get1.cs
+  GetAzPolicySetDefinition_GetViaIdentity.cs
+  GetAzPolicySetDefinition_GetViaIdentity1.cs
+  GetAzPolicySetDefinition_List.cs
+  GetAzPolicySetDefinition_List1.cs
+  NewAzPolicyAssignment_CreateExpanded.cs
+  NewAzPolicyAssignment_CreateExpanded1.cs
+  NewAzPolicyDefinitionVersion_CreateExpanded.cs
+  NewAzPolicyDefinitionVersion_CreateExpanded1.cs
+  NewAzPolicyDefinition_CreateExpanded.cs
+  NewAzPolicyDefinition_CreateExpanded1.cs
+  NewAzPolicyExemption_CreateExpanded.cs
+  NewAzPolicySetDefinitionVersion_CreateExpanded.cs
+  NewAzPolicySetDefinitionVersion_CreateExpanded1.cs
+  NewAzPolicySetDefinition_CreateExpanded.cs
+  NewAzPolicySetDefinition_CreateExpanded1.cs
+  RemoveAzPolicyAssignment_Delete.cs
+  RemoveAzPolicyAssignment_Delete1.cs
+  RemoveAzPolicyAssignment_DeleteViaIdentity.cs
+  RemoveAzPolicyDefinitionVersion_Delete.cs
+  RemoveAzPolicyDefinitionVersion_Delete1.cs
+  RemoveAzPolicyDefinitionVersion_DeleteViaIdentity.cs
+  RemoveAzPolicyDefinitionVersion_DeleteViaIdentity1.cs
+  RemoveAzPolicyDefinitionVersion_DeleteViaIdentityPolicyDefinition.cs
+  RemoveAzPolicyDefinitionVersion_DeleteViaIdentityPolicyDefinition1.cs
+  RemoveAzPolicyDefinition_Delete.cs
+  RemoveAzPolicyDefinition_Delete1.cs
+  RemoveAzPolicyDefinition_DeleteViaIdentity.cs
+  RemoveAzPolicyDefinition_DeleteViaIdentity1.cs
+  RemoveAzPolicyExemption_Delete.cs
+  RemoveAzPolicyExemption_DeleteViaIdentity.cs
+  RemoveAzPolicySetDefinitionVersion_Delete.cs
+  RemoveAzPolicySetDefinitionVersion_Delete1.cs
+  RemoveAzPolicySetDefinitionVersion_DeleteViaIdentity.cs
+  RemoveAzPolicySetDefinitionVersion_DeleteViaIdentity1.cs
+  RemoveAzPolicySetDefinitionVersion_DeleteViaIdentityPolicySetDefinition.cs
+  RemoveAzPolicySetDefinitionVersion_DeleteViaIdentityPolicySetDefinition1.cs
+  RemoveAzPolicySetDefinition_Delete.cs
+  RemoveAzPolicySetDefinition_Delete1.cs
+  RemoveAzPolicySetDefinition_DeleteViaIdentity.cs
+  RemoveAzPolicySetDefinition_DeleteViaIdentity1.cs
+  UpdateAzPolicyAssignment_UpdateExpanded.cs
+  UpdateAzPolicyDefinitionVersion_UpdateExpanded.cs
+  UpdateAzPolicyDefinitionVersion_UpdateViaIdentityExpanded.cs
+  UpdateAzPolicyDefinitionVersion_UpdateViaIdentityPolicyDefinitionExpanded.cs
+  UpdateAzPolicyDefinition_UpdateExpanded.cs
+  UpdateAzPolicyDefinition_UpdateViaIdentityExpanded.cs
+  UpdateAzPolicyExemption_UpdateExpanded.cs
+  UpdateAzPolicyExemption_UpdateViaIdentityExpanded.cs
+  UpdateAzPolicySetDefinitionVersion_UpdateExpanded.cs
+  UpdateAzPolicySetDefinitionVersion_UpdateViaIdentityExpanded.cs
+  UpdateAzPolicySetDefinitionVersion_UpdateViaIdentityPolicySetDefinitionExpanded.cs
+  UpdateAzPolicySetDefinition_UpdateExpanded.cs
+  UpdateAzPolicySetDefinition_UpdateViaIdentityExpanded.cs
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.Policy.GeneratedMSBuildEditorConfig.editorconfig

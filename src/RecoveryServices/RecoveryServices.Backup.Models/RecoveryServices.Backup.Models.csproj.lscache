@@ -1,0 +1,124 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.Cmdlets.RecoveryServices.Backup.Models
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.RecoveryServices/Microsoft.Azure.PowerShell.Cmdlets.RecoveryServices.Backup.Models.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.Commands.RecoveryServices.Backup
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.RecoveryServices/Microsoft.Azure.PowerShell.Cmdlets.RecoveryServices.Backup.Models.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.RecoveryServices/Microsoft.Azure.PowerShell.Cmdlets.RecoveryServices.Backup.Models.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.Cmdlets.RecoveryServices.Backup.Models.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+AzareVmModels/SoftDeletedVaultAzureVmItem.cs
+AzureDbModels/AzureDbPolicy.cs
+AzureFileShareModels/
+ AzureFileShareContainer.cs
+ AzureFileShareItem.cs
+ AzureFileShareJob.cs
+ AzureFileSharePolicy.cs
+ AzureFileShareRecoveryPoint.cs
+ SoftDeletedVaultAzureFileShareItem.cs
+AzureModels/
+ AzureContainer.cs
+ AzureItem.cs
+ AzureJob.cs
+ AzurePolicy.cs
+ AzureRecoveryPoint.cs
+AzureSqlModels/
+ AzureSqlContainer.cs
+ AzureSqlItem.cs
+ AzureSqlPolicy.cs
+ AzureSqlRecoveryPoint.cs
+AzureVmModels/
+ AzureVmContainer.cs
+ AzureVmItem.cs
+ AzureVmJob.cs
+ AzureVmPolicy.cs
+ AzureVmRecoveryPoint.cs
+ AzureVmRPMountScriptDetails.cs
+ KeyAndSecretDetails.cs
+AzureVmWorkloadModels/
+ AzureVmWorkloadContainer.cs
+ AzureVmWorkloadJob.cs
+ AzureVmWorkloadPolicy.cs
+ AzureWorkloadProtectableItem.cs
+ AzureWorkloadRecoveryConfig.cs
+ AzureWorkloadRecoveryPoint.cs
+ AzureWorkloadSAPHanaDatabaseProtectedItem.cs
+ AzureWorkloadSQLDatabaseProtectedItem.cs
+ SoftDeletedVaultAzureWorkloadSAPHanaDatabaseProtectedItem.cs
+ SoftDeletedVaultAzureWorkloadSQLDatabaseProtectedItem.cs
+BaseObjects.cs
+CmdletParamEnums.cs
+CommonModels/
+ Enums.cs
+ PolicyRetentionObjects.cs
+ PolicyScheduleObjects.cs
+ ResourceBackupStatus.cs
+ Utils.cs
+DpmModels/DpmBackupEngine.cs
+MabModels/
+ MabContainer.cs
+ MabItem.cs
+ MabJob.cs
+ModelHelpers.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/
+ AssemblyInfo.cs
+ Resources.Designer.cs
+UriEnums.cs
+VaultModels/
+ VaultJob.cs
+ VaultProperty.cs
+
+[metadataReferences]
+../../../artifacts/Debug/Az.RecoveryServices/
+ Microsoft.Azure.PowerShell.Cmdlets.RecoveryServices.Backup.Logger.dll
+ Microsoft.Azure.PowerShell.RecoveryServices.Backup.CrossRegionRestore.Management.Sdk.dll
+ Microsoft.Azure.PowerShell.RecoveryServices.Backup.Management.Sdk.dll
+
+[analyzerConfigFiles]
+obj/Debug/RecoveryServices.Backup.Models.GeneratedMSBuildEditorConfig.editorconfig

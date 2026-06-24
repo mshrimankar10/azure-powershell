@@ -1,0 +1,530 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.Cmdlets.Synapse
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.Synapse/Microsoft.Azure.PowerShell.Cmdlets.Synapse.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.Commands.Synapse
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.Synapse/Microsoft.Azure.PowerShell.Cmdlets.Synapse.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.Synapse/Microsoft.Azure.PowerShell.Cmdlets.Synapse.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.Cmdlets.Synapse.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+Commands/DataPlaneCommands/AccessControl/
+ GetAzureSynapseRoleAssignment.cs
+ GetAzureSynapseRoleDefinition.cs
+ GetAzureSynapseRoleScope.cs
+ NewAzureSynapseRoleAssignment.cs
+ RemoveAzureSynapseRoleAssignment.cs
+Commands/DataPlaneCommands/Artifact/DataFlowDebugSession/
+ AddAzureSynapseDataFlowDebugSessionPackage.cs
+ GetAzureSynapseDataFlowDebugSession.cs
+ InvokeAzureSynapseDataFlowDebugSessionCommand.cs
+ StartAzSynapseDataFlowDebugSession.cs
+ StopAzureSynapseDataFlowDebugSession.cs
+Commands/DataPlaneCommands/Artifact/DataFlows/
+ GetAzureSynapseDataFlow.cs
+ RemoveAzureSynapseDataFlow.cs
+ SetAzureSynapseDataFlow.cs
+Commands/DataPlaneCommands/Artifact/Datasets/
+ GetAzureSynapseDataset.cs
+ RemoveAzureSynapseDataset.cs
+ SetAzureSynapseDataset.cs
+Commands/DataPlaneCommands/Artifact/KqlScripts/
+ ExportAzureSynapseKqlScript.cs
+ GetAzureSynapseKqlScript.cs
+ RemoveAzureSynapseKqlScript.cs
+ SetAzureSynapseKqlScript.cs
+Commands/DataPlaneCommands/Artifact/LinkConnection/
+ GetAzureSynapseLinkConnectionDetailedStatus.cs
+ GetAzureSynapseLinkConnectionLinkTable.cs
+ GetAzureSynapseLinkConnectionLinkTableStatus.cs
+ GetAzureSynaspeLinkConnection.cs
+ RemoveAzureSynaspeLinkConnection.cs
+ SetAzureSynapseLinkConnection.cs
+ SetAzureSynapseLinkConnectionLinkTable.cs
+ StartAzureSynapseLinkConnection.cs
+ StopAzureSynapseLinkConnection.cs
+ UpdateAzureSynapseLinkConnectionLandingZoneCredential.cs
+Commands/DataPlaneCommands/Artifact/LinkedServices/
+ GetAzureSynapseLinkedService.cs
+ NewAzSynapseLinkedServiceEncryptedCredential.cs
+ RemoveAzureSynapseLinkedService.cs
+ SetAzureSynapseLinkedService.cs
+Commands/DataPlaneCommands/Artifact/Notebooks/
+ ExportAzureSynapseNotebook.cs
+ GetAzureSynapseNotebook.cs
+ RemoveAzureSynapseNotebook.cs
+ SetAzureSynapseNotebook.cs
+Commands/DataPlaneCommands/Artifact/PipelineRuns/
+ GetAzureSynapseActivityRun.cs
+ GetAzureSynapsePipelineRun.cs
+ InvokeAzureSynapsePipeline.cs
+ StopAzureSynapsePipelineRun.cs
+Commands/DataPlaneCommands/Artifact/Pipelines/
+ GetAzureSynapsePipeline.cs
+ RemoveAzureSynapsePipeline.cs
+ SetAzureSynapsePipeline.cs
+Commands/DataPlaneCommands/Artifact/SparkConfiguration/
+ ExportAzureSynapseSparkConfiguration.cs
+ GetAzureSynapseSparkConfiguration.cs
+ NewAzureSynapseSparkConfiguration.cs
+ RemoveAzureSynapseSparkConfiguration.cs
+Commands/DataPlaneCommands/Artifact/SparkJobDefinitions/
+ GetAzureSynapseSparkJobDefinition.cs
+ RemoveAzureSynapseSparkJobDefinition.cs
+ SetAzureSynapseSparkJobDefinition.cs
+Commands/DataPlaneCommands/Artifact/SqlScript/
+ ExportAzureSynapseSqlScript.cs
+ GetAzureSynapseSqlScript.cs
+ RemoveAzureSynapseSqlScript.cs
+ SetAzureSynapseSqlScript.cs
+Commands/DataPlaneCommands/Artifact/Triggers/
+ AddAzureSynapseTriggerSubscription.cs
+ GetAzureSynapseTrigger.cs
+ GetAzureSynapseTriggerRun.cs
+ GetAzureSynapseTriggerSubscriptionStatus.cs
+ InvokeAzureSynapseTriggerRun.cs
+ RemoveAzureSynapseTrigger.cs
+ RemoveAzureSynapseTriggerSubscription.cs
+ SetAzureSynapseTrigger.cs
+ StartAzureSynapseTrigger.cs
+ StopAzureSynapseTrigger.cs
+ StopAzureSynapseTriggerRun.cs
+Commands/DataPlaneCommands/Artifact/WorkspacePackages/
+ GetAzureSynapseWorkspacePackage.cs
+ NewAzureSynapseWorkspacePackage.cs
+ RemoveAzureSynapseWorkspacePackage.cs
+ SynapseDataMovementCmdletBase.cs
+Commands/DataPlaneCommands/ManagedPrivateEndpoints/
+ GetAzureSynapseManagedPrivateEndpoint.cs
+ NewAzureSynapseManagedPrivateEndpoint.cs
+ RemoveAzureSynapseManagedPrivateEndpoint.cs
+Commands/DataPlaneCommands/SparkJob/
+ GetAzureSynapseSparkJob.cs
+ StopAzureSynapseSparkJob.cs
+ SubmitAzureSynapseSparkJob.cs
+ WaitAzureSynapseSparkJob.cs
+Commands/DataPlaneCommands/SparkSession/
+ GetAzureSynapseSparkSession.cs
+ ResetAzureSynapseSparkSessionTimeout.cs
+ StartAzureSynapseSparkSession.cs
+ StopAzureSynapseSparkSession.cs
+Commands/DataPlaneCommands/SparkStatement/
+ GetAzureSynapseSparkStatement.cs
+ InvokeAzureSynapseSparkStatement.cs
+ StopAzureSynapseSparkStatement.cs
+Commands/ManagementCommands/AdvancedThreatProtection/
+ DisableAzureSynapseSqlAdvancedDataSecurity.cs
+ EnableAzureSynapseSqlAdvancedDataSecurity.cs
+ GetAzureSynapseSqlAdvancedDataSecurityPolicy.cs
+Commands/ManagementCommands/Auditing/
+ GetAzureSynapseSqlPoolAudit.cs
+ GetAzureSynapseWorkspaceAudit.cs
+ RemoveAzureSynapseSqlPoolAudit.cs
+ RemoveAzureSynapseWorkspaceAudit.cs
+ RemoveSynapseWorkspaceAuditCmdlet.cs
+ SetAzureSynapseSqlPoolAudit.cs
+ SetAzureSynapseWorkspaceAudit.cs
+ SetSynapseWorkspaceAuditCmdlet.cs
+ SynapseSqlPoolAuditCmdlet.cs
+ SynapseWorkspaceAuditCmdlet.cs
+Commands/ManagementCommands/AzureActiveDirectoryOnlyAuthentication/
+ DisableAzureSynapseActiveDirectoryOnlyAuthentication.cs
+ EnableAzureSynapseActiveDirectoryOnlyAuthentication.cs
+ GetAzureSynapseActiveDirectoryOnlyAuthentication.cs
+Commands/ManagementCommands/DataClassification/
+ DisableAzureSynapseSqlPoolSensitivityRecommendation.cs
+ EnableAzureSynapseSqlPoolSensitivityRecommendation.cs
+ GetAzureSynapseSqlPoolSensitivityClassification.cs
+ GetAzureSynapseSqlPoolSensitivityRecommendation.cs
+ ModifyAzureSqlPoolSensitivityClassificationCmdlet.cs
+ ModifyAzureSynapseSqlPoolSensitivityCmdlet.cs
+ ModifyAzureSynapseSqlPoolSensitivityRecommendationCmdlet.cs
+ RemoveAzureSynapseSqlPoolSensitivityClassification.cs
+ SetAzureSynapseSqlPoolSensitivityClassification.cs
+Commands/ManagementCommands/Firewall/
+ GetAzureSynapseFirewallRule.cs
+ NewAzureSynapseFirewallRule.cs
+ RemoveAzureSynapseFirewallRule.cs
+ UpdateAzureSynapseFirewallRule.cs
+Commands/ManagementCommands/IntegrationRuntimes/
+ GetAzureSynapseIntegrationRuntime.cs
+ GetAzureSynapseIntegrationRuntimeKey.cs
+ GetAzureSynapseIntegrationRuntimeMetric.cs
+ GetAzureSynapseIntegrationRuntimeNode.cs
+ InvokeAzureSynapseIntegrationRuntimeUpgrade.cs
+ NewAzureSynapseIntegrationRuntimeKey.cs
+ RemoveAzureSynapseIntegrationRuntime.cs
+ RemoveAzureSynapseIntegrationRuntimeNode.cs
+ SetAzureSynapseIntegrationRuntime.cs
+ StartAzureSynapseIntegrationRuntime.cs
+ StopAzureSynapseIntegrationRuntime.cs
+ SyncAzureSynapseIntegrationRuntimeCredential.cs
+ UpdateAzureSynapseIntegrationRuntime.cs
+ UpdateAzureSynapseIntegrationRuntimeNode.cs
+Commands/ManagementCommands/ManagedIdentitySqlControl/
+ GetAzureSynapseManagedIdentitySqlControlSetting.cs
+ SetAzureSynapseManagedIdentitySqlControlSetting.cs
+Commands/ManagementCommands/SparkPool/
+ GetAzureSynapseSparkPool.cs
+ NewAzureSynapseSparkPool.cs
+ RemoveAzureSynapseSparkPool.cs
+ TestAzureSynapseSparkPool.cs
+ UpdateAzureSynapseSparkPool.cs
+Commands/ManagementCommands/SqlDatabase/
+ GetAzureSynapseSqlDatabase.cs
+ NewAzureSynapseSqlDatabase.cs
+ RemoveAzureSynapseSqlDatabase.cs
+ TestAzureSynapseSqlDatabase.cs
+ UpdateAzureSynapseSqlDatabase.cs
+Commands/ManagementCommands/SqlPool Backup/
+ GetAzureSynapseDroppedSqlPoolBackup.cs
+ GetAzureSynapseSqlPoolGeoBackup.cs
+ GetAzureSynapseSqlPoolRestorePoint.cs
+ NewAzureSynapseSqlPoolRestorePoint.cs
+ RemoveAzureSynapseSqlPoolRestorePoint.cs
+ RestoreAzureSynapseSqlPool.cs
+Commands/ManagementCommands/SqlPool/
+ ConvertAzureSynapseSqlPoolVulnerabilityAssessmentScan.cs
+ GetAzureSynapseSqlPool.cs
+ GetAzureSynapseSqlPoolVulnerabilityAssessmentScanRecord.cs
+ NewAzureSynapseSqlPool.cs
+ RemoveAzureSynapseSqlPool.cs
+ ResumeAzureSynapseSqlPool.cs
+ StartAzureSynapseSqlPoolVulnerabilityAssessmentScan.cs
+ SuspendAzureSynapseSqlPool.cs
+ TestAzureSynapseSqlPool.cs
+ UpdateAzureSynapseSqlPool.cs
+Commands/ManagementCommands/ThreatDetection/
+ ClearAzureSynapseSqlAdvancedThreatProtectionSetting.cs
+ ClearAzureSynapseSqlPoolAdvancedThreatProtectionSetting.cs
+ GetAzureSynapseSqlAdvancedThreatProtectionSetting.cs
+ GetAzureSynapseSqlPoolAdvancedThreatProtectionSetting.cs
+ UpdateAzureSynapseSqlAdvancedThreatProtectionSetting.cs
+ UpdateAzureSynapseSqlPoolAdvancedThreatProtectionSetting.cs
+Commands/ManagementCommands/TransparentDataEncryption/
+ GetAzureSynapseSqlPoolTransparentDataEncryption.cs
+ SetAzureSynapseSqlPoolTransparentDataEncryption.cs
+Commands/ManagementCommands/VulnerabilityAssessment/
+ SqlVulnerabilityAssessmentAtpCmdletBase.cs
+ VulnerabilityAssessmentCommon.cs
+ VulnerabilityAssessmentRuleBaseline/
+  ClearSynapseSqlPoolVulnerabilityAssessmentRuleBaseline.cs
+  ClearSynapseSqlVulnerabilityAssessmentRuleBaselineBase.cs
+  GetAzureSynapseSqlPoolVulnerabilityAssessmentRuleBaseline.cs
+  GetAzureSynapseSqlVulnerabilityAssessmentRuleBaselineBase.cs
+  SetAzureSynapseSqlPoolVulnerabilityAssessmentRuleBaseline.cs
+  SetAzureSynapseSqlVulnerabilityAssessmentRuleBaselineBase.cs
+  SqlPoolVulnerabilityAssessmentRuleBaselineCmdletBase.cs
+ VulnerabilityAssessmentSettings/
+  ClearAzureSynapseSqlPoolVulnerabilityAssessmentSetting.cs
+  ClearAzureSynapseSqlVulnerabilityAssessmentSetting.cs
+  GetAzureSynapseSqlPoolVulnerabilityAssessmentSetting.cs
+  GetAzureSynapseSqlVulnerabilityAssessmentSetting.cs
+  UpdateAzureSynapseSqlPoolVulnerabilityAssessmentSetting.cs
+  UpdateAzureSynapseSqlVulnerabilityAssessmentSetting.cs
+Commands/ManagementCommands/Workspace/
+ GetAzureSynapseWorkspace.cs
+ NewAzureSynapseGitRepositoryConfig.cs
+ NewAzureSynapseManagedVirtualNetworkConfig.cs
+ NewAzureSynapseWorkspace.cs
+ RemoveAzureSynapseWorkspace.cs
+ TestAzureSynapseWorkspace.cs
+ UpdateAzureSynapseManagedVirtualNetworkConfig.cs
+ UpdateAzureSynapseWorkspace.cs
+Commands/ManagementCommands/WorkspaceActiveDirectoryAdministrator/
+ GetAzureSynapseSqlActiveDirectoryAdministrator.cs
+ RemoveAzureSynapseSqlActiveDirectoryAdministrator.cs
+ SetAzureSynapseSqlActiveDirectoryAdministrator.cs
+Commands/ManagementCommands/WorkspaceKey/
+ EnableAzSynapseWorkspace.cs
+ GetAzureSynapseWorkspaceKey.cs
+ NewAzureSynapseWorkspaceKey.cs
+ RemoveAzureSynapseWorkspaceKey.cs
+Common/
+ AzureEndpointsCommunicator.cs
+ AzureSessionCredential.cs
+ ConfirmTaskCompletionSource.cs
+ HelpMessages.cs
+ JsonConvert.cs
+ LimitedConcurrencyTaskScheduler.cs
+ ResourceTypes.cs
+ TaskOutputStream.cs
+ Utils.cs
+Models/
+ AbfsUri.cs
+ AzureStorageUri.cs
+ ComputeNodeSize.cs
+ DataPlaneModels/AccessControl/
+  PSRoleAssignmentDetails.cs
+  PSSynapseRole.cs
+  SynapseAnalyticsRoleClient.cs
+  SynapseRoleCmdletBase.cs
+ DataPlaneModels/Artifact/DataFlowDebugSession/
+  PSAddDataFlowToDebugSessionResponse.cs
+  PSCreateDataFlowDebugSessionResponse.cs
+  PSDataFlowDebugCommandResponse.cs
+  PSDataFlowDebugSessionResource.cs
+ DataPlaneModels/Artifact/
+  DataFlows/PSDataFlowResource.cs
+  Datasets/PSDatasetResource.cs
+  KqlScripts/
+   PSKqlScript.cs
+   PSKqlScriptContent.cs
+   PSKqlScriptContentCurrentConnection.cs
+   PSKqlScriptContentMetadata.cs
+   PSKqlScriptResource.cs
+  LinkConnection/
+   PSEditTablesRequest.cs
+   PSLinkConnection.cs
+   PSLinkConnectionCompute.cs
+   PSLinkConnectionDetailedStatus.cs
+   PSLinkConnectionLandingZone.cs
+   PSLinkConnectionQueryTableStatus.cs
+   PSLinkConnectionRefreshStatus.cs
+   PSLinkConnectionResource.cs
+   PSLinkConnectionSourceDatabase.cs
+   PSLinkConnectionSourceDatabaseTypeProperties.cs
+   PSLinkConnectionTargetDatabase.cs
+   PSLinkConnectionTargetDatabaseTypeProperties.cs
+   PSLinkedServiceReference.cs
+   PSLinkTableRequest.cs
+   PSLinkTableRequestSource.cs
+   PSLinkTableRequestTarget.cs
+   PSLinkTableRequestTargetDistributionOptions.cs
+   PSLinkTableRequestTargetStructureOptions.cs
+   PSLinkTableResource.cs
+   PSLinkTableStatus.cs
+   PSSecureString.cs
+  LinkedServices/PSLinkedServiceResource.cs
+  Notebooks/
+   ComputeOptions.cs
+   PSNotebook.cs
+   PSNotebookCell.cs
+   PSNotebookCellOutputItem.cs
+   PSNotebookFolder.cs
+   PSNotebookKernelSpec.cs
+   PSNotebookLanguageInfo.cs
+   PSNotebookMetadata.cs
+   PSNotebookResource.cs
+   PSNotebookSessionProperties.cs
+  PipelineRuns/
+   PSActivityRun.cs
+   PSActivityRunsQueryResponse.cs
+   PSCreateRunResponse.cs
+   PSPipelineRun.cs
+   PSPipelineRunInvokedBy.cs
+  Pipelines/
+   PSParameterSpecification.cs
+   PSPipelineFolder.cs
+   PSPipelineResource.cs
+   PSVariableSpecification.cs
+  PSBigDataPoolReference.cs
+  SparkConfiguration/
+   PSSparkConfiguration.cs
+   PSSparkConfigurationResource.cs
+  SparkJobDefinitions/
+   PSSparkJobDefinition.cs
+   PSSparkJobDefinitionFolder.cs
+   PSSparkJobDefinitionResource.cs
+   PSSparkJobProperties.cs
+  SqlScript/
+   PSSqlConnection.cs
+   PSSqlScript.cs
+   PSSqlScriptContent.cs
+   PSSqlScriptFolder.cs
+   PSSqlScriptMetadata.cs
+   PSSqlScriptResource.cs
+   PSSqlScriptType.cs
+  SynapseAnalyticsArtifactsClient.cs
+  SynapseArtifactsCmdletBase.cs
+  Triggers/
+   PSTriggerResource.cs
+   PSTriggerRun.cs
+   PSTriggerRunStatus.cs
+   PSTriggerSubscriptionOperationStatus.cs
+  WorkspacePackages/
+   PackageUploadRequest.cs
+   PackageUploadRequestQueue.cs
+   PSSynapseWorkspacePackage.cs
+   SynapseAnalyticsLibraryClient.cs
+ DataPlaneModels/ManagedPrivateEndpoints/
+  PSManagedPrivateEndpointConnectionState.cs
+  PSManagedPrivateEndpointProperties.cs
+  PSManagedPrivateEndpointResource.cs
+  SynapseManagedPrivateEndpointsClient.cs
+  SynapseManagedPrivateEndpointsCmdletBase.cs
+ DataPlaneModels/
+  PSSubResource.cs
+  Spark/
+   LanguageType.cs
+   PSLivyRequestBase.cs
+   PSLivyStateInformation.cs
+   PSSchedulerInformation.cs
+   PSSparkServicePluginInformation.cs
+   PSSynapseSparkJobInformationBase.cs
+   SparkJob/
+    PSLivyBatchStateInformation.cs
+    PSSynapseSparkJob.cs
+   SparkJobState.cs
+   SparkSession/
+    PSLivySessionStateInformation.cs
+    PSSynapseSparkSession.cs
+   SparkStatement/
+    LivyStatementOutputParser.cs
+    PSLivyStatementOutput.cs
+    PSSynapseExtendedSparkStatement.cs
+    PSSynapseLivyStatementOutputData.cs
+    PSSynapseSparkStatement.cs
+   SynapseAnalyticsSparkClient.cs
+   SynapseSparkCmdletBase.cs
+ ManagementModels/
+  AdvancedThreatProtection/WorkspaceAdvancedDataSecurityPolicy.cs
+  Auditing/
+   AuditingEndpointsCommunicator.cs
+   DefinitionsCommon.cs
+   SqlAuditAdapter.cs
+   SqlPoolAuditModel.cs
+   WorkspaceAuditModel.cs
+   WorkspaceDevOpsAuditModel.cs
+  AzureADOnlyAuthentication/PSAzureADOnlyAuthentication.cs
+  AzureSynapseSqlManagementCmdletBase.cs
+  AzureSynapseSqlPoolManagementCmdletBase.cs
+  DataClassification/
+   DataClassificationAdapter.cs
+   DataClassificationCommon.cs
+   DataClassificationEndpointsCommunicator.cs
+   InformationProtectionPolicy.cs
+   SensitivityClassificationModel.cs
+   SensitivityLabelModel.cs
+   SqlPoolSensitivityClassificationModel.cs
+  Firewall/PSSynapseIpFirewallRule.cs
+  IntegrationRuntimes/
+   CreatePSIntegrationRuntimeParameters.cs
+   PSIntegrationRuntime.cs
+   PSIntegrationRuntimeKeys.cs
+   PSIntegrationRuntimeMetrics.cs
+   PSLinkedIntegrationRuntime.cs
+   PSLinkedIntegrationRuntimeStatus.cs
+   PSManagedIntegrationRuntime.cs
+   PSManagedIntegrationRuntimeNode.cs
+   PSManagedIntegrationRuntimeStatus.cs
+   PSSelfHostedIntegrationRuntime.cs
+   PSSelfHostedIntegrationRuntimeNode.cs
+   PSSelfHostedIntegrationRuntimeStatus.cs
+   SynapseEntityFilterOptions.cs
+  ManagedIdentitySqlControl/
+   ManagedIdentitySqlControlSettingsState.cs
+   PSManagedIdentitySqlControlSettingsModel.cs
+  PSSynapseProxyResource.cs
+  PSSynapseResource.cs
+  PSSynapseTrackedResource.cs
+  PSSystemData.cs
+  SparkPool/
+   PSAutoPauseProperties.cs
+   PSAutoScaleProperties.cs
+   PSDynamicExecutorAllocation.cs
+   PSLibraryRequirements.cs
+   PSSparkConfigProperties.cs
+   PSSynapseSparkPool.cs
+  SqlDatabase/PSSynapseSqlDatabase.cs
+  SqlPool Backup/
+   PSRecoverableSqlPool.cs
+   PSRestorableDroppedSqlPool.cs
+   PSRestorePoint.cs
+  SqlPool/
+   PSSynapseSku.cs
+   PSSynapseSqlPool.cs
+   PSSynapseSqlPoolV3.cs
+   PSVulnerabilityAssessmentScanErrorModel.cs
+   PSVulnerabilityAssessmentScanExportModel.cs
+   PSVulnerabilityAssessmentScanRecordModel.cs
+  SynapseAnalyticsManagementClient.cs
+  SynapseManagementCmdletBase.cs
+  SynapseSqlPoolCreateMode.cs
+  ThreatDetection/
+   PSServerSecurityAlertPolicy.cs
+   PSSqlPoolSecurityAlertPolicy.cs
+  TransparentDataEncryption/PSTransparentDataEncryption.cs
+  VulnerabilityAssessment/
+   BaseSqlVulnerabilityAssessmentAdapter.cs
+   SqlPoolVulnerabilityAssessmentRuleBaselineModel.cs
+   SqlPoolVulnerabilityAssessmentSettingsModel.cs
+   SqlVulnerabilityAssessmentRuleBaselineAdapter.cs
+   VulnerabilityAssessmentEndpointsCommunicator.cs
+   VulnerabilityAssessmentRuleBaselineModel.cs
+   VulnerabilityAssessmentRuleBaselineRowModel.cs
+   VulnerabilityAssessmentSettingsModel.cs
+  Workspace/
+   PSCspWorkspaceAdminProperties.cs
+   PSCustomerManagedKeyDetails.cs
+   PSDataLakeStorageAccountDetails.cs
+   PSEncryptionDetails.cs
+   PSKekIdentityProperties.cs
+   PSManagedIdentity.cs
+   PSManagedVirtualNetworkSettings.cs
+   PSPrivateEndpoint.cs
+   PSPrivateEndpointConnection.cs
+   PSPrivateLinkServiceConnectionState.cs
+   PSPurviewConfiguration.cs
+   PSSynapseWorkspace.cs
+   PSVirtualNetworkProfile.cs
+   PSWorkspaceKeyDetails.cs
+   PSWorkspaceRepositoryConfiguration.cs
+  WorkspaceActiveDirectoryAdministrator/PSWorkspaceAadAdminInfo.cs
+  WorkspaceKey/PSWorkspaceKey.cs
+ SynapseCmdletBase.cs
+ SynapseConstants.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/
+ AssemblyInfo.cs
+ Resources.Designer.cs
+
+[metadataReferences]
+../../../artifacts/Debug/Az.Synapse/Microsoft.Azure.PowerShell.Synapse.Management.Sdk.dll
+
+[analyzerConfigFiles]
+obj/Debug/Synapse.GeneratedMSBuildEditorConfig.editorconfig

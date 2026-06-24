@@ -1,0 +1,608 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.NewRelic.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.NewRelic/NewRelic.Autorest/bin/Az.NewRelic.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.NewRelic
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.NewRelic/NewRelic.Autorest/bin/Az.NewRelic.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.NewRelic/NewRelic.Autorest/bin/Az.NewRelic.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.NewRelic.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/Models/
+ AccountInfo.cs
+ AccountInfo.json.cs
+ AccountInfo.PowerShell.cs
+ AccountInfo.TypeConverter.cs
+ AccountProperties.cs
+ AccountProperties.json.cs
+ AccountProperties.PowerShell.cs
+ AccountProperties.TypeConverter.cs
+ AccountResource.cs
+ AccountResource.json.cs
+ AccountResource.PowerShell.cs
+ AccountResource.TypeConverter.cs
+ AccountsListResponse.cs
+ AccountsListResponse.json.cs
+ AccountsListResponse.PowerShell.cs
+ AccountsListResponse.TypeConverter.cs
+ ActivateSaaSParameterRequest.cs
+ ActivateSaaSParameterRequest.json.cs
+ ActivateSaaSParameterRequest.PowerShell.cs
+ ActivateSaaSParameterRequest.TypeConverter.cs
+ Any.cs
+ Any.json.cs
+ Any.PowerShell.cs
+ Any.TypeConverter.cs
+ AppServiceInfo.cs
+ AppServiceInfo.json.cs
+ AppServiceInfo.PowerShell.cs
+ AppServiceInfo.TypeConverter.cs
+ AppServicesGetParameter.cs
+ AppServicesGetParameter.json.cs
+ AppServicesGetParameter.PowerShell.cs
+ AppServicesGetParameter.TypeConverter.cs
+ AppServicesGetRequest.cs
+ AppServicesGetRequest.json.cs
+ AppServicesGetRequest.PowerShell.cs
+ AppServicesGetRequest.TypeConverter.cs
+ AppServicesListResponse.cs
+ AppServicesListResponse.json.cs
+ AppServicesListResponse.PowerShell.cs
+ AppServicesListResponse.TypeConverter.cs
+ BillingInfoResponse.cs
+ BillingInfoResponse.json.cs
+ BillingInfoResponse.PowerShell.cs
+ BillingInfoResponse.TypeConverter.cs
+ ConnectedPartnerResourceProperties.cs
+ ConnectedPartnerResourceProperties.json.cs
+ ConnectedPartnerResourceProperties.PowerShell.cs
+ ConnectedPartnerResourceProperties.TypeConverter.cs
+ ConnectedPartnerResourcesListFormat.cs
+ ConnectedPartnerResourcesListFormat.json.cs
+ ConnectedPartnerResourcesListFormat.PowerShell.cs
+ ConnectedPartnerResourcesListFormat.TypeConverter.cs
+ ConnectedPartnerResourcesListResponse.cs
+ ConnectedPartnerResourcesListResponse.json.cs
+ ConnectedPartnerResourcesListResponse.PowerShell.cs
+ ConnectedPartnerResourcesListResponse.TypeConverter.cs
+ ErrorAdditionalInfo.cs
+ ErrorAdditionalInfo.json.cs
+ ErrorAdditionalInfo.PowerShell.cs
+ ErrorAdditionalInfo.TypeConverter.cs
+ ErrorDetail.cs
+ ErrorDetail.json.cs
+ ErrorDetail.PowerShell.cs
+ ErrorDetail.TypeConverter.cs
+ ErrorResponse.cs
+ ErrorResponse.json.cs
+ ErrorResponse.PowerShell.cs
+ ErrorResponse.TypeConverter.cs
+ FilteringTag.cs
+ FilteringTag.json.cs
+ FilteringTag.PowerShell.cs
+ FilteringTag.TypeConverter.cs
+ HostsGetParameter.cs
+ HostsGetParameter.json.cs
+ HostsGetParameter.PowerShell.cs
+ HostsGetParameter.TypeConverter.cs
+ HostsGetRequest.cs
+ HostsGetRequest.json.cs
+ HostsGetRequest.PowerShell.cs
+ HostsGetRequest.TypeConverter.cs
+ LatestLinkedSaaSResponse.cs
+ LatestLinkedSaaSResponse.json.cs
+ LatestLinkedSaaSResponse.PowerShell.cs
+ LatestLinkedSaaSResponse.TypeConverter.cs
+ LinkedResource.cs
+ LinkedResource.json.cs
+ LinkedResource.PowerShell.cs
+ LinkedResource.TypeConverter.cs
+ LinkedResourceListResponse.cs
+ LinkedResourceListResponse.json.cs
+ LinkedResourceListResponse.PowerShell.cs
+ LinkedResourceListResponse.TypeConverter.cs
+ LogRules.cs
+ LogRules.json.cs
+ LogRules.PowerShell.cs
+ LogRules.TypeConverter.cs
+ ManagedServiceIdentity.cs
+ ManagedServiceIdentity.json.cs
+ ManagedServiceIdentity.PowerShell.cs
+ ManagedServiceIdentity.TypeConverter.cs
+ MarketplaceSaaSInfo.cs
+ MarketplaceSaaSInfo.json.cs
+ MarketplaceSaaSInfo.PowerShell.cs
+ MarketplaceSaaSInfo.TypeConverter.cs
+ MetricRules.cs
+ MetricRules.json.cs
+ MetricRules.PowerShell.cs
+ MetricRules.TypeConverter.cs
+ MetricsRequest.cs
+ MetricsRequest.json.cs
+ MetricsRequest.PowerShell.cs
+ MetricsRequest.TypeConverter.cs
+ MetricsRequestParameter.cs
+ MetricsRequestParameter.json.cs
+ MetricsRequestParameter.PowerShell.cs
+ MetricsRequestParameter.TypeConverter.cs
+ MetricsStatusRequest.cs
+ MetricsStatusRequest.json.cs
+ MetricsStatusRequest.PowerShell.cs
+ MetricsStatusRequest.TypeConverter.cs
+ MetricsStatusRequestParameter.cs
+ MetricsStatusRequestParameter.json.cs
+ MetricsStatusRequestParameter.PowerShell.cs
+ MetricsStatusRequestParameter.TypeConverter.cs
+ MetricsStatusResponse.cs
+ MetricsStatusResponse.json.cs
+ MetricsStatusResponse.PowerShell.cs
+ MetricsStatusResponse.TypeConverter.cs
+ MonitoredResource.cs
+ MonitoredResource.json.cs
+ MonitoredResource.PowerShell.cs
+ MonitoredResource.TypeConverter.cs
+ MonitoredResourceListResponse.cs
+ MonitoredResourceListResponse.json.cs
+ MonitoredResourceListResponse.PowerShell.cs
+ MonitoredResourceListResponse.TypeConverter.cs
+ MonitoredSubscription.cs
+ MonitoredSubscription.json.cs
+ MonitoredSubscription.PowerShell.cs
+ MonitoredSubscription.TypeConverter.cs
+ MonitoredSubscriptionProperties.cs
+ MonitoredSubscriptionProperties.json.cs
+ MonitoredSubscriptionProperties.PowerShell.cs
+ MonitoredSubscriptionProperties.TypeConverter.cs
+ MonitoredSubscriptionPropertiesList.cs
+ MonitoredSubscriptionPropertiesList.json.cs
+ MonitoredSubscriptionPropertiesList.PowerShell.cs
+ MonitoredSubscriptionPropertiesList.TypeConverter.cs
+ MonitoringTagRulesProperties.cs
+ MonitoringTagRulesProperties.json.cs
+ MonitoringTagRulesProperties.PowerShell.cs
+ MonitoringTagRulesProperties.TypeConverter.cs
+ MonitorProperties.cs
+ MonitorProperties.json.cs
+ MonitorProperties.PowerShell.cs
+ MonitorProperties.TypeConverter.cs
+ NewRelicAccountProperties.cs
+ NewRelicAccountProperties.json.cs
+ NewRelicAccountProperties.PowerShell.cs
+ NewRelicAccountProperties.TypeConverter.cs
+ NewRelicIdentity.cs
+ NewRelicIdentity.json.cs
+ NewRelicIdentity.PowerShell.cs
+ NewRelicIdentity.TypeConverter.cs
+ NewRelicMonitorResource.cs
+ NewRelicMonitorResource.json.cs
+ NewRelicMonitorResource.PowerShell.cs
+ NewRelicMonitorResource.TypeConverter.cs
+ NewRelicMonitorResourceListResult.cs
+ NewRelicMonitorResourceListResult.json.cs
+ NewRelicMonitorResourceListResult.PowerShell.cs
+ NewRelicMonitorResourceListResult.TypeConverter.cs
+ NewRelicMonitorResourceUpdate.cs
+ NewRelicMonitorResourceUpdate.json.cs
+ NewRelicMonitorResourceUpdate.PowerShell.cs
+ NewRelicMonitorResourceUpdate.TypeConverter.cs
+ NewRelicMonitorResourceUpdateProperties.cs
+ NewRelicMonitorResourceUpdateProperties.json.cs
+ NewRelicMonitorResourceUpdateProperties.PowerShell.cs
+ NewRelicMonitorResourceUpdateProperties.TypeConverter.cs
+ NewRelicMonitorResourceUpdateTags.cs
+ NewRelicMonitorResourceUpdateTags.dictionary.cs
+ NewRelicMonitorResourceUpdateTags.json.cs
+ NewRelicMonitorResourceUpdateTags.PowerShell.cs
+ NewRelicMonitorResourceUpdateTags.TypeConverter.cs
+ NewRelicSingleSignOnProperties.cs
+ NewRelicSingleSignOnProperties.json.cs
+ NewRelicSingleSignOnProperties.PowerShell.cs
+ NewRelicSingleSignOnProperties.TypeConverter.cs
+ Operation.cs
+ Operation.json.cs
+ Operation.PowerShell.cs
+ Operation.TypeConverter.cs
+ OperationDisplay.cs
+ OperationDisplay.json.cs
+ OperationDisplay.PowerShell.cs
+ OperationDisplay.TypeConverter.cs
+ OperationListResult.cs
+ OperationListResult.json.cs
+ OperationListResult.PowerShell.cs
+ OperationListResult.TypeConverter.cs
+ OrganizationInfo.cs
+ OrganizationInfo.json.cs
+ OrganizationInfo.PowerShell.cs
+ OrganizationInfo.TypeConverter.cs
+ OrganizationProperties.cs
+ OrganizationProperties.json.cs
+ OrganizationProperties.PowerShell.cs
+ OrganizationProperties.TypeConverter.cs
+ OrganizationResource.cs
+ OrganizationResource.json.cs
+ OrganizationResource.PowerShell.cs
+ OrganizationResource.TypeConverter.cs
+ OrganizationsListResponse.cs
+ OrganizationsListResponse.json.cs
+ OrganizationsListResponse.PowerShell.cs
+ OrganizationsListResponse.TypeConverter.cs
+ PartnerBillingEntity.cs
+ PartnerBillingEntity.json.cs
+ PartnerBillingEntity.PowerShell.cs
+ PartnerBillingEntity.TypeConverter.cs
+ PlanData.cs
+ PlanData.json.cs
+ PlanData.PowerShell.cs
+ PlanData.TypeConverter.cs
+ PlanDataListResponse.cs
+ PlanDataListResponse.json.cs
+ PlanDataListResponse.PowerShell.cs
+ PlanDataListResponse.TypeConverter.cs
+ PlanDataProperties.cs
+ PlanDataProperties.json.cs
+ PlanDataProperties.PowerShell.cs
+ PlanDataProperties.TypeConverter.cs
+ PlanDataResource.cs
+ PlanDataResource.json.cs
+ PlanDataResource.PowerShell.cs
+ PlanDataResource.TypeConverter.cs
+ ProxyResource.cs
+ ProxyResource.json.cs
+ ProxyResource.PowerShell.cs
+ ProxyResource.TypeConverter.cs
+ Resource.cs
+ Resource.json.cs
+ Resource.PowerShell.cs
+ Resource.TypeConverter.cs
+ ResubscribeProperties.cs
+ ResubscribeProperties.json.cs
+ ResubscribeProperties.PowerShell.cs
+ ResubscribeProperties.TypeConverter.cs
+ SaaSData.cs
+ SaaSData.json.cs
+ SaaSData.PowerShell.cs
+ SaaSData.TypeConverter.cs
+ SaaSResourceDetailsResponse.cs
+ SaaSResourceDetailsResponse.json.cs
+ SaaSResourceDetailsResponse.PowerShell.cs
+ SaaSResourceDetailsResponse.TypeConverter.cs
+ SubscriptionList.cs
+ SubscriptionList.json.cs
+ SubscriptionList.PowerShell.cs
+ SubscriptionList.TypeConverter.cs
+ SwitchBillingParameter.cs
+ SwitchBillingParameter.json.cs
+ SwitchBillingParameter.PowerShell.cs
+ SwitchBillingParameter.TypeConverter.cs
+ SwitchBillingRequest.cs
+ SwitchBillingRequest.json.cs
+ SwitchBillingRequest.PowerShell.cs
+ SwitchBillingRequest.TypeConverter.cs
+ SystemData.cs
+ SystemData.json.cs
+ SystemData.PowerShell.cs
+ SystemData.TypeConverter.cs
+ TagRule.cs
+ TagRule.json.cs
+ TagRule.PowerShell.cs
+ TagRule.TypeConverter.cs
+ TagRuleListResult.cs
+ TagRuleListResult.json.cs
+ TagRuleListResult.PowerShell.cs
+ TagRuleListResult.TypeConverter.cs
+ TagRuleUpdate.cs
+ TagRuleUpdate.json.cs
+ TagRuleUpdate.PowerShell.cs
+ TagRuleUpdate.TypeConverter.cs
+ TagRuleUpdateProperties.cs
+ TagRuleUpdateProperties.json.cs
+ TagRuleUpdateProperties.PowerShell.cs
+ TagRuleUpdateProperties.TypeConverter.cs
+ TrackedResource.cs
+ TrackedResource.json.cs
+ TrackedResource.PowerShell.cs
+ TrackedResource.TypeConverter.cs
+ TrackedResourceTags.cs
+ TrackedResourceTags.dictionary.cs
+ TrackedResourceTags.json.cs
+ TrackedResourceTags.PowerShell.cs
+ TrackedResourceTags.TypeConverter.cs
+ UserAssignedIdentities.cs
+ UserAssignedIdentities.dictionary.cs
+ UserAssignedIdentities.json.cs
+ UserAssignedIdentities.PowerShell.cs
+ UserAssignedIdentities.TypeConverter.cs
+ UserAssignedIdentity.cs
+ UserAssignedIdentity.json.cs
+ UserAssignedIdentity.PowerShell.cs
+ UserAssignedIdentity.TypeConverter.cs
+ UserInfo.cs
+ UserInfo.json.cs
+ UserInfo.PowerShell.cs
+ UserInfo.TypeConverter.cs
+ VMExtensionPayload.cs
+ VMExtensionPayload.json.cs
+ VMExtensionPayload.PowerShell.cs
+ VMExtensionPayload.TypeConverter.cs
+ VMHostsListResponse.cs
+ VMHostsListResponse.json.cs
+ VMHostsListResponse.PowerShell.cs
+ VMHostsListResponse.TypeConverter.cs
+ VMInfo.cs
+ VMInfo.json.cs
+ VMInfo.PowerShell.cs
+ VMInfo.TypeConverter.cs
+generated/
+ api/NewRelic.cs
+ cmdlets/
+  GetAzNewRelicAccount_List.cs
+  GetAzNewRelicBillingInfo_Get.cs
+  GetAzNewRelicBillingInfo_GetViaIdentity.cs
+  GetAzNewRelicConnectedPartnerResource_List.cs
+  GetAzNewRelicMonitoredAppService_ListExpanded.cs
+  GetAzNewRelicMonitoredAppService_ListViaJsonFilePath.cs
+  GetAzNewRelicMonitoredAppService_ListViaJsonString.cs
+  GetAzNewRelicMonitoredHost_ListExpanded.cs
+  GetAzNewRelicMonitoredHost_ListViaJsonFilePath.cs
+  GetAzNewRelicMonitoredHost_ListViaJsonString.cs
+  GetAzNewRelicMonitoredSubscription_Get.cs
+  GetAzNewRelicMonitoredSubscription_GetViaIdentity.cs
+  GetAzNewRelicMonitorLinkedResource_List.cs
+  GetAzNewRelicMonitorMetricRule_GetExpanded.cs
+  GetAzNewRelicMonitorMetricRule_GetViaIdentityExpanded.cs
+  GetAzNewRelicMonitorMetricRule_GetViaJsonFilePath.cs
+  GetAzNewRelicMonitorMetricRule_GetViaJsonString.cs
+  GetAzNewRelicMonitorMetricStatus_GetExpanded.cs
+  GetAzNewRelicMonitorMetricStatus_GetViaIdentityExpanded.cs
+  GetAzNewRelicMonitorMetricStatus_GetViaJsonFilePath.cs
+  GetAzNewRelicMonitorMetricStatus_GetViaJsonString.cs
+  GetAzNewRelicMonitorMonitoredResource_List.cs
+  GetAzNewRelicMonitorTagRule_Get.cs
+  GetAzNewRelicMonitorTagRule_GetViaIdentity.cs
+  GetAzNewRelicMonitorTagRule_GetViaIdentityMonitor.cs
+  GetAzNewRelicMonitorTagRule_List.cs
+  GetAzNewRelicMonitor_Get.cs
+  GetAzNewRelicMonitor_GetViaIdentity.cs
+  GetAzNewRelicMonitor_List.cs
+  GetAzNewRelicMonitor_List1.cs
+  GetAzNewRelicOperation_List.cs
+  GetAzNewRelicOrganization_List.cs
+  GetAzNewRelicPlan_List.cs
+  InitializeAzNewRelicSaaSResource_Activate.cs
+  InitializeAzNewRelicSaaSResource_ActivateExpanded.cs
+  InitializeAzNewRelicSaaSResource_ActivateViaJsonFilePath.cs
+  InitializeAzNewRelicSaaSResource_ActivateViaJsonString.cs
+  InvokeAzNewRelicHostMonitor_Host.cs
+  InvokeAzNewRelicHostMonitor_HostViaIdentity.cs
+  InvokeAzNewRelicLatestMonitorLinkedSaaS_Latest.cs
+  InvokeAzNewRelicLatestMonitorLinkedSaaS_LatestViaIdentity.cs
+  InvokeAzNewRelicLinkMonitorSaaS_Link.cs
+  InvokeAzNewRelicLinkMonitorSaaS_LinkExpanded.cs
+  InvokeAzNewRelicLinkMonitorSaaS_LinkViaIdentity.cs
+  InvokeAzNewRelicLinkMonitorSaaS_LinkViaIdentityExpanded.cs
+  InvokeAzNewRelicLinkMonitorSaaS_LinkViaJsonFilePath.cs
+  InvokeAzNewRelicLinkMonitorSaaS_LinkViaJsonString.cs
+  InvokeAzNewRelicResubscribeMonitor_Resubscribe.cs
+  InvokeAzNewRelicResubscribeMonitor_ResubscribeExpanded.cs
+  InvokeAzNewRelicResubscribeMonitor_ResubscribeViaIdentity.cs
+  InvokeAzNewRelicResubscribeMonitor_ResubscribeViaIdentityExpanded.cs
+  InvokeAzNewRelicResubscribeMonitor_ResubscribeViaJsonFilePath.cs
+  InvokeAzNewRelicResubscribeMonitor_ResubscribeViaJsonString.cs
+  NewAzNewRelicMonitoredSubscription_CreateExpanded.cs
+  NewAzNewRelicMonitoredSubscription_CreateViaJsonFilePath.cs
+  NewAzNewRelicMonitoredSubscription_CreateViaJsonString.cs
+  NewAzNewRelicMonitorTagRule_CreateExpanded.cs
+  NewAzNewRelicMonitorTagRule_CreateViaJsonFilePath.cs
+  NewAzNewRelicMonitorTagRule_CreateViaJsonString.cs
+  NewAzNewRelicMonitor_CreateExpanded.cs
+  NewAzNewRelicMonitor_CreateViaJsonFilePath.cs
+  NewAzNewRelicMonitor_CreateViaJsonString.cs
+  RemoveAzNewRelicMonitoredSubscription_Delete.cs
+  RemoveAzNewRelicMonitoredSubscription_DeleteViaIdentity.cs
+  RemoveAzNewRelicMonitorTagRule_Delete.cs
+  RemoveAzNewRelicMonitorTagRule_DeleteViaIdentity.cs
+  RemoveAzNewRelicMonitorTagRule_DeleteViaIdentityMonitor.cs
+  RemoveAzNewRelicMonitor_Delete.cs
+  RemoveAzNewRelicMonitor_DeleteViaIdentity.cs
+  SwitchAzNewRelicMonitorBilling_SwitchExpanded.cs
+  SwitchAzNewRelicMonitorBilling_SwitchViaIdentityExpanded.cs
+  SwitchAzNewRelicMonitorBilling_SwitchViaJsonFilePath.cs
+  SwitchAzNewRelicMonitorBilling_SwitchViaJsonString.cs
+  UpdateAzNewRelicMonitoredSubscription_UpdateExpanded.cs
+  UpdateAzNewRelicMonitoredSubscription_UpdateViaIdentityExpanded.cs
+  UpdateAzNewRelicMonitorIngestionKey_Refresh.cs
+  UpdateAzNewRelicMonitorIngestionKey_RefreshViaIdentity.cs
+  UpdateAzNewRelicMonitorTagRule_UpdateExpanded.cs
+  UpdateAzNewRelicMonitorTagRule_UpdateViaIdentityExpanded.cs
+  UpdateAzNewRelicMonitorTagRule_UpdateViaIdentityMonitorExpanded.cs
+  UpdateAzNewRelicMonitorTagRule_UpdateViaJsonFilePath.cs
+  UpdateAzNewRelicMonitorTagRule_UpdateViaJsonString.cs
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.NewRelic.GeneratedMSBuildEditorConfig.editorconfig

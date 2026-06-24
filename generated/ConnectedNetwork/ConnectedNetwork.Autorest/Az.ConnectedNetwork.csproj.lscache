@@ -1,0 +1,573 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.ConnectedNetwork.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.ConnectedNetwork/ConnectedNetwork.Autorest/bin/Az.ConnectedNetwork.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.ConnectedNetwork
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.ConnectedNetwork/ConnectedNetwork.Autorest/bin/Az.ConnectedNetwork.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.ConnectedNetwork/ConnectedNetwork.Autorest/bin/Az.ConnectedNetwork.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.ConnectedNetwork.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/
+ ConnectedNetwork.cs
+ Models/
+  Any.cs
+  Any.json.cs
+  Any.PowerShell.cs
+  Any.TypeConverter.cs
+  AzureStackEdgeFormat.cs
+  AzureStackEdgeFormat.json.cs
+  AzureStackEdgeFormat.PowerShell.cs
+  AzureStackEdgeFormat.TypeConverter.cs
+  ConnectedNetworkIdentity.cs
+  ConnectedNetworkIdentity.json.cs
+  ConnectedNetworkIdentity.PowerShell.cs
+  ConnectedNetworkIdentity.TypeConverter.cs
+  CustomProfile.cs
+  CustomProfile.json.cs
+  CustomProfile.PowerShell.cs
+  CustomProfile.TypeConverter.cs
+  DataDisk.cs
+  DataDisk.json.cs
+  DataDisk.PowerShell.cs
+  DataDisk.TypeConverter.cs
+  Device.cs
+  Device.json.cs
+  Device.PowerShell.cs
+  Device.TypeConverter.cs
+  DeviceListResult.cs
+  DeviceListResult.json.cs
+  DeviceListResult.PowerShell.cs
+  DeviceListResult.TypeConverter.cs
+  DevicePropertiesFormat.cs
+  DevicePropertiesFormat.json.cs
+  DevicePropertiesFormat.PowerShell.cs
+  DevicePropertiesFormat.TypeConverter.cs
+  DeviceRegistrationKey.cs
+  DeviceRegistrationKey.json.cs
+  DeviceRegistrationKey.PowerShell.cs
+  DeviceRegistrationKey.TypeConverter.cs
+  ErrorAdditionalInfo.cs
+  ErrorAdditionalInfo.json.cs
+  ErrorAdditionalInfo.PowerShell.cs
+  ErrorAdditionalInfo.TypeConverter.cs
+  ErrorDetail.cs
+  ErrorDetail.json.cs
+  ErrorDetail.PowerShell.cs
+  ErrorDetail.TypeConverter.cs
+  ErrorResponse.cs
+  ErrorResponse.json.cs
+  ErrorResponse.PowerShell.cs
+  ErrorResponse.TypeConverter.cs
+  ImageReference.cs
+  ImageReference.json.cs
+  ImageReference.PowerShell.cs
+  ImageReference.TypeConverter.cs
+  LinuxConfiguration.cs
+  LinuxConfiguration.json.cs
+  LinuxConfiguration.PowerShell.cs
+  LinuxConfiguration.TypeConverter.cs
+  NetworkFunction.cs
+  NetworkFunction.json.cs
+  NetworkFunction.PowerShell.cs
+  NetworkFunction.TypeConverter.cs
+  NetworkFunctionListResult.cs
+  NetworkFunctionListResult.json.cs
+  NetworkFunctionListResult.PowerShell.cs
+  NetworkFunctionListResult.TypeConverter.cs
+  NetworkFunctionPropertiesFormat.cs
+  NetworkFunctionPropertiesFormat.json.cs
+  NetworkFunctionPropertiesFormat.PowerShell.cs
+  NetworkFunctionPropertiesFormat.TypeConverter.cs
+  NetworkFunctionPropertiesFormatManagedApplicationParameters.cs
+  NetworkFunctionPropertiesFormatManagedApplicationParameters.dictionary.cs
+  NetworkFunctionPropertiesFormatManagedApplicationParameters.json.cs
+  NetworkFunctionPropertiesFormatManagedApplicationParameters.PowerShell.cs
+  NetworkFunctionPropertiesFormatManagedApplicationParameters.TypeConverter.cs
+  NetworkFunctionPropertiesFormatNetworkFunctionContainerConfigurations.cs
+  NetworkFunctionPropertiesFormatNetworkFunctionContainerConfigurations.dictionary.cs
+  NetworkFunctionPropertiesFormatNetworkFunctionContainerConfigurations.json.cs
+  NetworkFunctionPropertiesFormatNetworkFunctionContainerConfigurations.PowerShell.cs
+  NetworkFunctionPropertiesFormatNetworkFunctionContainerConfigurations.TypeConverter.cs
+  NetworkFunctionRoleConfiguration.cs
+  NetworkFunctionRoleConfiguration.json.cs
+  NetworkFunctionRoleConfiguration.PowerShell.cs
+  NetworkFunctionRoleConfiguration.TypeConverter.cs
+  NetworkFunctionRoleInstanceListResult.cs
+  NetworkFunctionRoleInstanceListResult.json.cs
+  NetworkFunctionRoleInstanceListResult.PowerShell.cs
+  NetworkFunctionRoleInstanceListResult.TypeConverter.cs
+  NetworkFunctionSkuDetails.cs
+  NetworkFunctionSkuDetails.json.cs
+  NetworkFunctionSkuDetails.PowerShell.cs
+  NetworkFunctionSkuDetails.TypeConverter.cs
+  NetworkFunctionSkuListResult.cs
+  NetworkFunctionSkuListResult.json.cs
+  NetworkFunctionSkuListResult.PowerShell.cs
+  NetworkFunctionSkuListResult.TypeConverter.cs
+  NetworkFunctionSkuRoleDetails.cs
+  NetworkFunctionSkuRoleDetails.json.cs
+  NetworkFunctionSkuRoleDetails.PowerShell.cs
+  NetworkFunctionSkuRoleDetails.TypeConverter.cs
+  NetworkFunctionTemplate.cs
+  NetworkFunctionTemplate.json.cs
+  NetworkFunctionTemplate.PowerShell.cs
+  NetworkFunctionTemplate.TypeConverter.cs
+  NetworkFunctionUserConfiguration.cs
+  NetworkFunctionUserConfiguration.json.cs
+  NetworkFunctionUserConfiguration.PowerShell.cs
+  NetworkFunctionUserConfiguration.TypeConverter.cs
+  NetworkFunctionUserConfigurationOSProfile.cs
+  NetworkFunctionUserConfigurationOSProfile.json.cs
+  NetworkFunctionUserConfigurationOSProfile.PowerShell.cs
+  NetworkFunctionUserConfigurationOSProfile.TypeConverter.cs
+  NetworkFunctionVendor.cs
+  NetworkFunctionVendor.json.cs
+  NetworkFunctionVendor.PowerShell.cs
+  NetworkFunctionVendor.TypeConverter.cs
+  NetworkFunctionVendorConfiguration.cs
+  NetworkFunctionVendorConfiguration.json.cs
+  NetworkFunctionVendorConfiguration.PowerShell.cs
+  NetworkFunctionVendorConfiguration.TypeConverter.cs
+  NetworkFunctionVendorListResult.cs
+  NetworkFunctionVendorListResult.json.cs
+  NetworkFunctionVendorListResult.PowerShell.cs
+  NetworkFunctionVendorListResult.TypeConverter.cs
+  NetworkInterface.cs
+  NetworkInterface.json.cs
+  NetworkInterface.PowerShell.cs
+  NetworkInterface.TypeConverter.cs
+  NetworkInterfaceIPConfiguration.cs
+  NetworkInterfaceIPConfiguration.json.cs
+  NetworkInterfaceIPConfiguration.PowerShell.cs
+  NetworkInterfaceIPConfiguration.TypeConverter.cs
+  OSDisk.cs
+  OSDisk.json.cs
+  OSDisk.PowerShell.cs
+  OSDisk.TypeConverter.cs
+  OSProfile.cs
+  OSProfile.json.cs
+  OSProfile.PowerShell.cs
+  OSProfile.TypeConverter.cs
+  PreviewSubscription.cs
+  PreviewSubscription.json.cs
+  PreviewSubscription.PowerShell.cs
+  PreviewSubscription.TypeConverter.cs
+  PreviewSubscriptionProperties.cs
+  PreviewSubscriptionProperties.json.cs
+  PreviewSubscriptionProperties.PowerShell.cs
+  PreviewSubscriptionProperties.TypeConverter.cs
+  PreviewSubscriptionsList.cs
+  PreviewSubscriptionsList.json.cs
+  PreviewSubscriptionsList.PowerShell.cs
+  PreviewSubscriptionsList.TypeConverter.cs
+  ProxyResource.cs
+  ProxyResource.json.cs
+  ProxyResource.PowerShell.cs
+  ProxyResource.TypeConverter.cs
+  Resource.cs
+  Resource.json.cs
+  Resource.PowerShell.cs
+  Resource.TypeConverter.cs
+  RoleInstance.cs
+  RoleInstance.json.cs
+  RoleInstance.PowerShell.cs
+  RoleInstance.TypeConverter.cs
+  RoleInstanceProperties.cs
+  RoleInstanceProperties.json.cs
+  RoleInstanceProperties.PowerShell.cs
+  RoleInstanceProperties.TypeConverter.cs
+  SkuOverview.cs
+  SkuOverview.json.cs
+  SkuOverview.PowerShell.cs
+  SkuOverview.TypeConverter.cs
+  SshConfiguration.cs
+  SshConfiguration.json.cs
+  SshConfiguration.PowerShell.cs
+  SshConfiguration.TypeConverter.cs
+  SshPublicKey.cs
+  SshPublicKey.json.cs
+  SshPublicKey.PowerShell.cs
+  SshPublicKey.TypeConverter.cs
+  StorageProfile.cs
+  StorageProfile.json.cs
+  StorageProfile.PowerShell.cs
+  StorageProfile.TypeConverter.cs
+  SubResource.cs
+  SubResource.json.cs
+  SubResource.PowerShell.cs
+  SubResource.TypeConverter.cs
+  SystemData.cs
+  SystemData.json.cs
+  SystemData.PowerShell.cs
+  SystemData.TypeConverter.cs
+  TagsObject.cs
+  TagsObject.json.cs
+  TagsObject.PowerShell.cs
+  TagsObject.TypeConverter.cs
+  TagsObjectTags.cs
+  TagsObjectTags.dictionary.cs
+  TagsObjectTags.json.cs
+  TagsObjectTags.PowerShell.cs
+  TagsObjectTags.TypeConverter.cs
+  TrackedResource.cs
+  TrackedResource.json.cs
+  TrackedResource.PowerShell.cs
+  TrackedResource.TypeConverter.cs
+  TrackedResourceTags.cs
+  TrackedResourceTags.dictionary.cs
+  TrackedResourceTags.json.cs
+  TrackedResourceTags.PowerShell.cs
+  TrackedResourceTags.TypeConverter.cs
+  Vendor.cs
+  Vendor.json.cs
+  Vendor.PowerShell.cs
+  Vendor.TypeConverter.cs
+  VendorDetails.cs
+  VendorDetails.json.cs
+  VendorDetails.PowerShell.cs
+  VendorDetails.TypeConverter.cs
+  VendorListResult.cs
+  VendorListResult.json.cs
+  VendorListResult.PowerShell.cs
+  VendorListResult.TypeConverter.cs
+  VendorNetworkFunction.cs
+  VendorNetworkFunction.json.cs
+  VendorNetworkFunction.PowerShell.cs
+  VendorNetworkFunction.TypeConverter.cs
+  VendorNetworkFunctionListResult.cs
+  VendorNetworkFunctionListResult.json.cs
+  VendorNetworkFunctionListResult.PowerShell.cs
+  VendorNetworkFunctionListResult.TypeConverter.cs
+  VendorNetworkFunctionPropertiesFormat.cs
+  VendorNetworkFunctionPropertiesFormat.json.cs
+  VendorNetworkFunctionPropertiesFormat.PowerShell.cs
+  VendorNetworkFunctionPropertiesFormat.TypeConverter.cs
+  VendorPropertiesFormat.cs
+  VendorPropertiesFormat.json.cs
+  VendorPropertiesFormat.PowerShell.cs
+  VendorPropertiesFormat.TypeConverter.cs
+  VendorSku.cs
+  VendorSku.json.cs
+  VendorSku.PowerShell.cs
+  VendorSku.TypeConverter.cs
+  VendorSkuListResult.cs
+  VendorSkuListResult.json.cs
+  VendorSkuListResult.PowerShell.cs
+  VendorSkuListResult.TypeConverter.cs
+  VendorSkuPropertiesFormat.cs
+  VendorSkuPropertiesFormat.json.cs
+  VendorSkuPropertiesFormat.PowerShell.cs
+  VendorSkuPropertiesFormat.TypeConverter.cs
+  VendorSkuPropertiesFormatManagedApplicationParameters.cs
+  VendorSkuPropertiesFormatManagedApplicationParameters.dictionary.cs
+  VendorSkuPropertiesFormatManagedApplicationParameters.json.cs
+  VendorSkuPropertiesFormatManagedApplicationParameters.PowerShell.cs
+  VendorSkuPropertiesFormatManagedApplicationParameters.TypeConverter.cs
+  VendorSkuPropertiesFormatManagedApplicationTemplate.cs
+  VendorSkuPropertiesFormatManagedApplicationTemplate.dictionary.cs
+  VendorSkuPropertiesFormatManagedApplicationTemplate.json.cs
+  VendorSkuPropertiesFormatManagedApplicationTemplate.PowerShell.cs
+  VendorSkuPropertiesFormatManagedApplicationTemplate.TypeConverter.cs
+  VirtualHardDisk.cs
+  VirtualHardDisk.json.cs
+  VirtualHardDisk.PowerShell.cs
+  VirtualHardDisk.TypeConverter.cs
+generated/cmdlets/
+ GetAzConnectedNetworkDeviceRegistrationKey_List.cs
+ GetAzConnectedNetworkDevice_Get.cs
+ GetAzConnectedNetworkDevice_GetViaIdentity.cs
+ GetAzConnectedNetworkDevice_List.cs
+ GetAzConnectedNetworkDevice_List1.cs
+ GetAzConnectedNetworkFunctionVendorSku_List.cs
+ GetAzConnectedNetworkFunctionVendorSku_List1.cs
+ GetAzConnectedNetworkFunctionVendor_List.cs
+ GetAzConnectedNetworkFunction_Get.cs
+ GetAzConnectedNetworkFunction_GetViaIdentity.cs
+ GetAzConnectedNetworkFunction_List.cs
+ GetAzConnectedNetworkFunction_List1.cs
+ GetAzConnectedNetworkVendorFunctionRoleInstance_Get.cs
+ GetAzConnectedNetworkVendorFunctionRoleInstance_GetViaIdentity.cs
+ GetAzConnectedNetworkVendorFunctionRoleInstance_GetViaIdentityLocation.cs
+ GetAzConnectedNetworkVendorFunctionRoleInstance_GetViaIdentityNetworkFunction.cs
+ GetAzConnectedNetworkVendorFunctionRoleInstance_GetViaIdentityVendor.cs
+ GetAzConnectedNetworkVendorFunctionRoleInstance_List.cs
+ GetAzConnectedNetworkVendorFunction_Get.cs
+ GetAzConnectedNetworkVendorFunction_GetViaIdentity.cs
+ GetAzConnectedNetworkVendorFunction_GetViaIdentityLocation.cs
+ GetAzConnectedNetworkVendorFunction_GetViaIdentityVendor.cs
+ GetAzConnectedNetworkVendorFunction_List.cs
+ GetAzConnectedNetworkVendorSkuPreview_Get.cs
+ GetAzConnectedNetworkVendorSkuPreview_GetViaIdentity.cs
+ GetAzConnectedNetworkVendorSkuPreview_GetViaIdentityVendor.cs
+ GetAzConnectedNetworkVendorSkuPreview_GetViaIdentityVendorSku.cs
+ GetAzConnectedNetworkVendorSkuPreview_List.cs
+ GetAzConnectedNetworkVendorSku_Get.cs
+ GetAzConnectedNetworkVendorSku_GetViaIdentity.cs
+ GetAzConnectedNetworkVendorSku_GetViaIdentityVendor.cs
+ GetAzConnectedNetworkVendorSku_List.cs
+ GetAzConnectedNetworkVendor_Get.cs
+ GetAzConnectedNetworkVendor_GetViaIdentity.cs
+ GetAzConnectedNetworkVendor_List.cs
+ NewAzConnectedNetworkDevice_CreateExpanded.cs
+ NewAzConnectedNetworkDevice_CreateViaJsonFilePath.cs
+ NewAzConnectedNetworkDevice_CreateViaJsonString.cs
+ NewAzConnectedNetworkFunction_CreateExpanded.cs
+ NewAzConnectedNetworkFunction_CreateViaJsonFilePath.cs
+ NewAzConnectedNetworkFunction_CreateViaJsonString.cs
+ NewAzConnectedNetworkVendorFunction_CreateExpanded.cs
+ NewAzConnectedNetworkVendorFunction_CreateViaIdentityLocationExpanded.cs
+ NewAzConnectedNetworkVendorFunction_CreateViaIdentityVendorExpanded.cs
+ NewAzConnectedNetworkVendorFunction_CreateViaJsonFilePath.cs
+ NewAzConnectedNetworkVendorFunction_CreateViaJsonString.cs
+ NewAzConnectedNetworkVendorSkuPreview_CreateExpanded.cs
+ NewAzConnectedNetworkVendorSkuPreview_CreateViaIdentityVendorExpanded.cs
+ NewAzConnectedNetworkVendorSkuPreview_CreateViaIdentityVendorSkuExpanded.cs
+ NewAzConnectedNetworkVendorSkuPreview_CreateViaJsonFilePath.cs
+ NewAzConnectedNetworkVendorSkuPreview_CreateViaJsonString.cs
+ NewAzConnectedNetworkVendorSku_CreateExpanded.cs
+ NewAzConnectedNetworkVendorSku_CreateViaIdentityVendorExpanded.cs
+ NewAzConnectedNetworkVendorSku_CreateViaJsonFilePath.cs
+ NewAzConnectedNetworkVendorSku_CreateViaJsonString.cs
+ NewAzConnectedNetworkVendor_CreateExpanded.cs
+ NewAzConnectedNetworkVendor_CreateViaJsonFilePath.cs
+ NewAzConnectedNetworkVendor_CreateViaJsonString.cs
+ RemoveAzConnectedNetworkDevice_Delete.cs
+ RemoveAzConnectedNetworkDevice_DeleteViaIdentity.cs
+ RemoveAzConnectedNetworkFunction_Delete.cs
+ RemoveAzConnectedNetworkFunction_DeleteViaIdentity.cs
+ RemoveAzConnectedNetworkVendorSkuPreview_Delete.cs
+ RemoveAzConnectedNetworkVendorSkuPreview_DeleteViaIdentity.cs
+ RemoveAzConnectedNetworkVendorSkuPreview_DeleteViaIdentityVendor.cs
+ RemoveAzConnectedNetworkVendorSkuPreview_DeleteViaIdentityVendorSku.cs
+ RemoveAzConnectedNetworkVendorSku_Delete.cs
+ RemoveAzConnectedNetworkVendorSku_DeleteViaIdentity.cs
+ RemoveAzConnectedNetworkVendorSku_DeleteViaIdentityVendor.cs
+ RemoveAzConnectedNetworkVendor_Delete.cs
+ RemoveAzConnectedNetworkVendor_DeleteViaIdentity.cs
+ RestartAzConnectedNetworkVendorFunctionRoleInstance_Restart.cs
+ RestartAzConnectedNetworkVendorFunctionRoleInstance_RestartViaIdentity.cs
+ RestartAzConnectedNetworkVendorFunctionRoleInstance_RestartViaIdentityLocation.cs
+ RestartAzConnectedNetworkVendorFunctionRoleInstance_RestartViaIdentityNetworkFunction.cs
+ RestartAzConnectedNetworkVendorFunctionRoleInstance_RestartViaIdentityVendor.cs
+ StartAzConnectedNetworkVendorFunctionRoleInstance_Start.cs
+ StartAzConnectedNetworkVendorFunctionRoleInstance_StartViaIdentity.cs
+ StartAzConnectedNetworkVendorFunctionRoleInstance_StartViaIdentityLocation.cs
+ StartAzConnectedNetworkVendorFunctionRoleInstance_StartViaIdentityNetworkFunction.cs
+ StartAzConnectedNetworkVendorFunctionRoleInstance_StartViaIdentityVendor.cs
+ StopAzConnectedNetworkVendorFunctionRoleInstance_Stop.cs
+ StopAzConnectedNetworkVendorFunctionRoleInstance_StopViaIdentity.cs
+ StopAzConnectedNetworkVendorFunctionRoleInstance_StopViaIdentityLocation.cs
+ StopAzConnectedNetworkVendorFunctionRoleInstance_StopViaIdentityNetworkFunction.cs
+ StopAzConnectedNetworkVendorFunctionRoleInstance_StopViaIdentityVendor.cs
+ UpdateAzConnectedNetworkDeviceTag_UpdateExpanded.cs
+ UpdateAzConnectedNetworkDeviceTag_UpdateViaIdentityExpanded.cs
+ UpdateAzConnectedNetworkDeviceTag_UpdateViaJsonFilePath.cs
+ UpdateAzConnectedNetworkDeviceTag_UpdateViaJsonString.cs
+ UpdateAzConnectedNetworkFunctionTag_UpdateExpanded.cs
+ UpdateAzConnectedNetworkFunctionTag_UpdateViaIdentityExpanded.cs
+ UpdateAzConnectedNetworkFunctionTag_UpdateViaJsonFilePath.cs
+ UpdateAzConnectedNetworkFunctionTag_UpdateViaJsonString.cs
+ UpdateAzConnectedNetworkVendorFunction_UpdateExpanded.cs
+ UpdateAzConnectedNetworkVendorFunction_UpdateViaIdentityExpanded.cs
+ UpdateAzConnectedNetworkVendorFunction_UpdateViaIdentityLocationExpanded.cs
+ UpdateAzConnectedNetworkVendorFunction_UpdateViaIdentityVendorExpanded.cs
+ UpdateAzConnectedNetworkVendorSkuPreview_UpdateExpanded.cs
+ UpdateAzConnectedNetworkVendorSkuPreview_UpdateViaIdentityExpanded.cs
+ UpdateAzConnectedNetworkVendorSkuPreview_UpdateViaIdentityVendorExpanded.cs
+ UpdateAzConnectedNetworkVendorSkuPreview_UpdateViaIdentityVendorSkuExpanded.cs
+ UpdateAzConnectedNetworkVendorSku_UpdateExpanded.cs
+ UpdateAzConnectedNetworkVendorSku_UpdateViaIdentityExpanded.cs
+ UpdateAzConnectedNetworkVendorSku_UpdateViaIdentityVendorExpanded.cs
+ UpdateAzConnectedNetworkVendor_UpdateExpanded.cs
+ UpdateAzConnectedNetworkVendor_UpdateViaIdentityExpanded.cs
+generated/
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.ConnectedNetwork.GeneratedMSBuildEditorConfig.editorconfig

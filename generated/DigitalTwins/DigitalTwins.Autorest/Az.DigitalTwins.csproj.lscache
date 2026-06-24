@@ -1,0 +1,423 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.DigitalTwins.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.DigitalTwins/DigitalTwins.Autorest/bin/Az.DigitalTwins.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.DigitalTwins
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.DigitalTwins/DigitalTwins.Autorest/bin/Az.DigitalTwins.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.DigitalTwins/DigitalTwins.Autorest/bin/Az.DigitalTwins.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.DigitalTwins.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/
+ DigitalTwins.cs
+ Models/
+  Any.cs
+  Any.json.cs
+  Any.PowerShell.cs
+  Any.TypeConverter.cs
+  AzureDataExplorerConnectionProperties.cs
+  AzureDataExplorerConnectionProperties.json.cs
+  AzureDataExplorerConnectionProperties.PowerShell.cs
+  AzureDataExplorerConnectionProperties.TypeConverter.cs
+  CheckNameRequest.cs
+  CheckNameRequest.json.cs
+  CheckNameRequest.PowerShell.cs
+  CheckNameRequest.TypeConverter.cs
+  CheckNameResult.cs
+  CheckNameResult.json.cs
+  CheckNameResult.PowerShell.cs
+  CheckNameResult.TypeConverter.cs
+  ConnectionProperties.cs
+  ConnectionProperties.json.cs
+  ConnectionProperties.PowerShell.cs
+  ConnectionProperties.TypeConverter.cs
+  ConnectionPropertiesPrivateLinkServiceConnectionState.cs
+  ConnectionPropertiesPrivateLinkServiceConnectionState.json.cs
+  ConnectionPropertiesPrivateLinkServiceConnectionState.PowerShell.cs
+  ConnectionPropertiesPrivateLinkServiceConnectionState.TypeConverter.cs
+  ConnectionState.cs
+  ConnectionState.json.cs
+  ConnectionState.PowerShell.cs
+  ConnectionState.TypeConverter.cs
+  DigitalTwinsDescription.cs
+  DigitalTwinsDescription.json.cs
+  DigitalTwinsDescription.PowerShell.cs
+  DigitalTwinsDescription.TypeConverter.cs
+  DigitalTwinsDescriptionListResult.cs
+  DigitalTwinsDescriptionListResult.json.cs
+  DigitalTwinsDescriptionListResult.PowerShell.cs
+  DigitalTwinsDescriptionListResult.TypeConverter.cs
+  DigitalTwinsEndpointResource.cs
+  DigitalTwinsEndpointResource.json.cs
+  DigitalTwinsEndpointResource.PowerShell.cs
+  DigitalTwinsEndpointResource.TypeConverter.cs
+  DigitalTwinsEndpointResourceListResult.cs
+  DigitalTwinsEndpointResourceListResult.json.cs
+  DigitalTwinsEndpointResourceListResult.PowerShell.cs
+  DigitalTwinsEndpointResourceListResult.TypeConverter.cs
+  DigitalTwinsEndpointResourceProperties.cs
+  DigitalTwinsEndpointResourceProperties.json.cs
+  DigitalTwinsEndpointResourceProperties.PowerShell.cs
+  DigitalTwinsEndpointResourceProperties.TypeConverter.cs
+  DigitalTwinsIdentity.cs
+  DigitalTwinsIdentity.json.cs
+  DigitalTwinsIdentity.PowerShell.cs
+  DigitalTwinsIdentity.TypeConverter.cs
+  DigitalTwinsIdentity1.cs
+  DigitalTwinsIdentity1.json.cs
+  DigitalTwinsIdentity1.PowerShell.cs
+  DigitalTwinsIdentity1.TypeConverter.cs
+  DigitalTwinsPatchDescription.cs
+  DigitalTwinsPatchDescription.json.cs
+  DigitalTwinsPatchDescription.PowerShell.cs
+  DigitalTwinsPatchDescription.TypeConverter.cs
+  DigitalTwinsPatchDescriptionTags.cs
+  DigitalTwinsPatchDescriptionTags.dictionary.cs
+  DigitalTwinsPatchDescriptionTags.json.cs
+  DigitalTwinsPatchDescriptionTags.PowerShell.cs
+  DigitalTwinsPatchDescriptionTags.TypeConverter.cs
+  DigitalTwinsPatchProperties.cs
+  DigitalTwinsPatchProperties.json.cs
+  DigitalTwinsPatchProperties.PowerShell.cs
+  DigitalTwinsPatchProperties.TypeConverter.cs
+  DigitalTwinsProperties.cs
+  DigitalTwinsProperties.json.cs
+  DigitalTwinsProperties.PowerShell.cs
+  DigitalTwinsProperties.TypeConverter.cs
+  DigitalTwinsResource.cs
+  DigitalTwinsResource.json.cs
+  DigitalTwinsResource.PowerShell.cs
+  DigitalTwinsResource.TypeConverter.cs
+  DigitalTwinsResourceTags.cs
+  DigitalTwinsResourceTags.dictionary.cs
+  DigitalTwinsResourceTags.json.cs
+  DigitalTwinsResourceTags.PowerShell.cs
+  DigitalTwinsResourceTags.TypeConverter.cs
+  ErrorDefinition.cs
+  ErrorDefinition.json.cs
+  ErrorDefinition.PowerShell.cs
+  ErrorDefinition.TypeConverter.cs
+  ErrorResponse.cs
+  ErrorResponse.json.cs
+  ErrorResponse.PowerShell.cs
+  ErrorResponse.TypeConverter.cs
+  EventGrid.cs
+  EventGrid.json.cs
+  EventGrid.PowerShell.cs
+  EventGrid.TypeConverter.cs
+  EventHub.cs
+  EventHub.json.cs
+  EventHub.PowerShell.cs
+  EventHub.TypeConverter.cs
+  ExternalResource.cs
+  ExternalResource.json.cs
+  ExternalResource.PowerShell.cs
+  ExternalResource.TypeConverter.cs
+  GroupIdInformation.cs
+  GroupIdInformation.json.cs
+  GroupIdInformation.PowerShell.cs
+  GroupIdInformation.TypeConverter.cs
+  GroupIdInformationProperties.cs
+  GroupIdInformationProperties.json.cs
+  GroupIdInformationProperties.PowerShell.cs
+  GroupIdInformationProperties.TypeConverter.cs
+  GroupIdInformationResponse.cs
+  GroupIdInformationResponse.json.cs
+  GroupIdInformationResponse.PowerShell.cs
+  GroupIdInformationResponse.TypeConverter.cs
+  Operation.cs
+  Operation.json.cs
+  Operation.PowerShell.cs
+  Operation.TypeConverter.cs
+  OperationDisplay.cs
+  OperationDisplay.json.cs
+  OperationDisplay.PowerShell.cs
+  OperationDisplay.TypeConverter.cs
+  OperationListResult.cs
+  OperationListResult.json.cs
+  OperationListResult.PowerShell.cs
+  OperationListResult.TypeConverter.cs
+  OperationProperties.cs
+  OperationProperties.dictionary.cs
+  OperationProperties.json.cs
+  OperationProperties.PowerShell.cs
+  OperationProperties.TypeConverter.cs
+  PrivateEndpoint.cs
+  PrivateEndpoint.json.cs
+  PrivateEndpoint.PowerShell.cs
+  PrivateEndpoint.TypeConverter.cs
+  PrivateEndpointConnection.cs
+  PrivateEndpointConnection.json.cs
+  PrivateEndpointConnection.PowerShell.cs
+  PrivateEndpointConnection.TypeConverter.cs
+  PrivateEndpointConnectionsResponse.cs
+  PrivateEndpointConnectionsResponse.json.cs
+  PrivateEndpointConnectionsResponse.PowerShell.cs
+  PrivateEndpointConnectionsResponse.TypeConverter.cs
+  ServiceBus.cs
+  ServiceBus.json.cs
+  ServiceBus.PowerShell.cs
+  ServiceBus.TypeConverter.cs
+  SystemData.cs
+  SystemData.json.cs
+  SystemData.PowerShell.cs
+  SystemData.TypeConverter.cs
+  TimeSeriesDatabaseConnection.cs
+  TimeSeriesDatabaseConnection.json.cs
+  TimeSeriesDatabaseConnection.PowerShell.cs
+  TimeSeriesDatabaseConnection.TypeConverter.cs
+  TimeSeriesDatabaseConnectionListResult.cs
+  TimeSeriesDatabaseConnectionListResult.json.cs
+  TimeSeriesDatabaseConnectionListResult.PowerShell.cs
+  TimeSeriesDatabaseConnectionListResult.TypeConverter.cs
+  TimeSeriesDatabaseConnectionProperties.cs
+  TimeSeriesDatabaseConnectionProperties.json.cs
+  TimeSeriesDatabaseConnectionProperties.PowerShell.cs
+  TimeSeriesDatabaseConnectionProperties.TypeConverter.cs
+generated/cmdlets/
+ GetAzDigitalTwinsEndpoint_Get.cs
+ GetAzDigitalTwinsEndpoint_GetViaIdentity.cs
+ GetAzDigitalTwinsEndpoint_GetViaIdentityDigitalTwinsInstance.cs
+ GetAzDigitalTwinsEndpoint_List.cs
+ GetAzDigitalTwinsInstance_Get.cs
+ GetAzDigitalTwinsInstance_GetViaIdentity.cs
+ GetAzDigitalTwinsInstance_List.cs
+ GetAzDigitalTwinsInstance_List1.cs
+ GetAzDigitalTwinsOperation_List.cs
+ GetAzDigitalTwinsTimeSeriesDatabaseConnection_Get.cs
+ GetAzDigitalTwinsTimeSeriesDatabaseConnection_GetViaIdentity.cs
+ GetAzDigitalTwinsTimeSeriesDatabaseConnection_GetViaIdentityDigitalTwinsInstance.cs
+ GetAzDigitalTwinsTimeSeriesDatabaseConnection_List.cs
+ NewAzDigitalTwinsEndpoint_Create.cs
+ NewAzDigitalTwinsEndpoint_CreateExpanded.cs
+ NewAzDigitalTwinsEndpoint_CreateViaIdentity.cs
+ NewAzDigitalTwinsEndpoint_CreateViaIdentityDigitalTwinsInstance.cs
+ NewAzDigitalTwinsEndpoint_CreateViaIdentityDigitalTwinsInstanceExpanded.cs
+ NewAzDigitalTwinsEndpoint_CreateViaJsonFilePath.cs
+ NewAzDigitalTwinsEndpoint_CreateViaJsonString.cs
+ NewAzDigitalTwinsInstance_CreateExpanded.cs
+ NewAzDigitalTwinsInstance_CreateViaJsonFilePath.cs
+ NewAzDigitalTwinsInstance_CreateViaJsonString.cs
+ NewAzDigitalTwinsTimeSeriesDatabaseConnection_Create.cs
+ NewAzDigitalTwinsTimeSeriesDatabaseConnection_CreateExpanded.cs
+ NewAzDigitalTwinsTimeSeriesDatabaseConnection_CreateViaIdentity.cs
+ NewAzDigitalTwinsTimeSeriesDatabaseConnection_CreateViaIdentityDigitalTwinsInstance.cs
+ NewAzDigitalTwinsTimeSeriesDatabaseConnection_CreateViaIdentityDigitalTwinsInstanceExpanded.cs
+ NewAzDigitalTwinsTimeSeriesDatabaseConnection_CreateViaJsonFilePath.cs
+ NewAzDigitalTwinsTimeSeriesDatabaseConnection_CreateViaJsonString.cs
+ RemoveAzDigitalTwinsEndpoint_Delete.cs
+ RemoveAzDigitalTwinsEndpoint_DeleteViaIdentity.cs
+ RemoveAzDigitalTwinsEndpoint_DeleteViaIdentityDigitalTwinsInstance.cs
+ RemoveAzDigitalTwinsInstance_Delete.cs
+ RemoveAzDigitalTwinsInstance_DeleteViaIdentity.cs
+ RemoveAzDigitalTwinsTimeSeriesDatabaseConnection_Delete.cs
+ RemoveAzDigitalTwinsTimeSeriesDatabaseConnection_DeleteViaIdentity.cs
+ RemoveAzDigitalTwinsTimeSeriesDatabaseConnection_DeleteViaIdentityDigitalTwinsInstance.cs
+ TestAzDigitalTwinsInstanceNameAvailability_CheckExpanded.cs
+ TestAzDigitalTwinsInstanceNameAvailability_CheckViaIdentityExpanded.cs
+ TestAzDigitalTwinsInstanceNameAvailability_CheckViaJsonFilePath.cs
+ TestAzDigitalTwinsInstanceNameAvailability_CheckViaJsonString.cs
+ UpdateAzDigitalTwinsEndpoint_Update.cs
+ UpdateAzDigitalTwinsEndpoint_UpdateExpanded.cs
+ UpdateAzDigitalTwinsEndpoint_UpdateViaIdentity.cs
+ UpdateAzDigitalTwinsEndpoint_UpdateViaIdentityDigitalTwinsInstance.cs
+ UpdateAzDigitalTwinsEndpoint_UpdateViaIdentityDigitalTwinsInstanceExpanded.cs
+ UpdateAzDigitalTwinsEndpoint_UpdateViaIdentityExpanded.cs
+ UpdateAzDigitalTwinsInstance_UpdateExpanded.cs
+ UpdateAzDigitalTwinsInstance_UpdateViaIdentityExpanded.cs
+ UpdateAzDigitalTwinsTimeSeriesDatabaseConnection_Update.cs
+ UpdateAzDigitalTwinsTimeSeriesDatabaseConnection_UpdateExpanded.cs
+ UpdateAzDigitalTwinsTimeSeriesDatabaseConnection_UpdateViaIdentity.cs
+ UpdateAzDigitalTwinsTimeSeriesDatabaseConnection_UpdateViaIdentityDigitalTwinsInstance.cs
+ UpdateAzDigitalTwinsTimeSeriesDatabaseConnection_UpdateViaIdentityDigitalTwinsInstanceExpanded.cs
+ UpdateAzDigitalTwinsTimeSeriesDatabaseConnection_UpdateViaIdentityExpanded.cs
+generated/
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.DigitalTwins.GeneratedMSBuildEditorConfig.editorconfig

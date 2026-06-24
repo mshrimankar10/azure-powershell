@@ -1,0 +1,347 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.Cmdlets.Batch
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.Batch/Microsoft.Azure.PowerShell.Cmdlets.Batch.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.Commands.Batch
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.Batch/Microsoft.Azure.PowerShell.Cmdlets.Batch.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.Batch/Microsoft.Azure.PowerShell.Cmdlets.Batch.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.Cmdlets.Batch.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+ApplicationPackages/
+ GetBatchApplicationPackageCommand.cs
+ NewBatchApplicationPackageCommand.cs
+ RemoveBatchApplicationPackageCommand.cs
+Applications/
+ GetBatchApplicationCommand.cs
+ NewBatchApplicationCommand.cs
+ RemoveBatchApplicationCommand.cs
+ SetBatchApplicationCommand.cs
+BatchAccounts/
+ GetBatchAccountCommand.cs
+ GetBatchAccountKeyCommand.cs
+ GetBatchAccountSupportedImagesCommand.cs
+ Helpers.cs
+ NewBatchAccountCommand.cs
+ NewBatchAccountKeyCommand.cs
+ RemoveBatchAccountCommand.cs
+ SetBatchAccountCommand.cs
+BatchCmdletBase.cs
+BatchObjectModelCmdletBase.cs
+ComputeNodeExtensions/GetBatchComputeNodeExtensionCommand.cs
+ComputeNodes/
+ DisableBatchComputeNodeSchedulingCommand.cs
+ EnableBatchComputeNodeSchedulingCommand.cs
+ GetBatchComputeNodeCommand.cs
+ GetBatchComputeNodeRemoteLoginSettingCommand.cs
+ RemoveBatchComputeNodeCommand.cs
+ ResetBatchComputeNodeCommand.cs
+ RestartBatchComputeNodeCommand.cs
+ StartBatchComputeNodeServiceLogUploadCommand.cs
+ComputeNodeUsers/
+ NewBatchComputeNodeUserCommand.cs
+ RemoveBatchComputeNodeUserCommand.cs
+ SetBatchComputeNodeUserCommand.cs
+Files/
+ GetBatchNodeFileCommand.cs
+ GetBatchNodeFileContentCommand.cs
+ RemoveBatchNodeFileCommand.cs
+HelperCmdlets/NewBatchResourceFileCommand.cs
+Jobs/
+ DisableBatchJobCommand.cs
+ EnableBatchJobCommand.cs
+ GetBatchJobCommand.cs
+ GetBatchJobPreparationAndReleaseTaskStatusCommand.cs
+ NewBatchJobCommand.cs
+ RemoveBatchJobCommand.cs
+ SetBatchJobCommand.cs
+ StopBatchJobCommand.cs
+JobSchedules/
+ DisableBatchJobScheduleCommand.cs
+ EnableBatchJobScheduleCommand.cs
+ GetBatchJobScheduleCommand.cs
+ NewBatchJobScheduleCommand.cs
+ RemoveBatchJobScheduleCommand.cs
+ SetBatchJobScheduleCommand.cs
+ StopBatchJobScheduleCommand.cs
+Locations/
+ GetBatchLocationQuotaCommand.cs
+ GetSupportedVirtualMachineSkuCommand.cs
+Models.Generated/
+ PSAddTaskResult.cs
+ PSAffinityInformation.cs
+ PSApplicationPackageReference.cs
+ PSApplicationSummary.cs
+ PSAuthenticationTokenSettings.cs
+ PSAutomaticOSUpgradePolicy.cs
+ PSAutoPoolSpecification.cs
+ PSAutoScaleRun.cs
+ PSAutoScaleRunError.cs
+ PSAutoUserSpecification.cs
+ PSAzureBlobFileSystemConfiguration.cs
+ PSAzureFileShareConfiguration.cs
+ PSBatchError.cs
+ PSBatchErrorDetail.cs
+ PSBatchPoolIdentity.cs
+ PSCifsMountConfiguration.cs
+ PSCloudJob.cs
+ PSCloudJobSchedule.cs
+ PSCloudPool.cs
+ PSCloudTask.cs
+ PSComputeNode.cs
+ PSComputeNodeEndpointConfiguration.cs
+ PSComputeNodeError.cs
+ PSComputeNodeIdentityReference.cs
+ PSComputeNodeInformation.cs
+ PSComputeNodeUser.cs
+ PSContainerConfiguration.cs
+ PSContainerHostBatchBindMountEntry.cs
+ PSContainerRegistry.cs
+ PSDataDisk.cs
+ PSDiffDiskSettings.cs
+ PSDiskEncryptionConfiguration.cs
+ PSEnvironmentSetting.cs
+ PSErrorMessage.cs
+ PSExitCodeMapping.cs
+ PSExitCodeRangeMapping.cs
+ PSExitConditions.cs
+ PSExitOptions.cs
+ PSFileProperties.cs
+ PSHttpHeader.cs
+ PSImageInformation.cs
+ PSImageReference.cs
+ PSInboundEndpoint.cs
+ PSInboundNatPool.cs
+ PSInstanceViewStatus.cs
+ PSJobConstraints.cs
+ PSJobExecutionInformation.cs
+ PSJobManagerTask.cs
+ PSJobNetworkConfiguration.cs
+ PSJobPreparationAndReleaseTaskExecutionInformation.cs
+ PSJobPreparationTask.cs
+ PSJobPreparationTaskExecutionInformation.cs
+ PSJobReleaseTask.cs
+ PSJobReleaseTaskExecutionInformation.cs
+ PSJobScheduleExecutionInformation.cs
+ PSJobScheduleStatistics.cs
+ PSJobSchedulingError.cs
+ PSJobSpecification.cs
+ PSJobStatistics.cs
+ PSLinuxUserConfiguration.cs
+ PSManagedDisk.cs
+ PSMetadataItem.cs
+ PSMountConfiguration.cs
+ PSMultiInstanceSettings.cs
+ PSNameValuePair.cs
+ PSNetworkConfiguration.cs
+ PSNetworkSecurityGroupRule.cs
+ PSNfsMountConfiguration.cs
+ PSNodeAgentInformation.cs
+ PSNodeCounts.cs
+ PSNodePlacementConfiguration.cs
+ PSNodeVMExtension.cs
+ PSOSDisk.cs
+ PSOutputFile.cs
+ PSOutputFileBlobContainerDestination.cs
+ PSOutputFileDestination.cs
+ PSOutputFileUploadOptions.cs
+ PSPoolEndpointConfiguration.cs
+ PSPoolInformation.cs
+ PSPoolNodeCounts.cs
+ PSPoolSpecification.cs
+ PSPoolStatistics.cs
+ PSPoolUsageMetrics.cs
+ PSPublicIPAddressConfiguration.cs
+ PSRecentJob.cs
+ PSRemoteLoginSettings.cs
+ PSResizeError.cs
+ PSResourceFile.cs
+ PSResourceStatistics.cs
+ PSRollingUpgradePolicy.cs
+ PSSchedule.cs
+ PSSecurityProfile.cs
+ PSServiceArtifactReference.cs
+ PSStartComputeNodeServiceLogUploadResult.cs
+ PSStartTask.cs
+ PSStartTaskInformation.cs
+ PSStatusLevelTypes.cs
+ PSSubtaskInformation.cs
+ PSTaskConstraints.cs
+ PSTaskContainerExecutionInformation.cs
+ PSTaskContainerSettings.cs
+ PSTaskCounts.cs
+ PSTaskCountsResult.cs
+ PSTaskDependencies.cs
+ PSTaskExecutionInformation.cs
+ PSTaskFailureInformation.cs
+ PSTaskIdRange.cs
+ PSTaskInformation.cs
+ PSTaskSchedulingPolicy.cs
+ PSTaskSlotCounts.cs
+ PSTaskStatistics.cs
+ PSUefiSettings.cs
+ PSUpgradePolicy.cs
+ PSUsageStatistics.cs
+ PSUserAccount.cs
+ PSUserAssignedIdentity.cs
+ PSUserIdentity.cs
+ PSVirtualMachineConfiguration.cs
+ PSVirtualMachineInfo.cs
+ PSVMDiskSecurityProfile.cs
+ PSVMExtension.cs
+ PSVMExtensionInstanceView.cs
+ PSWindowsConfiguration.cs
+ PSWindowsUserConfiguration.cs
+Models/
+ AccountCreateParameters.cs
+ BatchAccountContext.cs
+ BatchClient.ApplicationPackages.cs
+ BatchClient.Applications.cs
+ BatchClient.BatchAccounts.cs
+ BatchClient.ComputeNodeExtensions.cs
+ BatchClient.ComputeNodes.cs
+ BatchClient.ComputeNodeUsers.cs
+ BatchClient.cs
+ BatchClient.Files.cs
+ BatchClient.Jobs.cs
+ BatchClient.JobSchedules.cs
+ BatchClient.Locations.cs
+ BatchClient.Pools.cs
+ BatchClient.PrivateEndpointConnection.cs
+ BatchClient.PrivateLinkResource.cs
+ BatchClient.Tasks.cs
+ BatchClientParametersBase.cs
+ ChangeOSVersionParameters.cs
+ ComputeNodeOperationParameters.cs
+ ComputeNodeUserOperationParameters.cs
+ DisableComputeNodeSchedulingParameters.cs
+ DisableJobParameters.cs
+ DownloadNodeFileOptions.cs
+ EnableAutoScaleParameters.cs
+ EvaluateAutoScaleParameters.cs
+ GetTaskCountsOptions.cs
+ JobOperationParameters.cs
+ JobScheduleOperationParameters.cs
+ ListComputeNodeExtensionParameters.cs
+ ListComputeNodeOptions.cs
+ ListJobOptions.cs
+ ListJobPreparationAndReleaseStatusOptions.cs
+ ListJobScheduleOptions.cs
+ ListNodeFileOptions.cs
+ ListPoolNodeCountsOptions.cs
+ ListPoolOptions.cs
+ ListPoolUsageOptions.cs
+ ListSubtaskOptions.cs
+ ListTaskOptions.cs
+ NewBulkTaskParameters.cs
+ NewComputeNodeUserParameters.cs
+ NewJobParameters.cs
+ NewJobScheduleParameters.cs
+ NewPoolParameters.cs
+ NewTaskParameters.cs
+ NodeFileOperationParameters.cs
+ PoolOperationParameters.cs
+ PoolResizeParameters.cs
+ PSApplication.cs
+ PSApplicationPackage.cs
+ PSBatchLocationQuotas.cs
+ PSCloudPool.cs
+ PSImageReference.cs
+ PSNodeCounts.FormatObject.cs
+ PSNodeFile.cs
+ PSPagedEnumerable.cs
+ PSPoolSpecification.cs
+ PSPrivateEndpoint.cs
+ PSPrivateEndpointConnection.cs
+ PSPrivateLinkResource.cs
+ PSPrivateLinkServiceConnectionState.cs
+ PSSkuCapability.cs
+ PSSupportedSku.cs
+ RebootComputeNodeParameters.cs
+ ReimageComputeNodeParameters.cs
+ RemoveComputeNodeParameters.cs
+ StartComputeNodeServiceLogUploadParameters.cs
+ TaskOperationParameters.cs
+ TerminateJobParameters.cs
+ UpdateComputeNodeUserParameters.cs
+NewApplicationPackageException.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Pools/
+ DisableBatchAutoScaleCommand.cs
+ EnableBatchAutoScaleCommand.cs
+ GetBatchPoolCommand.cs
+ GetBatchPoolNodeCountCommand.cs
+ GetBatchPoolUsageMetricCommand.cs
+ NewBatchPoolCommand.cs
+ RemoveBatchPoolCommand.cs
+ SetBatchPoolCommand.cs
+ StartBatchPoolResizeCommand.cs
+ StopBatchPoolResizeCommand.cs
+ TestBatchAutoScaleCommand.cs
+Properties/
+ AssemblyInfo.cs
+ Resources.Designer.cs
+Tasks/
+ EnableBatchTaskCommand.cs
+ GetBatchSubtaskCommand.cs
+ GetBatchTaskCommand.cs
+ GetBatchTaskCountCommand.cs
+ GetBatchTaskSlotCountCommand.cs
+ NewBatchTaskCommand.cs
+ RemoveBatchTaskCommand.cs
+ SetBatchTaskCommand.cs
+ StopBatchTaskCommand.cs
+Utils/
+ BatchAadTokenProvider.cs
+ Constants.cs
+ Utils.cs
+
+[metadataReferences]
+../../../artifacts/Debug/Az.Batch/Microsoft.Azure.PowerShell.Batch.Management.Sdk.dll
+
+[analyzerConfigFiles]
+obj/Debug/Batch.GeneratedMSBuildEditorConfig.editorconfig

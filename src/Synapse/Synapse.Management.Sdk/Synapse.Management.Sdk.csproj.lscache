@@ -1,0 +1,578 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.Synapse.Management.Sdk
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.Synapse/Microsoft.Azure.PowerShell.Synapse.Management.Sdk.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.Management.Synapse
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.Synapse/Microsoft.Azure.PowerShell.Synapse.Management.Sdk.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,CS0108,CS1573,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.Synapse/Microsoft.Azure.PowerShell.Synapse.Management.Sdk.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.Synapse.Management.Sdk.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+Generated/
+ AzureADOnlyAuthenticationsOperations.cs
+ AzureADOnlyAuthenticationsOperationsExtensions.cs
+ BigDataPoolsOperations.cs
+ BigDataPoolsOperationsExtensions.cs
+ DataMaskingPoliciesOperations.cs
+ DataMaskingPoliciesOperationsExtensions.cs
+ DataMaskingRulesOperations.cs
+ DataMaskingRulesOperationsExtensions.cs
+ ExtendedSqlPoolBlobAuditingPoliciesOperations.cs
+ ExtendedSqlPoolBlobAuditingPoliciesOperationsExtensions.cs
+ GetOperations.cs
+ GetOperationsExtensions.cs
+ IAzureADOnlyAuthenticationsOperations.cs
+ IBigDataPoolsOperations.cs
+ IDataMaskingPoliciesOperations.cs
+ IDataMaskingRulesOperations.cs
+ IExtendedSqlPoolBlobAuditingPoliciesOperations.cs
+ IGetOperations.cs
+ IIntegrationRuntimeAuthKeysOperations.cs
+ IIntegrationRuntimeConnectionInfosOperations.cs
+ IIntegrationRuntimeCredentialsOperations.cs
+ IIntegrationRuntimeMonitoringDataOperations.cs
+ IIntegrationRuntimeNodeIpAddressOperations.cs
+ IIntegrationRuntimeNodesOperations.cs
+ IIntegrationRuntimeObjectMetadataOperations.cs
+ IIntegrationRuntimesOperations.cs
+ IIntegrationRuntimeStatusOperations.cs
+ IIpFirewallRulesOperations.cs
+ IKeysOperations.cs
+ ILibrariesOperations.cs
+ ILibraryOperations.cs
+ IntegrationRuntimeAuthKeysOperations.cs
+ IntegrationRuntimeAuthKeysOperationsExtensions.cs
+ IntegrationRuntimeConnectionInfosOperations.cs
+ IntegrationRuntimeConnectionInfosOperationsExtensions.cs
+ IntegrationRuntimeCredentialsOperations.cs
+ IntegrationRuntimeCredentialsOperationsExtensions.cs
+ IntegrationRuntimeMonitoringDataOperations.cs
+ IntegrationRuntimeMonitoringDataOperationsExtensions.cs
+ IntegrationRuntimeNodeIpAddressOperations.cs
+ IntegrationRuntimeNodeIpAddressOperationsExtensions.cs
+ IntegrationRuntimeNodesOperations.cs
+ IntegrationRuntimeNodesOperationsExtensions.cs
+ IntegrationRuntimeObjectMetadataOperations.cs
+ IntegrationRuntimeObjectMetadataOperationsExtensions.cs
+ IntegrationRuntimesOperations.cs
+ IntegrationRuntimesOperationsExtensions.cs
+ IntegrationRuntimeStatusOperations.cs
+ IntegrationRuntimeStatusOperationsExtensions.cs
+ IOperations.cs
+ IpFirewallRulesOperations.cs
+ IpFirewallRulesOperationsExtensions.cs
+ IPrivateEndpointConnectionsOperations.cs
+ IPrivateEndpointConnectionsPrivateLinkHubOperations.cs
+ IPrivateLinkHubPrivateLinkResourcesOperations.cs
+ IPrivateLinkHubsOperations.cs
+ IPrivateLinkResourcesOperations.cs
+ IRestorableDroppedSqlPoolsOperations.cs
+ ISparkConfigurationOperations.cs
+ ISparkConfigurationsOperations.cs
+ ISqlDatabasesOperations.cs
+ ISqlPoolBlobAuditingPoliciesOperations.cs
+ ISqlPoolColumnsOperations.cs
+ ISqlPoolConnectionPoliciesOperations.cs
+ ISqlPoolDataWarehouseUserActivitiesOperations.cs
+ ISqlPoolGeoBackupPoliciesOperations.cs
+ ISqlPoolMaintenanceWindowOptionsOperations.cs
+ ISqlPoolMaintenanceWindowsOperations.cs
+ ISqlPoolMetadataSyncConfigsOperations.cs
+ ISqlPoolOperationResultsOperations.cs
+ ISqlPoolOperations.cs
+ ISqlPoolRecommendedSensitivityLabelsOperations.cs
+ ISqlPoolReplicationLinksOperations.cs
+ ISqlPoolRestorePointsOperations.cs
+ ISqlPoolSchemasOperations.cs
+ ISqlPoolSecurityAlertPoliciesOperations.cs
+ ISqlPoolSensitivityLabelsOperations.cs
+ ISqlPoolsOperations.cs
+ ISqlPoolsV3Operations.cs
+ ISqlPoolTableColumnsOperations.cs
+ ISqlPoolTablesOperations.cs
+ ISqlPoolTransparentDataEncryptionsOperations.cs
+ ISqlPoolUsagesOperations.cs
+ ISqlPoolVulnerabilityAssessmentRuleBaselinesOperations.cs
+ ISqlPoolVulnerabilityAssessmentScansOperations.cs
+ ISqlPoolVulnerabilityAssessmentsOperations.cs
+ ISqlPoolWorkloadClassifierOperations.cs
+ ISqlPoolWorkloadGroupOperations.cs
+ ISqlV3Operations.cs
+ ISynapseManagementClient.cs
+ ISynapseSqlV3ManagementClient.cs
+ IWorkspaceAadAdminsOperations.cs
+ IWorkspaceManagedIdentitySqlControlSettingsOperations.cs
+ IWorkspaceManagedSqlServerBlobAuditingPoliciesOperations.cs
+ IWorkspaceManagedSqlServerDedicatedSQLMinimalTlsSettingsOperations.cs
+ IWorkspaceManagedSqlServerEncryptionProtectorOperations.cs
+ IWorkspaceManagedSqlServerExtendedBlobAuditingPoliciesOperations.cs
+ IWorkspaceManagedSqlServerRecoverableSqlPoolsOperations.cs
+ IWorkspaceManagedSqlServerSecurityAlertPolicyOperations.cs
+ IWorkspaceManagedSqlServerUsagesOperations.cs
+ IWorkspaceManagedSqlServerVulnerabilityAssessmentsOperations.cs
+ IWorkspacesOperations.cs
+ IWorkspaceSqlAadAdminsOperations.cs
+ KeysOperations.cs
+ KeysOperationsExtensions.cs
+ LibrariesOperations.cs
+ LibrariesOperationsExtensions.cs
+ LibraryOperations.cs
+ LibraryOperationsExtensions.cs
+ Models/
+  AadAdminProperties.cs
+  ActualState.cs
+  AutoPauseProperties.cs
+  AutoScaleProperties.cs
+  AvailableRpOperation.cs
+  AvailableRpOperationDisplayInfo.cs
+  AzureADOnlyAuthentication.cs
+  AzureADOnlyAuthenticationName.cs
+  AzureADOnlyAuthenticationProperties.cs
+  AzureEntityResource.cs
+  BigDataPoolPatchInfo.cs
+  BigDataPoolResourceInfo.cs
+  BigDataPoolResourceProperties.cs
+  BlobAuditingPolicyName.cs
+  BlobAuditingPolicyState.cs
+  CheckNameAvailabilityRequest.cs
+  CheckNameAvailabilityResponse.cs
+  CmdkeySetup.cs
+  CmdkeySetupTypeProperties.cs
+  ColumnDataType.cs
+  ComponentSetup.cs
+  ConfigurationType.cs
+  ConnectionPolicyName.cs
+  CopyComputeScaleProperties.cs
+  CreateMode.cs
+  CreateSqlPoolRestorePointDefinition.cs
+  CspWorkspaceAdminProperties.cs
+  CustomerManagedKeyDetails.cs
+  CustomSetupBase.cs
+  DatabaseStatus.cs
+  DataFlowComputeType.cs
+  DataLakeStorageAccountDetails.cs
+  DataMaskingFunction.cs
+  DataMaskingPolicy.cs
+  DataMaskingPolicyName.cs
+  DataMaskingPolicyProperties.cs
+  DataMaskingRule.cs
+  DataMaskingRuleProperties.cs
+  DataMaskingRuleState.cs
+  DataMaskingState.cs
+  DataWarehouseUserActivities.cs
+  DataWarehouseUserActivitiesProperties.cs
+  DataWarehouseUserActivityName.cs
+  DayOfWeek.cs
+  DedicatedSQLminimalTlsSettings.cs
+  DedicatedSQLMinimalTlsSettingsName.cs
+  DedicatedSQLminimalTlsSettingsPatchInfo.cs
+  DedicatedSQLminimalTlsSettingsProperties.cs
+  DesiredState.cs
+  DynamicExecutorAllocation.cs
+  EncryptionDetails.cs
+  EncryptionProtector.cs
+  EncryptionProtectorName.cs
+  EncryptionProtectorProperties.cs
+  EntityReference.cs
+  EnvironmentVariableSetup.cs
+  EnvironmentVariableSetupTypeProperties.cs
+  ErrorAdditionalInfo.cs
+  ErrorDetail.cs
+  ErrorResponse.cs
+  ErrorResponseAutoGenerated.cs
+  ErrorResponseAutoGeneratedException.cs
+  ErrorResponseException.cs
+  ExtendedServerBlobAuditingPolicy.cs
+  ExtendedServerBlobAuditingPolicyProperties.cs
+  ExtendedSqlPoolBlobAuditingPolicy.cs
+  ExtendedSqlPoolBlobAuditingPolicyProperties.cs
+  GeoBackupPolicy.cs
+  GeoBackupPolicyName.cs
+  GeoBackupPolicyProperties.cs
+  GeoBackupPolicyState.cs
+  GetSsisObjectMetadataRequest.cs
+  IntegrationRuntime.cs
+  IntegrationRuntimeAuthKeyName.cs
+  IntegrationRuntimeAuthKeys.cs
+  IntegrationRuntimeAutoUpdate.cs
+  IntegrationRuntimeComputeProperties.cs
+  IntegrationRuntimeConnectionInfo.cs
+  IntegrationRuntimeCustomSetupScriptProperties.cs
+  IntegrationRuntimeDataFlowProperties.cs
+  IntegrationRuntimeDataProxyProperties.cs
+  IntegrationRuntimeEdition.cs
+  IntegrationRuntimeEnableinteractivequery.cs
+  IntegrationRuntimeEntityReferenceType.cs
+  IntegrationRuntimeInternalChannelEncryptionMode.cs
+  IntegrationRuntimeLicenseType.cs
+  IntegrationRuntimeMonitoringData.cs
+  IntegrationRuntimeNodeIpAddress.cs
+  IntegrationRuntimeNodeMonitoringData.cs
+  IntegrationRuntimeOperationStatus.cs
+  IntegrationRuntimeOutboundNetworkDependenciesCategoryEndpoint.cs
+  IntegrationRuntimeOutboundNetworkDependenciesEndpoint.cs
+  IntegrationRuntimeOutboundNetworkDependenciesEndpointDetails.cs
+  IntegrationRuntimeOutboundNetworkDependenciesEndpointsResponse.cs
+  IntegrationRuntimeRegenerateKeyParameters.cs
+  IntegrationRuntimeResource.cs
+  IntegrationRuntimeSsisCatalogInfo.cs
+  IntegrationRuntimeSsisCatalogPricingTier.cs
+  IntegrationRuntimeSsisProperties.cs
+  IntegrationRuntimeState.cs
+  IntegrationRuntimeStatus.cs
+  IntegrationRuntimeStatusResponse.cs
+  IntegrationRuntimeStopOperationStatus.cs
+  IntegrationRuntimeType.cs
+  IntegrationRuntimeUpdateResult.cs
+  IntegrationRuntimeVNetProperties.cs
+  IpFirewallRuleInfo.cs
+  IpFirewallRuleProperties.cs
+  KekIdentityProperties.cs
+  Key.cs
+  KeyProperties.cs
+  LibraryInfo.cs
+  LibraryRequirements.cs
+  LibraryResource.cs
+  LicensedComponentSetupTypeProperties.cs
+  LinkedIntegrationRuntime.cs
+  LinkedIntegrationRuntimeKeyAuthorization.cs
+  LinkedIntegrationRuntimeRbacAuthorization.cs
+  LinkedIntegrationRuntimeType.cs
+  MaintenanceWindowOptions.cs
+  MaintenanceWindowOptionsProperties.cs
+  MaintenanceWindows.cs
+  MaintenanceWindowsProperties.cs
+  MaintenanceWindowTimeRange.cs
+  ManagedIdentity.cs
+  ManagedIdentitySqlControlSettingsModel.cs
+  ManagedIdentitySqlControlSettingsModelPropertiesGrantSqlControlToManagedIdentity.cs
+  ManagedIntegrationRuntime.cs
+  ManagedIntegrationRuntimeError.cs
+  ManagedIntegrationRuntimeManagedVirtualNetworkReference.cs
+  ManagedIntegrationRuntimeNode.cs
+  ManagedIntegrationRuntimeNodeStatus.cs
+  ManagedIntegrationRuntimeOperationResult.cs
+  ManagedIntegrationRuntimeStatus.cs
+  ManagedIntegrationRuntimeStatusTypeProperties.cs
+  ManagedIntegrationRuntimeTypeProperties.cs
+  ManagedVirtualNetworkSettings.cs
+  ManagementOperationState.cs
+  MetadataSyncConfig.cs
+  NodeSize.cs
+  NodeSizeFamily.cs
+  OperationMetaLogSpecification.cs
+  OperationMetaMetricDimensionSpecification.cs
+  OperationMetaMetricSpecification.cs
+  OperationMetaPropertyInfo.cs
+  OperationMetaServiceSpecification.cs
+  OperationResource.cs
+  OperationStatus.cs
+  Page.cs
+  Page1.cs
+  PipelineExternalComputeScaleProperties.cs
+  PrivateEndpoint.cs
+  PrivateEndpointConnection.cs
+  PrivateEndpointConnectionForPrivateLinkHub.cs
+  PrivateEndpointConnectionForPrivateLinkHubBasic.cs
+  PrivateEndpointConnectionForPrivateLinkHubBasicAutoGenerated.cs
+  PrivateEndpointConnectionProperties.cs
+  PrivateLinkHub.cs
+  PrivateLinkHubPatchInfo.cs
+  PrivateLinkHubProperties.cs
+  PrivateLinkResource.cs
+  PrivateLinkResourceProperties.cs
+  PrivateLinkServiceConnectionState.cs
+  ProvisioningState.cs
+  ProxyResource.cs
+  PurviewConfiguration.cs
+  QueryAggregationFunction.cs
+  QueryExecutionType.cs
+  QueryInterval.cs
+  QueryMetric.cs
+  QueryMetricUnit.cs
+  QueryObservedMetricType.cs
+  QueryStatistic.cs
+  RecommendedSensitivityLabelUpdate.cs
+  RecommendedSensitivityLabelUpdateKind.cs
+  RecommendedSensitivityLabelUpdateList.cs
+  RecommendedSensitivityLabelUpdateProperties.cs
+  RecoverableSqlPool.cs
+  RecoverableSqlPoolProperties.cs
+  ReplaceAllFirewallRulesOperationResponse.cs
+  ReplaceAllIpFirewallRulesRequest.cs
+  ReplicationLink.cs
+  ReplicationLinkProperties.cs
+  ReplicationRole.cs
+  ReplicationState.cs
+  Resource.cs
+  ResourceIdentityType.cs
+  RestorableDroppedSqlPool.cs
+  RestorableDroppedSqlPoolProperties.cs
+  RestorePoint.cs
+  RestorePointProperties.cs
+  RestorePointType.cs
+  SecretBase.cs
+  SecureString.cs
+  SecurityAlertPolicyName.cs
+  SecurityAlertPolicyNameAutoGenerated.cs
+  SecurityAlertPolicyProperties.cs
+  SecurityAlertPolicyState.cs
+  SelfContainedInteractiveAuthoringState.cs
+  SelfHostedIntegrationRuntime.cs
+  SelfHostedIntegrationRuntimeNode.cs
+  SelfHostedIntegrationRuntimeNodeStatus.cs
+  SelfHostedIntegrationRuntimeStatus.cs
+  SelfHostedIntegrationRuntimeStatusTypeProperties.cs
+  SelfHostedIntegrationRuntimeTypeProperties.cs
+  SensitivityLabel.cs
+  SensitivityLabelProperties.cs
+  SensitivityLabelRank.cs
+  SensitivityLabelSource.cs
+  SensitivityLabelUpdate.cs
+  SensitivityLabelUpdateKind.cs
+  SensitivityLabelUpdateList.cs
+  SensitivityLabelUpdateProperties.cs
+  ServerBlobAuditingPolicy.cs
+  ServerBlobAuditingPolicyProperties.cs
+  ServerKeyType.cs
+  ServerSecurityAlertPolicy.cs
+  ServerSecurityAlertPolicyProperties.cs
+  ServerUsage.cs
+  ServerVulnerabilityAssessment.cs
+  ServerVulnerabilityAssessmentProperties.cs
+  Sku.cs
+  SkuV3.cs
+  SparkConfigProperties.cs
+  SparkConfigurationInfo.cs
+  SparkConfigurationResource.cs
+  SqlDatabase.cs
+  SqlDatabaseDataRetention.cs
+  SqlDatabaseProperties.cs
+  SqlDatabaseUpdate.cs
+  SqlPool.cs
+  SqlPoolBlobAuditingPolicy.cs
+  SqlPoolBlobAuditingPolicyProperties.cs
+  SqlPoolColumn.cs
+  SqlPoolColumnProperties.cs
+  SqlPoolConnectionPolicy.cs
+  SqlPoolConnectionPolicyProperties.cs
+  SqlPoolOperation.cs
+  SqlPoolOperationProperties.cs
+  SqlPoolPatchInfo.cs
+  SqlPoolProperties.cs
+  SqlPoolResourceProperties.cs
+  SqlPoolSchema.cs
+  SqlPoolSecurityAlertPolicy.cs
+  SqlPoolStatus.cs
+  SqlPoolTable.cs
+  SqlPoolUpdate.cs
+  SqlPoolUsage.cs
+  SqlPoolV3.cs
+  SqlPoolVulnerabilityAssessment.cs
+  SqlPoolVulnerabilityAssessmentProperties.cs
+  SqlPoolVulnerabilityAssessmentRuleBaseline.cs
+  SqlPoolVulnerabilityAssessmentRuleBaselineItem.cs
+  SqlPoolVulnerabilityAssessmentRuleBaselineProperties.cs
+  SqlPoolVulnerabilityAssessmentScanExportProperties.cs
+  SqlPoolVulnerabilityAssessmentScansExport.cs
+  SsisEnvironment.cs
+  SsisEnvironmentReference.cs
+  SsisFolder.cs
+  SsisObjectMetadata.cs
+  SsisObjectMetadataListResponse.cs
+  SsisObjectMetadataStatusResponse.cs
+  SsisObjectMetadataType.cs
+  SsisPackage.cs
+  SsisParameter.cs
+  SsisProject.cs
+  SsisVariable.cs
+  Statevalue.cs
+  StorageAccountType.cs
+  StorageRedundancy.cs
+  SubResource.cs
+  SystemData.cs
+  TopQueries.cs
+  TopQueriesListResult.cs
+  TrackedResource.cs
+  TransparentDataEncryption.cs
+  TransparentDataEncryptionName.cs
+  TransparentDataEncryptionProperties.cs
+  TransparentDataEncryptionStatus.cs
+  UpdateIntegrationRuntimeNodeRequest.cs
+  UpdateIntegrationRuntimeRequest.cs
+  UserAssignedManagedIdentity.cs
+  VirtualNetworkProfile.cs
+  VulnerabilityAssessmentName.cs
+  VulnerabilityAssessmentPolicyBaselineName.cs
+  VulnerabilityAssessmentRecurringScansProperties.cs
+  VulnerabilityAssessmentScanError.cs
+  VulnerabilityAssessmentScanRecord.cs
+  VulnerabilityAssessmentScanRecordProperties.cs
+  VulnerabilityAssessmentScanState.cs
+  VulnerabilityAssessmentScanTriggerType.cs
+  WorkloadClassifier.cs
+  WorkloadClassifierProperties.cs
+  WorkloadGroup.cs
+  WorkloadGroupProperties.cs
+  Workspace.cs
+  WorkspaceAadAdminInfo.cs
+  WorkspaceKeyDetails.cs
+  WorkspacePatchInfo.cs
+  WorkspacePatchProperties.cs
+  WorkspaceProperties.cs
+  WorkspacePublicNetworkAccess.cs
+  WorkspaceRepositoryConfiguration.cs
+  WorkspaceStatus.cs
+  WritableSensitivityLabelSource.cs
+  WritableSensitivityLabelSourceAutoGenerated.cs
+ Operations.cs
+ OperationsExtensions.cs
+ PrivateEndpointConnectionsOperations.cs
+ PrivateEndpointConnectionsOperationsExtensions.cs
+ PrivateEndpointConnectionsPrivateLinkHubOperations.cs
+ PrivateEndpointConnectionsPrivateLinkHubOperationsExtensions.cs
+ PrivateLinkHubPrivateLinkResourcesOperations.cs
+ PrivateLinkHubPrivateLinkResourcesOperationsExtensions.cs
+ PrivateLinkHubsOperations.cs
+ PrivateLinkHubsOperationsExtensions.cs
+ PrivateLinkResourcesOperations.cs
+ PrivateLinkResourcesOperationsExtensions.cs
+ RestorableDroppedSqlPoolsOperations.cs
+ RestorableDroppedSqlPoolsOperationsExtensions.cs
+ SparkConfigurationOperations.cs
+ SparkConfigurationOperationsExtensions.cs
+ SparkConfigurationsOperations.cs
+ SparkConfigurationsOperationsExtensions.cs
+ SqlDatabasesOperations.cs
+ SqlDatabasesOperationsExtensions.cs
+ SqlPoolBlobAuditingPoliciesOperations.cs
+ SqlPoolBlobAuditingPoliciesOperationsExtensions.cs
+ SqlPoolColumnsOperations.cs
+ SqlPoolColumnsOperationsExtensions.cs
+ SqlPoolConnectionPoliciesOperations.cs
+ SqlPoolConnectionPoliciesOperationsExtensions.cs
+ SqlPoolDataWarehouseUserActivitiesOperations.cs
+ SqlPoolDataWarehouseUserActivitiesOperationsExtensions.cs
+ SqlPoolGeoBackupPoliciesOperations.cs
+ SqlPoolGeoBackupPoliciesOperationsExtensions.cs
+ SqlPoolMaintenanceWindowOptionsOperations.cs
+ SqlPoolMaintenanceWindowOptionsOperationsExtensions.cs
+ SqlPoolMaintenanceWindowsOperations.cs
+ SqlPoolMaintenanceWindowsOperationsExtensions.cs
+ SqlPoolMetadataSyncConfigsOperations.cs
+ SqlPoolMetadataSyncConfigsOperationsExtensions.cs
+ SqlPoolOperationResultsOperations.cs
+ SqlPoolOperationResultsOperationsExtensions.cs
+ SqlPoolOperations.cs
+ SqlPoolOperationsExtensions.cs
+ SqlPoolRecommendedSensitivityLabelsOperations.cs
+ SqlPoolRecommendedSensitivityLabelsOperationsExtensions.cs
+ SqlPoolReplicationLinksOperations.cs
+ SqlPoolReplicationLinksOperationsExtensions.cs
+ SqlPoolRestorePointsOperations.cs
+ SqlPoolRestorePointsOperationsExtensions.cs
+ SqlPoolSchemasOperations.cs
+ SqlPoolSchemasOperationsExtensions.cs
+ SqlPoolSecurityAlertPoliciesOperations.cs
+ SqlPoolSecurityAlertPoliciesOperationsExtensions.cs
+ SqlPoolSensitivityLabelsOperations.cs
+ SqlPoolSensitivityLabelsOperationsExtensions.cs
+ SqlPoolsOperations.cs
+ SqlPoolsOperationsExtensions.cs
+ SqlPoolsV3Operations.cs
+ SqlPoolsV3OperationsExtensions.cs
+ SqlPoolTableColumnsOperations.cs
+ SqlPoolTableColumnsOperationsExtensions.cs
+ SqlPoolTablesOperations.cs
+ SqlPoolTablesOperationsExtensions.cs
+ SqlPoolTransparentDataEncryptionsOperations.cs
+ SqlPoolTransparentDataEncryptionsOperationsExtensions.cs
+ SqlPoolUsagesOperations.cs
+ SqlPoolUsagesOperationsExtensions.cs
+ SqlPoolVulnerabilityAssessmentRuleBaselinesOperations.cs
+ SqlPoolVulnerabilityAssessmentRuleBaselinesOperationsExtensions.cs
+ SqlPoolVulnerabilityAssessmentScansOperations.cs
+ SqlPoolVulnerabilityAssessmentScansOperationsExtensions.cs
+ SqlPoolVulnerabilityAssessmentsOperations.cs
+ SqlPoolVulnerabilityAssessmentsOperationsExtensions.cs
+ SqlPoolWorkloadClassifierOperations.cs
+ SqlPoolWorkloadClassifierOperationsExtensions.cs
+ SqlPoolWorkloadGroupOperations.cs
+ SqlPoolWorkloadGroupOperationsExtensions.cs
+ SqlV3Operations.cs
+ SqlV3OperationsExtensions.cs
+ SynapseManagementClient.cs
+ SynapseSqlV3ManagementClient.cs
+ WorkspaceAadAdminsOperations.cs
+ WorkspaceAadAdminsOperationsExtensions.cs
+ WorkspaceManagedIdentitySqlControlSettingsOperations.cs
+ WorkspaceManagedIdentitySqlControlSettingsOperationsExtensions.cs
+ WorkspaceManagedSqlServerBlobAuditingPoliciesOperations.cs
+ WorkspaceManagedSqlServerBlobAuditingPoliciesOperationsExtensions.cs
+ WorkspaceManagedSqlServerDedicatedSQLMinimalTlsSettingsOperations.cs
+ WorkspaceManagedSqlServerDedicatedSQLMinimalTlsSettingsOperationsExtensions.cs
+ WorkspaceManagedSqlServerEncryptionProtectorOperations.cs
+ WorkspaceManagedSqlServerEncryptionProtectorOperationsExtensions.cs
+ WorkspaceManagedSqlServerExtendedBlobAuditingPoliciesOperations.cs
+ WorkspaceManagedSqlServerExtendedBlobAuditingPoliciesOperationsExtensions.cs
+ WorkspaceManagedSqlServerRecoverableSqlPoolsOperations.cs
+ WorkspaceManagedSqlServerRecoverableSqlPoolsOperationsExtensions.cs
+ WorkspaceManagedSqlServerSecurityAlertPolicyOperations.cs
+ WorkspaceManagedSqlServerSecurityAlertPolicyOperationsExtensions.cs
+ WorkspaceManagedSqlServerUsagesOperations.cs
+ WorkspaceManagedSqlServerUsagesOperationsExtensions.cs
+ WorkspaceManagedSqlServerVulnerabilityAssessmentsOperations.cs
+ WorkspaceManagedSqlServerVulnerabilityAssessmentsOperationsExtensions.cs
+ WorkspacesOperations.cs
+ WorkspacesOperationsExtensions.cs
+ WorkspaceSqlAadAdminsOperations.cs
+ WorkspaceSqlAadAdminsOperationsExtensions.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Synapse.Management.Sdk.GeneratedMSBuildEditorConfig.editorconfig

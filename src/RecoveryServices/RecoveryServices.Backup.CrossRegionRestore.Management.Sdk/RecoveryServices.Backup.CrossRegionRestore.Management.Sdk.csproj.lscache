@@ -1,0 +1,246 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.RecoveryServices.Backup.CrossRegionRestore.Management.Sdk
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.RecoveryServices/Microsoft.Azure.PowerShell.RecoveryServices.Backup.CrossRegionRestore.Management.Sdk.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.Management.RecoveryServices.Backup.CrossRegionRestore
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.RecoveryServices/Microsoft.Azure.PowerShell.RecoveryServices.Backup.CrossRegionRestore.Management.Sdk.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,CS0108,CS1573,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.RecoveryServices/Microsoft.Azure.PowerShell.RecoveryServices.Backup.CrossRegionRestore.Management.Sdk.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.RecoveryServices.Backup.CrossRegionRestore.Management.Sdk.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+Generated/
+ AadPropertiesOperations.cs
+ AadPropertiesOperationsExtensions.cs
+ BackupCrrJobDetailsOperations.cs
+ BackupCrrJobDetailsOperationsExtensions.cs
+ BackupCrrJobsOperations.cs
+ BackupCrrJobsOperationsExtensions.cs
+ BackupProtectedItemsCrrOperations.cs
+ BackupProtectedItemsCrrOperationsExtensions.cs
+ BackupResourceStorageConfigsOperations.cs
+ BackupResourceStorageConfigsOperationsExtensions.cs
+ BackupUsageSummariesCRROperations.cs
+ BackupUsageSummariesCRROperationsExtensions.cs
+ CrossRegionRestoreOperations.cs
+ CrossRegionRestoreOperationsExtensions.cs
+ CrrOperationResultsOperations.cs
+ CrrOperationResultsOperationsExtensions.cs
+ CrrOperationStatusOperations.cs
+ CrrOperationStatusOperationsExtensions.cs
+ IAadPropertiesOperations.cs
+ IBackupCrrJobDetailsOperations.cs
+ IBackupCrrJobsOperations.cs
+ IBackupProtectedItemsCrrOperations.cs
+ IBackupResourceStorageConfigsOperations.cs
+ IBackupUsageSummariesCRROperations.cs
+ ICrossRegionRestoreOperations.cs
+ ICrrOperationResultsOperations.cs
+ ICrrOperationStatusOperations.cs
+ IRecoveryPointsCrrOperations.cs
+ IRecoveryPointsOperations.cs
+ IRecoveryServicesBackupClient.cs
+ Models/
+  AADProperties.cs
+  AADPropertiesResource.cs
+  AzureFileshareProtectedItem.cs
+  AzureFileshareProtectedItemExtendedInfo.cs
+  AzureFileShareRecoveryPoint.cs
+  AzureFileShareRestoreRequest.cs
+  AzureIaaSClassicComputeVMProtectedItem.cs
+  AzureIaaSComputeVMProtectedItem.cs
+  AzureIaaSVMErrorInfo.cs
+  AzureIaaSVMHealthDetails.cs
+  AzureIaaSVMJob.cs
+  AzureIaaSVMJobExtendedInfo.cs
+  AzureIaaSVMJobTaskDetails.cs
+  AzureIaaSVMProtectedItem.cs
+  AzureIaaSVMProtectedItemExtendedInfo.cs
+  AzureSqlProtectedItem.cs
+  AzureSqlProtectedItemExtendedInfo.cs
+  AzureStorageErrorInfo.cs
+  AzureStorageJob.cs
+  AzureStorageJobExtendedInfo.cs
+  AzureStorageJobTaskDetails.cs
+  AzureVmWorkloadProtectedItem.cs
+  AzureVmWorkloadProtectedItemExtendedInfo.cs
+  AzureVmWorkloadSAPAseDatabaseProtectedItem.cs
+  AzureVmWorkloadSAPHanaDatabaseProtectedItem.cs
+  AzureVmWorkloadSQLDatabaseProtectedItem.cs
+  AzureWorkloadErrorInfo.cs
+  AzureWorkloadJob.cs
+  AzureWorkloadJobExtendedInfo.cs
+  AzureWorkloadJobTaskDetails.cs
+  AzureWorkloadPointInTimeRecoveryPoint.cs
+  AzureWorkloadPointInTimeRestoreRequest.cs
+  AzureWorkloadRecoveryPoint.cs
+  AzureWorkloadRestoreRequest.cs
+  AzureWorkloadSAPHanaPointInTimeRecoveryPoint.cs
+  AzureWorkloadSAPHanaPointInTimeRestoreRequest.cs
+  AzureWorkloadSAPHanaRecoveryPoint.cs
+  AzureWorkloadSAPHanaRestoreRequest.cs
+  AzureWorkloadSQLPointInTimeRecoveryPoint.cs
+  AzureWorkloadSQLPointInTimeRestoreRequest.cs
+  AzureWorkloadSQLRecoveryPoint.cs
+  AzureWorkloadSQLRecoveryPointExtendedInfo.cs
+  AzureWorkloadSQLRestoreRequest.cs
+  BackupManagementType.cs
+  BackupManagementUsage.cs
+  BackupResourceConfig.cs
+  BackupResourceConfigResource.cs
+  BEKDetails.cs
+  BMSAADPropertiesQueryObject.cs
+  BMSBackupSummariesQueryObject.cs
+  BMSRPQueryObject.cs
+  ClientScriptForConnect.cs
+  CopyOptions.cs
+  CreateMode.cs
+  CrossRegionRestoreRequest.cs
+  CrossRegionRestoreRequestResource.cs
+  CrrAccessToken.cs
+  CrrAccessTokenResource.cs
+  CrrJobRequest.cs
+  CrrJobRequestResource.cs
+  DataSourceType.cs
+  DiskExclusionProperties.cs
+  DiskInformation.cs
+  DpmErrorInfo.cs
+  DpmJob.cs
+  DpmJobExtendedInfo.cs
+  DpmJobTaskDetails.cs
+  DPMProtectedItem.cs
+  DPMProtectedItemExtendedInfo.cs
+  EncryptionDetails.cs
+  ErrorAdditionalInfo.cs
+  ErrorDetail.cs
+  ExtendedProperties.cs
+  GenericProtectedItem.cs
+  GenericRecoveryPoint.cs
+  HealthState.cs
+  HealthStatus.cs
+  IaasVMRecoveryPoint.cs
+  IaasVMRestoreRequest.cs
+  IdentityBasedRestoreDetails.cs
+  IdentityInfo.cs
+  InstantItemRecoveryTarget.cs
+  Job.cs
+  JobOperationType.cs
+  JobQueryObject.cs
+  JobResource.cs
+  JobStatus.cs
+  JobSupportedAction.cs
+  KEKDetails.cs
+  KeyAndSecretDetails.cs
+  KPIResourceHealthDetails.cs
+  LastBackupStatus.cs
+  MabErrorInfo.cs
+  MabFileFolderProtectedItem.cs
+  MabFileFolderProtectedItemExtendedInfo.cs
+  MabJob.cs
+  MabJobExtendedInfo.cs
+  MabJobTaskDetails.cs
+  MabServerType.cs
+  NameInfo.cs
+  NewErrorResponse.cs
+  NewErrorResponseError.cs
+  NewErrorResponseException.cs
+  OperationStatus.cs
+  OperationStatusError.cs
+  OperationStatusExtendedInfo.cs
+  OperationStatusJobExtendedInfo.cs
+  OperationStatusJobsExtendedInfo.cs
+  OperationStatusProvisionILRExtendedInfo.cs
+  OperationStatusRecoveryPointExtendedInfo.cs
+  OperationStatusValues.cs
+  OverwriteOptions.cs
+  Page.cs
+  Page1.cs
+  PointInTimeRange.cs
+  ProtectedItem.cs
+  ProtectedItemHealthStatus.cs
+  ProtectedItemQueryObject.cs
+  ProtectedItemResource.cs
+  ProtectedItemState.cs
+  ProtectionState.cs
+  RecoveryMode.cs
+  RecoveryPoint.cs
+  RecoveryPointDiskConfiguration.cs
+  RecoveryPointMoveReadinessInfo.cs
+  RecoveryPointResource.cs
+  RecoveryPointTierInformation.cs
+  RecoveryPointTierStatus.cs
+  RecoveryPointTierType.cs
+  RecoveryType.cs
+  Resource.cs
+  ResourceHealthDetails.cs
+  ResourceHealthStatus.cs
+  ResourceList.cs
+  RestoreFileSpecs.cs
+  RestorePointQueryType.cs
+  RestorePointType.cs
+  RestoreRequest.cs
+  RestoreRequestType.cs
+  SQLDataDirectory.cs
+  SQLDataDirectoryMapping.cs
+  SQLDataDirectoryType.cs
+  StorageType.cs
+  StorageTypeState.cs
+  TargetAFSRestoreInfo.cs
+  TargetRestoreInfo.cs
+  Type.cs
+  UsagesUnit.cs
+  WorkloadCrrAccessToken.cs
+  WorkloadType.cs
+ RecoveryPointsCrrOperations.cs
+ RecoveryPointsCrrOperationsExtensions.cs
+ RecoveryPointsOperations.cs
+ RecoveryPointsOperationsExtensions.cs
+ RecoveryServicesBackupClient.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/RecoveryServices.Backup.CrossRegionRestore.Management.Sdk.GeneratedMSBuildEditorConfig.editorconfig

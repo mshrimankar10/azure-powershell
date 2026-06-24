@@ -1,0 +1,469 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.Mdp.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.Mdp/Mdp.Autorest/bin/Az.Mdp.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.Mdp
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.Mdp/Mdp.Autorest/bin/Az.Mdp.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.Mdp/Mdp.Autorest/bin/Az.Mdp.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.Mdp.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/
+ ManagedDevOpsPools.cs
+ Models/
+  AgentProfile.cs
+  AgentProfile.json.cs
+  AgentProfile.PowerShell.cs
+  AgentProfile.TypeConverter.cs
+  Any.cs
+  Any.json.cs
+  Any.PowerShell.cs
+  Any.TypeConverter.cs
+  AutomaticResourcePredictionsProfile.cs
+  AutomaticResourcePredictionsProfile.json.cs
+  AutomaticResourcePredictionsProfile.PowerShell.cs
+  AutomaticResourcePredictionsProfile.TypeConverter.cs
+  AzureDevOpsOrganizationProfile.cs
+  AzureDevOpsOrganizationProfile.json.cs
+  AzureDevOpsOrganizationProfile.PowerShell.cs
+  AzureDevOpsOrganizationProfile.TypeConverter.cs
+  AzureDevOpsPermissionProfile.cs
+  AzureDevOpsPermissionProfile.json.cs
+  AzureDevOpsPermissionProfile.PowerShell.cs
+  AzureDevOpsPermissionProfile.TypeConverter.cs
+  DataDisk.cs
+  DataDisk.json.cs
+  DataDisk.PowerShell.cs
+  DataDisk.TypeConverter.cs
+  DevOpsAzureSku.cs
+  DevOpsAzureSku.json.cs
+  DevOpsAzureSku.PowerShell.cs
+  DevOpsAzureSku.TypeConverter.cs
+  ErrorAdditionalInfo.cs
+  ErrorAdditionalInfo.json.cs
+  ErrorAdditionalInfo.PowerShell.cs
+  ErrorAdditionalInfo.TypeConverter.cs
+  ErrorDetail.cs
+  ErrorDetail.json.cs
+  ErrorDetail.PowerShell.cs
+  ErrorDetail.TypeConverter.cs
+  ErrorResponse.cs
+  ErrorResponse.json.cs
+  ErrorResponse.PowerShell.cs
+  ErrorResponse.TypeConverter.cs
+  FabricProfile.cs
+  FabricProfile.json.cs
+  FabricProfile.PowerShell.cs
+  FabricProfile.TypeConverter.cs
+  GitHubOrganization.cs
+  GitHubOrganization.json.cs
+  GitHubOrganization.PowerShell.cs
+  GitHubOrganization.TypeConverter.cs
+  GitHubOrganizationProfile.cs
+  GitHubOrganizationProfile.json.cs
+  GitHubOrganizationProfile.PowerShell.cs
+  GitHubOrganizationProfile.TypeConverter.cs
+  ImageVersion.cs
+  ImageVersion.json.cs
+  ImageVersion.PowerShell.cs
+  ImageVersion.TypeConverter.cs
+  ImageVersionListResult.cs
+  ImageVersionListResult.json.cs
+  ImageVersionListResult.PowerShell.cs
+  ImageVersionListResult.TypeConverter.cs
+  ImageVersionProperties.cs
+  ImageVersionProperties.json.cs
+  ImageVersionProperties.PowerShell.cs
+  ImageVersionProperties.TypeConverter.cs
+  ManagedServiceIdentity.cs
+  ManagedServiceIdentity.json.cs
+  ManagedServiceIdentity.PowerShell.cs
+  ManagedServiceIdentity.TypeConverter.cs
+  ManualResourcePredictionsProfile.cs
+  ManualResourcePredictionsProfile.json.cs
+  ManualResourcePredictionsProfile.PowerShell.cs
+  ManualResourcePredictionsProfile.TypeConverter.cs
+  MdpIdentity.cs
+  MdpIdentity.json.cs
+  MdpIdentity.PowerShell.cs
+  MdpIdentity.TypeConverter.cs
+  NetworkProfile.cs
+  NetworkProfile.json.cs
+  NetworkProfile.PowerShell.cs
+  NetworkProfile.TypeConverter.cs
+  Operation.cs
+  Operation.json.cs
+  Operation.PowerShell.cs
+  Operation.TypeConverter.cs
+  OperationDisplay.cs
+  OperationDisplay.json.cs
+  OperationDisplay.PowerShell.cs
+  OperationDisplay.TypeConverter.cs
+  OperationListResult.cs
+  OperationListResult.json.cs
+  OperationListResult.PowerShell.cs
+  OperationListResult.TypeConverter.cs
+  Organization.cs
+  Organization.json.cs
+  Organization.PowerShell.cs
+  Organization.TypeConverter.cs
+  OrganizationProfile.cs
+  OrganizationProfile.json.cs
+  OrganizationProfile.PowerShell.cs
+  OrganizationProfile.TypeConverter.cs
+  OSProfile.cs
+  OSProfile.json.cs
+  OSProfile.PowerShell.cs
+  OSProfile.TypeConverter.cs
+  PagedQuota.cs
+  PagedQuota.json.cs
+  PagedQuota.PowerShell.cs
+  PagedQuota.TypeConverter.cs
+  Pool.cs
+  Pool.json.cs
+  Pool.PowerShell.cs
+  Pool.TypeConverter.cs
+  PoolImage.cs
+  PoolImage.json.cs
+  PoolImage.PowerShell.cs
+  PoolImage.TypeConverter.cs
+  PoolListResult.cs
+  PoolListResult.json.cs
+  PoolListResult.PowerShell.cs
+  PoolListResult.TypeConverter.cs
+  PoolProperties.cs
+  PoolProperties.json.cs
+  PoolProperties.PowerShell.cs
+  PoolProperties.TypeConverter.cs
+  PoolUpdate.cs
+  PoolUpdate.json.cs
+  PoolUpdate.PowerShell.cs
+  PoolUpdate.TypeConverter.cs
+  PoolUpdateProperties.cs
+  PoolUpdateProperties.json.cs
+  PoolUpdateProperties.PowerShell.cs
+  PoolUpdateProperties.TypeConverter.cs
+  PoolUpdateTags.cs
+  PoolUpdateTags.dictionary.cs
+  PoolUpdateTags.json.cs
+  PoolUpdateTags.PowerShell.cs
+  PoolUpdateTags.TypeConverter.cs
+  ProxyResource.cs
+  ProxyResource.json.cs
+  ProxyResource.PowerShell.cs
+  ProxyResource.TypeConverter.cs
+  Quota.cs
+  Quota.json.cs
+  Quota.PowerShell.cs
+  Quota.TypeConverter.cs
+  QuotaName.cs
+  QuotaName.json.cs
+  QuotaName.PowerShell.cs
+  QuotaName.TypeConverter.cs
+  Resource.cs
+  Resource.json.cs
+  Resource.PowerShell.cs
+  Resource.TypeConverter.cs
+  ResourceDetailsObject.cs
+  ResourceDetailsObject.json.cs
+  ResourceDetailsObject.PowerShell.cs
+  ResourceDetailsObject.TypeConverter.cs
+  ResourceDetailsObjectListResult.cs
+  ResourceDetailsObjectListResult.json.cs
+  ResourceDetailsObjectListResult.PowerShell.cs
+  ResourceDetailsObjectListResult.TypeConverter.cs
+  ResourceDetailsObjectProperties.cs
+  ResourceDetailsObjectProperties.json.cs
+  ResourceDetailsObjectProperties.PowerShell.cs
+  ResourceDetailsObjectProperties.TypeConverter.cs
+  ResourcePredictionsProfile.cs
+  ResourcePredictionsProfile.json.cs
+  ResourcePredictionsProfile.PowerShell.cs
+  ResourcePredictionsProfile.TypeConverter.cs
+  ResourceSku.cs
+  ResourceSku.json.cs
+  ResourceSku.PowerShell.cs
+  ResourceSku.TypeConverter.cs
+  ResourceSkuCapabilities.cs
+  ResourceSkuCapabilities.json.cs
+  ResourceSkuCapabilities.PowerShell.cs
+  ResourceSkuCapabilities.TypeConverter.cs
+  ResourceSkuListResult.cs
+  ResourceSkuListResult.json.cs
+  ResourceSkuListResult.PowerShell.cs
+  ResourceSkuListResult.TypeConverter.cs
+  ResourceSkuLocationInfo.cs
+  ResourceSkuLocationInfo.json.cs
+  ResourceSkuLocationInfo.PowerShell.cs
+  ResourceSkuLocationInfo.TypeConverter.cs
+  ResourceSkuProperties.cs
+  ResourceSkuProperties.json.cs
+  ResourceSkuProperties.PowerShell.cs
+  ResourceSkuProperties.TypeConverter.cs
+  ResourceSkuRestrictionInfo.cs
+  ResourceSkuRestrictionInfo.json.cs
+  ResourceSkuRestrictionInfo.PowerShell.cs
+  ResourceSkuRestrictionInfo.TypeConverter.cs
+  ResourceSkuRestrictions.cs
+  ResourceSkuRestrictions.json.cs
+  ResourceSkuRestrictions.PowerShell.cs
+  ResourceSkuRestrictions.TypeConverter.cs
+  ResourceSkuZoneDetails.cs
+  ResourceSkuZoneDetails.json.cs
+  ResourceSkuZoneDetails.PowerShell.cs
+  ResourceSkuZoneDetails.TypeConverter.cs
+  SecretsManagementSettings.cs
+  SecretsManagementSettings.json.cs
+  SecretsManagementSettings.PowerShell.cs
+  SecretsManagementSettings.TypeConverter.cs
+  Stateful.cs
+  Stateful.json.cs
+  Stateful.PowerShell.cs
+  Stateful.TypeConverter.cs
+  StatelessAgentProfile.cs
+  StatelessAgentProfile.json.cs
+  StatelessAgentProfile.PowerShell.cs
+  StatelessAgentProfile.TypeConverter.cs
+  StorageProfile.cs
+  StorageProfile.json.cs
+  StorageProfile.PowerShell.cs
+  StorageProfile.TypeConverter.cs
+  SystemData.cs
+  SystemData.json.cs
+  SystemData.PowerShell.cs
+  SystemData.TypeConverter.cs
+  TrackedResource.cs
+  TrackedResource.json.cs
+  TrackedResource.PowerShell.cs
+  TrackedResource.TypeConverter.cs
+  TrackedResourceTags.cs
+  TrackedResourceTags.dictionary.cs
+  TrackedResourceTags.json.cs
+  TrackedResourceTags.PowerShell.cs
+  TrackedResourceTags.TypeConverter.cs
+  UserAssignedIdentities.cs
+  UserAssignedIdentities.dictionary.cs
+  UserAssignedIdentities.json.cs
+  UserAssignedIdentities.PowerShell.cs
+  UserAssignedIdentities.TypeConverter.cs
+  UserAssignedIdentity.cs
+  UserAssignedIdentity.json.cs
+  UserAssignedIdentity.PowerShell.cs
+  UserAssignedIdentity.TypeConverter.cs
+  VmssFabricProfile.cs
+  VmssFabricProfile.json.cs
+  VmssFabricProfile.PowerShell.cs
+  VmssFabricProfile.TypeConverter.cs
+generated/cmdlets/
+ GetAzMdpOperation_List.cs
+ GetAzMdpPoolAgent_List.cs
+ GetAzMdpPool_Get.cs
+ GetAzMdpPool_GetViaIdentity.cs
+ GetAzMdpPool_List.cs
+ GetAzMdpPool_List1.cs
+ GetAzMdpSku_List.cs
+ NewAzMdpPool_Create.cs
+ NewAzMdpPool_CreateExpanded.cs
+ NewAzMdpPool_CreateViaIdentity.cs
+ NewAzMdpPool_CreateViaIdentityExpanded.cs
+ NewAzMdpPool_CreateViaJsonFilePath.cs
+ NewAzMdpPool_CreateViaJsonString.cs
+ RemoveAzMdpPool_Delete.cs
+ RemoveAzMdpPool_DeleteViaIdentity.cs
+ SetAzMdpPool_Update.cs
+ SetAzMdpPool_UpdateExpanded.cs
+ SetAzMdpPool_UpdateViaJsonFilePath.cs
+ SetAzMdpPool_UpdateViaJsonString.cs
+ UpdateAzMdpPool_Update.cs
+ UpdateAzMdpPool_UpdateExpanded.cs
+ UpdateAzMdpPool_UpdateViaIdentity.cs
+ UpdateAzMdpPool_UpdateViaIdentityExpanded.cs
+generated/
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.Mdp.GeneratedMSBuildEditorConfig.editorconfig

@@ -1,0 +1,504 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.Chaos.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.Chaos/Chaos.Autorest/bin/Az.Chaos.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.Chaos
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.Chaos/Chaos.Autorest/bin/Az.Chaos.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.Chaos/Chaos.Autorest/bin/Az.Chaos.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.Chaos.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/
+ Chaos.cs
+ Models/
+  Action.cs
+  Action.json.cs
+  Action.PowerShell.cs
+  Action.TypeConverter.cs
+  ActionStatus.cs
+  ActionStatus.json.cs
+  ActionStatus.PowerShell.cs
+  ActionStatus.TypeConverter.cs
+  Any.cs
+  Any.json.cs
+  Any.PowerShell.cs
+  Any.TypeConverter.cs
+  Branch.cs
+  Branch.json.cs
+  Branch.PowerShell.cs
+  Branch.TypeConverter.cs
+  BranchStatus.cs
+  BranchStatus.json.cs
+  BranchStatus.PowerShell.cs
+  BranchStatus.TypeConverter.cs
+  Capability.cs
+  Capability.json.cs
+  Capability.PowerShell.cs
+  Capability.TypeConverter.cs
+  CapabilityListResult.cs
+  CapabilityListResult.json.cs
+  CapabilityListResult.PowerShell.cs
+  CapabilityListResult.TypeConverter.cs
+  CapabilityProperties.cs
+  CapabilityProperties.json.cs
+  CapabilityProperties.PowerShell.cs
+  CapabilityProperties.TypeConverter.cs
+  CapabilityType.cs
+  CapabilityType.json.cs
+  CapabilityType.PowerShell.cs
+  CapabilityType.TypeConverter.cs
+  CapabilityTypeListResult.cs
+  CapabilityTypeListResult.json.cs
+  CapabilityTypeListResult.PowerShell.cs
+  CapabilityTypeListResult.TypeConverter.cs
+  CapabilityTypeProperties.cs
+  CapabilityTypeProperties.json.cs
+  CapabilityTypeProperties.PowerShell.cs
+  CapabilityTypeProperties.TypeConverter.cs
+  CapabilityTypePropertiesRuntimeProperties.cs
+  CapabilityTypePropertiesRuntimeProperties.json.cs
+  CapabilityTypePropertiesRuntimeProperties.PowerShell.cs
+  CapabilityTypePropertiesRuntimeProperties.TypeConverter.cs
+  ChaosIdentity.cs
+  ChaosIdentity.json.cs
+  ChaosIdentity.PowerShell.cs
+  ChaosIdentity.TypeConverter.cs
+  ContinuousAction.cs
+  ContinuousAction.json.cs
+  ContinuousAction.PowerShell.cs
+  ContinuousAction.TypeConverter.cs
+  DelayAction.cs
+  DelayAction.json.cs
+  DelayAction.PowerShell.cs
+  DelayAction.TypeConverter.cs
+  DiscreteAction.cs
+  DiscreteAction.json.cs
+  DiscreteAction.PowerShell.cs
+  DiscreteAction.TypeConverter.cs
+  ErrorAdditionalInfo.cs
+  ErrorAdditionalInfo.json.cs
+  ErrorAdditionalInfo.PowerShell.cs
+  ErrorAdditionalInfo.TypeConverter.cs
+  ErrorDetail.cs
+  ErrorDetail.json.cs
+  ErrorDetail.PowerShell.cs
+  ErrorDetail.TypeConverter.cs
+  ErrorResponse.cs
+  ErrorResponse.json.cs
+  ErrorResponse.PowerShell.cs
+  ErrorResponse.TypeConverter.cs
+  Experiment.cs
+  Experiment.json.cs
+  Experiment.PowerShell.cs
+  Experiment.TypeConverter.cs
+  ExperimentExecution.cs
+  ExperimentExecution.json.cs
+  ExperimentExecution.PowerShell.cs
+  ExperimentExecution.TypeConverter.cs
+  ExperimentExecutionActionTargetDetailsError.cs
+  ExperimentExecutionActionTargetDetailsError.json.cs
+  ExperimentExecutionActionTargetDetailsError.PowerShell.cs
+  ExperimentExecutionActionTargetDetailsError.TypeConverter.cs
+  ExperimentExecutionActionTargetDetailsProperties.cs
+  ExperimentExecutionActionTargetDetailsProperties.json.cs
+  ExperimentExecutionActionTargetDetailsProperties.PowerShell.cs
+  ExperimentExecutionActionTargetDetailsProperties.TypeConverter.cs
+  ExperimentExecutionDetails.cs
+  ExperimentExecutionDetails.json.cs
+  ExperimentExecutionDetails.PowerShell.cs
+  ExperimentExecutionDetails.TypeConverter.cs
+  ExperimentExecutionDetailsProperties.cs
+  ExperimentExecutionDetailsProperties.json.cs
+  ExperimentExecutionDetailsProperties.PowerShell.cs
+  ExperimentExecutionDetailsProperties.TypeConverter.cs
+  ExperimentExecutionDetailsPropertiesRunInformation.cs
+  ExperimentExecutionDetailsPropertiesRunInformation.json.cs
+  ExperimentExecutionDetailsPropertiesRunInformation.PowerShell.cs
+  ExperimentExecutionDetailsPropertiesRunInformation.TypeConverter.cs
+  ExperimentExecutionListResult.cs
+  ExperimentExecutionListResult.json.cs
+  ExperimentExecutionListResult.PowerShell.cs
+  ExperimentExecutionListResult.TypeConverter.cs
+  ExperimentExecutionProperties.cs
+  ExperimentExecutionProperties.json.cs
+  ExperimentExecutionProperties.PowerShell.cs
+  ExperimentExecutionProperties.TypeConverter.cs
+  ExperimentListResult.cs
+  ExperimentListResult.json.cs
+  ExperimentListResult.PowerShell.cs
+  ExperimentListResult.TypeConverter.cs
+  ExperimentProperties.cs
+  ExperimentProperties.json.cs
+  ExperimentProperties.PowerShell.cs
+  ExperimentProperties.TypeConverter.cs
+  ExperimentUpdate.cs
+  ExperimentUpdate.json.cs
+  ExperimentUpdate.PowerShell.cs
+  ExperimentUpdate.TypeConverter.cs
+  Filter.cs
+  Filter.json.cs
+  Filter.PowerShell.cs
+  Filter.TypeConverter.cs
+  KeyValuePair.cs
+  KeyValuePair.json.cs
+  KeyValuePair.PowerShell.cs
+  KeyValuePair.TypeConverter.cs
+  ListSelector.cs
+  ListSelector.dictionary.cs
+  ListSelector.json.cs
+  ListSelector.PowerShell.cs
+  ListSelector.TypeConverter.cs
+  Operation.cs
+  Operation.json.cs
+  Operation.PowerShell.cs
+  Operation.TypeConverter.cs
+  OperationDisplay.cs
+  OperationDisplay.json.cs
+  OperationDisplay.PowerShell.cs
+  OperationDisplay.TypeConverter.cs
+  OperationListResult.cs
+  OperationListResult.json.cs
+  OperationListResult.PowerShell.cs
+  OperationListResult.TypeConverter.cs
+  OperationStatus.cs
+  OperationStatus.json.cs
+  OperationStatus.PowerShell.cs
+  OperationStatus.TypeConverter.cs
+  QuerySelector.cs
+  QuerySelector.dictionary.cs
+  QuerySelector.json.cs
+  QuerySelector.PowerShell.cs
+  QuerySelector.TypeConverter.cs
+  Resource.cs
+  Resource.json.cs
+  Resource.PowerShell.cs
+  Resource.TypeConverter.cs
+  ResourceIdentity.cs
+  ResourceIdentity.json.cs
+  ResourceIdentity.PowerShell.cs
+  ResourceIdentity.TypeConverter.cs
+  Selector.cs
+  Selector.dictionary.cs
+  Selector.json.cs
+  Selector.PowerShell.cs
+  Selector.TypeConverter.cs
+  SimpleFilter.cs
+  SimpleFilter.json.cs
+  SimpleFilter.PowerShell.cs
+  SimpleFilter.TypeConverter.cs
+  SimpleFilterParameters.cs
+  SimpleFilterParameters.json.cs
+  SimpleFilterParameters.PowerShell.cs
+  SimpleFilterParameters.TypeConverter.cs
+  Step.cs
+  Step.json.cs
+  Step.PowerShell.cs
+  Step.TypeConverter.cs
+  StepStatus.cs
+  StepStatus.json.cs
+  StepStatus.PowerShell.cs
+  StepStatus.TypeConverter.cs
+  SystemData.cs
+  SystemData.json.cs
+  SystemData.PowerShell.cs
+  SystemData.TypeConverter.cs
+  Tags.cs
+  Tags.dictionary.cs
+  Tags.json.cs
+  Tags.PowerShell.cs
+  Tags.TypeConverter.cs
+  Target.cs
+  Target.json.cs
+  Target.PowerShell.cs
+  Target.TypeConverter.cs
+  TargetListResult.cs
+  TargetListResult.json.cs
+  TargetListResult.PowerShell.cs
+  TargetListResult.TypeConverter.cs
+  TargetProperties.cs
+  TargetProperties.dictionary.cs
+  TargetProperties.json.cs
+  TargetProperties.PowerShell.cs
+  TargetProperties.TypeConverter.cs
+  TargetReference.cs
+  TargetReference.json.cs
+  TargetReference.PowerShell.cs
+  TargetReference.TypeConverter.cs
+  TargetType.cs
+  TargetType.json.cs
+  TargetType.PowerShell.cs
+  TargetType.TypeConverter.cs
+  TargetTypeListResult.cs
+  TargetTypeListResult.json.cs
+  TargetTypeListResult.PowerShell.cs
+  TargetTypeListResult.TypeConverter.cs
+  TargetTypeProperties.cs
+  TargetTypeProperties.json.cs
+  TargetTypeProperties.PowerShell.cs
+  TargetTypeProperties.TypeConverter.cs
+  TrackedResource.cs
+  TrackedResource.json.cs
+  TrackedResource.PowerShell.cs
+  TrackedResource.TypeConverter.cs
+  TrackedResourceTags.cs
+  TrackedResourceTags.dictionary.cs
+  TrackedResourceTags.json.cs
+  TrackedResourceTags.PowerShell.cs
+  TrackedResourceTags.TypeConverter.cs
+  UserAssignedIdentities.cs
+  UserAssignedIdentities.dictionary.cs
+  UserAssignedIdentities.json.cs
+  UserAssignedIdentities.PowerShell.cs
+  UserAssignedIdentities.TypeConverter.cs
+  UserAssignedIdentity.cs
+  UserAssignedIdentity.json.cs
+  UserAssignedIdentity.PowerShell.cs
+  UserAssignedIdentity.TypeConverter.cs
+generated/cmdlets/
+ GetAzChaosCapabilityType_Get.cs
+ GetAzChaosCapabilityType_GetViaIdentity.cs
+ GetAzChaosCapabilityType_GetViaIdentityLocation.cs
+ GetAzChaosCapabilityType_GetViaIdentityTargetType.cs
+ GetAzChaosCapabilityType_List.cs
+ GetAzChaosCapability_Get.cs
+ GetAzChaosCapability_GetViaIdentity.cs
+ GetAzChaosCapability_GetViaIdentityTarget.cs
+ GetAzChaosCapability_List.cs
+ GetAzChaosExecutionExperimentDetail_Execution.cs
+ GetAzChaosExecutionExperimentDetail_ExecutionViaIdentity.cs
+ GetAzChaosExecutionExperimentDetail_ExecutionViaIdentityExperiment.cs
+ GetAzChaosExperimentExecution_Get.cs
+ GetAzChaosExperimentExecution_GetViaIdentity.cs
+ GetAzChaosExperimentExecution_GetViaIdentityExperiment.cs
+ GetAzChaosExperimentExecution_List.cs
+ GetAzChaosExperiment_Get.cs
+ GetAzChaosExperiment_GetViaIdentity.cs
+ GetAzChaosExperiment_List.cs
+ GetAzChaosExperiment_List1.cs
+ GetAzChaosOperation_List.cs
+ GetAzChaosTargetType_Get.cs
+ GetAzChaosTargetType_GetViaIdentity.cs
+ GetAzChaosTargetType_GetViaIdentityLocation.cs
+ GetAzChaosTargetType_List.cs
+ GetAzChaosTarget_Get.cs
+ GetAzChaosTarget_GetViaIdentity.cs
+ GetAzChaosTarget_List.cs
+ NewAzChaosCapability_CreateExpanded.cs
+ NewAzChaosCapability_CreateViaIdentityExpanded.cs
+ NewAzChaosCapability_CreateViaIdentityTargetExpanded.cs
+ NewAzChaosCapability_CreateViaJsonFilePath.cs
+ NewAzChaosCapability_CreateViaJsonString.cs
+ NewAzChaosExperiment_CreateViaJsonFilePath.cs
+ NewAzChaosExperiment_CreateViaJsonString.cs
+ NewAzChaosTarget_CreateExpanded.cs
+ NewAzChaosTarget_CreateViaIdentityExpanded.cs
+ NewAzChaosTarget_CreateViaJsonFilePath.cs
+ NewAzChaosTarget_CreateViaJsonString.cs
+ RemoveAzChaosCapability_Delete.cs
+ RemoveAzChaosCapability_DeleteViaIdentity.cs
+ RemoveAzChaosCapability_DeleteViaIdentityTarget.cs
+ RemoveAzChaosExperiment_Delete.cs
+ RemoveAzChaosExperiment_DeleteViaIdentity.cs
+ RemoveAzChaosTarget_Delete.cs
+ RemoveAzChaosTarget_DeleteViaIdentity.cs
+ StartAzChaosExperiment_Start.cs
+ StartAzChaosExperiment_StartViaIdentity.cs
+ StopAzChaosExperiment_Cancel.cs
+ StopAzChaosExperiment_CancelViaIdentity.cs
+ UpdateAzChaosCapability_UpdateExpanded.cs
+ UpdateAzChaosCapability_UpdateViaIdentityExpanded.cs
+ UpdateAzChaosCapability_UpdateViaIdentityTargetExpanded.cs
+ UpdateAzChaosExperiment_UpdateExpanded.cs
+ UpdateAzChaosExperiment_UpdateViaIdentityExpanded.cs
+ UpdateAzChaosTarget_UpdateExpanded.cs
+ UpdateAzChaosTarget_UpdateViaIdentityExpanded.cs
+generated/
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.Chaos.GeneratedMSBuildEditorConfig.editorconfig

@@ -1,0 +1,120 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.Maintenance.Management.Sdk
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.Maintenance/Microsoft.Azure.PowerShell.Maintenance.Management.Sdk.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.Management.Maintenance
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.Maintenance/Microsoft.Azure.PowerShell.Maintenance.Management.Sdk.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,CS0108,CS1573,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.Maintenance/Microsoft.Azure.PowerShell.Maintenance.Management.Sdk.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.Maintenance.Management.Sdk.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+Generated/
+ ApplyUpdateForResourceGroupOperations.cs
+ ApplyUpdateForResourceGroupOperationsExtensions.cs
+ ApplyUpdatesOperations.cs
+ ApplyUpdatesOperationsExtensions.cs
+ ConfigurationAssignmentsForResourceGroupOperations.cs
+ ConfigurationAssignmentsForResourceGroupOperationsExtensions.cs
+ ConfigurationAssignmentsForSubscriptionsOperations.cs
+ ConfigurationAssignmentsForSubscriptionsOperationsExtensions.cs
+ ConfigurationAssignmentsOperations.cs
+ ConfigurationAssignmentsOperationsExtensions.cs
+ ConfigurationAssignmentsWithinSubscriptionOperations.cs
+ ConfigurationAssignmentsWithinSubscriptionOperationsExtensions.cs
+ IApplyUpdateForResourceGroupOperations.cs
+ IApplyUpdatesOperations.cs
+ IConfigurationAssignmentsForResourceGroupOperations.cs
+ IConfigurationAssignmentsForSubscriptionsOperations.cs
+ IConfigurationAssignmentsOperations.cs
+ IConfigurationAssignmentsWithinSubscriptionOperations.cs
+ IMaintenanceConfigurationsForResourceGroupOperations.cs
+ IMaintenanceConfigurationsOperations.cs
+ IMaintenanceManagementClient.cs
+ IOperations.cs
+ IPublicMaintenanceConfigurationsOperations.cs
+ IUpdatesOperations.cs
+ MaintenanceConfigurationsForResourceGroupOperations.cs
+ MaintenanceConfigurationsForResourceGroupOperationsExtensions.cs
+ MaintenanceConfigurationsOperations.cs
+ MaintenanceConfigurationsOperationsExtensions.cs
+ MaintenanceManagementClient.cs
+ Models/
+  ApplyUpdate.cs
+  ConfigurationAssignment.cs
+  ConfigurationAssignmentFilterProperties.cs
+  CreatedByType.cs
+  ErrorDetails.cs
+  ImpactType.cs
+  InputLinuxParameters.cs
+  InputPatchConfiguration.cs
+  InputWindowsParameters.cs
+  MaintenanceConfiguration.cs
+  MaintenanceError.cs
+  MaintenanceErrorException.cs
+  MaintenanceScope.cs
+  Operation.cs
+  OperationInfo.cs
+  Page.cs
+  RebootOptions.cs
+  Resource.cs
+  SystemData.cs
+  TagOperators.cs
+  TagSettingsProperties.cs
+  Update.cs
+  UpdateStatus.cs
+  Visibility.cs
+ Operations.cs
+ OperationsExtensions.cs
+ PublicMaintenanceConfigurationsOperations.cs
+ PublicMaintenanceConfigurationsOperationsExtensions.cs
+ UpdatesOperations.cs
+ UpdatesOperationsExtensions.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/Assemblyinfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Maintenance.Management.Sdk.GeneratedMSBuildEditorConfig.editorconfig

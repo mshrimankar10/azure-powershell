@@ -1,0 +1,198 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.Cmdlets.ServiceFabric
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.ServiceFabric/Microsoft.Azure.PowerShell.Cmdlets.ServiceFabric.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.Commands.ServiceFabric
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.ServiceFabric/Microsoft.Azure.PowerShell.Cmdlets.ServiceFabric.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.ServiceFabric/Microsoft.Azure.PowerShell.Cmdlets.ServiceFabric.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.Cmdlets.ServiceFabric.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+Commands/
+ AddAzureRmServiceFabricClientCertificate.cs
+ AddAzureRmServiceFabricNode.cs
+ AddAzureRmServiceFabricNodeType.cs
+ GetAzServiceFabricApplication.cs
+ GetAzServiceFabricApplicationType.cs
+ GetAzServiceFabricApplicationTypeVersion.cs
+ GetAzServiceFabricService.cs
+ GetAzureRmServiceFabricClusterResouce.cs
+ ManagedClusters/Applications/
+  GetAzServiceFabricManagedClusterApplication.cs
+  NewAzServiceFabricManagedClusterApplication.cs
+  RemoveAzServiceFabricManagedClusterApplication.cs
+  SetAzServiceFabricManagedClusterApplication.cs
+ ManagedClusters/ApplicationTypes/
+  GetAzServiceFabricManagedClusterApplicationType.cs
+  NewAzServiceFabricManagedClusterApplicationType.cs
+  RemoveAzServiceFabricManagedClusterApplicationType.cs
+  SetAzServiceFabricManagedClusterApplicationType.cs
+ ManagedClusters/ApplicationTypeVersions/
+  GetAzServiceFabricManagedClusterApplicationTypeVersion.cs
+  NewAzServiceFabricManagedClusterApplicationTypeVersion.cs
+  RemoveAzServiceFabricManagedClusterApplicationTypeVersion.cs
+  SetAzServiceFabricManagedClusterApplicationTypeVersion.cs
+ ManagedClusters/
+  ManagedApplicationCmdletBase.cs
+  ManagedClusters/
+   AddAzServiceFabricManagedClusterClientCertificate.cs
+   AddAzServiceFabricManagedClusterNetworkSecurityRule.cs
+   GetAzServiceFabricManagedCluster.cs
+   NewAzServiceFabricManagedCluster.cs
+   RemoveAzServiceFabricManagedCluster.cs
+   RemoveAzServiceFabricManagedClusterClientCertificate.cs
+   SetAzServiceFabricManagedCluster.cs
+  NodeTypes/
+   AddAzServiceFabricManagedNodeTypeVMExtension.cs
+   AddAzServiceFabricManagedNodeTypeVMSecret.cs
+   GetAzServiceFabricManagedNodeType.cs
+   InvokeAzServiceFabricDeallocateManagedNodeType.cs
+   InvokeAzServiceFabricRedeployManagedNodeType.cs
+   InvokeAzServiceFabricReimageManagedNodeType.cs
+   NewAzServiceFabricManagedNodeType.cs
+   RemoveAzServiceFabricManagedNodeType.cs
+   RemoveAzServiceFabricManagedNodeTypeVMExtension.cs
+   RestartAzServiceFabricManagedNodeType.cs
+   SetAzServiceFabricManagedNodeType.cs
+   StartAzServiceFabricNodeType.cs
+  ServiceFabricManagedCmdletBase.cs
+  Services/
+   GetAzServiceFabricManagedClusterService.cs
+   NewAzServiceFabricManagedClusterService.cs
+   RemoveAzServiceFabricManagedClusterService.cs
+   SetAzServiceFabricManagedClusterService.cs
+ NewAzServiceFabricApplication.cs
+ NewAzServiceFabricApplicationType.cs
+ NewAzServiceFabricApplicationTypeVersion.cs
+ NewAzServiceFabricService.cs
+ NewAzureRmServiceFabricCluster.cs
+ ProxyResourceCmdletBase.cs
+ RemoveAzServiceFabricApplication.cs
+ RemoveAzServiceFabricApplicationType.cs
+ RemoveAzServiceFabricApplicationTypeVersion.cs
+ RemoveAzServiceFabricService.cs
+ RemoveAzureRmServiceFabricClientCertificate.cs
+ RemoveAzureRmServiceFabricNode.cs
+ RemoveAzureRmServiceFabricNodeType.cs
+ RemoveAzureRmServiceFabricSetting.cs
+ ServiceFabricClientCertificateBase.cs
+ ServiceFabricClusterCertificateCmdlet.cs
+ ServiceFabricClusterCmdlet.cs
+ ServiceFabricCmdletBase.cs
+ ServiceFabricCommonCmdletBase.cs
+ ServiceFabricNodeTypeCmdletBase.cs
+ ServiceFabricSettingsCmdletBase.cs
+ SetAzureRmServiceFabricSetting.cs
+ SetAzureRmServiceFabricUpgradeType.cs
+ UpdateAzServiceFabricApplication.cs
+ UpdateAzServiceFabricNodeType.cs
+ UpdateAzServiceFabricVmImage.cs
+ UpdateAzureRmServiceFabricDurability.cs
+ UpdateAzureRmServiceFabricNodeBase.cs
+ UpdateAzureRmServiceFabricReliability.cs
+Common/
+ ClusterOperations.cs
+ CmdletNoun.cs
+ Constants.cs
+ JsonSerializerSettingsExtensions.cs
+Models/
+ CertificateInformation.cs
+ ClusterProvisioningState.cs
+ ClusterUpgradeMode.cs
+ DurabilityLevel.cs
+ FailureAction.cs
+ JsonBlob.cs
+ ManagedClusters/
+  ApplicationUpgradeMode.cs
+  ManagedClusterSku.cs
+  NetworkSecurityAccess.cs
+  NetworkSecurityDirection.cs
+  NetworkSecurityProtocol.cs
+  PSClusterUpgradeCadence.cs
+  PSDiskType.cs
+  PSManagedApplication.cs
+  PSManagedApplicationType.cs
+  PSManagedApplicationTypeVersion.cs
+  PSManagedCluster.cs
+  PSManagedNodeType.cs
+  PSManagedService.cs
+  PSManagedStatefulService.cs
+  PSManagedStatelessService.cs
+  PSServiceCorrelation.cs
+  PSServiceKind.cs
+  PSServiceMetric.cs
+  ServicePackageActivationModeEnum.cs
+ MoveCostEnum.cs
+ OperatingSystem.cs
+ Operation.cs
+ OperationError.cs
+ PSApplication.cs
+ PSApplicationType.cs
+ PSApplicationTypeVersion.cs
+ PSClientCertificateCommonName.cs
+ PSCluster.cs
+ PSDeploymentExtended.cs
+ PSDeploymentResult.cs
+ PSKeyVault.cs
+ PSService.cs
+ PSSettingsParameterDescription.cs
+ PSSettingsSectionDescription.cs
+ ReliabilityLevel.cs
+ VmImageKind.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/
+ AssemblyInfo.cs
+ Resources.Designer.cs
+
+[metadataReferences]
+../../../artifacts/Debug/Az.ServiceFabric/
+ Microsoft.Azure.PowerShell.ServiceFabric.Management.Sdk.dll
+ Microsoft.Azure.PowerShell.ServiceFabricManagedClusters.Management.Sdk.dll
+
+[analyzerConfigFiles]
+../.editorconfig
+obj/Debug/ServiceFabric.GeneratedMSBuildEditorConfig.editorconfig

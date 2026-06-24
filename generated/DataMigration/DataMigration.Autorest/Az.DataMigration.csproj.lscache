@@ -1,0 +1,551 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.DataMigration.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.DataMigration/DataMigration.Autorest/bin/Az.DataMigration.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.DataMigration
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.DataMigration/DataMigration.Autorest/bin/Az.DataMigration.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.DataMigration/DataMigration.Autorest/bin/Az.DataMigration.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.DataMigration.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/
+ DataMigration.cs
+ Models/
+  Any.cs
+  Any.json.cs
+  Any.PowerShell.cs
+  Any.TypeConverter.cs
+  Api20250630/
+   AuthenticationKeys.cs
+   AuthenticationKeys.json.cs
+   AuthenticationKeys.PowerShell.cs
+   AuthenticationKeys.TypeConverter.cs
+   AzureBlob.cs
+   AzureBlob.json.cs
+   AzureBlob.PowerShell.cs
+   AzureBlob.TypeConverter.cs
+   BackupConfiguration.cs
+   BackupConfiguration.json.cs
+   BackupConfiguration.PowerShell.cs
+   BackupConfiguration.TypeConverter.cs
+   CopyProgressDetails.cs
+   CopyProgressDetails.json.cs
+   CopyProgressDetails.PowerShell.cs
+   CopyProgressDetails.TypeConverter.cs
+   DatabaseMigration.cs
+   DatabaseMigration.json.cs
+   DatabaseMigration.PowerShell.cs
+   DatabaseMigration.TypeConverter.cs
+   DatabaseMigrationBase.cs
+   DatabaseMigrationBase.json.cs
+   DatabaseMigrationBase.PowerShell.cs
+   DatabaseMigrationBase.TypeConverter.cs
+   DatabaseMigrationBaseListResult.cs
+   DatabaseMigrationBaseListResult.json.cs
+   DatabaseMigrationBaseListResult.PowerShell.cs
+   DatabaseMigrationBaseListResult.TypeConverter.cs
+   DatabaseMigrationBaseProperties.cs
+   DatabaseMigrationBaseProperties.json.cs
+   DatabaseMigrationBaseProperties.PowerShell.cs
+   DatabaseMigrationBaseProperties.TypeConverter.cs
+   DatabaseMigrationCosmosDbMongo.cs
+   DatabaseMigrationCosmosDbMongo.json.cs
+   DatabaseMigrationCosmosDbMongo.PowerShell.cs
+   DatabaseMigrationCosmosDbMongo.TypeConverter.cs
+   DatabaseMigrationCosmosDbMongoListResult.cs
+   DatabaseMigrationCosmosDbMongoListResult.json.cs
+   DatabaseMigrationCosmosDbMongoListResult.PowerShell.cs
+   DatabaseMigrationCosmosDbMongoListResult.TypeConverter.cs
+   DatabaseMigrationListResult.cs
+   DatabaseMigrationListResult.json.cs
+   DatabaseMigrationListResult.PowerShell.cs
+   DatabaseMigrationListResult.TypeConverter.cs
+   DatabaseMigrationProperties.cs
+   DatabaseMigrationProperties.json.cs
+   DatabaseMigrationProperties.PowerShell.cs
+   DatabaseMigrationProperties.TypeConverter.cs
+   DatabaseMigrationPropertiesCosmosDbMongo.cs
+   DatabaseMigrationPropertiesCosmosDbMongo.json.cs
+   DatabaseMigrationPropertiesCosmosDbMongo.PowerShell.cs
+   DatabaseMigrationPropertiesCosmosDbMongo.TypeConverter.cs
+   DatabaseMigrationPropertiesSqlDb.cs
+   DatabaseMigrationPropertiesSqlDb.json.cs
+   DatabaseMigrationPropertiesSqlDb.PowerShell.cs
+   DatabaseMigrationPropertiesSqlDb.TypeConverter.cs
+   DatabaseMigrationPropertiesSqlMi.cs
+   DatabaseMigrationPropertiesSqlMi.json.cs
+   DatabaseMigrationPropertiesSqlMi.PowerShell.cs
+   DatabaseMigrationPropertiesSqlMi.TypeConverter.cs
+   DatabaseMigrationPropertiesSqlVM.cs
+   DatabaseMigrationPropertiesSqlVM.json.cs
+   DatabaseMigrationPropertiesSqlVM.PowerShell.cs
+   DatabaseMigrationPropertiesSqlVM.TypeConverter.cs
+   DatabaseMigrationSqlDb.cs
+   DatabaseMigrationSqlDb.json.cs
+   DatabaseMigrationSqlDb.PowerShell.cs
+   DatabaseMigrationSqlDb.TypeConverter.cs
+   DatabaseMigrationSqlMi.cs
+   DatabaseMigrationSqlMi.json.cs
+   DatabaseMigrationSqlMi.PowerShell.cs
+   DatabaseMigrationSqlMi.TypeConverter.cs
+   DatabaseMigrationSqlVM.cs
+   DatabaseMigrationSqlVM.json.cs
+   DatabaseMigrationSqlVM.PowerShell.cs
+   DatabaseMigrationSqlVM.TypeConverter.cs
+   DeleteNode.cs
+   DeleteNode.json.cs
+   DeleteNode.PowerShell.cs
+   DeleteNode.TypeConverter.cs
+   ErrorInfo.cs
+   ErrorInfo.json.cs
+   ErrorInfo.PowerShell.cs
+   ErrorInfo.TypeConverter.cs
+   IntegrationRuntimeMonitoringData.cs
+   IntegrationRuntimeMonitoringData.json.cs
+   IntegrationRuntimeMonitoringData.PowerShell.cs
+   IntegrationRuntimeMonitoringData.TypeConverter.cs
+   MigrationOperationInput.cs
+   MigrationOperationInput.json.cs
+   MigrationOperationInput.PowerShell.cs
+   MigrationOperationInput.TypeConverter.cs
+   MigrationService.cs
+   MigrationService.json.cs
+   MigrationService.PowerShell.cs
+   MigrationService.TypeConverter.cs
+   MigrationServiceListResult.cs
+   MigrationServiceListResult.json.cs
+   MigrationServiceListResult.PowerShell.cs
+   MigrationServiceListResult.TypeConverter.cs
+   MigrationServiceProperties.cs
+   MigrationServiceProperties.json.cs
+   MigrationServiceProperties.PowerShell.cs
+   MigrationServiceProperties.TypeConverter.cs
+   MigrationServiceUpdate.cs
+   MigrationServiceUpdate.json.cs
+   MigrationServiceUpdate.PowerShell.cs
+   MigrationServiceUpdate.TypeConverter.cs
+   MigrationServiceUpdateTags.cs
+   MigrationServiceUpdateTags.dictionary.cs
+   MigrationServiceUpdateTags.json.cs
+   MigrationServiceUpdateTags.PowerShell.cs
+   MigrationServiceUpdateTags.TypeConverter.cs
+   MigrationStatusDetails.cs
+   MigrationStatusDetails.json.cs
+   MigrationStatusDetails.PowerShell.cs
+   MigrationStatusDetails.TypeConverter.cs
+   MongoConnectionInformation.cs
+   MongoConnectionInformation.json.cs
+   MongoConnectionInformation.PowerShell.cs
+   MongoConnectionInformation.TypeConverter.cs
+   MongoMigrationCollection.cs
+   MongoMigrationCollection.json.cs
+   MongoMigrationCollection.PowerShell.cs
+   MongoMigrationCollection.TypeConverter.cs
+   MongoMigrationProgressDetails.cs
+   MongoMigrationProgressDetails.json.cs
+   MongoMigrationProgressDetails.PowerShell.cs
+   MongoMigrationProgressDetails.TypeConverter.cs
+   NodeMonitoringData.cs
+   NodeMonitoringData.json.cs
+   NodeMonitoringData.PowerShell.cs
+   NodeMonitoringData.TypeConverter.cs
+   NodeMonitoringDataAdditionalProperties.cs
+   NodeMonitoringDataAdditionalProperties.dictionary.cs
+   NodeMonitoringDataAdditionalProperties.json.cs
+   NodeMonitoringDataAdditionalProperties.PowerShell.cs
+   NodeMonitoringDataAdditionalProperties.TypeConverter.cs
+   OfflineConfiguration.cs
+   OfflineConfiguration.json.cs
+   OfflineConfiguration.PowerShell.cs
+   OfflineConfiguration.TypeConverter.cs
+   OperationListResult.cs
+   OperationListResult.json.cs
+   OperationListResult.PowerShell.cs
+   OperationListResult.TypeConverter.cs
+   OperationsDefinition.cs
+   OperationsDefinition.json.cs
+   OperationsDefinition.PowerShell.cs
+   OperationsDefinition.TypeConverter.cs
+   OperationsDefinitionProperties.cs
+   OperationsDefinitionProperties.dictionary.cs
+   OperationsDefinitionProperties.json.cs
+   OperationsDefinitionProperties.PowerShell.cs
+   OperationsDefinitionProperties.TypeConverter.cs
+   OperationsDisplayDefinition.cs
+   OperationsDisplayDefinition.json.cs
+   OperationsDisplayDefinition.PowerShell.cs
+   OperationsDisplayDefinition.TypeConverter.cs
+   ProxyResource.cs
+   ProxyResource.json.cs
+   ProxyResource.PowerShell.cs
+   ProxyResource.TypeConverter.cs
+   RegenAuthKeys.cs
+   RegenAuthKeys.json.cs
+   RegenAuthKeys.PowerShell.cs
+   RegenAuthKeys.TypeConverter.cs
+   SourceLocation.cs
+   SourceLocation.json.cs
+   SourceLocation.PowerShell.cs
+   SourceLocation.TypeConverter.cs
+   SqlBackupFileInfo.cs
+   SqlBackupFileInfo.json.cs
+   SqlBackupFileInfo.PowerShell.cs
+   SqlBackupFileInfo.TypeConverter.cs
+   SqlBackupSetInfo.cs
+   SqlBackupSetInfo.json.cs
+   SqlBackupSetInfo.PowerShell.cs
+   SqlBackupSetInfo.TypeConverter.cs
+   SqlConnectionInformation.cs
+   SqlConnectionInformation.json.cs
+   SqlConnectionInformation.PowerShell.cs
+   SqlConnectionInformation.TypeConverter.cs
+   SqlDbMigrationStatusDetails.cs
+   SqlDbMigrationStatusDetails.json.cs
+   SqlDbMigrationStatusDetails.PowerShell.cs
+   SqlDbMigrationStatusDetails.TypeConverter.cs
+   SqlDbOfflineConfiguration.cs
+   SqlDbOfflineConfiguration.json.cs
+   SqlDbOfflineConfiguration.PowerShell.cs
+   SqlDbOfflineConfiguration.TypeConverter.cs
+   SqlFileShare.cs
+   SqlFileShare.json.cs
+   SqlFileShare.PowerShell.cs
+   SqlFileShare.TypeConverter.cs
+   SqlMigrationListResult.cs
+   SqlMigrationListResult.json.cs
+   SqlMigrationListResult.PowerShell.cs
+   SqlMigrationListResult.TypeConverter.cs
+   SqlMigrationService.cs
+   SqlMigrationService.json.cs
+   SqlMigrationService.PowerShell.cs
+   SqlMigrationService.TypeConverter.cs
+   SqlMigrationServiceProperties.cs
+   SqlMigrationServiceProperties.json.cs
+   SqlMigrationServiceProperties.PowerShell.cs
+   SqlMigrationServiceProperties.TypeConverter.cs
+   SqlMigrationServiceUpdate.cs
+   SqlMigrationServiceUpdate.json.cs
+   SqlMigrationServiceUpdate.PowerShell.cs
+   SqlMigrationServiceUpdate.TypeConverter.cs
+   SqlMigrationServiceUpdateTags.cs
+   SqlMigrationServiceUpdateTags.dictionary.cs
+   SqlMigrationServiceUpdateTags.json.cs
+   SqlMigrationServiceUpdateTags.PowerShell.cs
+   SqlMigrationServiceUpdateTags.TypeConverter.cs
+   SystemDataAutoGenerated.cs
+   SystemDataAutoGenerated.json.cs
+   SystemDataAutoGenerated.PowerShell.cs
+   SystemDataAutoGenerated.TypeConverter.cs
+   TargetLocation.cs
+   TargetLocation.json.cs
+   TargetLocation.PowerShell.cs
+   TargetLocation.TypeConverter.cs
+   TrackedResourceAutoGenerated.cs
+   TrackedResourceAutoGenerated.json.cs
+   TrackedResourceAutoGenerated.PowerShell.cs
+   TrackedResourceAutoGenerated.TypeConverter.cs
+  Api50/
+   ErrorAdditionalInfo.cs
+   ErrorAdditionalInfo.json.cs
+   ErrorAdditionalInfo.PowerShell.cs
+   ErrorAdditionalInfo.TypeConverter.cs
+   ErrorDetail.cs
+   ErrorDetail.json.cs
+   ErrorDetail.PowerShell.cs
+   ErrorDetail.TypeConverter.cs
+   ErrorResponse.cs
+   ErrorResponse.json.cs
+   ErrorResponse.PowerShell.cs
+   ErrorResponse.TypeConverter.cs
+   ProxyResourceAutoGenerated.cs
+   ProxyResourceAutoGenerated.json.cs
+   ProxyResourceAutoGenerated.PowerShell.cs
+   ProxyResourceAutoGenerated.TypeConverter.cs
+   Resource.cs
+   Resource.json.cs
+   Resource.PowerShell.cs
+   Resource.TypeConverter.cs
+   SystemData.cs
+   SystemData.json.cs
+   SystemData.PowerShell.cs
+   SystemData.TypeConverter.cs
+   TrackedResource.cs
+   TrackedResource.json.cs
+   TrackedResource.PowerShell.cs
+   TrackedResource.TypeConverter.cs
+   TrackedResourceTags.cs
+   TrackedResourceTags.dictionary.cs
+   TrackedResourceTags.json.cs
+   TrackedResourceTags.PowerShell.cs
+   TrackedResourceTags.TypeConverter.cs
+   TrackedResourceTags1.cs
+   TrackedResourceTags1.dictionary.cs
+   TrackedResourceTags1.json.cs
+   TrackedResourceTags1.PowerShell.cs
+   TrackedResourceTags1.TypeConverter.cs
+  Api60/
+   ManagedServiceIdentity.cs
+   ManagedServiceIdentity.json.cs
+   ManagedServiceIdentity.PowerShell.cs
+   ManagedServiceIdentity.TypeConverter.cs
+   ManagedServiceIdentityUserAssignedIdentities.cs
+   ManagedServiceIdentityUserAssignedIdentities.dictionary.cs
+   ManagedServiceIdentityUserAssignedIdentities.json.cs
+   ManagedServiceIdentityUserAssignedIdentities.PowerShell.cs
+   ManagedServiceIdentityUserAssignedIdentities.TypeConverter.cs
+   UserAssignedIdentity.cs
+   UserAssignedIdentity.json.cs
+   UserAssignedIdentity.PowerShell.cs
+   UserAssignedIdentity.TypeConverter.cs
+  DataMigrationIdentity.cs
+  DataMigrationIdentity.json.cs
+  DataMigrationIdentity.PowerShell.cs
+  DataMigrationIdentity.TypeConverter.cs
+ Support/
+  AuthType.Completer.cs
+  AuthType.cs
+  AuthType.TypeConverter.cs
+  CreatedByType.Completer.cs
+  CreatedByType.cs
+  CreatedByType.TypeConverter.cs
+  ManagedServiceIdentityType.Completer.cs
+  ManagedServiceIdentityType.cs
+  ManagedServiceIdentityType.TypeConverter.cs
+  MongoMigrationStatus.Completer.cs
+  MongoMigrationStatus.cs
+  MongoMigrationStatus.TypeConverter.cs
+  OperationOrigin.Completer.cs
+  OperationOrigin.cs
+  OperationOrigin.TypeConverter.cs
+  ProvisioningState.Completer.cs
+  ProvisioningState.cs
+  ProvisioningState.TypeConverter.cs
+  ResourceType.Completer.cs
+  ResourceType.cs
+  ResourceType.TypeConverter.cs
+generated/cmdlets/
+ GetAzDataMigrationOperation_List.cs
+ GetAzDataMigrationSqlServiceAuthKey_List.cs
+ GetAzDataMigrationSqlServiceIntegrationRuntimeMetric_List.cs
+ GetAzDataMigrationSqlServiceMigration_List.cs
+ GetAzDataMigrationSqlService_Get.cs
+ GetAzDataMigrationSqlService_GetViaIdentity.cs
+ GetAzDataMigrationSqlService_List.cs
+ GetAzDataMigrationSqlService_List1.cs
+ GetAzDataMigrationToSqlDb_Get.cs
+ GetAzDataMigrationToSqlDb_GetViaIdentity.cs
+ GetAzDataMigrationToSqlManagedInstance_Get.cs
+ GetAzDataMigrationToSqlManagedInstance_GetViaIdentity.cs
+ GetAzDataMigrationToSqlVM_Get.cs
+ GetAzDataMigrationToSqlVM_GetViaIdentity.cs
+ InvokeAzDataMigrationCutoverToSqlManagedInstance_CutoverExpanded.cs
+ InvokeAzDataMigrationCutoverToSqlVM_CutoverExpanded.cs
+ InvokeAzDataMigrationRetryToSqlDb_Retry.cs
+ InvokeAzDataMigrationRetryToSqlDb_RetryExpanded.cs
+ InvokeAzDataMigrationRetryToSqlDb_RetryViaIdentity.cs
+ InvokeAzDataMigrationRetryToSqlDb_RetryViaIdentityExpanded.cs
+ NewAzDataMigrationSqlServiceAuthKey_RegenerateExpanded.cs
+ NewAzDataMigrationSqlService_CreateExpanded.cs
+ NewAzDataMigrationToSqlDb_CreateExpanded.cs
+ NewAzDataMigrationToSqlManagedInstance_CreateExpanded.cs
+ NewAzDataMigrationToSqlVM_CreateExpanded.cs
+ RemoveAzDataMigrationSqlServiceNode_DeleteExpanded.cs
+ RemoveAzDataMigrationSqlServiceNode_DeleteViaIdentityExpanded.cs
+ RemoveAzDataMigrationSqlService_Delete.cs
+ RemoveAzDataMigrationSqlService_DeleteViaIdentity.cs
+ RemoveAzDataMigrationToSqlDb_Delete.cs
+ RemoveAzDataMigrationToSqlDb_DeleteViaIdentity.cs
+ RemoveAzDataMigrationToSqlManagedInstance_Delete.cs
+ RemoveAzDataMigrationToSqlManagedInstance_DeleteViaIdentity.cs
+ RemoveAzDataMigrationToSqlVM_Delete.cs
+ RemoveAzDataMigrationToSqlVM_DeleteViaIdentity.cs
+ StopAzDataMigrationToSqlDb_CancelExpanded.cs
+ StopAzDataMigrationToSqlManagedInstance_CancelExpanded.cs
+ StopAzDataMigrationToSqlVM_CancelExpanded.cs
+ UpdateAzDataMigrationSqlService_UpdateExpanded.cs
+ UpdateAzDataMigrationSqlService_UpdateViaIdentityExpanded.cs
+generated/
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.DataMigration.GeneratedMSBuildEditorConfig.editorconfig

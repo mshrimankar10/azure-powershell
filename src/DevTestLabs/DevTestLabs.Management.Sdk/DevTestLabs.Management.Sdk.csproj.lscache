@@ -1,0 +1,298 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.DevTestLabs.Management.Sdk
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.DevTestLabs/Microsoft.Azure.PowerShell.DevTestLabs.Management.Sdk.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.Management.DevTestLabs
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.DevTestLabs/Microsoft.Azure.PowerShell.DevTestLabs.Management.Sdk.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,CS0108,CS1573,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.DevTestLabs/Microsoft.Azure.PowerShell.DevTestLabs.Management.Sdk.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.DevTestLabs.Management.Sdk.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+Generated/
+ ArmTemplatesOperations.cs
+ ArmTemplatesOperationsExtensions.cs
+ ArtifactsOperations.cs
+ ArtifactsOperationsExtensions.cs
+ ArtifactSourcesOperations.cs
+ ArtifactSourcesOperationsExtensions.cs
+ CostsOperations.cs
+ CostsOperationsExtensions.cs
+ CustomImagesOperations.cs
+ CustomImagesOperationsExtensions.cs
+ DevTestLabsClient.cs
+ DisksOperations.cs
+ DisksOperationsExtensions.cs
+ EnvironmentsOperations.cs
+ EnvironmentsOperationsExtensions.cs
+ FormulasOperations.cs
+ FormulasOperationsExtensions.cs
+ GalleryImagesOperations.cs
+ GalleryImagesOperationsExtensions.cs
+ GlobalSchedulesOperations.cs
+ GlobalSchedulesOperationsExtensions.cs
+ IArmTemplatesOperations.cs
+ IArtifactsOperations.cs
+ IArtifactSourcesOperations.cs
+ ICostsOperations.cs
+ ICustomImagesOperations.cs
+ IDevTestLabsClient.cs
+ IDisksOperations.cs
+ IEnvironmentsOperations.cs
+ IFormulasOperations.cs
+ IGalleryImagesOperations.cs
+ IGlobalSchedulesOperations.cs
+ ILabsOperations.cs
+ INotificationChannelsOperations.cs
+ IOperations.cs
+ IPoliciesOperations.cs
+ IPolicySetsOperations.cs
+ IProviderOperations.cs
+ ISchedulesOperations.cs
+ ISecretsOperations.cs
+ IServiceRunnersOperations.cs
+ IUsersOperations.cs
+ IVirtualMachineSchedulesOperations.cs
+ IVirtualMachinesOperations.cs
+ IVirtualNetworksOperations.cs
+ LabsOperations.cs
+ LabsOperationsExtensions.cs
+ Models/
+  ApplicableSchedule.cs
+  ApplicableScheduleFragment.cs
+  ApplicableScheduleProperties.cs
+  ApplicableSchedulePropertiesFragment.cs
+  ApplyArtifactsRequest.cs
+  ArmTemplate.cs
+  ArmTemplateInfo.cs
+  ArmTemplateParameterProperties.cs
+  ArmTemplateProperties.cs
+  Artifact.cs
+  ArtifactDeploymentStatusProperties.cs
+  ArtifactDeploymentStatusPropertiesFragment.cs
+  ArtifactInstallProperties.cs
+  ArtifactInstallPropertiesFragment.cs
+  ArtifactParameterProperties.cs
+  ArtifactParameterPropertiesFragment.cs
+  ArtifactProperties.cs
+  ArtifactSource.cs
+  ArtifactSourceFragment.cs
+  ArtifactSourceProperties.cs
+  ArtifactSourcePropertiesFragment.cs
+  AttachDiskProperties.cs
+  AttachNewDataDiskOptions.cs
+  BulkCreationParameters.cs
+  ComputeDataDisk.cs
+  ComputeDataDiskFragment.cs
+  ComputeVmInstanceViewStatus.cs
+  ComputeVmInstanceViewStatusFragment.cs
+  ComputeVmProperties.cs
+  ComputeVmPropertiesFragment.cs
+  CostThresholdProperties.cs
+  CostThresholdStatus.cs
+  CostType.cs
+  CustomImage.cs
+  CustomImageOsType.cs
+  CustomImageProperties.cs
+  CustomImagePropertiesCustom.cs
+  CustomImagePropertiesFromVm.cs
+  DataDiskProperties.cs
+  DayDetails.cs
+  DayDetailsFragment.cs
+  DetachDataDiskProperties.cs
+  DetachDiskProperties.cs
+  Disk.cs
+  DiskProperties.cs
+  DtlEnvironment.cs
+  EnableStatus.cs
+  EnvironmentDeploymentProperties.cs
+  EnvironmentProperties.cs
+  EvaluatePoliciesProperties.cs
+  EvaluatePoliciesRequest.cs
+  EvaluatePoliciesResponse.cs
+  EventFragment.cs
+  EventModel.cs
+  ExportResourceUsageParameters.cs
+  ExternalSubnet.cs
+  ExternalSubnetFragment.cs
+  FileUploadOptions.cs
+  Formula.cs
+  FormulaProperties.cs
+  FormulaPropertiesFromVm.cs
+  GalleryImage.cs
+  GalleryImageProperties.cs
+  GalleryImageReference.cs
+  GalleryImageReferenceFragment.cs
+  GenerateArmTemplateRequest.cs
+  GenerateUploadUriParameter.cs
+  GenerateUploadUriResponse.cs
+  HostCachingOptions.cs
+  HourDetails.cs
+  HourDetailsFragment.cs
+  HttpStatusCode.cs
+  IdentityProperties.cs
+  InboundNatRule.cs
+  InboundNatRuleFragment.cs
+  Lab.cs
+  LabCost.cs
+  LabCostDetailsProperties.cs
+  LabCostProperties.cs
+  LabCostSummaryProperties.cs
+  LabFragment.cs
+  LabProperties.cs
+  LabPropertiesFragment.cs
+  LabResourceCostProperties.cs
+  LabVhd.cs
+  LabVirtualMachine.cs
+  LabVirtualMachineCreationParameter.cs
+  LabVirtualMachineCreationParameterProperties.cs
+  LabVirtualMachineFragment.cs
+  LabVirtualMachineProperties.cs
+  LabVirtualMachinePropertiesFragment.cs
+  LinuxOsInfo.cs
+  LinuxOsState.cs
+  NetworkInterfaceProperties.cs
+  NetworkInterfacePropertiesFragment.cs
+  NotificationChannel.cs
+  NotificationChannelEventType.cs
+  NotificationChannelFragment.cs
+  NotificationChannelProperties.cs
+  NotificationChannelPropertiesFragment.cs
+  NotificationSettings.cs
+  NotificationSettingsFragment.cs
+  NotificationStatus.cs
+  NotifyParameters.cs
+  OperationError.cs
+  OperationMetadata.cs
+  OperationMetadataDisplay.cs
+  OperationResult.cs
+  Page.cs
+  ParameterInfo.cs
+  ParametersValueFileInfo.cs
+  PercentageCostThresholdProperties.cs
+  Policy.cs
+  PolicyEvaluatorType.cs
+  PolicyFactName.cs
+  PolicyFragment.cs
+  PolicyProperties.cs
+  PolicyPropertiesFragment.cs
+  PolicySetResult.cs
+  PolicyStatus.cs
+  PolicyViolation.cs
+  Port.cs
+  PortFragment.cs
+  PremiumDataDisk.cs
+  ReportingCycleType.cs
+  Resource.cs
+  RetargetScheduleProperties.cs
+  Schedule.cs
+  ScheduleFragment.cs
+  ScheduleProperties.cs
+  SchedulePropertiesFragment.cs
+  Secret.cs
+  SecretProperties.cs
+  ServiceRunner.cs
+  SharedPublicIpAddressConfiguration.cs
+  SharedPublicIpAddressConfigurationFragment.cs
+  ShutdownNotificationContent.cs
+  SourceControlType.cs
+  StorageType.cs
+  Subnet.cs
+  SubnetFragment.cs
+  SubnetOverride.cs
+  SubnetOverrideFragment.cs
+  SubnetSharedPublicIpAddressConfiguration.cs
+  SubnetSharedPublicIpAddressConfigurationFragment.cs
+  TargetCostProperties.cs
+  TargetCostStatus.cs
+  TransportProtocol.cs
+  UsagePermissionType.cs
+  User.cs
+  UserFragment.cs
+  UserIdentity.cs
+  UserIdentityFragment.cs
+  UserProperties.cs
+  UserPropertiesFragment.cs
+  UserSecretStore.cs
+  UserSecretStoreFragment.cs
+  VirtualMachineCreationSource.cs
+  VirtualNetwork.cs
+  VirtualNetworkFragment.cs
+  VirtualNetworkProperties.cs
+  VirtualNetworkPropertiesFragment.cs
+  WeekDetails.cs
+  WeekDetailsFragment.cs
+  WindowsOsInfo.cs
+  WindowsOsState.cs
+ NotificationChannelsOperations.cs
+ NotificationChannelsOperationsExtensions.cs
+ Operations.cs
+ OperationsExtensions.cs
+ PoliciesOperations.cs
+ PoliciesOperationsExtensions.cs
+ PolicySetsOperations.cs
+ PolicySetsOperationsExtensions.cs
+ ProviderOperations.cs
+ ProviderOperationsExtensions.cs
+ SchedulesOperations.cs
+ SchedulesOperationsExtensions.cs
+ SecretsOperations.cs
+ SecretsOperationsExtensions.cs
+ ServiceRunnersOperations.cs
+ ServiceRunnersOperationsExtensions.cs
+ UsersOperations.cs
+ UsersOperationsExtensions.cs
+ VirtualMachineSchedulesOperations.cs
+ VirtualMachineSchedulesOperationsExtensions.cs
+ VirtualMachinesOperations.cs
+ VirtualMachinesOperationsExtensions.cs
+ VirtualNetworksOperations.cs
+ VirtualNetworksOperationsExtensions.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/DevTestLabs.Management.Sdk.GeneratedMSBuildEditorConfig.editorconfig

@@ -1,0 +1,126 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.Cmdlets.CognitiveServices
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.CognitiveServices/Microsoft.Azure.PowerShell.Cmdlets.CognitiveServices.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.Commands.Management.CognitiveServices
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.CognitiveServices/Microsoft.Azure.PowerShell.Cmdlets.CognitiveServices.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.CognitiveServices/Microsoft.Azure.PowerShell.Cmdlets.CognitiveServices.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.Cmdlets.CognitiveServices.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+ArgumentCompleters/
+ AccountSkuCompleterAttribute.cs
+ AccountTypeCompleterAttribute.cs
+CognitiveServicesAccount/
+ AddAzureCognitiveServicesAccountNetworkRule.cs
+ CognitiveServicesAccountBaseCmdlet.cs
+ CognitiveServicesManagementClient.cs
+ GetAzureCognitiveServicesAccount.cs
+ GetAzureCognitiveServicesAccountCommitmentPlan.cs
+ GetAzureCognitiveServicesAccountDefenderForAISetting.cs
+ GetAzureCognitiveServicesAccountDeployment.cs
+ GetAzureCognitiveServicesAccountDeploymentSku.cs
+ GetAzureCognitiveServicesAccountKey.cs
+ GetAzureCognitiveServicesAccountModel.cs
+ GetAzureCognitiveServicesAccountNetworkRuleSet.cs
+ GetAzureCognitiveServicesAccountRaiBlocklist.cs
+ GetAzureCognitiveServicesAccountRaiBlocklistItem.cs
+ GetAzureCognitiveServicesAccountRaiPolicy.cs
+ GetAzureCognitiveServicesAccountSku.cs
+ GetAzureCognitiveServicesAccountType.cs
+ GetAzureCognitiveServicesAccountUsage.cs
+ GetAzureCognitiveServicesCommitmentPlan.cs
+ GetAzureCognitiveServicesCommitmentPlanAssociation.cs
+ GetAzureCognitiveServicesCommitmentTier.cs
+ GetAzureCognitiveServicesModel.cs
+ GetAzureCognitiveServicesModelCapacity.cs
+ GetAzureCognitiveServicesRaiContentFilter.cs
+ GetAzureCognitiveServicesUsage.cs
+ NewAzureCognitiveServicesAccount.cs
+ NewAzureCognitiveServicesAccountApiProperty.cs
+ NewAzureCognitiveServicesAccountCommitmentPlan.cs
+ NewAzureCognitiveServicesAccountDefenderForAISetting.cs
+ NewAzureCognitiveServicesAccountDeployment.cs
+ NewAzureCognitiveServicesAccountKey.cs
+ NewAzureCognitiveServicesAccountRaiBlocklist.cs
+ NewAzureCognitiveServicesAccountRaiBlocklistItem.cs
+ NewAzureCognitiveServicesAccountRaiPolicy.cs
+ NewAzureCognitiveServicesCommitmentPlan.cs
+ NewAzureCognitiveServicesCommitmentPlanAssociation.cs
+ NewAzureCognitiveServicesObject.cs
+ RemoveAzureCognitiveServicesAccount.cs
+ RemoveAzureCognitiveServicesAccountCommitmentPlan.cs
+ RemoveAzureCognitiveServicesAccountDeployment.cs
+ RemoveAzureCognitiveServicesAccountNetworkRule.cs
+ RemoveAzureCognitiveServicesAccountRaiBlocklist.cs
+ RemoveAzureCognitiveServicesAccountRaiBlocklistItem.cs
+ RemoveAzureCognitiveServicesAccountRaiPolicy.cs
+ RemoveAzureCognitiveServicesCommitmentPlan.cs
+ RemoveAzureCognitiveServicesCommitmentPlanAssociation.cs
+ SetAzureCognitiveServicesAccount.cs
+ UndoAzureCognitiveServicesAccountRemoval.cs
+ UpdateAzureCognitiveServicesAccountNetworkRuleSet.cs
+Models/Legacy/
+ CognitiveServicesAccountApiProperties.cs
+ IdentityType.cs
+Models/
+ PSCognitiveServicesAccount.cs
+ PSCognitiveServicesAccountKeys.cs
+ PSCognitiveServicesSkus.cs
+ PSCognitiveServicesUsage.cs
+ PSNetworkRuleSet.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/
+ AssemblyInfo.cs
+ Resources.Designer.cs
+Utils/ResourceId.cs
+
+[metadataReferences]
+../../../artifacts/Debug/Az.CognitiveServices/Microsoft.Azure.PowerShell.CognitiveServices.Management.Sdk.dll
+
+[analyzerConfigFiles]
+obj/Debug/CognitiveServices.GeneratedMSBuildEditorConfig.editorconfig

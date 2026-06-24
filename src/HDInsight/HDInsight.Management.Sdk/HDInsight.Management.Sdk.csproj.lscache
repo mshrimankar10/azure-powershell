@@ -1,0 +1,228 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.HDInsight.Management.Sdk
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.HDInsight/Microsoft.Azure.PowerShell.HDInsight.Management.Sdk.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.Management.HDInsight
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.HDInsight/Microsoft.Azure.PowerShell.HDInsight.Management.Sdk.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,CS0108,CS1573,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.HDInsight/Microsoft.Azure.PowerShell.HDInsight.Management.Sdk.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.HDInsight.Management.Sdk.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+Customizations/Models/
+ ClusterNodeType.cs
+ ConfigurationKey.cs
+Generated/
+ ApplicationsOperations.cs
+ ApplicationsOperationsExtensions.cs
+ ClustersOperations.cs
+ ClustersOperationsExtensions.cs
+ ConfigurationsOperations.cs
+ ConfigurationsOperationsExtensions.cs
+ ExtensionsOperations.cs
+ ExtensionsOperationsExtensions.cs
+ HDInsightManagementClient.cs
+ IApplicationsOperations.cs
+ IClustersOperations.cs
+ IConfigurationsOperations.cs
+ IExtensionsOperations.cs
+ IHDInsightManagementClient.cs
+ ILocationsOperations.cs
+ IOperations.cs
+ IPrivateEndpointConnectionsOperations.cs
+ IPrivateLinkResourcesOperations.cs
+ IScriptActionsOperations.cs
+ IScriptExecutionHistoryOperations.cs
+ IVirtualMachinesOperations.cs
+ LocationsOperations.cs
+ LocationsOperationsExtensions.cs
+ Models/
+  AaddsResourceDetails.cs
+  Application.cs
+  ApplicationGetEndpoint.cs
+  ApplicationGetHttpsEndpoint.cs
+  ApplicationProperties.cs
+  AsyncOperationResult.cs
+  AsyncOperationState.cs
+  Autoscale.cs
+  AutoscaleCapacity.cs
+  AutoscaleConfigurationUpdateParameter.cs
+  AutoscaleRecurrence.cs
+  AutoscaleSchedule.cs
+  AutoscaleTimeAndCapacity.cs
+  AzureMonitorRequest.cs
+  AzureMonitorResponse.cs
+  AzureMonitorSelectedConfigurations.cs
+  AzureMonitorTableConfiguration.cs
+  BillingMeters.cs
+  BillingResources.cs
+  BillingResponseListResult.cs
+  CapabilitiesResult.cs
+  ClientGroupInfo.cs
+  Cluster.cs
+  ClusterConfigurations.cs
+  ClusterCreateParametersExtended.cs
+  ClusterCreateProperties.cs
+  ClusterCreateRequestValidationParameters.cs
+  ClusterCreateValidationResult.cs
+  ClusterDefinition.cs
+  ClusterDiskEncryptionParameters.cs
+  ClusterGetProperties.cs
+  ClusterIdentity.cs
+  ClusterListPersistedScriptActionsResult.cs
+  ClusterMonitoringRequest.cs
+  ClusterMonitoringResponse.cs
+  ClusterPatchParameters.cs
+  ClusterResizeParameters.cs
+  ComputeIsolationProperties.cs
+  ComputeProfile.cs
+  ConnectivityEndpoint.cs
+  CreatedByType.cs
+  DataDisksGroups.cs
+  DaysOfWeek.cs
+  Dimension.cs
+  DirectoryType.cs
+  DiskBillingMeters.cs
+  DiskEncryptionProperties.cs
+  EncryptionInTransitProperties.cs
+  EntraUserInfo.cs
+  ErrorResponse.cs
+  ErrorResponseException.cs
+  Errors.cs
+  ExcludedServicesConfig.cs
+  ExecuteScriptActionParameters.cs
+  Extension.cs
+  FilterMode.cs
+  GatewaySettings.cs
+  HardwareProfile.cs
+  HDInsightClusterProvisioningState.cs
+  HostInfo.cs
+  IPConfiguration.cs
+  IPConfigurationProperties.cs
+  IpTag.cs
+  JsonWebKeyEncryptionAlgorithm.cs
+  KafkaRestProperties.cs
+  LinuxOperatingSystemProfile.cs
+  LocalizedName.cs
+  MetricSpecifications.cs
+  NameAvailabilityCheckRequestParameters.cs
+  NameAvailabilityCheckResult.cs
+  NetworkProperties.cs
+  Operation.cs
+  OperationDisplay.cs
+  OperationProperties.cs
+  OsProfile.cs
+  OSType.cs
+  OutboundDependenciesManagedType.cs
+  Page.cs
+  PrivateEndpoint.cs
+  PrivateEndpointConnection.cs
+  PrivateEndpointConnectionProperties.cs
+  PrivateEndpointConnectionProvisioningState.cs
+  PrivateIPAllocationMethod.cs
+  PrivateLink.cs
+  PrivateLinkConfiguration.cs
+  PrivateLinkConfigurationProperties.cs
+  PrivateLinkConfigurationProvisioningState.cs
+  PrivateLinkResource.cs
+  PrivateLinkResourceListResult.cs
+  PrivateLinkResourceProperties.cs
+  PrivateLinkServiceConnectionState.cs
+  PrivateLinkServiceConnectionStatus.cs
+  ProxyResource.cs
+  QuotaCapability.cs
+  QuotaInfo.cs
+  RegionalQuotaCapability.cs
+  RegionsCapability.cs
+  Resource.cs
+  ResourceAutoGenerated.cs
+  ResourceId.cs
+  ResourceIdentityType.cs
+  ResourceProviderConnection.cs
+  Role.cs
+  RoleName.cs
+  RuntimeScriptAction.cs
+  RuntimeScriptActionDetail.cs
+  ScriptAction.cs
+  ScriptActionExecutionSummary.cs
+  ScriptActionPersistedGetResponseSpec.cs
+  SecurityProfile.cs
+  ServiceSpecification.cs
+  SshProfile.cs
+  SshPublicKey.cs
+  StorageAccount.cs
+  StorageProfile.cs
+  SystemData.cs
+  Tier.cs
+  TrackedResource.cs
+  UpdateClusterIdentityCertificateParameters.cs
+  UpdateGatewaySettingsParameters.cs
+  Usage.cs
+  UsagesListResult.cs
+  UserAssignedIdentity.cs
+  ValidationErrorInfo.cs
+  VersionsCapability.cs
+  VersionSpec.cs
+  VirtualNetworkProfile.cs
+  VmSizeCompatibilityFilterV2.cs
+  VmSizeProperty.cs
+ Operations.cs
+ OperationsExtensions.cs
+ PrivateEndpointConnectionsOperations.cs
+ PrivateEndpointConnectionsOperationsExtensions.cs
+ PrivateLinkResourcesOperations.cs
+ PrivateLinkResourcesOperationsExtensions.cs
+ ScriptActionsOperations.cs
+ ScriptActionsOperationsExtensions.cs
+ ScriptExecutionHistoryOperations.cs
+ ScriptExecutionHistoryOperationsExtensions.cs
+ VirtualMachinesOperations.cs
+ VirtualMachinesOperationsExtensions.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/Assemblyinfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/HDInsight.Management.Sdk.GeneratedMSBuildEditorConfig.editorconfig

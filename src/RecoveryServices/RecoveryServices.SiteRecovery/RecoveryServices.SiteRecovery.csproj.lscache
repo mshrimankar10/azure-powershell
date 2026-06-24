@@ -1,0 +1,207 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.Cmdlets.RecoveryServices.SiteRecovery
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.RecoveryServices/Microsoft.Azure.PowerShell.Cmdlets.RecoveryServices.SiteRecovery.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.Commands.RecoveryServices.SiteRecovery
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.RecoveryServices/Microsoft.Azure.PowerShell.Cmdlets.RecoveryServices.SiteRecovery.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.RecoveryServices/Microsoft.Azure.PowerShell.Cmdlets.RecoveryServices.SiteRecovery.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.Cmdlets.RecoveryServices.SiteRecovery.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+AlertSetting/
+ GetAzureRmRecoveryServicesAsrAlertSetting.cs
+ SetAzureRmRecoveryServicesAsrAlertSetting.cs
+ClusterRecoveryPoint/GetAzureRmRecoveryServicesAsrClusterRecoveryPoint.cs
+Common/
+ AsrCmdletBase.cs
+ PSAsrAlertSettingClient.cs
+ PSAsrClient.cs
+ PSAsrClientHelper.cs
+ PSAsrClusterRecoveryPointClient.cs
+ PSAsrComputeManagementClient.cs
+ PSAsrEventClient.cs
+ PSAsrFabricClient.cs
+ PSAsrFabricDiscoveryClient.cs
+ PSAsrJobClient.cs
+ PSAsrNetworkClient.cs
+ PSAsrNetworkMappingClient.cs
+ PSAsrPolicyClient.cs
+ PSAsrProtectableItemsClient.cs
+ PSAsrProtectionClustersClient.cs
+ PSAsrProtectionContainerClient.cs
+ PSAsrRecoveryPlanClient.cs
+ PSAsrRecoveryPointClient.cs
+ PSAsrRecoveryServicesProviderClient.cs
+ PSAsrReplicationProtectedItemsClient.cs
+ PSAsrStorageClassificationClient.cs
+ PSAsrVCenterClient.cs
+DiskReplicationConfiguration/
+ AzureRmAsrAzureToAzureDiskReplicationConfig.cs
+ AzureRmInMageAzureV2DiskInput.cs
+ AzureRmInMageRcmDiskInput.cs
+Event/GetAzureRmRecoveryServicesAsrEvent.cs
+Fabrics/
+ GetAzureRmRecoveryServicesAsrFabric.cs
+ NewAzureRmRecoveryServicesAsrFabric.cs
+ RemoveAzureRmRecoveryServicesAsrFabric.cs
+ StartAzRecoveryServicesAsrSwitchAppliance.cs
+ StartAzureRmRecoveryServicesAsrSwitchProcessServerJob.cs
+Job/
+ GetAzureRmRecoveryServicesAsrJob.cs
+ RestartAzureRmRecoveryServicesAsrJob.cs
+ ResumeAzureRmRecoveryServicesAsrJob.cs
+ StopAzureRmRecoveryServicesAsrJob.cs
+Models/
+ PSAlertSetting.cs
+ PSClusterObjects.cs
+ PSConstants.cs
+ PSContracts.cs
+ PSCustomPage.cs
+ PSEvent.cs
+ PSFabricDetails.cs
+ PSFabricDiscoveryObjects.cs
+ PSNetworkObjects.cs
+ PSObjects.cs
+ PSParameterSets.cs
+ PSRecoveryPlanObjects.cs
+ PSVCenter.cs
+Network/
+ GetAzureRmRecoveryServicesAsrNetwork.cs
+ GetAzureRmRecoveryServicesAsrNetworkMapping.cs
+ NewAzureRmRecoveryServicesAsrNetworkMapping.cs
+ RemoveAzureRmRecoveryServicesAsrNetworkMapping.cs
+ UpdateAzureRmRecoveryServicesAsrNetworkMapping.cs
+NetworkInterfaceCard/
+ NewAzureRmAsrVmNicConfig.cs
+ NewAzureRmAsrVmNicIPConfig.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Policy/
+ GetAzureRmRecoveryServicesAsrPolicy.cs
+ NewAzureRmRecoveryServicesAsrPolicy.cs
+ RemoveAzureRmRecoveryServicesAsrPolicy.cs
+ UpdateAzureRmRecoveryServicesAsrPolicy.cs
+Properties/
+ AssemblyInfo.cs
+ Resources.Designer.cs
+ProtectableItem/
+ GetAzureRmRecoveryServicesAsrProtectableItem.cs
+ NewAzureRmRecoveryServicesAsrProtectableItem.cs
+ProtectionCluster/
+ GetAzureRmRecoveryServicesAsrReplicationProtectionCluster.cs
+ NewAzureRmRecoveryServicesAsrReplicationProtectionCluster.cs
+ RemoveAzureRmRecoveryServicesAsrReplicationProtectionCluster.cs
+ StartAzureRmRecoveryServicesAsrApplyClusterRecoveryPoint.cs
+ StartAzureRmRecoveryServicesAsrClusterCommitFailoverJob.cs
+ StartAzureRmRecoveryServicesAsrClusterResynchronizeReplicationJob.cs
+ StartAzureRmRecoveryServicesAsrClusterTestFailoverCleanupJob.cs
+ StartAzureRmRecoveryServicesAsrClusterTestFailoverJob.cs
+ StartAzureRmRecoveryServicesAsrClusterUnplannedFailoverJob.cs
+ UpdateAzureRmRecoveryServicesAsrClusterProtectionDirection.cs
+ProtectionContainer/
+ GetAzureRmRecoveryServicesAsrProtectionContainer.cs
+ NewAzureRmRecoveryServicesAsrProtectionContainer.cs
+ RemoveAzureRmRecoveryServicesAsrProtectionContainer.cs
+ProtectionContainerMapping/
+ GetAzureRmRecoveryServicesAsrProtectionContainerMapping.cs
+ NewAzureRmRecoveryServicesAsrProtectionContainerMapping.cs
+ RemoveAzureRmRecoveryServicesAsrProtectionContainerMapping.cs
+ UpdateAzureRmRecoveryServicesAsrProtectionContainerMapping.cs
+RecoveryPlan/
+ EditAzureRmRecoveryServicesAsrRecoveryPlan.cs
+ GetAzureRmRecoveryServicesAsrRecoveryPlan.cs
+ NewAzureRmRecoveryServicesAsrRecoveryPlan.cs
+ RemoveAzureRmRecoveryServicesAsrRecoveryPlan.cs
+ UpdateAzureRmRecoveryServicesAsrRecoveryPlan.cs
+RecoveryPoint/GetAzureRmRecoveryServicesAsrRecoveryPoint.cs
+RecoveryServicesProvider/
+ GetAzureRmRecoveryServicesAsrServicesProvider.cs
+ RefreshAzureRmRecoveryServicesAsrServicesProvider.cs
+ RemoveAzureRmRecoveryServicesAsrServicesProvider.cs
+ReplicationProtectedItem/
+ AddAzureRmRecoveryServicesAsrReplicationProtectedItemDisk.cs
+ GetAzureRmRecoveryServicesAsrReplicationProtectedItem.cs
+ NewAzureRmRecoveryServicesAsrReplicationProtectedItem.cs
+ RemoveAzureRmRecoveryServicesAsrReplicationProtectedItem.cs
+ RemoveAzureRmRecoveryServicesAsrReplicationProtectedItemDisk.cs
+ SetAzureRmRecoveryServicesAsrReplicationProtectedItem.cs
+ StartAzureRmRecoveryServicesAsrApplyRecoveryPoint.cs
+ StartAzureRmRecoveryServicesAsrCancelFailoverJob.cs
+ StartAzureRmRecoveryServicesAsrCommitFailoverJob.cs
+ StartAzureRmRecoveryServicesAsrPlannedFailoverJob.cs
+ StartAzureRmRecoveryServicesAsrResynchronizeReplicationJob.cs
+ StartAzureRmRecoveryServicesAsrTestFailoverCleanupJob.cs
+ StartAzureRmRecoveryServicesAsrTestFailoverJob.cs
+ StartAzureRmRecoveryServicesAsrUnPlannedFailover.cs
+ UpdateAzureRmRecoveryServicesAsrMobilityService.cs
+ UpdateAzureRmRecoveryServicesAsrProtectionDirection.cs
+ReplicationProtectedItemConfig/AzureRmAsrAzureToAzureReplicationProtectedItemConfig.cs
+Storage/Classification/
+ GetAzureRmRecoveryServicesAsrStorageClassification.cs
+ GetAzureRmRecoveryServicesAsrStorageClassificationMapping.cs
+ NewAzureRmRecoveryServicesAsrStorageClassificationMapping.cs
+ RemoveAzureRmRecoveryServicesAsrStorageClassificationMapping.cs
+Utilities/
+ SiteRecoveryAutoMapperProfile.cs
+ Utilities.cs
+Vault/
+ GetAzureRmRecoveryServicesAsrVaultContext.cs
+ ImportAzureRmRecoveryServicesAsrVaultSettingsFile.cs
+ SetAzureRmRecoveryServicesAsrVaultContext.cs
+VCenter/
+ GetAzureRmRecoveryServicesAsrVCenter.cs
+ NewAzureRmRecoveryServicesAsrVCenter.cs
+ RemoveAzureRmRecoveryServicesAsrVCenter.cs
+ UpdateAzureRmRecoveryServicesAsrVCenter.cs
+
+[metadataReferences]
+../../../artifacts/Debug/Az.RecoveryServices/
+ Microsoft.Azure.PowerShell.Cmdlets.RecoveryServices.dll
+ Microsoft.Azure.PowerShell.RecoveryServices.Management.Sdk.dll
+ Microsoft.Azure.PowerShell.RecoveryServices.SiteRecovery.Management.Sdk.dll
+
+[analyzerConfigFiles]
+obj/Debug/RecoveryServices.SiteRecovery.GeneratedMSBuildEditorConfig.editorconfig

@@ -1,0 +1,440 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.BillingBenefits.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.BillingBenefits/BillingBenefits.Autorest/bin/Az.BillingBenefits.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.BillingBenefits
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.BillingBenefits/BillingBenefits.Autorest/bin/Az.BillingBenefits.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.BillingBenefits/BillingBenefits.Autorest/bin/Az.BillingBenefits.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.BillingBenefits.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/
+ BillingBenefits.cs
+ Models/
+  Any.cs
+  Any.json.cs
+  Any.PowerShell.cs
+  Any.TypeConverter.cs
+  AppliedScopeProperties.cs
+  AppliedScopeProperties.json.cs
+  AppliedScopeProperties.PowerShell.cs
+  AppliedScopeProperties.TypeConverter.cs
+  BillingBenefitsIdentity.cs
+  BillingBenefitsIdentity.json.cs
+  BillingBenefitsIdentity.PowerShell.cs
+  BillingBenefitsIdentity.TypeConverter.cs
+  BillingInformation.cs
+  BillingInformation.json.cs
+  BillingInformation.PowerShell.cs
+  BillingInformation.TypeConverter.cs
+  BillingPlanInformation.cs
+  BillingPlanInformation.json.cs
+  BillingPlanInformation.PowerShell.cs
+  BillingPlanInformation.TypeConverter.cs
+  Commitment.cs
+  Commitment.json.cs
+  Commitment.PowerShell.cs
+  Commitment.TypeConverter.cs
+  ErrorAdditionalInfo.cs
+  ErrorAdditionalInfo.json.cs
+  ErrorAdditionalInfo.PowerShell.cs
+  ErrorAdditionalInfo.TypeConverter.cs
+  ErrorDetail.cs
+  ErrorDetail.json.cs
+  ErrorDetail.PowerShell.cs
+  ErrorDetail.TypeConverter.cs
+  ErrorResponse.cs
+  ErrorResponse.json.cs
+  ErrorResponse.PowerShell.cs
+  ErrorResponse.TypeConverter.cs
+  ExtendedStatusInfo.cs
+  ExtendedStatusInfo.json.cs
+  ExtendedStatusInfo.PowerShell.cs
+  ExtendedStatusInfo.TypeConverter.cs
+  Operation.cs
+  Operation.json.cs
+  Operation.PowerShell.cs
+  Operation.TypeConverter.cs
+  OperationDisplay.cs
+  OperationDisplay.json.cs
+  OperationDisplay.PowerShell.cs
+  OperationDisplay.TypeConverter.cs
+  OperationListResult.cs
+  OperationListResult.json.cs
+  OperationListResult.PowerShell.cs
+  OperationListResult.TypeConverter.cs
+  OperationResultError.cs
+  OperationResultError.json.cs
+  OperationResultError.PowerShell.cs
+  OperationResultError.TypeConverter.cs
+  PaymentDetail.cs
+  PaymentDetail.json.cs
+  PaymentDetail.PowerShell.cs
+  PaymentDetail.TypeConverter.cs
+  Price.cs
+  Price.json.cs
+  Price.PowerShell.cs
+  Price.TypeConverter.cs
+  PricingCurrencyTotal.cs
+  PricingCurrencyTotal.json.cs
+  PricingCurrencyTotal.PowerShell.cs
+  PricingCurrencyTotal.TypeConverter.cs
+  PurchaseRequest.cs
+  PurchaseRequest.json.cs
+  PurchaseRequest.PowerShell.cs
+  PurchaseRequest.TypeConverter.cs
+  PurchaseRequestProperties.cs
+  PurchaseRequestProperties.json.cs
+  PurchaseRequestProperties.PowerShell.cs
+  PurchaseRequestProperties.TypeConverter.cs
+  RenewProperties.cs
+  RenewProperties.json.cs
+  RenewProperties.PowerShell.cs
+  RenewProperties.TypeConverter.cs
+  ReservationOrderAliasRequest.cs
+  ReservationOrderAliasRequest.json.cs
+  ReservationOrderAliasRequest.PowerShell.cs
+  ReservationOrderAliasRequest.TypeConverter.cs
+  ReservationOrderAliasRequestProperties.cs
+  ReservationOrderAliasRequestProperties.json.cs
+  ReservationOrderAliasRequestProperties.PowerShell.cs
+  ReservationOrderAliasRequestProperties.TypeConverter.cs
+  ReservationOrderAliasRequestPropertiesReservedResourceProperties.cs
+  ReservationOrderAliasRequestPropertiesReservedResourceProperties.json.cs
+  ReservationOrderAliasRequestPropertiesReservedResourceProperties.PowerShell.cs
+  ReservationOrderAliasRequestPropertiesReservedResourceProperties.TypeConverter.cs
+  ReservationOrderAliasResponse.cs
+  ReservationOrderAliasResponse.json.cs
+  ReservationOrderAliasResponse.PowerShell.cs
+  ReservationOrderAliasResponse.TypeConverter.cs
+  ReservationOrderAliasResponseProperties.cs
+  ReservationOrderAliasResponseProperties.json.cs
+  ReservationOrderAliasResponseProperties.PowerShell.cs
+  ReservationOrderAliasResponseProperties.TypeConverter.cs
+  ReservationOrderAliasResponsePropertiesReservedResourceProperties.cs
+  ReservationOrderAliasResponsePropertiesReservedResourceProperties.json.cs
+  ReservationOrderAliasResponsePropertiesReservedResourceProperties.PowerShell.cs
+  ReservationOrderAliasResponsePropertiesReservedResourceProperties.TypeConverter.cs
+  Resource.cs
+  Resource.json.cs
+  Resource.PowerShell.cs
+  Resource.TypeConverter.cs
+  RoleAssignmentEntity.cs
+  RoleAssignmentEntity.json.cs
+  RoleAssignmentEntity.PowerShell.cs
+  RoleAssignmentEntity.TypeConverter.cs
+  RoleAssignmentEntityProperties.cs
+  RoleAssignmentEntityProperties.json.cs
+  RoleAssignmentEntityProperties.PowerShell.cs
+  RoleAssignmentEntityProperties.TypeConverter.cs
+  SavingsPlanModel.cs
+  SavingsPlanModel.json.cs
+  SavingsPlanModel.PowerShell.cs
+  SavingsPlanModel.TypeConverter.cs
+  SavingsPlanModelList.cs
+  SavingsPlanModelList.json.cs
+  SavingsPlanModelList.PowerShell.cs
+  SavingsPlanModelList.TypeConverter.cs
+  SavingsPlanModelListResult.cs
+  SavingsPlanModelListResult.json.cs
+  SavingsPlanModelListResult.PowerShell.cs
+  SavingsPlanModelListResult.TypeConverter.cs
+  SavingsPlanModelProperties.cs
+  SavingsPlanModelProperties.json.cs
+  SavingsPlanModelProperties.PowerShell.cs
+  SavingsPlanModelProperties.TypeConverter.cs
+  SavingsPlanOrderAliasModel.cs
+  SavingsPlanOrderAliasModel.json.cs
+  SavingsPlanOrderAliasModel.PowerShell.cs
+  SavingsPlanOrderAliasModel.TypeConverter.cs
+  SavingsPlanOrderAliasProperties.cs
+  SavingsPlanOrderAliasProperties.json.cs
+  SavingsPlanOrderAliasProperties.PowerShell.cs
+  SavingsPlanOrderAliasProperties.TypeConverter.cs
+  SavingsPlanOrderModel.cs
+  SavingsPlanOrderModel.json.cs
+  SavingsPlanOrderModel.PowerShell.cs
+  SavingsPlanOrderModel.TypeConverter.cs
+  SavingsPlanOrderModelList.cs
+  SavingsPlanOrderModelList.json.cs
+  SavingsPlanOrderModelList.PowerShell.cs
+  SavingsPlanOrderModelList.TypeConverter.cs
+  SavingsPlanOrderModelProperties.cs
+  SavingsPlanOrderModelProperties.json.cs
+  SavingsPlanOrderModelProperties.PowerShell.cs
+  SavingsPlanOrderModelProperties.TypeConverter.cs
+  SavingsPlanPurchaseValidateRequest.cs
+  SavingsPlanPurchaseValidateRequest.json.cs
+  SavingsPlanPurchaseValidateRequest.PowerShell.cs
+  SavingsPlanPurchaseValidateRequest.TypeConverter.cs
+  SavingsPlanSummary.cs
+  SavingsPlanSummary.json.cs
+  SavingsPlanSummary.PowerShell.cs
+  SavingsPlanSummary.TypeConverter.cs
+  SavingsPlanSummaryCount.cs
+  SavingsPlanSummaryCount.json.cs
+  SavingsPlanSummaryCount.PowerShell.cs
+  SavingsPlanSummaryCount.TypeConverter.cs
+  SavingsPlanUpdateRequest.cs
+  SavingsPlanUpdateRequest.json.cs
+  SavingsPlanUpdateRequest.PowerShell.cs
+  SavingsPlanUpdateRequest.TypeConverter.cs
+  SavingsPlanUpdateRequestProperties.cs
+  SavingsPlanUpdateRequestProperties.json.cs
+  SavingsPlanUpdateRequestProperties.PowerShell.cs
+  SavingsPlanUpdateRequestProperties.TypeConverter.cs
+  SavingsPlanUpdateValidateRequest.cs
+  SavingsPlanUpdateValidateRequest.json.cs
+  SavingsPlanUpdateValidateRequest.PowerShell.cs
+  SavingsPlanUpdateValidateRequest.TypeConverter.cs
+  SavingsPlanValidateResponse.cs
+  SavingsPlanValidateResponse.json.cs
+  SavingsPlanValidateResponse.PowerShell.cs
+  SavingsPlanValidateResponse.TypeConverter.cs
+  SavingsPlanValidResponseProperty.cs
+  SavingsPlanValidResponseProperty.json.cs
+  SavingsPlanValidResponseProperty.PowerShell.cs
+  SavingsPlanValidResponseProperty.TypeConverter.cs
+  Sku.cs
+  Sku.json.cs
+  Sku.PowerShell.cs
+  Sku.TypeConverter.cs
+  SystemData.cs
+  SystemData.json.cs
+  SystemData.PowerShell.cs
+  SystemData.TypeConverter.cs
+  Utilization.cs
+  Utilization.json.cs
+  Utilization.PowerShell.cs
+  Utilization.TypeConverter.cs
+  UtilizationAggregates.cs
+  UtilizationAggregates.json.cs
+  UtilizationAggregates.PowerShell.cs
+  UtilizationAggregates.TypeConverter.cs
+generated/cmdlets/
+ GetAzBillingBenefitsOperation_List.cs
+ GetAzBillingBenefitsReservationOrderAlias_Get.cs
+ GetAzBillingBenefitsReservationOrderAlias_GetViaIdentity.cs
+ GetAzBillingBenefitsSavingsPlanList_List.cs
+ GetAzBillingBenefitsSavingsPlanOrderAlias_Get.cs
+ GetAzBillingBenefitsSavingsPlanOrderAlias_GetViaIdentity.cs
+ GetAzBillingBenefitsSavingsPlanOrder_Get.cs
+ GetAzBillingBenefitsSavingsPlanOrder_GetViaIdentity.cs
+ GetAzBillingBenefitsSavingsPlanOrder_List.cs
+ GetAzBillingBenefitsSavingsPlan_Get.cs
+ GetAzBillingBenefitsSavingsPlan_GetViaIdentity.cs
+ GetAzBillingBenefitsSavingsPlan_GetViaIdentitySavingsPlanOrder.cs
+ GetAzBillingBenefitsSavingsPlan_List.cs
+ InvokeAzBillingBenefitsElevateSavingPlanOrder_Elevate.cs
+ InvokeAzBillingBenefitsElevateSavingPlanOrder_ElevateViaIdentity.cs
+ InvokeAzBillingBenefitsSavingsPlanPurchaseValidation_ValidateExpanded.cs
+ InvokeAzBillingBenefitsSavingsPlanPurchaseValidation_ValidateViaJsonFilePath.cs
+ InvokeAzBillingBenefitsSavingsPlanPurchaseValidation_ValidateViaJsonString.cs
+ InvokeAzBillingBenefitsSavingsPlanUpdateValidation_ValidateExpanded.cs
+ InvokeAzBillingBenefitsSavingsPlanUpdateValidation_ValidateViaIdentityExpanded.cs
+ InvokeAzBillingBenefitsSavingsPlanUpdateValidation_ValidateViaIdentitySavingsPlanOrderExpanded.cs
+ InvokeAzBillingBenefitsSavingsPlanUpdateValidation_ValidateViaJsonFilePath.cs
+ InvokeAzBillingBenefitsSavingsPlanUpdateValidation_ValidateViaJsonString.cs
+ NewAzBillingBenefitsReservationOrderAlias_CreateExpanded.cs
+ NewAzBillingBenefitsReservationOrderAlias_CreateViaJsonFilePath.cs
+ NewAzBillingBenefitsReservationOrderAlias_CreateViaJsonString.cs
+ NewAzBillingBenefitsSavingsPlanOrderAlias_CreateExpanded.cs
+ NewAzBillingBenefitsSavingsPlanOrderAlias_CreateViaJsonFilePath.cs
+ NewAzBillingBenefitsSavingsPlanOrderAlias_CreateViaJsonString.cs
+ UpdateAzBillingBenefitsSavingsPlanOrderAlias_UpdateExpanded.cs
+ UpdateAzBillingBenefitsSavingsPlanOrderAlias_UpdateViaIdentityExpanded.cs
+ UpdateAzBillingBenefitsSavingsPlan_UpdateExpanded.cs
+ UpdateAzBillingBenefitsSavingsPlan_UpdateViaIdentityExpanded.cs
+ UpdateAzBillingBenefitsSavingsPlan_UpdateViaIdentitySavingsPlanOrderExpanded.cs
+ UpdateAzBillingBenefitsSavingsPlan_UpdateViaJsonFilePath.cs
+ UpdateAzBillingBenefitsSavingsPlan_UpdateViaJsonString.cs
+generated/
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.BillingBenefits.GeneratedMSBuildEditorConfig.editorconfig

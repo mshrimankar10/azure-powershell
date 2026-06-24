@@ -1,0 +1,590 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.Elastic.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.Elastic/Elastic.Autorest/bin/Az.Elastic.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.Elastic
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.Elastic/Elastic.Autorest/bin/Az.Elastic.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.Elastic/Elastic.Autorest/bin/Az.Elastic.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.Elastic.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/
+ Elastic.cs
+ Models/
+  Any.cs
+  Any.json.cs
+  Any.PowerShell.cs
+  Any.TypeConverter.cs
+  BillingInfoResponse.cs
+  BillingInfoResponse.json.cs
+  BillingInfoResponse.PowerShell.cs
+  BillingInfoResponse.TypeConverter.cs
+  CompanyInfo.cs
+  CompanyInfo.json.cs
+  CompanyInfo.PowerShell.cs
+  CompanyInfo.TypeConverter.cs
+  ConnectedPartnerResourceProperties.cs
+  ConnectedPartnerResourceProperties.json.cs
+  ConnectedPartnerResourceProperties.PowerShell.cs
+  ConnectedPartnerResourceProperties.TypeConverter.cs
+  ConnectedPartnerResourcesListFormat.cs
+  ConnectedPartnerResourcesListFormat.json.cs
+  ConnectedPartnerResourcesListFormat.PowerShell.cs
+  ConnectedPartnerResourcesListFormat.TypeConverter.cs
+  ConnectedPartnerResourcesListResponse.cs
+  ConnectedPartnerResourcesListResponse.json.cs
+  ConnectedPartnerResourcesListResponse.PowerShell.cs
+  ConnectedPartnerResourcesListResponse.TypeConverter.cs
+  DeploymentInfoResponse.cs
+  DeploymentInfoResponse.json.cs
+  DeploymentInfoResponse.PowerShell.cs
+  DeploymentInfoResponse.TypeConverter.cs
+  ElasticCloudDeployment.cs
+  ElasticCloudDeployment.json.cs
+  ElasticCloudDeployment.PowerShell.cs
+  ElasticCloudDeployment.TypeConverter.cs
+  ElasticCloudUser.cs
+  ElasticCloudUser.json.cs
+  ElasticCloudUser.PowerShell.cs
+  ElasticCloudUser.TypeConverter.cs
+  ElasticIdentity.cs
+  ElasticIdentity.json.cs
+  ElasticIdentity.PowerShell.cs
+  ElasticIdentity.TypeConverter.cs
+  ElasticMonitorResource.cs
+  ElasticMonitorResource.json.cs
+  ElasticMonitorResource.PowerShell.cs
+  ElasticMonitorResource.TypeConverter.cs
+  ElasticMonitorResourceListResponse.cs
+  ElasticMonitorResourceListResponse.json.cs
+  ElasticMonitorResourceListResponse.PowerShell.cs
+  ElasticMonitorResourceListResponse.TypeConverter.cs
+  ElasticMonitorResourceTags.cs
+  ElasticMonitorResourceTags.dictionary.cs
+  ElasticMonitorResourceTags.json.cs
+  ElasticMonitorResourceTags.PowerShell.cs
+  ElasticMonitorResourceTags.TypeConverter.cs
+  ElasticMonitorResourceUpdateParameters.cs
+  ElasticMonitorResourceUpdateParameters.json.cs
+  ElasticMonitorResourceUpdateParameters.PowerShell.cs
+  ElasticMonitorResourceUpdateParameters.TypeConverter.cs
+  ElasticMonitorResourceUpdateParametersTags.cs
+  ElasticMonitorResourceUpdateParametersTags.dictionary.cs
+  ElasticMonitorResourceUpdateParametersTags.json.cs
+  ElasticMonitorResourceUpdateParametersTags.PowerShell.cs
+  ElasticMonitorResourceUpdateParametersTags.TypeConverter.cs
+  ElasticMonitorUpgrade.cs
+  ElasticMonitorUpgrade.json.cs
+  ElasticMonitorUpgrade.PowerShell.cs
+  ElasticMonitorUpgrade.TypeConverter.cs
+  ElasticOrganizationToAzureSubscriptionMappingResponse.cs
+  ElasticOrganizationToAzureSubscriptionMappingResponse.json.cs
+  ElasticOrganizationToAzureSubscriptionMappingResponse.PowerShell.cs
+  ElasticOrganizationToAzureSubscriptionMappingResponse.TypeConverter.cs
+  ElasticOrganizationToAzureSubscriptionMappingResponseProperties.cs
+  ElasticOrganizationToAzureSubscriptionMappingResponseProperties.json.cs
+  ElasticOrganizationToAzureSubscriptionMappingResponseProperties.PowerShell.cs
+  ElasticOrganizationToAzureSubscriptionMappingResponseProperties.TypeConverter.cs
+  ElasticProperties.cs
+  ElasticProperties.json.cs
+  ElasticProperties.PowerShell.cs
+  ElasticProperties.TypeConverter.cs
+  ElasticTrafficFilter.cs
+  ElasticTrafficFilter.json.cs
+  ElasticTrafficFilter.PowerShell.cs
+  ElasticTrafficFilter.TypeConverter.cs
+  ElasticTrafficFilterResponse.cs
+  ElasticTrafficFilterResponse.json.cs
+  ElasticTrafficFilterResponse.PowerShell.cs
+  ElasticTrafficFilterResponse.TypeConverter.cs
+  ElasticTrafficFilterRule.cs
+  ElasticTrafficFilterRule.json.cs
+  ElasticTrafficFilterRule.PowerShell.cs
+  ElasticTrafficFilterRule.TypeConverter.cs
+  ElasticVersionListFormat.cs
+  ElasticVersionListFormat.json.cs
+  ElasticVersionListFormat.PowerShell.cs
+  ElasticVersionListFormat.TypeConverter.cs
+  ElasticVersionListProperties.cs
+  ElasticVersionListProperties.json.cs
+  ElasticVersionListProperties.PowerShell.cs
+  ElasticVersionListProperties.TypeConverter.cs
+  ElasticVersionsListResponse.cs
+  ElasticVersionsListResponse.json.cs
+  ElasticVersionsListResponse.PowerShell.cs
+  ElasticVersionsListResponse.TypeConverter.cs
+  ErrorAdditionalInfo.cs
+  ErrorAdditionalInfo.json.cs
+  ErrorAdditionalInfo.PowerShell.cs
+  ErrorAdditionalInfo.TypeConverter.cs
+  ErrorDetail.cs
+  ErrorDetail.json.cs
+  ErrorDetail.PowerShell.cs
+  ErrorDetail.TypeConverter.cs
+  ErrorResponse.cs
+  ErrorResponse.json.cs
+  ErrorResponse.PowerShell.cs
+  ErrorResponse.TypeConverter.cs
+  ErrorResponseBody.cs
+  ErrorResponseBody.json.cs
+  ErrorResponseBody.PowerShell.cs
+  ErrorResponseBody.TypeConverter.cs
+  ExternalUserCreationResponse.cs
+  ExternalUserCreationResponse.json.cs
+  ExternalUserCreationResponse.PowerShell.cs
+  ExternalUserCreationResponse.TypeConverter.cs
+  ExternalUserInfo.cs
+  ExternalUserInfo.json.cs
+  ExternalUserInfo.PowerShell.cs
+  ExternalUserInfo.TypeConverter.cs
+  FilteringTag.cs
+  FilteringTag.json.cs
+  FilteringTag.PowerShell.cs
+  FilteringTag.TypeConverter.cs
+  IdentityProperties.cs
+  IdentityProperties.json.cs
+  IdentityProperties.PowerShell.cs
+  IdentityProperties.TypeConverter.cs
+  LogRules.cs
+  LogRules.json.cs
+  LogRules.PowerShell.cs
+  LogRules.TypeConverter.cs
+  MarketplaceSaaSInfo.cs
+  MarketplaceSaaSInfo.json.cs
+  MarketplaceSaaSInfo.PowerShell.cs
+  MarketplaceSaaSInfo.TypeConverter.cs
+  MarketplaceSaaSInfoMarketplaceSubscription.cs
+  MarketplaceSaaSInfoMarketplaceSubscription.json.cs
+  MarketplaceSaaSInfoMarketplaceSubscription.PowerShell.cs
+  MarketplaceSaaSInfoMarketplaceSubscription.TypeConverter.cs
+  MonitoredResource.cs
+  MonitoredResource.json.cs
+  MonitoredResource.PowerShell.cs
+  MonitoredResource.TypeConverter.cs
+  MonitoredResourceListResponse.cs
+  MonitoredResourceListResponse.json.cs
+  MonitoredResourceListResponse.PowerShell.cs
+  MonitoredResourceListResponse.TypeConverter.cs
+  MonitoredSubscription.cs
+  MonitoredSubscription.json.cs
+  MonitoredSubscription.PowerShell.cs
+  MonitoredSubscription.TypeConverter.cs
+  MonitoredSubscriptionProperties.cs
+  MonitoredSubscriptionProperties.json.cs
+  MonitoredSubscriptionProperties.PowerShell.cs
+  MonitoredSubscriptionProperties.TypeConverter.cs
+  MonitoredSubscriptionPropertiesList.cs
+  MonitoredSubscriptionPropertiesList.json.cs
+  MonitoredSubscriptionPropertiesList.PowerShell.cs
+  MonitoredSubscriptionPropertiesList.TypeConverter.cs
+  MonitoringTagRules.cs
+  MonitoringTagRules.json.cs
+  MonitoringTagRules.PowerShell.cs
+  MonitoringTagRules.TypeConverter.cs
+  MonitoringTagRulesListResponse.cs
+  MonitoringTagRulesListResponse.json.cs
+  MonitoringTagRulesListResponse.PowerShell.cs
+  MonitoringTagRulesListResponse.TypeConverter.cs
+  MonitoringTagRulesProperties.cs
+  MonitoringTagRulesProperties.json.cs
+  MonitoringTagRulesProperties.PowerShell.cs
+  MonitoringTagRulesProperties.TypeConverter.cs
+  MonitorProperties.cs
+  MonitorProperties.json.cs
+  MonitorProperties.PowerShell.cs
+  MonitorProperties.TypeConverter.cs
+  OpenAiIntegrationProperties.cs
+  OpenAiIntegrationProperties.json.cs
+  OpenAiIntegrationProperties.PowerShell.cs
+  OpenAiIntegrationProperties.TypeConverter.cs
+  OpenAiIntegrationRpmodel.cs
+  OpenAiIntegrationRpmodel.json.cs
+  OpenAiIntegrationRpmodel.PowerShell.cs
+  OpenAiIntegrationRpmodel.TypeConverter.cs
+  OpenAiIntegrationRpmodelListResponse.cs
+  OpenAiIntegrationRpmodelListResponse.json.cs
+  OpenAiIntegrationRpmodelListResponse.PowerShell.cs
+  OpenAiIntegrationRpmodelListResponse.TypeConverter.cs
+  OpenAiIntegrationStatusResponse.cs
+  OpenAiIntegrationStatusResponse.json.cs
+  OpenAiIntegrationStatusResponse.PowerShell.cs
+  OpenAiIntegrationStatusResponse.TypeConverter.cs
+  OpenAiIntegrationStatusResponseProperties.cs
+  OpenAiIntegrationStatusResponseProperties.json.cs
+  OpenAiIntegrationStatusResponseProperties.PowerShell.cs
+  OpenAiIntegrationStatusResponseProperties.TypeConverter.cs
+  OperationDisplay.cs
+  OperationDisplay.json.cs
+  OperationDisplay.PowerShell.cs
+  OperationDisplay.TypeConverter.cs
+  OperationListResult.cs
+  OperationListResult.json.cs
+  OperationListResult.PowerShell.cs
+  OperationListResult.TypeConverter.cs
+  OperationResult.cs
+  OperationResult.json.cs
+  OperationResult.PowerShell.cs
+  OperationResult.TypeConverter.cs
+  PartnerBillingEntity.cs
+  PartnerBillingEntity.json.cs
+  PartnerBillingEntity.PowerShell.cs
+  PartnerBillingEntity.TypeConverter.cs
+  PlanDetails.cs
+  PlanDetails.json.cs
+  PlanDetails.PowerShell.cs
+  PlanDetails.TypeConverter.cs
+  ProjectDetails.cs
+  ProjectDetails.json.cs
+  ProjectDetails.PowerShell.cs
+  ProjectDetails.TypeConverter.cs
+  ResourceProviderDefaultErrorResponse.cs
+  ResourceProviderDefaultErrorResponse.json.cs
+  ResourceProviderDefaultErrorResponse.PowerShell.cs
+  ResourceProviderDefaultErrorResponse.TypeConverter.cs
+  ResourceSku.cs
+  ResourceSku.json.cs
+  ResourceSku.PowerShell.cs
+  ResourceSku.TypeConverter.cs
+  ResubscribeProperties.cs
+  ResubscribeProperties.json.cs
+  ResubscribeProperties.PowerShell.cs
+  ResubscribeProperties.TypeConverter.cs
+  SubscriptionList.cs
+  SubscriptionList.json.cs
+  SubscriptionList.PowerShell.cs
+  SubscriptionList.TypeConverter.cs
+  SystemData.cs
+  SystemData.json.cs
+  SystemData.PowerShell.cs
+  SystemData.TypeConverter.cs
+  UpgradableVersionsList.cs
+  UpgradableVersionsList.json.cs
+  UpgradableVersionsList.PowerShell.cs
+  UpgradableVersionsList.TypeConverter.cs
+  UserApiKeyResponse.cs
+  UserApiKeyResponse.json.cs
+  UserApiKeyResponse.PowerShell.cs
+  UserApiKeyResponse.TypeConverter.cs
+  UserApiKeyResponseProperties.cs
+  UserApiKeyResponseProperties.json.cs
+  UserApiKeyResponseProperties.PowerShell.cs
+  UserApiKeyResponseProperties.TypeConverter.cs
+  UserEmailId.cs
+  UserEmailId.json.cs
+  UserEmailId.PowerShell.cs
+  UserEmailId.TypeConverter.cs
+  UserInfo.cs
+  UserInfo.json.cs
+  UserInfo.PowerShell.cs
+  UserInfo.TypeConverter.cs
+  VMCollectionUpdate.cs
+  VMCollectionUpdate.json.cs
+  VMCollectionUpdate.PowerShell.cs
+  VMCollectionUpdate.TypeConverter.cs
+  VMHostListResponse.cs
+  VMHostListResponse.json.cs
+  VMHostListResponse.PowerShell.cs
+  VMHostListResponse.TypeConverter.cs
+  VMIngestionDetailsResponse.cs
+  VMIngestionDetailsResponse.json.cs
+  VMIngestionDetailsResponse.PowerShell.cs
+  VMIngestionDetailsResponse.TypeConverter.cs
+  VMResources.cs
+  VMResources.json.cs
+  VMResources.PowerShell.cs
+  VMResources.TypeConverter.cs
+generated/cmdlets/
+ GetAzElasticAllTrafficFilter_List.cs
+ GetAzElasticBillingInfo_Get.cs
+ GetAzElasticBillingInfo_GetViaIdentity.cs
+ GetAzElasticConnectedPartnerResource_List.cs
+ GetAzElasticDeploymentInfo_List.cs
+ GetAzElasticDetailUpgradableVersion_Details.cs
+ GetAzElasticDetailUpgradableVersion_DetailsViaIdentity.cs
+ GetAzElasticDetailVMIngestion_Details.cs
+ GetAzElasticDetailVMIngestion_DetailsViaIdentity.cs
+ GetAzElasticListAssociatedTrafficFilter_List.cs
+ GetAzElasticMonitoredResource_List.cs
+ GetAzElasticMonitoredSubscription_Get.cs
+ GetAzElasticMonitoredSubscription_GetViaIdentity.cs
+ GetAzElasticMonitoredSubscription_GetViaIdentityMonitor.cs
+ GetAzElasticMonitoredSubscription_List.cs
+ GetAzElasticMonitor_Get.cs
+ GetAzElasticMonitor_GetViaIdentity.cs
+ GetAzElasticMonitor_List.cs
+ GetAzElasticMonitor_List1.cs
+ GetAzElasticOpenAiStatus_Get.cs
+ GetAzElasticOpenAiStatus_GetViaIdentity.cs
+ GetAzElasticOpenAiStatus_GetViaIdentityMonitor.cs
+ GetAzElasticOpenAi_Get.cs
+ GetAzElasticOpenAi_GetViaIdentity.cs
+ GetAzElasticOpenAi_GetViaIdentityMonitor.cs
+ GetAzElasticOpenAi_List.cs
+ GetAzElasticOperation_List.cs
+ GetAzElasticOrganizationApiKey_GetExpanded.cs
+ GetAzElasticOrganizationApiKey_GetViaJsonFilePath.cs
+ GetAzElasticOrganizationApiKey_GetViaJsonString.cs
+ GetAzElasticOrganizationElasticToAzureSubscriptionMapping_Get.cs
+ GetAzElasticResubscribeOrganization_Resubscribe.cs
+ GetAzElasticResubscribeOrganization_ResubscribeExpanded.cs
+ GetAzElasticResubscribeOrganization_ResubscribeViaIdentity.cs
+ GetAzElasticResubscribeOrganization_ResubscribeViaIdentityExpanded.cs
+ GetAzElasticResubscribeOrganization_ResubscribeViaJsonFilePath.cs
+ GetAzElasticResubscribeOrganization_ResubscribeViaJsonString.cs
+ GetAzElasticTagRule_Get.cs
+ GetAzElasticTagRule_GetViaIdentity.cs
+ GetAzElasticTagRule_GetViaIdentityMonitor.cs
+ GetAzElasticVersion_List.cs
+ GetAzElasticVMHost_List.cs
+ JoinAzElasticAssociateTrafficFilter_Associate.cs
+ JoinAzElasticAssociateTrafficFilter_AssociateViaIdentity.cs
+ NewAzElasticCreateAndAssociateIPFilter_Create.cs
+ NewAzElasticCreateAndAssociateIPFilter_CreateViaIdentity.cs
+ NewAzElasticCreateAndAssociatePlFilter_Create.cs
+ NewAzElasticCreateAndAssociatePlFilter_CreateViaIdentity.cs
+ NewAzElasticExternalUser_CreateExpanded.cs
+ NewAzElasticExternalUser_CreateViaIdentityExpanded.cs
+ NewAzElasticExternalUser_CreateViaJsonFilePath.cs
+ NewAzElasticExternalUser_CreateViaJsonString.cs
+ NewAzElasticMonitor_CreateExpanded.cs
+ NewAzElasticMonitor_CreateViaJsonFilePath.cs
+ NewAzElasticMonitor_CreateViaJsonString.cs
+ NewAzElasticOpenAi_CreateExpanded.cs
+ NewAzElasticOpenAi_CreateViaIdentityExpanded.cs
+ NewAzElasticOpenAi_CreateViaIdentityMonitorExpanded.cs
+ NewAzElasticOpenAi_CreateViaJsonFilePath.cs
+ NewAzElasticOpenAi_CreateViaJsonString.cs
+ NewAzElasticTagRule_CreateExpanded.cs
+ NewAzElasticTagRule_CreateViaIdentityMonitorExpanded.cs
+ NewAzElasticTagRule_CreateViaJsonFilePath.cs
+ NewAzElasticTagRule_CreateViaJsonString.cs
+ RemoveAzElasticDetachAndDeleteTrafficFilter_Delete.cs
+ RemoveAzElasticDetachAndDeleteTrafficFilter_DeleteViaIdentity.cs
+ RemoveAzElasticMonitoredSubscription_Delete.cs
+ RemoveAzElasticMonitoredSubscription_DeleteViaIdentity.cs
+ RemoveAzElasticMonitoredSubscription_DeleteViaIdentityMonitor.cs
+ RemoveAzElasticMonitor_Delete.cs
+ RemoveAzElasticMonitor_DeleteViaIdentity.cs
+ RemoveAzElasticOpenAi_Delete.cs
+ RemoveAzElasticOpenAi_DeleteViaIdentity.cs
+ RemoveAzElasticOpenAi_DeleteViaIdentityMonitor.cs
+ RemoveAzElasticTrafficFilter_Delete.cs
+ RemoveAzElasticTrafficFilter_DeleteViaIdentity.cs
+ UpdateAzElasticDetachTrafficFilter_Update.cs
+ UpdateAzElasticDetachTrafficFilter_UpdateViaIdentity.cs
+ UpdateAzElasticExternalUser_UpdateExpanded.cs
+ UpdateAzElasticExternalUser_UpdateViaIdentityExpanded.cs
+ UpdateAzElasticExternalUser_UpdateViaJsonFilePath.cs
+ UpdateAzElasticExternalUser_UpdateViaJsonString.cs
+ UpdateAzElasticMonitoredSubscription_UpdateExpanded.cs
+ UpdateAzElasticMonitoredSubscription_UpdateViaIdentityExpanded.cs
+ UpdateAzElasticMonitoredSubscription_UpdateViaIdentityMonitorExpanded.cs
+ UpdateAzElasticMonitoredSubscription_UpdateViaJsonFilePath.cs
+ UpdateAzElasticMonitoredSubscription_UpdateViaJsonString.cs
+ UpdateAzElasticMonitor_UpdateExpanded.cs
+ UpdateAzElasticMonitor_UpdateViaIdentityExpanded.cs
+ UpdateAzElasticMonitor_UpdateViaJsonFilePath.cs
+ UpdateAzElasticMonitor_UpdateViaJsonString.cs
+ UpdateAzElasticMonitor_Upgrade.cs
+ UpdateAzElasticMonitor_UpgradeExpanded.cs
+ UpdateAzElasticMonitor_UpgradeViaIdentity.cs
+ UpdateAzElasticOpenAi_UpdateExpanded.cs
+ UpdateAzElasticOpenAi_UpdateViaIdentityExpanded.cs
+ UpdateAzElasticOpenAi_UpdateViaIdentityMonitorExpanded.cs
+ UpdateAzElasticTagRule_UpdateExpanded.cs
+ UpdateAzElasticTagRule_UpdateViaIdentityExpanded.cs
+ UpdateAzElasticTagRule_UpdateViaIdentityMonitorExpanded.cs
+ UpdateAzElasticVMCollection_UpdateExpanded.cs
+ UpdateAzElasticVMCollection_UpdateViaIdentityExpanded.cs
+ UpdateAzElasticVMCollection_UpdateViaJsonFilePath.cs
+ UpdateAzElasticVMCollection_UpdateViaJsonString.cs
+generated/
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.Elastic.GeneratedMSBuildEditorConfig.editorconfig

@@ -1,0 +1,231 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.Cmdlets.IotHub
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.IotHub/Microsoft.Azure.PowerShell.Cmdlets.IotHub.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Commands.IotHub
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.IotHub/Microsoft.Azure.PowerShell.Cmdlets.IotHub.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.IotHub/Microsoft.Azure.PowerShell.Cmdlets.IotHub.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.Cmdlets.IotHub.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+Common/
+ IotHubBaseCmdlet.cs
+ IotHubDataPlaneUtils.cs
+ IotHubUtils.cs
+IotHub/
+ AddAzureRmIotHubCertificate.cs
+ AddAzureRmIotHubEventHubConsumerGroup.cs
+ AddAzureRmIotHubKey.cs
+ DataPlane/Configuration/
+  AddAzIotHubConfiguration.cs
+  GetAzIotHubConfiguration.cs
+  InvokeAzIotHubConfigurationMetricsQuery.cs
+  RemoveAzIotHubConfiguration.cs
+  SetAzIotHubConfiguration.cs
+ DataPlane/Deployment/
+  AddAzIotHubDeployment.cs
+  GetAzIotHubDeployment.cs
+  InvokeAzIotHubDeploymentMetricQuery.cs
+  RemoveAzIotHubDeployment.cs
+  SetAzIotHubDeployment.cs
+ DataPlane/Device/
+  AddAzIotHubDevice.cs
+  AddAzIotHubDeviceChildren.cs
+  GetAzIotHubDevice.cs
+  GetAzIothubDeviceChildren.cs
+  GetAzIotHubDeviceConnectionString.cs
+  GetAzIotHubDeviceParent.cs
+  GetAzIotHubDeviceTwin.cs
+  InvokeAzIotHubDeviceMethod.cs
+  RemoveAzIotHubDevice.cs
+  RemoveAzIotHubDeviceChildren.cs
+  SendAzIotHubDevice2CloudMessage.cs
+  SetAzIotHubDevice.cs
+  SetAzIotHubDeviceParent.cs
+  UpdateAzIotHubDeviceTwin.cs
+ DataPlane/DistributedTracing/
+  GetAzIotHubDistributedTracing.cs
+  SetAzIotHubDistributedTracing.cs
+ DataPlane/
+  InvokeAzIotHubQuery.cs
+  Models/
+   PSAuthenticationMechanism.cs
+   PSAuthenticationType.cs
+   PSCloudToDeviceMethodResult.cs
+   PSConfiguration.cs
+   PSConfigurationContent.cs
+   PSConfigurationMetrics.cs
+   PSConfigurationMetricsResult.cs
+   PSConfigurationMetricType.cs
+   PSDevice.cs
+   PSDeviceAuthType.cs
+   PSDeviceCapabilities.cs
+   PSDeviceChildren.cs
+   PSDeviceConnectionState.cs
+   PSDeviceConnectionString.cs
+   PSDeviceStatus.cs
+   PSDeviceTracing.cs
+   PSDeviceTwin.cs
+   PSDistributedTracing.cs
+   PSDistributedTracingSamplingMode.cs
+   PSKeyType.cs
+   PSModule.cs
+   PSModuleConnectionString.cs
+   PSModuleTwin.cs
+   PSSymmetricKey.cs
+   PSTransportType.cs
+   PSX509Thumbprint.cs
+  Module/
+   AddAzIotHubModule.cs
+   GetAzIotHubModule.cs
+   GetAzIotHubModuleConnectionString.cs
+   GetAzIotHubModuleTwin.cs
+   InvokeAzIotHubModuleMethod.cs
+   RemoveAzIotHubModule.cs
+   SetAzIotHubEdgeModule.cs
+   SetAzIotHubModule.cs
+   UpdateAzIotHubModuleTwin.cs
+  NewAzIotHubSasToken.cs
+ GetAzureRmEventHubConsumerGroup.cs
+ GetAzureRmIotHub.cs
+ GetAzureRmIotHubCertificate.cs
+ GetAzureRmIotHubCertificateVerificationCode.cs
+ GetAzureRmIotHubConnectionString.cs
+ GetAzureRmIotHubJob.cs
+ GetAzureRmIotHubKey.cs
+ GetAzureRmIotHubQuotaMetric.cs
+ GetAzureRmIotHubRegistryStatistic.cs
+ GetAzureRmIotHubValidSku.cs
+ ManualFailover/InvokeAzureRmIotHubManualFailover.cs
+ NewAzureRmIotHub.cs
+ NewAzureRmIotHubExportDevices.cs
+ NewAzureRmIotHubImportDevices.cs
+ NewAzureRmIotHubKey.cs
+ RemoveAzureRmIotHub.cs
+ RemoveAzureRmIotHubCertificate.cs
+ RemoveAzureRmIotHubEventHubConsumerGroup.cs
+ RemoveAzureRmIotHubKey.cs
+ Routing/
+  AddAzureRmIotHubMessageEnrichment.cs
+  AddAzureRmIotHubRoute.cs
+  AddAzureRmIotHubRoutingEndpoint.cs
+  GetAzureRmIotHubMessageEnrichment.cs
+  GetAzureRmIotHubRoute.cs
+  GetAzureRmIotHubRoutingEndpoint.cs
+  RemoveAzureRmIotHubMessageEnrichment.cs
+  RemoveAzureRmIotHubRoute.cs
+  RemoveAzureRmIotHubRoutingEndpoint.cs
+  SetAzureRmIotHubMessageEnrichment.cs
+  SetAzureRmIotHubRoute.cs
+  TestAzureRmIotHubRoute.cs
+ SetAzureRmIotHub.cs
+ SetAzureRmIotHubVerifiedCertificate.cs
+ UpdateAzureRmIotHub.cs
+Models/
+ PSAccessRights.cs
+ PSCapabilities.cs
+ PSCertificate.cs
+ PSCertificateDescription.cs
+ PSCertificateProperties.cs
+ PSCertificatePropertiesWithNonce.cs
+ PSCertificateWithNonceDescription.cs
+ PSCloudToDeviceProperties.cs
+ PSEndpointType.cs
+ PSEnrichmentProperties.cs
+ PSEventHubConsumerGroupInfo.cs
+ PSEventHubInputProperties.cs
+ PSEventHubProperties.cs
+ PSExportDevicesRequest.cs
+ PSFallbackRouteProperties.cs
+ PSFeedbackProperties.cs
+ PSImportDevicesRequest.cs
+ PSIotHub.cs
+ PSIotHubCapacity.cs
+ PSIotHubConnectionString.cs
+ PSIotHubInputProperties.cs
+ PSIotHubJobResponse.cs
+ PSIotHubJobStatus.cs
+ PSIotHubLocationDescription.cs
+ PSIotHubProperties.cs
+ PSIotHubQuotaMetrics.cs
+ PSIotHubRegistryStatistics.cs
+ PSIotHubScaleType.cs
+ PSIotHubSku.cs
+ PSIotHubSkuDescription.cs
+ PSIotHubSkuInfo.cs
+ PSIotHubSkuTier.cs
+ PSMessagingEndpointProperties.cs
+ PSOperationsMonitoringProperties.cs
+ PSRouteCompilationError.cs
+ PSRouteErrorPosition.cs
+ PSRouteErrorRange.cs
+ PSRouteProperties.cs
+ PSRoutingCustomEndpoint.cs
+ PSRoutingEndpoints.cs
+ PSRoutingEventHubProperties.cs
+ PSRoutingProperties.cs
+ PSRoutingServiceBusQueueEndpointProperties.cs
+ PSRoutingServiceBusTopicEndpointProperties.cs
+ PSRoutingSource.cs
+ PSRoutingStorageContainerProperties.cs
+ PSSBAccessRights.cs
+ PSSharedAccessAuthorizationRule.cs
+ PSSharedAccessSignatureAuthorizationRule.cs
+ PSStorageEndpointProperties.cs
+ PSTagsResource.cs
+ PSTestRouteResult.cs
+ PSTestRouteResultDetails.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/
+ AssemblyInfo.cs
+ Resources.Designer.cs
+
+[metadataReferences]
+../../../artifacts/Debug/Az.IotHub/Microsoft.Azure.PowerShell.IotHub.Management.Sdk.dll
+
+[analyzerConfigFiles]
+obj/Debug/IotHub.GeneratedMSBuildEditorConfig.editorconfig

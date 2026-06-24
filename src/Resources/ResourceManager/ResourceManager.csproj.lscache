@@ -1,0 +1,397 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.Cmdlets.ResourceManager
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.Resources/Microsoft.Azure.PowerShell.Cmdlets.ResourceManager.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.Commands.ResourceManager.Cmdlets
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.Resources/Microsoft.Azure.PowerShell.Cmdlets.ResourceManager.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.Resources/Microsoft.Azure.PowerShell.Cmdlets.ResourceManager.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.Cmdlets.ResourceManager.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+Attributes/
+ ChangeTypeCompleter.cs
+ ChangeTypeCompleterAttribute.cs
+ ValidateChangeTypesAttribute.cs
+Collections/InsensitiveDictionary.cs
+Comparers/
+ ChangeTypeComparer.cs
+ NewChangeTypeComparer.cs
+ NewPropertyChangeTypeComparer.cs
+ NewPSChangeTypeComparer.cs
+ PropertyChangeTypeComparer.cs
+ PSChangeTypeComparer.cs
+Components/
+ ApiVersionHelper.cs
+ Constants.cs
+ HttpClientHelper.cs
+ HttpClientHelperFactory.cs
+ HttpMethodExt.cs
+ HttpStatusCodeExt.cs
+ LongRunningOperationHelper.cs
+ OperationResult.cs
+ QueryFilterBuilder.cs
+ ResourceIdentifier.cs
+ ResourceIdUtility.cs
+ ResourceManagerClientHelper.cs
+ TagsHelper.cs
+ TemplateSpecPackagingEngine.cs
+Entities/Applications/
+ Application.cs
+ ApplicationArtifact.cs
+ ApplicationArtifactName.cs
+ ApplicationArtifactType.cs
+ ApplicationDefinition.cs
+ ApplicationDefinitionProperties.cs
+ ApplicationKind.cs
+ ApplicationLockLevel.cs
+ ApplicationPackageCustomerSupport.cs
+ ApplicationPackageSupportUrls.cs
+ ApplicationProperties.cs
+ ApplicationProviderAuthorization.cs
+Entities/
+ Authorization/Permission.cs
+ ErrorResponses/
+  ErrorResponseMessage.cs
+  ErrorResponseMessageException.cs
+  ExtendedErrorInfo.cs
+ Locks/
+  Lock.cs
+  LockLevel.cs
+  LockProperties.cs
+ Operations/AzureAsyncOperationResource.cs
+ Policy/
+  NonComplianceMessage.cs
+  PolicyAssignment.cs
+  PolicyAssignmentEnforcementMode.cs
+  PolicyAssignmentProperties.cs
+  PolicyDefinition.cs
+  PolicyDefinitionMode.cs
+  PolicyDefinitionProperties.cs
+  PolicyExemption.cs
+  PolicyExemptionCategory.cs
+  PolicyExemptionProperties.cs
+  PolicyRule.cs
+  PolicySetDefinition.cs
+  PolicySetDefinitionProperties.cs
+  PolicySku.cs
+  PolicyType.cs
+ Providers/
+  ResourceProviderDefinition.cs
+  ResourceTypeDefinition.cs
+ ProvisioningState/ProvisioningState.cs
+ ResourceGroup/
+  ExportTemplateParameters.cs
+  ResourceBatchMoveParameters.cs
+ ResourceIds/
+  ResourceGroupLevelResourceId.cs
+  ResourceId.cs
+  SubscriptionLevelResourceId.cs
+  TenantLevelResourceId.cs
+ Resources/
+  ManagedIdentityType.cs
+  Resource.cs
+  ResourceIdentity.cs
+  ResourceIdentityType.cs
+  ResourcePlan.cs
+  ResourceSku.cs
+  ResourceWithSystemData.cs
+  TerminalProvisioningStates.cs
+  UserAssignedIdentityResource.cs
+Extensions/
+ AsyncExtensions.cs
+ ChangeTypeExtensions.cs
+ CloudExceptionExtensions.cs
+ DiagnosticExtensions.cs
+ ErrorResponseMessageExceptionExtensions.cs
+ ExceptionExtensions.cs
+ HttpHeadersExtensions.cs
+ HttpMessageExtensions.cs
+ IEnumerableExtensions.cs
+ JsonExtensions.cs
+ JTokenExtensions.cs
+ NewChangeTypeExtensions.cs
+ NewPropertyChangeTypeExtensions.cs
+ ObjectExtensions.cs
+ PropertyChangeTypeExtensions.cs
+ PSChangeTypeExtensions.cs
+ PsObjectExtensions.cs
+ ResourceExtensions.cs
+Formatters/
+ Color.cs
+ ColoredStringBuilder.cs
+ PSResourceManagerErrorFormatter.cs
+ Symbol.cs
+ WhatIfJsonFormatter.cs
+ WhatIfOperationResultFormatter.cs
+Handlers/
+ AuthenticationHandler.cs
+ CmdletInfoHandler.cs
+ RetryHandler.cs
+ TracingHandler.cs
+ UserAgentHandler.cs
+Implementation/
+ Bicep/PublishAzureBicepModuleCmdlet.cs
+ CmdletBase/
+  DeploymentCmdletBase.cs
+  DeploymentCreateCmdlet.cs
+  DeploymentScriptCmdletBase.cs
+  DeploymentStacksCmdletBase.cs
+  DeploymentStacksCreateCmdletBase.cs
+  DeploymentWhatIfCmdlet.cs
+  ProviderFeatureCmdletBase.cs
+  ResourceManagerCmdletBase.cs
+  ResourceManagerCmdletBaseWithAPiVersion.cs
+  ResourceManipulationCmdletBase.cs
+  TemplateSpecCmdletBase.cs
+  TestDeploymentCmdletBase.cs
+ Deployments/
+  GetAzureManagementGroupDeploymentCmdlet.cs
+  GetAzureManagementGroupDeploymentOperationCmdlet.cs
+  GetAzureManagementGroupDeploymentWhatIfResultCmdlet.cs
+  GetAzureSubscriptionDeploymentCmdlet.cs
+  GetAzureSubscriptionDeploymentOperationCmdlet.cs
+  GetAzureSubscriptionDeploymentWhatIfResultCmdlet.cs
+  GetAzureTenantDeploymentCmdlet.cs
+  GetAzureTenantDeploymentOperationCmdlet.cs
+  GetAzureTenantDeploymentWhatIfResultCmdlet.cs
+  NewAzureManagementGroupDeploymentCmdlet.cs
+  NewAzureSubscriptionDeploymentCmdlet.cs
+  NewAzureTenantDeploymentCmdlet.cs
+  RemoveAzureManagementGroupDeploymentCmdlet.cs
+  RemoveAzureSubscriptionDeploymentCmdlet.cs
+  RemoveAzureTenantDeploymentCmdlet.cs
+  SaveAzureManagementGroupDeploymentTemplateCmdlet.cs
+  SaveAzureSubscriptionDeploymentTemplateCmdlet.cs
+  SaveAzureTenantDeploymentTemplateCmdlet.cs
+  StopAzureManagementGroupDeploymentCmdlet.cs
+  StopAzureSubscriptionDeploymentCmdlet.cs
+  StopAzureTenantDeploymentCmdlet.cs
+  TestAzureManagementGroupDeploymentCmdlet.cs
+  TestAzureSubscriptionDeploymentCmdlet.cs
+  TestAzureTenantDeploymentCmdlet.cs
+ DeploymentScripts/
+  GetAzDeploymentScript.cs
+  GetAzDeploymentScriptLog.cs
+  RemoveAzDeploymentScript.cs
+  SaveAzDeploymentScriptLog.cs
+ DeploymentStacks/
+  GetAzManagementGroupDeploymentStack.cs
+  GetAzResourceGroupDeploymentStack.cs
+  GetAzSubscriptionDeploymentStack.cs
+  NewAzManagementGroupDeploymentStack.cs
+  NewAzResourceGroupDeploymentStack.cs
+  NewAzSubscriptionDeploymentStack.cs
+  RemoveAzManagmentGroupDeploymentStack.cs
+  RemoveAzResourceGroupDeploymentStack.cs
+  RemoveAzSubscriptionDeploymentStack.cs
+  SaveAzManagmentGroupDeploymentStackTemplate.cs
+  SaveAzResourceGroupDeploymentStackTemplate.cs
+  SaveAzSubscriptionDeploymentStackTemplate.cs
+  SetAzManagmentGroupDeploymentStack.cs
+  SetAzResourceGroupDeploymentStack.cs
+  SetAzSubscriptionDeploymentStack.cs
+  TestAzManagementGroupDeploymentStack.cs
+  TestAzResourceGroupDeploymentStack.cs
+  TestAzSubscriptionDeploymentStack.cs
+ Features/
+  GetAzureProviderFeatureCmdlet.cs
+  GetAzureProviderPreviewFeatureCmdlet.cs
+  RegisterAzureProviderFeatureCmdlet.cs
+  RegisterAzureProviderPreviewFeatureCmdlet.cs
+  UnregisterAzureProviderFeatureCmdlet.cs
+  UnregisterAzureProviderPreviewFeatureCmdlet.cs
+ Locations/GetAzureLocationCmdlet.cs
+ Lock/
+  GetAzureResourceLockCmdlet.cs
+  NewAzureResourceLockCmdlet.cs
+  RemoveAzureResourceLockCmdlet.cs
+  ResourceLockManagementCmdletBase.cs
+  SetAzureResourceLockCmdlet.cs
+ ManagedApplications/
+  GetAzureManagedApplication.cs
+  GetAzureManagedApplicationDefinition.cs
+  ManagedApplicationCmdletBase.cs
+  NewAzureManagedApplication.cs
+  NewAzureManagedApplicationDefinition.cs
+  RemoveAzureManagedApplication.cs
+  RemoveAzureManagedApplicationDefinition.cs
+  SetAzureManagedApplication.cs
+  SetAzureManagedApplicationDefinition.cs
+ Policy/
+  GetAzurePolicyAliasCmdlet.cs
+  PsResourceProviderAlias.cs
+ Providers/
+  GetAzureProviderCmdlet.cs
+  RegisterAzureProviderCmdlet.cs
+  UnregisterAzureProviderCmdlet.cs
+ Resource/
+  GetAzureResourceCmdlet.cs
+  InvokeAzureResourceActionCmdlet.cs
+  MoveAzureResourceCmdlet.cs
+  NewAzureResourceCmdlet.cs
+  RemoveAzureResourceCmdlet.cs
+  SetAzureResourceCmdlet.cs
+ ResourceGroupDeployments/
+  GetAzureResourceGroupDeploymentCmdlet.cs
+  GetAzureResourceGroupDeploymentOperationCmdlet.cs
+  GetAzureResourceGroupDeploymentWhatIfResultCmdlet.cs
+  NewAzureResourceGroupDeploymentCmdlet.cs
+  RemoveAzureResourceGroupDeploymentCmdlet.cs
+  SaveAzureResourceGroupDeploymentTemplateCmdlet.cs
+  StopAzureResourceGroupDeploymentCmdlet.cs
+  TestAzureResourceGroupDeploymentCmdlet.cs
+ ResourceGroups/
+  ExportAzureResourceGroupCmdlet.cs
+  GetAzureResourceGroupCmdlet.cs
+  NewAzureResourceGroupCmdlet.cs
+  RemoveAzureResourceGroupCmdlet.cs
+  SetAzureResourceGroupCmdlet.cs
+ TemplateSpecs/
+  ExportAzTemplateSpec.cs
+  GetAzTemplateSpec.cs
+  NewAzTemplateSpec.cs
+  RemoveAzTemplateSpec.cs
+  SetAzTemplateSpec.cs
+Json/
+ CamelCasePropertyNamesWithOverridesContractResolver.cs
+ JsonPreserveCaseDictionaryAttribute.cs
+ PSJsonSerializer.cs
+ TimeSpanConverter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/
+ AssemblyInfo.cs
+ Resources.Designer.cs
+RestClients/
+ ResourceManagerRestClientBase.cs
+ ResourceManagerRestRestClient.cs
+SdkClient/
+ DeploymentScriptsSdkClient.cs
+ DeploymentStacksSdkClient.cs
+ NewResourceManagerSdkClient.cs
+ ProviderFeatureClient.cs
+ ResourceManagerCloudException.cs
+ ResourceManagerSdkClient.cs
+ SubscriptionSdkClient.cs
+ TemplateSpecsSdkClient.cs
+SdkExtensions/
+ NewResourcesExtensions.cs
+ ResourcesExtensions.cs
+SdkModels/Deployments/
+ DeploymentOperationErrorInfo.cs
+ DeploymentScope.cs
+ DeploymentVariable.cs
+ FilterDeploymentOptions.cs
+ PSChangeType.cs
+ PSCreateResourceGroupDeploymentParameters.cs
+ PSDeployment.cs
+ PSDeploymentCmdletParameters.cs
+ PSDeploymentObject.cs
+ PSDeploymentOperation.cs
+ PSDeploymentWhatIfCmdletParameters.cs
+ PSResourceGroupDeployment.cs
+ PSTemplatePath.cs
+ PSValidateResourceGroupDeploymentParameters.cs
+ PSWhatIfChange.cs
+ PSWhatIfDiagnostic.cs
+ PSWhatIfOperationResult.cs
+ PSWhatIfPropertyChange.cs
+ TemplateFile.cs
+ TemplateFileDefinition.cs
+ TemplateFileParameter.cs
+ TemplateFileTypeDefinition.cs
+ TemplateParameterFile.cs
+ TemplateParameterFileParameter.cs
+ TemplateValidationInfo.cs
+SdkModels/DeploymentScripts/
+ PsAzureCliScript.cs
+ PsAzurePowerShellScript.cs
+ PsAzureResourceBase.cs
+ PsAzureScriptBase.cs
+ PsDeploymentScript.cs
+ PsDeploymentScriptLog.cs
+ PsDeploymentScriptLogPath.cs
+ PSScriptStatus.cs
+SdkModels/DeploymentStacks/
+ PSActionOnUnmanage.cs
+ PSDenySettingsMode.cs
+ PSDeploymentStack.cs
+ PSDeploymentStackParameter.cs
+ PSDeploymentStackTemplateDefinition.cs
+ PSDeploymentStackTemplateLink.cs
+ PSDeploymentStackValidationInfo.cs
+SdkModels/
+ Errors/PSResourceManagerError.cs
+ Features/
+  PSProviderFeature.cs
+  PSSubscriptionFeatureRegistration.cs
+ Locations/PSResourceProviderLocation.cs
+ ResourceGroups/
+  PSCreateResourceGroupParameters.cs
+  PSResourceGroup.cs
+  PSUpdateResourceGroupParameters.cs
+ ResourceProvider/
+  PSResourceProvider.cs
+  PSResourceProviderResourceType.cs
+ Resources/PSResource.cs
+ TemplateSpecs/
+  PSTemplateSpec.cs
+  PSTemplateSpecArtifact.cs
+  PSTemplateSpecVersion.cs
+Utilities/
+ BicepUtility.cs
+ FileUtility.cs
+ HttpUtility.cs
+ ParameterUtility.cs
+ ProcessInvoker.cs
+ ResourceTypeUtility.cs
+ TemplateUtility.cs
+
+[metadataReferences]
+../../../artifacts/Debug/Az.Resources/Microsoft.Azure.PowerShell.Resources.Management.Sdk.dll
+
+[analyzerConfigFiles]
+obj/Debug/ResourceManager.GeneratedMSBuildEditorConfig.editorconfig

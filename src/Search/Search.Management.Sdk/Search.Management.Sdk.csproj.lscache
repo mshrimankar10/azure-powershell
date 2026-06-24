@@ -1,0 +1,170 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.Search.Management.Sdk
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.Search/Microsoft.Azure.PowerShell.Search.Management.Sdk.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.Management.Search
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.Search/Microsoft.Azure.PowerShell.Search.Management.Sdk.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,CS0108,CS1573,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.Search/Microsoft.Azure.PowerShell.Search.Management.Sdk.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.Search.Management.Sdk.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+Generated/
+ AdminKeysOperations.cs
+ AdminKeysOperationsExtensions.cs
+ IAdminKeysOperations.cs
+ INetworkSecurityPerimeterConfigurationsOperations.cs
+ IOperations.cs
+ IPrivateEndpointConnectionsOperations.cs
+ IPrivateLinkResourcesOperations.cs
+ IQueryKeysOperations.cs
+ ISearchManagementClient.cs
+ IServicesOperations.cs
+ ISharedPrivateLinkResourcesOperations.cs
+ IUsagesOperations.cs
+ Models/
+  AadAuthFailureMode.cs
+  AccessRule.cs
+  AccessRuleDirection.cs
+  AccessRuleProperties.cs
+  AccessRulePropertiesSubscriptionsItem.cs
+  ActionType.cs
+  AdminKeyKind.cs
+  AdminKeyResult.cs
+  AsyncOperationResult.cs
+  CheckNameAvailabilityInput.cs
+  CheckNameAvailabilityOutput.cs
+  ComputeType.cs
+  CreatedByType.cs
+  DataPlaneAadOrApiKeyAuthOption.cs
+  DataPlaneAuthOptions.cs
+  EncryptionWithCmk.cs
+  HostingMode.cs
+  Identity.cs
+  IdentityType.cs
+  IpRule.cs
+  IssueType.cs
+  NetworkRuleSet.cs
+  NetworkSecurityPerimeter.cs
+  NetworkSecurityPerimeterConfiguration.cs
+  NetworkSecurityPerimeterConfigurationProperties.cs
+  NetworkSecurityPerimeterConfigurationProvisioningState.cs
+  NetworkSecurityPerimeterConfigurationsReconcileHeaders.cs
+  NetworkSecurityProfile.cs
+  Operation.cs
+  OperationDisplay.cs
+  Origin.cs
+  Page.cs
+  Page1.cs
+  PrivateEndpointConnection.cs
+  PrivateEndpointConnectionProperties.cs
+  PrivateEndpointConnectionPropertiesPrivateEndpoint.cs
+  PrivateEndpointConnectionPropertiesPrivateLinkServiceConnectionState.cs
+  PrivateLinkResource.cs
+  PrivateLinkResourceProperties.cs
+  PrivateLinkServiceConnectionProvisioningState.cs
+  PrivateLinkServiceConnectionStatus.cs
+  ProvisioningIssue.cs
+  ProvisioningIssueProperties.cs
+  ProvisioningState.cs
+  ProxyResource.cs
+  PublicNetworkAccess.cs
+  QueryKey.cs
+  QuotaUsageResult.cs
+  QuotaUsageResultName.cs
+  Resource.cs
+  ResourceAssociation.cs
+  ResourceAssociationAccessMode.cs
+  ResourceType.cs
+  SearchBypass.cs
+  SearchDataExfiltrationProtection.cs
+  SearchEncryptionComplianceStatus.cs
+  SearchEncryptionWithCmk.cs
+  SearchManagementRequestOptions.cs
+  SearchSemanticSearch.cs
+  SearchService.cs
+  SearchServiceProperties.cs
+  SearchServiceStatus.cs
+  SearchServiceUpdate.cs
+  ServicesUpgradeHeaders.cs
+  Severity.cs
+  ShareablePrivateLinkResourceProperties.cs
+  ShareablePrivateLinkResourceType.cs
+  SharedPrivateLinkResource.cs
+  SharedPrivateLinkResourceAsyncOperationResult.cs
+  SharedPrivateLinkResourceProperties.cs
+  SharedPrivateLinkResourceProvisioningState.cs
+  SharedPrivateLinkResourceStatus.cs
+  Sku.cs
+  SkuName.cs
+  SystemData.cs
+  TrackedResource.cs
+  UnavailableNameReason.cs
+  UpgradeAvailable.cs
+  UserAssignedIdentity.cs
+ NetworkSecurityPerimeterConfigurationsOperations.cs
+ NetworkSecurityPerimeterConfigurationsOperationsExtensions.cs
+ Operations.cs
+ OperationsExtensions.cs
+ PrivateEndpointConnectionsOperations.cs
+ PrivateEndpointConnectionsOperationsExtensions.cs
+ PrivateLinkResourcesOperations.cs
+ PrivateLinkResourcesOperationsExtensions.cs
+ QueryKeysOperations.cs
+ QueryKeysOperationsExtensions.cs
+ SearchManagementClient.cs
+ SearchManagementClientExtensions.cs
+ ServicesOperations.cs
+ ServicesOperationsExtensions.cs
+ SharedPrivateLinkResourcesOperations.cs
+ SharedPrivateLinkResourcesOperationsExtensions.cs
+ UsagesOperations.cs
+ UsagesOperationsExtensions.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Search.Management.Sdk.GeneratedMSBuildEditorConfig.editorconfig

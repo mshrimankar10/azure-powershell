@@ -1,0 +1,635 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.ResourceMover.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.ResourceMover/ResourceMover.Autorest/bin/Az.ResourceMover.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.ResourceMover
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.ResourceMover/ResourceMover.Autorest/bin/Az.ResourceMover.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.ResourceMover/ResourceMover.Autorest/bin/Az.ResourceMover.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.ResourceMover.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/ResourceMover/ResourceMover.Autorest/custom/csharp/
+ AddAzResourceMoverMoveResource_CreateExpanded.cs
+  @folderNames=csharp
+ GetAzResourceMoverMoveCollection_Get.cs
+  @folderNames=csharp
+ GetAzResourceMoverMoveCollection_List.cs
+  @folderNames=csharp
+ GetAzResourceMoverMoveCollection_List1.cs
+  @folderNames=csharp
+ GetAzResourceMoverMoveResource_Get.cs
+  @folderNames=csharp
+ GetAzResourceMoverMoveResource_List.cs
+  @folderNames=csharp
+ GetAzResourceMoverRequiredForResources_List.cs
+  @folderNames=csharp
+ GetAzResourceMoverUnresolvedDependency_Get.cs
+  @folderNames=csharp
+ InvokeAzResourceMoverBulkRemove_BulkExpanded.cs
+  @folderNames=csharp
+ InvokeAzResourceMoverCommit_CommitExpanded.cs
+  @folderNames=csharp
+ InvokeAzResourceMoverDiscard_DiscardExpanded.cs
+  @folderNames=csharp
+ InvokeAzResourceMoverInitiateMove_InitiateExpanded.cs
+  @folderNames=csharp
+ InvokeAzResourceMoverPrepare_PrepareExpanded.cs
+  @folderNames=csharp
+ NewAzResourceMoverMoveCollection_CreateExpanded.cs
+  @folderNames=csharp
+ RemoveAzResourceMoverMoveCollection_Delete.cs
+  @folderNames=csharp
+ RemoveAzResourceMoverMoveResource_Delete.cs
+  @folderNames=csharp
+ ResolveAzResourceMoverMoveCollectionDependency_Resolve.cs
+  @folderNames=csharp
+ RestErrorHandler.cs
+  @folderNames=csharp
+../../../src/shared/ConfigKeys.cs
+generated/api/Models/
+ Any.cs
+ Any.json.cs
+ Any.PowerShell.cs
+ Any.TypeConverter.cs
+ Api20/
+  SystemData.cs
+  SystemData.json.cs
+  SystemData.PowerShell.cs
+  SystemData.TypeConverter.cs
+ Api20230801/
+  AffectedMoveResource.cs
+  AffectedMoveResource.json.cs
+  AffectedMoveResource.PowerShell.cs
+  AffectedMoveResource.TypeConverter.cs
+  AutomaticResolutionProperties.cs
+  AutomaticResolutionProperties.json.cs
+  AutomaticResolutionProperties.PowerShell.cs
+  AutomaticResolutionProperties.TypeConverter.cs
+  AvailabilitySetResourceSettings.cs
+  AvailabilitySetResourceSettings.json.cs
+  AvailabilitySetResourceSettings.PowerShell.cs
+  AvailabilitySetResourceSettings.TypeConverter.cs
+  AvailabilitySetResourceSettingsTags.cs
+  AvailabilitySetResourceSettingsTags.dictionary.cs
+  AvailabilitySetResourceSettingsTags.json.cs
+  AvailabilitySetResourceSettingsTags.PowerShell.cs
+  AvailabilitySetResourceSettingsTags.TypeConverter.cs
+  AzureResourceReference.cs
+  AzureResourceReference.json.cs
+  AzureResourceReference.PowerShell.cs
+  AzureResourceReference.TypeConverter.cs
+  BulkRemoveRequest.cs
+  BulkRemoveRequest.json.cs
+  BulkRemoveRequest.PowerShell.cs
+  BulkRemoveRequest.TypeConverter.cs
+  CloudError.cs
+  CloudError.json.cs
+  CloudError.PowerShell.cs
+  CloudError.TypeConverter.cs
+  CloudErrorBody.cs
+  CloudErrorBody.json.cs
+  CloudErrorBody.PowerShell.cs
+  CloudErrorBody.TypeConverter.cs
+  CommitRequest.cs
+  CommitRequest.json.cs
+  CommitRequest.PowerShell.cs
+  CommitRequest.TypeConverter.cs
+  DiscardRequest.cs
+  DiscardRequest.json.cs
+  DiscardRequest.PowerShell.cs
+  DiscardRequest.TypeConverter.cs
+  DiskEncryptionSetResourceSettings.cs
+  DiskEncryptionSetResourceSettings.json.cs
+  DiskEncryptionSetResourceSettings.PowerShell.cs
+  DiskEncryptionSetResourceSettings.TypeConverter.cs
+  Display.cs
+  Display.json.cs
+  Display.PowerShell.cs
+  Display.TypeConverter.cs
+  Identity.cs
+  Identity.json.cs
+  Identity.PowerShell.cs
+  Identity.TypeConverter.cs
+  JobStatus.cs
+  JobStatus.json.cs
+  JobStatus.PowerShell.cs
+  JobStatus.TypeConverter.cs
+  KeyVaultResourceSettings.cs
+  KeyVaultResourceSettings.json.cs
+  KeyVaultResourceSettings.PowerShell.cs
+  KeyVaultResourceSettings.TypeConverter.cs
+  LbBackendAddressPoolResourceSettings.cs
+  LbBackendAddressPoolResourceSettings.json.cs
+  LbBackendAddressPoolResourceSettings.PowerShell.cs
+  LbBackendAddressPoolResourceSettings.TypeConverter.cs
+  LbFrontendIpconfigurationResourceSettings.cs
+  LbFrontendIpconfigurationResourceSettings.json.cs
+  LbFrontendIpconfigurationResourceSettings.PowerShell.cs
+  LbFrontendIpconfigurationResourceSettings.TypeConverter.cs
+  LoadBalancerBackendAddressPoolReference.cs
+  LoadBalancerBackendAddressPoolReference.json.cs
+  LoadBalancerBackendAddressPoolReference.PowerShell.cs
+  LoadBalancerBackendAddressPoolReference.TypeConverter.cs
+  LoadBalancerNatRuleReference.cs
+  LoadBalancerNatRuleReference.json.cs
+  LoadBalancerNatRuleReference.PowerShell.cs
+  LoadBalancerNatRuleReference.TypeConverter.cs
+  LoadBalancerResourceSettings.cs
+  LoadBalancerResourceSettings.json.cs
+  LoadBalancerResourceSettings.PowerShell.cs
+  LoadBalancerResourceSettings.TypeConverter.cs
+  LoadBalancerResourceSettingsTags.cs
+  LoadBalancerResourceSettingsTags.dictionary.cs
+  LoadBalancerResourceSettingsTags.json.cs
+  LoadBalancerResourceSettingsTags.PowerShell.cs
+  LoadBalancerResourceSettingsTags.TypeConverter.cs
+  ManualResolutionProperties.cs
+  ManualResolutionProperties.json.cs
+  ManualResolutionProperties.PowerShell.cs
+  ManualResolutionProperties.TypeConverter.cs
+  MoveCollection.cs
+  MoveCollection.json.cs
+  MoveCollection.PowerShell.cs
+  MoveCollection.TypeConverter.cs
+  MoveCollectionProperties.cs
+  MoveCollectionProperties.json.cs
+  MoveCollectionProperties.PowerShell.cs
+  MoveCollectionProperties.TypeConverter.cs
+  MoveCollectionPropertiesErrors.cs
+  MoveCollectionPropertiesErrors.json.cs
+  MoveCollectionPropertiesErrors.PowerShell.cs
+  MoveCollectionPropertiesErrors.TypeConverter.cs
+  MoveCollectionResultList.cs
+  MoveCollectionResultList.json.cs
+  MoveCollectionResultList.PowerShell.cs
+  MoveCollectionResultList.TypeConverter.cs
+  MoveCollectionTags.cs
+  MoveCollectionTags.dictionary.cs
+  MoveCollectionTags.json.cs
+  MoveCollectionTags.PowerShell.cs
+  MoveCollectionTags.TypeConverter.cs
+  MoveErrorInfo.cs
+  MoveErrorInfo.json.cs
+  MoveErrorInfo.PowerShell.cs
+  MoveErrorInfo.TypeConverter.cs
+  MoveResource.cs
+  MoveResource.json.cs
+  MoveResource.PowerShell.cs
+  MoveResource.TypeConverter.cs
+  MoveResourceCollection.cs
+  MoveResourceCollection.json.cs
+  MoveResourceCollection.PowerShell.cs
+  MoveResourceCollection.TypeConverter.cs
+  MoveResourceDependency.cs
+  MoveResourceDependency.json.cs
+  MoveResourceDependency.PowerShell.cs
+  MoveResourceDependency.TypeConverter.cs
+  MoveResourceDependencyOverride.cs
+  MoveResourceDependencyOverride.json.cs
+  MoveResourceDependencyOverride.PowerShell.cs
+  MoveResourceDependencyOverride.TypeConverter.cs
+  MoveResourceError.cs
+  MoveResourceError.json.cs
+  MoveResourceError.PowerShell.cs
+  MoveResourceError.TypeConverter.cs
+  MoveResourceErrorBody.cs
+  MoveResourceErrorBody.json.cs
+  MoveResourceErrorBody.PowerShell.cs
+  MoveResourceErrorBody.TypeConverter.cs
+  MoveResourceFilter.cs
+  MoveResourceFilter.json.cs
+  MoveResourceFilter.PowerShell.cs
+  MoveResourceFilter.TypeConverter.cs
+  MoveResourceFilterProperties.cs
+  MoveResourceFilterProperties.json.cs
+  MoveResourceFilterProperties.PowerShell.cs
+  MoveResourceFilterProperties.TypeConverter.cs
+  MoveResourceProperties.cs
+  MoveResourceProperties.json.cs
+  MoveResourceProperties.PowerShell.cs
+  MoveResourceProperties.TypeConverter.cs
+  MoveResourcePropertiesErrors.cs
+  MoveResourcePropertiesErrors.json.cs
+  MoveResourcePropertiesErrors.PowerShell.cs
+  MoveResourcePropertiesErrors.TypeConverter.cs
+  MoveResourcePropertiesMoveStatus.cs
+  MoveResourcePropertiesMoveStatus.json.cs
+  MoveResourcePropertiesMoveStatus.PowerShell.cs
+  MoveResourcePropertiesMoveStatus.TypeConverter.cs
+  MoveResourceStatus.cs
+  MoveResourceStatus.json.cs
+  MoveResourceStatus.PowerShell.cs
+  MoveResourceStatus.TypeConverter.cs
+  NetworkInterfaceResourceSettings.cs
+  NetworkInterfaceResourceSettings.json.cs
+  NetworkInterfaceResourceSettings.PowerShell.cs
+  NetworkInterfaceResourceSettings.TypeConverter.cs
+  NetworkInterfaceResourceSettingsTags.cs
+  NetworkInterfaceResourceSettingsTags.dictionary.cs
+  NetworkInterfaceResourceSettingsTags.json.cs
+  NetworkInterfaceResourceSettingsTags.PowerShell.cs
+  NetworkInterfaceResourceSettingsTags.TypeConverter.cs
+  NetworkSecurityGroupResourceSettings.cs
+  NetworkSecurityGroupResourceSettings.json.cs
+  NetworkSecurityGroupResourceSettings.PowerShell.cs
+  NetworkSecurityGroupResourceSettings.TypeConverter.cs
+  NetworkSecurityGroupResourceSettingsTags.cs
+  NetworkSecurityGroupResourceSettingsTags.dictionary.cs
+  NetworkSecurityGroupResourceSettingsTags.json.cs
+  NetworkSecurityGroupResourceSettingsTags.PowerShell.cs
+  NetworkSecurityGroupResourceSettingsTags.TypeConverter.cs
+  NicIPConfigurationResourceSettings.cs
+  NicIPConfigurationResourceSettings.json.cs
+  NicIPConfigurationResourceSettings.PowerShell.cs
+  NicIPConfigurationResourceSettings.TypeConverter.cs
+  NsgReference.cs
+  NsgReference.json.cs
+  NsgReference.PowerShell.cs
+  NsgReference.TypeConverter.cs
+  NsgSecurityRule.cs
+  NsgSecurityRule.json.cs
+  NsgSecurityRule.PowerShell.cs
+  NsgSecurityRule.TypeConverter.cs
+  OperationErrorAdditionalInfo.cs
+  OperationErrorAdditionalInfo.json.cs
+  OperationErrorAdditionalInfo.PowerShell.cs
+  OperationErrorAdditionalInfo.TypeConverter.cs
+  OperationsDiscovery.cs
+  OperationsDiscovery.json.cs
+  OperationsDiscovery.PowerShell.cs
+  OperationsDiscovery.TypeConverter.cs
+  OperationsDiscoveryCollection.cs
+  OperationsDiscoveryCollection.json.cs
+  OperationsDiscoveryCollection.PowerShell.cs
+  OperationsDiscoveryCollection.TypeConverter.cs
+  OperationStatus.cs
+  OperationStatus.json.cs
+  OperationStatus.PowerShell.cs
+  OperationStatus.TypeConverter.cs
+  OperationStatusError.cs
+  OperationStatusError.json.cs
+  OperationStatusError.PowerShell.cs
+  OperationStatusError.TypeConverter.cs
+  PrepareRequest.cs
+  PrepareRequest.json.cs
+  PrepareRequest.PowerShell.cs
+  PrepareRequest.TypeConverter.cs
+  ProxyResourceReference.cs
+  ProxyResourceReference.json.cs
+  ProxyResourceReference.PowerShell.cs
+  ProxyResourceReference.TypeConverter.cs
+  PublicIPAddressResourceSettings.cs
+  PublicIPAddressResourceSettings.json.cs
+  PublicIPAddressResourceSettings.PowerShell.cs
+  PublicIPAddressResourceSettings.TypeConverter.cs
+  PublicIPAddressResourceSettingsTags.cs
+  PublicIPAddressResourceSettingsTags.dictionary.cs
+  PublicIPAddressResourceSettingsTags.json.cs
+  PublicIPAddressResourceSettingsTags.PowerShell.cs
+  PublicIPAddressResourceSettingsTags.TypeConverter.cs
+  PublicIPReference.cs
+  PublicIPReference.json.cs
+  PublicIPReference.PowerShell.cs
+  PublicIPReference.TypeConverter.cs
+  RequiredForResourcesCollection.cs
+  RequiredForResourcesCollection.json.cs
+  RequiredForResourcesCollection.PowerShell.cs
+  RequiredForResourcesCollection.TypeConverter.cs
+  ResourceGroupResourceSettings.cs
+  ResourceGroupResourceSettings.json.cs
+  ResourceGroupResourceSettings.PowerShell.cs
+  ResourceGroupResourceSettings.TypeConverter.cs
+  ResourceMoveRequest.cs
+  ResourceMoveRequest.json.cs
+  ResourceMoveRequest.PowerShell.cs
+  ResourceMoveRequest.TypeConverter.cs
+  ResourceSettings.cs
+  ResourceSettings.json.cs
+  ResourceSettings.PowerShell.cs
+  ResourceSettings.TypeConverter.cs
+  SqlDatabaseResourceSettings.cs
+  SqlDatabaseResourceSettings.json.cs
+  SqlDatabaseResourceSettings.PowerShell.cs
+  SqlDatabaseResourceSettings.TypeConverter.cs
+  SqlDatabaseResourceSettingsTags.cs
+  SqlDatabaseResourceSettingsTags.dictionary.cs
+  SqlDatabaseResourceSettingsTags.json.cs
+  SqlDatabaseResourceSettingsTags.PowerShell.cs
+  SqlDatabaseResourceSettingsTags.TypeConverter.cs
+  SqlElasticPoolResourceSettings.cs
+  SqlElasticPoolResourceSettings.json.cs
+  SqlElasticPoolResourceSettings.PowerShell.cs
+  SqlElasticPoolResourceSettings.TypeConverter.cs
+  SqlElasticPoolResourceSettingsTags.cs
+  SqlElasticPoolResourceSettingsTags.dictionary.cs
+  SqlElasticPoolResourceSettingsTags.json.cs
+  SqlElasticPoolResourceSettingsTags.PowerShell.cs
+  SqlElasticPoolResourceSettingsTags.TypeConverter.cs
+  SqlServerResourceSettings.cs
+  SqlServerResourceSettings.json.cs
+  SqlServerResourceSettings.PowerShell.cs
+  SqlServerResourceSettings.TypeConverter.cs
+  SubnetReference.cs
+  SubnetReference.json.cs
+  SubnetReference.PowerShell.cs
+  SubnetReference.TypeConverter.cs
+  SubnetResourceSettings.cs
+  SubnetResourceSettings.json.cs
+  SubnetResourceSettings.PowerShell.cs
+  SubnetResourceSettings.TypeConverter.cs
+  Summary.cs
+  Summary.json.cs
+  Summary.PowerShell.cs
+  Summary.TypeConverter.cs
+  SummaryCollection.cs
+  SummaryCollection.json.cs
+  SummaryCollection.PowerShell.cs
+  SummaryCollection.TypeConverter.cs
+  UnresolvedDependenciesFilter.cs
+  UnresolvedDependenciesFilter.json.cs
+  UnresolvedDependenciesFilter.PowerShell.cs
+  UnresolvedDependenciesFilter.TypeConverter.cs
+  UnresolvedDependenciesFilterProperties.cs
+  UnresolvedDependenciesFilterProperties.json.cs
+  UnresolvedDependenciesFilterProperties.PowerShell.cs
+  UnresolvedDependenciesFilterProperties.TypeConverter.cs
+  UnresolvedDependency.cs
+  UnresolvedDependency.json.cs
+  UnresolvedDependency.PowerShell.cs
+  UnresolvedDependency.TypeConverter.cs
+  UnresolvedDependencyCollection.cs
+  UnresolvedDependencyCollection.json.cs
+  UnresolvedDependencyCollection.PowerShell.cs
+  UnresolvedDependencyCollection.TypeConverter.cs
+  UpdateMoveCollectionRequest.cs
+  UpdateMoveCollectionRequest.json.cs
+  UpdateMoveCollectionRequest.PowerShell.cs
+  UpdateMoveCollectionRequest.TypeConverter.cs
+  UpdateMoveCollectionRequestTags.cs
+  UpdateMoveCollectionRequestTags.dictionary.cs
+  UpdateMoveCollectionRequestTags.json.cs
+  UpdateMoveCollectionRequestTags.PowerShell.cs
+  UpdateMoveCollectionRequestTags.TypeConverter.cs
+  VirtualMachineResourceSettings.cs
+  VirtualMachineResourceSettings.json.cs
+  VirtualMachineResourceSettings.PowerShell.cs
+  VirtualMachineResourceSettings.TypeConverter.cs
+  VirtualMachineResourceSettingsTags.cs
+  VirtualMachineResourceSettingsTags.dictionary.cs
+  VirtualMachineResourceSettingsTags.json.cs
+  VirtualMachineResourceSettingsTags.PowerShell.cs
+  VirtualMachineResourceSettingsTags.TypeConverter.cs
+  VirtualNetworkResourceSettings.cs
+  VirtualNetworkResourceSettings.json.cs
+  VirtualNetworkResourceSettings.PowerShell.cs
+  VirtualNetworkResourceSettings.TypeConverter.cs
+  VirtualNetworkResourceSettingsTags.cs
+  VirtualNetworkResourceSettingsTags.dictionary.cs
+  VirtualNetworkResourceSettingsTags.json.cs
+  VirtualNetworkResourceSettingsTags.PowerShell.cs
+  VirtualNetworkResourceSettingsTags.TypeConverter.cs
+ ResourceMoverIdentity.cs
+ ResourceMoverIdentity.json.cs
+ ResourceMoverIdentity.PowerShell.cs
+ ResourceMoverIdentity.TypeConverter.cs
+generated/api/
+ ResourceMover.cs
+ Support/
+  CreatedByType.Completer.cs
+  CreatedByType.cs
+  CreatedByType.TypeConverter.cs
+  DependencyLevel.Completer.cs
+  DependencyLevel.cs
+  DependencyLevel.TypeConverter.cs
+  DependencyType.Completer.cs
+  DependencyType.cs
+  DependencyType.TypeConverter.cs
+  JobName.Completer.cs
+  JobName.cs
+  JobName.TypeConverter.cs
+  MoveResourceInputType.Completer.cs
+  MoveResourceInputType.cs
+  MoveResourceInputType.TypeConverter.cs
+  MoveState.Completer.cs
+  MoveState.cs
+  MoveState.TypeConverter.cs
+  MoveType.Completer.cs
+  MoveType.cs
+  MoveType.TypeConverter.cs
+  ProvisioningState.Completer.cs
+  ProvisioningState.cs
+  ProvisioningState.TypeConverter.cs
+  ResolutionType.Completer.cs
+  ResolutionType.cs
+  ResolutionType.TypeConverter.cs
+  ResourceIdentityType.Completer.cs
+  ResourceIdentityType.cs
+  ResourceIdentityType.TypeConverter.cs
+  TargetAvailabilityZone.Completer.cs
+  TargetAvailabilityZone.cs
+  TargetAvailabilityZone.TypeConverter.cs
+  ZoneRedundant.Completer.cs
+  ZoneRedundant.cs
+  ZoneRedundant.TypeConverter.cs
+generated/cmdlets/
+ AddAzResourceMoverMoveResource_CreateExpanded.cs
+ GetAzResourceMoverMoveCollection_Get.cs
+ GetAzResourceMoverMoveCollection_List.cs
+ GetAzResourceMoverMoveCollection_List1.cs
+ GetAzResourceMoverMoveResource_Get.cs
+ GetAzResourceMoverMoveResource_List.cs
+ GetAzResourceMoverRequiredForResources_List.cs
+ GetAzResourceMoverUnresolvedDependency_Get.cs
+ InvokeAzResourceMoverBulkRemove_BulkExpanded.cs
+ InvokeAzResourceMoverCommit_CommitExpanded.cs
+ InvokeAzResourceMoverDiscard_DiscardExpanded.cs
+ InvokeAzResourceMoverInitiateMove_InitiateExpanded.cs
+ InvokeAzResourceMoverPrepare_PrepareExpanded.cs
+ NewAzResourceMoverMoveCollection_CreateExpanded.cs
+ RemoveAzResourceMoverMoveCollection_Delete.cs
+ RemoveAzResourceMoverMoveResource_Delete.cs
+ ResolveAzResourceMoverMoveCollectionDependency_Resolve.cs
+generated/
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.ResourceMover.GeneratedMSBuildEditorConfig.editorconfig

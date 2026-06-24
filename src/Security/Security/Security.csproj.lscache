@@ -1,0 +1,362 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.Cmdlets.Security
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.Security/Microsoft.Azure.PowerShell.Cmdlets.Security.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.Commands.SecurityCenter
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.Security/Microsoft.Azure.PowerShell.Cmdlets.Security.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.Security/Microsoft.Azure.PowerShell.Cmdlets.Security.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.Cmdlets.Security.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+Cmdlets/AdaptiveApplicationControls/
+ GetAdaptiveApplicationControl.cs
+ GetAdaptiveApplicationControlGroup.cs
+Cmdlets/AdaptiveNetworkHardening/
+ AddAdaptiveNetworkHardening.cs
+ GetAdaptiveNetworkHardening.cs
+Cmdlets/AdvancedThreatProtection/
+ DisableAdvancedThreatProtection.cs
+ EnableAdvancedThreatProtection.cs
+ GetAdvancedThreatProtection.cs
+Cmdlets/Alerts/
+ GetAlerts.cs
+ SetAlerts.cs
+Cmdlets/AlertsSuppressionRules/
+ GetAlertsSuppressionRule.cs
+ NewAlertsSuppressionRuleScope.cs
+ RemoveAlertsSuppressionRule.cs
+ SetAlertsSuppressionRule.cs
+Cmdlets/
+ AllowedConnection/GetAllowedConnection.cs
+ AssessmentMetadata/
+  GetAssessmentMetadata.cs
+  RemoveAssessmentMetadata.cs
+  SetAssessmentMetadata.cs
+ Assessments/
+  GetAssessment.cs
+  RemoveAssessment.cs
+  SetAssessment.cs
+ Automations/
+  ConfirmAutomation.cs
+  GetAutomation.cs
+  NewAutomation.cs
+  NewAutomationActionObject.cs
+  NewAutomationRuleObject.cs
+  NewAutomationRuleSetObject.cs
+  NewAutomationScopeObject.cs
+  NewAutomationSourceObject.cs
+  RemoveAutomation.cs
+ AutoProvisioningSettings/
+  GetAutoProvisioningSettings.cs
+  SetAutoProvisioningSettings.cs
+ Compliances/GetCompliances.cs
+ DeviceSecurityGroups/
+  GetDeviceSecurityGroups.cs
+  NewDeviceSecurityGroupAllowlistCustomAlertRuleObject.cs
+  NewDeviceSecurityGroupDenylistCustomAlertRuleObject.cs
+  NewDeviceSecurityGroupThresholdCustomAlertRuleObject.cs
+  NewDeviceSecurityGroupTimeWindowRuleObject.cs
+  RemoveDeviceSecurityGroups.cs
+  SetDeviceSecurityGroups.cs
+ DiscoveredSecuritySolutions/GetDiscoveredSecuritySolutions.cs
+ ExternalSecuritySolutions/GetExternalSecuritySolutions.cs
+ IotSecuritySolutionAnalytics/
+  DisableIoTSecurityAggregatedAlert.cs
+  GetIoTSecurityAggregatedAlert.cs
+  GetIoTSecurityAggregatedRecommendation.cs
+  GetIoTSecuritySolutionAnalytics.cs
+ IotSecuritySolutions/
+  GetIotSecuritySolutions.cs
+  NewIotSecuritySolutionRecommendationConfigurationObject.cs
+  NewIotSecuritySolutionUserDefinedResourcesObject.cs
+  RemoveIotSecuritySolutions.cs
+  SetIotSecuritySolutions.cs
+  UpdateIotSecuritySolutions.cs
+ JitNetworkAccessPolicies/
+  GetJitNetworkAccessPolicies.cs
+  RemoveJitNetworkAccessPolicies.cs
+  SetJitNetworkAccessPolicies.cs
+  StartJitNetworkAccessPolicies.cs
+ Locations/GetLocations.cs
+ Pricings/
+  GetPricings.cs
+  SetPricings.cs
+ RegulatoryCompliance/
+  GetRegulatoryComplianceAssessment.cs
+  GetRegulatoryComplianceControl.cs
+  GetRegulatoryComplianceStandard.cs
+ SecureScores/
+  GetSecureScore.cs
+  GetSecureScoreControlDefinition.cs
+  GetSecureScoreControls.cs
+ SecurityContacts/
+  GetSecurityContacts.cs
+  RemoveSecurityContacts.cs
+  SetSecurityContacts.cs
+ SecuritySolution/GetSecuritySolution.cs
+ Settings/
+  GetSettings.cs
+  SetSettings.cs
+ SolutionsReferenceData/GetSecuritySolutionReferenceData.cs
+ SqlInformationProtectionPolicy/
+  GetSqlInformationProtectionPolicy.cs
+  SetSqlInformationProtectionPolicy.cs
+  SqlInformationProtectionPolicyCmdlet.cs
+ SqlVulnerabilityAssessment/
+  AddSecuritySqlVulnerabilityAssessmentBaseline.cs
+  Common/
+   SqlVulnerabilityAssessmentBaseWithBaseline.cs
+   SqlVulnerabilityAssessmentCmdlet.cs
+   VulnerabilityAssessmentConstants.cs
+  GetSecuritySqlVulnerabilityAssessmentBaseline.cs
+  GetSecuritySqlVulnerabilityAssessmentScanRecord.cs
+  GetSecuritySqlVulnerabilityAssessmentScanResult.cs
+  RemoveSecuritySqlVulnerabilityAssessmentBaseline.cs
+  SetSecuritySqlVulnerabilityAssessmentBaseline.cs
+ SubAssessments/GetSubAssessment.cs
+ Tasks/GetTasks.cs
+ Topology/GetTopology.cs
+ WorkspaceSettings/
+  GetWorkspaceSettings.cs
+  RemoveWorkspaceSettings.cs
+  SetWorkspaceSettings.cs
+Common/
+ AzureIdUtilities.cs
+ ParameterHelpMessages.cs
+ ParameterSetNames.cs
+ Utilities.cs
+Models/AdaptiveApplicationControls/
+ PSSecurityAdaptiveApplicationControls.cs
+ PSSecurityAdaptiveApplicationControlsConverters.cs
+ PSSecurityAdaptiveApplicationControlsIssueSummary.cs
+ PSSecurityAdaptiveApplicationControlsPathRecommendation.cs
+ PSSecurityAdaptiveApplicationControlsProperties.cs
+ PSSecurityAdaptiveApplicationControlsProtectionMode.cs
+ PSSecurityAdaptiveApplicationControlsPublisherInfo.cs
+ PSSecurityAdaptiveApplicationControlsUserRecommendation.cs
+ PSSecurityAdaptiveApplicationControlsVmRecommendation.cs
+Models/AdaptiveNetworkHardenings/
+ PSSecurityAdaptiveNetworkHardening.cs
+ PSSecurityAdaptiveNetworkHardeningConverters.cs
+ PSSecurityAdaptiveNetworkHardeningEffectiveNetworkSecurityGroups.cs
+ PSSecurityAdaptiveNetworkHardeningProperties.cs
+ PSSecurityAdaptiveNetworkHardeningRule.cs
+Models/
+ AdvancedThreatProtection/PSAdvancedThreatProtection.cs
+ Alerts/
+  PSAlertPropertiesSupportingEvidence.cs
+  PSSecurityAlert.cs
+  PSSecurityAlertConfidenceReason.cs
+  PSSecurityAlertConverters.cs
+  PSSecurityAlertEntity.cs
+  PSSecurityAlertV3.cs
+ AlertsSuppressionRules/
+  PSAlertsSuppressionRule.cs
+  PSAlertsSuppressionRuleConverters.cs
+  PSIScopeElement.cs
+  PSRuleState.cs
+  PSScopeElementContains.cs
+  PSScopeElementIn.cs
+  PSSuppressionAlertsScope.cs
+ AllowedConnection/
+  PSSecurityAllowedConnection.cs
+  PSSecurityConnectableResources.cs
+  PSSecurityConnectableResourcesConverters.cs
+  PSSecurityConnectedResource.cs
+ AssessmentMetadata/
+  PSSecurityAssessmentMetadata.cs
+  PSSecurityAssessmentMetadataConverters.cs
+ Assessments/
+  PSSecurityAssessment.cs
+  PSSecurityAssessmentConverters.cs
+  PSSecurityAssessmentStatus.cs
+  PSSecurityAzureResourceDetails.cs
+  PSSecurityResourceDetails.cs
+ Automations/
+  PSSecurityAutomation.cs
+  PSSecurityAutomationAction.cs
+  PSSecurityAutomationActionEventHub.cs
+  PSSecurityAutomationActionLogicApp.cs
+  PSSecurityAutomationActionWorkspace.cs
+  PSSecurityAutomationConverters.cs
+  PSSecurityAutomationRuleSet.cs
+  PSSecurityAutomationScope.cs
+  PSSecurityAutomationSource.cs
+  PSSecurityAutomationTriggeringRule.cs
+ AutoProvisioningSettings/
+  PSSecurityAutoProvisioningSetting.cs
+  PSSecurityAutoProvisioningSettingConverters.cs
+ Compliances/
+  PSSecurityCompliance.cs
+  PSSecurityComplianceConverters.cs
+  PSSecurityComplianceSegment.cs
+ DeviceSecurityGroups/
+  PSAllowlistCustomAlertRule.cs
+  PSCustomAlertRule.cs
+  PSDenylistCustomAlertRule.cs
+  PSDeviceSecurityGroup.cs
+  PSDeviceSecurityGroupConverters.cs
+  PSListCustomAlertRule.cs
+  PSThresholdCustomAlertRule.cs
+  PSTimeWindowCustomAlertRule.cs
+ DiscoveredSecuritySolutions/
+  PSSecurityDiscoveredSecuritySolution.cs
+  PSSecurityDiscoveredSecuritySolutionConverters.cs
+ ExternalSecuritySolutions/
+  PSSecurityAadExternalSecuritySolution.cs
+  PSSecurityAtaExternalSecuritySolution.cs
+  PSSecurityCefExternalSecuritySolution.cs
+  PSSecurityExternalSecuritySolution.cs
+  PSSecurityExternalSecuritySolutionConverters.cs
+ IotSecuritySolutionAnalytics/
+  PSDevicesMetrics.cs
+  PSIoTSecurityAggregatedAlert.cs
+  PSIoTSecurityAggregatedRecommendation.cs
+  PSIoTSecurityAlertedDevice.cs
+  PSIoTSecurityDeviceAlert.cs
+  PSIoTSecurityDeviceRecommendation.cs
+  PSIotSecuritySolutionAnalytics.cs
+  PSIotSecuritySolutionAnalyticsConverters.cs
+  PSIoTSeverityMetrics.cs
+  PSTopDevice.cs
+ IotSecuritySolutions/
+  PSIotSecuritySolution.cs
+  PSIotSecuritySolutionsConverters.cs
+  PSRecommendationConfiguration.cs
+  PSUpdateIotSecuritySolutionData.cs
+  PSUserDefinedResources.cs
+ JitNetworkAccessPolicies/
+  PSSecurityJitNetworkAccessPolicy.cs
+  PSSecurityJitNetworkAccessPolicyConverters.cs
+  PSSecurityJitNetworkAccessPolicyInitiatePort.cs
+  PSSecurityJitNetworkAccessPolicyInitiateRequest.cs
+  PSSecurityJitNetworkAccessPolicyInitiateVirtualMachine.cs
+  PSSecurityJitNetworkAccessPolicyRequest.cs
+  PSSecurityJitNetworkAccessPolicyVirtualMachine.cs
+  PSSecurityJitNetworkAccessPolicyVirtualMachinePort.cs
+  PSSecurityJitNetworkAccessPortRule.cs
+  PSSecurityJitNetworkAccessRequestVirtualMachine.cs
+ Locations/
+  PSSecurityLocation.cs
+  PSSecurityLocationConverters.cs
+ Pricings/
+  PSSecurityPricing.cs
+  PSSecurityPricingConverters.cs
+ PSResource.cs
+ RegulatoryCompliance/
+  PSSecurityRegulatoryComplianceAssessment.cs
+  PSSecurityRegulatoryComplianceAssessmentConverter.cs
+  PSSecurityRegulatoryComplianceControl.cs
+  PSSecurityRegulatoryComplianceControlConverter.cs
+  PSSecurityRegulatoryComplianceStandard.cs
+  PSSecurityRegulatoryComplianceStandardConverter.cs
+ SecureScore/
+  PSSecuritySecureScore.cs
+  PSSecuritySecureScoreControl.cs
+  PSSecuritySecureScoreControlConverter.cs
+  PSSecuritySecureScoreControlDefinition.cs
+  PSSecuritySecureScoreControlDefinitionConverter.cs
+  PSSecuritySecureScoreConverter.cs
+ SecurityContact/
+  PSSecurityContact.cs
+  PSSecurityContactConverters.cs
+ SecuritySolution/
+  PSSecuritySecuritySolution.cs
+  PSSecuritySecuritySolutionConverters.cs
+ Settings/
+  PSSecurityAlertSyncSettings.cs
+  PSSecurityDataExportSetting.cs
+  PSSecuritySetting.cs
+  PSSecuritySettingConverters.cs
+ SolutionsReferenceData/
+  PSSecuritySolutionReferenceDataConverters.cs
+  PSSolutionReferenceData.cs
+ SqlInformationProtectionPolicy/
+  PSSqlInformationProtectionInformationType.cs
+  PSSqlInformationProtectionKeyword.cs
+  PSSqlInformationProtectionPolicy.cs
+  PSSqlInformationProtectionSensitivityLabel.cs
+  SqlInformationProtectionExtensions.cs
+ SqlVulnerabilityAssessment/
+  PSSqlVulnerabilityAssessmentBaseline.cs
+  PSSqlVulnerabilityAssessmentBaselineAdjustedResult.cs
+  PSSqlVulnerabilityAssessmentBaselineResults.cs
+  PSSqlVulnerabilityAssessmentConverters.cs
+  PSSqlVulnerabilityAssessmentQueryCheck.cs
+  PSSqlVulnerabilityAssessmentRemediation.cs
+  PSSqlVulnerabilityAssessmentRule.cs
+  PSSqlVulnerabilityAssessmentRuleBaselineResults.cs
+  PSSqlVulnerabilityAssessmentScanRecord.cs
+  PSSqlVulnerabilityAssessmentScanResult.cs
+  PSSqlVulnerabilityBenchmarkReference.cs
+ SubAssessments/
+  PSSecuritySubAssessment.cs
+  PSSecuritySubAssessmentConverters.cs
+  PSSecuritySubAssessmentStatus.cs
+ Tasks/
+  PSSecurityTask.cs
+  PSSecurityTaskConverters.cs
+  PSTaskSeverity.cs
+ Topology/
+  PSSecurityTopology.cs
+  PSSecurityTopologyConverters.cs
+  PSSecurityTopologySingleResource.cs
+  PSSecurityTopologySingleResourceChild.cs
+  PSsecurityTopologySingleResourceParent.cs
+ WorkspaceSettings/
+  PSSecurityWorkspaceSetting.cs
+  PSSecurityWorkspaceSettingConverters.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+Resources.Designer.cs
+SecurityCenterCmdletBase.cs
+
+[metadataReferences]
+../../../artifacts/Debug/Az.Security/Microsoft.Azure.PowerShell.Security.Management.Sdk.dll
+
+[analyzerConfigFiles]
+obj/Debug/Security.GeneratedMSBuildEditorConfig.editorconfig

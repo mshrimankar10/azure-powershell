@@ -1,0 +1,379 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.KubernetesRuntime.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.KubernetesRuntime/KubernetesRuntime.Autorest/bin/Az.KubernetesRuntime.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.KubernetesRuntime
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.KubernetesRuntime/KubernetesRuntime.Autorest/bin/Az.KubernetesRuntime.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.KubernetesRuntime/KubernetesRuntime.Autorest/bin/Az.KubernetesRuntime.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.KubernetesRuntime.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/
+ KubernetesRuntime.cs
+ Models/
+  Any.cs
+  Any.json.cs
+  Any.PowerShell.cs
+  Any.TypeConverter.cs
+  BgpPeer.cs
+  BgpPeer.json.cs
+  BgpPeer.PowerShell.cs
+  BgpPeer.TypeConverter.cs
+  BgpPeerListResult.cs
+  BgpPeerListResult.json.cs
+  BgpPeerListResult.PowerShell.cs
+  BgpPeerListResult.TypeConverter.cs
+  BgpPeerProperties.cs
+  BgpPeerProperties.json.cs
+  BgpPeerProperties.PowerShell.cs
+  BgpPeerProperties.TypeConverter.cs
+  BlobStorageClassTypeProperties.cs
+  BlobStorageClassTypeProperties.json.cs
+  BlobStorageClassTypeProperties.PowerShell.cs
+  BlobStorageClassTypeProperties.TypeConverter.cs
+  ErrorAdditionalInfo.cs
+  ErrorAdditionalInfo.json.cs
+  ErrorAdditionalInfo.PowerShell.cs
+  ErrorAdditionalInfo.TypeConverter.cs
+  ErrorDetail.cs
+  ErrorDetail.json.cs
+  ErrorDetail.PowerShell.cs
+  ErrorDetail.TypeConverter.cs
+  ErrorResponse.cs
+  ErrorResponse.json.cs
+  ErrorResponse.PowerShell.cs
+  ErrorResponse.TypeConverter.cs
+  KubernetesRuntimeIdentity.cs
+  KubernetesRuntimeIdentity.json.cs
+  KubernetesRuntimeIdentity.PowerShell.cs
+  KubernetesRuntimeIdentity.TypeConverter.cs
+  LoadBalancer.cs
+  LoadBalancer.json.cs
+  LoadBalancer.PowerShell.cs
+  LoadBalancer.TypeConverter.cs
+  LoadBalancerListResult.cs
+  LoadBalancerListResult.json.cs
+  LoadBalancerListResult.PowerShell.cs
+  LoadBalancerListResult.TypeConverter.cs
+  LoadBalancerProperties.cs
+  LoadBalancerProperties.json.cs
+  LoadBalancerProperties.PowerShell.cs
+  LoadBalancerProperties.TypeConverter.cs
+  LoadBalancerPropertiesServiceSelector.cs
+  LoadBalancerPropertiesServiceSelector.dictionary.cs
+  LoadBalancerPropertiesServiceSelector.json.cs
+  LoadBalancerPropertiesServiceSelector.PowerShell.cs
+  LoadBalancerPropertiesServiceSelector.TypeConverter.cs
+  NativeStorageClassTypeProperties.cs
+  NativeStorageClassTypeProperties.json.cs
+  NativeStorageClassTypeProperties.PowerShell.cs
+  NativeStorageClassTypeProperties.TypeConverter.cs
+  NfsStorageClassTypeProperties.cs
+  NfsStorageClassTypeProperties.json.cs
+  NfsStorageClassTypeProperties.PowerShell.cs
+  NfsStorageClassTypeProperties.TypeConverter.cs
+  Operation.cs
+  Operation.json.cs
+  Operation.PowerShell.cs
+  Operation.TypeConverter.cs
+  OperationDisplay.cs
+  OperationDisplay.json.cs
+  OperationDisplay.PowerShell.cs
+  OperationDisplay.TypeConverter.cs
+  OperationListResult.cs
+  OperationListResult.json.cs
+  OperationListResult.PowerShell.cs
+  OperationListResult.TypeConverter.cs
+  ProxyResource.cs
+  ProxyResource.json.cs
+  ProxyResource.PowerShell.cs
+  ProxyResource.TypeConverter.cs
+  Resource.cs
+  Resource.json.cs
+  Resource.PowerShell.cs
+  Resource.TypeConverter.cs
+  RwxStorageClassTypeProperties.cs
+  RwxStorageClassTypeProperties.json.cs
+  RwxStorageClassTypeProperties.PowerShell.cs
+  RwxStorageClassTypeProperties.TypeConverter.cs
+  ServiceProperties.cs
+  ServiceProperties.json.cs
+  ServiceProperties.PowerShell.cs
+  ServiceProperties.TypeConverter.cs
+  ServiceResource.cs
+  ServiceResource.json.cs
+  ServiceResource.PowerShell.cs
+  ServiceResource.TypeConverter.cs
+  ServiceResourceListResult.cs
+  ServiceResourceListResult.json.cs
+  ServiceResourceListResult.PowerShell.cs
+  ServiceResourceListResult.TypeConverter.cs
+  SmbStorageClassTypeProperties.cs
+  SmbStorageClassTypeProperties.json.cs
+  SmbStorageClassTypeProperties.PowerShell.cs
+  SmbStorageClassTypeProperties.TypeConverter.cs
+  StorageClassProperties.cs
+  StorageClassProperties.json.cs
+  StorageClassProperties.PowerShell.cs
+  StorageClassProperties.TypeConverter.cs
+  StorageClassPropertiesUpdate.cs
+  StorageClassPropertiesUpdate.json.cs
+  StorageClassPropertiesUpdate.PowerShell.cs
+  StorageClassPropertiesUpdate.TypeConverter.cs
+  StorageClassResource.cs
+  StorageClassResource.json.cs
+  StorageClassResource.PowerShell.cs
+  StorageClassResource.TypeConverter.cs
+  StorageClassResourceListResult.cs
+  StorageClassResourceListResult.json.cs
+  StorageClassResourceListResult.PowerShell.cs
+  StorageClassResourceListResult.TypeConverter.cs
+  StorageClassResourceUpdate.cs
+  StorageClassResourceUpdate.json.cs
+  StorageClassResourceUpdate.PowerShell.cs
+  StorageClassResourceUpdate.TypeConverter.cs
+  StorageClassTypeProperties.cs
+  StorageClassTypeProperties.json.cs
+  StorageClassTypeProperties.PowerShell.cs
+  StorageClassTypeProperties.TypeConverter.cs
+  StorageClassTypePropertiesUpdate.cs
+  StorageClassTypePropertiesUpdate.json.cs
+  StorageClassTypePropertiesUpdate.PowerShell.cs
+  StorageClassTypePropertiesUpdate.TypeConverter.cs
+  SystemData.cs
+  SystemData.json.cs
+  SystemData.PowerShell.cs
+  SystemData.TypeConverter.cs
+generated/cmdlets/
+ GetAzKubernetesRuntimeBgpPeer_Get.cs
+ GetAzKubernetesRuntimeBgpPeer_GetViaIdentity.cs
+ GetAzKubernetesRuntimeBgpPeer_List.cs
+ GetAzKubernetesRuntimeLoadBalancer_Get.cs
+ GetAzKubernetesRuntimeLoadBalancer_GetViaIdentity.cs
+ GetAzKubernetesRuntimeLoadBalancer_List.cs
+ GetAzKubernetesRuntimeOperation_List.cs
+ GetAzKubernetesRuntimeService_Get.cs
+ GetAzKubernetesRuntimeService_GetViaIdentity.cs
+ GetAzKubernetesRuntimeService_List.cs
+ GetAzKubernetesRuntimeStorageClass_Get.cs
+ GetAzKubernetesRuntimeStorageClass_GetViaIdentity.cs
+ GetAzKubernetesRuntimeStorageClass_List.cs
+ NewAzKubernetesRuntimeBgpPeer_CreateExpanded.cs
+ NewAzKubernetesRuntimeBgpPeer_CreateViaJsonFilePath.cs
+ NewAzKubernetesRuntimeBgpPeer_CreateViaJsonString.cs
+ NewAzKubernetesRuntimeLoadBalancer_CreateExpanded.cs
+ NewAzKubernetesRuntimeLoadBalancer_CreateViaJsonFilePath.cs
+ NewAzKubernetesRuntimeLoadBalancer_CreateViaJsonString.cs
+ NewAzKubernetesRuntimeService_CreateExpanded.cs
+ NewAzKubernetesRuntimeService_CreateViaJsonFilePath.cs
+ NewAzKubernetesRuntimeService_CreateViaJsonString.cs
+ NewAzKubernetesRuntimeStorageClass_CreateExpanded.cs
+ NewAzKubernetesRuntimeStorageClass_CreateViaJsonFilePath.cs
+ NewAzKubernetesRuntimeStorageClass_CreateViaJsonString.cs
+ RemoveAzKubernetesRuntimeBgpPeer_Delete.cs
+ RemoveAzKubernetesRuntimeBgpPeer_DeleteViaIdentity.cs
+ RemoveAzKubernetesRuntimeLoadBalancer_Delete.cs
+ RemoveAzKubernetesRuntimeLoadBalancer_DeleteViaIdentity.cs
+ RemoveAzKubernetesRuntimeService_Delete.cs
+ RemoveAzKubernetesRuntimeService_DeleteViaIdentity.cs
+ RemoveAzKubernetesRuntimeStorageClass_Delete.cs
+ RemoveAzKubernetesRuntimeStorageClass_DeleteViaIdentity.cs
+ UpdateAzKubernetesRuntimeBgpPeer_UpdateExpanded.cs
+ UpdateAzKubernetesRuntimeBgpPeer_UpdateViaIdentityExpanded.cs
+ UpdateAzKubernetesRuntimeLoadBalancer_UpdateExpanded.cs
+ UpdateAzKubernetesRuntimeLoadBalancer_UpdateViaIdentityExpanded.cs
+ UpdateAzKubernetesRuntimeService_UpdateExpanded.cs
+ UpdateAzKubernetesRuntimeService_UpdateViaIdentityExpanded.cs
+ UpdateAzKubernetesRuntimeStorageClass_UpdateExpanded.cs
+ UpdateAzKubernetesRuntimeStorageClass_UpdateViaIdentityExpanded.cs
+ UpdateAzKubernetesRuntimeStorageClass_UpdateViaJsonFilePath.cs
+ UpdateAzKubernetesRuntimeStorageClass_UpdateViaJsonString.cs
+generated/
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.KubernetesRuntime.GeneratedMSBuildEditorConfig.editorconfig

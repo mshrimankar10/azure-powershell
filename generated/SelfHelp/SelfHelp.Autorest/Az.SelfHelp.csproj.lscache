@@ -1,0 +1,550 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.SelfHelp.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.SelfHelp/SelfHelp.Autorest/bin/Az.SelfHelp.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.SelfHelp
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.SelfHelp/SelfHelp.Autorest/bin/Az.SelfHelp.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.SelfHelp/SelfHelp.Autorest/bin/Az.SelfHelp.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.SelfHelp.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/Models/
+ Any.cs
+ Any.json.cs
+ Any.PowerShell.cs
+ Any.TypeConverter.cs
+ AutomatedCheckResult.cs
+ AutomatedCheckResult.json.cs
+ AutomatedCheckResult.PowerShell.cs
+ AutomatedCheckResult.TypeConverter.cs
+ CheckNameAvailabilityRequest.cs
+ CheckNameAvailabilityRequest.json.cs
+ CheckNameAvailabilityRequest.PowerShell.cs
+ CheckNameAvailabilityRequest.TypeConverter.cs
+ CheckNameAvailabilityResponse.cs
+ CheckNameAvailabilityResponse.json.cs
+ CheckNameAvailabilityResponse.PowerShell.cs
+ CheckNameAvailabilityResponse.TypeConverter.cs
+ ClassificationService.cs
+ ClassificationService.json.cs
+ ClassificationService.PowerShell.cs
+ ClassificationService.TypeConverter.cs
+ ContinueRequestBody.cs
+ ContinueRequestBody.json.cs
+ ContinueRequestBody.PowerShell.cs
+ ContinueRequestBody.TypeConverter.cs
+ Diagnostic.cs
+ Diagnostic.json.cs
+ Diagnostic.PowerShell.cs
+ Diagnostic.TypeConverter.cs
+ DiagnosticInvocation.cs
+ DiagnosticInvocation.json.cs
+ DiagnosticInvocation.PowerShell.cs
+ DiagnosticInvocation.TypeConverter.cs
+ DiagnosticInvocationAdditionalParameters.cs
+ DiagnosticInvocationAdditionalParameters.dictionary.cs
+ DiagnosticInvocationAdditionalParameters.json.cs
+ DiagnosticInvocationAdditionalParameters.PowerShell.cs
+ DiagnosticInvocationAdditionalParameters.TypeConverter.cs
+ DiagnosticResource.cs
+ DiagnosticResource.json.cs
+ DiagnosticResource.PowerShell.cs
+ DiagnosticResource.TypeConverter.cs
+ DiagnosticResourceProperties.cs
+ DiagnosticResourceProperties.json.cs
+ DiagnosticResourceProperties.PowerShell.cs
+ DiagnosticResourceProperties.TypeConverter.cs
+ DiagnosticResourcePropertiesGlobalParameters.cs
+ DiagnosticResourcePropertiesGlobalParameters.dictionary.cs
+ DiagnosticResourcePropertiesGlobalParameters.json.cs
+ DiagnosticResourcePropertiesGlobalParameters.PowerShell.cs
+ DiagnosticResourcePropertiesGlobalParameters.TypeConverter.cs
+ DiscoveryNlpRequest.cs
+ DiscoveryNlpRequest.json.cs
+ DiscoveryNlpRequest.PowerShell.cs
+ DiscoveryNlpRequest.TypeConverter.cs
+ DiscoveryNlpResponse.cs
+ DiscoveryNlpResponse.json.cs
+ DiscoveryNlpResponse.PowerShell.cs
+ DiscoveryNlpResponse.TypeConverter.cs
+ DiscoveryResponse.cs
+ DiscoveryResponse.json.cs
+ DiscoveryResponse.PowerShell.cs
+ DiscoveryResponse.TypeConverter.cs
+ Error.cs
+ Error.json.cs
+ Error.PowerShell.cs
+ Error.TypeConverter.cs
+ ErrorAdditionalInfo.cs
+ ErrorAdditionalInfo.json.cs
+ ErrorAdditionalInfo.PowerShell.cs
+ ErrorAdditionalInfo.TypeConverter.cs
+ ErrorDetail.cs
+ ErrorDetail.json.cs
+ ErrorDetail.PowerShell.cs
+ ErrorDetail.TypeConverter.cs
+ ErrorResponse.cs
+ ErrorResponse.json.cs
+ ErrorResponse.PowerShell.cs
+ ErrorResponse.TypeConverter.cs
+ Filter.cs
+ Filter.json.cs
+ Filter.PowerShell.cs
+ Filter.TypeConverter.cs
+ FilterGroup.cs
+ FilterGroup.json.cs
+ FilterGroup.PowerShell.cs
+ FilterGroup.TypeConverter.cs
+ Insight.cs
+ Insight.json.cs
+ Insight.PowerShell.cs
+ Insight.TypeConverter.cs
+ MetricsBasedChart.cs
+ MetricsBasedChart.json.cs
+ MetricsBasedChart.PowerShell.cs
+ MetricsBasedChart.TypeConverter.cs
+ NlpSolutions.cs
+ NlpSolutions.json.cs
+ NlpSolutions.PowerShell.cs
+ NlpSolutions.TypeConverter.cs
+ Operation.cs
+ Operation.json.cs
+ Operation.PowerShell.cs
+ Operation.TypeConverter.cs
+ OperationDisplay.cs
+ OperationDisplay.json.cs
+ OperationDisplay.PowerShell.cs
+ OperationDisplay.TypeConverter.cs
+ OperationListResult.cs
+ OperationListResult.json.cs
+ OperationListResult.PowerShell.cs
+ OperationListResult.TypeConverter.cs
+ ProxyResource.cs
+ ProxyResource.json.cs
+ ProxyResource.PowerShell.cs
+ ProxyResource.TypeConverter.cs
+ ReplacementMaps.cs
+ ReplacementMaps.json.cs
+ ReplacementMaps.PowerShell.cs
+ ReplacementMaps.TypeConverter.cs
+ ReplacementMapsSelfHelp.cs
+ ReplacementMapsSelfHelp.json.cs
+ ReplacementMapsSelfHelp.PowerShell.cs
+ ReplacementMapsSelfHelp.TypeConverter.cs
+ Resource.cs
+ Resource.json.cs
+ Resource.PowerShell.cs
+ Resource.TypeConverter.cs
+ ResponseOption.cs
+ ResponseOption.json.cs
+ ResponseOption.PowerShell.cs
+ ResponseOption.TypeConverter.cs
+ ResponseValidationProperties.cs
+ ResponseValidationProperties.json.cs
+ ResponseValidationProperties.PowerShell.cs
+ ResponseValidationProperties.TypeConverter.cs
+ RestartTroubleshooterResponse.cs
+ RestartTroubleshooterResponse.json.cs
+ RestartTroubleshooterResponse.PowerShell.cs
+ RestartTroubleshooterResponse.TypeConverter.cs
+ SearchResult.cs
+ SearchResult.json.cs
+ SearchResult.PowerShell.cs
+ SearchResult.TypeConverter.cs
+ Section.cs
+ Section.json.cs
+ Section.PowerShell.cs
+ Section.TypeConverter.cs
+ SectionSelfHelp.cs
+ SectionSelfHelp.json.cs
+ SectionSelfHelp.PowerShell.cs
+ SectionSelfHelp.TypeConverter.cs
+ SelfHelpIdentity.cs
+ SelfHelpIdentity.json.cs
+ SelfHelpIdentity.PowerShell.cs
+ SelfHelpIdentity.TypeConverter.cs
+ SimplifiedSolutionsResource.cs
+ SimplifiedSolutionsResource.json.cs
+ SimplifiedSolutionsResource.PowerShell.cs
+ SimplifiedSolutionsResource.TypeConverter.cs
+ SimplifiedSolutionsResourceProperties.cs
+ SimplifiedSolutionsResourceProperties.json.cs
+ SimplifiedSolutionsResourceProperties.PowerShell.cs
+ SimplifiedSolutionsResourceProperties.TypeConverter.cs
+ SimplifiedSolutionsResourcePropertiesAppendix.cs
+ SimplifiedSolutionsResourcePropertiesAppendix.dictionary.cs
+ SimplifiedSolutionsResourcePropertiesAppendix.json.cs
+ SimplifiedSolutionsResourcePropertiesAppendix.PowerShell.cs
+ SimplifiedSolutionsResourcePropertiesAppendix.TypeConverter.cs
+ SimplifiedSolutionsResourcePropertiesParameters.cs
+ SimplifiedSolutionsResourcePropertiesParameters.dictionary.cs
+ SimplifiedSolutionsResourcePropertiesParameters.json.cs
+ SimplifiedSolutionsResourcePropertiesParameters.PowerShell.cs
+ SimplifiedSolutionsResourcePropertiesParameters.TypeConverter.cs
+ SolutionMetadataProperties.cs
+ SolutionMetadataProperties.json.cs
+ SolutionMetadataProperties.PowerShell.cs
+ SolutionMetadataProperties.TypeConverter.cs
+ SolutionMetadataResource.cs
+ SolutionMetadataResource.json.cs
+ SolutionMetadataResource.PowerShell.cs
+ SolutionMetadataResource.TypeConverter.cs
+ SolutionNlpMetadataResource.cs
+ SolutionNlpMetadataResource.json.cs
+ SolutionNlpMetadataResource.PowerShell.cs
+ SolutionNlpMetadataResource.TypeConverter.cs
+ SolutionPatchRequestBody.cs
+ SolutionPatchRequestBody.json.cs
+ SolutionPatchRequestBody.PowerShell.cs
+ SolutionPatchRequestBody.TypeConverter.cs
+ SolutionResource.cs
+ SolutionResource.json.cs
+ SolutionResource.PowerShell.cs
+ SolutionResource.TypeConverter.cs
+ SolutionResourceProperties.cs
+ SolutionResourceProperties.json.cs
+ SolutionResourceProperties.PowerShell.cs
+ SolutionResourceProperties.TypeConverter.cs
+ SolutionResourcePropertiesParameters.cs
+ SolutionResourcePropertiesParameters.dictionary.cs
+ SolutionResourcePropertiesParameters.json.cs
+ SolutionResourcePropertiesParameters.PowerShell.cs
+ SolutionResourcePropertiesParameters.TypeConverter.cs
+ SolutionResourceSelfHelp.cs
+ SolutionResourceSelfHelp.json.cs
+ SolutionResourceSelfHelp.PowerShell.cs
+ SolutionResourceSelfHelp.TypeConverter.cs
+ Solutions.cs
+ Solutions.json.cs
+ Solutions.PowerShell.cs
+ Solutions.TypeConverter.cs
+ SolutionsDiagnostic.cs
+ SolutionsDiagnostic.json.cs
+ SolutionsDiagnostic.PowerShell.cs
+ SolutionsDiagnostic.TypeConverter.cs
+ SolutionsResourcePropertiesSelfHelp.cs
+ SolutionsResourcePropertiesSelfHelp.json.cs
+ SolutionsResourcePropertiesSelfHelp.PowerShell.cs
+ SolutionsResourcePropertiesSelfHelp.TypeConverter.cs
+ SolutionsTroubleshooters.cs
+ SolutionsTroubleshooters.json.cs
+ SolutionsTroubleshooters.PowerShell.cs
+ SolutionsTroubleshooters.TypeConverter.cs
+ SolutionWarmUpRequestBody.cs
+ SolutionWarmUpRequestBody.json.cs
+ SolutionWarmUpRequestBody.PowerShell.cs
+ SolutionWarmUpRequestBody.TypeConverter.cs
+ SolutionWarmUpRequestBodyParameters.cs
+ SolutionWarmUpRequestBodyParameters.dictionary.cs
+ SolutionWarmUpRequestBodyParameters.json.cs
+ SolutionWarmUpRequestBodyParameters.PowerShell.cs
+ SolutionWarmUpRequestBodyParameters.TypeConverter.cs
+ Step.cs
+ Step.json.cs
+ Step.PowerShell.cs
+ Step.TypeConverter.cs
+ StepInput.cs
+ StepInput.json.cs
+ StepInput.PowerShell.cs
+ StepInput.TypeConverter.cs
+ SystemData.cs
+ SystemData.json.cs
+ SystemData.PowerShell.cs
+ SystemData.TypeConverter.cs
+ TriggerCriterion.cs
+ TriggerCriterion.json.cs
+ TriggerCriterion.PowerShell.cs
+ TriggerCriterion.TypeConverter.cs
+ TroubleshooterInstanceProperties.cs
+ TroubleshooterInstanceProperties.json.cs
+ TroubleshooterInstanceProperties.PowerShell.cs
+ TroubleshooterInstanceProperties.TypeConverter.cs
+ TroubleshooterInstancePropertiesParameters.cs
+ TroubleshooterInstancePropertiesParameters.dictionary.cs
+ TroubleshooterInstancePropertiesParameters.json.cs
+ TroubleshooterInstancePropertiesParameters.PowerShell.cs
+ TroubleshooterInstancePropertiesParameters.TypeConverter.cs
+ TroubleshooterResource.cs
+ TroubleshooterResource.json.cs
+ TroubleshooterResource.PowerShell.cs
+ TroubleshooterResource.TypeConverter.cs
+ TroubleshooterResponse.cs
+ TroubleshooterResponse.json.cs
+ TroubleshooterResponse.PowerShell.cs
+ TroubleshooterResponse.TypeConverter.cs
+ TroubleshootersContinueNoContentResponseHeaders.cs
+ TroubleshootersContinueNoContentResponseHeaders.json.cs
+ TroubleshootersContinueNoContentResponseHeaders.PowerShell.cs
+ TroubleshootersContinueNoContentResponseHeaders.TypeConverter.cs
+ TroubleshootersEndNoContentResponseHeaders.cs
+ TroubleshootersEndNoContentResponseHeaders.json.cs
+ TroubleshootersEndNoContentResponseHeaders.PowerShell.cs
+ TroubleshootersEndNoContentResponseHeaders.TypeConverter.cs
+ Video.cs
+ Video.json.cs
+ Video.PowerShell.cs
+ Video.TypeConverter.cs
+ VideoGroup.cs
+ VideoGroup.json.cs
+ VideoGroup.PowerShell.cs
+ VideoGroup.TypeConverter.cs
+ VideoGroupVideo.cs
+ VideoGroupVideo.json.cs
+ VideoGroupVideo.PowerShell.cs
+ VideoGroupVideo.TypeConverter.cs
+ WebResult.cs
+ WebResult.json.cs
+ WebResult.PowerShell.cs
+ WebResult.TypeConverter.cs
+generated/
+ api/SelfHelp.cs
+ cmdlets/
+  GetAzSelfHelpDiagnostic_Get.cs
+  GetAzSelfHelpDiagnostic_GetViaIdentity.cs
+  GetAzSelfHelpDiscoverySolution_List.cs
+  GetAzSelfHelpOperation_List.cs
+  GetAzSelfHelpSimplifiedSolution_Get.cs
+  GetAzSelfHelpSimplifiedSolution_GetViaIdentity.cs
+  GetAzSelfHelpSolutionSelfHelp_Get.cs
+  GetAzSelfHelpSolutionSelfHelp_GetViaIdentity.cs
+  GetAzSelfHelpSolution_Get.cs
+  GetAzSelfHelpSolution_GetViaIdentity.cs
+  GetAzSelfHelpTroubleshooter_Get.cs
+  GetAzSelfHelpTroubleshooter_GetViaIdentity.cs
+  InvokeAzSelfHelpCheckNameAvailability_Post.cs
+  InvokeAzSelfHelpCheckNameAvailability_PostExpanded.cs
+  InvokeAzSelfHelpCheckNameAvailability_PostViaJsonFilePath.cs
+  InvokeAzSelfHelpCheckNameAvailability_PostViaJsonString.cs
+  InvokeAzSelfHelpContinueTroubleshooter_Continue.cs
+  InvokeAzSelfHelpContinueTroubleshooter_ContinueExpanded.cs
+  InvokeAzSelfHelpContinueTroubleshooter_ContinueViaIdentity.cs
+  InvokeAzSelfHelpContinueTroubleshooter_ContinueViaIdentityExpanded.cs
+  InvokeAzSelfHelpContinueTroubleshooter_ContinueViaJsonFilePath.cs
+  InvokeAzSelfHelpContinueTroubleshooter_ContinueViaJsonString.cs
+  InvokeAzSelfHelpDiscoverySolutionNlpSubscriptionScope_Post.cs
+  InvokeAzSelfHelpDiscoverySolutionNlpSubscriptionScope_PostExpanded.cs
+  InvokeAzSelfHelpDiscoverySolutionNlpSubscriptionScope_PostViaJsonFilePath.cs
+  InvokeAzSelfHelpDiscoverySolutionNlpSubscriptionScope_PostViaJsonString.cs
+  InvokeAzSelfHelpDiscoverySolutionNlpTenantScope_Post.cs
+  InvokeAzSelfHelpDiscoverySolutionNlpTenantScope_PostExpanded.cs
+  InvokeAzSelfHelpDiscoverySolutionNlpTenantScope_PostViaJsonFilePath.cs
+  InvokeAzSelfHelpDiscoverySolutionNlpTenantScope_PostViaJsonString.cs
+  InvokeAzSelfHelpWarmSolutionUp_Warm.cs
+  InvokeAzSelfHelpWarmSolutionUp_WarmExpanded.cs
+  InvokeAzSelfHelpWarmSolutionUp_WarmViaIdentity.cs
+  InvokeAzSelfHelpWarmSolutionUp_WarmViaIdentityExpanded.cs
+  InvokeAzSelfHelpWarmSolutionUp_WarmViaJsonFilePath.cs
+  InvokeAzSelfHelpWarmSolutionUp_WarmViaJsonString.cs
+  NewAzSelfHelpDiagnostic_CreateExpanded.cs
+  NewAzSelfHelpDiagnostic_CreateViaIdentityExpanded.cs
+  NewAzSelfHelpDiagnostic_CreateViaJsonFilePath.cs
+  NewAzSelfHelpDiagnostic_CreateViaJsonString.cs
+  NewAzSelfHelpSimplifiedSolution_CreateExpanded.cs
+  NewAzSelfHelpSimplifiedSolution_CreateViaIdentityExpanded.cs
+  NewAzSelfHelpSimplifiedSolution_CreateViaJsonFilePath.cs
+  NewAzSelfHelpSimplifiedSolution_CreateViaJsonString.cs
+  NewAzSelfHelpSolution_CreateExpanded.cs
+  NewAzSelfHelpSolution_CreateViaIdentityExpanded.cs
+  NewAzSelfHelpSolution_CreateViaJsonFilePath.cs
+  NewAzSelfHelpSolution_CreateViaJsonString.cs
+  NewAzSelfHelpTroubleshooter_CreateExpanded.cs
+  NewAzSelfHelpTroubleshooter_CreateViaIdentityExpanded.cs
+  NewAzSelfHelpTroubleshooter_CreateViaJsonFilePath.cs
+  NewAzSelfHelpTroubleshooter_CreateViaJsonString.cs
+  RestartAzSelfHelpTroubleshooter_Restart.cs
+  RestartAzSelfHelpTroubleshooter_RestartViaIdentity.cs
+  StopAzSelfHelpTroubleshooter_End.cs
+  StopAzSelfHelpTroubleshooter_EndViaIdentity.cs
+  UpdateAzSelfHelpSolution_UpdateExpanded.cs
+  UpdateAzSelfHelpSolution_UpdateViaIdentityExpanded.cs
+  UpdateAzSelfHelpSolution_UpdateViaJsonFilePath.cs
+  UpdateAzSelfHelpSolution_UpdateViaJsonString.cs
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.SelfHelp.GeneratedMSBuildEditorConfig.editorconfig

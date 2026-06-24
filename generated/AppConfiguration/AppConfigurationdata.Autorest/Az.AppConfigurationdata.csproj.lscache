@@ -1,0 +1,279 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.AppConfigurationdata.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.AppConfiguration/AppConfigurationdata.Autorest/bin/Az.AppConfigurationdata.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.AppConfigurationdata
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.AppConfiguration/AppConfigurationdata.Autorest/bin/Az.AppConfigurationdata.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.AppConfiguration/AppConfigurationdata.Autorest/bin/Az.AppConfigurationdata.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.AppConfigurationdata.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/
+ AppConfiguration/AppConfigurationdata.Autorest/custom/GetAzAppConfigurationKeyValue_Get.cs
+ shared/ConfigKeys.cs
+generated/api/
+ AppConfigurationdata.cs
+ Models/
+  AppConfigurationdataIdentity.cs
+  AppConfigurationdataIdentity.json.cs
+  AppConfigurationdataIdentity.PowerShell.cs
+  AppConfigurationdataIdentity.TypeConverter.cs
+  CheckKeysOkResponseHeaders.cs
+  CheckKeysOkResponseHeaders.json.cs
+  CheckKeysOkResponseHeaders.PowerShell.cs
+  CheckKeysOkResponseHeaders.TypeConverter.cs
+  CheckKeyValueOkResponseHeaders.cs
+  CheckKeyValueOkResponseHeaders.json.cs
+  CheckKeyValueOkResponseHeaders.PowerShell.cs
+  CheckKeyValueOkResponseHeaders.TypeConverter.cs
+  CheckLabelsOkResponseHeaders.cs
+  CheckLabelsOkResponseHeaders.json.cs
+  CheckLabelsOkResponseHeaders.PowerShell.cs
+  CheckLabelsOkResponseHeaders.TypeConverter.cs
+  CheckRevisionsOkResponseHeaders.cs
+  CheckRevisionsOkResponseHeaders.json.cs
+  CheckRevisionsOkResponseHeaders.PowerShell.cs
+  CheckRevisionsOkResponseHeaders.TypeConverter.cs
+  DeleteKeyValueNoContentResponseHeaders.cs
+  DeleteKeyValueNoContentResponseHeaders.json.cs
+  DeleteKeyValueNoContentResponseHeaders.PowerShell.cs
+  DeleteKeyValueNoContentResponseHeaders.TypeConverter.cs
+  Error.cs
+  Error.json.cs
+  Error.PowerShell.cs
+  Error.TypeConverter.cs
+  Key.cs
+  Key.json.cs
+  Key.PowerShell.cs
+  Key.TypeConverter.cs
+  KeyListResult.cs
+  KeyListResult.json.cs
+  KeyListResult.PowerShell.cs
+  KeyListResult.TypeConverter.cs
+  KeyValue.cs
+  KeyValue.json.cs
+  KeyValue.PowerShell.cs
+  KeyValue.TypeConverter.cs
+  KeyValueListResult.cs
+  KeyValueListResult.json.cs
+  KeyValueListResult.PowerShell.cs
+  KeyValueListResult.TypeConverter.cs
+  KeyValueTags.cs
+  KeyValueTags.dictionary.cs
+  KeyValueTags.json.cs
+  KeyValueTags.PowerShell.cs
+  KeyValueTags.TypeConverter.cs
+  Label.cs
+  Label.json.cs
+  Label.PowerShell.cs
+  Label.TypeConverter.cs
+  LabelListResult.cs
+  LabelListResult.json.cs
+  LabelListResult.PowerShell.cs
+  LabelListResult.TypeConverter.cs
+generated/cmdlets/
+ GetAzAppConfigurationKeyValue_Get.cs
+ GetAzAppConfigurationKeyValue_Get1.cs
+ GetAzAppConfigurationKeyValue_GetViaIdentity.cs
+ GetAzAppConfigurationKey_Get.cs
+ GetAzAppConfigurationLabel_Get.cs
+ GetAzAppConfigurationRevision_Get.cs
+ RemoveAzAppConfigurationKeyValue_Delete.cs
+ RemoveAzAppConfigurationKeyValue_DeleteViaIdentity.cs
+ RemoveAzAppConfigurationLock_Delete.cs
+ RemoveAzAppConfigurationLock_DeleteViaIdentity.cs
+ SetAzAppConfigurationKeyValue_PutExpanded.cs
+ SetAzAppConfigurationKeyValue_PutViaJsonFilePath.cs
+ SetAzAppConfigurationKeyValue_PutViaJsonString.cs
+ SetAzAppConfigurationLock_Put.cs
+ TestAzAppConfigurationKeyValue_Check.cs
+ TestAzAppConfigurationKeyValue_CheckViaIdentity.cs
+generated/
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.AppConfigurationdata.GeneratedMSBuildEditorConfig.editorconfig

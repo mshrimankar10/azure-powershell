@@ -1,0 +1,548 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.LabServices.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.LabServices/LabServices.Autorest/bin/Az.LabServices.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.LabServices
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.LabServices/LabServices.Autorest/bin/Az.LabServices.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.LabServices/LabServices.Autorest/bin/Az.LabServices.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.LabServices.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/
+ LabServices/LabServices.Autorest/custom/Models.cs
+ shared/ConfigKeys.cs
+generated/api/
+ LabServices.cs
+ Models/
+  Any.cs
+  Any.json.cs
+  Any.PowerShell.cs
+  Any.TypeConverter.cs
+  AutoShutdownProfile.cs
+  AutoShutdownProfile.json.cs
+  AutoShutdownProfile.PowerShell.cs
+  AutoShutdownProfile.TypeConverter.cs
+  ConnectionProfile.cs
+  ConnectionProfile.json.cs
+  ConnectionProfile.PowerShell.cs
+  ConnectionProfile.TypeConverter.cs
+  Credentials.cs
+  Credentials.json.cs
+  Credentials.PowerShell.cs
+  Credentials.TypeConverter.cs
+  ErrorAdditionalInfo.cs
+  ErrorAdditionalInfo.json.cs
+  ErrorAdditionalInfo.PowerShell.cs
+  ErrorAdditionalInfo.TypeConverter.cs
+  ErrorDetail.cs
+  ErrorDetail.json.cs
+  ErrorDetail.PowerShell.cs
+  ErrorDetail.TypeConverter.cs
+  ErrorResponse.cs
+  ErrorResponse.json.cs
+  ErrorResponse.PowerShell.cs
+  ErrorResponse.TypeConverter.cs
+  Image.cs
+  Image.json.cs
+  Image.PowerShell.cs
+  Image.TypeConverter.cs
+  ImageProperties.cs
+  ImageProperties.json.cs
+  ImageProperties.PowerShell.cs
+  ImageProperties.TypeConverter.cs
+  ImageReference.cs
+  ImageReference.json.cs
+  ImageReference.PowerShell.cs
+  ImageReference.TypeConverter.cs
+  ImageUpdate.cs
+  ImageUpdate.json.cs
+  ImageUpdate.PowerShell.cs
+  ImageUpdate.TypeConverter.cs
+  ImageUpdateProperties.cs
+  ImageUpdateProperties.json.cs
+  ImageUpdateProperties.PowerShell.cs
+  ImageUpdateProperties.TypeConverter.cs
+  InviteBody.cs
+  InviteBody.json.cs
+  InviteBody.PowerShell.cs
+  InviteBody.TypeConverter.cs
+  Lab.cs
+  Lab.json.cs
+  Lab.PowerShell.cs
+  Lab.TypeConverter.cs
+  LabNetworkProfile.cs
+  LabNetworkProfile.json.cs
+  LabNetworkProfile.PowerShell.cs
+  LabNetworkProfile.TypeConverter.cs
+  LabPlan.cs
+  LabPlan.json.cs
+  LabPlan.PowerShell.cs
+  LabPlan.TypeConverter.cs
+  LabPlanNetworkProfile.cs
+  LabPlanNetworkProfile.json.cs
+  LabPlanNetworkProfile.PowerShell.cs
+  LabPlanNetworkProfile.TypeConverter.cs
+  LabPlanProperties.cs
+  LabPlanProperties.json.cs
+  LabPlanProperties.PowerShell.cs
+  LabPlanProperties.TypeConverter.cs
+  LabPlanUpdate.cs
+  LabPlanUpdate.json.cs
+  LabPlanUpdate.PowerShell.cs
+  LabPlanUpdate.TypeConverter.cs
+  LabPlanUpdateProperties.cs
+  LabPlanUpdateProperties.json.cs
+  LabPlanUpdateProperties.PowerShell.cs
+  LabPlanUpdateProperties.TypeConverter.cs
+  LabProperties.cs
+  LabProperties.json.cs
+  LabProperties.PowerShell.cs
+  LabProperties.TypeConverter.cs
+  LabServicesIdentity.cs
+  LabServicesIdentity.json.cs
+  LabServicesIdentity.PowerShell.cs
+  LabServicesIdentity.TypeConverter.cs
+  LabUpdate.cs
+  LabUpdate.json.cs
+  LabUpdate.PowerShell.cs
+  LabUpdate.TypeConverter.cs
+  LabUpdateProperties.cs
+  LabUpdateProperties.json.cs
+  LabUpdateProperties.PowerShell.cs
+  LabUpdateProperties.TypeConverter.cs
+  Operation.cs
+  Operation.json.cs
+  Operation.PowerShell.cs
+  Operation.TypeConverter.cs
+  OperationDisplay.cs
+  OperationDisplay.json.cs
+  OperationDisplay.PowerShell.cs
+  OperationDisplay.TypeConverter.cs
+  OperationListResult.cs
+  OperationListResult.json.cs
+  OperationListResult.PowerShell.cs
+  OperationListResult.TypeConverter.cs
+  OperationResult.cs
+  OperationResult.json.cs
+  OperationResult.PowerShell.cs
+  OperationResult.TypeConverter.cs
+  PagedImages.cs
+  PagedImages.json.cs
+  PagedImages.PowerShell.cs
+  PagedImages.TypeConverter.cs
+  PagedLabPlans.cs
+  PagedLabPlans.json.cs
+  PagedLabPlans.PowerShell.cs
+  PagedLabPlans.TypeConverter.cs
+  PagedLabs.cs
+  PagedLabs.json.cs
+  PagedLabs.PowerShell.cs
+  PagedLabs.TypeConverter.cs
+  PagedSchedules.cs
+  PagedSchedules.json.cs
+  PagedSchedules.PowerShell.cs
+  PagedSchedules.TypeConverter.cs
+  PagedUsers.cs
+  PagedUsers.json.cs
+  PagedUsers.PowerShell.cs
+  PagedUsers.TypeConverter.cs
+  PagedVirtualMachines.cs
+  PagedVirtualMachines.json.cs
+  PagedVirtualMachines.PowerShell.cs
+  PagedVirtualMachines.TypeConverter.cs
+  ProxyResource.cs
+  ProxyResource.json.cs
+  ProxyResource.PowerShell.cs
+  ProxyResource.TypeConverter.cs
+  RecurrencePattern.cs
+  RecurrencePattern.json.cs
+  RecurrencePattern.PowerShell.cs
+  RecurrencePattern.TypeConverter.cs
+  ResetPasswordBody.cs
+  ResetPasswordBody.json.cs
+  ResetPasswordBody.PowerShell.cs
+  ResetPasswordBody.TypeConverter.cs
+  Resource.cs
+  Resource.json.cs
+  Resource.PowerShell.cs
+  Resource.TypeConverter.cs
+  RosterProfile.cs
+  RosterProfile.json.cs
+  RosterProfile.PowerShell.cs
+  RosterProfile.TypeConverter.cs
+  SaveImageBody.cs
+  SaveImageBody.json.cs
+  SaveImageBody.PowerShell.cs
+  SaveImageBody.TypeConverter.cs
+  Schedule.cs
+  Schedule.json.cs
+  Schedule.PowerShell.cs
+  Schedule.TypeConverter.cs
+  ScheduleProperties.cs
+  ScheduleProperties.json.cs
+  ScheduleProperties.PowerShell.cs
+  ScheduleProperties.TypeConverter.cs
+  ScheduleUpdate.cs
+  ScheduleUpdate.json.cs
+  ScheduleUpdate.PowerShell.cs
+  ScheduleUpdate.TypeConverter.cs
+  ScheduleUpdateProperties.cs
+  ScheduleUpdateProperties.json.cs
+  ScheduleUpdateProperties.PowerShell.cs
+  ScheduleUpdateProperties.TypeConverter.cs
+  SecurityProfile.cs
+  SecurityProfile.json.cs
+  SecurityProfile.PowerShell.cs
+  SecurityProfile.TypeConverter.cs
+  Sku.cs
+  Sku.json.cs
+  Sku.PowerShell.cs
+  Sku.TypeConverter.cs
+  SupportInfo.cs
+  SupportInfo.json.cs
+  SupportInfo.PowerShell.cs
+  SupportInfo.TypeConverter.cs
+  SystemData.cs
+  SystemData.json.cs
+  SystemData.PowerShell.cs
+  SystemData.TypeConverter.cs
+  TrackedResource.cs
+  TrackedResource.json.cs
+  TrackedResource.PowerShell.cs
+  TrackedResource.TypeConverter.cs
+  TrackedResourceTags.cs
+  TrackedResourceTags.dictionary.cs
+  TrackedResourceTags.json.cs
+  TrackedResourceTags.PowerShell.cs
+  TrackedResourceTags.TypeConverter.cs
+  TrackedResourceUpdate.cs
+  TrackedResourceUpdate.json.cs
+  TrackedResourceUpdate.PowerShell.cs
+  TrackedResourceUpdate.TypeConverter.cs
+  User.cs
+  User.json.cs
+  User.PowerShell.cs
+  User.TypeConverter.cs
+  UserProperties.cs
+  UserProperties.json.cs
+  UserProperties.PowerShell.cs
+  UserProperties.TypeConverter.cs
+  UserUpdate.cs
+  UserUpdate.json.cs
+  UserUpdate.PowerShell.cs
+  UserUpdate.TypeConverter.cs
+  UserUpdateProperties.cs
+  UserUpdateProperties.json.cs
+  UserUpdateProperties.PowerShell.cs
+  UserUpdateProperties.TypeConverter.cs
+  VirtualMachine.cs
+  VirtualMachine.json.cs
+  VirtualMachine.PowerShell.cs
+  VirtualMachine.TypeConverter.cs
+  VirtualMachineAdditionalCapabilities.cs
+  VirtualMachineAdditionalCapabilities.json.cs
+  VirtualMachineAdditionalCapabilities.PowerShell.cs
+  VirtualMachineAdditionalCapabilities.TypeConverter.cs
+  VirtualMachineConnectionProfile.cs
+  VirtualMachineConnectionProfile.json.cs
+  VirtualMachineConnectionProfile.PowerShell.cs
+  VirtualMachineConnectionProfile.TypeConverter.cs
+  VirtualMachineProfile.cs
+  VirtualMachineProfile.json.cs
+  VirtualMachineProfile.PowerShell.cs
+  VirtualMachineProfile.TypeConverter.cs
+  VirtualMachineProperties.cs
+  VirtualMachineProperties.json.cs
+  VirtualMachineProperties.PowerShell.cs
+  VirtualMachineProperties.TypeConverter.cs
+generated/cmdlets/
+ GetAzLabServicesLabPlan_Get.cs
+ GetAzLabServicesLabPlan_GetViaIdentity.cs
+ GetAzLabServicesLabPlan_List.cs
+ GetAzLabServicesLabPlan_List1.cs
+ GetAzLabServicesLab_Get.cs
+ GetAzLabServicesLab_GetViaIdentity.cs
+ GetAzLabServicesLab_List.cs
+ GetAzLabServicesLab_List1.cs
+ GetAzLabServicesPlanImage_Get.cs
+ GetAzLabServicesPlanImage_GetViaIdentity.cs
+ GetAzLabServicesPlanImage_GetViaIdentityLabPlan.cs
+ GetAzLabServicesPlanImage_List.cs
+ GetAzLabServicesSchedule_Get.cs
+ GetAzLabServicesSchedule_GetViaIdentity.cs
+ GetAzLabServicesSchedule_GetViaIdentityLab.cs
+ GetAzLabServicesSchedule_List.cs
+ GetAzLabServicesUser_Get.cs
+ GetAzLabServicesUser_GetViaIdentity.cs
+ GetAzLabServicesUser_GetViaIdentityLab.cs
+ GetAzLabServicesUser_List.cs
+ GetAzLabServicesVM_Get.cs
+ GetAzLabServicesVM_GetViaIdentity.cs
+ GetAzLabServicesVM_GetViaIdentityLab.cs
+ GetAzLabServicesVM_List.cs
+ NewAzLabServicesLabPlan_CreateExpanded.cs
+ NewAzLabServicesLabPlan_CreateViaJsonFilePath.cs
+ NewAzLabServicesLabPlan_CreateViaJsonString.cs
+ NewAzLabServicesLab_CreateExpanded.cs
+ NewAzLabServicesLab_CreateViaJsonFilePath.cs
+ NewAzLabServicesLab_CreateViaJsonString.cs
+ NewAzLabServicesSchedule_CreateExpanded.cs
+ NewAzLabServicesSchedule_CreateViaIdentityLabExpanded.cs
+ NewAzLabServicesSchedule_CreateViaJsonFilePath.cs
+ NewAzLabServicesSchedule_CreateViaJsonString.cs
+ NewAzLabServicesUser_CreateExpanded.cs
+ NewAzLabServicesUser_CreateViaIdentityLabExpanded.cs
+ NewAzLabServicesUser_CreateViaJsonFilePath.cs
+ NewAzLabServicesUser_CreateViaJsonString.cs
+ PublishAzLabServicesLab_Publish.cs
+ PublishAzLabServicesLab_PublishViaIdentity.cs
+ RemoveAzLabServicesLabPlan_Delete.cs
+ RemoveAzLabServicesLabPlan_DeleteViaIdentity.cs
+ RemoveAzLabServicesLab_Delete.cs
+ RemoveAzLabServicesLab_DeleteViaIdentity.cs
+ RemoveAzLabServicesSchedule_Delete.cs
+ RemoveAzLabServicesSchedule_DeleteViaIdentity.cs
+ RemoveAzLabServicesSchedule_DeleteViaIdentityLab.cs
+ RemoveAzLabServicesUser_Delete.cs
+ RemoveAzLabServicesUser_DeleteViaIdentity.cs
+ RemoveAzLabServicesUser_DeleteViaIdentityLab.cs
+ ResetAzLabServicesVMPassword_ResetExpanded.cs
+ ResetAzLabServicesVMPassword_ResetViaIdentityExpanded.cs
+ ResetAzLabServicesVMPassword_ResetViaIdentityLabExpanded.cs
+ ResetAzLabServicesVMPassword_ResetViaJsonFilePath.cs
+ ResetAzLabServicesVMPassword_ResetViaJsonString.cs
+ SaveAzLabServicesLabPlanImage_SaveExpanded.cs
+ SaveAzLabServicesLabPlanImage_SaveViaIdentityExpanded.cs
+ SaveAzLabServicesLabPlanImage_SaveViaJsonFilePath.cs
+ SaveAzLabServicesLabPlanImage_SaveViaJsonString.cs
+ SendAzLabServicesUserInvite_InviteExpanded.cs
+ SendAzLabServicesUserInvite_InviteViaIdentityExpanded.cs
+ SendAzLabServicesUserInvite_InviteViaIdentityLabExpanded.cs
+ SendAzLabServicesUserInvite_InviteViaJsonFilePath.cs
+ SendAzLabServicesUserInvite_InviteViaJsonString.cs
+ StartAzLabServicesVMRedeployment_Redeploy.cs
+ StartAzLabServicesVMRedeployment_RedeployViaIdentity.cs
+ StartAzLabServicesVMRedeployment_RedeployViaIdentityLab.cs
+ StartAzLabServicesVM_Start.cs
+ StartAzLabServicesVM_StartViaIdentity.cs
+ StartAzLabServicesVM_StartViaIdentityLab.cs
+ StopAzLabServicesVM_Stop.cs
+ StopAzLabServicesVM_StopViaIdentity.cs
+ StopAzLabServicesVM_StopViaIdentityLab.cs
+ SyncAzLabServicesLabUser_Sync.cs
+ SyncAzLabServicesLabUser_SyncViaIdentity.cs
+ UpdateAzLabServicesLabPlan_UpdateExpanded.cs
+ UpdateAzLabServicesLabPlan_UpdateViaIdentityExpanded.cs
+ UpdateAzLabServicesLabPlan_UpdateViaJsonFilePath.cs
+ UpdateAzLabServicesLabPlan_UpdateViaJsonString.cs
+ UpdateAzLabServicesLab_UpdateExpanded.cs
+ UpdateAzLabServicesLab_UpdateViaIdentityExpanded.cs
+ UpdateAzLabServicesLab_UpdateViaJsonFilePath.cs
+ UpdateAzLabServicesLab_UpdateViaJsonString.cs
+ UpdateAzLabServicesPlanImage_UpdateExpanded.cs
+ UpdateAzLabServicesPlanImage_UpdateViaIdentityExpanded.cs
+ UpdateAzLabServicesPlanImage_UpdateViaIdentityLabPlanExpanded.cs
+ UpdateAzLabServicesPlanImage_UpdateViaJsonFilePath.cs
+ UpdateAzLabServicesPlanImage_UpdateViaJsonString.cs
+ UpdateAzLabServicesSchedule_UpdateExpanded.cs
+ UpdateAzLabServicesSchedule_UpdateViaIdentityExpanded.cs
+ UpdateAzLabServicesSchedule_UpdateViaIdentityLabExpanded.cs
+ UpdateAzLabServicesSchedule_UpdateViaJsonFilePath.cs
+ UpdateAzLabServicesSchedule_UpdateViaJsonString.cs
+ UpdateAzLabServicesUser_UpdateExpanded.cs
+ UpdateAzLabServicesUser_UpdateViaIdentityExpanded.cs
+ UpdateAzLabServicesUser_UpdateViaIdentityLabExpanded.cs
+ UpdateAzLabServicesUser_UpdateViaJsonFilePath.cs
+ UpdateAzLabServicesUser_UpdateViaJsonString.cs
+ UpdateAzLabServicesVMReimage_Reimage.cs
+ UpdateAzLabServicesVMReimage_ReimageViaIdentity.cs
+ UpdateAzLabServicesVMReimage_ReimageViaIdentityLab.cs
+generated/
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.LabServices.GeneratedMSBuildEditorConfig.editorconfig

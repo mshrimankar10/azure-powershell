@@ -1,0 +1,590 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Az.StorageMover.private
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.1 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.StorageMover/StorageMover.Autorest/bin/Az.StorageMover.private.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.PowerShell.Cmdlets.StorageMover
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.StorageMover/StorageMover.Autorest/bin/Az.StorageMover.private.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1998,1570,1571,1572,1573,1574,1584,1587,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.StorageMover/StorageMover.Autorest/bin/Az.StorageMover.private.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Az.StorageMover.private.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.1
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../../src/shared/ConfigKeys.cs
+generated/api/Models/
+ Agent.cs
+ Agent.json.cs
+ Agent.PowerShell.cs
+ Agent.TypeConverter.cs
+ AgentList.cs
+ AgentList.json.cs
+ AgentList.PowerShell.cs
+ AgentList.TypeConverter.cs
+ AgentProperties.cs
+ AgentProperties.json.cs
+ AgentProperties.PowerShell.cs
+ AgentProperties.TypeConverter.cs
+ AgentPropertiesErrorDetails.cs
+ AgentPropertiesErrorDetails.json.cs
+ AgentPropertiesErrorDetails.PowerShell.cs
+ AgentPropertiesErrorDetails.TypeConverter.cs
+ AgentUpdateParameters.cs
+ AgentUpdateParameters.json.cs
+ AgentUpdateParameters.PowerShell.cs
+ AgentUpdateParameters.TypeConverter.cs
+ AgentUpdateProperties.cs
+ AgentUpdateProperties.json.cs
+ AgentUpdateProperties.PowerShell.cs
+ AgentUpdateProperties.TypeConverter.cs
+ Any.cs
+ Any.json.cs
+ Any.PowerShell.cs
+ Any.TypeConverter.cs
+ AzureKeyVaultSmbCredentials.cs
+ AzureKeyVaultSmbCredentials.json.cs
+ AzureKeyVaultSmbCredentials.PowerShell.cs
+ AzureKeyVaultSmbCredentials.TypeConverter.cs
+ AzureMultiCloudConnectorEndpointProperties.cs
+ AzureMultiCloudConnectorEndpointProperties.json.cs
+ AzureMultiCloudConnectorEndpointProperties.PowerShell.cs
+ AzureMultiCloudConnectorEndpointProperties.TypeConverter.cs
+ AzureMultiCloudConnectorEndpointUpdateProperties.cs
+ AzureMultiCloudConnectorEndpointUpdateProperties.json.cs
+ AzureMultiCloudConnectorEndpointUpdateProperties.PowerShell.cs
+ AzureMultiCloudConnectorEndpointUpdateProperties.TypeConverter.cs
+ AzureStorageBlobContainerEndpointProperties.cs
+ AzureStorageBlobContainerEndpointProperties.json.cs
+ AzureStorageBlobContainerEndpointProperties.PowerShell.cs
+ AzureStorageBlobContainerEndpointProperties.TypeConverter.cs
+ AzureStorageBlobContainerEndpointUpdateProperties.cs
+ AzureStorageBlobContainerEndpointUpdateProperties.json.cs
+ AzureStorageBlobContainerEndpointUpdateProperties.PowerShell.cs
+ AzureStorageBlobContainerEndpointUpdateProperties.TypeConverter.cs
+ AzureStorageNfsFileShareEndpointProperties.cs
+ AzureStorageNfsFileShareEndpointProperties.json.cs
+ AzureStorageNfsFileShareEndpointProperties.PowerShell.cs
+ AzureStorageNfsFileShareEndpointProperties.TypeConverter.cs
+ AzureStorageNfsFileShareEndpointUpdateProperties.cs
+ AzureStorageNfsFileShareEndpointUpdateProperties.json.cs
+ AzureStorageNfsFileShareEndpointUpdateProperties.PowerShell.cs
+ AzureStorageNfsFileShareEndpointUpdateProperties.TypeConverter.cs
+ AzureStorageSmbFileShareEndpointProperties.cs
+ AzureStorageSmbFileShareEndpointProperties.json.cs
+ AzureStorageSmbFileShareEndpointProperties.PowerShell.cs
+ AzureStorageSmbFileShareEndpointProperties.TypeConverter.cs
+ AzureStorageSmbFileShareEndpointUpdateProperties.cs
+ AzureStorageSmbFileShareEndpointUpdateProperties.json.cs
+ AzureStorageSmbFileShareEndpointUpdateProperties.PowerShell.cs
+ AzureStorageSmbFileShareEndpointUpdateProperties.TypeConverter.cs
+ Credentials.cs
+ Credentials.json.cs
+ Credentials.PowerShell.cs
+ Credentials.TypeConverter.cs
+ Endpoint.cs
+ Endpoint.json.cs
+ Endpoint.PowerShell.cs
+ Endpoint.TypeConverter.cs
+ EndpointBaseProperties.cs
+ EndpointBaseProperties.json.cs
+ EndpointBaseProperties.PowerShell.cs
+ EndpointBaseProperties.TypeConverter.cs
+ EndpointBaseUpdateParameters.cs
+ EndpointBaseUpdateParameters.json.cs
+ EndpointBaseUpdateParameters.PowerShell.cs
+ EndpointBaseUpdateParameters.TypeConverter.cs
+ EndpointBaseUpdateProperties.cs
+ EndpointBaseUpdateProperties.json.cs
+ EndpointBaseUpdateProperties.PowerShell.cs
+ EndpointBaseUpdateProperties.TypeConverter.cs
+ EndpointList.cs
+ EndpointList.json.cs
+ EndpointList.PowerShell.cs
+ EndpointList.TypeConverter.cs
+ ErrorAdditionalInfo.cs
+ ErrorAdditionalInfo.json.cs
+ ErrorAdditionalInfo.PowerShell.cs
+ ErrorAdditionalInfo.TypeConverter.cs
+ ErrorDetail.cs
+ ErrorDetail.json.cs
+ ErrorDetail.PowerShell.cs
+ ErrorDetail.TypeConverter.cs
+ ErrorResponse.cs
+ ErrorResponse.json.cs
+ ErrorResponse.PowerShell.cs
+ ErrorResponse.TypeConverter.cs
+ JobDefinition.cs
+ JobDefinition.json.cs
+ JobDefinition.PowerShell.cs
+ JobDefinition.TypeConverter.cs
+ JobDefinitionList.cs
+ JobDefinitionList.json.cs
+ JobDefinitionList.PowerShell.cs
+ JobDefinitionList.TypeConverter.cs
+ JobDefinitionProperties.cs
+ JobDefinitionProperties.json.cs
+ JobDefinitionProperties.PowerShell.cs
+ JobDefinitionProperties.TypeConverter.cs
+ JobDefinitionPropertiesSourceTargetMap.cs
+ JobDefinitionPropertiesSourceTargetMap.json.cs
+ JobDefinitionPropertiesSourceTargetMap.PowerShell.cs
+ JobDefinitionPropertiesSourceTargetMap.TypeConverter.cs
+ JobDefinitionUpdateParameters.cs
+ JobDefinitionUpdateParameters.json.cs
+ JobDefinitionUpdateParameters.PowerShell.cs
+ JobDefinitionUpdateParameters.TypeConverter.cs
+ JobDefinitionUpdateProperties.cs
+ JobDefinitionUpdateProperties.json.cs
+ JobDefinitionUpdateProperties.PowerShell.cs
+ JobDefinitionUpdateProperties.TypeConverter.cs
+ JobRun.cs
+ JobRun.json.cs
+ JobRun.PowerShell.cs
+ JobRun.TypeConverter.cs
+ JobRunError.cs
+ JobRunError.json.cs
+ JobRunError.PowerShell.cs
+ JobRunError.TypeConverter.cs
+ JobRunList.cs
+ JobRunList.json.cs
+ JobRunList.PowerShell.cs
+ JobRunList.TypeConverter.cs
+ JobRunProperties.cs
+ JobRunProperties.json.cs
+ JobRunProperties.PowerShell.cs
+ JobRunProperties.TypeConverter.cs
+ JobRunResourceId.cs
+ JobRunResourceId.json.cs
+ JobRunResourceId.PowerShell.cs
+ JobRunResourceId.TypeConverter.cs
+ ManagedServiceIdentity.cs
+ ManagedServiceIdentity.json.cs
+ ManagedServiceIdentity.PowerShell.cs
+ ManagedServiceIdentity.TypeConverter.cs
+ NfsMountEndpointProperties.cs
+ NfsMountEndpointProperties.json.cs
+ NfsMountEndpointProperties.PowerShell.cs
+ NfsMountEndpointProperties.TypeConverter.cs
+ NfsMountEndpointUpdateProperties.cs
+ NfsMountEndpointUpdateProperties.json.cs
+ NfsMountEndpointUpdateProperties.PowerShell.cs
+ NfsMountEndpointUpdateProperties.TypeConverter.cs
+ Operation.cs
+ Operation.json.cs
+ Operation.PowerShell.cs
+ Operation.TypeConverter.cs
+ OperationDisplay.cs
+ OperationDisplay.json.cs
+ OperationDisplay.PowerShell.cs
+ OperationDisplay.TypeConverter.cs
+ OperationListResult.cs
+ OperationListResult.json.cs
+ OperationListResult.PowerShell.cs
+ OperationListResult.TypeConverter.cs
+ Project.cs
+ Project.json.cs
+ Project.PowerShell.cs
+ Project.TypeConverter.cs
+ ProjectList.cs
+ ProjectList.json.cs
+ ProjectList.PowerShell.cs
+ ProjectList.TypeConverter.cs
+ ProjectProperties.cs
+ ProjectProperties.json.cs
+ ProjectProperties.PowerShell.cs
+ ProjectProperties.TypeConverter.cs
+ ProjectUpdateParameters.cs
+ ProjectUpdateParameters.json.cs
+ ProjectUpdateParameters.PowerShell.cs
+ ProjectUpdateParameters.TypeConverter.cs
+ ProjectUpdateProperties.cs
+ ProjectUpdateProperties.json.cs
+ ProjectUpdateProperties.PowerShell.cs
+ ProjectUpdateProperties.TypeConverter.cs
+ ProxyResource.cs
+ ProxyResource.json.cs
+ ProxyResource.PowerShell.cs
+ ProxyResource.TypeConverter.cs
+ Recurrence.cs
+ Recurrence.json.cs
+ Recurrence.PowerShell.cs
+ Recurrence.TypeConverter.cs
+ Resource.cs
+ Resource.json.cs
+ Resource.PowerShell.cs
+ Resource.TypeConverter.cs
+ SmbMountEndpointProperties.cs
+ SmbMountEndpointProperties.json.cs
+ SmbMountEndpointProperties.PowerShell.cs
+ SmbMountEndpointProperties.TypeConverter.cs
+ SmbMountEndpointUpdateProperties.cs
+ SmbMountEndpointUpdateProperties.json.cs
+ SmbMountEndpointUpdateProperties.PowerShell.cs
+ SmbMountEndpointUpdateProperties.TypeConverter.cs
+ SourceEndpoint.cs
+ SourceEndpoint.json.cs
+ SourceEndpoint.PowerShell.cs
+ SourceEndpoint.TypeConverter.cs
+ SourceEndpointProperties.cs
+ SourceEndpointProperties.json.cs
+ SourceEndpointProperties.PowerShell.cs
+ SourceEndpointProperties.TypeConverter.cs
+ SourceTargetMap.cs
+ SourceTargetMap.json.cs
+ SourceTargetMap.PowerShell.cs
+ SourceTargetMap.TypeConverter.cs
+ StorageMover.cs
+ StorageMover.json.cs
+ StorageMover.PowerShell.cs
+ StorageMover.TypeConverter.cs
+ StorageMoverIdentity.cs
+ StorageMoverIdentity.json.cs
+ StorageMoverIdentity.PowerShell.cs
+ StorageMoverIdentity.TypeConverter.cs
+ StorageMoverList.cs
+ StorageMoverList.json.cs
+ StorageMoverList.PowerShell.cs
+ StorageMoverList.TypeConverter.cs
+ StorageMoverProperties.cs
+ StorageMoverProperties.json.cs
+ StorageMoverProperties.PowerShell.cs
+ StorageMoverProperties.TypeConverter.cs
+ StorageMoverUpdateParameters.cs
+ StorageMoverUpdateParameters.json.cs
+ StorageMoverUpdateParameters.PowerShell.cs
+ StorageMoverUpdateParameters.TypeConverter.cs
+ StorageMoverUpdateParametersTags.cs
+ StorageMoverUpdateParametersTags.dictionary.cs
+ StorageMoverUpdateParametersTags.json.cs
+ StorageMoverUpdateParametersTags.PowerShell.cs
+ StorageMoverUpdateParametersTags.TypeConverter.cs
+ StorageMoverUpdateProperties.cs
+ StorageMoverUpdateProperties.json.cs
+ StorageMoverUpdateProperties.PowerShell.cs
+ StorageMoverUpdateProperties.TypeConverter.cs
+ SystemData.cs
+ SystemData.json.cs
+ SystemData.PowerShell.cs
+ SystemData.TypeConverter.cs
+ TargetEndpoint.cs
+ TargetEndpoint.json.cs
+ TargetEndpoint.PowerShell.cs
+ TargetEndpoint.TypeConverter.cs
+ TargetEndpointProperties.cs
+ TargetEndpointProperties.json.cs
+ TargetEndpointProperties.PowerShell.cs
+ TargetEndpointProperties.TypeConverter.cs
+ Time.cs
+ Time.json.cs
+ Time.PowerShell.cs
+ Time.TypeConverter.cs
+ TrackedResource.cs
+ TrackedResource.json.cs
+ TrackedResource.PowerShell.cs
+ TrackedResource.TypeConverter.cs
+ TrackedResourceTags.cs
+ TrackedResourceTags.dictionary.cs
+ TrackedResourceTags.json.cs
+ TrackedResourceTags.PowerShell.cs
+ TrackedResourceTags.TypeConverter.cs
+ UploadLimitSchedule.cs
+ UploadLimitSchedule.json.cs
+ UploadLimitSchedule.PowerShell.cs
+ UploadLimitSchedule.TypeConverter.cs
+ UploadLimitWeeklyRecurrence.cs
+ UploadLimitWeeklyRecurrence.json.cs
+ UploadLimitWeeklyRecurrence.PowerShell.cs
+ UploadLimitWeeklyRecurrence.TypeConverter.cs
+ UserAssignedIdentities.cs
+ UserAssignedIdentities.dictionary.cs
+ UserAssignedIdentities.json.cs
+ UserAssignedIdentities.PowerShell.cs
+ UserAssignedIdentities.TypeConverter.cs
+ UserAssignedIdentity.cs
+ UserAssignedIdentity.json.cs
+ UserAssignedIdentity.PowerShell.cs
+ UserAssignedIdentity.TypeConverter.cs
+ WeeklyRecurrence.cs
+ WeeklyRecurrence.json.cs
+ WeeklyRecurrence.PowerShell.cs
+ WeeklyRecurrence.TypeConverter.cs
+generated/
+ api/StorageMover.cs
+ cmdlets/
+  GetAzStorageMoverAgent_Get.cs
+  GetAzStorageMoverAgent_GetViaIdentity.cs
+  GetAzStorageMoverAgent_GetViaIdentityStorageMover.cs
+  GetAzStorageMoverAgent_List.cs
+  GetAzStorageMoverEndpoint_Get.cs
+  GetAzStorageMoverEndpoint_GetViaIdentity.cs
+  GetAzStorageMoverEndpoint_GetViaIdentityStorageMover.cs
+  GetAzStorageMoverEndpoint_List.cs
+  GetAzStorageMoverJobDefinition_Get.cs
+  GetAzStorageMoverJobDefinition_GetViaIdentity.cs
+  GetAzStorageMoverJobDefinition_GetViaIdentityProject.cs
+  GetAzStorageMoverJobDefinition_GetViaIdentityStorageMover.cs
+  GetAzStorageMoverJobDefinition_List.cs
+  GetAzStorageMoverJobRun_Get.cs
+  GetAzStorageMoverJobRun_GetViaIdentity.cs
+  GetAzStorageMoverJobRun_GetViaIdentityJobDefinition.cs
+  GetAzStorageMoverJobRun_GetViaIdentityProject.cs
+  GetAzStorageMoverJobRun_GetViaIdentityStorageMover.cs
+  GetAzStorageMoverJobRun_List.cs
+  GetAzStorageMoverOperation_List.cs
+  GetAzStorageMoverProject_Get.cs
+  GetAzStorageMoverProject_GetViaIdentity.cs
+  GetAzStorageMoverProject_GetViaIdentityStorageMover.cs
+  GetAzStorageMoverProject_List.cs
+  GetAzStorageMover_Get.cs
+  GetAzStorageMover_GetViaIdentity.cs
+  GetAzStorageMover_List.cs
+  GetAzStorageMover_List1.cs
+  NewAzStorageMoverEndpoint_CreateExpanded.cs
+  NewAzStorageMoverEndpoint_CreateViaIdentityStorageMoverExpanded.cs
+  NewAzStorageMoverEndpoint_CreateViaJsonFilePath.cs
+  NewAzStorageMoverEndpoint_CreateViaJsonString.cs
+  NewAzStorageMoverJobDefinition_CreateExpanded.cs
+  NewAzStorageMoverJobDefinition_CreateViaIdentityProjectExpanded.cs
+  NewAzStorageMoverJobDefinition_CreateViaIdentityStorageMoverExpanded.cs
+  NewAzStorageMoverJobDefinition_CreateViaJsonFilePath.cs
+  NewAzStorageMoverJobDefinition_CreateViaJsonString.cs
+  NewAzStorageMoverProject_CreateExpanded.cs
+  NewAzStorageMoverProject_CreateViaIdentityStorageMoverExpanded.cs
+  NewAzStorageMoverProject_CreateViaJsonFilePath.cs
+  NewAzStorageMoverProject_CreateViaJsonString.cs
+  NewAzStorageMover_CreateExpanded.cs
+  NewAzStorageMover_CreateViaJsonFilePath.cs
+  NewAzStorageMover_CreateViaJsonString.cs
+  RemoveAzStorageMoverAgent_Delete.cs
+  RemoveAzStorageMoverAgent_DeleteViaIdentity.cs
+  RemoveAzStorageMoverAgent_DeleteViaIdentityStorageMover.cs
+  RemoveAzStorageMoverEndpoint_Delete.cs
+  RemoveAzStorageMoverEndpoint_DeleteViaIdentity.cs
+  RemoveAzStorageMoverEndpoint_DeleteViaIdentityStorageMover.cs
+  RemoveAzStorageMoverJobDefinition_Delete.cs
+  RemoveAzStorageMoverJobDefinition_DeleteViaIdentity.cs
+  RemoveAzStorageMoverJobDefinition_DeleteViaIdentityProject.cs
+  RemoveAzStorageMoverJobDefinition_DeleteViaIdentityStorageMover.cs
+  RemoveAzStorageMoverProject_Delete.cs
+  RemoveAzStorageMoverProject_DeleteViaIdentity.cs
+  RemoveAzStorageMoverProject_DeleteViaIdentityStorageMover.cs
+  RemoveAzStorageMover_Delete.cs
+  RemoveAzStorageMover_DeleteViaIdentity.cs
+  StartAzStorageMoverJobDefinition_Start.cs
+  StartAzStorageMoverJobDefinition_StartViaIdentity.cs
+  StartAzStorageMoverJobDefinition_StartViaIdentityProject.cs
+  StartAzStorageMoverJobDefinition_StartViaIdentityStorageMover.cs
+  StopAzStorageMoverJobDefinition_Stop.cs
+  StopAzStorageMoverJobDefinition_StopViaIdentity.cs
+  StopAzStorageMoverJobDefinition_StopViaIdentityProject.cs
+  StopAzStorageMoverJobDefinition_StopViaIdentityStorageMover.cs
+  UpdateAzStorageMoverAgent_UpdateExpanded.cs
+  UpdateAzStorageMoverAgent_UpdateViaIdentityExpanded.cs
+  UpdateAzStorageMoverAgent_UpdateViaIdentityStorageMoverExpanded.cs
+  UpdateAzStorageMoverAgent_UpdateViaJsonFilePath.cs
+  UpdateAzStorageMoverAgent_UpdateViaJsonString.cs
+  UpdateAzStorageMoverEndpoint_UpdateExpanded.cs
+  UpdateAzStorageMoverEndpoint_UpdateViaIdentityExpanded.cs
+  UpdateAzStorageMoverEndpoint_UpdateViaIdentityStorageMoverExpanded.cs
+  UpdateAzStorageMoverEndpoint_UpdateViaJsonFilePath.cs
+  UpdateAzStorageMoverEndpoint_UpdateViaJsonString.cs
+  UpdateAzStorageMoverJobDefinition_UpdateExpanded.cs
+  UpdateAzStorageMoverJobDefinition_UpdateViaIdentityExpanded.cs
+  UpdateAzStorageMoverJobDefinition_UpdateViaIdentityProjectExpanded.cs
+  UpdateAzStorageMoverJobDefinition_UpdateViaIdentityStorageMoverExpanded.cs
+  UpdateAzStorageMoverJobDefinition_UpdateViaJsonFilePath.cs
+  UpdateAzStorageMoverJobDefinition_UpdateViaJsonString.cs
+  UpdateAzStorageMoverProject_UpdateExpanded.cs
+  UpdateAzStorageMoverProject_UpdateViaIdentityExpanded.cs
+  UpdateAzStorageMoverProject_UpdateViaIdentityStorageMoverExpanded.cs
+  UpdateAzStorageMoverProject_UpdateViaJsonFilePath.cs
+  UpdateAzStorageMoverProject_UpdateViaJsonString.cs
+  UpdateAzStorageMover_UpdateExpanded.cs
+  UpdateAzStorageMover_UpdateViaIdentityExpanded.cs
+  UpdateAzStorageMover_UpdateViaJsonFilePath.cs
+  UpdateAzStorageMover_UpdateViaJsonString.cs
+ Module.cs
+ runtime/
+  AsyncCommandRuntime.cs
+  AsyncJob.cs
+  AsyncOperationResponse.cs
+  Attributes/
+   ExternalDocsAttribute.cs
+   PSArgumentCompleterAttribute.cs
+  BuildTime/Cmdlets/
+   ExportCmdletSurface.cs
+   ExportExampleStub.cs
+   ExportFormatPs1xml.cs
+   ExportHelpMarkdown.cs
+   ExportModelSurface.cs
+   ExportProxyCmdlet.cs
+   ExportPsd1.cs
+   ExportTestStub.cs
+   GetCommonParameter.cs
+   GetModuleGuid.cs
+   GetScriptCmdlet.cs
+  BuildTime/
+   CollectionExtensions.cs
+   MarkdownRenderer.cs
+   Models/
+    PsFormatTypes.cs
+    PsHelpMarkdownOutputs.cs
+    PsHelpTypes.cs
+    PsMarkdownTypes.cs
+    PsProxyOutputs.cs
+    PsProxyTypes.cs
+   PsAttributes.cs
+   PsExtensions.cs
+   PsHelpers.cs
+   StringExtensions.cs
+   XmlExtensions.cs
+  CmdInfoHandler.cs
+  Context.cs
+  Conversions/
+   ConversionException.cs
+   IJsonConverter.cs
+   Instances/
+    BinaryConverter.cs
+    BooleanConverter.cs
+    DateTimeConverter.cs
+    DateTimeOffsetConverter.cs
+    DecimalConverter.cs
+    DoubleConverter.cs
+    EnumConverter.cs
+    GuidConverter.cs
+    HashSet'1Converter.cs
+    Int16Converter.cs
+    Int32Converter.cs
+    Int64Converter.cs
+    JsonArrayConverter.cs
+    JsonObjectConverter.cs
+    SingleConverter.cs
+    StringConverter.cs
+    TimeSpanConverter.cs
+    UInt16Converter.cs
+    UInt32Converter.cs
+    UInt64Converter.cs
+    UriConverter.cs
+   JsonConverter.cs
+   JsonConverterAttribute.cs
+   JsonConverterFactory.cs
+   StringLikeConverter.cs
+  Customizations/
+   IJsonSerializable.cs
+   JsonArray.cs
+   JsonBoolean.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XNodeArray.cs
+  Debugging.cs
+  delegates.cs
+  DictionaryExtensions.cs
+  EventData.cs
+  EventDataExtensions.cs
+  EventListener.cs
+  Events.cs
+  EventsExtensions.cs
+  Extensions.cs
+  Helpers/Extensions/
+   StringBuilderExtensions.cs
+   TypeExtensions.cs
+  Helpers/
+   Seperator.cs
+   TypeDetails.cs
+   XHelper.cs
+  HttpPipeline.cs
+  IAssociativeArray.cs
+  IHeaderSerializable.cs
+  InfoAttribute.cs
+  InputHandler.cs
+  ISendAsync.cs
+  Iso/IsoDate.cs
+  JsonType.cs
+  MessageAttribute.cs
+  MessageAttributeHelper.cs
+  Method.cs
+  Models/
+   JsonMember.cs
+   JsonModel.cs
+   JsonModelCache.cs
+  Nodes/Collections/
+   JsonArray.cs
+   XImmutableArray.cs
+   XList.cs
+   XNodeArray.cs
+   XSet.cs
+  Nodes/
+   JsonBoolean.cs
+   JsonDate.cs
+   JsonNode.cs
+   JsonNumber.cs
+   JsonObject.cs
+   JsonString.cs
+   XBinary.cs
+   XNull.cs
+  Parser/
+   Exceptions/ParseException.cs
+   JsonParser.cs
+   JsonToken.cs
+   JsonTokenizer.cs
+   Location.cs
+   Readers/SourceReader.cs
+   TokenReader.cs
+  PipelineMocking.cs
+  Properties/Resources.Designer.cs
+  Response.cs
+  Serialization/
+   JsonSerializer.cs
+   PropertyTransformation.cs
+   SerializationOptions.cs
+  SerializationMode.cs
+  TypeConverterExtensions.cs
+  UndeclaredResponseException.cs
+  Writers/JsonWriter.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Az.StorageMover.GeneratedMSBuildEditorConfig.editorconfig

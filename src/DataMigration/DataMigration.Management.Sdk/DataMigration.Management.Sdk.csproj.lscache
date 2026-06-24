@@ -1,0 +1,347 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.DataMigration.Management.Sdk
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.DataMigration/Microsoft.Azure.PowerShell.DataMigration.Management.Sdk.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.Management.DataMigration
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.DataMigration/Microsoft.Azure.PowerShell.DataMigration.Management.Sdk.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,CS0108,CS1573,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.DataMigration/Microsoft.Azure.PowerShell.DataMigration.Management.Sdk.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.DataMigration.Management.Sdk.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+Generated/
+ DataMigrationServiceClient.cs
+ FilesOperations.cs
+ FilesOperationsExtensions.cs
+ IDataMigrationServiceClient.cs
+ IFilesOperations.cs
+ IOperations.cs
+ IProjectsOperations.cs
+ IResourceSkusOperations.cs
+ IServicesOperations.cs
+ ITasksOperations.cs
+ IUsagesOperations.cs
+ Models/
+  ApiError.cs
+  ApiErrorException.cs
+  AuthenticationType.cs
+  AvailableServiceSku.cs
+  AvailableServiceSkuCapacity.cs
+  AvailableServiceSkuSku.cs
+  AzureActiveDirectoryApp.cs
+  BackupFileInfo.cs
+  BackupFileStatus.cs
+  BackupMode.cs
+  BackupSetInfo.cs
+  BackupType.cs
+  BlobShare.cs
+  CommandProperties.cs
+  CommandState.cs
+  ConnectionInfo.cs
+  ConnectToMongoDbTaskProperties.cs
+  ConnectToSourceMySqlTaskInput.cs
+  ConnectToSourceMySqlTaskProperties.cs
+  ConnectToSourceNonSqlTaskOutput.cs
+  ConnectToSourcePostgreSqlSyncTaskInput.cs
+  ConnectToSourcePostgreSqlSyncTaskOutput.cs
+  ConnectToSourcePostgreSqlSyncTaskProperties.cs
+  ConnectToSourceSqlServerSyncTaskProperties.cs
+  ConnectToSourceSqlServerTaskInput.cs
+  ConnectToSourceSqlServerTaskOutput.cs
+  ConnectToSourceSqlServerTaskOutputAgentJobLevel.cs
+  ConnectToSourceSqlServerTaskOutputDatabaseLevel.cs
+  ConnectToSourceSqlServerTaskOutputLoginLevel.cs
+  ConnectToSourceSqlServerTaskOutputTaskLevel.cs
+  ConnectToSourceSqlServerTaskProperties.cs
+  ConnectToTargetAzureDbForMySqlTaskInput.cs
+  ConnectToTargetAzureDbForMySqlTaskOutput.cs
+  ConnectToTargetAzureDbForMySqlTaskProperties.cs
+  ConnectToTargetAzureDbForPostgreSqlSyncTaskInput.cs
+  ConnectToTargetAzureDbForPostgreSqlSyncTaskOutput.cs
+  ConnectToTargetAzureDbForPostgreSqlSyncTaskProperties.cs
+  ConnectToTargetSqlDbTaskInput.cs
+  ConnectToTargetSqlDbTaskOutput.cs
+  ConnectToTargetSqlDbTaskProperties.cs
+  ConnectToTargetSqlMISyncTaskInput.cs
+  ConnectToTargetSqlMISyncTaskOutput.cs
+  ConnectToTargetSqlMISyncTaskProperties.cs
+  ConnectToTargetSqlMITaskInput.cs
+  ConnectToTargetSqlMITaskOutput.cs
+  ConnectToTargetSqlMITaskProperties.cs
+  ConnectToTargetSqlSqlDbSyncTaskInput.cs
+  ConnectToTargetSqlSqlDbSyncTaskProperties.cs
+  Database.cs
+  DatabaseBackupInfo.cs
+  DatabaseCompatLevel.cs
+  DatabaseFileInfo.cs
+  DatabaseFileInput.cs
+  DatabaseFileType.cs
+  DatabaseInfo.cs
+  DatabaseMigrationStage.cs
+  DatabaseMigrationState.cs
+  DatabaseObjectName.cs
+  DatabaseState.cs
+  DatabaseSummaryResult.cs
+  DatabaseTable.cs
+  DataIntegrityValidationResult.cs
+  DataItemMigrationSummaryResult.cs
+  DataMigrationError.cs
+  DataMigrationProjectMetadata.cs
+  DataMigrationResultCode.cs
+  DataMigrationService.cs
+  DataMigrationServiceProperties.cs
+  DataMigrationServiceStatusResponse.cs
+  ErrorType.cs
+  ExecutionStatistics.cs
+  FileShare.cs
+  FileStorageInfo.cs
+  GetProjectDetailsNonSqlTaskInput.cs
+  GetTdeCertificatesSqlTaskInput.cs
+  GetTdeCertificatesSqlTaskOutput.cs
+  GetTdeCertificatesSqlTaskProperties.cs
+  GetUserTablesSqlSyncTaskInput.cs
+  GetUserTablesSqlSyncTaskOutput.cs
+  GetUserTablesSqlSyncTaskProperties.cs
+  GetUserTablesSqlTaskInput.cs
+  GetUserTablesSqlTaskOutput.cs
+  GetUserTablesSqlTaskProperties.cs
+  LoginMigrationStage.cs
+  LoginType.cs
+  MigrateMISyncCompleteCommandInput.cs
+  MigrateMISyncCompleteCommandOutput.cs
+  MigrateMISyncCompleteCommandProperties.cs
+  MigrateMongoDbTaskProperties.cs
+  MigrateMySqlAzureDbForMySqlSyncDatabaseInput.cs
+  MigrateMySqlAzureDbForMySqlSyncTaskInput.cs
+  MigrateMySqlAzureDbForMySqlSyncTaskOutput.cs
+  MigrateMySqlAzureDbForMySqlSyncTaskOutputDatabaseError.cs
+  MigrateMySqlAzureDbForMySqlSyncTaskOutputDatabaseLevel.cs
+  MigrateMySqlAzureDbForMySqlSyncTaskOutputError.cs
+  MigrateMySqlAzureDbForMySqlSyncTaskOutputMigrationLevel.cs
+  MigrateMySqlAzureDbForMySqlSyncTaskOutputTableLevel.cs
+  MigrateMySqlAzureDbForMySqlSyncTaskProperties.cs
+  MigratePostgreSqlAzureDbForPostgreSqlSyncDatabaseInput.cs
+  MigratePostgreSqlAzureDbForPostgreSqlSyncTaskInput.cs
+  MigratePostgreSqlAzureDbForPostgreSqlSyncTaskOutput.cs
+  MigratePostgreSqlAzureDbForPostgreSqlSyncTaskOutputDatabaseError.cs
+  MigratePostgreSqlAzureDbForPostgreSqlSyncTaskOutputDatabaseLevel.cs
+  MigratePostgreSqlAzureDbForPostgreSqlSyncTaskOutputError.cs
+  MigratePostgreSqlAzureDbForPostgreSqlSyncTaskOutputMigrationLevel.cs
+  MigratePostgreSqlAzureDbForPostgreSqlSyncTaskOutputTableLevel.cs
+  MigratePostgreSqlAzureDbForPostgreSqlSyncTaskProperties.cs
+  MigrateSchemaSqlServerSqlDbDatabaseInput.cs
+  MigrateSchemaSqlServerSqlDbTaskInput.cs
+  MigrateSchemaSqlServerSqlDbTaskOutput.cs
+  MigrateSchemaSqlServerSqlDbTaskOutputDatabaseLevel.cs
+  MigrateSchemaSqlServerSqlDbTaskOutputError.cs
+  MigrateSchemaSqlServerSqlDbTaskOutputMigrationLevel.cs
+  MigrateSchemaSqlServerSqlDbTaskProperties.cs
+  MigrateSchemaSqlTaskOutputError.cs
+  MigrateSqlServerDatabaseInput.cs
+  MigrateSqlServerSqlDbDatabaseInput.cs
+  MigrateSqlServerSqlDbSyncDatabaseInput.cs
+  MigrateSqlServerSqlDbSyncTaskInput.cs
+  MigrateSqlServerSqlDbSyncTaskOutput.cs
+  MigrateSqlServerSqlDbSyncTaskOutputDatabaseError.cs
+  MigrateSqlServerSqlDbSyncTaskOutputDatabaseLevel.cs
+  MigrateSqlServerSqlDbSyncTaskOutputError.cs
+  MigrateSqlServerSqlDbSyncTaskOutputMigrationLevel.cs
+  MigrateSqlServerSqlDbSyncTaskOutputTableLevel.cs
+  MigrateSqlServerSqlDbSyncTaskProperties.cs
+  MigrateSqlServerSqlDbTaskInput.cs
+  MigrateSqlServerSqlDbTaskOutput.cs
+  MigrateSqlServerSqlDbTaskOutputDatabaseLevel.cs
+  MigrateSqlServerSqlDbTaskOutputError.cs
+  MigrateSqlServerSqlDbTaskOutputMigrationLevel.cs
+  MigrateSqlServerSqlDbTaskOutputTableLevel.cs
+  MigrateSqlServerSqlDbTaskProperties.cs
+  MigrateSqlServerSqlMIDatabaseInput.cs
+  MigrateSqlServerSqlMISyncTaskInput.cs
+  MigrateSqlServerSqlMISyncTaskOutput.cs
+  MigrateSqlServerSqlMISyncTaskOutputDatabaseLevel.cs
+  MigrateSqlServerSqlMISyncTaskOutputError.cs
+  MigrateSqlServerSqlMISyncTaskOutputMigrationLevel.cs
+  MigrateSqlServerSqlMISyncTaskProperties.cs
+  MigrateSqlServerSqlMITaskInput.cs
+  MigrateSqlServerSqlMITaskOutput.cs
+  MigrateSqlServerSqlMITaskOutputAgentJobLevel.cs
+  MigrateSqlServerSqlMITaskOutputDatabaseLevel.cs
+  MigrateSqlServerSqlMITaskOutputError.cs
+  MigrateSqlServerSqlMITaskOutputLoginLevel.cs
+  MigrateSqlServerSqlMITaskOutputMigrationLevel.cs
+  MigrateSqlServerSqlMITaskProperties.cs
+  MigrateSyncCompleteCommandInput.cs
+  MigrateSyncCompleteCommandOutput.cs
+  MigrateSyncCompleteCommandProperties.cs
+  MigrationEligibilityInfo.cs
+  MigrationReportResult.cs
+  MigrationState.cs
+  MigrationStatus.cs
+  MigrationTableMetadata.cs
+  MigrationValidationDatabaseLevelResult.cs
+  MigrationValidationDatabaseSummaryResult.cs
+  MigrationValidationOptions.cs
+  MigrationValidationResult.cs
+  MiSqlConnectionInfo.cs
+  MongoDbCancelCommand.cs
+  MongoDbClusterInfo.cs
+  MongoDbClusterType.cs
+  MongoDbCollectionInfo.cs
+  MongoDbCollectionProgress.cs
+  MongoDbCollectionSettings.cs
+  MongoDbCommandInput.cs
+  MongoDbConnectionInfo.cs
+  MongoDbDatabaseInfo.cs
+  MongoDbDatabaseProgress.cs
+  MongoDbDatabaseSettings.cs
+  MongoDbError.cs
+  MongoDbErrorType.cs
+  MongoDbFinishCommand.cs
+  MongoDbFinishCommandInput.cs
+  MongoDbMigrationProgress.cs
+  MongoDbMigrationSettings.cs
+  MongoDbMigrationState.cs
+  MongoDbObjectInfo.cs
+  MongoDbProgress.cs
+  MongoDbReplication.cs
+  MongoDbRestartCommand.cs
+  MongoDbShardKeyField.cs
+  MongoDbShardKeyInfo.cs
+  MongoDbShardKeyOrder.cs
+  MongoDbShardKeySetting.cs
+  MongoDbThrottlingSettings.cs
+  MySqlConnectionInfo.cs
+  MySqlTargetPlatformType.cs
+  NameAvailabilityRequest.cs
+  NameAvailabilityResponse.cs
+  NameCheckFailureReason.cs
+  NonSqlDataMigrationTable.cs
+  NonSqlDataMigrationTableResult.cs
+  NonSqlMigrationTaskInput.cs
+  NonSqlMigrationTaskOutput.cs
+  ObjectType.cs
+  ODataError.cs
+  OrphanedUserInfo.cs
+  Page.cs
+  PostgreSqlConnectionInfo.cs
+  Project.cs
+  ProjectFile.cs
+  ProjectFileProperties.cs
+  ProjectProperties.cs
+  ProjectProvisioningState.cs
+  ProjectSourcePlatform.cs
+  ProjectTargetPlatform.cs
+  ProjectTask.cs
+  ProjectTaskProperties.cs
+  QueryAnalysisValidationResult.cs
+  QueryExecutionResult.cs
+  Quota.cs
+  QuotaName.cs
+  ReportableException.cs
+  Resource.cs
+  ResourceSku.cs
+  ResourceSkuCapabilities.cs
+  ResourceSkuCapacity.cs
+  ResourceSkuCapacityScaleType.cs
+  ResourceSkuCosts.cs
+  ResourceSkuRestrictions.cs
+  ResourceSkuRestrictionsReasonCode.cs
+  ResourceSkuRestrictionsType.cs
+  SchemaComparisonValidationResult.cs
+  SchemaComparisonValidationResultType.cs
+  SchemaMigrationOption.cs
+  SchemaMigrationSetting.cs
+  SchemaMigrationStage.cs
+  SelectedCertificateInput.cs
+  ServerLevelPermissionsGroup.cs
+  ServerProperties.cs
+  ServiceOperation.cs
+  ServiceOperationDisplay.cs
+  ServiceProvisioningState.cs
+  ServiceScalability.cs
+  ServiceSku.cs
+  Severity.cs
+  SqlConnectionInfo.cs
+  SqlMigrationTaskInput.cs
+  SqlServerSqlMISyncTaskInput.cs
+  SqlSourcePlatform.cs
+  StartMigrationScenarioServerRoleResult.cs
+  SyncDatabaseMigrationReportingState.cs
+  SyncMigrationDatabaseErrorEvent.cs
+  SyncTableMigrationState.cs
+  TaskState.cs
+  TrackedResource.cs
+  UpdateActionType.cs
+  ValidateMigrationInputSqlServerSqlDbSyncTaskProperties.cs
+  ValidateMigrationInputSqlServerSqlMISyncTaskInput.cs
+  ValidateMigrationInputSqlServerSqlMISyncTaskOutput.cs
+  ValidateMigrationInputSqlServerSqlMISyncTaskProperties.cs
+  ValidateMigrationInputSqlServerSqlMITaskInput.cs
+  ValidateMigrationInputSqlServerSqlMITaskOutput.cs
+  ValidateMigrationInputSqlServerSqlMITaskProperties.cs
+  ValidateMongoDbTaskProperties.cs
+  ValidateSyncMigrationInputSqlServerTaskInput.cs
+  ValidateSyncMigrationInputSqlServerTaskOutput.cs
+  ValidationError.cs
+  ValidationStatus.cs
+  WaitStatistics.cs
+ Operations.cs
+ OperationsExtensions.cs
+ ProjectsOperations.cs
+ ProjectsOperationsExtensions.cs
+ ResourceSkusOperations.cs
+ ResourceSkusOperationsExtensions.cs
+ ServicesOperations.cs
+ ServicesOperationsExtensions.cs
+ TasksOperations.cs
+ TasksOperationsExtensions.cs
+ UsagesOperations.cs
+ UsagesOperationsExtensions.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/DataMigration.Management.Sdk.GeneratedMSBuildEditorConfig.editorconfig

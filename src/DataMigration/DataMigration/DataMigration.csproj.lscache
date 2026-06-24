@@ -1,0 +1,153 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.Cmdlets.DataMigration
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.DataMigration/Microsoft.Azure.PowerShell.Cmdlets.DataMigration.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.Commands.DataMigration
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.DataMigration/Microsoft.Azure.PowerShell.Cmdlets.DataMigration.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.DataMigration/Microsoft.Azure.PowerShell.Cmdlets.DataMigration.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.Cmdlets.DataMigration.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+Cmdlets/
+ CommandCmdlet.cs
+ CompleteCommandCmdlet.cs
+ CompleteMiSyncCommandCmdlet.cs
+ ConnectionInfoCmdlet.cs
+ ConnectToSourceMongoDbTaskCmdlet.cs
+ ConnectToSourceSqlServerSyncTaskCmdlet.cs
+ ConnectToSourceSqlServerTaskCmdlet.cs
+ ConnectToTargetMongoDbTaskCmdlet.cs
+ ConnectToTargetSqlDbMiSyncTaskCmdlet.cs
+ ConnectToTargetSqlDbMiTaskCmdlet.cs
+ ConnectToTargetSqlDbTaskCmdlet.cs
+ ConnectToTargetSqlSqlDbSyncTaskCmdlet.cs
+ DataMigrationCmdlet.cs
+ DynamicCmdlet.cs
+ GetAzureDataMigrationService.cs
+ GetDataMigrationTask.cs
+ GetProjectCmdlet.cs
+ GetUserTableSqlCmdlet.cs
+ GetUserTableSqlSyncCmdlet.cs
+ InvokeDataMigrationCommand.cs
+ ITaskCmdlet.cs
+ MigrateMongoDbTaskCmdlet.cs
+ MigrateSqlServerSqlDbMiSyncTaskCmdlet.cs
+ MigrateSqlServerSqlDbMiTaskCmdlet.cs
+ MigrateSqlServerSqlDbSyncTaskCmdlet.cs
+ MigrateSqlServerSqlDbTaskCmdlet.cs
+ MiSqlConnectionInfoCmdlet.cs
+ MongoDbConnectionInfoCmdlet.cs
+ MongoDbMigrationSettingCmdlet.cs
+ MongoDbObjectCommandCmdlet.cs
+ NewAzureActiveDirectoryAppCmdlet.cs
+ NewAzureRmDataMigrationService.cs
+ NewConnectionInfoCmdlet.cs
+ NewDatabaseInfoCmdlet.cs
+ NewDataMigrationSelectedDB.cs
+ NewDataMigrationSyncSelectedDB.cs
+ NewDataMigrationTask.cs
+ NewFileShare.cs
+ NewMongoDbCollectionSettingCmdlet.cs
+ NewMongoDbDatabaseSettingCmdlet.cs
+ NewProjectCmdlet.cs
+ RemoveDataMigrationProject.cs
+ RemoveDataMigrationService.cs
+ RemoveDataMigrationTask.cs
+ SqlConnectionInfoCmdlet.cs
+ StartDataMigrationService.cs
+ StopDataMigrationService.cs
+ StopDataMigrationTask.cs
+ TaskCmdlet.cs
+ ValidateMongoDbMigrationTaskCmdlet.cs
+ ValidateSqlServerSqlDbMiSyncTaskCmdlet.cs
+ ValidateSqlServerSqlDbMiTaskCmdlet.cs
+ ValidateSqlServerSqlDbSyncTaskCmdlet.cs
+Common/
+ DmsClient.cs
+ DmsConstants.cs
+ DmsResourceIdentifier.cs
+ PagingExtensions.cs
+ Utils.cs
+Models/
+ CommandTypeEnum.cs
+ DatabaseInfo/
+  MongoDbConnectionInfo.cs
+  PSDatabaseInfo.cs
+  PSSqlServerSqlDbSelectedDatabase.cs
+ Exceptions/
+  AlreadyExistsException.cs
+  BadRequestException.cs
+  DataMigrationServiceExceptionBase.cs
+  InvalidCommandOperationException.cs
+  InvalidConfigurationSettingsException.cs
+  InvalidConnectionTypeException.cs
+  InvalidMigrationTaskNameException.cs
+  LoadProjectFileFailedException.cs
+  NotFoundException.cs
+  PreConditionFailedException.cs
+  ScenarioFailedException.cs
+  ServerConnectionFailedException.cs
+  SetProjectArtifactsFailedException.cs
+ MongoDb/
+  MongoDbCollectionSetting.cs
+  MongoDbDatabaseSetting.cs
+ PSAzureActiveDirectoryApp.cs
+ PSDataMigrationService.cs
+ PSProject.cs
+ PSProjectTask.cs
+ ResultTypeEnum.cs
+ ServerTypeEnum.cs
+ TaskTypeEnum.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+Resources.Designer.cs
+
+[metadataReferences]
+../../../artifacts/Debug/Az.DataMigration/Microsoft.Azure.PowerShell.DataMigration.Management.Sdk.dll
+
+[analyzerConfigFiles]
+obj/Debug/DataMigration.GeneratedMSBuildEditorConfig.editorconfig

@@ -1,0 +1,328 @@
+{
+  "Get-AzExpressRouteLagLink+[NoContext]+List+$GET+https://management.azure.com/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/links?api-version=2025-09-01+1": {
+    "Request": {
+      "Method": "GET",
+      "RequestUri": "https://management.azure.com/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/links?api-version=2025-09-01",
+      "Content": null,
+      "isContentBase64": false,
+      "Headers": {
+        "x-ms-unique-id": [ "2" ],
+        "x-ms-client-request-id": [ "d4126bb5-2bd5-4b03-bde2-99a7f61c073a" ],
+        "CommandName": [ "Get-AzExpressRouteLagLink" ],
+        "FullCommandName": [ "Get-AzExpressRouteLagLink_List" ],
+        "ParameterSetName": [ "__AllParameterSets" ],
+        "User-Agent": [ "AzurePowershell/v12.2.0", "PSVersion/v7.5.5", "Az.ExpressRouteLag/0.1.0" ],
+        "Authorization": [ "[Filtered]" ]
+      },
+      "ContentHeaders": {
+      }
+    },
+    "Response": {
+      "StatusCode": 200,
+      "Headers": {
+        "Cache-Control": [ "no-cache" ],
+        "Pragma": [ "no-cache" ],
+        "x-ms-request-id": [ "5b40e486-46a2-412c-9766-08c1f5ab1bdd" ],
+        "x-ms-throttle-levels": [ "operationConcurrencyPct=0.7, etc" ],
+        "x-ms-correlation-request-id": [ "d63e0a4e-2d81-4e26-b728-3745391e2be2" ],
+        "x-ms-arm-service-request-id": [ "998f628f-b898-4a71-9c0e-958c49598af4" ],
+        "Strict-Transport-Security": [ "max-age=31536000; includeSubDomains" ],
+        "x-ms-operation-identifier": [ "tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47,objectId=b2518563-eafc-4ef4-aa06-011b62695a06/eastus2euap/719fde00-23f6-4b74-a5c7-4bbe502d7609" ],
+        "x-ms-throttling-version": [ "v2" ],
+        "x-ms-ratelimit-remaining-subscription-reads": [ "1099" ],
+        "x-ms-routing-request-id": [ "EASTUS2EUAP:20260512T140409Z:d63e0a4e-2d81-4e26-b728-3745391e2be2" ],
+        "X-Content-Type-Options": [ "nosniff" ],
+        "X-Cache": [ "CONFIG_NOCACHE" ],
+        "X-MSEdge-Ref": [ "Ref A: C9105E8D6852483BAA5E756DA4818072 Ref B: CO6AA3150217031 Ref C: 2026-05-12T14:04:09Z" ],
+        "Date": [ "Tue, 12 May 2026 14:04:09 GMT" ]
+      },
+      "ContentHeaders": {
+        "Content-Length": [ "1979" ],
+        "Content-Type": [ "application/json; charset=utf-8" ],
+        "Expires": [ "-1" ]
+      },
+      "Content": "{\"value\":[{\"name\":\"link1\",\"id\":\"/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/links/link1\",\"etag\":\"W/\\\"4237625a-9fa1-4010-863d-3b91238fba4e\\\"\",\"properties\":{\"provisioningState\":\"Succeeded\",\"routerName\":\"exr04.sin30\",\"interfaceName\":\"ae505\",\"adminState\":\"Disabled\",\"macSecConfig\":{\"cipher\":\"GcmAes128\",\"sciState\":\"Disabled\"},\"members\":[{\"name\":\"member1\",\"id\":\"/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/links/link1/members/member1\",\"etag\":\"W/\\\"4237625a-9fa1-4010-863d-3b91238fba4e\\\"\",\"properties\":{\"provisioningState\":\"Succeeded\",\"interfaceName\":\"xe-0/1/10:2\",\"patchPanelId\":\"PATCH-PANEL-43\",\"rackId\":\"RACK-43\",\"coloLocation\":\"\",\"connectorType\":\"LC\",\"adminState\":\"Enabled\"},\"type\":\"Microsoft.Network/expressRouteLags/links/members\"}]},\"type\":\"Microsoft.Network/expressRouteLags/links\"},{\"name\":\"link2\",\"id\":\"/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/links/link2\",\"etag\":\"W/\\\"4237625a-9fa1-4010-863d-3b91238fba4e\\\"\",\"properties\":{\"provisioningState\":\"Succeeded\",\"routerName\":\"exr04.dummy\",\"interfaceName\":\"ae505\",\"adminState\":\"Disabled\",\"macSecConfig\":{\"cipher\":\"GcmAes128\",\"sciState\":\"Disabled\"},\"members\":[{\"name\":\"member1\",\"id\":\"/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/links/link2/members/member1\",\"etag\":\"W/\\\"4237625a-9fa1-4010-863d-3b91238fba4e\\\"\",\"properties\":{\"provisioningState\":\"Succeeded\",\"interfaceName\":\"xe-0/1/10:2\",\"patchPanelId\":\"PATCH-PANEL-44\",\"rackId\":\"RACK-44\",\"coloLocation\":\"\",\"connectorType\":\"LC\",\"adminState\":\"Enabled\"},\"type\":\"Microsoft.Network/expressRouteLags/links/members\"}]},\"type\":\"Microsoft.Network/expressRouteLags/links\"}]}",
+      "isContentBase64": false
+    }
+  },
+  "Get-AzExpressRouteLagLink+[NoContext]+Get+$GET+https://management.azure.com/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/links/link1?api-version=2025-09-01+1": {
+    "Request": {
+      "Method": "GET",
+      "RequestUri": "https://management.azure.com/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/links/link1?api-version=2025-09-01",
+      "Content": null,
+      "isContentBase64": false,
+      "Headers": {
+        "x-ms-unique-id": [ "3" ],
+        "x-ms-client-request-id": [ "5d96f76a-0d9a-45a2-b762-9b09950a79fa" ],
+        "CommandName": [ "Get-AzExpressRouteLagLink" ],
+        "FullCommandName": [ "Get-AzExpressRouteLagLink_Get" ],
+        "ParameterSetName": [ "__AllParameterSets" ],
+        "User-Agent": [ "AzurePowershell/v12.2.0", "PSVersion/v7.5.5", "Az.ExpressRouteLag/0.1.0" ],
+        "Authorization": [ "[Filtered]" ]
+      },
+      "ContentHeaders": {
+      }
+    },
+    "Response": {
+      "StatusCode": 200,
+      "Headers": {
+        "Cache-Control": [ "no-cache" ],
+        "Pragma": [ "no-cache" ],
+        "ETag": [ "W/\"4237625a-9fa1-4010-863d-3b91238fba4e\"" ],
+        "x-ms-request-id": [ "58de5d0f-b985-4530-a4de-0c6dbabb94cc" ],
+        "x-ms-throttle-levels": [ "operationConcurrencyPct=0.7, etc" ],
+        "x-ms-correlation-request-id": [ "eb2a0102-1e7f-4ae9-bbb9-ab7fd7ffc7d7" ],
+        "x-ms-arm-service-request-id": [ "a95edad3-8d41-4bfc-ac01-3e0660d1fb52" ],
+        "Strict-Transport-Security": [ "max-age=31536000; includeSubDomains" ],
+        "x-ms-operation-identifier": [ "tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47,objectId=b2518563-eafc-4ef4-aa06-011b62695a06/eastus2euap/cced116a-400d-4996-8efd-d3ed941bc846" ],
+        "x-ms-throttling-version": [ "v2" ],
+        "x-ms-ratelimit-remaining-subscription-reads": [ "1099" ],
+        "x-ms-routing-request-id": [ "EASTUS2EUAP:20260512T140409Z:eb2a0102-1e7f-4ae9-bbb9-ab7fd7ffc7d7" ],
+        "X-Content-Type-Options": [ "nosniff" ],
+        "X-Cache": [ "CONFIG_NOCACHE" ],
+        "X-MSEdge-Ref": [ "Ref A: 7272B908CD73452AA88E29F3ACCC0B32 Ref B: CO6AA3150217031 Ref C: 2026-05-12T14:04:09Z" ],
+        "Date": [ "Tue, 12 May 2026 14:04:09 GMT" ]
+      },
+      "ContentHeaders": {
+        "Content-Length": [ "983" ],
+        "Content-Type": [ "application/json; charset=utf-8" ],
+        "Expires": [ "-1" ]
+      },
+      "Content": "{\"name\":\"link1\",\"id\":\"/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/links/link1\",\"etag\":\"W/\\\"4237625a-9fa1-4010-863d-3b91238fba4e\\\"\",\"properties\":{\"provisioningState\":\"Succeeded\",\"routerName\":\"exr04.sin30\",\"interfaceName\":\"ae505\",\"adminState\":\"Disabled\",\"macSecConfig\":{\"cipher\":\"GcmAes128\",\"sciState\":\"Disabled\"},\"members\":[{\"name\":\"member1\",\"id\":\"/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/links/link1/members/member1\",\"etag\":\"W/\\\"4237625a-9fa1-4010-863d-3b91238fba4e\\\"\",\"properties\":{\"provisioningState\":\"Succeeded\",\"interfaceName\":\"xe-0/1/10:2\",\"patchPanelId\":\"PATCH-PANEL-43\",\"rackId\":\"RACK-43\",\"coloLocation\":\"\",\"connectorType\":\"LC\",\"adminState\":\"Enabled\"},\"type\":\"Microsoft.Network/expressRouteLags/links/members\"}]},\"type\":\"Microsoft.Network/expressRouteLags/links\"}",
+      "isContentBase64": false
+    }
+  },
+  "Get-AzExpressRouteLagLink+[NoContext]+Get+$GET+https://management.azure.com/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/links/link2?api-version=2025-09-01+1": {
+    "Request": {
+      "Method": "GET",
+      "RequestUri": "https://management.azure.com/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/links/link2?api-version=2025-09-01",
+      "Content": null,
+      "isContentBase64": false,
+      "Headers": {
+        "x-ms-unique-id": [ "4" ],
+        "x-ms-client-request-id": [ "c0e72601-4fcb-4fc4-b50f-76cfb3f13c01" ],
+        "CommandName": [ "Get-AzExpressRouteLagLink" ],
+        "FullCommandName": [ "Get-AzExpressRouteLagLink_Get" ],
+        "ParameterSetName": [ "__AllParameterSets" ],
+        "User-Agent": [ "AzurePowershell/v12.2.0", "PSVersion/v7.5.5", "Az.ExpressRouteLag/0.1.0" ],
+        "Authorization": [ "[Filtered]" ]
+      },
+      "ContentHeaders": {
+      }
+    },
+    "Response": {
+      "StatusCode": 200,
+      "Headers": {
+        "Cache-Control": [ "no-cache" ],
+        "Pragma": [ "no-cache" ],
+        "ETag": [ "W/\"4237625a-9fa1-4010-863d-3b91238fba4e\"" ],
+        "x-ms-request-id": [ "234086a7-2c4f-43d1-be90-024fa3bc7d78" ],
+        "x-ms-throttle-levels": [ "operationRatePct=0.1, operationConcurrencyPct=0.7, etc" ],
+        "x-ms-correlation-request-id": [ "0b5aa2e3-44e4-4607-a354-9238cb72d24a" ],
+        "x-ms-arm-service-request-id": [ "d9b25894-3b71-43d8-9c5a-1fc9e9a79f2e" ],
+        "Strict-Transport-Security": [ "max-age=31536000; includeSubDomains" ],
+        "x-ms-operation-identifier": [ "tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47,objectId=b2518563-eafc-4ef4-aa06-011b62695a06/eastus2euap/6f75947d-5509-4ad9-8ec8-923baf633fd4" ],
+        "x-ms-throttling-version": [ "v2" ],
+        "x-ms-ratelimit-remaining-subscription-reads": [ "1099" ],
+        "x-ms-routing-request-id": [ "EASTUS2EUAP:20260512T140410Z:0b5aa2e3-44e4-4607-a354-9238cb72d24a" ],
+        "X-Content-Type-Options": [ "nosniff" ],
+        "X-Cache": [ "CONFIG_NOCACHE" ],
+        "X-MSEdge-Ref": [ "Ref A: 304F7D1ADADC475A905D60EEFE0F8961 Ref B: CO6AA3150217031 Ref C: 2026-05-12T14:04:10Z" ],
+        "Date": [ "Tue, 12 May 2026 14:04:10 GMT" ]
+      },
+      "ContentHeaders": {
+        "Content-Length": [ "983" ],
+        "Content-Type": [ "application/json; charset=utf-8" ],
+        "Expires": [ "-1" ]
+      },
+      "Content": "{\"name\":\"link2\",\"id\":\"/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/links/link2\",\"etag\":\"W/\\\"4237625a-9fa1-4010-863d-3b91238fba4e\\\"\",\"properties\":{\"provisioningState\":\"Succeeded\",\"routerName\":\"exr04.dummy\",\"interfaceName\":\"ae505\",\"adminState\":\"Disabled\",\"macSecConfig\":{\"cipher\":\"GcmAes128\",\"sciState\":\"Disabled\"},\"members\":[{\"name\":\"member1\",\"id\":\"/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/links/link2/members/member1\",\"etag\":\"W/\\\"4237625a-9fa1-4010-863d-3b91238fba4e\\\"\",\"properties\":{\"provisioningState\":\"Succeeded\",\"interfaceName\":\"xe-0/1/10:2\",\"patchPanelId\":\"PATCH-PANEL-44\",\"rackId\":\"RACK-44\",\"coloLocation\":\"\",\"connectorType\":\"LC\",\"adminState\":\"Enabled\"},\"type\":\"Microsoft.Network/expressRouteLags/links/members\"}]},\"type\":\"Microsoft.Network/expressRouteLags/links\"}",
+      "isContentBase64": false
+    }
+  },
+  "Get-AzExpressRouteLagLink+[NoContext]+GetViaIdentityExpressRouteLag+$GET+https://management.azure.com/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy?api-version=2025-09-01+1": {
+    "Request": {
+      "Method": "GET",
+      "RequestUri": "https://management.azure.com/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy?api-version=2025-09-01",
+      "Content": null,
+      "isContentBase64": false,
+      "Headers": {
+        "x-ms-unique-id": [ "5" ],
+        "x-ms-client-request-id": [ "28e26323-8590-4340-b380-cc8bfed4534f" ],
+        "CommandName": [ "Get-AzExpressRouteLag" ],
+        "FullCommandName": [ "Get-AzExpressRouteLag_Get" ],
+        "ParameterSetName": [ "__AllParameterSets" ],
+        "User-Agent": [ "AzurePowershell/v12.2.0", "PSVersion/v7.5.5", "Az.ExpressRouteLag/0.1.0" ],
+        "Authorization": [ "[Filtered]" ]
+      },
+      "ContentHeaders": {
+      }
+    },
+    "Response": {
+      "StatusCode": 200,
+      "Headers": {
+        "Cache-Control": [ "no-cache" ],
+        "Pragma": [ "no-cache" ],
+        "x-ms-request-id": [ "ff9a4acb-7396-4076-875b-3a958a1e91df" ],
+        "x-ms-throttle-levels": [ "operationConcurrencyPct=0.7, etc" ],
+        "x-ms-correlation-request-id": [ "90ea031f-c9ed-4f46-b4d8-2fd957378b29" ],
+        "x-ms-arm-service-request-id": [ "a2d8d4fa-6e53-44db-a0e7-ce492c7a4cb6" ],
+        "Strict-Transport-Security": [ "max-age=31536000; includeSubDomains" ],
+        "x-ms-throttling-version": [ "v2" ],
+        "x-ms-ratelimit-remaining-subscription-reads": [ "1098" ],
+        "x-ms-routing-request-id": [ "EASTUS2EUAP:20260512T140410Z:90ea031f-c9ed-4f46-b4d8-2fd957378b29" ],
+        "X-Content-Type-Options": [ "nosniff" ],
+        "X-Cache": [ "CONFIG_NOCACHE" ],
+        "X-MSEdge-Ref": [ "Ref A: D6DDA06A6AF04D83A47578A83AD9B23F Ref B: CO6AA3150217031 Ref C: 2026-05-12T14:04:10Z" ],
+        "Date": [ "Tue, 12 May 2026 14:04:10 GMT" ]
+      },
+      "ContentHeaders": {
+        "Content-Length": [ "2650" ],
+        "Content-Type": [ "application/json; charset=utf-8" ],
+        "Expires": [ "-1" ]
+      },
+      "Content": "{\"name\":\"lag-u27esy\",\"id\":\"/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy\",\"etag\":\"W/\\\"4237625a-9fa1-4010-863d-3b91238fba4e\\\"\",\"type\":\"Microsoft.Network/expressRouteLags\",\"location\":\"eastus2euap\",\"properties\":{\"provisioningState\":\"Succeeded\",\"resourceGuid\":\"ae20c8b7-243a-49d3-bea5-7b7c75adcb09\",\"links\":[{\"name\":\"link1\",\"id\":\"/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/links/link1\",\"etag\":\"W/\\\"4237625a-9fa1-4010-863d-3b91238fba4e\\\"\",\"properties\":{\"provisioningState\":\"Succeeded\",\"routerName\":\"exr04.sin30\",\"interfaceName\":\"ae505\",\"adminState\":\"Disabled\",\"macSecConfig\":{\"cipher\":\"GcmAes128\",\"sciState\":\"Disabled\"},\"members\":[{\"name\":\"member1\",\"id\":\"/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/links/link1/members/member1\",\"etag\":\"W/\\\"4237625a-9fa1-4010-863d-3b91238fba4e\\\"\",\"properties\":{\"provisioningState\":\"Succeeded\",\"interfaceName\":\"xe-0/1/10:2\",\"patchPanelId\":\"PATCH-PANEL-43\",\"rackId\":\"RACK-43\",\"coloLocation\":\"\",\"connectorType\":\"LC\",\"adminState\":\"Enabled\"},\"type\":\"Microsoft.Network/expressRouteLags/links/members\"}]},\"type\":\"Microsoft.Network/expressRouteLags/links\"},{\"name\":\"link2\",\"id\":\"/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/links/link2\",\"etag\":\"W/\\\"4237625a-9fa1-4010-863d-3b91238fba4e\\\"\",\"properties\":{\"provisioningState\":\"Succeeded\",\"routerName\":\"exr04.dummy\",\"interfaceName\":\"ae505\",\"adminState\":\"Disabled\",\"macSecConfig\":{\"cipher\":\"GcmAes128\",\"sciState\":\"Disabled\"},\"members\":[{\"name\":\"member1\",\"id\":\"/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/links/link2/members/member1\",\"etag\":\"W/\\\"4237625a-9fa1-4010-863d-3b91238fba4e\\\"\",\"properties\":{\"provisioningState\":\"Succeeded\",\"interfaceName\":\"xe-0/1/10:2\",\"patchPanelId\":\"PATCH-PANEL-44\",\"rackId\":\"RACK-44\",\"coloLocation\":\"\",\"connectorType\":\"LC\",\"adminState\":\"Enabled\"},\"type\":\"Microsoft.Network/expressRouteLags/links/members\"}]},\"type\":\"Microsoft.Network/expressRouteLags/links\"}],\"peeringLocation\":\"OnPrem\",\"bandwidthInGbps\":10,\"encapsulation\":\"QinQ\",\"provisionedBandwidthInGbps\":0.0,\"mtu\":\"1500\",\"allocationDate\":\"5/6/2026 5:55:47 PM\",\"etherType\":\"0x8100\",\"billingType\":\"MeteredData\",\"numberOfPorts\":1,\"minimumActivePortsRequired\":1,\"lacpTimer\":\"Fast\"}}",
+      "isContentBase64": false
+    }
+  },
+  "Get-AzExpressRouteLagLink+[NoContext]+GetViaIdentityExpressRouteLag+$GET+https://management.azure.com/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/links/link1?api-version=2025-09-01+2": {
+    "Request": {
+      "Method": "GET",
+      "RequestUri": "https://management.azure.com/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/links/link1?api-version=2025-09-01",
+      "Content": null,
+      "isContentBase64": false,
+      "Headers": {
+        "x-ms-unique-id": [ "6" ],
+        "x-ms-client-request-id": [ "3493a1c6-254b-4771-9e5e-15d5a575d48d" ],
+        "CommandName": [ "Get-AzExpressRouteLagLink" ],
+        "FullCommandName": [ "Get-AzExpressRouteLagLink_GetViaIdentityExpressRouteLag" ],
+        "ParameterSetName": [ "__AllParameterSets" ],
+        "User-Agent": [ "AzurePowershell/v12.2.0", "PSVersion/v7.5.5", "Az.ExpressRouteLag/0.1.0" ],
+        "Authorization": [ "[Filtered]" ]
+      },
+      "ContentHeaders": {
+      }
+    },
+    "Response": {
+      "StatusCode": 200,
+      "Headers": {
+        "Cache-Control": [ "no-cache" ],
+        "Pragma": [ "no-cache" ],
+        "ETag": [ "W/\"4237625a-9fa1-4010-863d-3b91238fba4e\"" ],
+        "x-ms-request-id": [ "4b7e05b9-853c-441a-a83c-7b9e4a1c7b65" ],
+        "x-ms-throttle-levels": [ "operationRatePct=0.2, operationConcurrencyPct=0.7, etc" ],
+        "x-ms-correlation-request-id": [ "50cf285d-17cb-44e4-8aef-287a1ec322df" ],
+        "x-ms-arm-service-request-id": [ "a75e9cb8-a8a1-4120-8521-77b96b8f64b0" ],
+        "Strict-Transport-Security": [ "max-age=31536000; includeSubDomains" ],
+        "x-ms-operation-identifier": [ "tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47,objectId=b2518563-eafc-4ef4-aa06-011b62695a06/eastus2euap/0ce367e8-353c-4cf3-b2e7-8f3b38bd1937" ],
+        "x-ms-throttling-version": [ "v2" ],
+        "x-ms-ratelimit-remaining-subscription-reads": [ "1099" ],
+        "x-ms-routing-request-id": [ "EASTUS2EUAP:20260512T140411Z:50cf285d-17cb-44e4-8aef-287a1ec322df" ],
+        "X-Content-Type-Options": [ "nosniff" ],
+        "X-Cache": [ "CONFIG_NOCACHE" ],
+        "X-MSEdge-Ref": [ "Ref A: C54B839E69F34DDE8069F2B7FF7B3D59 Ref B: CO6AA3150217031 Ref C: 2026-05-12T14:04:11Z" ],
+        "Date": [ "Tue, 12 May 2026 14:04:11 GMT" ]
+      },
+      "ContentHeaders": {
+        "Content-Length": [ "983" ],
+        "Content-Type": [ "application/json; charset=utf-8" ],
+        "Expires": [ "-1" ]
+      },
+      "Content": "{\"name\":\"link1\",\"id\":\"/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/links/link1\",\"etag\":\"W/\\\"4237625a-9fa1-4010-863d-3b91238fba4e\\\"\",\"properties\":{\"provisioningState\":\"Succeeded\",\"routerName\":\"exr04.sin30\",\"interfaceName\":\"ae505\",\"adminState\":\"Disabled\",\"macSecConfig\":{\"cipher\":\"GcmAes128\",\"sciState\":\"Disabled\"},\"members\":[{\"name\":\"member1\",\"id\":\"/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/links/link1/members/member1\",\"etag\":\"W/\\\"4237625a-9fa1-4010-863d-3b91238fba4e\\\"\",\"properties\":{\"provisioningState\":\"Succeeded\",\"interfaceName\":\"xe-0/1/10:2\",\"patchPanelId\":\"PATCH-PANEL-43\",\"rackId\":\"RACK-43\",\"coloLocation\":\"\",\"connectorType\":\"LC\",\"adminState\":\"Enabled\"},\"type\":\"Microsoft.Network/expressRouteLags/links/members\"}]},\"type\":\"Microsoft.Network/expressRouteLags/links\"}",
+      "isContentBase64": false
+    }
+  },
+  "Get-AzExpressRouteLagLink+[NoContext]+GetViaIdentity+$GET+https://management.azure.com/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/links/link1?api-version=2025-09-01+1": {
+    "Request": {
+      "Method": "GET",
+      "RequestUri": "https://management.azure.com/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/links/link1?api-version=2025-09-01",
+      "Content": null,
+      "isContentBase64": false,
+      "Headers": {
+        "x-ms-unique-id": [ "7" ],
+        "x-ms-client-request-id": [ "0a93821b-efc2-4dc8-ad1f-9c389c2d82b1" ],
+        "CommandName": [ "Get-AzExpressRouteLagLink" ],
+        "FullCommandName": [ "Get-AzExpressRouteLagLink_Get" ],
+        "ParameterSetName": [ "__AllParameterSets" ],
+        "User-Agent": [ "AzurePowershell/v12.2.0", "PSVersion/v7.5.5", "Az.ExpressRouteLag/0.1.0" ],
+        "Authorization": [ "[Filtered]" ]
+      },
+      "ContentHeaders": {
+      }
+    },
+    "Response": {
+      "StatusCode": 200,
+      "Headers": {
+        "Cache-Control": [ "no-cache" ],
+        "Pragma": [ "no-cache" ],
+        "ETag": [ "W/\"4237625a-9fa1-4010-863d-3b91238fba4e\"" ],
+        "x-ms-request-id": [ "be3b1315-12e5-4e6d-a648-f11fb2d38c4a" ],
+        "x-ms-throttle-levels": [ "operationRatePct=0.2, operationConcurrencyPct=0.7, etc" ],
+        "x-ms-correlation-request-id": [ "ceb02b6a-cfb5-44fe-9380-d72cb7d2e448" ],
+        "x-ms-arm-service-request-id": [ "4d8238cb-2389-4eee-b52d-f0161c162c68" ],
+        "Strict-Transport-Security": [ "max-age=31536000; includeSubDomains" ],
+        "x-ms-operation-identifier": [ "tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47,objectId=b2518563-eafc-4ef4-aa06-011b62695a06/eastus2euap/cbb3e6a0-3001-4295-9cc8-19ebeb3dc675" ],
+        "x-ms-throttling-version": [ "v2" ],
+        "x-ms-ratelimit-remaining-subscription-reads": [ "1099" ],
+        "x-ms-routing-request-id": [ "EASTUS2EUAP:20260512T140411Z:ceb02b6a-cfb5-44fe-9380-d72cb7d2e448" ],
+        "X-Content-Type-Options": [ "nosniff" ],
+        "X-Cache": [ "CONFIG_NOCACHE" ],
+        "X-MSEdge-Ref": [ "Ref A: 0605964A39164AA5AE933EDB0A472B55 Ref B: CO6AA3150217031 Ref C: 2026-05-12T14:04:11Z" ],
+        "Date": [ "Tue, 12 May 2026 14:04:11 GMT" ]
+      },
+      "ContentHeaders": {
+        "Content-Length": [ "983" ],
+        "Content-Type": [ "application/json; charset=utf-8" ],
+        "Expires": [ "-1" ]
+      },
+      "Content": "{\"name\":\"link1\",\"id\":\"/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/links/link1\",\"etag\":\"W/\\\"4237625a-9fa1-4010-863d-3b91238fba4e\\\"\",\"properties\":{\"provisioningState\":\"Succeeded\",\"routerName\":\"exr04.sin30\",\"interfaceName\":\"ae505\",\"adminState\":\"Disabled\",\"macSecConfig\":{\"cipher\":\"GcmAes128\",\"sciState\":\"Disabled\"},\"members\":[{\"name\":\"member1\",\"id\":\"/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/links/link1/members/member1\",\"etag\":\"W/\\\"4237625a-9fa1-4010-863d-3b91238fba4e\\\"\",\"properties\":{\"provisioningState\":\"Succeeded\",\"interfaceName\":\"xe-0/1/10:2\",\"patchPanelId\":\"PATCH-PANEL-43\",\"rackId\":\"RACK-43\",\"coloLocation\":\"\",\"connectorType\":\"LC\",\"adminState\":\"Enabled\"},\"type\":\"Microsoft.Network/expressRouteLags/links/members\"}]},\"type\":\"Microsoft.Network/expressRouteLags/links\"}",
+      "isContentBase64": false
+    }
+  },
+  "Get-AzExpressRouteLagLink+[NoContext]+GetViaIdentity+$GET+https://management.azure.com/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/links/link1?api-version=2025-09-01+2": {
+    "Request": {
+      "Method": "GET",
+      "RequestUri": "https://management.azure.com/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/links/link1?api-version=2025-09-01",
+      "Content": null,
+      "isContentBase64": false,
+      "Headers": {
+        "x-ms-unique-id": [ "8" ],
+        "x-ms-client-request-id": [ "2c0f199e-3c9f-4185-8971-ccb16020d0c5" ],
+        "CommandName": [ "Get-AzExpressRouteLagLink" ],
+        "FullCommandName": [ "Get-AzExpressRouteLagLink_GetViaIdentity" ],
+        "ParameterSetName": [ "__AllParameterSets" ],
+        "User-Agent": [ "AzurePowershell/v12.2.0", "PSVersion/v7.5.5", "Az.ExpressRouteLag/0.1.0" ],
+        "Authorization": [ "[Filtered]" ]
+      },
+      "ContentHeaders": {
+      }
+    },
+    "Response": {
+      "StatusCode": 200,
+      "Headers": {
+        "Cache-Control": [ "no-cache" ],
+        "Pragma": [ "no-cache" ],
+        "ETag": [ "W/\"4237625a-9fa1-4010-863d-3b91238fba4e\"" ],
+        "x-ms-request-id": [ "ba53bb1e-e4e3-4d6a-b1e3-9df6a8cec4aa" ],
+        "x-ms-throttle-levels": [ "operationRatePct=0.3, operationConcurrencyPct=0.7, etc" ],
+        "x-ms-correlation-request-id": [ "f1792664-a922-4554-8a10-c52a83edaebe" ],
+        "x-ms-arm-service-request-id": [ "239d97ae-7fcf-4092-91c8-24674b956444" ],
+        "Strict-Transport-Security": [ "max-age=31536000; includeSubDomains" ],
+        "x-ms-operation-identifier": [ "tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47,objectId=b2518563-eafc-4ef4-aa06-011b62695a06/eastus2euap/96d60dcc-5efb-45f2-b780-55987c7fcd40" ],
+        "x-ms-throttling-version": [ "v2" ],
+        "x-ms-ratelimit-remaining-subscription-reads": [ "1098" ],
+        "x-ms-routing-request-id": [ "EASTUS2EUAP:20260512T140411Z:f1792664-a922-4554-8a10-c52a83edaebe" ],
+        "X-Content-Type-Options": [ "nosniff" ],
+        "X-Cache": [ "CONFIG_NOCACHE" ],
+        "X-MSEdge-Ref": [ "Ref A: 2D280E406DC34C6C9C9C3A5F723D930E Ref B: CO6AA3150217031 Ref C: 2026-05-12T14:04:11Z" ],
+        "Date": [ "Tue, 12 May 2026 14:04:11 GMT" ]
+      },
+      "ContentHeaders": {
+        "Content-Length": [ "983" ],
+        "Content-Type": [ "application/json; charset=utf-8" ],
+        "Expires": [ "-1" ]
+      },
+      "Content": "{\"name\":\"link1\",\"id\":\"/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/links/link1\",\"etag\":\"W/\\\"4237625a-9fa1-4010-863d-3b91238fba4e\\\"\",\"properties\":{\"provisioningState\":\"Succeeded\",\"routerName\":\"exr04.sin30\",\"interfaceName\":\"ae505\",\"adminState\":\"Disabled\",\"macSecConfig\":{\"cipher\":\"GcmAes128\",\"sciState\":\"Disabled\"},\"members\":[{\"name\":\"member1\",\"id\":\"/subscriptions/7d747eed-b44c-4257-8d43-df9ebd94546b/resourceGroups/expressroutelag-rg-zxelw8/providers/Microsoft.Network/expressRouteLags/lag-u27esy/links/link1/members/member1\",\"etag\":\"W/\\\"4237625a-9fa1-4010-863d-3b91238fba4e\\\"\",\"properties\":{\"provisioningState\":\"Succeeded\",\"interfaceName\":\"xe-0/1/10:2\",\"patchPanelId\":\"PATCH-PANEL-43\",\"rackId\":\"RACK-43\",\"coloLocation\":\"\",\"connectorType\":\"LC\",\"adminState\":\"Enabled\"},\"type\":\"Microsoft.Network/expressRouteLags/links/members\"}]},\"type\":\"Microsoft.Network/expressRouteLags/links\"}",
+      "isContentBase64": false
+    }
+  }
+}

@@ -1,0 +1,335 @@
+version=1
+
+# This file caches language service data to improve the performance of C# Dev Kit.
+# It is not intended for manual editing. It can safely be deleted and will be
+# regenerated automatically. For more information, see https://aka.ms/lscache
+#
+# To control where cache files are stored, use the following VS Code setting:
+#   "dotnet.projectsystem.cacheInProjectFolder": true
+
+[project]
+language=C#
+primary
+lastDtbSucceeded
+
+[properties]
+AssemblyName=Microsoft.Azure.PowerShell.Aks.Management.Sdk
+CommandLineArgsForDesignTimeEvaluation=-langversion:7.3 -define:TRACE;DEBUG;NETSTANDARD -doc:"<PATH>../../../artifacts/Debug/Az.Aks/Microsoft.Azure.PowerShell.Aks.Management.Sdk.xml"
+CompilerGeneratedFilesOutputPath=
+MaxSupportedLangVersion=7.3
+ProjectAssetsFile=<PATH>obj/project.assets.json
+RootNamespace=Microsoft.Azure.Management.Aks
+RunAnalyzers=
+RunAnalyzersDuringLiveAnalysis=
+SolutionPath=*Undefined*
+TargetFrameworkIdentifier=.NETStandard
+TargetPath=<PATH>../../../artifacts/Debug/Az.Aks/Microsoft.Azure.PowerShell.Aks.Management.Sdk.dll
+TargetRefPath=
+TemporaryDependencyNodeTargetIdentifier=netstandard2.0
+
+[commandLineArguments]
+/noconfig
+/unsafe-
+/checked-
+/nowarn:1701,1702,CS0108,CS1573,1591,1701,1702
+/fullpaths
+/nostdlib+
+/errorreport:prompt
+/doc:<PATH>../../../artifacts/Debug/Az.Aks/Microsoft.Azure.PowerShell.Aks.Management.Sdk.xml
+/define:TRACE;DEBUG;NETSTANDARD;DEBUG;NETSTANDARD;NETSTANDARD2_0;NETSTANDARD1_0_OR_GREATER;NETSTANDARD1_1_OR_GREATER;NETSTANDARD1_2_OR_GREATER;NETSTANDARD1_3_OR_GREATER;NETSTANDARD1_4_OR_GREATER;NETSTANDARD1_5_OR_GREATER;NETSTANDARD1_6_OR_GREATER;NETSTANDARD2_0_OR_GREATER
+/highentropyva+
+/debug+
+/debug:portable
+/filealign:512
+/optimize-
+/out:obj\Debug\Microsoft.Azure.PowerShell.Aks.Management.Sdk.dll
+/target:library
+/warnaserror+
+/utf8output
+/deterministic+
+/langversion:7.3
+/warnaserror-:NU1901,NU1902,NU1903,NU1904
+
+[sourceFiles]
+../../shared/ConfigKeys.cs
+Generated/
+ AgentPoolsOperations.cs
+ AgentPoolsOperationsExtensions.cs
+ ContainerServiceClient.cs
+ IAgentPoolsOperations.cs
+ IContainerServiceClient.cs
+ IMachinesOperations.cs
+ IMaintenanceConfigurationsOperations.cs
+ IManagedClustersOperations.cs
+ IOperations.cs
+ IPrivateEndpointConnectionsOperations.cs
+ IPrivateLinkResourcesOperations.cs
+ IResolvePrivateLinkServiceIdOperations.cs
+ ISnapshotsOperations.cs
+ ITrustedAccessRoleBindingsOperations.cs
+ ITrustedAccessRolesOperations.cs
+ MachinesOperations.cs
+ MachinesOperationsExtensions.cs
+ MaintenanceConfigurationsOperations.cs
+ MaintenanceConfigurationsOperationsExtensions.cs
+ ManagedClustersOperations.cs
+ ManagedClustersOperationsExtensions.cs
+ Models/
+  AbsoluteMonthlySchedule.cs
+  AccessProfile.cs
+  AdvancedNetworking.cs
+  AdvancedNetworkingObservability.cs
+  AdvancedNetworkingSecurity.cs
+  AdvancedNetworkPolicies.cs
+  AgentPool.cs
+  AgentPoolAvailableVersions.cs
+  AgentPoolAvailableVersionsProperties.cs
+  AgentPoolAvailableVersionsPropertiesAgentPoolVersionsItem.cs
+  AgentPoolDeleteMachinesParameter.cs
+  AgentPoolGatewayProfile.cs
+  AgentPoolMode.cs
+  AgentPoolNetworkProfile.cs
+  AgentPoolsAbortLatestOperationHeaders.cs
+  AgentPoolsDeleteHeaders.cs
+  AgentPoolsDeleteMachinesHeaders.cs
+  AgentPoolSecurityProfile.cs
+  AgentPoolSSHAccess.cs
+  AgentPoolStatus.cs
+  AgentPoolsUpgradeNodeImageVersionHeaders.cs
+  AgentPoolType.cs
+  AgentPoolUpgradeProfile.cs
+  AgentPoolUpgradeProfileProperties.cs
+  AgentPoolUpgradeProfilePropertiesUpgradesItem.cs
+  AgentPoolUpgradeSettings.cs
+  AgentPoolWindowsProfile.cs
+  ArtifactSource.cs
+  AzureKeyVaultKms.cs
+  BackendPoolType.cs
+  ClusterUpgradeSettings.cs
+  Code.cs
+  CommandResultProperties.cs
+  CompatibleVersions.cs
+  ConnectionStatus.cs
+  ContainerServiceLinuxProfile.cs
+  ContainerServiceNetworkProfile.cs
+  ContainerServiceSshConfiguration.cs
+  ContainerServiceSshPublicKey.cs
+  CreatedByType.cs
+  CreationData.cs
+  CredentialResult.cs
+  CredentialResults.cs
+  DailySchedule.cs
+  DateSpan.cs
+  DelegatedResource.cs
+  EndpointDependency.cs
+  EndpointDetail.cs
+  ErrorAdditionalInfo.cs
+  ErrorDetail.cs
+  ErrorResponse.cs
+  ErrorResponseException.cs
+  Expander.cs
+  ExtendedLocation.cs
+  ExtendedLocationTypes.cs
+  Format.cs
+  GPUDriver.cs
+  GPUInstanceProfile.cs
+  GPUProfile.cs
+  IpFamily.cs
+  IPTag.cs
+  IstioCertificateAuthority.cs
+  IstioComponents.cs
+  IstioEgressGateway.cs
+  IstioIngressGateway.cs
+  IstioIngressGatewayMode.cs
+  IstioPluginCertificateAuthority.cs
+  IstioServiceMesh.cs
+  KeyVaultNetworkAccessTypes.cs
+  KubeletConfig.cs
+  KubeletDiskType.cs
+  KubernetesPatchVersion.cs
+  KubernetesSupportPlan.cs
+  KubernetesVersion.cs
+  KubernetesVersionCapabilities.cs
+  KubernetesVersionListResult.cs
+  LicenseType.cs
+  LinuxOSConfig.cs
+  LoadBalancerSku.cs
+  Machine.cs
+  MachineIpAddress.cs
+  MachineNetworkProperties.cs
+  MachineProperties.cs
+  MaintenanceConfiguration.cs
+  MaintenanceConfigurationProperties.cs
+  MaintenanceWindow.cs
+  ManagedCluster.cs
+  ManagedClusterAADProfile.cs
+  ManagedClusterAccessProfile.cs
+  ManagedClusterAddonProfile.cs
+  ManagedClusterAddonProfileIdentity.cs
+  ManagedClusterAgentPoolProfile.cs
+  ManagedClusterAgentPoolProfileProperties.cs
+  ManagedClusterAIToolchainOperatorProfile.cs
+  ManagedClusterAPIServerAccessProfile.cs
+  ManagedClusterAutoUpgradeProfile.cs
+  ManagedClusterAzureMonitorProfile.cs
+  ManagedClusterAzureMonitorProfileKubeStateMetrics.cs
+  ManagedClusterAzureMonitorProfileMetrics.cs
+  ManagedClusterBootstrapProfile.cs
+  ManagedClusterCostAnalysis.cs
+  ManagedClusterHTTPProxyConfig.cs
+  ManagedClusterIdentity.cs
+  ManagedClusterIngressProfile.cs
+  ManagedClusterIngressProfileNginx.cs
+  ManagedClusterIngressProfileWebAppRouting.cs
+  ManagedClusterLoadBalancerProfile.cs
+  ManagedClusterLoadBalancerProfileManagedOutboundIPs.cs
+  ManagedClusterLoadBalancerProfileOutboundIPPrefixes.cs
+  ManagedClusterLoadBalancerProfileOutboundIPs.cs
+  ManagedClusterManagedOutboundIPProfile.cs
+  ManagedClusterMetricsProfile.cs
+  ManagedClusterNATGatewayProfile.cs
+  ManagedClusterNodeProvisioningProfile.cs
+  ManagedClusterNodeResourceGroupProfile.cs
+  ManagedClusterOIDCIssuerProfile.cs
+  ManagedClusterPodIdentity.cs
+  ManagedClusterPodIdentityException.cs
+  ManagedClusterPodIdentityProfile.cs
+  ManagedClusterPodIdentityProvisioningError.cs
+  ManagedClusterPodIdentityProvisioningErrorBody.cs
+  ManagedClusterPodIdentityProvisioningInfo.cs
+  ManagedClusterPodIdentityProvisioningState.cs
+  ManagedClusterPoolUpgradeProfile.cs
+  ManagedClusterPoolUpgradeProfileUpgradesItem.cs
+  ManagedClusterProperties.cs
+  ManagedClusterPropertiesAutoScalerProfile.cs
+  ManagedClustersAbortLatestOperationHeaders.cs
+  ManagedClustersDeleteHeaders.cs
+  ManagedClusterSecurityProfile.cs
+  ManagedClusterSecurityProfileDefender.cs
+  ManagedClusterSecurityProfileDefenderSecurityMonitoring.cs
+  ManagedClusterSecurityProfileImageCleaner.cs
+  ManagedClusterSecurityProfileWorkloadIdentity.cs
+  ManagedClusterServicePrincipalProfile.cs
+  ManagedClustersGetCommandResultHeaders.cs
+  ManagedClusterSKU.cs
+  ManagedClusterSKUName.cs
+  ManagedClusterSKUTier.cs
+  ManagedClustersResetAADProfileHeaders.cs
+  ManagedClustersResetServicePrincipalProfileHeaders.cs
+  ManagedClustersRotateClusterCertificatesHeaders.cs
+  ManagedClustersRotateServiceAccountSigningKeysHeaders.cs
+  ManagedClustersRunCommandHeaders.cs
+  ManagedClustersStartHeaders.cs
+  ManagedClustersStopHeaders.cs
+  ManagedClusterStaticEgressGatewayProfile.cs
+  ManagedClusterStatus.cs
+  ManagedClusterStorageProfile.cs
+  ManagedClusterStorageProfileBlobCSIDriver.cs
+  ManagedClusterStorageProfileDiskCSIDriver.cs
+  ManagedClusterStorageProfileFileCSIDriver.cs
+  ManagedClusterStorageProfileSnapshotController.cs
+  ManagedClusterUpgradeProfile.cs
+  ManagedClusterUpgradeProfileProperties.cs
+  ManagedClusterWindowsProfile.cs
+  ManagedClusterWorkloadAutoScalerProfile.cs
+  ManagedClusterWorkloadAutoScalerProfileKeda.cs
+  ManagedClusterWorkloadAutoScalerProfileVerticalPodAutoscaler.cs
+  ManagedServiceIdentityUserAssignedIdentitiesValue.cs
+  ManualScaleProfile.cs
+  MeshRevision.cs
+  MeshRevisionProfile.cs
+  MeshRevisionProfileProperties.cs
+  MeshUpgradeProfile.cs
+  MeshUpgradeProfileProperties.cs
+  NetworkDataplane.cs
+  NetworkMode.cs
+  NetworkPlugin.cs
+  NetworkPluginMode.cs
+  NetworkPolicy.cs
+  NginxIngressControllerType.cs
+  NodeOSUpgradeChannel.cs
+  NodeProvisioningDefaultNodePools.cs
+  NodeProvisioningMode.cs
+  OperationValue.cs
+  OperationValueDisplay.cs
+  OSDiskType.cs
+  OSSKU.cs
+  OSType.cs
+  OutboundEnvironmentEndpoint.cs
+  OutboundType.cs
+  Page.cs
+  Page1.cs
+  PodIPAllocationMode.cs
+  PortRange.cs
+  PowerState.cs
+  PrivateEndpoint.cs
+  PrivateEndpointConnection.cs
+  PrivateEndpointConnectionListResult.cs
+  PrivateEndpointConnectionProperties.cs
+  PrivateEndpointConnectionProvisioningState.cs
+  PrivateLinkResource.cs
+  PrivateLinkResourcesListResult.cs
+  PrivateLinkServiceConnectionState.cs
+  Protocol.cs
+  ProxyResource.cs
+  PublicNetworkAccess.cs
+  RelativeMonthlySchedule.cs
+  Resource.cs
+  ResourceIdentityType.cs
+  ResourceReference.cs
+  RestrictionLevel.cs
+  RunCommandRequest.cs
+  RunCommandResult.cs
+  ScaleDownMode.cs
+  ScaleProfile.cs
+  ScaleSetEvictionPolicy.cs
+  ScaleSetPriority.cs
+  Schedule.cs
+  ServiceMeshMode.cs
+  ServiceMeshProfile.cs
+  Snapshot.cs
+  SnapshotProperties.cs
+  SnapshotType.cs
+  SubResource.cs
+  SysctlConfig.cs
+  SystemData.cs
+  TagsObject.cs
+  TimeInWeek.cs
+  TimeSpan.cs
+  TrackedResource.cs
+  TrustedAccessRole.cs
+  TrustedAccessRoleBinding.cs
+  TrustedAccessRoleBindingProperties.cs
+  TrustedAccessRoleBindingProvisioningState.cs
+  TrustedAccessRoleBindingsDeleteHeaders.cs
+  TrustedAccessRoleRule.cs
+  Type.cs
+  UndrainableNodeBehavior.cs
+  UpgradeChannel.cs
+  UpgradeOverrideSettings.cs
+  UserAssignedIdentity.cs
+  VirtualMachineNodes.cs
+  VirtualMachinesProfile.cs
+  WeekDay.cs
+  WeeklySchedule.cs
+  WindowsGmsaProfile.cs
+  WorkloadRuntime.cs
+ Operations.cs
+ OperationsExtensions.cs
+ PrivateEndpointConnectionsOperations.cs
+ PrivateEndpointConnectionsOperationsExtensions.cs
+ PrivateLinkResourcesOperations.cs
+ PrivateLinkResourcesOperationsExtensions.cs
+ ResolvePrivateLinkServiceIdOperations.cs
+ ResolvePrivateLinkServiceIdOperationsExtensions.cs
+ SnapshotsOperations.cs
+ SnapshotsOperationsExtensions.cs
+ TrustedAccessRoleBindingsOperations.cs
+ TrustedAccessRoleBindingsOperationsExtensions.cs
+ TrustedAccessRolesOperations.cs
+ TrustedAccessRolesOperationsExtensions.cs
+obj/Debug/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+Properties/AssemblyInfo.cs
+
+[analyzerConfigFiles]
+obj/Debug/Aks.Management.Sdk.GeneratedMSBuildEditorConfig.editorconfig
