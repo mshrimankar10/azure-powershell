@@ -19,6 +19,10 @@
 -->
 
 ## Upcoming Release
+* Fixed placeholder text in help examples for `New-AzFrontDoorCdnRuleEdgeActionObject`.
+
+## Version 6.0.2
+* Announced upcoming breaking changes for all `Az*CdnEdgeAction*` cmdlets, which will be removed in a future release.
 
 ## Version 6.0.1
 * Bug fix for https://github.com/Azure/azure-powershell/issues/29231

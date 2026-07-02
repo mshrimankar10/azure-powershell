@@ -49,24 +49,24 @@ function New-AzFrontDoorCdnSecretCustomerCertificateParametersObject {
     )
 
     process {
-        $Object = [Microsoft.Azure.PowerShell.Cmdlets.Cdn.Models.CustomerCertificateParameters]::New()
+        $ObjectProperties = @{}
 
         if ($PSBoundParameters.ContainsKey('SecretSourceId')) {
-            $Object.SecretSourceId = $SecretSourceId
+            $ObjectProperties.SecretSourceId = $SecretSourceId
         }
         if ($PSBoundParameters.ContainsKey('SecretVersion')) {
-            $Object.SecretVersion = $SecretVersion
+            $ObjectProperties.SecretVersion = $SecretVersion
         }
         if ($PSBoundParameters.ContainsKey('SubjectAlternativeName')) {
-            $Object.SubjectAlternativeName = $SubjectAlternativeName
+            $ObjectProperties.SubjectAlternativeName = $SubjectAlternativeName
         }
         if ($PSBoundParameters.ContainsKey('UseLatestVersion')) {
-            $Object.UseLatestVersion = $UseLatestVersion
+            $ObjectProperties.UseLatestVersion = $UseLatestVersion
         }
         if ($PSBoundParameters.ContainsKey('Type')) {
-            $Object.Type = $Type
+            $ObjectProperties.Type = $Type
         }
-        return $Object
+        return [Microsoft.Azure.PowerShell.Cmdlets.Cdn.Models.CustomerCertificateParameters]::DeserializeFromDictionary($ObjectProperties)
     }
 }
 

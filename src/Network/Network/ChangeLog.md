@@ -31,6 +31,15 @@
 * Added `Get-AzExpressRouteLagMember` cmdlet to retrieve ExpressRouteLag link members
 * Added `New-AzExpressRouteLagLOA` cmdlet to generate a Letter of Authorization for an ExpressRouteLag
 
+## Version 8.0.0
+* Added ChangeSafety Support
+* Changed `UserAssignedIdentityId` type to string[]
+
+## Version 7.27.0
+* Added support to associate a DDoS custom policy with a Load Balancer frontend IP configuration.
+    - Added the `-DdosCustomPolicyId` parameter to `New-AzLoadBalancerFrontendIpConfig`, `Add-AzLoadBalancerFrontendIpConfig`, and `Set-AzLoadBalancerFrontendIpConfig`.
+    - Added the `-RemoveDdosCustomPolicy` switch to `Set-AzLoadBalancerFrontendIpConfig`.
+
 ## Version 7.26.0
 * Onboarded `Microsoft.KubernetesConfiguration/privateLinkScopes` to Private Link Common Cmdlets
 * Added EdgeZone (Extended Location) parameter support for Azure Firewall

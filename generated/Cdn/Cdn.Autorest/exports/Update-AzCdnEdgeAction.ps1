@@ -20,11 +20,7 @@ Update EdgeAction resource
 .Description
 Update EdgeAction resource
 .Example
-$tags = @{"Environment" = "Staging"; "Owner" = "Team2"}
-Update-AzCdnEdgeAction -ResourceGroupName testps-rg-da16jm -Name edgeaction001 -Tag $tags
-.Example
-$jsonString = '{"tags":{"Environment":"Development","Team":"DevOps"}}'
-Update-AzCdnEdgeAction -ResourceGroupName testps-rg-da16jm -Name edgeaction001 -JsonString $jsonString
+Update-AzCdnEdgeAction -ResourceGroupName testps-rg-da16jm -EdgeActionName edgeaction001 -Tag @{Environment="Staging"}
 
 .Outputs
 Microsoft.Azure.PowerShell.Cmdlets.Cdn.Models.IEdgeAction
@@ -162,8 +158,7 @@ begin {
 
         $context = Get-AzContext
         if (-not $context -and -not $testPlayback) {
-            Write-Error "No Azure login detected. Please run 'Connect-AzAccount' to log in."
-            exit
+            throw "No Azure login detected. Please run 'Connect-AzAccount' to log in."
         }
 
         if ($null -eq [Microsoft.WindowsAzure.Commands.Utilities.Common.AzurePSCmdlet]::PowerShellVersion) {
@@ -184,9 +179,9 @@ begin {
         }
 
         $mapping = @{
-            UpdateExpanded = 'Az.Cdn.private\Update-AzCdnEdgeAction_UpdateExpanded';
-            UpdateViaJsonFilePath = 'Az.Cdn.private\Update-AzCdnEdgeAction_UpdateViaJsonFilePath';
-            UpdateViaJsonString = 'Az.Cdn.private\Update-AzCdnEdgeAction_UpdateViaJsonString';
+            UpdateExpanded = 'Az.Cdn.custom\Update-AzCdnEdgeAction';
+            UpdateViaJsonFilePath = 'Az.Cdn.custom\Update-AzCdnEdgeAction';
+            UpdateViaJsonString = 'Az.Cdn.custom\Update-AzCdnEdgeAction';
         }
         if (('UpdateExpanded', 'UpdateViaJsonFilePath', 'UpdateViaJsonString') -contains $parameterSet -and -not $PSBoundParameters.ContainsKey('SubscriptionId') ) {
             if ($testPlayback) {

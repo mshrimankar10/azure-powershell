@@ -20,7 +20,7 @@ Delete EdgeActionExecutionFilter resource
 .Description
 Delete EdgeActionExecutionFilter resource
 .Example
-Remove-AzCdnEdgeActionExecutionFilter -ResourceGroupName "testps-rg-da16jm" -EdgeActionName "edgeaction001" -ExecutionFilter "filter001"
+Remove-AzCdnEdgeActionExecutionFilter -ResourceGroupName testps-rg-da16jm -EdgeActionName edgeaction001 -ExecutionFilter filter001
 
 .Outputs
 System.Boolean
@@ -138,8 +138,7 @@ begin {
 
         $context = Get-AzContext
         if (-not $context -and -not $testPlayback) {
-            Write-Error "No Azure login detected. Please run 'Connect-AzAccount' to log in."
-            exit
+            throw "No Azure login detected. Please run 'Connect-AzAccount' to log in."
         }
 
         if ($null -eq [Microsoft.WindowsAzure.Commands.Utilities.Common.AzurePSCmdlet]::PowerShellVersion) {
@@ -160,7 +159,7 @@ begin {
         }
 
         $mapping = @{
-            Delete = 'Az.Cdn.private\Remove-AzCdnEdgeActionExecutionFilter_Delete';
+            Delete = 'Az.Cdn.custom\Remove-AzCdnEdgeActionExecutionFilter';
         }
         if (('Delete') -contains $parameterSet -and -not $PSBoundParameters.ContainsKey('SubscriptionId') ) {
             if ($testPlayback) {

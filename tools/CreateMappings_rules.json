@@ -561,10 +561,6 @@
     "alias": "Portal"
   },
   {
-    "regex": "PostgreSql",
-    "alias": "Database for PostgreSQL"
-  },
-  {
     "module": "SqlVirtualMachine",
     "alias": "Sql VM"
   },
@@ -1019,5 +1015,21 @@
   {
     "module": "ServiceGroups",
     "alias": "ServiceGroups"
+  },
+  {
+    "module": "PlanetaryComputer",
+    "alias": "PlanetaryComputer"
+  },
+  {
+    "module": "Relationships",
+    "alias": "Relationships"
+  },
+  {
+    "module": "PostgreSqlFlexibleServer",
+    "alias": "PostgreSqlFlexibleServer"
+  },
+  {
+    "module": "Napster",
+    "alias": "Napster"
   }
 ]

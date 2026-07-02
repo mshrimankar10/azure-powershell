@@ -34,6 +34,7 @@ To create the parameters described below, construct a hash table containing the 
 
 LOGSCRUBBINGRULE <IProfileScrubbingRules[]>: List of log scrubbing rules applied to the Azure Front Door profile logs.
   MatchVariable <String>: The variable to be scrubbed from the logs.
+  SelectorMatchOperator <String>: When matchVariable is a collection, operate on the selector to specify which elements in the collection this rule applies to.
   [Selector <String>]: When matchVariable is a collection, operator used to specify which elements in the collection this rule applies to.
   [State <String>]: Defines the state of a log scrubbing rule. Default value is enabled.
 .Link
@@ -209,8 +210,7 @@ begin {
 
         $context = Get-AzContext
         if (-not $context -and -not $testPlayback) {
-            Write-Error "No Azure login detected. Please run 'Connect-AzAccount' to log in."
-            exit
+            throw "No Azure login detected. Please run 'Connect-AzAccount' to log in."
         }
 
         if ($null -eq [Microsoft.WindowsAzure.Commands.Utilities.Common.AzurePSCmdlet]::PowerShellVersion) {
